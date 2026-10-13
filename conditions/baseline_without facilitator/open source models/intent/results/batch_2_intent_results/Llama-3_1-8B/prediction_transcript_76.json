@@ -1,0 +1,85 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 76,
+    "utterances": [
+        {
+            "text": "I just moved to Nashville and look who came to visit me. She said that I'm going to starve to death down here if I don't learn how to cook. So today we're going to learn how to fix cornbread. What's the most important step?",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Follow the directions.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "The directions?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yeah, you can read, can't you?",
+            "golden": "criticize",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well yeah, I can read, man. Got our egg and our milk. Let's take a big old sip of that egg, girl.",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "When you break an egg, if it's a farm fresh egg, you always want to break it in a cup because if you don't, it could be bad because hens don't know to get off of them. They think they're their babies. I got some. There's your pro chicken tip there, young man Roberts.",
+            "golden": "advise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Now, wait a second. I saw this chef online say that the secret to the best Nashville cornbread is a big spoonful of white sugar in the batter. Let's get that in there.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Put that spoon down. We are not making cake, we are making cornbread. If you put sugar in that bowl, I am walking out of this kitchen right now and you can starve in peace.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "But Grandma, it balances the salt! It's the new way of doing it for the vlog.",
+            "golden": "oppose",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "I don't care about a 'vlog.' I care about your soul. We are going to sit here and stare at this batter until you realize that sugar has no business in a skillet. I'm waiting. You want to cook, or you want to play?",
+            "golden": "criticize",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "All right, I got my batter in here. Now I'm going to put some pepper in here. What do you think? How do you think it's going to taste, man?",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Mm, good. Okay. Mm, here, try that.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, oh, that's good. I don't think I'm going to be starving now.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

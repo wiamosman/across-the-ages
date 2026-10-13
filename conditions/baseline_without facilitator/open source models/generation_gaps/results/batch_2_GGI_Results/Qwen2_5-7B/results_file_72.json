@@ -1,0 +1,95 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 72,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Okay, pull the pin.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Okay, pull the pin.",
+            "target": "Target (granddaughter): Pull the pin?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Okay, pull the pin. | Speaker B (granddaughter): Pull the pin?",
+            "target": "Target (grandmother): This one. Okay. Pull the pin. Do it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Pull the pin? | Speaker B (grandmother): This one. Okay. Pull the pin. Do it.",
+            "target": "Target (granddaughter): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): This one. Okay. Pull the pin. Do it. | Speaker B (granddaughter): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+            "target": "Target (grandmother): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way. | Speaker B (grandmother): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+            "target": "Target (granddaughter): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race. | Speaker B (granddaughter): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+            "target": "Target (grandmother): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway. | Speaker B (grandmother): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+            "target": "Target (granddaughter): Here we go. Here we go.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all. | Speaker B (granddaughter): Here we go. Here we go.",
+            "target": "Target (grandmother): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Here we go. Here we go. | Speaker B (grandmother): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+            "target": "Target (granddaughter): Oops. Okay, let go of it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit. | Speaker B (granddaughter): Oops. Okay, let go of it.",
+            "target": "Target (grandmother): Okay!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

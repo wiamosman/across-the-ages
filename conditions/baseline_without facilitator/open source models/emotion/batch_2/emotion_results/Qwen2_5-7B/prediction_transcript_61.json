@@ -1,0 +1,73 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 61,
+    "utterances": [
+        {
+            "text": "Julian, how do you shower?",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "What does that mean? I usually just check the app to see if the temp is right, go in, and then I shut it off when the timer pings and I exit.",
+            "golden": "neutral",
+            "predicted": "surprise",
+            "raw": "surprise"
+        },
+        {
+            "text": "An app? For a shower? Why on earth do you need a telephone to get wet, Julian? In my day, you used your hand to feel the water, not a computer screen.",
+            "golden": "surprise",
+            "predicted": "disgust",
+            "raw": "disgust"
+        },
+        {
+            "text": "It’s just a smart home thing, Grandpa. It saves me from standing there waiting. It’s more efficient.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "It’s not efficient, it’s lazy! You're letting a machine tell you when you're clean. Now listen to me. What step do you take to take a shower?",
+            "golden": "frustrated",
+            "predicted": "angry",
+            "raw": "angry"
+        },
+        {
+            "text": "I turn the water on, and once it gets warm, I go in.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Okay, you don't have the right answer. I'm going to tell you the right answer. You go in, open a little bit hot water, and then open the cold water if it's separate so you don't burn yourself, and then You wet your body and then close the water and you soap. Soap your body, open the water again, rinse it, and then close the water again. That's the way to take a shower. Not the way you do. You go there, open full blast, you keep soaping, the water keeps running. That's a waste of water. You save at least half the amount of water.",
+            "golden": "neutral",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "And what's the point of all that? To save the water?",
+            "golden": "neutral",
+            "predicted": "angry",
+            "raw": "angry"
+        },
+        {
+            "text": "The point is that that's right. If everybody saves 10 gallons, at the end of the month it's millions of gallons.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "OH OK!",
+            "golden": "excited",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "But the trouble, you guys, you're not used to save. You're used to spend. That's the problem. And that's how you take a shower. Not by wasting water.",
+            "golden": "neutral",
+            "predicted": "disgust",
+            "raw": "disgust"
+        }
+    ]
+}

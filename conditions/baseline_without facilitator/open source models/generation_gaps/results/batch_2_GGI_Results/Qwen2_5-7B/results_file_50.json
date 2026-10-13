@@ -1,0 +1,159 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 50,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Against the bone. See, just a little bit. Don't try cutting all the way in here. Just against the backbone, going against the backbone all the way down where the fin is.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Against the bone. See, just a little bit. Don't try cutting all the way in here. Just against the backbone, going against the backbone all the way down where the fin is.",
+            "target": "Target (granddaughter): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Against the bone. See, just a little bit. Don't try cutting all the way in here. Just against the backbone, going against the backbone all the way down where the fin is. | Speaker B (granddaughter): Mm-hmm.",
+            "target": "Target (grandmother): You're on the other side of the fin. And just take the tip and follow the bone back all the way down, down here. See?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Mm-hmm. | Speaker B (grandmother): You're on the other side of the fin. And just take the tip and follow the bone back all the way down, down here. See?",
+            "target": "Target (granddaughter): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): You're on the other side of the fin. And just take the tip and follow the bone back all the way down, down here. See? | Speaker B (granddaughter): Mm-hmm.",
+            "target": "Target (grandmother): On the side of the fin, and then when you get down here past that, go down through it. Okay?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Mm-hmm. | Speaker B (grandmother): On the side of the fin, and then when you get down here past that, go down through it. Okay?",
+            "target": "Target (granddaughter): Wait, Grandma, stop. I saw a video where they start from the tail and zip it upward. It's supposed to be way faster and cleaner. Can we try it that way?",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): On the side of the fin, and then when you get down here past that, go down through it. Okay? | Speaker B (granddaughter): Wait, Grandma, stop. I saw a video where they start from the tail and zip it upward. It's supposed to be way faster and cleaner. Can we try it that way?",
+            "target": "Target (grandmother): The tail? No, that’s nonsense. You’ll hack the meat to pieces. We’ve always started at the head. Those videos don't know our fish.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Wait, Grandma, stop. I saw a video where they start from the tail and zip it upward. It's supposed to be way faster and cleaner. Can we try it that way? | Speaker B (grandmother): The tail? No, that’s nonsense. You’ll hack the meat to pieces. We’ve always started at the head. Those videos don't know our fish.",
+            "target": "Target (granddaughter): But it has millions of views! It looked so much easier than this.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): The tail? No, that’s nonsense. You’ll hack the meat to pieces. We’ve always started at the head. Those videos don't know our fish. | Speaker B (granddaughter): But it has millions of views! It looked so much easier than this.",
+            "target": "Target (grandmother): Well, those millions of people aren't in this kitchen. Put that phone away and watch the backbone. Okay?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): But it has millions of views! It looked so much easier than this. | Speaker B (grandmother): Well, those millions of people aren't in this kitchen. Put that phone away and watch the backbone. Okay?",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Well, those millions of people aren't in this kitchen. Put that phone away and watch the backbone. Okay? | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): I'm gonna go this way. Just take half and half. Cut through that. Then you start filleting it off. So you see all the meat?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): I'm gonna go this way. Just take half and half. Cut through that. Then you start filleting it off. So you see all the meat?",
+            "target": "Target (granddaughter): We're gonna see what's— we're gonna see what's in the stomach. Yeah, they don't have much blood.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): I'm gonna go this way. Just take half and half. Cut through that. Then you start filleting it off. So you see all the meat? | Speaker B (granddaughter): We're gonna see what's— we're gonna see what's in the stomach. Yeah, they don't have much blood.",
+            "target": "Target (grandmother): And you just follow the knife against the bone. You see this? Yes. It looks easy. Just follow the bone. If you have a little skinny knife like this.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): We're gonna see what's— we're gonna see what's in the stomach. Yeah, they don't have much blood. | Speaker B (grandmother): And you just follow the knife against the bone. You see this? Yes. It looks easy. Just follow the bone. If you have a little skinny knife like this.",
+            "target": "Target (granddaughter): Ew! Yeah. I can touch it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): And you just follow the knife against the bone. You see this? Yes. It looks easy. Just follow the bone. If you have a little skinny knife like this. | Speaker B (granddaughter): Ew! Yeah. I can touch it.",
+            "target": "Target (grandmother): When you fillet them off. Okay, now you have to flip it. Because you're going the opposite way. You start with the head and then you start this way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Ew! Yeah. I can touch it. | Speaker B (grandmother): When you fillet them off. Okay, now you have to flip it. Because you're going the opposite way. You start with the head and then you start this way.",
+            "target": "Target (granddaughter): It's really easy to cut now.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): When you fillet them off. Okay, now you have to flip it. Because you're going the opposite way. You start with the head and then you start this way. | Speaker B (granddaughter): It's really easy to cut now.",
+            "target": "Target (grandmother): See, I'm just using like the tip of it, you see?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): It's really easy to cut now. | Speaker B (grandmother): See, I'm just using like the tip of it, you see?",
+            "target": "Target (granddaughter): I'm not going all the way through.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): See, I'm just using like the tip of it, you see? | Speaker B (granddaughter): I'm not going all the way through.",
+            "target": "Target (grandmother): Okay, I'm amazing.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

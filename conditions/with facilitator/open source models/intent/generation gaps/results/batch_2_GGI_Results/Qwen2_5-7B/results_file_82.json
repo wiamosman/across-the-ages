@@ -1,0 +1,143 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 82,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): I'm not sure I understand what you mean by 'shape of an L'. Could you explain it a bit more?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): I'm not sure I understand what you mean by 'shape of an L'. Could you explain it a bit more?",
+      "target": "Target (granddaughter): Oh, it's just a line from a song. It means someone is losing or failing at something.",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): I'm not sure I understand what you mean by 'shape of an L'. Could you explain it a bit more? | Speaker B (granddaughter): Oh, it's just a line from a song. It means someone is losing or failing at something.",
+      "target": "Target (grandfather): Oh, I'm sorry to hear that. Maybe we can find something more interesting to do together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): Oh, it's just a line from a song. It means someone is losing or failing at something. | Speaker B (grandfather): Oh, I'm sorry to hear that. Maybe we can find something more interesting to do together.",
+      "target": "Target (granddaughter): That sounds great! What do you have in mind?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Oh, I'm sorry to hear that. Maybe we can find something more interesting to do together. | Speaker B (granddaughter): That sounds great! What do you have in mind?",
+      "target": "Target (grandfather): Sure, we can try playing on the iPad. It might be more fun and faster for you.",
+      "gold_label": "none",
+      "predicted_label": "digital disparity",
+      "raw": "digital disparity"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): That sounds great! What do you have in mind? | Speaker B (grandfather): Sure, we can try playing on the iPad. It might be more fun and faster for you.",
+      "target": "Target (granddaughter): Playing on the iPad sounds fun! Let's do it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Sure, we can try playing on the iPad. It might be more fun and faster for you. | Speaker B (granddaughter): Playing on the iPad sounds fun! Let's do it.",
+      "target": "Target (grandfather): That's okay, you can play the way you like. Let's see how it goes with your move.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): Playing on the iPad sounds fun! Let's do it. | Speaker B (grandfather): That's okay, you can play the way you like. Let's see how it goes with your move.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'll give it a try and see how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): That's okay, you can play the way you like. Let's see how it goes with your move. | Speaker B (granddaughter): Thanks, Grandpa! I'll give it a try and see how it goes.",
+      "target": "Target (grandfather): That's called a rook. It's a powerful piece in the game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll give it a try and see how it goes. | Speaker B (grandfather): That's called a rook. It's a powerful piece in the game.",
+      "target": "Target (granddaughter): Oh, I see! So the rook can move in straight lines, right?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): That's called a rook. It's a powerful piece in the game. | Speaker B (granddaughter): Oh, I see! So the rook can move in straight lines, right?",
+      "target": "Target (grandfather): The rook moves in straight lines, either horizontally or vertically, across the board. It's quite versatile.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): Oh, I see! So the rook can move in straight lines, right? | Speaker B (grandfather): The rook moves in straight lines, either horizontally or vertically, across the board. It's quite versatile.",
+      "target": "Target (granddaughter): Got it! Thanks for explaining, Grandpa. I'll try to remember that.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): The rook moves in straight lines, either horizontally or vertically, across the board. It's quite versatile. | Speaker B (granddaughter): Got it! Thanks for explaining, Grandpa. I'll try to remember that.",
+      "target": "Target (grandfather): Well, the rook's ability to move in straight lines makes it a strong piece for controlling the board and attacking other pieces.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): Got it! Thanks for explaining, Grandpa. I'll try to remember that. | Speaker B (grandfather): Well, the rook's ability to move in straight lines makes it a strong piece for controlling the board and attacking other pieces.",
+      "target": "Target (granddaughter): That makes sense! I'll try to use the rook more strategically in my next game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Well, the rook's ability to move in straight lines makes it a strong piece for controlling the board and attacking other pieces. | Speaker B (granddaughter): That makes sense! I'll try to use the rook more strategically in my next game.",
+      "target": "Target (grandfather): The rook's straight-line movement allows it to cover a lot of ground quickly, making it effective for both offense and defense.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how's your day going?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how's your day going?",
+    "target": "Speaker A (grandfather) (Target): That's wonderful! I'm glad you're enjoying playing the violin.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how's your day going?\nSpeaker B (grandfather): That's wonderful! I'm glad you're enjoying playing the violin.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I've been practicing a lot lately.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): That's wonderful! I'm glad you're enjoying playing the violin.\nSpeaker B (grandson): Thanks, Grandpa! I've been practicing a lot lately.",
+    "target": "Speaker A (grandfather) (Target): Do you have a favorite piece you like to play?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I've been practicing a lot lately.\nSpeaker B (grandfather): Do you have a favorite piece you like to play?",
+    "target": "Speaker A (grandson) (Target): I really enjoy playing Vivaldi's 'Four Seasons'. It's challenging but so rewarding!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Do you have a favorite piece you like to play?\nSpeaker B (grandson): I really enjoy playing Vivaldi's 'Four Seasons'. It's challenging but so rewarding!",
+    "target": "Speaker A (grandfather) (Target): That's okay, learning takes time. I'm sure you'll get the hang of it soon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): I really enjoy playing Vivaldi's 'Four Seasons'. It's challenging but so rewarding!\nSpeaker B (grandfather): That's okay, learning takes time. I'm sure you'll get the hang of it soon.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate your support.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): That's okay, learning takes time. I'm sure you'll get the hang of it soon.\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate your support.",
+    "target": "Speaker A (grandfather) (Target): I'm proud of you for sticking with it. Keep practicing and you'll improve.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support.\nSpeaker B (grandfather): I'm proud of you for sticking with it. Keep practicing and you'll improve.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep practicing and make you proud.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): I'm proud of you for sticking with it. Keep practicing and you'll improve.\nSpeaker B (grandson): Thanks, Grandpa! I'll keep practicing and make you proud.",
+    "target": "Speaker A (grandfather) (Target): If you ever need help with the notes, just let me know. I'm here to support you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's statement is a backchannel response and does not interrupt the"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing and make you proud.\nSpeaker B (grandfather): If you ever need help with the notes, just let me know. I'm here to support you.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll definitely reach out if I need help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): If you ever need help with the notes, just let me know. I'm here to support you.\nSpeaker B (grandson): Thanks, Grandpa! I'll definitely reach out if I need help.",
+    "target": "Speaker A (grandfather) (Target): Maybe we can adjust the volume or find a quieter place to practice. Let me know if you need any help with that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely reach out if I need help.\nSpeaker B (grandfather): Maybe we can adjust the volume or find a quieter place to practice. Let me know if you need any help with that.",
+    "target": "Speaker A (grandson) (Target): That's a good idea, Grandpa. I'll try to find a quieter spot next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Maybe we can adjust the volume or find a quieter place to practice. Let me know if you need any help with that.\nSpeaker B (grandson): That's a good idea, Grandpa. I'll try to find a quieter spot next time.",
+    "target": "Speaker A (grandfather) (Target): I'm glad you're open to trying different things. It's all part of the learning process.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): That's a good idea, Grandpa. I'll try to find a quieter spot next time.\nSpeaker B (grandfather): I'm glad you're open to trying different things. It's all part of the learning process.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa. I appreciate your support and advice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): I'm glad you're open to trying different things. It's all part of the learning process.\nSpeaker B (grandson): Thanks, Grandpa. I appreciate your support and advice.",
+    "target": "Speaker A (grandfather) (Target): Yes, that's right. You're getting the hang of it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): Thanks, Grandpa. I appreciate your support and advice.\nSpeaker B (grandfather): Yes, that's right. You're getting the hang of it!",
+    "target": "Speaker A (grandson) (Target): I'm really trying my best to improve. Your encouragement means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandfather): Yes, that's right. You're getting the hang of it!\nSpeaker B (grandson): I'm really trying my best to improve. Your encouragement means a lot to me.",
+    "target": "Speaker A (grandfather) (Target): Yes, you can play a G chord without pressing any strings. It's called an open chord.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A completes his thought before Speaker B finishes"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): I'm really trying my best to improve. Your encouragement means a lot to me.\nSpeaker B (grandfather): Yes, you can play a G chord without pressing any strings. It's called an open chord.",
+    "target": "Speaker A (grandson) (Target): Oh, I see! That makes it easier to play. Thanks for explaining, Grandpa.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel, acknowledging his"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandfather): Yes, you can play a G chord without pressing any strings. It's called an open chord.\nSpeaker A (grandson): Oh, I see! That makes it easier to play. Thanks for explaining, Grandpa.",
+    "target": "Speaker A (grandson) (Target): Do you have any other tips for playing the guitar?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the flow of the conversation as"
+  },
+  {
+    "index": 20,
+    "context": "Speaker B (grandson): Oh, I see! That makes it easier to play. Thanks for explaining, Grandpa.\nSpeaker B (grandson): Do you have any other tips for playing the guitar?",
+    "target": "Speaker A (grandfather) (Target): That's right, you're doing great! Keep practicing and you'll master it in no time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandson): Do you have any other tips for playing the guitar?\nSpeaker B (grandfather): That's right, you're doing great! Keep practicing and you'll master it in no time.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep practicing. Do you think I should try learning some songs too?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandfather): That's right, you're doing great! Keep practicing and you'll master it in no time.\nSpeaker B (grandson): Thanks, Grandpa! I'll keep practicing. Do you think I should try learning some songs too?",
+    "target": "Speaker A (grandfather) (Target): The G chord is played on the third string from the bottom. Try strumming it gently.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A (grandfather) is providing instructions to Speaker"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing. Do you think I should try learning some songs too?\nSpeaker B (grandfather): The G chord is played on the third string from the bottom. Try strumming it gently.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll give it a try. Do you have any favorite songs you think I should start with?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson's response is a natural turn-taking move"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandfather): The G chord is played on the third string from the bottom. Try strumming it gently.\nSpeaker B (grandson): Got it, I'll give it a try. Do you have any favorite songs you think I should start with?",
+    "target": "Speaker A (grandfather) (Target): You're getting the hang of it! Just keep practicing and you'll be playing like a pro soon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandson): Got it, I'll give it a try. Do you have any favorite songs you think I should start with?\nSpeaker B (grandfather): You're getting the hang of it! Just keep practicing and you'll be playing like a pro soon.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep practicing and maybe try some of those songs you like.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural backchannel and agreement with his grandfather's statement"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandfather): You're getting the hang of it! Just keep practicing and you'll be playing like a pro soon.\nSpeaker B (grandson): Thanks, Grandpa! I'll keep practicing and maybe try some of those songs you like.",
+    "target": "Speaker A (grandfather) (Target): Don't worry, everyone starts somewhere. You're doing just fine, and I'm proud of your progress.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing and maybe try some of those songs you like.\nSpeaker B (grandfather): Don't worry, everyone starts somewhere. You're doing just fine, and I'm proud of your progress.",
+    "target": "Speaker A (grandson) (Target): Thanks for the encouragement, Grandpa! I'll keep at it and let you know how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandfather): Don't worry, everyone starts somewhere. You're doing just fine, and I'm proud of your progress.\nSpeaker B (grandson): Thanks for the encouragement, Grandpa! I'll keep at it and let you know how it goes.",
+    "target": "Speaker A (grandfather) (Target): It's all part of the learning process. Keep at it, and you'll see improvement over time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandson): Thanks for the encouragement, Grandpa! I'll keep at it and let you know how it goes.\nSpeaker B (grandfather): It's all part of the learning process. Keep at it, and you'll see improvement over time.",
+    "target": "Speaker A (grandson) (Target): I will, Grandpa! Thanks for always being there for me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandfather): It's all part of the learning process. Keep at it, and you'll see improvement over time.\nSpeaker B (grandson): I will, Grandpa! Thanks for always being there for me.",
+    "target": "Speaker A (grandfather) (Target): That's the spirit! Counting the beats will help you keep time. You're doing great.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandson): I will, Grandpa! Thanks for always being there for me.\nSpeaker B (grandfather): That's the spirit! Counting the beats will help you keep time. You're doing great.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep practicing and focus on counting the beats.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandfather): That's the spirit! Counting the beats will help you keep time. You're doing great.\nSpeaker B (grandson): Thanks, Grandpa! I'll keep practicing and focus on counting the beats.",
+    "target": "Speaker A (grandfather) (Target): I'm glad to see you're sticking with it. Practice makes perfect, and I'm here to help whenever you need.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing and focus on counting the beats.\nSpeaker B (grandfather): I'm glad to see you're sticking with it. Practice makes perfect, and I'm here to help whenever you need.",
+    "target": "Speaker A (grandson) (Target): I really appreciate it, Grandpa. Your support means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural part of the conversation and does not interrupt or change the flow"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandfather): I'm glad to see you're sticking with it. Practice makes perfect, and I'm here to help whenever you need.\nSpeaker B (grandson): I really appreciate it, Grandpa. Your support means a lot to me.",
+    "target": "Speaker A (grandfather) (Target): It's great to see your dedication. Keep up the good work, and remember I'm always here if you need guidance.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandson): I really appreciate it, Grandpa. Your support means a lot to me.\nSpeaker B (grandfather): It's great to see your dedication. Keep up the good work, and remember I'm always here if you need guidance.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll definitely keep that in mind and let you know if I need any help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandfather): It's great to see your dedication. Keep up the good work, and remember I'm always here if you need guidance.\nSpeaker B (grandson): Thanks, Grandpa! I'll definitely keep that in mind and let you know if I need any help.",
+    "target": "Speaker A (grandfather) (Target): I'm really proud of how you're handling this. Keep it up!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely keep that in mind and let you know if I need any help.\nSpeaker B (grandfather): I'm really proud of how you're handling this. Keep it up!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! Your encouragement really boosts my confidence.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandfather): I'm really proud of how you're handling this. Keep it up!\nSpeaker B (grandson): Thanks, Grandpa! Your encouragement really boosts my confidence.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see what you're doing there with the half counts. You're really getting the hang of it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandson): Thanks, Grandpa! Your encouragement really boosts my confidence.\nSpeaker B (grandfather): Ah, I see what you're doing there with the half counts. You're really getting the hang of it!",
+    "target": "Speaker A (grandson) (Target): Thanks! I've been practicing a lot, and your tips have been super helpful and Tronco Tronco.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): Ah, I see what you're doing there with the half counts. You're really getting the hang of it!\nSpeaker B (grandson): Thanks! I've been practicing a lot, and your tips have been super helpful and Tronco Tronco.",
+    "target": "Speaker A (grandfather) (Target): Tronco Tronco? I'm not sure what that means. Could you explain it to me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's question is a response to the grandson's statement and does"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): Thanks! I've been practicing a lot, and your tips have been super helpful and Tronco Tronco.\nSpeaker B (grandfather): Tronco Tronco? I'm not sure what that means. Could you explain it to me?",
+    "target": "Speaker A (grandson) (Target): Oh, sorry! 'Tronco Tronco' is just a fun way to say something is really cool or awesome. It's kind of like saying 'super cool'!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker B (grandfather): Tronco Tronco? I'm not sure what that means. Could you explain it to me?\nSpeaker A (grandson): Oh, sorry! 'Tronco Tronco' is just a fun way to say something is really cool or awesome. It's kind of like saying 'super cool'!",
+    "target": "Speaker A (grandson) (Target): Grandpa when do i need Left-handed instrument?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the flow of the conversation as they were"
+  },
+  {
+    "index": 43,
+    "context": "Speaker B (grandson): Oh, sorry! 'Tronco Tronco' is just a fun way to say something is really cool or awesome. It's kind of like saying 'super cool'!\nSpeaker B (grandson): Grandpa when do i need Left-handed instrument?",
+    "target": "Speaker A (grandfather) (Target): That's a good question! Yes, typically you would need a left-handed instrument if you're playing left-handed. It can make a big difference in comfort and playability.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to the grandson's question and providing a clear answer, allowing the conversation to"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandson): Grandpa when do i need Left-handed instrument?\nSpeaker B (grandfather): That's a good question! Yes, typically you would need a left-handed instrument if you're playing left-handed. It can make a big difference in comfort and playability.",
+    "target": "Speaker A (grandson) (Target): Thanks for explaining that! I guess it's similar to how 'Tronco Tronco' is just a fun way to express excitement.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a backchannel and does not interrupt the flow of"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandfather): That's a good question! Yes, typically you would need a left-handed instrument if you're playing left-handed. It can make a big difference in comfort and playability.\nSpeaker B (grandson): Thanks for explaining that! I guess it's similar to how 'Tronco Tronco' is just a fun way to express excitement.",
+    "target": "Speaker A (grandfather) (Target): That's impressive! Being ambidextrous must be quite handy for playing instruments.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural backchannel agreement, acknowledging the grandson's"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): Thanks for explaining that! I guess it's similar to how 'Tronco Tronco' is just a fun way to express excitement.\nSpeaker B (grandfather): That's impressive! Being ambidextrous must be quite handy for playing instruments.",
+    "target": "Speaker A (grandson) (Target): Yeah, it definitely helps! I can switch between instruments without much hassle. so888",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandfather): That's impressive! Being ambidextrous must be quite handy for playing instruments.\nSpeaker B (grandson): Yeah, it definitely helps! I can switch between instruments without much hassle. so888",
+    "target": "Speaker A (grandfather) (Target): 8? I'm not sure what you mean by that. Could you clarify?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): Yeah, it definitely helps! I can switch between instruments without much hassle. so888\nSpeaker B (grandfather): 8? I'm not sure what you mean by that. Could you clarify?",
+    "target": "Speaker A (grandson) (Target): Oh, sorry! I meant to say 'great' but it got cut off. My bad!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson acknowledged his mistake and apologized for interrupting his grandfather, but"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandfather): 8? I'm not sure what you mean by that. Could you clarify?\nSpeaker B (grandson): Oh, sorry! I meant to say 'great' but it got cut off. My bad!",
+    "target": "Speaker A (grandfather) (Target): Learning to play an instrument can be challenging, but it's also very rewarding. Keep at it, and you'll see progress over time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to the grandson's apology and providing a relevant comment, which does not"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): Oh, sorry! I meant to say 'great' but it got cut off. My bad!\nSpeaker B (grandfather): Learning to play an instrument can be challenging, but it's also very rewarding. Keep at it, and you'll see progress over time.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm really enjoying it and trying to practice every day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural part of the conversation and does not interrupt the flow"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandfather): Learning to play an instrument can be challenging, but it's also very rewarding. Keep at it, and you'll see progress over time.\nSpeaker B (grandson): Thanks, Grandpa! I'm really enjoying it and trying to practice every day.",
+    "target": "Speaker A (grandfather) (Target): you see. Music scales can be tricky, but practicing them will definitely help you improve.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, acknowledging the"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm really enjoying it and trying to practice every day.\nSpeaker B (grandfather): you see. Music scales can be tricky, but practicing them will definitely help you improve.",
+    "target": "Speaker A (grandson) (Target): Yeah, I'm focusing on getting the scales right too. Do you have any tips for practicing them?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a backchannel agreement with his grandfather'"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandfather): you see. Music scales can be tricky, but practicing them will definitely help you improve.\nSpeaker B (grandson): Yeah, I'm focusing on getting the scales right too. Do you have any tips for practicing them?",
+    "target": "Speaker A (grandfather) (Target): I didn't mean to imply anything about your reach. You're doing great, and I'm sure your basketball skills help with playing the piano too.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel and does not interrupt the flow of the"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): Yeah, I'm focusing on getting the scales right too. Do you have any tips for practicing them?\nSpeaker B (grandfather): I didn't mean to imply anything about your reach. You're doing great, and I'm sure your basketball skills help with playing the piano too.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I guess having long fingers does help a bit. I'll keep practicing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural continuation of the conversation, acknowledging his grandfather's"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandfather): I didn't mean to imply anything about your reach. You're doing great, and I'm sure your basketball skills help with playing the piano too.\nSpeaker B (grandson): Thanks, Grandpa! I guess having long fingers does help a bit. I'll keep practicing.",
+    "target": "Speaker A (grandfather) (Target): I apologize if I came across that way. I have great confidence in your abilities, and I know you'll excel at whatever you set your mind to.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a continuation of his previous statement, showing respect for the conversation flow and"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I guess having long fingers does help a bit. I'll keep practicing.\nSpeaker B (grandfather): I apologize if I came across that way. I have great confidence in your abilities, and I know you'll excel at whatever you set your mind to.",
+    "target": "Speaker A (grandson) (Target): No worries, Grandpa. I appreciate your support and encouragement. It means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandfather): I apologize if I came across that way. I have great confidence in your abilities, and I know you'll excel at whatever you set your mind to.\nSpeaker B (grandson): No worries, Grandpa. I appreciate your support and encouragement. It means a lot to me.",
+    "target": "Speaker A (grandfather) (Target): Yes, I can hear you loud and clear. Is there anything else you'd like to discuss?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandson): No worries, Grandpa. I appreciate your support and encouragement. It means a lot to me.\nSpeaker B (grandfather): Yes, I can hear you loud and clear. Is there anything else you'd like to discuss?",
+    "target": "Speaker A (grandson) (Target): Actually, I was wondering if you could give me some advice on how to improve my technique.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  }
+]

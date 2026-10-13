@@ -1,0 +1,119 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 77,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): This one's too short though.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): This one's too short though.",
+            "target": "Target (grandmother): All right, pull it out like this. While I'm going like this, pull it out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): This one's too short though. | Speaker B (grandmother): All right, pull it out like this. While I'm going like this, pull it out.",
+            "target": "Target (granddaughter): Wait, wait, wait.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): All right, pull it out like this. While I'm going like this, pull it out. | Speaker B (granddaughter): Wait, wait, wait.",
+            "target": "Target (grandmother): Now. Okay, there you go. Now pull. All right, put it to the back. It's not too short if you put it to the back.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Wait, wait, wait. | Speaker B (grandmother): Now. Okay, there you go. Now pull. All right, put it to the back. It's not too short if you put it to the back.",
+            "target": "Target (granddaughter): Can't I just hit the 'auto-thread' button? It'll pull the tension for me without us doing this tug-of-war.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Now. Okay, there you go. Now pull. All right, put it to the back. It's not too short if you put it to the back. | Speaker B (granddaughter): Can't I just hit the 'auto-thread' button? It'll pull the tension for me without us doing this tug-of-war.",
+            "target": "Target (grandmother): That button doesn't have the sense in its fingers that you do. If you don't feel the thread, you don't know if it's caught. We aren't moving a millimeter until you do it by hand.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Can't I just hit the 'auto-thread' button? It'll pull the tension for me without us doing this tug-of-war. | Speaker B (grandmother): That button doesn't have the sense in its fingers that you do. If you don't feel the thread, you don't know if it's caught. We aren't moving a millimeter until you do it by hand.",
+            "target": "Target (granddaughter): It’s a five-thousand dollar machine, Grandma. I think it knows what it’s doing better than my fingers.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): That button doesn't have the sense in its fingers that you do. If you don't feel the thread, you don't know if it's caught. We aren't moving a millimeter until you do it by hand. | Speaker B (granddaughter): It’s a five-thousand dollar machine, Grandma. I think it knows what it’s doing better than my fingers.",
+            "target": "Target (grandmother): I’m taking my foot off the power. We'll just sit here then. You can stare at your 'smart' machine all day, but it won't sew a stitch until you show me you can pull that thread manually. I've got all afternoon.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): It’s a five-thousand dollar machine, Grandma. I think it knows what it’s doing better than my fingers. | Speaker B (grandmother): I’m taking my foot off the power. We'll just sit here then. You can stare at your 'smart' machine all day, but it won't sew a stitch until you show me you can pull that thread manually. I've got all afternoon.",
+            "target": "Target (granddaughter): Okay, let's get you ready. All right. I think that's about good. There. Okay, it's all set.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): I’m taking my foot off the power. We'll just sit here then. You can stare at your 'smart' machine all day, but it won't sew a stitch until you show me you can pull that thread manually. I've got all afternoon. | Speaker B (granddaughter): Okay, let's get you ready. All right. I think that's about good. There. Okay, it's all set.",
+            "target": "Target (grandmother): Go slow with the presser foot, okay? You're so too fast. Go slow, okay? And you can stop in between it, like you can stop it and jog it back if you need to. That way. Okay, you're doing good, baby. Now hold this in while you sew. Now hold on to the material too. Let go, let go. Now go to— all right. You got it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Okay, let's get you ready. All right. I think that's about good. There. Okay, it's all set. | Speaker B (grandmother): Go slow with the presser foot, okay? You're so too fast. Go slow, okay? And you can stop in between it, like you can stop it and jog it back if you need to. That way. Okay, you're doing good, baby. Now hold this in while you sew. Now hold on to the material too. Let go, let go. Now go to— all right. You got it?",
+            "target": "Target (granddaughter): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Go slow with the presser foot, okay? You're so too fast. Go slow, okay? And you can stop in between it, like you can stop it and jog it back if you need to. That way. Okay, you're doing good, baby. Now hold this in while you sew. Now hold on to the material too. Let go, let go. Now go to— all right. You got it? | Speaker B (granddaughter): Mm-hmm.",
+            "target": "Target (grandmother): All right, now lift up on the presser foot, and then we'll do like this to let it out. Okay? All right, now you cut it. Hey, you did good, baby!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Mm-hmm. | Speaker B (grandmother): All right, now lift up on the presser foot, and then we'll do like this to let it out. Okay? All right, now you cut it. Hey, you did good, baby!",
+            "target": "Target (granddaughter): Yay!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): All right, now lift up on the presser foot, and then we'll do like this to let it out. Okay? All right, now you cut it. Hey, you did good, baby! | Speaker B (granddaughter): Yay!",
+            "target": "Target (grandmother): Boo!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

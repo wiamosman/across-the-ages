@@ -1,0 +1,199 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 91,
+    "utterances": [
+        {
+            "text": "You need to cut your nails.",
+            "golden": "command",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "Shut up, I don't know how to do everything else with my damn nails.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "You going to take forever texting and calling. I can't sit and show you all the time. I bought you a phone before, you don't know how to use it.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Wait, I am trying to understand the 'swipe' motion you mentioned. Does it start from the bottom edge or the middle?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Just do it! It's not that hard, you're just overthinking it because you're scared of the screen. My hands just do it naturally, I don't know why you're struggling with a basic gesture.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Stop yelling and listen! I'm telling you my finger doesn't register because of the nail. Don't tell me I'm scared when the machine is the one not working.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm not yelling, I'm just telling you the right way. Now swipe up. No, faster. Do it again. Just follow my hand and stop pausing.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "I was going to ask about the icons, but you just keep barking 'swipe' at me. I feel like I can't even touch the thing without you snapping. I’m putting this down until you let me speak a full sentence.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I did buy you an iPhone, you ain't know how to use it.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "This ain't no iPhone.",
+            "golden": "statement-non-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "I know, it's Android. I don't like them.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "All I need is a phone.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Let me cut your nails. So you can use the phone correctly Hey, do what you do. Do how you tap, tap the phone.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Tap it where? Tap it.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Go up like I told you.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "All right. Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Now press a button.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "A button down here?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah. Look how you got to do it. You should be able to do it with your hand. You got to do this.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Everybody I haven't seen— well, I keep a pencil with me then, man.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You could What? Look how long it's taking you.",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "But that ain't said no 4-4.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What is this, the clear? Cut your nails, man.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Hey, this your mother. Call me. I just text that.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Now you try to text something. Text. I want to see you text. Say, Mom, right there. Just hit the button.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "This button? Yep.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, these letters. Send the letters. Yeah, text. I want to see you text him",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "H. How you spell hey? Hey .",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "H-A. How you spell it? H-A. Hey is H-E-Y. It ain't H-E-Y. Hey is H-A. No, it's not, Grandma. That's ha. Ha! He— What? Hey, that's not hey. He—",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Hey, hey, hey, hey, hey, hey!",
+            "golden": "backchannel",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "It's H-E-Y.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Hey! No, hey is H-A-Y. All right, I'm gonna let you be the— The E is silent. That's the way you saying it. Hey! H-A-Y.",
+            "golden": "statement-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        }
+    ]
+}

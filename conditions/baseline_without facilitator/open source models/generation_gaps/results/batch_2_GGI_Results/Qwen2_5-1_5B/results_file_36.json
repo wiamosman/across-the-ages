@@ -1,0 +1,79 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 36,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Watch the road. Watch the road.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Watch the road. Watch the road.",
+            "target": "Target (grandson): Is not— is not going to yelling at us?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Watch the road. Watch the road. | Speaker B (grandson): Is not— is not going to yelling at us?",
+            "target": "Target (grandfather): I don't know. First driving lesson you got. Pay attention. What would you do if a car came?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): Is not— is not going to yelling at us? | Speaker B (grandfather): I don't know. First driving lesson you got. Pay attention. What would you do if a car came?",
+            "target": "Target (grandson): Ow.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): I don't know. First driving lesson you got. Pay attention. What would you do if a car came? | Speaker B (grandson): Ow.",
+            "target": "Target (grandfather): What would you do?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Ow. | Speaker B (grandfather): What would you do?",
+            "target": "Target (grandson): I'll stop. I think the sensor is beeping, should I—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): What would you do? | Speaker B (grandson): I'll stop. I think the sensor is beeping, should I—",
+            "target": "Target (grandfather): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): I'll stop. I think the sensor is beeping, should I— | Speaker B (grandfather): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.",
+            "target": "Target (grandson): No... you're being totally mid right now, just let me drive.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt. | Speaker B (grandson): No... you're being totally mid right now, just let me drive.",
+            "target": "Target (grandfather): Mid? What is a mid? Speak English and swipe the road!",
+            "gold_label": "slang mismatch",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        }
+    ]
+}

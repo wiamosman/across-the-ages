@@ -1,0 +1,2567 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 100,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandson): Hey Grandpa, how's your day going?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandson): Hey Grandpa, how's your day going?",
+      "target": "Target (grandfather): It's going well, thank you, dear! I'm glad we're out for this drive.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandson): Hey Grandpa, how's your day going? | Speaker B (grandfather): It's going well, thank you, dear! I'm glad we're out for this drive.",
+      "target": "Target (grandfather): But I think I'll stick to just driving for fun today, not work!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandfather): It's going well, thank you, dear! I'm glad we're out for this drive. | Speaker B (grandfather): But I think I'll stick to just driving for fun today, not work!",
+      "target": "Target (grandson): That's great, Grandpa! Driving should be fun, not stressful.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): But I think I'll stick to just driving for fun today, not work! | Speaker B (grandson): That's great, Grandpa! Driving should be fun, not stressful.",
+      "target": "Target (grandfather): Oh, I've been driving for over 40 years now! It's been quite the journey.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): That's great, Grandpa! Driving should be fun, not stressful. | Speaker B (grandfather): Oh, I've been driving for over 40 years now! It's been quite the journey.",
+      "target": "Target (grandson): Wow, that's impressive! You must have some amazing stories from all those years.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Oh, I've been driving for over 40 years now! It's been quite the journey. | Speaker B (grandson): Wow, that's impressive! You must have some amazing stories from all those years.",
+      "target": "Target (grandfather): Oh, it was quite different back then! We didn't have all these fancy gadgets in the car. It was more about basic skills and road sense.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): Wow, that's impressive! You must have some amazing stories from all those years. | Speaker B (grandfather): Oh, it was quite different back then! We didn't have all these fancy gadgets in the car. It was more about basic skills and road sense.",
+      "target": "Target (grandson): I bet it was! I can't imagine driving without GPS or backup cameras. How did you manage?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Oh, it was quite different back then! We didn't have all these fancy gadgets in the car. It was more about basic skills and road sense. | Speaker B (grandson): I bet it was! I can't imagine driving without GPS or backup cameras. How did you manage?",
+      "target": "Target (grandfather): Yes, it was a simpler time. We had to rely on our instincts more than technology.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): I bet it was! I can't imagine driving without GPS or backup cameras. How did you manage? | Speaker B (grandfather): Yes, it was a simpler time. We had to rely on our instincts more than technology.",
+      "target": "Target (grandson): It's amazing how things have changed. Do you think driving was more enjoyable back then?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): Yes, it was a simpler time. We had to rely on our instincts more than technology. | Speaker B (grandson): It's amazing how things have changed. Do you think driving was more enjoyable back then?",
+      "target": "Target (grandfather): Oh yes, I remember my first car! It was a Ford Cortina. A real classic back in the day!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandson): It's amazing how things have changed. Do you think driving was more enjoyable back then? | Speaker B (grandfather): Oh yes, I remember my first car! It was a Ford Cortina. A real classic back in the day!",
+      "target": "Target (grandson): A Ford Cortina? That sounds cool! I wish I could see one in person.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): Oh yes, I remember my first car! It was a Ford Cortina. A real classic back in the day! | Speaker B (grandson): A Ford Cortina? That sounds cool! I wish I could see one in person.",
+      "target": "Target (grandfather): Yes, it was a Ford Cortina. A real classic back in the day!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandson): A Ford Cortina? That sounds cool! I wish I could see one in person. | Speaker B (grandfather): Yes, it was a Ford Cortina. A real classic back in the day!",
+      "target": "Target (grandson): Maybe we can find one at a car show or museum sometime. That would be awesome!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): Yes, it was a Ford Cortina. A real classic back in the day! | Speaker B (grandson): Maybe we can find one at a car show or museum sometime. That would be awesome!",
+      "target": "Target (grandfather): Yes, it was quite the car back then. They don't make them like that anymore!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandson): Maybe we can find one at a car show or museum sometime. That would be awesome! | Speaker B (grandfather): Yes, it was quite the car back then. They don't make them like that anymore!",
+      "target": "Target (grandson): Yeah, they really had a unique style. I love how vintage cars have so much character.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Yes, it was quite the car back then. They don't make them like that anymore! | Speaker B (grandson): Yeah, they really had a unique style. I love how vintage cars have so much character.",
+      "target": "Target (grandfather): No, it was definitely a Ford Cortina. I remember it well.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandson): Yeah, they really had a unique style. I love how vintage cars have so much character. | Speaker B (grandfather): No, it was definitely a Ford Cortina. I remember it well.",
+      "target": "Target (grandson): Oh, a Ford Cortina! I've read about those. They seem really cool.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): No, it was definitely a Ford Cortina. I remember it well. | Speaker B (grandson): Oh, a Ford Cortina! I've read about those. They seem really cool.",
+      "target": "Target (grandfather): Oh, you're right! Back then, we didn't have a theory test like you do now. It was much simpler.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandson): Oh, a Ford Cortina! I've read about those. They seem really cool. | Speaker B (grandfather): Oh, you're right! Back then, we didn't have a theory test like you do now. It was much simpler.",
+      "target": "Target (grandson): Wow, that sounds so much easier! I can't imagine not having to study for a theory test.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): Oh, you're right! Back then, we didn't have a theory test like you do now. It was much simpler. | Speaker B (grandson): Wow, that sounds so much easier! I can't imagine not having to study for a theory test.",
+      "target": "Target (grandfather): Yes, I did pass my practical on my first try! It was quite an experience.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandson): Wow, that sounds so much easier! I can't imagine not having to study for a theory test. | Speaker B (grandfather): Yes, I did pass my practical on my first try! It was quite an experience.",
+      "target": "Target (grandson): That's impressive! I hope I can pass on my first try too.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandfather): Yes, I did pass my practical on my first try! It was quite an experience. | Speaker B (grandson): That's impressive! I hope I can pass on my first try too.",
+      "target": "Target (grandfather): No, I passed on my first try, dear. I was quite determined back then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandson): That's impressive! I hope I can pass on my first try too. | Speaker B (grandfather): No, I passed on my first try, dear. I was quite determined back then!",
+      "target": "Target (grandson): I bet you were! I think I'll need some of that determination too.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandfather): No, I passed on my first try, dear. I was quite determined back then! | Speaker B (grandson): I bet you were! I think I'll need some of that determination too.",
+      "target": "Target (grandfather): Oh, I didn't fail, dear. I passed on my first try, remember?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandson): I bet you were! I think I'll need some of that determination too. | Speaker B (grandfather): Oh, I didn't fail, dear. I passed on my first try, remember?",
+      "target": "Target (grandson): Right, you did mention that! I guess I just need to focus and practice more.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandfather): Oh, I didn't fail, dear. I passed on my first try, remember? | Speaker B (grandson): Right, you did mention that! I guess I just need to focus and practice more.",
+      "target": "Target (grandfather): Well, back then, the test was more about practical driving skills rather than theory. I guess things have changed a lot since then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandson): Right, you did mention that! I guess I just need to focus and practice more. | Speaker B (grandfather): Well, back then, the test was more about practical driving skills rather than theory. I guess things have changed a lot since then!",
+      "target": "Target (grandson): Yeah, it seems like there's a lot more to study now. Do you have any tips for staying focused?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandfather): Well, back then, the test was more about practical driving skills rather than theory. I guess things have changed a lot since then! | Speaker B (grandson): Yeah, it seems like there's a lot more to study now. Do you have any tips for staying focused?",
+      "target": "Target (grandfather): Oh, that's interesting about your studies! I suppose some things like focus never change.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandson): Yeah, it seems like there's a lot more to study now. Do you have any tips for staying focused? | Speaker B (grandfather): Oh, that's interesting about your studies! I suppose some things like focus never change.",
+      "target": "Target (grandson): Yeah, I guess some things do stay the same. Thanks for the advice, Grandpa!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandfather): Oh, that's interesting about your studies! I suppose some things like focus never change. | Speaker B (grandson): Yeah, I guess some things do stay the same. Thanks for the advice, Grandpa!",
+      "target": "Target (grandfather): Oh no, I didn't have any issues with stopping safely. I was quite careful!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandson): Yeah, I guess some things do stay the same. Thanks for the advice, Grandpa! | Speaker B (grandfather): Oh no, I didn't have any issues with stopping safely. I was quite careful!",
+      "target": "Target (grandson): That's good to hear! I guess being careful is key. Do you think it's different now with all the technology?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandfather): Oh no, I didn't have any issues with stopping safely. I was quite careful! | Speaker B (grandson): That's good to hear! I guess being careful is key. Do you think it's different now with all the technology?",
+      "target": "Target (grandfather): No, dear, I remember stopping just fine. Maybe you're thinking of someone else?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandson): That's good to hear! I guess being careful is key. Do you think it's different now with all the technology? | Speaker B (grandfather): No, dear, I remember stopping just fine. Maybe you're thinking of someone else?",
+      "target": "Target (grandson): Oh, I might have mixed it up. But yeah, technology has changed a lot of things, don't you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandfather): No, dear, I remember stopping just fine. Maybe you're thinking of someone else? | Speaker B (grandson): Oh, I might have mixed it up. But yeah, technology has changed a lot of things, don't you think?",
+      "target": "Target (grandfather): Thank you, dear. It's nice to know you have faith in my driving skills!",
+      "gold_label": "none",
+      "predicted_label": "perceived disrespect",
+      "raw": "perceived disrespect"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandson): Oh, I might have mixed it up. But yeah, technology has changed a lot of things, don't you think? | Speaker B (grandfather): Thank you, dear. It's nice to know you have faith in my driving skills!",
+      "target": "Target (grandson): Of course, I trust you completely! But I do wonder how you feel about all the new gadgets in cars these days.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandfather): Thank you, dear. It's nice to know you have faith in my driving skills! | Speaker B (grandson): Of course, I trust you completely! But I do wonder how you feel about all the new gadgets in cars these days.",
+      "target": "Target (grandfather): I appreciate that, dear. It's always good to have a little boost of confidence.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandson): Of course, I trust you completely! But I do wonder how you feel about all the new gadgets in cars these days. | Speaker B (grandfather): I appreciate that, dear. It's always good to have a little boost of confidence.",
+      "target": "Target (grandson): I'm glad to hear that! So, have you tried using any of those new features in your car?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandfather): I appreciate that, dear. It's always good to have a little boost of confidence. | Speaker B (grandson): I'm glad to hear that! So, have you tried using any of those new features in your car?",
+      "target": "Target (grandfather): That sounds like a good idea, dear. I'm always open to learning new things.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandson): I'm glad to hear that! So, have you tried using any of those new features in your car? | Speaker B (grandfather): That sounds like a good idea, dear. I'm always open to learning new things.",
+      "target": "Target (grandson): That's great to hear! If you need any help figuring out those features, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): That sounds like a good idea, dear. I'm always open to learning new things. | Speaker B (grandson): That's great to hear! If you need any help figuring out those features, just let me know.",
+      "target": "Target (grandfather): Oh, how exciting! I'm honored to be the one to show you my car's features. Let's get started then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandson): That's great to hear! If you need any help figuring out those features, just let me know. | Speaker B (grandfather): Oh, how exciting! I'm honored to be the one to show you my car's features. Let's get started then!",
+      "target": "Target (grandson): I'm really excited for you to try it out! Let me know how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): Oh, how exciting! I'm honored to be the one to show you my car's features. Let's get started then! | Speaker B (grandson): I'm really excited for you to try it out! Let me know how it goes.",
+      "target": "Target (grandfather): That's wonderful, dear. I'm sure these new pedals will make the drive even smoother.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandson): I'm really excited for you to try it out! Let me know how it goes. | Speaker B (grandfather): That's wonderful, dear. I'm sure these new pedals will make the drive even smoother.",
+      "target": "Target (grandson): I'm glad you think so! I hope you enjoy the drive.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): That's wonderful, dear. I'm sure these new pedals will make the drive even smoother. | Speaker B (grandson): I'm glad you think so! I hope you enjoy the drive.",
+      "target": "Target (grandfather): Yes, I do feel a bit nervous about the carriageways, but I'm sure with your help, I'll manage just fine.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandson): I'm glad you think so! I hope you enjoy the drive. | Speaker B (grandfather): Yes, I do feel a bit nervous about the carriageways, but I'm sure with your help, I'll manage just fine.",
+      "target": "Target (grandson): Don't worry, I'll be right there to guide you through it. You'll do great!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandfather): Yes, I do feel a bit nervous about the carriageways, but I'm sure with your help, I'll manage just fine. | Speaker B (grandson): Don't worry, I'll be right there to guide you through it. You'll do great!",
+      "target": "Target (grandfather): Thank you for being so supportive, dear. I'm sure it will be a great experience.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandson): Don't worry, I'll be right there to guide you through it. You'll do great! | Speaker B (grandfather): Thank you for being so supportive, dear. I'm sure it will be a great experience.",
+      "target": "Target (grandson): I'm really looking forward to it too. Let's make it a fun day!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandfather): Thank you for being so supportive, dear. I'm sure it will be a great experience. | Speaker B (grandson): I'm really looking forward to it too. Let's make it a fun day!",
+      "target": "Target (grandfather): Oh, I'm sure I will! Let's get going then, shall we?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandson): I'm really looking forward to it too. Let's make it a fun day! | Speaker B (grandfather): Oh, I'm sure I will! Let's get going then, shall we?",
+      "target": "Target (grandson): Absolutely, let's head out and have a blast!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandfather): Oh, I'm sure I will! Let's get going then, shall we? | Speaker B (grandson): Absolutely, let's head out and have a blast!",
+      "target": "Target (grandfather): No, I'm not quite used to these touchscreens yet, but I'm eager to learn. Thank you for your patience.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandson): Absolutely, let's head out and have a blast! | Speaker B (grandfather): No, I'm not quite used to these touchscreens yet, but I'm eager to learn. Thank you for your patience.",
+      "target": "Target (grandson): No problem at all, I'm happy to help you with anything you need.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandfather): No, I'm not quite used to these touchscreens yet, but I'm eager to learn. Thank you for your patience. | Speaker B (grandson): No problem at all, I'm happy to help you with anything you need.",
+      "target": "Target (grandfather): Ah, yes, I see that button now. Thank you for pointing it out. I'm ready to give it a try.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandson): No problem at all, I'm happy to help you with anything you need. | Speaker B (grandfather): Ah, yes, I see that button now. Thank you for pointing it out. I'm ready to give it a try.",
+      "target": "Target (grandson): Great! Let's get started whenever you're ready.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandfather): Ah, yes, I see that button now. Thank you for pointing it out. I'm ready to give it a try. | Speaker B (grandson): Great! Let's get started whenever you're ready.",
+      "target": "Target (grandfather): Oh, I see it now. Thank you for showing me. I'm ready to try it out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandson): Great! Let's get started whenever you're ready. | Speaker B (grandfather): Oh, I see it now. Thank you for showing me. I'm ready to try it out.",
+      "target": "Target (grandson): Awesome! Just let me know if you need any more help along the way.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandfather): Oh, I see it now. Thank you for showing me. I'm ready to try it out. | Speaker B (grandson): Awesome! Just let me know if you need any more help along the way.",
+      "target": "Target (grandfather): Oh, I see what you mean. Let me give it a try and see how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandson): Awesome! Just let me know if you need any more help along the way. | Speaker B (grandfather): Oh, I see what you mean. Let me give it a try and see how it goes.",
+      "target": "Target (grandson): You're doing great! I'm here if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandfather): Oh, I see what you mean. Let me give it a try and see how it goes. | Speaker B (grandson): You're doing great! I'm here if you need anything.",
+      "target": "Target (grandfather): Oh, I didn't realize it was so advanced! Thank you for explaining it to me. I'll try to get the hang of it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandson): You're doing great! I'm here if you need anything. | Speaker B (grandfather): Oh, I didn't realize it was so advanced! Thank you for explaining it to me. I'll try to get the hang of it.",
+      "target": "Target (grandfather): I appreciate your patience with me. It's all quite fascinating, really.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandfather): Oh, I didn't realize it was so advanced! Thank you for explaining it to me. I'll try to get the hang of it. | Speaker B (grandfather): I appreciate your patience with me. It's all quite fascinating, really.",
+      "target": "Target (grandson): I'm glad you're finding it interesting! Let me know if you want to explore more features together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandfather): I appreciate your patience with me. It's all quite fascinating, really. | Speaker B (grandson): I'm glad you're finding it interesting! Let me know if you want to explore more features together.",
+      "target": "Target (grandson): No problem at all! I'm always here to help you out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandson): I'm glad you're finding it interesting! Let me know if you want to explore more features together. | Speaker B (grandson): No problem at all! I'm always here to help you out.",
+      "target": "Target (grandson): If you ever have any questions or need more help, just let me know. I'm happy to assist!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandson): No problem at all! I'm always here to help you out. | Speaker B (grandson): If you ever have any questions or need more help, just let me know. I'm happy to assist!",
+      "target": "Target (grandfather): Yes, I did have a Golf once! It was a lovely car, very reliable.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (grandson): If you ever have any questions or need more help, just let me know. I'm happy to assist! | Speaker B (grandfather): Yes, I did have a Golf once! It was a lovely car, very reliable.",
+      "target": "Target (grandson): That's awesome! I bet it brought back some great memories.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandfather): Yes, I did have a Golf once! It was a lovely car, very reliable. | Speaker B (grandson): That's awesome! I bet it brought back some great memories.",
+      "target": "Target (grandfather): Oh, thank you, dear! I'm feeling just fine. Let's enjoy the ride together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (grandson): That's awesome! I bet it brought back some great memories. | Speaker B (grandfather): Oh, thank you, dear! I'm feeling just fine. Let's enjoy the ride together.",
+      "target": "Target (grandson): I'm glad to hear that! It's always nice to spend time together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandfather): Oh, thank you, dear! I'm feeling just fine. Let's enjoy the ride together. | Speaker B (grandson): I'm glad to hear that! It's always nice to spend time together.",
+      "target": "Target (grandfather): Don't worry, I'll keep it nice and steady. Safety first!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (grandson): I'm glad to hear that! It's always nice to spend time together. | Speaker B (grandfather): Don't worry, I'll keep it nice and steady. Safety first!",
+      "target": "Target (grandson): Thanks for being so careful, Grandpa. I really appreciate it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandfather): Don't worry, I'll keep it nice and steady. Safety first! | Speaker B (grandson): Thanks for being so careful, Grandpa. I really appreciate it.",
+      "target": "Target (grandfather): Alright, I'll make sure to stick to 30 mph here. We want to enjoy the ride safely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (grandson): Thanks for being so careful, Grandpa. I really appreciate it. | Speaker B (grandfather): Alright, I'll make sure to stick to 30 mph here. We want to enjoy the ride safely.",
+      "target": "Target (grandson): Sounds perfect, Grandpa. Let's enjoy the ride!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandfather): Alright, I'll make sure to stick to 30 mph here. We want to enjoy the ride safely. | Speaker B (grandson): Sounds perfect, Grandpa. Let's enjoy the ride!",
+      "target": "Target (grandson): I love spending time with you like this, Grandpa. It's always so relaxing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 72,
+      "context": "Speaker A (grandson): Sounds perfect, Grandpa. Let's enjoy the ride! | Speaker B (grandson): I love spending time with you like this, Grandpa. It's always so relaxing.",
+      "target": "Target (grandfather): Oh yes, I remember that day. It was quite a scare, but thankfully we were alright. Let's focus on having a safe drive today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 73,
+      "context": "Speaker A (grandson): I love spending time with you like this, Grandpa. It's always so relaxing. | Speaker B (grandfather): Oh yes, I remember that day. It was quite a scare, but thankfully we were alright. Let's focus on having a safe drive today.",
+      "target": "Target (grandfather): It's amazing how time flies, isn't it? I'm glad we're here together now, making new memories.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 74,
+      "context": "Speaker A (grandfather): Oh yes, I remember that day. It was quite a scare, but thankfully we were alright. Let's focus on having a safe drive today. | Speaker B (grandfather): It's amazing how time flies, isn't it? I'm glad we're here together now, making new memories.",
+      "target": "Target (grandson): Absolutely, Grandpa. I'm so grateful for these moments with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 75,
+      "context": "Speaker A (grandfather): It's amazing how time flies, isn't it? I'm glad we're here together now, making new memories. | Speaker B (grandson): Absolutely, Grandpa. I'm so grateful for these moments with you.",
+      "target": "Target (grandfather): Yes, it was in the old Golf. Those were some nerve-wracking moments, but we got through it together. Let's keep our eyes on the road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 76,
+      "context": "Speaker A (grandson): Absolutely, Grandpa. I'm so grateful for these moments with you. | Speaker B (grandfather): Yes, it was in the old Golf. Those were some nerve-wracking moments, but we got through it together. Let's keep our eyes on the road.",
+      "target": "Target (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to have these peaceful moments together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 77,
+      "context": "Speaker A (grandfather): Yes, it was in the old Golf. Those were some nerve-wracking moments, but we got through it together. Let's keep our eyes on the road. | Speaker B (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to have these peaceful moments together.",
+      "target": "Target (grandfather): Oh yes, technology has come a long way since then. Those cameras are everywhere now, keeping an eye on things. It's quite different from when I first learned.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 78,
+      "context": "Speaker A (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to have these peaceful moments together. | Speaker B (grandfather): Oh yes, technology has come a long way since then. Those cameras are everywhere now, keeping an eye on things. It's quite different from when I first learned.",
+      "target": "Target (grandson): Yeah, it's amazing how much things have changed. I can't imagine driving without all these gadgets now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 79,
+      "context": "Speaker A (grandfather): Oh yes, technology has come a long way since then. Those cameras are everywhere now, keeping an eye on things. It's quite different from when I first learned. | Speaker B (grandson): Yeah, it's amazing how much things have changed. I can't imagine driving without all these gadgets now.",
+      "target": "Target (grandfather): Those cameras are used for monitoring traffic and ensuring safety on the roads. They help in managing traffic flow and can also be used for security.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 80,
+      "context": "Speaker A (grandson): Yeah, it's amazing how much things have changed. I can't imagine driving without all these gadgets now. | Speaker B (grandfather): Those cameras are used for monitoring traffic and ensuring safety on the roads. They help in managing traffic flow and can also be used for security.",
+      "target": "Target (grandson): It's great that they help with safety, but sometimes it feels like we're being watched all the time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 81,
+      "context": "Speaker A (grandfather): Those cameras are used for monitoring traffic and ensuring safety on the roads. They help in managing traffic flow and can also be used for security. | Speaker B (grandson): It's great that they help with safety, but sometimes it feels like we're being watched all the time.",
+      "target": "Target (grandfather): Ah, that yellow box is likely a speed camera. They are used to monitor and enforce speed limits to keep everyone safe on the road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 82,
+      "context": "Speaker A (grandson): It's great that they help with safety, but sometimes it feels like we're being watched all the time. | Speaker B (grandfather): Ah, that yellow box is likely a speed camera. They are used to monitor and enforce speed limits to keep everyone safe on the road.",
+      "target": "Target (grandson): I get that they're for safety, but it still feels a bit invasive sometimes. Do you think there are too many cameras around?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 83,
+      "context": "Speaker A (grandfather): Ah, that yellow box is likely a speed camera. They are used to monitor and enforce speed limits to keep everyone safe on the road. | Speaker B (grandson): I get that they're for safety, but it still feels a bit invasive sometimes. Do you think there are too many cameras around?",
+      "target": "Target (grandfather): You should only stop in a yellow box if your exit is clear and you won't block the intersection. It's important to keep the traffic flowing smoothly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 84,
+      "context": "Speaker A (grandson): I get that they're for safety, but it still feels a bit invasive sometimes. Do you think there are too many cameras around? | Speaker B (grandfather): You should only stop in a yellow box if your exit is clear and you won't block the intersection. It's important to keep the traffic flowing smoothly.",
+      "target": "Target (grandson): I see, but sometimes it feels like there are too many rules to remember. Do you think it's getting a bit too much?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 85,
+      "context": "Speaker A (grandfather): You should only stop in a yellow box if your exit is clear and you won't block the intersection. It's important to keep the traffic flowing smoothly. | Speaker B (grandson): I see, but sometimes it feels like there are too many rules to remember. Do you think it's getting a bit too much?",
+      "target": "Target (grandfather): It sounds like you're learning a lot about driving rules. I'm proud of you for taking it seriously.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 86,
+      "context": "Speaker A (grandson): I see, but sometimes it feels like there are too many rules to remember. Do you think it's getting a bit too much? | Speaker B (grandfather): It sounds like you're learning a lot about driving rules. I'm proud of you for taking it seriously.",
+      "target": "Target (grandson): Thanks, I'm trying my best to keep up with everything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 87,
+      "context": "Speaker A (grandfather): It sounds like you're learning a lot about driving rules. I'm proud of you for taking it seriously. | Speaker B (grandson): Thanks, I'm trying my best to keep up with everything.",
+      "target": "Target (grandfather): That's right, dear. It's good to see you're understanding the rules. It makes driving safer for everyone.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 88,
+      "context": "Speaker A (grandson): Thanks, I'm trying my best to keep up with everything. | Speaker B (grandfather): That's right, dear. It's good to see you're understanding the rules. It makes driving safer for everyone.",
+      "target": "Target (grandson): I guess it does make sense. I'll keep practicing to get better at it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 89,
+      "context": "Speaker A (grandfather): That's right, dear. It's good to see you're understanding the rules. It makes driving safer for everyone. | Speaker B (grandson): I guess it does make sense. I'll keep practicing to get better at it.",
+      "target": "Target (grandfather): Exactly, understanding these rules will make you a more confident driver. Keep it up!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 90,
+      "context": "Speaker A (grandson): I guess it does make sense. I'll keep practicing to get better at it. | Speaker B (grandfather): Exactly, understanding these rules will make you a more confident driver. Keep it up!",
+      "target": "Target (grandson): Thanks, I'll keep working on it. I want to be as good as you someday.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 91,
+      "context": "Speaker A (grandfather): Exactly, understanding these rules will make you a more confident driver. Keep it up! | Speaker B (grandson): Thanks, I'll keep working on it. I want to be as good as you someday.",
+      "target": "Target (grandson): By the way, do you have any tips for parallel parking? I find it a bit tricky.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 92,
+      "context": "Speaker A (grandson): Thanks, I'll keep working on it. I want to be as good as you someday. | Speaker B (grandson): By the way, do you have any tips for parallel parking? I find it a bit tricky.",
+      "target": "Target (grandfather): That's a very important skill to master. I'm glad you're taking it seriously. Since we're driving near the theater, maybe we can plan to see a musical soon?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 93,
+      "context": "Speaker A (grandson): By the way, do you have any tips for parallel parking? I find it a bit tricky. | Speaker B (grandfather): That's a very important skill to master. I'm glad you're taking it seriously. Since we're driving near the theater, maybe we can plan to see a musical soon?",
+      "target": "Target (grandson): Sure, I'd love to go to the musical with you! And about parallel parking, any advice would be great.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 94,
+      "context": "Speaker A (grandfather): That's a very important skill to master. I'm glad you're taking it seriously. Since we're driving near the theater, maybe we can plan to see a musical soon? | Speaker B (grandson): Sure, I'd love to go to the musical with you! And about parallel parking, any advice would be great.",
+      "target": "Target (grandson): Thanks for planning the musical with me! I'm really looking forward to it. And if you have any tips on parallel parking, I'd appreciate it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 95,
+      "context": "Speaker A (grandson): Sure, I'd love to go to the musical with you! And about parallel parking, any advice would be great. | Speaker B (grandson): Thanks for planning the musical with me! I'm really looking forward to it. And if you have any tips on parallel parking, I'd appreciate it.",
+      "target": "Target (grandson): I really appreciate you taking the time to plan the musical with me. It's going to be so much fun! And if you could share any parallel parking tips, that would be awesome.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 96,
+      "context": "Speaker A (grandson): Thanks for planning the musical with me! I'm really looking forward to it. And if you have any tips on parallel parking, I'd appreciate it. | Speaker B (grandson): I really appreciate you taking the time to plan the musical with me. It's going to be so much fun! And if you could share any parallel parking tips, that would be awesome.",
+      "target": "Target (grandmother): Oh, Pascal, is it? You're always full of surprises!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 97,
+      "context": "Speaker A (grandson): I really appreciate you taking the time to plan the musical with me. It's going to be so much fun! And if you could share any parallel parking tips, that would be awesome. | Speaker B (grandmother): Oh, Pascal, is it? You're always full of surprises!",
+      "target": "Target (grandson): Haha, yeah, I like to keep things interesting! So, any parallel parking tips you can share?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 98,
+      "context": "Speaker A (grandmother): Oh, Pascal, is it? You're always full of surprises! | Speaker B (grandson): Haha, yeah, I like to keep things interesting! So, any parallel parking tips you can share?",
+      "target": "Target (grandmother): Of course, dear! One big tip is to line up your back bumper with the car in front before you start cutting the wheel.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 99,
+      "context": "Speaker A (grandson): Haha, yeah, I like to keep things interesting! So, any parallel parking tips you can share? | Speaker B (grandmother): Of course, dear! One big tip is to line up your back bumper with the car in front before you start cutting the wheel.",
+      "target": "Target (grandson): That makes sense! I'll try to visualize that next time. It's been a bit tricky for me lately.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 100,
+      "context": "Speaker A (grandmother): Of course, dear! One big tip is to line up your back bumper with the car in front before you start cutting the wheel. | Speaker B (grandson): That makes sense! I'll try to visualize that next time. It's been a bit tricky for me lately.",
+      "target": "Target (grandmother): And remember to check your mirrors constantly. It’s all about the angles and taking it slow.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 101,
+      "context": "Speaker A (grandson): That makes sense! I'll try to visualize that next time. It's been a bit tricky for me lately. | Speaker B (grandmother): And remember to check your mirrors constantly. It’s all about the angles and taking it slow.",
+      "target": "Target (grandson): Glad I could help! So, once I'm at that 45-degree angle, when should I start straightening out?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 102,
+      "context": "Speaker A (grandmother): And remember to check your mirrors constantly. It’s all about the angles and taking it slow. | Speaker B (grandson): Glad I could help! So, once I'm at that 45-degree angle, when should I start straightening out?",
+      "target": "Target (grandmother): You want to start straightening when your front door passes the back bumper of the car ahead.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 103,
+      "context": "Speaker A (grandson): Glad I could help! So, once I'm at that 45-degree angle, when should I start straightening out? | Speaker B (grandmother): You want to start straightening when your front door passes the back bumper of the car ahead.",
+      "target": "Target (grandson): No problem, Grandma! But I'm still curious—do you prefer using the mirrors or looking over your shoulder?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 104,
+      "context": "Speaker A (grandmother): You want to start straightening when your front door passes the back bumper of the car ahead. | Speaker B (grandson): No problem, Grandma! But I'm still curious—do you prefer using the mirrors or looking over your shoulder?",
+      "target": "Target (grandmother): That makes sense, dear. I usually do a bit of both to make sure I don't miss anything in the blind spot.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 105,
+      "context": "Speaker A (grandson): No problem, Grandma! But I'm still curious—do you prefer using the mirrors or looking over your shoulder? | Speaker B (grandmother): That makes sense, dear. I usually do a bit of both to make sure I don't miss anything in the blind spot.",
+      "target": "Target (grandson): I'm glad you found it helpful! I'll keep practicing those angles like you suggested.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 106,
+      "context": "Speaker A (grandmother): That makes sense, dear. I usually do a bit of both to make sure I don't miss anything in the blind spot. | Speaker B (grandson): I'm glad you found it helpful! I'll keep practicing those angles like you suggested.",
+      "target": "Target (grandmother): It really is a skill, but I'll try to be more mindful of my speed. Thank you for practicing with me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 107,
+      "context": "Speaker A (grandson): I'm glad you found it helpful! I'll keep practicing those angles like you suggested. | Speaker B (grandmother): It really is a skill, but I'll try to be more mindful of my speed. Thank you for practicing with me.",
+      "target": "Target (grandson): Grandma, I really appreciate your advice. Could you please share how you judge the distance to the curb?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 108,
+      "context": "Speaker A (grandmother): It really is a skill, but I'll try to be more mindful of my speed. Thank you for practicing with me. | Speaker B (grandson): Grandma, I really appreciate your advice. Could you please share how you judge the distance to the curb?",
+      "target": "Target (grandmother): Oh, you're too kind! I usually look at where the curb meets the bottom of my side mirror.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 109,
+      "context": "Speaker A (grandson): Grandma, I really appreciate your advice. Could you please share how you judge the distance to the curb? | Speaker B (grandmother): Oh, you're too kind! I usually look at where the curb meets the bottom of my side mirror.",
+      "target": "Target (grandson): Thanks, Grandma! I know you'll have some great tips for me. Let me know when you're ready to show me in person.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 110,
+      "context": "Speaker A (grandmother): Oh, you're too kind! I usually look at where the curb meets the bottom of my side mirror. | Speaker B (grandson): Thanks, Grandma! I know you'll have some great tips for me. Let me know when you're ready to show me in person.",
+      "target": "Target (grandmother): That's good to know. I'll be careful and keep practicing that curb distance. Thank you for all your help, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 111,
+      "context": "Speaker A (grandson): Thanks, Grandma! I know you'll have some great tips for me. Let me know when you're ready to show me in person. | Speaker B (grandmother): That's good to know. I'll be careful and keep practicing that curb distance. Thank you for all your help, dear.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help. Just let me know when you're ready for our next drive.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 112,
+      "context": "Speaker A (grandmother): That's good to know. I'll be careful and keep practicing that curb distance. Thank you for all your help, dear. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help. Just let me know when you're ready for our next drive.",
+      "target": "Target (grandmother): I understand, dear. I'll make sure to keep that in mind and practice more. Thank you for your advice!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 113,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help. Just let me know when you're ready for our next drive. | Speaker B (grandmother): I understand, dear. I'll make sure to keep that in mind and practice more. Thank you for your advice!",
+      "target": "Target (grandson): Great, Grandma! Whenever you're ready, I'm all ears for those parallel parking tricks.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 114,
+      "context": "Speaker A (grandmother): I understand, dear. I'll make sure to keep that in mind and practice more. Thank you for your advice! | Speaker B (grandson): Great, Grandma! Whenever you're ready, I'm all ears for those parallel parking tricks.",
+      "target": "Target (grandmother): Oh, I didn't know that about the steering wheel lock! Thank you for explaining, dear. I'll watch for that.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 115,
+      "context": "Speaker A (grandson): Great, Grandma! Whenever you're ready, I'm all ears for those parallel parking tricks. | Speaker B (grandmother): Oh, I didn't know that about the steering wheel lock! Thank you for explaining, dear. I'll watch for that.",
+      "target": "Target (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else about the car controls.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 116,
+      "context": "Speaker A (grandmother): Oh, I didn't know that about the steering wheel lock! Thank you for explaining, dear. I'll watch for that. | Speaker B (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else about the car controls.",
+      "target": "Target (grandmother): I see, dear. I'll make sure to pay attention to those little things during my practice. Thank you for being so patient with me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 117,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else about the car controls. | Speaker B (grandmother): I see, dear. I'll make sure to pay attention to those little things during my practice. Thank you for being so patient with me.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help you out with the maneuvers.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 118,
+      "context": "Speaker A (grandmother): I see, dear. I'll make sure to pay attention to those little things during my practice. Thank you for being so patient with me. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help you out with the maneuvers.",
+      "target": "Target (grandmother): Oh, I see. I'll definitely be careful to stay within the lines during the bay park. Thank you for explaining it so clearly, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 119,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help you out with the maneuvers. | Speaker B (grandmother): Oh, I see. I'll definitely be careful to stay within the lines during the bay park. Thank you for explaining it so clearly, dear.",
+      "target": "Target (grandson): I'm glad I could help, Grandma. Just let me know if you have any more questions about the parking criteria.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 120,
+      "context": "Speaker A (grandmother): Oh, I see. I'll definitely be careful to stay within the lines during the bay park. Thank you for explaining it so clearly, dear. | Speaker B (grandson): I'm glad I could help, Grandma. Just let me know if you have any more questions about the parking criteria.",
+      "target": "Target (grandmother): That's a relief to hear! I'll try to relax a bit more today then. Thank you for the reassurance, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 121,
+      "context": "Speaker A (grandson): I'm glad I could help, Grandma. Just let me know if you have any more questions about the parking criteria. | Speaker B (grandmother): That's a relief to hear! I'll try to relax a bit more today then. Thank you for the reassurance, dear.",
+      "target": "Target (grandson): I'm really glad to hear that, Grandma. Enjoy your day and take the driving easy!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 122,
+      "context": "Speaker A (grandmother): That's a relief to hear! I'll try to relax a bit more today then. Thank you for the reassurance, dear. | Speaker B (grandson): I'm really glad to hear that, Grandma. Enjoy your day and take the driving easy!",
+      "target": "Target (grandmother): I think I'd like to try a forward bay park today. It seems a bit easier for me to handle.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 123,
+      "context": "Speaker A (grandson): I'm really glad to hear that, Grandma. Enjoy your day and take the driving easy! | Speaker B (grandmother): I think I'd like to try a forward bay park today. It seems a bit easier for me to handle.",
+      "target": "Target (grandson): That sounds like a great idea, Grandma! If you need any tips on the reference points, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 124,
+      "context": "Speaker A (grandmother): I think I'd like to try a forward bay park today. It seems a bit easier for me to handle. | Speaker B (grandson): That sounds like a great idea, Grandma! If you need any tips on the reference points, just let me know.",
+      "target": "Target (grandmother): Alright, here I go! I'll give it my best shot at this parking spot.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 125,
+      "context": "Speaker A (grandson): That sounds like a great idea, Grandma! If you need any tips on the reference points, just let me know. | Speaker B (grandmother): Alright, here I go! I'll give it my best shot at this parking spot.",
+      "target": "Target (grandson): Good luck, Grandma! I'm sure you'll do great. Just take your time with the steering.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 126,
+      "context": "Speaker A (grandmother): Alright, here I go! I'll give it my best shot at this parking spot. | Speaker B (grandson): Good luck, Grandma! I'm sure you'll do great. Just take your time with the steering.",
+      "target": "Target (grandmother): Thank you, dear! I haven't used a reverse camera before, but it sounds quite handy for this.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 127,
+      "context": "Speaker A (grandson): Good luck, Grandma! I'm sure you'll do great. Just take your time with the steering. | Speaker B (grandmother): Thank you, dear! I haven't used a reverse camera before, but it sounds quite handy for this.",
+      "target": "Target (grandson): Yeah, it's really useful once you get the hang of it. If you want, I can show you the grid lines on it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 128,
+      "context": "Speaker A (grandmother): Thank you, dear! I haven't used a reverse camera before, but it sounds quite handy for this. | Speaker B (grandson): Yeah, it's really useful once you get the hang of it. If you want, I can show you the grid lines on it.",
+      "target": "Target (grandmother): Alright, I'll give the camera a try. Thank you for guiding me through this technology.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 129,
+      "context": "Speaker A (grandson): Yeah, it's really useful once you get the hang of it. If you want, I can show you the grid lines on it. | Speaker B (grandmother): Alright, I'll give the camera a try. Thank you for guiding me through this technology.",
+      "target": "Target (grandson): No problem, Grandma! I'm always here to help you out with the modern features.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 130,
+      "context": "Speaker A (grandmother): Alright, I'll give the camera a try. Thank you for guiding me through this technology. | Speaker B (grandson): No problem, Grandma! I'm always here to help you out with the modern features.",
+      "target": "Target (grandmother): Yes, I see the lines on the screen! Thank you for your help, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 131,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm always here to help you out with the modern features. | Speaker B (grandmother): Yes, I see the lines on the screen! Thank you for your help, dear.",
+      "target": "Target (grandson): I'm glad it's working for you, Grandma! If you have any more questions about the display, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 132,
+      "context": "Speaker A (grandmother): Yes, I see the lines on the screen! Thank you for your help, dear. | Speaker B (grandson): I'm glad it's working for you, Grandma! If you have any more questions about the display, just let me know.",
+      "target": "Target (grandmother): Well, I suppose if they're already on the road, they might have the priority at this junction. Could you explain it to me?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 133,
+      "context": "Speaker A (grandson): I'm glad it's working for you, Grandma! If you have any more questions about the display, just let me know. | Speaker B (grandmother): Well, I suppose if they're already on the road, they might have the priority at this junction. Could you explain it to me?",
+      "target": "Target (grandson): Sure, Grandma! When you're at an intersection, the car already on the main road usually has the right of way. Yielding is key.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 134,
+      "context": "Speaker A (grandmother): Well, I suppose if they're already on the road, they might have the priority at this junction. Could you explain it to me? | Speaker B (grandson): Sure, Grandma! When you're at an intersection, the car already on the main road usually has the right of way. Yielding is key.",
+      "target": "Target (grandmother): Yes, it does seem right. Thank you for clarifying that right of way for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 135,
+      "context": "Speaker A (grandson): Sure, Grandma! When you're at an intersection, the car already on the main road usually has the right of way. Yielding is key. | Speaker B (grandmother): Yes, it does seem right. Thank you for clarifying that right of way for me.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help with the rules of the road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 136,
+      "context": "Speaker A (grandmother): Yes, it does seem right. Thank you for clarifying that right of way for me. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help with the rules of the road.",
+      "target": "Target (grandmother): Alright, I'll give the reverse park a try. It's nice to have the camera for extra help with the distance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 137,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help with the rules of the road. | Speaker B (grandmother): Alright, I'll give the reverse park a try. It's nice to have the camera for extra help with the distance.",
+      "target": "Target (grandson): That's great, Grandma! The camera can definitely make things easier. Just take your time and follow the guidelines.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 138,
+      "context": "Speaker A (grandmother): Alright, I'll give the reverse park a try. It's nice to have the camera for extra help with the distance. | Speaker B (grandson): That's great, Grandma! The camera can definitely make things easier. Just take your time and follow the guidelines.",
+      "target": "Target (grandson): If you need any more help with the sensors or the display, just let me know. I'm happy to assist!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 139,
+      "context": "Speaker A (grandson): That's great, Grandma! The camera can definitely make things easier. Just take your time and follow the guidelines. | Speaker B (grandson): If you need any more help with the sensors or the display, just let me know. I'm happy to assist!",
+      "target": "Target (grandmother): Alright, I'm turning to the right now. Thanks for guiding me through this corner.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 140,
+      "context": "Speaker A (grandson): If you need any more help with the sensors or the display, just let me know. I'm happy to assist! | Speaker B (grandmother): Alright, I'm turning to the right now. Thanks for guiding me through this corner.",
+      "target": "Target (grandson): You're doing great, Grandma! I'm here if you need any positioning advice.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 141,
+      "context": "Speaker A (grandmother): Alright, I'm turning to the right now. Thanks for guiding me through this corner. | Speaker B (grandson): You're doing great, Grandma! I'm here if you need any positioning advice.",
+      "target": "Target (grandmother): Oh, I thought I needed to signal earlier. Thanks for letting me know. I'll go left now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 142,
+      "context": "Speaker A (grandson): You're doing great, Grandma! I'm here if you need any positioning advice. | Speaker B (grandmother): Oh, I thought I needed to signal earlier. Thanks for letting me know. I'll go left now.",
+      "target": "Target (grandson): No problem, Grandma! Just remember to signal before you reach the turn so others know your plan.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 143,
+      "context": "Speaker A (grandmother): Oh, I thought I needed to signal earlier. Thanks for letting me know. I'll go left now. | Speaker B (grandson): No problem, Grandma! Just remember to signal before you reach the turn so others know your plan.",
+      "target": "Target (grandmother): I guess I signal now because there's no other traffic around us right now. But it's always good to be cautious.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 144,
+      "context": "Speaker A (grandson): No problem, Grandma! Just remember to signal before you reach the turn so others know your plan. | Speaker B (grandmother): I guess I signal now because there's no other traffic around us right now. But it's always good to be cautious.",
+      "target": "Target (grandson): Exactly, it's always better to build the habit. You're doing great with the steering!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 145,
+      "context": "Speaker A (grandmother): I guess I signal now because there's no other traffic around us right now. But it's always good to be cautious. | Speaker B (grandson): Exactly, it's always better to build the habit. You're doing great with the steering!",
+      "target": "Target (grandmother): Yes, I remember those hand signals! It's amazing how things have changed with indicator lights over the years.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 146,
+      "context": "Speaker A (grandson): Exactly, it's always better to build the habit. You're doing great with the steering! | Speaker B (grandmother): Yes, I remember those hand signals! It's amazing how things have changed with indicator lights over the years.",
+      "target": "Target (grandmother): It's true, technology and rules have evolved so much. Do you find it easier now with all the new dashboard gadgets?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 147,
+      "context": "Speaker A (grandmother): Yes, I remember those hand signals! It's amazing how things have changed with indicator lights over the years. | Speaker B (grandmother): It's true, technology and rules have evolved so much. Do you find it easier now with all the new dashboard gadgets?",
+      "target": "Target (grandson): Yeah, I think the new gadgets make things a lot easier, especially with navigation and safety features like blind-spot alerts.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 148,
+      "context": "Speaker A (grandmother): It's true, technology and rules have evolved so much. Do you find it easier now with all the new dashboard gadgets? | Speaker B (grandson): Yeah, I think the new gadgets make things a lot easier, especially with navigation and safety features like blind-spot alerts.",
+      "target": "Target (grandmother): Back then, not all cars had indicator lights, so drivers used hand signals to show where they were going. It was a different time!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 149,
+      "context": "Speaker A (grandson): Yeah, I think the new gadgets make things a lot easier, especially with navigation and safety features like blind-spot alerts. | Speaker B (grandmother): Back then, not all cars had indicator lights, so drivers used hand signals to show where they were going. It was a different time!",
+      "target": "Target (grandson): Wow, that's really interesting! I can't imagine having to roll down the window every time I wanted to turn.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 150,
+      "context": "Speaker A (grandmother): Back then, not all cars had indicator lights, so drivers used hand signals to show where they were going. It was a different time! | Speaker B (grandson): Wow, that's really interesting! I can't imagine having to roll down the window every time I wanted to turn.",
+      "target": "Target (grandmother): To signal a left turn, you would extend your left arm straight out. It was quite the workout in heavy traffic!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 151,
+      "context": "Speaker A (grandson): Wow, that's really interesting! I can't imagine having to roll down the window every time I wanted to turn. | Speaker B (grandmother): To signal a left turn, you would extend your left arm straight out. It was quite the workout in heavy traffic!",
+      "target": "Target (grandson): That sounds like it would have been quite a challenge in the winter! I'm glad we have it easier now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 152,
+      "context": "Speaker A (grandmother): To signal a left turn, you would extend your left arm straight out. It was quite the workout in heavy traffic! | Speaker B (grandson): That sounds like it would have been quite a challenge in the winter! I'm glad we have it easier now.",
+      "target": "Target (grandmother): Well, it was a bit tricky, but drivers were more attentive back then because they had to watch each other so closely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 153,
+      "context": "Speaker A (grandson): That sounds like it would have been quite a challenge in the winter! I'm glad we have it easier now. | Speaker B (grandmother): Well, it was a bit tricky, but drivers were more attentive back then because they had to watch each other so closely.",
+      "target": "Target (grandson): I guess that makes sense. It's interesting how driving safety has evolved through technology.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 154,
+      "context": "Speaker A (grandmother): Well, it was a bit tricky, but drivers were more attentive back then because they had to watch each other so closely. | Speaker B (grandson): I guess that makes sense. It's interesting how driving safety has evolved through technology.",
+      "target": "Target (grandmother): It's fascinating how things have changed, isn't it? I'm glad we have modern safety standards now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 155,
+      "context": "Speaker A (grandson): I guess that makes sense. It's interesting how driving safety has evolved through technology. | Speaker B (grandmother): It's fascinating how things have changed, isn't it? I'm glad we have modern safety standards now.",
+      "target": "Target (grandson): Yeah, it's amazing how technology has made things so much more reliable for everyone on the road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 156,
+      "context": "Speaker A (grandmother): It's fascinating how things have changed, isn't it? I'm glad we have modern safety standards now. | Speaker B (grandson): Yeah, it's amazing how technology has made things so much more reliable for everyone on the road.",
+      "target": "Target (grandmother): Oh yes, to signal slowing down, you would move your arm up and down. It was like a little dance for the car behind!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 157,
+      "context": "Speaker A (grandson): Yeah, it's amazing how technology has made things so much more reliable for everyone on the road. | Speaker B (grandmother): Oh yes, to signal slowing down, you would move your arm up and down. It was like a little dance for the car behind!",
+      "target": "Target (grandson): That sounds fun! I can't imagine doing that while trying to brake during a driving test today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 158,
+      "context": "Speaker A (grandmother): Oh yes, to signal slowing down, you would move your arm up and down. It was like a little dance for the car behind! | Speaker B (grandson): That sounds fun! I can't imagine doing that while trying to brake during a driving test today.",
+      "target": "Target (grandson): It's really interesting to hear about those old methods. Do you have any other driving stories like that?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 159,
+      "context": "Speaker A (grandson): That sounds fun! I can't imagine doing that while trying to brake during a driving test today. | Speaker B (grandson): It's really interesting to hear about those old methods. Do you have any other driving stories like that?",
+      "target": "Target (grandson): Wow, that's fascinating! I love hearing about how things were done differently. It's like a glimpse into a different era of driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 160,
+      "context": "Speaker A (grandson): It's really interesting to hear about those old methods. Do you have any other driving stories like that? | Speaker B (grandson): Wow, that's fascinating! I love hearing about how things were done differently. It's like a glimpse into a different era of driving.",
+      "target": "Target (grandmother): Oh, I'm feeling a bit nervous about the highway, but I know you'll be a good guide. It's always a bit daunting at first.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 161,
+      "context": "Speaker A (grandson): Wow, that's fascinating! I love hearing about how things were done differently. It's like a glimpse into a different era of driving. | Speaker B (grandmother): Oh, I'm feeling a bit nervous about the highway, but I know you'll be a good guide. It's always a bit daunting at first.",
+      "target": "Target (grandson): Thanks, Grandma! I really appreciate your trust in me. It means a lot.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 162,
+      "context": "Speaker A (grandmother): Oh, I'm feeling a bit nervous about the highway, but I know you'll be a good guide. It's always a bit daunting at first. | Speaker B (grandson): Thanks, Grandma! I really appreciate your trust in me. It means a lot.",
+      "target": "Target (grandson): Do you have any advice for handling nerves behind the wheel? I could use some tips for my own test.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 163,
+      "context": "Speaker A (grandson): Thanks, Grandma! I really appreciate your trust in me. It means a lot. | Speaker B (grandson): Do you have any advice for handling nerves behind the wheel? I could use some tips for my own test.",
+      "target": "Target (grandson): I guess it's just about consistent practice and getting used to the car's size, right?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 164,
+      "context": "Speaker A (grandson): Do you have any advice for handling nerves behind the wheel? I could use some tips for my own test. | Speaker B (grandson): I guess it's just about consistent practice and getting used to the car's size, right?",
+      "target": "Target (grandmother): Oh, that's so sweet of you to say! I'm sure you'll be a fantastic instructor when you're older.",
+      "gold_label": "none",
+      "predicted_label": "stereotyped expectation",
+      "raw": "stereotyped expectation"
+    },
+    {
+      "turn_index": 165,
+      "context": "Speaker A (grandson): I guess it's just about consistent practice and getting used to the car's size, right? | Speaker B (grandmother): Oh, that's so sweet of you to say! I'm sure you'll be a fantastic instructor when you're older.",
+      "target": "Target (grandson): Thanks, Grandma! That means a lot. I'll keep practicing and hopefully get as good as you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 166,
+      "context": "Speaker A (grandmother): Oh, that's so sweet of you to say! I'm sure you'll be a fantastic instructor when you're older. | Speaker B (grandson): Thanks, Grandma! That means a lot. I'll keep practicing and hopefully get as good as you.",
+      "target": "Target (grandmother): Oh dear, I guess I need more practice with the hill starts then! But I'm sure with your help, I'll get there soon.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 167,
+      "context": "Speaker A (grandson): Thanks, Grandma! That means a lot. I'll keep practicing and hopefully get as good as you. | Speaker B (grandmother): Oh dear, I guess I need more practice with the hill starts then! But I'm sure with your help, I'll get there soon.",
+      "target": "Target (grandson): Of course, Grandma! I'm always here to help you out. We can practice the hill starts together tonight.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 168,
+      "context": "Speaker A (grandmother): Oh dear, I guess I need more practice with the hill starts then! But I'm sure with your help, I'll get there soon. | Speaker B (grandson): Of course, Grandma! I'm always here to help you out. We can practice the hill starts together tonight.",
+      "target": "Target (grandmother): Well, I appreciate your high standards for safety. It means I'll be well-prepared when I go for my renewal.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 169,
+      "context": "Speaker A (grandson): Of course, Grandma! I'm always here to help you out. We can practice the hill starts together tonight. | Speaker B (grandmother): Well, I appreciate your high standards for safety. It means I'll be well-prepared when I go for my renewal.",
+      "target": "Target (grandson): Thanks, Grandma! I'm glad you think so. Let's keep working on the observation skills and we'll both improve.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 170,
+      "context": "Speaker A (grandmother): Well, I appreciate your high standards for safety. It means I'll be well-prepared when I go for my renewal. | Speaker B (grandson): Thanks, Grandma! I'm glad you think so. Let's keep working on the observation skills and we'll both improve.",
+      "target": "Target (grandmother): That's a great approach. Keeping it strictly by the book will make the real test feel like a breeze!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 171,
+      "context": "Speaker A (grandson): Thanks, Grandma! I'm glad you think so. Let's keep working on the observation skills and we'll both improve. | Speaker B (grandmother): That's a great approach. Keeping it strictly by the book will make the real test feel like a breeze!",
+      "target": "Target (grandson): I'm sure it will, Grandma! I'm really looking forward to our next highway session.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 172,
+      "context": "Speaker A (grandmother): That's a great approach. Keeping it strictly by the book will make the real test feel like a breeze! | Speaker B (grandson): I'm sure it will, Grandma! I'm really looking forward to our next highway session.",
+      "target": "Target (grandmother): Oh yes, I do love driving up Bluewood! It's such a beautiful view. I'm glad you're helping me get back my confidence.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 173,
+      "context": "Speaker A (grandson): I'm sure it will, Grandma! I'm really looking forward to our next highway session. | Speaker B (grandmother): Oh yes, I do love driving up Bluewood! It's such a beautiful view. I'm glad you're helping me get back my confidence.",
+      "target": "Target (grandson): I'm happy to help, Grandma! It's always fun driving with you. Maybe we can try the mountain road next time?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 174,
+      "context": "Speaker A (grandmother): Oh yes, I do love driving up Bluewood! It's such a beautiful view. I'm glad you're helping me get back my confidence. | Speaker B (grandson): I'm happy to help, Grandma! It's always fun driving with you. Maybe we can try the mountain road next time?",
+      "target": "Target (grandmother): Yes, I see the edge of the road. I'll make sure to stay centered in the lane. Thank you for pointing that out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 175,
+      "context": "Speaker A (grandson): I'm happy to help, Grandma! It's always fun driving with you. Maybe we can try the mountain road next time? | Speaker B (grandmother): Yes, I see the edge of the road. I'll make sure to stay centered in the lane. Thank you for pointing that out.",
+      "target": "Target (grandson): Great! I'm sure you'll do just fine with the lane keeping. Let me know if you want to practice more merges.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 176,
+      "context": "Speaker A (grandmother): Yes, I see the edge of the road. I'll make sure to stay centered in the lane. Thank you for pointing that out. | Speaker B (grandson): Great! I'm sure you'll do just fine with the lane keeping. Let me know if you want to practice more merges.",
+      "target": "Target (grandmother): Yes, it can be a bit nerve-wracking to merge, but with your guidance, I'm sure I'll manage just fine. I'll merge when I see a clear gap.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 177,
+      "context": "Speaker A (grandson): Great! I'm sure you'll do just fine with the lane keeping. Let me know if you want to practice more merges. | Speaker B (grandmother): Yes, it can be a bit nerve-wracking to merge, but with your guidance, I'm sure I'll manage just fine. I'll merge when I see a clear gap.",
+      "target": "Target (grandson): I'm glad to hear that, Grandma! Just match the speed of traffic and remember I'm here to help you spot a gap.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 178,
+      "context": "Speaker A (grandmother): Yes, it can be a bit nerve-wracking to merge, but with your guidance, I'm sure I'll manage just fine. I'll merge when I see a clear gap. | Speaker B (grandson): I'm glad to hear that, Grandma! Just match the speed of traffic and remember I'm here to help you spot a gap.",
+      "target": "Target (grandmother): Yes, I did check my blind spot before that lane change. Thank you for reminding me, it's always important.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 179,
+      "context": "Speaker A (grandson): I'm glad to hear that, Grandma! Just match the speed of traffic and remember I'm here to help you spot a gap. | Speaker B (grandmother): Yes, I did check my blind spot before that lane change. Thank you for reminding me, it's always important.",
+      "target": "Target (grandson): That's great to hear, Grandma! Always better to be safe than sorry. Let me know if you want to try some more maneuvers.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 180,
+      "context": "Speaker A (grandmother): Yes, I did check my blind spot before that lane change. Thank you for reminding me, it's always important. | Speaker B (grandson): That's great to hear, Grandma! Always better to be safe than sorry. Let me know if you want to try some more maneuvers.",
+      "target": "Target (grandmother): The blind spot is an area around the car that you can't see in your mirrors. It's important to turn your head quickly before moving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 181,
+      "context": "Speaker A (grandson): That's great to hear, Grandma! Always better to be safe than sorry. Let me know if you want to try some more maneuvers. | Speaker B (grandmother): The blind spot is an area around the car that you can't see in your mirrors. It's important to turn your head quickly before moving.",
+      "target": "Target (grandson): Thanks for the explanation, Grandma! It's a great reminder for why shoulder checks are mandatory.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 182,
+      "context": "Speaker A (grandmother): The blind spot is an area around the car that you can't see in your mirrors. It's important to turn your head quickly before moving. | Speaker B (grandson): Thanks for the explanation, Grandma! It's a great reminder for why shoulder checks are mandatory.",
+      "target": "Target (grandmother): Exactly, it's crucial to always be aware of your surroundings while driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 183,
+      "context": "Speaker A (grandson): Thanks for the explanation, Grandma! It's a great reminder for why shoulder checks are mandatory. | Speaker B (grandmother): Exactly, it's crucial to always be aware of your surroundings while driving.",
+      "target": "Target (grandson): Got it, I'll make sure to keep that in mind when I'm driving later. Thanks again for the great tips!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 184,
+      "context": "Speaker A (grandmother): Exactly, it's crucial to always be aware of your surroundings while driving. | Speaker B (grandson): Got it, I'll make sure to keep that in mind when I'm driving later. Thanks again for the great tips!",
+      "target": "Target (grandmother): Yes, that's right. It's always good to be extra careful and double-check those hidden areas.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 185,
+      "context": "Speaker A (grandson): Got it, I'll make sure to keep that in mind when I'm driving later. Thanks again for the great tips! | Speaker B (grandmother): Yes, that's right. It's always good to be extra careful and double-check those hidden areas.",
+      "target": "Target (grandson): Absolutely, I'll be sure to stay vigilant. Thanks for teaching me your safety habits!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 186,
+      "context": "Speaker A (grandmother): Yes, that's right. It's always good to be extra careful and double-check those hidden areas. | Speaker B (grandson): Absolutely, I'll be sure to stay vigilant. Thanks for teaching me your safety habits!",
+      "target": "Target (grandmother): Thank you for the tip about the digital speedometer, dear. I'll make sure to keep an eye on it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 187,
+      "context": "Speaker A (grandson): Absolutely, I'll be sure to stay vigilant. Thanks for teaching me your safety habits! | Speaker B (grandmother): Thank you for the tip about the digital speedometer, dear. I'll make sure to keep an eye on it.",
+      "target": "Target (grandson): No problem, Grandma! I'm glad we can help each other out with the driving lessons.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 188,
+      "context": "Speaker A (grandmother): Thank you for the tip about the digital speedometer, dear. I'll make sure to keep an eye on it. | Speaker B (grandson): No problem, Grandma! I'm glad we can help each other out with the driving lessons.",
+      "target": "Target (grandmother): Yes, the steering here is quite similar to my old car. I'm getting the hang of it, thanks to your help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 189,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm glad we can help each other out with the driving lessons. | Speaker B (grandmother): Yes, the steering here is quite similar to my old car. I'm getting the hang of it, thanks to your help.",
+      "target": "Target (grandson): I'm really happy to hear that, Grandma! If you need any more help with the car's features, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 190,
+      "context": "Speaker A (grandmother): Yes, the steering here is quite similar to my old car. I'm getting the hang of it, thanks to your help. | Speaker B (grandson): I'm really happy to hear that, Grandma! If you need any more help with the car's features, just let me know.",
+      "target": "Target (grandmother): It's nice to have you here guiding me. I feel much more confident in traffic now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 191,
+      "context": "Speaker A (grandson): I'm really happy to hear that, Grandma! If you need any more help with the car's features, just let me know. | Speaker B (grandmother): It's nice to have you here guiding me. I feel much more confident in traffic now.",
+      "target": "Target (grandson): I'm so glad to hear that, Grandma! It's always fun spending time on the road with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 192,
+      "context": "Speaker A (grandmother): It's nice to have you here guiding me. I feel much more confident in traffic now. | Speaker B (grandson): I'm so glad to hear that, Grandma! It's always fun spending time on the road with you.",
+      "target": "Target (grandmother): Yes, it has been quite a while since I last drove on this road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 193,
+      "context": "Speaker A (grandson): I'm so glad to hear that, Grandma! It's always fun spending time on the road with you. | Speaker B (grandmother): Yes, it has been quite a while since I last drove on this road.",
+      "target": "Target (grandson): It's great that you're getting back into it. If you want, we can go for a drive together more often.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 194,
+      "context": "Speaker A (grandmother): Yes, it has been quite a while since I last drove on this road. | Speaker B (grandson): It's great that you're getting back into it. If you want, we can go for a drive together more often.",
+      "target": "Target (grandmother): Thank you for the advice, dear. I'll make sure to change lanes only when it's safe and the lines are broken.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 195,
+      "context": "Speaker A (grandson): It's great that you're getting back into it. If you want, we can go for a drive together more often. | Speaker B (grandmother): Thank you for the advice, dear. I'll make sure to change lanes only when it's safe and the lines are broken.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 196,
+      "context": "Speaker A (grandmother): Thank you for the advice, dear. I'll make sure to change lanes only when it's safe and the lines are broken. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help if you need anything.",
+      "target": "Target (grandmother): Oh, I think that's called the passing lane, isn't it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 197,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help if you need anything. | Speaker B (grandmother): Oh, I think that's called the passing lane, isn't it?",
+      "target": "Target (grandson): Yes, that's right! The passing lane is for overtaking other cars.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 198,
+      "context": "Speaker A (grandmother): Oh, I think that's called the passing lane, isn't it? | Speaker B (grandson): Yes, that's right! The passing lane is for overtaking other cars.",
+      "target": "Target (grandmother): Ah, I see. Thank you for explaining that to me. I'll keep it in mind during my test.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 199,
+      "context": "Speaker A (grandson): Yes, that's right! The passing lane is for overtaking other cars. | Speaker B (grandmother): Ah, I see. Thank you for explaining that to me. I'll keep it in mind during my test.",
+      "target": "Target (grandson): No problem, Grandma! If you have any more questions, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 200,
+      "context": "Speaker A (grandmother): Ah, I see. Thank you for explaining that to me. I'll keep it in mind during my test. | Speaker B (grandson): No problem, Grandma! If you have any more questions, just let me know.",
+      "target": "Target (grandson): By the way, how's your driving practice going? Are you feeling more confident?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 201,
+      "context": "Speaker A (grandson): No problem, Grandma! If you have any more questions, just let me know. | Speaker B (grandson): By the way, how's your driving practice going? Are you feeling more confident?",
+      "target": "Target (grandmother): I am feeling better, though I'll slow down a bit now. Thank you for keeping an eye on the speed for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 202,
+      "context": "Speaker A (grandson): By the way, how's your driving practice going? Are you feeling more confident? | Speaker B (grandmother): I am feeling better, though I'll slow down a bit now. Thank you for keeping an eye on the speed for me.",
+      "target": "Target (grandson): You're doing great, Grandma! Just keep practicing and you'll get the hang of it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 203,
+      "context": "Speaker A (grandmother): I am feeling better, though I'll slow down a bit now. Thank you for keeping an eye on the speed for me. | Speaker B (grandson): You're doing great, Grandma! Just keep practicing and you'll get the hang of it.",
+      "target": "Target (grandmother): Oh, I think that sign means the speed limit is about to change, doesn't it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 204,
+      "context": "Speaker A (grandson): You're doing great, Grandma! Just keep practicing and you'll get the hang of it. | Speaker B (grandmother): Oh, I think that sign means the speed limit is about to change, doesn't it?",
+      "target": "Target (grandson): Yes, it usually means the speed limit is about to change. Just keep an eye on the signs.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 205,
+      "context": "Speaker A (grandmother): Oh, I think that sign means the speed limit is about to change, doesn't it? | Speaker B (grandson): Yes, it usually means the speed limit is about to change. Just keep an eye on the signs.",
+      "target": "Target (grandmother): Oh, I believe it's 60 miles per hour on a single carriageway, isn't it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 206,
+      "context": "Speaker A (grandson): Yes, it usually means the speed limit is about to change. Just keep an eye on the signs. | Speaker B (grandmother): Oh, I believe it's 60 miles per hour on a single carriageway, isn't it?",
+      "target": "Target (grandson): Yes, that's right, Grandma. It's 60 miles per hour on a single carriageway.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 207,
+      "context": "Speaker A (grandmother): Oh, I believe it's 60 miles per hour on a single carriageway, isn't it? | Speaker B (grandson): Yes, that's right, Grandma. It's 60 miles per hour on a single carriageway.",
+      "target": "Target (grandmother): Alright, I'll speed up a bit and see if we can safely overtake the lorry.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 208,
+      "context": "Speaker A (grandson): Yes, that's right, Grandma. It's 60 miles per hour on a single carriageway. | Speaker B (grandmother): Alright, I'll speed up a bit and see if we can safely overtake the lorry.",
+      "target": "Target (grandson): Okay, just make sure to check your mirrors and signal before you do.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 209,
+      "context": "Speaker A (grandmother): Alright, I'll speed up a bit and see if we can safely overtake the lorry. | Speaker B (grandson): Okay, just make sure to check your mirrors and signal before you do.",
+      "target": "Target (grandmother): Alright, I'll increase the speed a bit more and see if we can safely overtake the lorry.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 210,
+      "context": "Speaker A (grandson): Okay, just make sure to check your mirrors and signal before you do. | Speaker B (grandmother): Alright, I'll increase the speed a bit more and see if we can safely overtake the lorry.",
+      "target": "Target (grandson): Great, just be careful and take your time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 211,
+      "context": "Speaker A (grandmother): Alright, I'll increase the speed a bit more and see if we can safely overtake the lorry. | Speaker B (grandson): Great, just be careful and take your time.",
+      "target": "Target (grandmother): Alright, I'll make sure to stay under 70 and move back to the left lane after overtaking.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 212,
+      "context": "Speaker A (grandson): Great, just be careful and take your time. | Speaker B (grandmother): Alright, I'll make sure to stay under 70 and move back to the left lane after overtaking.",
+      "target": "Target (grandson): Sounds good, just keep an eye on the traffic around you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 213,
+      "context": "Speaker A (grandmother): Alright, I'll make sure to stay under 70 and move back to the left lane after overtaking. | Speaker B (grandson): Sounds good, just keep an eye on the traffic around you.",
+      "target": "Target (grandson): You're doing great, just stay focused and we'll be fine.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 214,
+      "context": "Speaker A (grandson): Sounds good, just keep an eye on the traffic around you. | Speaker B (grandson): You're doing great, just stay focused and we'll be fine.",
+      "target": "Target (grandson): If you need any help or advice, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 215,
+      "context": "Speaker A (grandson): You're doing great, just stay focused and we'll be fine. | Speaker B (grandson): If you need any help or advice, just let me know.",
+      "target": "Target (grandmother): Alright, I'll make sure to do that. Safety first, always.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 216,
+      "context": "Speaker A (grandson): If you need any help or advice, just let me know. | Speaker B (grandmother): Alright, I'll make sure to do that. Safety first, always.",
+      "target": "Target (grandson): Great! I'm glad we're on the same page about safety.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 217,
+      "context": "Speaker A (grandmother): Alright, I'll make sure to do that. Safety first, always. | Speaker B (grandson): Great! I'm glad we're on the same page about safety.",
+      "target": "Target (grandmother): Yes, it's important to be considerate to other drivers. I'll make sure to adjust my speed accordingly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 218,
+      "context": "Speaker A (grandson): Great! I'm glad we're on the same page about safety. | Speaker B (grandmother): Yes, it's important to be considerate to other drivers. I'll make sure to adjust my speed accordingly.",
+      "target": "Target (grandson): That's great to hear! Let me know if you want to practice driving together sometime.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 219,
+      "context": "Speaker A (grandmother): Yes, it's important to be considerate to other drivers. I'll make sure to adjust my speed accordingly. | Speaker B (grandson): That's great to hear! Let me know if you want to practice driving together sometime.",
+      "target": "Target (grandson): By the way, have you tried using the new navigation app I mentioned? It's really helpful.",
+      "gold_label": "none",
+      "predicted_label": "digital disparity",
+      "raw": "digital disparity"
+    },
+    {
+      "turn_index": 220,
+      "context": "Speaker A (grandson): That's great to hear! Let me know if you want to practice driving together sometime. | Speaker B (grandson): By the way, have you tried using the new navigation app I mentioned? It's really helpful.",
+      "target": "Target (grandmother): Thank you for the advice, dear. I'll make sure to stay in the lane if I feel unsure.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 221,
+      "context": "Speaker A (grandson): By the way, have you tried using the new navigation app I mentioned? It's really helpful. | Speaker B (grandmother): Thank you for the advice, dear. I'll make sure to stay in the lane if I feel unsure.",
+      "target": "Target (grandson): No problem! If you need any help with the app, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 222,
+      "context": "Speaker A (grandmother): Thank you for the advice, dear. I'll make sure to stay in the lane if I feel unsure. | Speaker B (grandson): No problem! If you need any help with the app, just let me know.",
+      "target": "Target (grandmother): Yes, it does feel a bit chilly in the car. Maybe we should turn up the heat a little.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 223,
+      "context": "Speaker A (grandson): No problem! If you need any help with the app, just let me know. | Speaker B (grandmother): Yes, it does feel a bit chilly in the car. Maybe we should turn up the heat a little.",
+      "target": "Target (grandson): Sure, I can adjust the thermostat for you. Just let me know if it feels better.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 224,
+      "context": "Speaker A (grandmother): Yes, it does feel a bit chilly in the car. Maybe we should turn up the heat a little. | Speaker B (grandson): Sure, I can adjust the thermostat for you. Just let me know if it feels better.",
+      "target": "Target (grandmother): Yes, speeding can be quite dangerous. It's always better to be safe and cautious.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 225,
+      "context": "Speaker A (grandson): Sure, I can adjust the thermostat for you. Just let me know if it feels better. | Speaker B (grandmother): Yes, speeding can be quite dangerous. It's always better to be safe and cautious.",
+      "target": "Target (grandson): Absolutely, I always try to drive carefully. Safety first!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 226,
+      "context": "Speaker A (grandmother): Yes, speeding can be quite dangerous. It's always better to be safe and cautious. | Speaker B (grandson): Absolutely, I always try to drive carefully. Safety first!",
+      "target": "Target (grandmother): I'm glad we agree on being cautious. It's always better to arrive safely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 227,
+      "context": "Speaker A (grandson): Absolutely, I always try to drive carefully. Safety first! | Speaker B (grandmother): I'm glad we agree on being cautious. It's always better to arrive safely.",
+      "target": "Target (grandson): Exactly, better safe than sorry. Thanks for always reminding me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 228,
+      "context": "Speaker A (grandmother): I'm glad we agree on being cautious. It's always better to arrive safely. | Speaker B (grandson): Exactly, better safe than sorry. Thanks for always reminding me.",
+      "target": "Target (grandmother): Thank you, dear. That means a lot to me. I'm always trying to be careful on the road.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 229,
+      "context": "Speaker A (grandson): Exactly, better safe than sorry. Thanks for always reminding me. | Speaker B (grandmother): Thank you, dear. That means a lot to me. I'm always trying to be careful on the road.",
+      "target": "Target (grandson): I'm glad we both prioritize safety. It's important to me too.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 230,
+      "context": "Speaker A (grandmother): Thank you, dear. That means a lot to me. I'm always trying to be careful on the road. | Speaker B (grandson): I'm glad we both prioritize safety. It's important to me too.",
+      "target": "Target (grandmother): I understand, dear. Driving can be intimidating for some people, but with practice, it becomes easier.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 231,
+      "context": "Speaker A (grandson): I'm glad we both prioritize safety. It's important to me too. | Speaker B (grandmother): I understand, dear. Driving can be intimidating for some people, but with practice, it becomes easier.",
+      "target": "Target (grandson): Yeah, I guess practice does make perfect. I'll keep at it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 232,
+      "context": "Speaker A (grandmother): I understand, dear. Driving can be intimidating for some people, but with practice, it becomes easier. | Speaker B (grandson): Yeah, I guess practice does make perfect. I'll keep at it.",
+      "target": "Target (grandson): By the way, do you have any tips for staying calm while driving?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 233,
+      "context": "Speaker A (grandson): Yeah, I guess practice does make perfect. I'll keep at it. | Speaker B (grandson): By the way, do you have any tips for staying calm while driving?",
+      "target": "Target (grandmother): Oh, you cheeky one! I suppose I can whip up something special for you to reward your hard work.",
+      "gold_label": "none",
+      "predicted_label": "perceived disrespect",
+      "raw": "perceived disrespect"
+    },
+    {
+      "turn_index": 234,
+      "context": "Speaker A (grandson): By the way, do you have any tips for staying calm while driving? | Speaker B (grandmother): Oh, you cheeky one! I suppose I can whip up something special for you to reward your hard work.",
+      "target": "Target (grandson): Haha, thanks! I could use a nice treat after all this driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 235,
+      "context": "Speaker A (grandmother): Oh, you cheeky one! I suppose I can whip up something special for you to reward your hard work. | Speaker B (grandson): Haha, thanks! I could use a nice treat after all this driving.",
+      "target": "Target (grandmother): Yes, that's right! I'll make a delicious peas dish. I'll make sure to include it in our meal.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 236,
+      "context": "Speaker A (grandson): Haha, thanks! I could use a nice treat after all this driving. | Speaker B (grandmother): Yes, that's right! I'll make a delicious peas dish. I'll make sure to include it in our meal.",
+      "target": "Target (grandson): That sounds amazing! I can't wait to try it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 237,
+      "context": "Speaker A (grandmother): Yes, that's right! I'll make a delicious peas dish. I'll make sure to include it in our meal. | Speaker B (grandson): That sounds amazing! I can't wait to try it.",
+      "target": "Target (grandmother): I'm glad you're looking forward to it! I'll start preparing soon.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 238,
+      "context": "Speaker A (grandson): That sounds amazing! I can't wait to try it. | Speaker B (grandmother): I'm glad you're looking forward to it! I'll start preparing soon.",
+      "target": "Target (grandson): Awesome! Let me know if you need any help with the preparation.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 239,
+      "context": "Speaker A (grandmother): I'm glad you're looking forward to it! I'll start preparing soon. | Speaker B (grandson): Awesome! Let me know if you need any help with the preparation.",
+      "target": "Target (grandmother): Oh, you're making me blush! Thank you, dear. I'll do my best to live up to that praise.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 240,
+      "context": "Speaker A (grandson): Awesome! Let me know if you need any help with the preparation. | Speaker B (grandmother): Oh, you're making me blush! Thank you, dear. I'll do my best to live up to that praise.",
+      "target": "Target (grandson): You're the best, Grandma! I'm sure it'll be delicious.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 241,
+      "context": "Speaker A (grandmother): Oh, you're making me blush! Thank you, dear. I'll do my best to live up to that praise. | Speaker B (grandson): You're the best, Grandma! I'm sure it'll be delicious.",
+      "target": "Target (grandmother): Well, dear, I think it's a mix of experience and a lot of love put into every dish.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 242,
+      "context": "Speaker A (grandson): You're the best, Grandma! I'm sure it'll be delicious. | Speaker B (grandmother): Well, dear, I think it's a mix of experience and a lot of love put into every dish.",
+      "target": "Target (grandson): That's why your cooking is unbeatable! I can't wait to try it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 243,
+      "context": "Speaker A (grandmother): Well, dear, I think it's a mix of experience and a lot of love put into every dish. | Speaker B (grandson): That's why your cooking is unbeatable! I can't wait to try it.",
+      "target": "Target (grandmother): You're too kind, dear. I'm just happy you enjoy my cooking so much.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 244,
+      "context": "Speaker A (grandson): That's why your cooking is unbeatable! I can't wait to try it. | Speaker B (grandmother): You're too kind, dear. I'm just happy you enjoy my cooking so much.",
+      "target": "Target (grandson): I always do, Grandma! Can I help with anything?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 245,
+      "context": "Speaker A (grandmother): You're too kind, dear. I'm just happy you enjoy my cooking so much. | Speaker B (grandson): I always do, Grandma! Can I help with anything?",
+      "target": "Target (grandmother): Is the road ahead clear? I hope everything's okay with the traffic there.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 246,
+      "context": "Speaker A (grandson): I always do, Grandma! Can I help with anything? | Speaker B (grandmother): Is the road ahead clear? I hope everything's okay with the traffic there.",
+      "target": "Target (grandson): Yeah, the traffic can be a bit crazy sometimes. But I'm sure it'll be fine. Do you need me to pick up anything for dinner on our way?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 247,
+      "context": "Speaker A (grandmother): Is the road ahead clear? I hope everything's okay with the traffic there. | Speaker B (grandson): Yeah, the traffic can be a bit crazy sometimes. But I'm sure it'll be fine. Do you need me to pick up anything for dinner on our way?",
+      "target": "Target (grandmother): Oh, I see! Thank you for explaining that to me, dear. I'll keep an eye out for those markings next time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 248,
+      "context": "Speaker A (grandson): Yeah, the traffic can be a bit crazy sometimes. But I'm sure it'll be fine. Do you need me to pick up anything for dinner on our way? | Speaker B (grandmother): Oh, I see! Thank you for explaining that to me, dear. I'll keep an eye out for those markings next time.",
+      "target": "Target (grandson): No problem, Grandma! I'm glad I could help. Let me know if there's anything else you need.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 249,
+      "context": "Speaker A (grandmother): Oh, I see! Thank you for explaining that to me, dear. I'll keep an eye out for those markings next time. | Speaker B (grandson): No problem, Grandma! I'm glad I could help. Let me know if there's anything else you need.",
+      "target": "Target (grandmother): Ah, I see what you mean now. It's quite fascinating how these road markings work. Thank you for showing me, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 250,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm glad I could help. Let me know if there's anything else you need. | Speaker B (grandmother): Ah, I see what you mean now. It's quite fascinating how these road markings work. Thank you for showing me, dear.",
+      "target": "Target (grandson): I'm glad you found it interesting, Grandma! If you ever want to go for a drive and see more, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 251,
+      "context": "Speaker A (grandmother): Ah, I see what you mean now. It's quite fascinating how these road markings work. Thank you for showing me, dear. | Speaker B (grandson): I'm glad you found it interesting, Grandma! If you ever want to go for a drive and see more, just let me know.",
+      "target": "Target (grandmother): Thank you for explaining all of this to me, dear. It's quite helpful to understand how these things work.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 252,
+      "context": "Speaker A (grandson): I'm glad you found it interesting, Grandma! If you ever want to go for a drive and see more, just let me know. | Speaker B (grandmother): Thank you for explaining all of this to me, dear. It's quite helpful to understand how these things work.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help you out with anything you need.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 253,
+      "context": "Speaker A (grandmother): Thank you for explaining all of this to me, dear. It's quite helpful to understand how these things work. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help you out with anything you need.",
+      "target": "Target (grandmother): Alright, dear, I'll keep an eye out for the Bluewater sign. Thank you for guiding me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 254,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help you out with anything you need. | Speaker B (grandmother): Alright, dear, I'll keep an eye out for the Bluewater sign. Thank you for guiding me.",
+      "target": "Target (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 255,
+      "context": "Speaker A (grandmother): Alright, dear, I'll keep an eye out for the Bluewater sign. Thank you for guiding me. | Speaker B (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "target": "Target (grandmother): Oh, I see the Bluewater sign now! Thank you for pointing it out, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 256,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm glad I could help. Let me know if you need anything else. | Speaker B (grandmother): Oh, I see the Bluewater sign now! Thank you for pointing it out, dear.",
+      "target": "Target (grandson): I'm glad you found it, Grandma! If you need any more directions, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 257,
+      "context": "Speaker A (grandmother): Oh, I see the Bluewater sign now! Thank you for pointing it out, dear. | Speaker B (grandson): I'm glad you found it, Grandma! If you need any more directions, just let me know.",
+      "target": "Target (grandmother): Yes, I can see the little green studs on the road now. Thank you for explaining it so clearly, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 258,
+      "context": "Speaker A (grandson): I'm glad you found it, Grandma! If you need any more directions, just let me know. | Speaker B (grandmother): Yes, I can see the little green studs on the road now. Thank you for explaining it so clearly, dear.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 259,
+      "context": "Speaker A (grandmother): Yes, I can see the little green studs on the road now. Thank you for explaining it so clearly, dear. | Speaker B (grandson): You're welcome, Grandma! I'm always here to help.",
+      "target": "Target (grandmother): Ah, I understand now. It's all making sense, thanks to your help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 260,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always here to help. | Speaker B (grandmother): Ah, I understand now. It's all making sense, thanks to your help.",
+      "target": "Target (grandson): I'm really glad I could help, Grandma. If you ever need anything else, just ask!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 261,
+      "context": "Speaker A (grandmother): Ah, I understand now. It's all making sense, thanks to your help. | Speaker B (grandson): I'm really glad I could help, Grandma. If you ever need anything else, just ask!",
+      "target": "Target (grandmother): Thank you, dear, for being so patient and explaining everything so clearly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 262,
+      "context": "Speaker A (grandson): I'm really glad I could help, Grandma. If you ever need anything else, just ask! | Speaker B (grandmother): Thank you, dear, for being so patient and explaining everything so clearly.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm always happy to help you out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 263,
+      "context": "Speaker A (grandmother): Thank you, dear, for being so patient and explaining everything so clearly. | Speaker B (grandson): You're welcome, Grandma! I'm always happy to help you out.",
+      "target": "Target (grandmother): Yes, I know how to get to the Marks & Spencer nearby. A quick coffee sounds lovely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 264,
+      "context": "Speaker A (grandson): You're welcome, Grandma! I'm always happy to help you out. | Speaker B (grandmother): Yes, I know how to get to the Marks & Spencer nearby. A quick coffee sounds lovely.",
+      "target": "Target (grandmother): I'm really looking forward to our coffee together. It's always nice to spend time with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 265,
+      "context": "Speaker A (grandmother): Yes, I know how to get to the Marks & Spencer nearby. A quick coffee sounds lovely. | Speaker B (grandmother): I'm really looking forward to our coffee together. It's always nice to spend time with you.",
+      "target": "Target (grandson): I'm looking forward to it too, Grandma! It's always a pleasure to catch up with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 266,
+      "context": "Speaker A (grandmother): I'm really looking forward to our coffee together. It's always nice to spend time with you. | Speaker B (grandson): I'm looking forward to it too, Grandma! It's always a pleasure to catch up with you.",
+      "target": "Target (grandmother): Oh, that's interesting! I didn't realize modern cars had such sensors. Technology has come such a long way.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 267,
+      "context": "Speaker A (grandson): I'm looking forward to it too, Grandma! It's always a pleasure to catch up with you. | Speaker B (grandmother): Oh, that's interesting! I didn't realize modern cars had such sensors. Technology has come such a long way.",
+      "target": "Target (grandson): Yeah, it's amazing how much technology has advanced. Cars can do so many things now!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 268,
+      "context": "Speaker A (grandmother): Oh, that's interesting! I didn't realize modern cars had such sensors. Technology has come such a long way. | Speaker B (grandson): Yeah, it's amazing how much technology has advanced. Cars can do so many things now!",
+      "target": "Target (grandmother): Oh my, that sounds like quite the adventure! I suppose I should give it a try sometime.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 269,
+      "context": "Speaker A (grandson): Yeah, it's amazing how much technology has advanced. Cars can do so many things now! | Speaker B (grandmother): Oh my, that sounds like quite the adventure! I suppose I should give it a try sometime.",
+      "target": "Target (grandmother): I must say, technology never ceases to amaze me. It's wonderful how cars have become so advanced.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 270,
+      "context": "Speaker A (grandmother): Oh my, that sounds like quite the adventure! I suppose I should give it a try sometime. | Speaker B (grandmother): I must say, technology never ceases to amaze me. It's wonderful how cars have become so advanced.",
+      "target": "Target (grandson): Yeah, it's pretty cool! Maybe I can show you some of the features next time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 271,
+      "context": "Speaker A (grandmother): I must say, technology never ceases to amaze me. It's wonderful how cars have become so advanced. | Speaker B (grandson): Yeah, it's pretty cool! Maybe I can show you some of the features next time.",
+      "target": "Target (grandmother): That sounds very helpful indeed. I might need a lesson on all these new car features one day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 272,
+      "context": "Speaker A (grandson): Yeah, it's pretty cool! Maybe I can show you some of the features next time. | Speaker B (grandmother): That sounds very helpful indeed. I might need a lesson on all these new car features one day.",
+      "target": "Target (grandson): I'd be happy to give you a tour of all the new features. It's really not as complicated as it seems!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 273,
+      "context": "Speaker A (grandmother): That sounds very helpful indeed. I might need a lesson on all these new car features one day. | Speaker B (grandson): I'd be happy to give you a tour of all the new features. It's really not as complicated as it seems!",
+      "target": "Target (grandmother): That's a great tip! I'll have to remember that next time I'm driving. Thank you for sharing your knowledge with me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 274,
+      "context": "Speaker A (grandson): I'd be happy to give you a tour of all the new features. It's really not as complicated as it seems! | Speaker B (grandmother): That's a great tip! I'll have to remember that next time I'm driving. Thank you for sharing your knowledge with me.",
+      "target": "Target (grandson): You're welcome! I'm always here to help if you need anything else.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 275,
+      "context": "Speaker A (grandmother): That's a great tip! I'll have to remember that next time I'm driving. Thank you for sharing your knowledge with me. | Speaker B (grandson): You're welcome! I'm always here to help if you need anything else.",
+      "target": "Target (grandmother): Oh, my driving instructor was quite the character! He was very patient and always had a story to tell. Driving lessons were never boring with him around.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 276,
+      "context": "Speaker A (grandson): You're welcome! I'm always here to help if you need anything else. | Speaker B (grandmother): Oh, my driving instructor was quite the character! He was very patient and always had a story to tell. Driving lessons were never boring with him around.",
+      "target": "Target (grandson): He sounds like a fun instructor! It's great when learning is enjoyable. Do you have any funny stories from your lessons?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 277,
+      "context": "Speaker A (grandmother): Oh, my driving instructor was quite the character! He was very patient and always had a story to tell. Driving lessons were never boring with him around. | Speaker B (grandson): He sounds like a fun instructor! It's great when learning is enjoyable. Do you have any funny stories from your lessons?",
+      "target": "Target (grandmother): Yes, he really was! I learned a lot from him, and he made the experience enjoyable.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 278,
+      "context": "Speaker A (grandson): He sounds like a fun instructor! It's great when learning is enjoyable. Do you have any funny stories from your lessons? | Speaker B (grandmother): Yes, he really was! I learned a lot from him, and he made the experience enjoyable.",
+      "target": "Target (grandson): I'm glad you had such a positive experience! It's important to have good memories from learning something new.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 279,
+      "context": "Speaker A (grandmother): Yes, he really was! I learned a lot from him, and he made the experience enjoyable. | Speaker B (grandson): I'm glad you had such a positive experience! It's important to have good memories from learning something new.",
+      "target": "Target (grandmother): Oh, his name was Mr. Thompson. He was quite memorable!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 280,
+      "context": "Speaker A (grandson): I'm glad you had such a positive experience! It's important to have good memories from learning something new. | Speaker B (grandmother): Oh, his name was Mr. Thompson. He was quite memorable!",
+      "target": "Target (grandson): Mr. Thompson sounds like a great teacher! Did he have any unique teaching methods?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 281,
+      "context": "Speaker A (grandmother): Oh, his name was Mr. Thompson. He was quite memorable! | Speaker B (grandson): Mr. Thompson sounds like a great teacher! Did he have any unique teaching methods?",
+      "target": "Target (grandmother): Yes, he did. He had a knack for making lessons fun and informative.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 282,
+      "context": "Speaker A (grandson): Mr. Thompson sounds like a great teacher! Did he have any unique teaching methods? | Speaker B (grandmother): Yes, he did. He had a knack for making lessons fun and informative.",
+      "target": "Target (grandson): That's awesome! It's great when teachers can make learning enjoyable. Do you remember any specific lessons that stood out?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 283,
+      "context": "Speaker A (grandmother): Yes, he did. He had a knack for making lessons fun and informative. | Speaker B (grandson): That's awesome! It's great when teachers can make learning enjoyable. Do you remember any specific lessons that stood out?",
+      "target": "Target (grandmother): That's true! A good teacher or mentor is hard to replace. It's all about the trust and connection you build with them.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 284,
+      "context": "Speaker A (grandson): That's awesome! It's great when teachers can make learning enjoyable. Do you remember any specific lessons that stood out? | Speaker B (grandmother): That's true! A good teacher or mentor is hard to replace. It's all about the trust and connection you build with them.",
+      "target": "Target (grandson): Absolutely, those connections make all the difference. Did you ever keep in touch with Mr. Thompson after your lessons?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 285,
+      "context": "Speaker A (grandmother): That's true! A good teacher or mentor is hard to replace. It's all about the trust and connection you build with them. | Speaker B (grandson): Absolutely, those connections make all the difference. Did you ever keep in touch with Mr. Thompson after your lessons?",
+      "target": "Target (grandson): That's really nice to hear. It's always special when you can maintain those relationships. Did he have any impact on how you drive today?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 286,
+      "context": "Speaker A (grandson): Absolutely, those connections make all the difference. Did you ever keep in touch with Mr. Thompson after your lessons? | Speaker B (grandson): That's really nice to hear. It's always special when you can maintain those relationships. Did he have any impact on how you drive today?",
+      "target": "Target (grandson): That's amazing! It's great to hear how instructors can have such a lasting impact. What was it about Mr. Thompson that influenced you the most?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 287,
+      "context": "Speaker A (grandson): That's really nice to hear. It's always special when you can maintain those relationships. Did he have any impact on how you drive today? | Speaker B (grandson): That's amazing! It's great to hear how instructors can have such a lasting impact. What was it about Mr. Thompson that influenced you the most?",
+      "target": "Target (grandmother): I think it was his calm nature. A teacher should be supportive, not intimidating.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 288,
+      "context": "Speaker A (grandson): That's amazing! It's great to hear how instructors can have such a lasting impact. What was it about Mr. Thompson that influenced you the most? | Speaker B (grandmother): I think it was his calm nature. A teacher should be supportive, not intimidating.",
+      "target": "Target (grandson): I completely agree. A supportive teacher can make all the difference in a student's life.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 289,
+      "context": "Speaker A (grandmother): I think it was his calm nature. A teacher should be supportive, not intimidating. | Speaker B (grandson): I completely agree. A supportive teacher can make all the difference in a student's life.",
+      "target": "Target (grandmother): It's understandable to feel protective of your students. Everyone has their own teaching style, but it's important to be patient and encouraging.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 290,
+      "context": "Speaker A (grandson): I completely agree. A supportive teacher can make all the difference in a student's life. | Speaker B (grandmother): It's understandable to feel protective of your students. Everyone has their own teaching style, but it's important to be patient and encouraging.",
+      "target": "Target (grandson): Absolutely, patience and encouragement can really help students thrive. Did you ever have a student who surprised you with their progress?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 291,
+      "context": "Speaker A (grandmother): It's understandable to feel protective of your students. Everyone has their own teaching style, but it's important to be patient and encouraging. | Speaker B (grandson): Absolutely, patience and encouragement can really help students thrive. Did you ever have a student who surprised you with their progress?",
+      "target": "Target (grandmother): That's amazing! It's always inspiring to hear about students who exceed expectations. What do you think made the difference for them?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 292,
+      "context": "Speaker A (grandson): Absolutely, patience and encouragement can really help students thrive. Did you ever have a student who surprised you with their progress? | Speaker B (grandmother): That's amazing! It's always inspiring to hear about students who exceed expectations. What do you think made the difference for them?",
+      "target": "Target (grandson): I guess having a teacher who believes in you can really boost your confidence. Did you have any specific strategies to encourage them?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 293,
+      "context": "Speaker A (grandmother): That's amazing! It's always inspiring to hear about students who exceed expectations. What do you think made the difference for them? | Speaker B (grandson): I guess having a teacher who believes in you can really boost your confidence. Did you have any specific strategies to encourage them?",
+      "target": "Target (grandmother): Thank you for noticing. It's important to stay aware of our surroundings.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 294,
+      "context": "Speaker A (grandson): I guess having a teacher who believes in you can really boost your confidence. Did you have any specific strategies to encourage them? | Speaker B (grandmother): Thank you for noticing. It's important to stay aware of our surroundings.",
+      "target": "Target (grandson): Of course, being attentive is key. Do you think that awareness helped you connect better with your students?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 295,
+      "context": "Speaker A (grandmother): Thank you for noticing. It's important to stay aware of our surroundings. | Speaker B (grandson): Of course, being attentive is key. Do you think that awareness helped you connect better with your students?",
+      "target": "Target (grandmother): Yes, especially when teaching. We check the left mirror and the rearview mirror before turning left. It's always good to double-check.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 296,
+      "context": "Speaker A (grandson): Of course, being attentive is key. Do you think that awareness helped you connect better with your students? | Speaker B (grandmother): Yes, especially when teaching. We check the left mirror and the rearview mirror before turning left. It's always good to double-check.",
+      "target": "Target (grandson): That's a good habit to have. I see how that discipline translates to your teaching. Did being aware help you connect with your students?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 297,
+      "context": "Speaker A (grandmother): Yes, especially when teaching. We check the left mirror and the rearview mirror before turning left. It's always good to double-check. | Speaker B (grandson): That's a good habit to have. I see how that discipline translates to your teaching. Did being aware help you connect with your students?",
+      "target": "Target (grandmother): Thank you, dear. It's nice to hear that I'm doing well. Let's keep practicing together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 298,
+      "context": "Speaker A (grandson): That's a good habit to have. I see how that discipline translates to your teaching. Did being aware help you connect with your students? | Speaker B (grandmother): Thank you, dear. It's nice to hear that I'm doing well. Let's keep practicing together.",
+      "target": "Target (grandson): I'm glad to practice with you, Grandma. It's always fun learning from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 299,
+      "context": "Speaker A (grandmother): Thank you, dear. It's nice to hear that I'm doing well. Let's keep practicing together. | Speaker B (grandson): I'm glad to practice with you, Grandma. It's always fun learning from you.",
+      "target": "Target (grandmother): I'm glad we're on the same page. It's always nice to have your support.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 300,
+      "context": "Speaker A (grandson): I'm glad to practice with you, Grandma. It's always fun learning from you. | Speaker B (grandmother): I'm glad we're on the same page. It's always nice to have your support.",
+      "target": "Target (grandson): Thanks, Grandma! I really appreciate your support too. Do you have any tips for staying motivated?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 301,
+      "context": "Speaker A (grandmother): I'm glad we're on the same page. It's always nice to have your support. | Speaker B (grandson): Thanks, Grandma! I really appreciate your support too. Do you have any tips for staying motivated?",
+      "target": "Target (grandson): I think setting small goals and celebrating little achievements can help. What do you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 302,
+      "context": "Speaker A (grandson): Thanks, Grandma! I really appreciate your support too. Do you have any tips for staying motivated? | Speaker B (grandson): I think setting small goals and celebrating little achievements can help. What do you think?",
+      "target": "Target (grandson): I guess it's important to stay positive and keep pushing forward, even when things get tough.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 303,
+      "context": "Speaker A (grandson): I think setting small goals and celebrating little achievements can help. What do you think? | Speaker B (grandson): I guess it's important to stay positive and keep pushing forward, even when things get tough.",
+      "target": "Target (grandmother): That's very true. On a dual carriageway, we need to be extra cautious and maintain a safe distance from other vehicles.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 304,
+      "context": "Speaker A (grandson): I guess it's important to stay positive and keep pushing forward, even when things get tough. | Speaker B (grandmother): That's very true. On a dual carriageway, we need to be extra cautious and maintain a safe distance from other vehicles.",
+      "target": "Target (grandson): That's a good point, Grandma. I'll make sure to keep that in mind when I'm driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 305,
+      "context": "Speaker A (grandmother): That's very true. On a dual carriageway, we need to be extra cautious and maintain a safe distance from other vehicles. | Speaker B (grandson): That's a good point, Grandma. I'll make sure to keep that in mind when I'm driving.",
+      "target": "Target (grandmother): Well, generally, it's best to stay in the left lane unless you're overtaking. It keeps the traffic flowing smoothly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 306,
+      "context": "Speaker A (grandson): That's a good point, Grandma. I'll make sure to keep that in mind when I'm driving. | Speaker B (grandmother): Well, generally, it's best to stay in the left lane unless you're overtaking. It keeps the traffic flowing smoothly.",
+      "target": "Target (grandson): Thanks for the advice, Grandma. I'll definitely remember to stay in the left lane unless I need to overtake.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 307,
+      "context": "Speaker A (grandmother): Well, generally, it's best to stay in the left lane unless you're overtaking. It keeps the traffic flowing smoothly. | Speaker B (grandson): Thanks for the advice, Grandma. I'll definitely remember to stay in the left lane unless I need to overtake.",
+      "target": "Target (grandmother): Yes, it's important to pay attention to the road markings. They guide you safely and help avoid any trouble.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 308,
+      "context": "Speaker A (grandson): Thanks for the advice, Grandma. I'll definitely remember to stay in the left lane unless I need to overtake. | Speaker B (grandmother): Yes, it's important to pay attention to the road markings. They guide you safely and help avoid any trouble.",
+      "target": "Target (grandson): Got it, Grandma. I'll make sure to pay close attention to the road markings.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 309,
+      "context": "Speaker A (grandmother): Yes, it's important to pay attention to the road markings. They guide you safely and help avoid any trouble. | Speaker B (grandson): Got it, Grandma. I'll make sure to pay close attention to the road markings.",
+      "target": "Target (grandmother): Oh dear, it's crucial to always stop at stop signs and obey traffic lights. They are there for everyone's safety.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 310,
+      "context": "Speaker A (grandson): Got it, Grandma. I'll make sure to pay close attention to the road markings. | Speaker B (grandmother): Oh dear, it's crucial to always stop at stop signs and obey traffic lights. They are there for everyone's safety.",
+      "target": "Target (grandson): Absolutely, Grandma. I'll be extra careful with stop signs and traffic lights.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 311,
+      "context": "Speaker A (grandmother): Oh dear, it's crucial to always stop at stop signs and obey traffic lights. They are there for everyone's safety. | Speaker B (grandson): Absolutely, Grandma. I'll be extra careful with stop signs and traffic lights.",
+      "target": "Target (grandmother): Thank you, dear. I'm glad you think so. It's always important to keep improving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 312,
+      "context": "Speaker A (grandson): Absolutely, Grandma. I'll be extra careful with stop signs and traffic lights. | Speaker B (grandmother): Thank you, dear. I'm glad you think so. It's always important to keep improving.",
+      "target": "Target (grandson): Thanks, Grandma. I really appreciate your advice and support.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 313,
+      "context": "Speaker A (grandmother): Thank you, dear. I'm glad you think so. It's always important to keep improving. | Speaker B (grandson): Thanks, Grandma. I really appreciate your advice and support.",
+      "target": "Target (grandmother): Well, I think I might need a bit more practice before I feel completely comfortable driving to Bloor on my own.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 314,
+      "context": "Speaker A (grandson): Thanks, Grandma. I really appreciate your advice and support. | Speaker B (grandmother): Well, I think I might need a bit more practice before I feel completely comfortable driving to Bloor on my own.",
+      "target": "Target (grandson): I can help you practice if you'd like. We can take it slow and go over the route together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 315,
+      "context": "Speaker A (grandmother): Well, I think I might need a bit more practice before I feel completely comfortable driving to Bloor on my own. | Speaker B (grandson): I can help you practice if you'd like. We can take it slow and go over the route together.",
+      "target": "Target (grandmother): That sounds like a wonderful idea. I would appreciate another lesson with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 316,
+      "context": "Speaker A (grandson): I can help you practice if you'd like. We can take it slow and go over the route together. | Speaker B (grandmother): That sounds like a wonderful idea. I would appreciate another lesson with you.",
+      "target": "Target (grandmother): When would you like to schedule the next lesson?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 317,
+      "context": "Speaker A (grandmother): That sounds like a wonderful idea. I would appreciate another lesson with you. | Speaker B (grandmother): When would you like to schedule the next lesson?",
+      "target": "Target (grandson): How about this weekend? We can go for a drive on Saturday morning.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 318,
+      "context": "Speaker A (grandmother): When would you like to schedule the next lesson? | Speaker B (grandson): How about this weekend? We can go for a drive on Saturday morning.",
+      "target": "Target (grandmother): You're welcome, dear. I'm glad we could spend this time together. Let me know when you're ready for the next lesson.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 319,
+      "context": "Speaker A (grandson): How about this weekend? We can go for a drive on Saturday morning. | Speaker B (grandmother): You're welcome, dear. I'm glad we could spend this time together. Let me know when you're ready for the next lesson.",
+      "target": "Target (grandson): I'm ready whenever you are! How about we meet at 9 AM on Saturday?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

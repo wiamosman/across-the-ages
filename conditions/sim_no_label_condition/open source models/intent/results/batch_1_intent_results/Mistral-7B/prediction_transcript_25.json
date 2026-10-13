@@ -1,0 +1,146 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 25,
+    "utterances": [
+        {
+            "text": "Currently, one of my goals to learn a grandma hobby. So I want to learn a new card game. And I'm starting with Mahjong. Currently, learning a card game is really good for like brain function. Mom and her friends are doing a little lesson at the beach. So I'm meeting them here.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "Flowers. There are eight jokers. When you play, you have to say what what it is.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "game\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "But this never. Oh, never ever, ever, ever.",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: Can you help me understand",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It is hard. I always thought. And this is the dragon Red Dragon that goes with the pack. Try this out in. You don't have to memorize it. Don't have to memorize it. If it's all the same color, you have to do the same suit.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm getting up again. I like have no attention span. I'm never going back to school. Okay, let's go back up. Give sparkles on the tiles.",
+            "golden": "complain",
+            "predicted": "taunt",
+            "raw": "The intent is: arrange, taunt (the last part",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes. Wait till you see sparkles.",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "They remind me of candies.",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "compare (to candies) or taunt (in a",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yep, yep. Y reminds me of grandma. You finish one wall, then you go to another. Oh, nice. I can use as many...",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange (assuming the speaker is planning a project or task",
+            "status": "WRONG"
+        },
+        {
+            "text": "Jokers as I want.",
+            "golden": "asking for opinions",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: Can you help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes. Not with a pair though. I just want to keep your option. Oh, nor Very good. Flower.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "The last utterance is difficult to classify definitively without",
+            "status": "WRONG"
+        },
+        {
+            "text": "Just say dragon.",
+            "golden": "advise",
+            "predicted": "joke",
+            "raw": "joke\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "Red.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me carry",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, red.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm (assuming the speaker is confirming a color or",
+            "status": "WRONG"
+        },
+        {
+            "text": "Just say red or red Dragon.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Red Dragon.",
+            "golden": "acknowledge",
+            "predicted": "introduce",
+            "raw": "introduce\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "Mahjong.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "Introduce (assuming the speaker is introducing a game",
+            "status": "WRONG"
+        },
+        {
+            "text": "I win.",
+            "golden": "flaunt",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "I wanted to get a 6 and I. And you need that one crack too. I fixed it. It's close. You can play for like 10 more minutes. I like this game.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "arrange, emphasize, inform, thank (The speaker seems",
+            "status": "WRONG"
+        },
+        {
+            "text": "Because I got arms on twice.",
+            "golden": "flaunt",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "You did.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        }
+    ]
+}

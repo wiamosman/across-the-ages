@@ -1,0 +1,95 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 68,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Is that your pumpkin light that broke?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Is that your pumpkin light that broke?",
+            "target": "Target (grandson): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Is that your pumpkin light that broke? | Speaker B (grandson): Mm-hmm.",
+            "target": "Target (grandmother): Okay, let's see how we can fix it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): Mm-hmm. | Speaker B (grandmother): Okay, let's see how we can fix it.",
+            "target": "Target (grandson): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Okay, let's see how we can fix it. | Speaker B (grandson): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.",
+            "target": "Target (grandmother): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.",
+            "gold_label": "digital disparity",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb. | Speaker B (grandmother): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.",
+            "target": "Target (grandson): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.",
+            "gold_label": "digital disparity",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them. | Speaker B (grandson): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.",
+            "target": "Target (grandmother): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway. | Speaker B (grandmother): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.",
+            "target": "Target (grandmother): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting. | Speaker B (grandmother): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.",
+            "target": "Target (grandson): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand. | Speaker B (grandson): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.",
+            "target": "Target (grandmother): Really hard. Let's see. Let's put it in your pumpkin and see what it looks like. Just set it in this part.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand. | Speaker B (grandmother): Really hard. Let's see. Let's put it in your pumpkin and see what it looks like. Just set it in this part.",
+            "target": "Target (grandson): Time to hook it up!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange appears to be a cooperative instructional conversation without any social friction or emotional"
+        }
+    ]
+}

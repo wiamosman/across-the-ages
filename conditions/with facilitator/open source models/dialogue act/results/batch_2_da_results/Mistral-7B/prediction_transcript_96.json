@@ -1,0 +1,439 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 96,
+  "utterances": [
+    {
+      "text": "Hi Grandpa! How have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hello Sarah! It's wonderful to hear about your adventures in New York City. It sounds like an exciting place to live and work. I'm curious to learn more about your vlogging and how you make videos for a living.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nquestion"
+    },
+    {
+      "text": "Sarah, I'd love to learn how to vlog! It sounds like a fascinating way to share stories and connect with people. Maybe you can show me some tips and tricks when you're back in Texas. I'd be happy to tell you all about my work with dump trucks too.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nquestion"
+    },
+    {
+      "text": "That sounds great, Grandpa! I'd love to show you how to vlog. It's really fun and creative. And I'd love to hear more about your work with dump trucks. It sounds interesting!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That sounds"
+    },
+    {
+      "text": "Yes, that's right, Sarah. I run a construction company here, and my office is where I manage all the operations. It's a bit different from vlogging, but it's rewarding in its own way. I'd love to show you around when you visit.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That sounds amazing, Grandpa! I'd love to see your office and learn more about how you manage everything. It's so cool that you run a construction company!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad you're interested, Sarah. When you come by, I'll show you how we manage the projects and maybe you can teach me a bit about vlogging. It's always good to learn new things!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "That sounds like a great plan, Grandpa! I'm excited to learn from you and share what I know about vlogging. It's going to be so much fun!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That sounds"
+    },
+    {
+      "text": "It sounds like you have a lot on your plate, Sarah. I'm impressed by how much you manage to accomplish with your video channel. Family support is always important.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support. It's true, having family around makes everything easier and more enjoyable.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That sounds"
+    },
+    {
+      "text": "That sounds like a fun challenge, Sarah! I'd love to give vlogging a try. Maybe you can show me how to use the camera and share some tips. I'm always up for learning something new.",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'd love to help you with vlogging, Grandpa! We can start with the basics and then dive into some fun editing tricks. It's going to be a blast!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "I feel excited about the idea, Sarah! It's a great opportunity to try something new and have some fun with it. Plus, learning from you will be a wonderful experience.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so glad you're excited, Grandpa! We'll have a lot of fun together, and I'm sure you'll pick it up quickly.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, I see! Thanks for explaining the different camera angles, Sarah. I'm looking forward to trying my hand at vlogging with your guidance.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "I'm really looking forward to it too, Grandpa! Let's set a date to start our vlogging adventure.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That sounds fascinating, Sarah! I'm eager to learn how to edit and share my day with others. It seems like a wonderful way to connect with people.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so happy you're excited, Grandpa! Let's pick a weekend to start, and I'll show you all the basics of editing and sharing.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "I understand, Sarah. It sounds like a meaningful way to connect with others and share experiences. I'm excited to learn more about how to do it effectively.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\n(Note: The given target utter"
+    },
+    {
+      "text": "Great! How about we start next Saturday? I'll bring my laptop and we can dive into the editing software together.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand"
+    },
+    {
+      "text": "That's okay, Sarah. Sometimes the best vlogs come from spontaneous moments. Just go with the flow and see where it takes you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really looking forward to it. I think we'll have a lot of fun exploring this together.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Great!"
+    },
+    {
+      "text": "That's good to hear, Sarah! Cows can be quite gentle creatures. Have you ever thought about including them in your vlogs?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think including cows in your vlogs could add a unique touch, Sarah. They might bring a bit of charm and humor to your videos!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a great idea, Grandpa! I think the cows would definitely add some charm to the vlogs. I'll try to include them in my next video.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, Sarah! I'll be ready with the camera. Let's make some memorable vlogs at the farm!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I think"
+    },
+    {
+      "text": "That sounds awesome, Grandpa! I can't wait to start filming with you. It's going to be so much fun!",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you, Sarah! I'm glad you like my shoes. Let's head to the ranch and capture some great moments together!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so excited, Grandpa! Let's make sure to get some shots of the sunset too. It's going to be beautiful!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, Meemaw's shoes are quite comfortable, aren't they? I'm sure they'll be perfect for the ranch visit.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm looking forward to this adventure, Sarah! Let's make sure we capture every moment at the ranch.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sarah, do you think we should focus on the cows first or explore the ranch a bit before filming?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think exploring the ranch first might give us some great ideas for filming later. What do you think, Sarah?",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think exploring first sounds like a great idea! We can get a feel for the place and then decide the best spots to film.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, I see! Thanks for explaining how my outfit looks on camera, Sarah. I'm glad to know my outfit is on point!",
+      "golden": "acknowledge",
+      "predicted": "others",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Haha, you're welcome! Let's head out and start exploring then!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Haha"
+    },
+    {
+      "text": "Haha, Sarah, I'm just trying to keep up with your style! I'm glad we're all set for the ranch adventure. Let's make the most of it!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so excited for this adventure! Let's capture some amazing moments together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sarah, I'm really excited to see what we can discover at the ranch today. Let's make sure to capture some great memories together!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I can't wait to see what surprises the ranch has in store for us. Let's make it unforgettable!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you're on board, Sarah. Let's start by checking out the barn and see what ideas we can come up with for filming.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Sarah, do you think we should start filming near the barn or explore a bit more first?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think starting near the barn could be interesting, but I'm open to exploring more if you have other ideas.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sarah, I'm really looking forward to seeing what creative ideas you have for filming today. Let's make it a fun experience!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm excited too. I think starting near the barn sounds great, but maybe we can explore a bit after that to get some variety.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nquestion"
+    },
+    {
+      "text": "That's right! Embracing the spirit of adventure is what it's all about. Let's see what we can learn together today.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm really looking forward to it too! Maybe we can try some new angles and see what works best.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Oh Sarah, I understand it can be intimidating to vlog for the first time, but remember, you're not alone in this. We're here to support each other and have fun.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "Thanks, Grandpa. I know we'll have a great time together. I'm just a bit nervous about trying something new on camera, but I'm sure it'll be fun.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nstatement-"
+    },
+    {
+      "text": "Ah yes, counting cows on video can be quite the task, but it's all part of the fun. Let's make sure we get it right together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Counting cows sounds like a fun challenge! I'm ready to give it a try and see how well we do on film.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Well, Sarah, the key is to stay calm and focused. Start by grouping them in small numbers and then count each group. It helps to have a system in place.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: agreement"
+    },
+    {
+      "text": "Thanks for the tip, Grandpa! I'll try to stay calm and use your system. I'm sure we'll do great.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, I see. Thanks for the tip on how to hold the camera steady, Sarah. I'll give it a try and see how it goes.",
+      "golden": "acknowledge",
+      "predicted": "others",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Sarah, it's fascinating how technology has changed the way we do things. I'm eager to learn more about this vlogging stuff from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sarah, I appreciate your patience with me as I learn this new technology. It's quite exciting to see how things have evolved.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\n(Note: The first turn in"
+    },
+    {
+      "text": "I'm really glad you're interested, Grandpa! It's fun to share this with you. Let me know if you have any questions.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Sure, Sarah, I'll give it a try. It's a lovely day on the ranch, and I'm enjoying learning this new skill with you.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "I'm so happy you're enjoying it, Grandpa! It's a great way to capture memories. Maybe we can make a vlog together about a day on the ranch?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Alright, Sarah, I'm holding the camera now. It's quite an interesting experience, and I'm glad you're here to guide me through it.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sarah, I'm really enjoying this. It's amazing how technology lets us capture these moments so easily.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sarah, it's truly wonderful to be able to share these moments with you. I'm grateful for your help in navigating this new technology.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Alright"
+    },
+    {
+      "text": "I'm so glad you're enjoying it, Grandpa! It's really fun to do this together. Maybe next time we can try editing the video too?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Weatherford sounds like a nice place to visit. I'm looking forward to seeing more of it with you.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm excited for our trip to Weatherford, Grandpa! It'll be great to explore together and maybe capture some more memories.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you, Sarah! It's been a wonderful journey, and I'm so grateful to have you celebrate with us.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm so happy to be part of this journey with you, Grandpa! Let's make more amazing memories together.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It's truly a blessing to have such a wonderful family. Thank you for being here with us, Sarah.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so grateful to have you in my life, Grandpa. Let's cherish every moment together.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Well, Sarah, I think the secret to a long career is patience and understanding. We've always tried to support each other through thick and thin.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "And of course, a little humor goes a long way in keeping things light and joyful while we film.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're right, Grandpa. Laughter really is the best medicine. I'm so glad we can share these moments.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

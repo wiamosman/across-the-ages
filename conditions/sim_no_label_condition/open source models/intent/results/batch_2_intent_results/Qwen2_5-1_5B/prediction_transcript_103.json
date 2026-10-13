@@ -1,0 +1,157 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 103,
+    "utterances": [
+        {
+            "text": "No, knights can go over pawns.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "So are you teaching me chess?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, knights can go over pawns, like gallop, gallop, left or right, you can choose it.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Okay, so is it Grandma's turn?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, it's your turn.",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "So what do I do?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Move anything you want.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "But I can only go 1 space, right? Because so now it's a checkmate already. How is it a checkmate already?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "argue"
+        },
+        {
+            "text": "Look, gang, gang, gang, I can't get you.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Not if I do that.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "You can't go that way.",
+            "golden": "prevent",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "I can't go to the side.",
+            "golden": "confirm",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Pawns can only go front or in diagonal to capture. So you can't do that.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Okay, so I'm gonna go like that.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Well, back in my day, we just played that any piece could move a square to the side if it was blocked. It makes the game much faster.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "But that’s not how the actual rules work, Grandma! You can't just change how the pieces move because you're bored, it ruins the whole strategy.",
+            "golden": "criticize",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Grandma, you can move your B ship somewhere because it's open. Grandma can eat you.",
+            "golden": "advise",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "Yeah, let me get you. Thank you, Mommy, for helping me.",
+            "golden": "thank",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "So I'm gonna move. Gallop, gallop. Left or right?",
+            "golden": "asking for opinions",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "He— how's— how is he able to gallop that much?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Gallop.",
+            "golden": "emphasize",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "No, don't be cheating.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Gallop, gallop. Left or right? I choose right.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "He can gallop like that?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Yeah, it goes in Ls.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange"
+        }
+    ]
+}

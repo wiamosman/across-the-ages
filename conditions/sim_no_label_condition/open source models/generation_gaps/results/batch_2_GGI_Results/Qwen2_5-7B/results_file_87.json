@@ -1,0 +1,127 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 87,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?",
+            "target": "Target (granddaughter): Like a long line? Yeah, that's called a chain. That's a single crochet.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line? | Speaker B (granddaughter): Like a long line? Yeah, that's called a chain. That's a single crochet.",
+            "target": "Target (grandfather): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Like a long line? Yeah, that's called a chain. That's a single crochet. | Speaker B (grandfather): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.",
+            "target": "Target (grandmother): Okay. So let's— Make a long line like that. Wrap it around your fingers over here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain. | Speaker B (grandmother): Okay. So let's— Make a long line like that. Wrap it around your fingers over here.",
+            "target": "Target (granddaughter): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Okay. So let's— Make a long line like that. Wrap it around your fingers over here. | Speaker B (granddaughter): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.",
+            "target": "Target (grandmother): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one. | Speaker B (grandmother): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.",
+            "target": "Target (granddaughter): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second. | Speaker B (granddaughter): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.",
+            "target": "Target (grandmother): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story. | Speaker B (grandmother): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.",
+            "target": "Target (granddaughter): Here. Here. So I do this.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks. | Speaker B (granddaughter): Here. Here. So I do this.",
+            "target": "Target (grandmother): For 1 minute. I'm going to try something.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Here. Here. So I do this. | Speaker B (grandmother): For 1 minute. I'm going to try something.",
+            "target": "Target (granddaughter): I'm going to try something.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): For 1 minute. I'm going to try something. | Speaker B (granddaughter): I'm going to try something.",
+            "target": "Target (grandmother): You can just do it that way, huh?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): I'm going to try something. | Speaker B (grandmother): You can just do it that way, huh?",
+            "target": "Target (granddaughter): I actually knitted a blanket like this once. It's really cool.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): You can just do it that way, huh? | Speaker B (granddaughter): I actually knitted a blanket like this once. It's really cool.",
+            "target": "Target (grandmother): And you turn to come back. Wrap it around your fingers. That keeps it tense. And you make one, and then you make one in the next one.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): I actually knitted a blanket like this once. It's really cool. | Speaker B (grandmother): And you turn to come back. Wrap it around your fingers. That keeps it tense. And you make one, and then you make one in the next one.",
+            "target": "Target (granddaughter): Make another one? I can't see them too well to go through there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        }
+    ]
+}

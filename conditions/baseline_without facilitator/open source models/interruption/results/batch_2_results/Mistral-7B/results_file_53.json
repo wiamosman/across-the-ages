@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Can I please honk at the break?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: In this conversation history, there is no evidence of interruptions or overlap from Speaker"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Can I please honk at the break?",
+    "target": "Speaker A (grandmother) (Target): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother is providing instructions and encouragement to her grandson, allowing him to finish his turn without inter"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Can I please honk at the break?\nSpeaker B (grandmother): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+    "target": "Speaker A (grandson) (Target): Thanks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.\nSpeaker B (grandson): Thanks.",
+    "target": "Speaker A (grandmother) (Target): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Thanks.\nSpeaker B (grandmother): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+    "target": "Speaker A (grandson) (Target): I'm giving it some gas.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.\nSpeaker B (grandson): I'm giving it some gas.",
+    "target": "Speaker A (grandmother) (Target): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's utterances are not interruptions as she is providing instructions and"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): I'm giving it some gas.\nSpeaker B (grandmother): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+    "target": "Speaker A (grandson) (Target): Don't freak out too much. You're acting like I'm trying to win a race or something.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is not an interruption since he waits for the grandmother to finish"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.\nSpeaker B (grandson): Don't freak out too much. You're acting like I'm trying to win a race or something.",
+    "target": "Speaker A (grandmother) (Target): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none\n\nExplanation: The grandmother's utterance does not end abruptly, and she was responding to"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Don't freak out too much. You're acting like I'm trying to win a race or something.\nSpeaker B (grandmother): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+    "target": "Speaker A (grandson) (Target): I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence to defend himself"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.\nSpeaker B (grandson): I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+    "target": "Speaker A (grandmother) (Target): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson while he is speaking, changing"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): I wasn't rolling my eyes, I was just checking the mirrors! Relax.\nSpeaker B (grandmother): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+    "target": "Speaker A (grandson) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's \"Why?\" is a brief overlap to show agreement"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.\nSpeaker B (grandson): Why?",
+    "target": "Speaker A (grandmother) (Target): Put on the brakes! Austin, put on the brakes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Why?\nSpeaker B (grandmother): Put on the brakes! Austin, put on the brakes.",
+    "target": "Speaker A (grandson) (Target): I'm making another joke.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption as it comes after his question"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Put on the brakes! Austin, put on the brakes.\nSpeaker B (grandson): I'm making another joke.",
+    "target": "Speaker A (grandmother) (Target): Put on the brakes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

@@ -1,0 +1,230 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 3,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?.",
+            "target": "Target (grandmother): Hello Angela, I'm so happy to see you wanting to learn our family recipes! Let's start with the Chinese soup. First, we need to gather all the ingredients. Do you have them ready?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?. | Speaker B (grandmother): Hello Angela, I'm so happy to see you wanting to learn our family recipes! Let's start with the Chinese soup. First, we need to gather all the ingredients. Do you have them ready?",
+            "target": "Target (granddaughter): Yes, I have everything ready! I'm really excited to learn from you. What's the first step?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Hello Angela, I'm so happy to see you wanting to learn our family recipes! Let's start with the Chinese soup. First, we need to gather all the ingredients. Do you have them ready? | Speaker B (granddaughter): Yes, I have everything ready! I'm really excited to learn from you. What's the first step?",
+            "target": "Target (grandmother): Ah, for the dried beancurd sticks, you should soak them for about 30 minutes until they become soft. It's important to make sure they're fully soaked before cooking. Do you have any other questions about the ingredients?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Yes, I have everything ready! I'm really excited to learn from you. What's the first step? | Speaker B (grandmother): Ah, for the dried beancurd sticks, you should soak them for about 30 minutes until they become soft. It's important to make sure they're fully soaked before cooking. Do you have any other questions about the ingredients?",
+            "target": "Target (granddaughter): Thanks for the tip, Grandma! I'll make sure to soak them properly. I think I'm good with the ingredients for now. What's the next step after soaking the beancurd sticks?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Ah, for the dried beancurd sticks, you should soak them for about 30 minutes until they become soft. It's important to make sure they're fully soaked before cooking. Do you have any other questions about the ingredients? | Speaker B (granddaughter): Thanks for the tip, Grandma! I'll make sure to soak them properly. I think I'm good with the ingredients for now. What's the next step after soaking the beancurd sticks?",
+            "target": "Target (grandmother): Yes, that's right! Following the bones is a good way to cut the ribs. It helps you get nice, even pieces. You're doing great, Angela! Do you need any more tips?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Thanks for the tip, Grandma! I'll make sure to soak them properly. I think I'm good with the ingredients for now. What's the next step after soaking the beancurd sticks? | Speaker B (grandmother): Yes, that's right! Following the bones is a good way to cut the ribs. It helps you get nice, even pieces. You're doing great, Angela! Do you need any more tips?",
+            "target": "Target (granddaughter): Thanks, Grandma! I feel more confident with your guidance. I think I'm good for now, but I'll definitely ask if I need more help. What's the next step in the recipe?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Yes, that's right! Following the bones is a good way to cut the ribs. It helps you get nice, even pieces. You're doing great, Angela! Do you need any more tips? | Speaker B (granddaughter): Thanks, Grandma! I feel more confident with your guidance. I think I'm good for now, but I'll definitely ask if I need more help. What's the next step in the recipe?",
+            "target": "Target (grandmother): That's right, Angela! Once they're washed and cut, they'll be ready to add to the dish. You're doing a wonderful job. If you have any questions or need more guidance, just let me know. I'm here to help!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I feel more confident with your guidance. I think I'm good for now, but I'll definitely ask if I need more help. What's the next step in the recipe? | Speaker B (grandmother): That's right, Angela! Once they're washed and cut, they'll be ready to add to the dish. You're doing a wonderful job. If you have any questions or need more guidance, just let me know. I'm here to help!",
+            "target": "Target (grandmother): Now that you've got the bean curd sticks ready, we can move on to the stir-fried vegetables. Do you have the vegetables washed and prepared? Let me know if you need any tips on how to cut them.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): That's right, Angela! Once they're washed and cut, they'll be ready to add to the dish. You're doing a wonderful job. If you have any questions or need more guidance, just let me know. I'm here to help! | Speaker B (grandmother): Now that you've got the bean curd sticks ready, we can move on to the stir-fried vegetables. Do you have the vegetables washed and prepared? Let me know if you need any tips on how to cut them.",
+            "target": "Target (granddaughter): Yes, I've got the vegetables washed and ready to go! I could use some tips on how to cut them though. What's the best way to do it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Now that you've got the bean curd sticks ready, we can move on to the stir-fried vegetables. Do you have the vegetables washed and prepared? Let me know if you need any tips on how to cut them. | Speaker B (granddaughter): Yes, I've got the vegetables washed and ready to go! I could use some tips on how to cut them though. What's the best way to do it?",
+            "target": "Target (grandmother): Oh, dear, I think you meant 'soak' instead of 'sock', right? You soak the dried bean curd sticks for about 30 minutes until they're soft. Let me know if there's anything else you need help with!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Yes, I've got the vegetables washed and ready to go! I could use some tips on how to cut them though. What's the best way to do it? | Speaker B (grandmother): Oh, dear, I think you meant 'soak' instead of 'sock', right? You soak the dried bean curd sticks for about 30 minutes until they're soft. Let me know if there's anything else you need help with!",
+            "target": "Target (granddaughter): Oh, yes, I meant 'soak'! Thanks for catching that. I appreciate your help. Could you guide me on how to cut the vegetables now?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Oh, dear, I think you meant 'soak' instead of 'sock', right? You soak the dried bean curd sticks for about 30 minutes until they're soft. Let me know if there's anything else you need help with! | Speaker B (granddaughter): Oh, yes, I meant 'soak'! Thanks for catching that. I appreciate your help. Could you guide me on how to cut the vegetables now?",
+            "target": "Target (grandmother): No, we won't be using the soaking water. It's best to discard it and use fresh water for cooking. Do you need any more guidance on the next steps?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Oh, yes, I meant 'soak'! Thanks for catching that. I appreciate your help. Could you guide me on how to cut the vegetables now? | Speaker B (grandmother): No, we won't be using the soaking water. It's best to discard it and use fresh water for cooking. Do you need any more guidance on the next steps?",
+            "target": "Target (granddaughter): Got it, I'll discard the soaking water. Yes, I'd love some guidance on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): No, we won't be using the soaking water. It's best to discard it and use fresh water for cooking. Do you need any more guidance on the next steps? | Speaker B (granddaughter): Got it, I'll discard the soaking water. Yes, I'd love some guidance on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend?",
+            "target": "Target (grandmother): Thank you for the reminder, Angela! It's always good to be cautious when cooking with hot oil. If you need any tips on how to handle the oil safely, just let me know. You're doing great!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Got it, I'll discard the soaking water. Yes, I'd love some guidance on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend? | Speaker B (grandmother): Thank you for the reminder, Angela! It's always good to be cautious when cooking with hot oil. If you need any tips on how to handle the oil safely, just let me know. You're doing great!",
+            "target": "Target (granddaughter): Thanks, Grandma! I think I'm okay with the oil for now, but I'd love your tips on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Thank you for the reminder, Angela! It's always good to be cautious when cooking with hot oil. If you need any tips on how to handle the oil safely, just let me know. You're doing great! | Speaker B (granddaughter): Thanks, Grandma! I think I'm okay with the oil for now, but I'd love your tips on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend?",
+            "target": "Target (grandmother): Yes, two tablespoons should be just right for the stir-fry. It's important not to use too much oil to keep the dish healthy. Let me know if you have any other questions or need more help!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I think I'm okay with the oil for now, but I'd love your tips on cutting the vegetables. Should I slice them thinly or is there a specific way you'd recommend? | Speaker B (grandmother): Yes, two tablespoons should be just right for the stir-fry. It's important not to use too much oil to keep the dish healthy. Let me know if you have any other questions or need more help!",
+            "target": "Target (granddaughter): Thanks for the tip on the oil, Grandma! I think I'll stick to two tablespoons then. About the vegetables, should I slice them thinly or is there a specific way you'd recommend?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Yes, two tablespoons should be just right for the stir-fry. It's important not to use too much oil to keep the dish healthy. Let me know if you have any other questions or need more help! | Speaker B (granddaughter): Thanks for the tip on the oil, Grandma! I think I'll stick to two tablespoons then. About the vegetables, should I slice them thinly or is there a specific way you'd recommend?",
+            "target": "Target (grandmother): For the stir-fry, I usually add about two tablespoons of oil, just like we talked about. If you're referring to another ingredient, let me know, and I'll be happy to help you with the measurements!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Thanks for the tip on the oil, Grandma! I think I'll stick to two tablespoons then. About the vegetables, should I slice them thinly or is there a specific way you'd recommend? | Speaker B (grandmother): For the stir-fry, I usually add about two tablespoons of oil, just like we talked about. If you're referring to another ingredient, let me know, and I'll be happy to help you with the measurements!",
+            "target": "Target (granddaughter): Thanks, Grandma! I think I got the oil part down. Could you please share your tips on how to cut the vegetables for the stir-fry? Should they be thinly sliced or is there a specific technique you prefer?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): For the stir-fry, I usually add about two tablespoons of oil, just like we talked about. If you're referring to another ingredient, let me know, and I'll be happy to help you with the measurements! | Speaker B (granddaughter): Thanks, Grandma! I think I got the oil part down. Could you please share your tips on how to cut the vegetables for the stir-fry? Should they be thinly sliced or is there a specific technique you prefer?",
+            "target": "Target (grandmother): I'm glad that makes sense to you, Angela! Cooking can be such a fun and rewarding experience. If you have any more questions or want to try a new recipe together, just let me know!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I think I got the oil part down. Could you please share your tips on how to cut the vegetables for the stir-fry? Should they be thinly sliced or is there a specific technique you prefer? | Speaker B (grandmother): I'm glad that makes sense to you, Angela! Cooking can be such a fun and rewarding experience. If you have any more questions or want to try a new recipe together, just let me know!",
+            "target": "Target (granddaughter): Cooking with you is always a joy, Grandma! I’d love to try a new recipe together sometime. For now, could you guide me on how to cut the vegetables for the stir-fry? I want to make sure I get it just right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): I'm glad that makes sense to you, Angela! Cooking can be such a fun and rewarding experience. If you have any more questions or want to try a new recipe together, just let me know! | Speaker B (granddaughter): Cooking with you is always a joy, Grandma! I’d love to try a new recipe together sometime. For now, could you guide me on how to cut the vegetables for the stir-fry? I want to make sure I get it just right.",
+            "target": "Target (grandmother): That sounds wonderful, Angela! Soup is such a comforting dish. If you need any tips or want to share your progress, I'm here to help. Enjoy your cooking!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): Cooking with you is always a joy, Grandma! I’d love to try a new recipe together sometime. For now, could you guide me on how to cut the vegetables for the stir-fry? I want to make sure I get it just right. | Speaker B (grandmother): That sounds wonderful, Angela! Soup is such a comforting dish. If you need any tips or want to share your progress, I'm here to help. Enjoy your cooking!",
+            "target": "Target (granddaughter): Thanks, Grandma! I actually meant the stir-fry, not soup, but I appreciate your support. Could you please tell me how you usually cut the vegetables for stir-fry?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): That sounds wonderful, Angela! Soup is such a comforting dish. If you need any tips or want to share your progress, I'm here to help. Enjoy your cooking! | Speaker B (granddaughter): Thanks, Grandma! I actually meant the stir-fry, not soup, but I appreciate your support. Could you please tell me how you usually cut the vegetables for stir-fry?",
+            "target": "Target (grandmother): Adding carrots sounds like a great idea, Angela! They add such a lovely sweetness and color to the soup. Let me know how it turns out or if you need any advice on seasoning!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I actually meant the stir-fry, not soup, but I appreciate your support. Could you please tell me how you usually cut the vegetables for stir-fry? | Speaker B (grandmother): Adding carrots sounds like a great idea, Angela! They add such a lovely sweetness and color to the soup. Let me know how it turns out or if you need any advice on seasoning!",
+            "target": "Target (granddaughter): It seems like there's a little mix-up, Grandma. I'm actually making a stir-fry, not soup. Could you guide me on how to cut the vegetables for that? I want to make sure they cook evenly.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): Adding carrots sounds like a great idea, Angela! They add such a lovely sweetness and color to the soup. Let me know how it turns out or if you need any advice on seasoning! | Speaker B (granddaughter): It seems like there's a little mix-up, Grandma. I'm actually making a stir-fry, not soup. Could you guide me on how to cut the vegetables for that? I want to make sure they cook evenly.",
+            "target": "Target (grandmother): I usually add about one to two cups of chopped carrots, depending on how much soup I'm making and how much carrot flavor I want. You can adjust it based on your taste preference. Do you have a specific amount in mind?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): It seems like there's a little mix-up, Grandma. I'm actually making a stir-fry, not soup. Could you guide me on how to cut the vegetables for that? I want to make sure they cook evenly. | Speaker B (grandmother): I usually add about one to two cups of chopped carrots, depending on how much soup I'm making and how much carrot flavor I want. You can adjust it based on your taste preference. Do you have a specific amount in mind?",
+            "target": "Target (granddaughter): Thanks, Grandma! For the stir-fry, I'm thinking of using about a cup of carrots. How do you usually cut them for even cooking?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): I usually add about one to two cups of chopped carrots, depending on how much soup I'm making and how much carrot flavor I want. You can adjust it based on your taste preference. Do you have a specific amount in mind? | Speaker B (granddaughter): Thanks, Grandma! For the stir-fry, I'm thinking of using about a cup of carrots. How do you usually cut them for even cooking?",
+            "target": "Target (grandmother): You're very welcome, Angela! I'm so glad you enjoyed cooking and the dinner turned out well. It's always a pleasure to share these moments with you. If you ever want to try another recipe or need any cooking tips, I'm here for you. Enjoy your meal!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! For the stir-fry, I'm thinking of using about a cup of carrots. How do you usually cut them for even cooking? | Speaker B (grandmother): You're very welcome, Angela! I'm so glad you enjoyed cooking and the dinner turned out well. It's always a pleasure to share these moments with you. If you ever want to try another recipe or need any cooking tips, I'm here for you. Enjoy your meal!",
+            "target": "Target (granddaughter): Thank you, Grandma! I really appreciate your help. I'll definitely reach out if I need more tips. Love you!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): You're very welcome, Angela! I'm so glad you enjoyed cooking and the dinner turned out well. It's always a pleasure to share these moments with you. If you ever want to try another recipe or need any cooking tips, I'm here for you. Enjoy your meal! | Speaker B (granddaughter): Thank you, Grandma! I really appreciate your help. I'll definitely reach out if I need more tips. Love you!",
+            "target": "Target (grandmother): I'm delighted to hear that, Angela! The aroma of a good meal is always so inviting. Enjoy every bite, and remember, I'm here if you want to share more of your cooking adventures!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): Thank you, Grandma! I really appreciate your help. I'll definitely reach out if I need more tips. Love you! | Speaker B (grandmother): I'm delighted to hear that, Angela! The aroma of a good meal is always so inviting. Enjoy every bite, and remember, I'm here if you want to share more of your cooking adventures!",
+            "target": "Target (granddaughter): Thanks, Grandma! I love sharing these moments with you too. I'll let you know how the stir-fry turns out. Maybe next time we can cook together!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

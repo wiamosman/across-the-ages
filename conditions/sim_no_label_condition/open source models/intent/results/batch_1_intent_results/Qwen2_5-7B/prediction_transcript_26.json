@@ -1,0 +1,1168 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 26,
+    "utterances": [
+        {
+            "text": "Hello, everybody. Welcome back to our channel. Today I'm with Nono and we're at my mom's house. My mom purchased a new house recently, and my grandfather. Actually. You found a crack in the foundation. Right. So today we're gonna fix the crack and we're gonna show you how my Nono does it.",
+            "golden": "introduce",
+            "predicted": "introduce",
+            "raw": "introduce",
+            "status": "CORRECT"
+        },
+        {
+            "text": "The crack. See this here?",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "point out",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I want you to cut where the crack is. Can I sand it where the crack is?",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's what I'm doing.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Y. Take this here and just give a small little tap.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "instruct",
+            "status": "WRONG"
+        },
+        {
+            "text": "The whole way.",
+            "golden": "confirm",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no, Just a little bit.",
+            "golden": "refuse",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, but the whole way down.",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, all the way down where the crack is.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's chipping more off is what you want.",
+            "golden": "confirm",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, that's what I want.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You said gently.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Gently. Yeah. Now scrape it. Take all the chips off. That's right. That's one. There's another crack over here.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "guide",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let me sand it first.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "So I had to explain. So everybody knows. What steps did you do to fix this?",
+            "golden": "asking for opinions",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Remove the dirt with the sandpaper.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And make a little bit larger the crack. Make it a little larger.",
+            "golden": "explain",
+            "predicted": "emphasize",
+            "raw": "emphasize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Bigger, yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then we're gonna put silicone.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'm not gonna use cement.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "No.",
+            "golden": "acknowledge",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "Some people use purging cement. Yeah, purging I don't like on the crack.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You know why it's not strong?",
+            "golden": "asking for opinions",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Because the purging, if the house shifts, it cracks. The silicone will never crack.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right. A little bit loose here. I can see it. There you go.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is silicone.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Concrete sealant.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Concrete sealant.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Did you get a new dispenser, A new caulking gun?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, that's Nick's. Mine, I don't know.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "My uncle's. I think yours is in my house still. No, no.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's why he gave me a caulking gun to do my basement.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It's under years old.",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "It is so old. You have to. It takes 20 minutes to get a dropout. So now he's using my uncle's. His son's caulking. This is much better.",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "I use that because you took mine.",
+            "golden": "complain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yours just has to be thrown out. It's terrible.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No, put a little bit oil there. Oil.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It doesn't work anymore. The mechanism's broken.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Bring to me.",
+            "golden": "ask for help",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "You gonna fix it?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'll fix it.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "commit",
+            "status": "WRONG"
+        },
+        {
+            "text": "All right. Stay tuned. Next video. He's gonna fix it.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "announce",
+            "status": "WRONG"
+        },
+        {
+            "text": "Put a bit of this caulking inside of the crack. Put all the way. All the way.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "instruct",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Don't waste it.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Here we go.",
+            "golden": "inform",
+            "predicted": "emphasize",
+            "raw": "emphasize",
+            "status": "WRONG"
+        },
+        {
+            "text": "You gotta go here.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I know. I want you to.",
+            "golden": "emphasize",
+            "predicted": "unknown",
+            "raw": "urge",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is really thin.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. I thought it'd be thicker than that.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "I thought so too, but so to do that.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "What's that, Nona?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is cement. Barging cement. I put this there. You know why?",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Why?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "This dries on the surface.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And when it's dry, you cannot take the cement out no more.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no.",
+            "golden": "acknowledge",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's stuck with. This is really, really watery. I never used it before. Put a little better there.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Junior, how much you want?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Go ahead. More. Okay, go put a little bit on the crack.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "So you mixed it with the parsing cement.",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "And you made it thicker.",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. There, it's done.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Don't you have to take the dry stuff off or you wait till it dries?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wait until it's dry. Now you can cover the rolls up.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "instruct",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wait, you don't need it?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, we don't need no more. It's all done.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "Did you think it went deeper than that? Is that why?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I thought it was deeper, but it's not.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Which is good, right?",
+            "golden": "asking for opinions",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Very good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So not only the foundation, but we're also going to fix a gap that my nono doesn't like at the side of the house. And we're also going to fix a different crack in the driveway. Right, Right. So a couple different concrete jobs today. Let's get started here.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "CORRECT"
+        },
+        {
+            "text": "See, the barging came off. See, I'm going to fix it. Okay, you got to wet the cement.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, explain why. Why am I wetting this right now?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "For the viewers, because the parging, all cement always sticks better if it's wet surface.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "So nono also found some broken parging here. So next we're going to fix this.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I want to make sure the parging sticks there. So I'm going to put a little glue. A little glue on it.",
+            "golden": "plan",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Give me it.",
+            "golden": "ask for help",
+            "predicted": "unknown",
+            "raw": "demand",
+            "status": "WRONG"
+        },
+        {
+            "text": "See if you can do it.",
+            "golden": "asking for opinions",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is why the young guy's here.",
+            "golden": "flaunt",
+            "predicted": "introduce",
+            "raw": "introduce",
+            "status": "WRONG"
+        },
+        {
+            "text": "I need a plier.",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You don't need a plier. Yeah, I go to the gym. This is why I go to the gym.",
+            "golden": "refuse",
+            "predicted": "unknown",
+            "raw": "justify",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, good.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You know. You know how you say use the garden? This is why I go to the gym.",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, good.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So this is concrete fortifier.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. I put this there.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then I use a little bit mixed with the cement so it acts like a glue. Acts like a glue? Yeah, it's really strong. I don't want stu. He got enough on the brush.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Enough?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Do all of it now I need some water.",
+            "golden": "ask for help",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "The concrete master strikes again.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Julian, anybody can do this. You just gotta know what you need to do.",
+            "golden": "advise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, let me start it and then you do It.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Give me that. You do it.",
+            "golden": "refuse",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "You guys ready for him to yell at me? Watch. Ready.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Put it on and push it in.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Down, up or up? Down.",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "choose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Up. Don't go on the aluminum.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm gonna take it off after.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "You gotta go almost flat.",
+            "golden": "advise",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, I was more in an angle, Right?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "You gotta go flat. See, I can reach it.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "See, I didn't drop it.",
+            "golden": "flaunt",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, he did a better job than I did.",
+            "golden": "praise",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Almost flat. Because when you go flat, you leave more on.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I see. Okay. Yeah, that's much better. So is it similar to fixing a plaster wall? No, no.",
+            "golden": "asking for opinions",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Like a same thing. Jump. We gotta wait a little longer. This has gotta set. It's time. Now put a little texture to the. To the spot today. Now, the trouble is, this is good. See, that's the same color as this, but this dirt here.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Change the color.",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Change the color. Brown, Right.",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "The texture looks good now, though.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, that's good enough. Because it's drying too fast. It's hot. Right. This is going to be next. I think we do this first.",
+            "golden": "plan",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let's do it. I found something. Little nail and nail.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's good to have a flat tire. Scrub. Take the dust out this rack here. I'll show you how to do it.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "I think I got all the dust out.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Good. It's nice and clean. Now caulk it. Put one coat of caulking over it. Fill it up. Julian, you did not fill it up.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'll go back. It's okay. So you like this because it'll. If it shifts, it'll be able to.",
+            "golden": "asking for opinions",
+            "predicted": "comfort",
+            "raw": "comfort",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's flexible.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Flexible, Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I got some cement here, and I'm gonna put some chips. They use these chips for epoxy. For epoxy?",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Where'd you get that from? You got that from somebody, didn't you? Yeah, from. From. From my uncle's epoxy job. You took some?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "I knew you took some.",
+            "golden": "joke",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "They gave to me. I didn't take it. The cement will give the color of the cement. Right. And the chips look like a stone.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You mix both, right?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "That blends in pretty good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "How do you think of that idea?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask for opinions",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't think. I. Just go ahead and do it. See, you don't see the crack. This is waterproof, right? The water will not go in the crack. And there's a better chance the frost will not lift it. But it's too wide. Too much water goes there.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, but it's slanted away, right?",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, but when it rains, the water goes in. You think for. Guaranteed. I don't want no water going on my foundation.",
+            "golden": "warn",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "So how much of the gap you want to seal?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "All of it. And then we do have the other way. Don't breathe the dust.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Don't breathe. Do not breathe. Now breathe.",
+            "golden": "joke",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "WRONG"
+        },
+        {
+            "text": "So now I'm shoving in this newspaper because we realize these holes are too deep.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "So.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No, no. Said put papers in there, and we're gonna fill it with cement. This is very sketchy. DIY Tell the people why you don't like this gap.",
+            "golden": "asking for opinions",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Dirt goes on it.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Dirt? Yeah, leaves.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Leaves and debris.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Debris.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "And it's hard to clean.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "We don't like debris.",
+            "golden": "agree",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "No.",
+            "golden": "agree",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "You also said water could get in, right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, yeah, when it rains. Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Teamwork, Nono.",
+            "golden": "praise",
+            "predicted": "emphasize",
+            "raw": "emphasize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then you. You perfected it. Good job. Okay, so tasks are done.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "All finished.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Fixed.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Fixed.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Thanks for watching, and we'll see you on the next video.",
+            "golden": "leave",
+            "predicted": "thank",
+            "raw": "thank",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Ciao. Bye for now.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Bye. Bye, Pe.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave",
+            "status": "CORRECT"
+        }
+    ]
+}

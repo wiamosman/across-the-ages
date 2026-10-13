@@ -1,0 +1,181 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 102,
+  "utterances": [
+    {
+      "text": "Hey Grandma, how's your day going? I'm setting up my live stream!",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I'm glad to hear that! What are you excited about with this streaming?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm excited about the new video game I just got! I want to show people how to play it.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yeah, it's got amazing graphics and a great storyline. Do you want to see the setup sometime?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It's really cool, Grandma! I think you'd enjoy seeing the colors. Maybe we can stream together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I see! So the red light is important to know if the broadcast is on?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yeah, the red light shows when the stream is live. It's pretty handy!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, I'm coming over. Let's see what you've got there for the show.",
+      "golden": "command",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Great! I'm sure you'll love it. Let's get the camera started!",
+      "golden": "agreement",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, I can see the lens clearly now. What do you want to show me on the monitor?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I wanted to show you how I talk to people in the chat. It's really fun and interactive!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, I see. So the people watching might not see me here in the room?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "No, they won't see you unless you sit by me. Do you want to try saying hi?",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, that's great! I'm glad I can say hello to your friends.",
+      "golden": "statement-opinion",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Actually, they can't see you yet because the camera is off. Want me to show you how to turn it on?",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I understand now. So there's a little delay in what the audience is seeing?",
+      "golden": "question",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Yes, there's a small delay. They see what we do a few seconds later. Let me show you.",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see. Thank you for explaining how the internet carries the video.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! If you want, we can try starting a short stream together now.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I get it now. So I need to stay within the camera's view for them to see me during the live?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Exactly! Just make sure you're in the camera's view, and you'll be part of the broadcast.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I see! So I just need to be mindful of where the camera is pointing. Thank you for helping me understand.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem! Let me know if you have any other questions about the streaming platform.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I didn't mean to sound worried. I just meant it's a bit strange to think about many people watching.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. It's just a new way to communicate for me to get used to.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I get it, it can be a bit weird at first. But once you start chatting, it becomes second nature.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "If you ever feel uncomfortable, we can just turn the camera off and figure it out together.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see, dear. It sounds like a lot of fun and a great way to connect with others. I'm glad you're sharing this with me.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm really happy you're open to learning about streaming, Grandma. It's always more fun when we do it together.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 79,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Hey Nonno, what are you doing today? What is all this?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Hey Nonno, what are you doing today? What is all this?",
+            "target": "Target (grandfather): Well, today I'm trying something I never done before. I'm gonna make wine from juice.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Hey Nonno, what are you doing today? What is all this? | Speaker B (grandfather): Well, today I'm trying something I never done before. I'm gonna make wine from juice.",
+            "target": "Target (grandson): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Well, today I'm trying something I never done before. I'm gonna make wine from juice. | Speaker B (grandson): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.",
+            "target": "Target (grandfather): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year. | Speaker B (grandfather): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.",
+            "target": "Target (grandson): Okay, and so, and why are you trying the juice this year? Because it's easier?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel. | Speaker B (grandson): Okay, and so, and why are you trying the juice this year? Because it's easier?",
+            "target": "Target (grandfather): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): Okay, and so, and why are you trying the juice this year? Because it's easier? | Speaker B (grandfather): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.",
+            "target": "Target (grandson): Okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting. | Speaker B (grandson): Okay.",
+            "target": "Target (grandfather): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Okay. | Speaker B (grandfather): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.",
+            "target": "Target (grandson): So this is just an experiment today.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting. | Speaker B (grandson): So this is just an experiment today.",
+            "target": "Target (grandfather): Well, I'm gonna try it this way. See what happens.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): So this is just an experiment today. | Speaker B (grandfather): Well, I'm gonna try it this way. See what happens.",
+            "target": "Target (grandson): What different grape varieties did you buy?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): Well, I'm gonna try it this way. See what happens. | Speaker B (grandson): What different grape varieties did you buy?",
+            "target": "Target (grandfather): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): What different grape varieties did you buy? | Speaker B (grandfather): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.",
+            "target": "Target (grandson): Okay, let's see how you do it. Let's try it this way this year.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens. | Speaker B (grandson): Okay, let's see how you do it. Let's try it this way this year.",
+            "target": "Target (grandfather): Yeah, well, you got the most, so you gotta bring this downstairs.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): Okay, let's see how you do it. Let's try it this way this year. | Speaker B (grandfather): Yeah, well, you got the most, so you gotta bring this downstairs.",
+            "target": "Target (grandson): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): Yeah, well, you got the most, so you gotta bring this downstairs. | Speaker B (grandson): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.",
+            "target": "Target (grandfather): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine. | Speaker B (grandfather): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.",
+            "target": "Target (grandson): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good. | Speaker B (grandson): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.",
+            "target": "Target (grandfather): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.",
+            "gold_label": "method divergence",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube. | Speaker B (grandfather): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.",
+            "target": "Target (grandson): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.",
+            "gold_label": "method divergence",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandfather): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away. | Speaker B (grandson): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.",
+            "target": "Target (grandfather): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers. | Speaker B (grandfather): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.",
+            "target": "Target (grandson): I can see. They call it balling? It's about 18°.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandfather): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'. | Speaker B (grandson): I can see. They call it balling? It's about 18°.",
+            "target": "Target (grandfather): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): I can see. They call it balling? It's about 18°. | Speaker B (grandfather): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.",
+            "target": "Target (grandson): It's about 17°. So because it's 17°, you have to add sugar?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandfather): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°. | Speaker B (grandson): It's about 17°. So because it's 17°, you have to add sugar?",
+            "target": "Target (grandfather): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): It's about 17°. So because it's 17°, you have to add sugar? | Speaker B (grandfather): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.",
+            "target": "Target (grandson): And why does the sugar content matter?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandfather): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17. | Speaker B (grandson): And why does the sugar content matter?",
+            "target": "Target (grandfather): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): And why does the sugar content matter? | Speaker B (grandfather): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.",
+            "target": "Target (grandson): You should try the Zinfandel now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandfather): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar. | Speaker B (grandson): You should try the Zinfandel now.",
+            "target": "Target (grandfather): Okay, I'll try the other pail just to see if it's the same. This is even less.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): You should try the Zinfandel now. | Speaker B (grandfather): Okay, I'll try the other pail just to see if it's the same. This is even less.",
+            "target": "Target (grandson): Even less?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandfather): Okay, I'll try the other pail just to see if it's the same. This is even less. | Speaker B (grandson): Even less?",
+            "target": "Target (grandfather): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): Even less? | Speaker B (grandfather): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?",
+            "target": "Target (grandson): This is why you gotta make your own juice, see? Not good?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandfather): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why? | Speaker B (grandson): This is why you gotta make your own juice, see? Not good?",
+            "target": "Target (grandfather): That means something goes on.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): This is why you gotta make your own juice, see? Not good? | Speaker B (grandfather): That means something goes on.",
+            "target": "Target (grandson): So 22 grades?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandfather): That means something goes on. | Speaker B (grandson): So 22 grades?",
+            "target": "Target (grandfather): It's in the middle, it's around 20.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): So 22 grades? | Speaker B (grandfather): It's in the middle, it's around 20.",
+            "target": "Target (grandson): So it still needs a little bit of sugar though?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandfather): It's in the middle, it's around 20. | Speaker B (grandson): So it still needs a little bit of sugar though?",
+            "target": "Target (grandfather): Yes, it still needs a little bit of sugar.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandson): So it still needs a little bit of sugar though? | Speaker B (grandfather): Yes, it still needs a little bit of sugar.",
+            "target": "Target (grandson): Isn't that strange how ours didn't need any when we did it ourselves? Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandfather): Yes, it still needs a little bit of sugar. | Speaker B (grandson): Isn't that strange how ours didn't need any when we did it ourselves? Yeah.",
+            "target": "Target (grandfather): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandson): Isn't that strange how ours didn't need any when we did it ourselves? Yeah. | Speaker B (grandfather): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.",
+            "target": "Target (grandson): You're putting the juice right in the sugar?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandfather): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice. | Speaker B (grandson): You're putting the juice right in the sugar?",
+            "target": "Target (grandfather): Yeah, I'm trying to melt.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandson): You're putting the juice right in the sugar? | Speaker B (grandfather): Yeah, I'm trying to melt.",
+            "target": "Target (grandson): Trying to melt the sugar?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandfather): Yeah, I'm trying to melt. | Speaker B (grandson): Trying to melt the sugar?",
+            "target": "Target (grandfather): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandson): Trying to melt the sugar? | Speaker B (grandfather): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.",
+            "target": "Target (grandson): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandfather): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough. | Speaker B (grandson): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?",
+            "target": "Target (grandfather): I don't know, I just— I just tried.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandson): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that? | Speaker B (grandfather): I don't know, I just— I just tried.",
+            "target": "Target (grandson): You did it in your head?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandfather): I don't know, I just— I just tried. | Speaker B (grandson): You did it in your head?",
+            "target": "Target (grandfather): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): You did it in your head? | Speaker B (grandfather): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.",
+            "target": "Target (grandson): And then you're gonna add the wine on top of that?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandfather): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan. | Speaker B (grandson): And then you're gonna add the wine on top of that?",
+            "target": "Target (grandfather): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandson): And then you're gonna add the wine on top of that? | Speaker B (grandfather): Yeah.",
+            "target": "Target (grandson): So you're filling up these 4 damijjans, or 3?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandfather): Yeah. | Speaker B (grandson): So you're filling up these 4 damijjans, or 3?",
+            "target": "Target (grandfather): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandson): So you're filling up these 4 damijjans, or 3? | Speaker B (grandfather): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.",
+            "target": "Target (grandson): Till it's full.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandfather): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan. | Speaker B (grandson): Till it's full.",
+            "target": "Target (grandfather): But keep it below because of the fermentation, it's gonna overflow.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandson): Till it's full. | Speaker B (grandfather): But keep it below because of the fermentation, it's gonna overflow.",
+            "target": "Target (grandson): So you can't let it get too high.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandfather): But keep it below because of the fermentation, it's gonna overflow. | Speaker B (grandson): So you can't let it get too high.",
+            "target": "Target (grandfather): No, I gotta keep it below. I fill half of this dummy jar with the royal—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandson): So you can't let it get too high. | Speaker B (grandfather): No, I gotta keep it below. I fill half of this dummy jar with the royal—",
+            "target": "Target (grandson): Zinfandel.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandfather): No, I gotta keep it below. I fill half of this dummy jar with the royal— | Speaker B (grandson): Zinfandel.",
+            "target": "Target (grandfather): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandson): Zinfandel. | Speaker B (grandfather): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.",
+            "target": "Target (grandson): So we're mixing two varieties of grapes. Why?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandfather): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon. | Speaker B (grandson): So we're mixing two varieties of grapes. Why?",
+            "target": "Target (grandfather): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandson): So we're mixing two varieties of grapes. Why? | Speaker B (grandfather): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.",
+            "target": "Target (grandson): Experiment. So you're experimenting two things today. One, this new method of doing the wine.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandfather): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together. | Speaker B (grandson): Experiment. So you're experimenting two things today. One, this new method of doing the wine.",
+            "target": "Target (grandfather): That's right.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandson): Experiment. So you're experimenting two things today. One, this new method of doing the wine. | Speaker B (grandfather): That's right.",
+            "target": "Target (grandson): And two, you're mixing two grape varieties.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandfather): That's right. | Speaker B (grandson): And two, you're mixing two grape varieties.",
+            "target": "Target (grandfather): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): And two, you're mixing two grape varieties. | Speaker B (grandfather): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.",
+            "target": "Target (grandson): Right, we know. What it tastes like.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandfather): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel. | Speaker B (grandson): Right, we know. What it tastes like.",
+            "target": "Target (grandfather): May taste fantastic, I don't know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): Right, we know. What it tastes like. | Speaker B (grandfather): May taste fantastic, I don't know.",
+            "target": "Target (grandson): Okay, so we're gonna find out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandfather): May taste fantastic, I don't know. | Speaker B (grandson): Okay, so we're gonna find out.",
+            "target": "Target (grandfather): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): Okay, so we're gonna find out. | Speaker B (grandfather): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.",
+            "target": "Target (grandson): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandfather): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April. | Speaker B (grandson): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?",
+            "target": "Target (grandfather): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right? | Speaker B (grandfather): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.",
+            "target": "Target (grandson): Sediment.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandfather): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom. | Speaker B (grandson): Sediment.",
+            "target": "Target (grandfather): Sediment, because it clears it, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): Sediment. | Speaker B (grandfather): Sediment, because it clears it, right?",
+            "target": "Target (grandson): Right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): Sediment, because it clears it, right? | Speaker B (grandson): Right.",
+            "target": "Target (grandfather): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): Right. | Speaker B (grandfather): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.",
+            "target": "Target (grandson): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandfather): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two. | Speaker B (grandson): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?",
+            "target": "Target (grandfather): It's good. It's very good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno? | Speaker B (grandfather): It's good. It's very good.",
+            "target": "Target (grandson): Good?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandfather): It's good. It's very good. | Speaker B (grandson): Good?",
+            "target": "Target (grandfather): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): Good? | Speaker B (grandfather): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.",
+            "target": "Target (grandson): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandfather): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good. | Speaker B (grandson): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—",
+            "target": "Target (speaker c): Okay. This is for Stephanie.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before— | Speaker B (speaker c): Okay. This is for Stephanie.",
+            "target": "Target (grandfather): Yeah. So what's next on the menu?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (speaker c): Okay. This is for Stephanie. | Speaker B (grandfather): Yeah. So what's next on the menu?",
+            "target": "Target (grandson): I give this 10 out of 10. 10 out of 10 pizza.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandfather): Yeah. So what's next on the menu? | Speaker B (grandson): I give this 10 out of 10. 10 out of 10 pizza.",
+            "target": "Target (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandson): I give this 10 out of 10. 10 out of 10 pizza. | Speaker B (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+            "target": "Target (grandfather): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks. | Speaker B (grandfather): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?",
+            "target": "Target (grandson): Nonno's living his best life.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandfather): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right? | Speaker B (grandson): Nonno's living his best life.",
+            "target": "Target (grandfather): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): Nonno's living his best life. | Speaker B (grandfather): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.",
+            "target": "Target (grandson): So you basically sandwich it in cheese?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandfather): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi. | Speaker B (grandson): So you basically sandwich it in cheese?",
+            "target": "Target (grandfather): That's right.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): So you basically sandwich it in cheese? | Speaker B (grandfather): That's right.",
+            "target": "Target (grandson): But why did you taste it with the fork?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandfather): That's right. | Speaker B (grandson): But why did you taste it with the fork?",
+            "target": "Target (grandfather): Well, I wanted to see what kind of cheese it is.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): But why did you taste it with the fork? | Speaker B (grandfather): Well, I wanted to see what kind of cheese it is.",
+            "target": "Target (grandson): Forget about it. What kind of cheese is it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandfather): Well, I wanted to see what kind of cheese it is. | Speaker B (grandson): Forget about it. What kind of cheese is it?",
+            "target": "Target (grandfather): Forget about it. It's not very strong, but—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): Forget about it. What kind of cheese is it? | Speaker B (grandfather): Forget about it. It's not very strong, but—",
+            "target": "Target (grandson): Mom, how are you liking it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandfather): Forget about it. It's not very strong, but— | Speaker B (grandson): Mom, how are you liking it?",
+            "target": "Target (speaker c): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): Mom, how are you liking it? | Speaker B (speaker c): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!",
+            "target": "Target (grandson): And how old are you today? See, these rice balls? They're the best I've ever had.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (speaker c): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye! | Speaker B (grandson): And how old are you today? See, these rice balls? They're the best I've ever had.",
+            "target": "Target (grandfather): You don't look a day over 40.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandson): And how old are you today? See, these rice balls? They're the best I've ever had. | Speaker B (grandfather): You don't look a day over 40.",
+            "target": "Target (grandson): Yeah, right. Chantani!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandfather): You don't look a day over 40. | Speaker B (grandson): Yeah, right. Chantani!",
+            "target": "Target (grandfather): Okay? Chantani!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandson): Yeah, right. Chantani! | Speaker B (grandfather): Okay? Chantani!",
+            "target": "Target (grandson): Arriba Durkee!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

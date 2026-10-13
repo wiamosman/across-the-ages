@@ -1,0 +1,103 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 101,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been? Are you ready to learn about your new tablet?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, I see the screen now! Thank you for pointing out the power button, dear.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help. Is there anything else you need to find on here?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, you're sending an email too? That's wonderful! Who is it going to?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm sending it to my professor. I hope they like my project update on social AI.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, I see. Maybe we can double-check the email address together so I can practice typing?",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like there's a bit of confusion with the email. Maybe I can help sort it out?",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you for offering to help, dear. Let's see if we can figure out the keyboard together.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's take a look at the email address and make sure it's correct.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Okay, I'll read it out loud and you can tell me if the spelling looks right.",
+      "golden": "answer",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Great! Let's see if we can find any little mistakes together.",
+      "golden": "statement-opinion",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Alright, here it goes: professor.doe@university.edu. Does that look right to you?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Okay, I'll check the Wi-Fi settings now. Thanks for the smart suggestion!",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see how it works. Thank you for showing me how to use the tablet, dear. I'll try it now.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

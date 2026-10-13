@@ -1,0 +1,111 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 51,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How have you been?",
+      "target": "Target (grandson): Hey Grandpa! I've been good, just busy with school and stuff. How about you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How have you been? | Speaker B (grandson): Hey Grandpa! I've been good, just busy with school and stuff. How about you?",
+      "target": "Target (grandfather): Yes, I'd love to hear more about what's been going on with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hey Grandpa! I've been good, just busy with school and stuff. How about you? | Speaker B (grandfather): Yes, I'd love to hear more about what's been going on with you.",
+      "target": "Target (grandson): Sure, I've been working on a big project for school. It's been a bit stressful but also exciting!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Yes, I'd love to hear more about what's been going on with you. | Speaker B (grandson): Sure, I've been working on a big project for school. It's been a bit stressful but also exciting!",
+      "target": "Target (grandfather): Oh, I see! It looks like agame, it sounds like you're having fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): Sure, I've been working on a big project for school. It's been a bit stressful but also exciting! | Speaker B (grandfather): Oh, I see! It looks like agame, it sounds like you're having fun!",
+      "target": "Target (grandson): Haha, no, it's not a game. It's a school project, but I'm glad you think it sounds fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Oh, I see! It looks like agame, it sounds like you're having fun! | Speaker B (grandson): Haha, no, it's not a game. It's a school project, but I'm glad you think it sounds fun!",
+      "target": "Target (grandfather): No worries at all! I'm just glad we cleared that up. So, what else is new with you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): Haha, no, it's not a game. It's a school project, but I'm glad you think it sounds fun! | Speaker B (grandfather): No worries at all! I'm just glad we cleared that up. So, what else is new with you?",
+      "target": "Target (grandson): Well, I've also started learning to play the guitar. It's been a fun challenge!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): No worries at all! I'm just glad we cleared that up. So, what else is new with you? | Speaker B (grandson): Well, I've also started learning to play the guitar. It's been a fun challenge!",
+      "target": "Target (grandfather): I'm glad you're okay. Have you been up to anything exciting lately?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): Well, I've also started learning to play the guitar. It's been a fun challenge! | Speaker B (grandfather): I'm glad you're okay. Have you been up to anything exciting lately?",
+      "target": "Target (grandson): Yeah, actually! I went to a concert last weekend, and it was amazing!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): I'm glad you're okay. Have you been up to anything exciting lately? | Speaker B (grandson): Yeah, actually! I went to a concert last weekend, and it was amazing!",
+      "target": "Target (grandfather): I see you're keeping it simple today. Anything you'd like to share or talk about?",
+      "gold_label": "none",
+      "predicted_label": "stereotyped expectation",
+      "raw": "stereotyped expectation"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandson): Yeah, actually! I went to a concert last weekend, and it was amazing! | Speaker B (grandfather): I see you're keeping it simple today. Anything you'd like to share or talk about?",
+      "target": "Target (grandson): Well, I've been thinking about starting a band with some friends. What do you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): I see you're keeping it simple today. Anything you'd like to share or talk about? | Speaker B (grandson): Well, I've been thinking about starting a band with some friends. What do you think?",
+      "target": "Target (grandfather): Yes, really! I'm always interested in hearing what's going on with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

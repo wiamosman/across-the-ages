@@ -1,0 +1,1637 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 1,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): hello, welcome back to bake it with grandma",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): hello, welcome back to bake it with grandma",
+            "target": "Target (grandmother): where we are all about baking.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): hello, welcome back to bake it with grandma | Speaker B (grandmother): where we are all about baking.",
+            "target": "Target (grandson): with love",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): where we are all about baking. | Speaker B (grandson): with love",
+            "target": "Target (grandmother): with love. i added that. he's like, with flour.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): with love | Speaker B (grandmother): with love. i added that. he's like, with flour.",
+            "target": "Target (grandson): yes.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): with love. i added that. he's like, with flour. | Speaker B (grandson): yes.",
+            "target": "Target (grandmother): ok, so as i said in our introductory before doing this, i just wanted to get some things prepared so you're not having to wait while we're doing all of that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): yes. | Speaker B (grandmother): ok, so as i said in our introductory before doing this, i just wanted to get some things prepared so you're not having to wait while we're doing all of that.",
+            "target": "Target (grandson): there will be bloopers, but the bloopers will probably be out before the video.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): ok, so as i said in our introductory before doing this, i just wanted to get some things prepared so you're not having to wait while we're doing all of that. | Speaker B (grandson): there will be bloopers, but the bloopers will probably be out before the video.",
+            "target": "Target (grandmother): true.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): there will be bloopers, but the bloopers will probably be out before the video. | Speaker B (grandmother): true.",
+            "target": "Target (grandson): yes. so just post the bloopers.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): true. | Speaker B (grandson): yes. so just post the bloopers.",
+            "target": "Target (grandmother): so, we're going to use box cake, as i said previously, because ..",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): yes. so just post the bloopers. | Speaker B (grandmother): so, we're going to use box cake, as i said previously, because ..",
+            "target": "Target (grandson): bloopers",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): so, we're going to use box cake, as i said previously, because .. | Speaker B (grandson): bloopers",
+            "target": "Target (grandmother): it was a very last minute. cake.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): bloopers | Speaker B (grandmother): it was a very last minute. cake.",
+            "target": "Target (grandson): cake. once your phone's done charging, i can taking it out so we can show them what we're doing.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): it was a very last minute. cake. | Speaker B (grandson): cake. once your phone's done charging, i can taking it out so we can show them what we're doing.",
+            "target": "Target (grandmother): i'm going to. so what we're going to do is use red velvet, and i only have one. red velvet to the color. so we are going to substitute the white cake",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): cake. once your phone's done charging, i can taking it out so we can show them what we're doing. | Speaker B (grandmother): i'm going to. so what we're going to do is use red velvet, and i only have one. red velvet to the color. so we are going to substitute the white cake",
+            "target": "Target (grandson): red velvet's a good color.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): i'm going to. so what we're going to do is use red velvet, and i only have one. red velvet to the color. so we are going to substitute the white cake | Speaker B (grandson): red velvet's a good color.",
+            "target": "Target (grandmother): so we are going to substitute the white cake and add them together. but to get red velvet, you're going to add some...",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): red velvet's a good color. | Speaker B (grandmother): so we are going to substitute the white cake and add them together. but to get red velvet, you're going to add some...",
+            "target": "Target (grandson): red, white, and blue. maca.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): so we are going to substitute the white cake and add them together. but to get red velvet, you're going to add some... | Speaker B (grandson): red, white, and blue. maca.",
+            "target": "Target (grandmother): cocoa powder. and red dye. which...",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): red, white, and blue. maca. | Speaker B (grandmother): cocoa powder. and red dye. which...",
+            "target": "Target (grandson): is it red 40?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): cocoa powder. and red dye. which... | Speaker B (grandson): is it red 40?",
+            "target": "Target (grandmother): this is red 40, which soon will be illegal, so i will have to replace all of my red dye.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): is it red 40? | Speaker B (grandmother): this is red 40, which soon will be illegal, so i will have to replace all of my red dye.",
+            "target": "Target (grandson): what... what?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): this is red 40, which soon will be illegal, so i will have to replace all of my red dye. | Speaker B (grandson): what... what?",
+            "target": "Target (grandmother): yep, we're going to add...i'm going to bring this over here. so, didn't mean to cover your face.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): what... what? | Speaker B (grandmother): yep, we're going to add...i'm going to bring this over here. so, didn't mean to cover your face.",
+            "target": "Target (grandson): and also no singing. grandma!",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): yep, we're going to add...i'm going to bring this over here. so, didn't mean to cover your face. | Speaker B (grandson): and also no singing. grandma!",
+            "target": "Target (grandmother): no singing?!",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): and also no singing. grandma! | Speaker B (grandmother): no singing?!",
+            "target": "Target (grandson): yeah",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): no singing?! | Speaker B (grandson): yeah",
+            "target": "Target (grandmother): well, nobody wants to hear me sing anyway.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): yeah | Speaker B (grandmother): well, nobody wants to hear me sing anyway.",
+            "target": "Target (grandson): i know.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): well, nobody wants to hear me sing anyway. | Speaker B (grandson): i know.",
+            "target": "Target (grandmother): here is the red velvet.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): i know. | Speaker B (grandmother): here is the red velvet.",
+            "target": "Target (grandson): you should be on nailed it, man.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): here is the red velvet. | Speaker B (grandson): you should be on nailed it, man.",
+            "target": "Target (grandmother): then, white cake. yes, but nailed it are people that can't bake. i, you know,",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): you should be on nailed it, man. | Speaker B (grandmother): then, white cake. yes, but nailed it are people that can't bake. i, you know,",
+            "target": "Target (grandson): my point still stands, though.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): then, white cake. yes, but nailed it are people that can't bake. i, you know, | Speaker B (grandson): my point still stands, though.",
+            "target": "Target (grandmother): mmmmm the love. do you feel the love?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): my point still stands, though. | Speaker B (grandmother): mmmmm the love. do you feel the love?",
+            "target": "Target (grandson): yeah",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): mmmmm the love. do you feel the love? | Speaker B (grandson): yeah",
+            "target": "Target (grandmother): that was a joke, by the way. he actually said, but grandma, you ruined my joke.  ok, because he's really not mean. do you see how the camera's going back and forth? yeah. it's going crazy. okay. i bought,",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): yeah | Speaker B (grandmother): that was a joke, by the way. he actually said, but grandma, you ruined my joke.  ok, because he's really not mean. do you see how the camera's going back and forth? yeah. it's going crazy. okay. i bought,",
+            "target": "Target (grandson): oh, wait, wait, wait. we, we, we bought new mics. so, oh, and a 360 camera. and that's why the camera's going insane.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): that was a joke, by the way. he actually said, but grandma, you ruined my joke.  ok, because he's really not mean. do you see how the camera's going back and forth? yeah. it's going crazy. okay. i bought, | Speaker B (grandson): oh, wait, wait, wait. we, we, we bought new mics. so, oh, and a 360 camera. and that's why the camera's going insane.",
+            "target": "Target (grandmother): it goes to me and then it goes to him. iup of sugar",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandson): oh, wait, wait, wait. we, we, we bought new mics. so, oh, and a 360 camera. and that's why the camera's going insane. | Speaker B (grandmother): it goes to me and then it goes to him. iup of sugar",
+            "target": "Target (grandson): i'm prettier.though",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): it goes to me and then it goes to him. iup of sugar | Speaker B (grandson): i'm prettier.though",
+            "target": "Target (grandmother): he is prettier because he looks like me anyway, two cups. so when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. i always add an extra egg. i'm only going to add one extra egg instead of two. but there's two cups of sugar and two cups of flour.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandson): i'm prettier.though | Speaker B (grandmother): he is prettier because he looks like me anyway, two cups. so when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. i always add an extra egg. i'm only going to add one extra egg instead of two. but there's two cups of sugar and two cups of flour.",
+            "target": "Target (grandson): that's seven eggs. right. you said four.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandmother): he is prettier because he looks like me anyway, two cups. so when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. i always add an extra egg. i'm only going to add one extra egg instead of two. but there's two cups of sugar and two cups of flour. | Speaker B (grandson): that's seven eggs. right. you said four.",
+            "target": "Target (grandmother): no, it's three on the box, and then you add an extra egg. but i'm not going to add two extra eggs.so pour that in there. tell them what you're pouring in there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandson): that's seven eggs. right. you said four. | Speaker B (grandmother): no, it's three on the box, and then you add an extra egg. but i'm not going to add two extra eggs.so pour that in there. tell them what you're pouring in there.",
+            "target": "Target (grandson): pour this in here?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): no, it's three on the box, and then you add an extra egg. but i'm not going to add two extra eggs.so pour that in there. tell them what you're pouring in there. | Speaker B (grandson): pour this in here?",
+            "target": "Target (grandmother): yep",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandson): pour this in here? | Speaker B (grandmother): yep",
+            "target": "Target (grandson): in here? yeah. okay. so this is sugar. she won't let me eat it. she's very mean. and flour.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): yep | Speaker B (grandson): in here? yeah. okay. so this is sugar. she won't let me eat it. she's very mean. and flour.",
+            "target": "Target (grandmother): and flour. two cups each.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandson): in here? yeah. okay. so this is sugar. she won't let me eat it. she's very mean. and flour. | Speaker B (grandmother): and flour. two cups each.",
+            "target": "Target (grandson): so do i just dump the whole thing in there?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): and flour. two cups each. | Speaker B (grandson): so do i just dump the whole thing in there?",
+            "target": "Target (grandmother): just dump it all. there you go. so these eggs are fresh, washed. the ones that we're using. from my chicken.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): so do i just dump the whole thing in there? | Speaker B (grandmother): just dump it all. there you go. so these eggs are fresh, washed. the ones that we're using. from my chicken.",
+            "target": "Target (grandson): 18 of them today. that's the highest she's ever gotten.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): just dump it all. there you go. so these eggs are fresh, washed. the ones that we're using. from my chicken. | Speaker B (grandson): 18 of them today. that's the highest she's ever gotten.",
+            "target": "Target (grandmother): most of them are babies. well, except for 18.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandson): 18 of them today. that's the highest she's ever gotten. | Speaker B (grandmother): most of them are babies. well, except for 18.",
+            "target": "Target (grandson): a lot of them were in just one single coop.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): most of them are babies. well, except for 18. | Speaker B (grandson): a lot of them were in just one single coop.",
+            "target": "Target (grandmother): and i have 57 chickens. 55 are hens. yes, i might have a slight problem. ok, i'm going to add.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandson): a lot of them were in just one single coop. | Speaker B (grandmother): and i have 57 chickens. 55 are hens. yes, i might have a slight problem. ok, i'm going to add.",
+            "target": "Target (grandson): i can hear them",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): and i have 57 chickens. 55 are hens. yes, i might have a slight problem. ok, i'm going to add. | Speaker B (grandson): i can hear them",
+            "target": "Target (grandmother): two cups of sour cream. add the sour cream?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandson): i can hear them | Speaker B (grandmother): two cups of sour cream. add the sour cream?",
+            "target": "Target (grandson): oh, i wasn't ready. oh, i'm still not ready. no, i'm still,  okay, i'm ready.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): two cups of sour cream. add the sour cream? | Speaker B (grandson): oh, i wasn't ready. oh, i'm still not ready. no, i'm still,  okay, i'm ready.",
+            "target": "Target (grandmother): our audience is waiting. would you like some help?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandson): oh, i wasn't ready. oh, i'm still not ready. no, i'm still,  okay, i'm ready. | Speaker B (grandmother): our audience is waiting. would you like some help?",
+            "target": "Target (grandson): i mean, of our 21 viewers.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): our audience is waiting. would you like some help? | Speaker B (grandson): i mean, of our 21 viewers.",
+            "target": "Target (grandmother): hey, we had like 1,800 on our short. that was pretty good. our first video.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandson): i mean, of our 21 viewers. | Speaker B (grandmother): hey, we had like 1,800 on our short. that was pretty good. our first video.",
+            "target": "Target (grandson): that was pretty good. i've been maintaining a couple thousand views every video, which i'm happy about.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): hey, we had like 1,800 on our short. that was pretty good. our first video. | Speaker B (grandson): that was pretty good. i've been maintaining a couple thousand views every video, which i'm happy about.",
+            "target": "Target (grandmother): he has his own youtube channel, and we may have said the name of it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandson): that was pretty good. i've been maintaining a couple thousand views every video, which i'm happy about. | Speaker B (grandmother): he has his own youtube channel, and we may have said the name of it.",
+            "target": "Target (grandson): i don't think we did, because i didn't want to say it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): he has his own youtube channel, and we may have said the name of it. | Speaker B (grandson): i don't think we did, because i didn't want to say it.",
+            "target": "Target (grandmother): why?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandson): i don't think we did, because i didn't want to say it. | Speaker B (grandmother): why?",
+            "target": "Target (grandson): cuz i don't show my face on my bs video",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): why? | Speaker B (grandson): cuz i don't show my face on my bs video",
+            "target": "Target (grandmother): well, you've shown your face on this one, so what's the name of your other one?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): cuz i don't show my face on my bs video | Speaker B (grandmother): well, you've shown your face on this one, so what's the name of your other one?",
+            "target": "Target (grandson): hmh",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandmother): well, you've shown your face on this one, so what's the name of your other one? | Speaker B (grandson): hmh",
+            "target": "Target (grandmother): it's a yorkie. oh, not a yorkie. hhhhhhhhhh, that should be part of bloopers. a corgi.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): hmh | Speaker B (grandmother): it's a yorkie. oh, not a yorkie. hhhhhhhhhh, that should be part of bloopers. a corgi.",
+            "target": "Target (grandson): oh no, i can make it a blooper. i can! i know how. hey, lake. hey.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): it's a yorkie. oh, not a yorkie. hhhhhhhhhh, that should be part of bloopers. a corgi. | Speaker B (grandson): oh no, i can make it a blooper. i can! i know how. hey, lake. hey.",
+            "target": "Target (grandmother): then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. get my arm jiggles. then we add the cocoa powder is brown. then some red dye, d40.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): oh no, i can make it a blooper. i can! i know how. hey, lake. hey. | Speaker B (grandmother): then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. get my arm jiggles. then we add the cocoa powder is brown. then some red dye, d40.",
+            "target": "Target (grandson): d40? it's red 40, not d40.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. get my arm jiggles. then we add the cocoa powder is brown. then some red dye, d40. | Speaker B (grandson): d40? it's red 40, not d40.",
+            "target": "Target (grandmother): well, red, oh yeah, not d40, but red 40. d40 is actually a camera, a nikon camera. okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. and i guess i don't need all, didn't need all the, aren't these cute? these are so cute.i ordered these off amazon and they are,nancy green. that's what these are. aren't those cute?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): d40? it's red 40, not d40. | Speaker B (grandmother): well, red, oh yeah, not d40, but red 40. d40 is actually a camera, a nikon camera. okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. and i guess i don't need all, didn't need all the, aren't these cute? these are so cute.i ordered these off amazon and they are,nancy green. that's what these are. aren't those cute?",
+            "target": "Target (grandson): bloopers,they're not green.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandmother): well, red, oh yeah, not d40, but red 40. d40 is actually a camera, a nikon camera. okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. and i guess i don't need all, didn't need all the, aren't these cute? these are so cute.i ordered these off amazon and they are,nancy green. that's what these are. aren't those cute? | Speaker B (grandson): bloopers,they're not green.",
+            "target": "Target (grandmother): well, no, that's the name of the brand.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): bloopers,they're not green. | Speaker B (grandmother): well, no, that's the name of the brand.",
+            "target": "Target (grandson): then the brand's lying to you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandmother): well, no, that's the name of the brand. | Speaker B (grandson): then the brand's lying to you.",
+            "target": "Target (grandmother): super cute. there's like six different colors. i am obsessed with these. because then you're making people wait. but it gets my voice better.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): then the brand's lying to you. | Speaker B (grandmother): super cute. there's like six different colors. i am obsessed with these. because then you're making people wait. but it gets my voice better.",
+            "target": "Target (grandson): just like your chickens.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandmother): super cute. there's like six different colors. i am obsessed with these. because then you're making people wait. but it gets my voice better. | Speaker B (grandson): just like your chickens.",
+            "target": "Target (grandmother): yes, i am obsessed with my chickens. so matthew, i'm going to have you turn this a little bit. you have to quit taking that off because then you're making people wait. why don't you just stand up and do it?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): just like your chickens. | Speaker B (grandmother): yes, i am obsessed with my chickens. so matthew, i'm going to have you turn this a little bit. you have to quit taking that off because then you're making people wait. why don't you just stand up and do it?",
+            "target": "Target (grandson): but it gets my voice better. how do i do this?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandmother): yes, i am obsessed with my chickens. so matthew, i'm going to have you turn this a little bit. you have to quit taking that off because then you're making people wait. why don't you just stand up and do it? | Speaker B (grandson): but it gets my voice better. how do i do this?",
+            "target": "Target (grandmother): okay, so you're gonna hold the handle. oh, okay. hold, and then you're just gonna bring it down. all you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. this looks pink, not red. well, that's because it's red velvet. it will be. nope, you would do it. we just want to mix it in a little bit so that when we put it on the stand mixer, it's not going to go everywhere because it'll go poof.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): but it gets my voice better. how do i do this? | Speaker B (grandmother): okay, so you're gonna hold the handle. oh, okay. hold, and then you're just gonna bring it down. all you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. this looks pink, not red. well, that's because it's red velvet. it will be. nope, you would do it. we just want to mix it in a little bit so that when we put it on the stand mixer, it's not going to go everywhere because it'll go poof.",
+            "target": "Target (grandson): has it done that to you?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandmother): okay, so you're gonna hold the handle. oh, okay. hold, and then you're just gonna bring it down. all you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. this looks pink, not red. well, that's because it's red velvet. it will be. nope, you would do it. we just want to mix it in a little bit so that when we put it on the stand mixer, it's not going to go everywhere because it'll go poof. | Speaker B (grandson): has it done that to you?",
+            "target": "Target (grandmother): yes. multiple times. mostly with buttercream because there's so much in buttercream.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): has it done that to you? | Speaker B (grandmother): yes. multiple times. mostly with buttercream because there's so much in buttercream.",
+            "target": "Target (grandson): are we using buttercream?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandmother): yes. multiple times. mostly with buttercream because there's so much in buttercream. | Speaker B (grandson): are we using buttercream?",
+            "target": "Target (grandmother): no. we're using, um, we're doing cream cheese frosting tomorrow. okay. so what we're going to do, just to kind of take that off. cause we want all of this in here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): are we using buttercream? | Speaker B (grandmother): no. we're using, um, we're doing cream cheese frosting tomorrow. okay. so what we're going to do, just to kind of take that off. cause we want all of this in here.",
+            "target": "Target (grandson): we think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandmother): no. we're using, um, we're doing cream cheese frosting tomorrow. okay. so what we're going to do, just to kind of take that off. cause we want all of this in here. | Speaker B (grandson): we think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.",
+            "target": "Target (grandmother): like grandma starting a new job. yes. i'm a nurse and i do a lot of this for fun. i actually have an in-home bakery, my own little",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandson): we think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake. | Speaker B (grandmother): like grandma starting a new job. yes. i'm a nurse and i do a lot of this for fun. i actually have an in-home bakery, my own little",
+            "target": "Target (grandson): did you just smack your mic?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandmother): like grandma starting a new job. yes. i'm a nurse and i do a lot of this for fun. i actually have an in-home bakery, my own little | Speaker B (grandson): did you just smack your mic?",
+            "target": "Target (grandmother): no, this is my glasses! i have a in-home bakery, but i have a separate kitchen that my husband built for me, which is amazing. that's why it's all pink and still, here's the camera. it's still a work in progress.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): did you just smack your mic? | Speaker B (grandmother): no, this is my glasses! i have a in-home bakery, but i have a separate kitchen that my husband built for me, which is amazing. that's why it's all pink and still, here's the camera. it's still a work in progress.",
+            "target": "Target (grandson): isn't the whole thing supposed to be pink?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandmother): no, this is my glasses! i have a in-home bakery, but i have a separate kitchen that my husband built for me, which is amazing. that's why it's all pink and still, here's the camera. it's still a work in progress. | Speaker B (grandson): isn't the whole thing supposed to be pink?",
+            "target": "Target (grandmother): not the whole thing. pink, white, and gray, and gold, because i've paris helped, i am obsessed with paris hilton. let me show you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): isn't the whole thing supposed to be pink? | Speaker B (grandmother): not the whole thing. pink, white, and gray, and gold, because i've paris helped, i am obsessed with paris hilton. let me show you.",
+            "target": "Target (grandson): and you said i was wasting time",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandmother): not the whole thing. pink, white, and gray, and gold, because i've paris helped, i am obsessed with paris hilton. let me show you. | Speaker B (grandson): and you said i was wasting time",
+            "target": "Target (grandmother): paris hilton. pink, isn't that adorable? i'm so in love with it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): and you said i was wasting time | Speaker B (grandmother): paris hilton. pink, isn't that adorable? i'm so in love with it.",
+            "target": "Target (grandson): do you think you need to get in the view? yeah. told you i'm prettier.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandmother): paris hilton. pink, isn't that adorable? i'm so in love with it. | Speaker B (grandson): do you think you need to get in the view? yeah. told you i'm prettier.",
+            "target": "Target (grandmother): paris hilton. isn't this just cute? and actually the knives are amazing. i would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called washington beef where they supply amazing meat.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): do you think you need to get in the view? yeah. told you i'm prettier. | Speaker B (grandmother): paris hilton. isn't this just cute? and actually the knives are amazing. i would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called washington beef where they supply amazing meat.",
+            "target": "Target (grandson): she's lucky i haven't made fun of her.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandmother): paris hilton. isn't this just cute? and actually the knives are amazing. i would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called washington beef where they supply amazing meat. | Speaker B (grandson): she's lucky i haven't made fun of her.",
+            "target": "Target (grandson): and they use very, very sharp knives to cut up meat.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): she's lucky i haven't made fun of her. | Speaker B (grandson): and they use very, very sharp knives to cut up meat.",
+            "target": "Target (grandmother): how did he cut himself?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandson): and they use very, very sharp knives to cut up meat. | Speaker B (grandmother): how did he cut himself?",
+            "target": "Target (grandmother): i'm sure he's been there for 40 years. so just celebrated his 40th year. oh. yeah. exciting. indeed. so what we're doing now, we're going to put this up there. we're going to add this there. bring it down. matthew, turn it on number two, please.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandmother): how did he cut himself? | Speaker B (grandmother): i'm sure he's been there for 40 years. so just celebrated his 40th year. oh. yeah. exciting. indeed. so what we're doing now, we're going to put this up there. we're going to add this there. bring it down. matthew, turn it on number two, please.",
+            "target": "Target (grandson): like that? ok. i can hold it. just take it off the charger for a second. oh! can you see it? mm-hmm. yeah. it looks a lot more red now.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandmother): i'm sure he's been there for 40 years. so just celebrated his 40th year. oh. yeah. exciting. indeed. so what we're doing now, we're going to put this up there. we're going to add this there. bring it down. matthew, turn it on number two, please. | Speaker B (grandson): like that? ok. i can hold it. just take it off the charger for a second. oh! can you see it? mm-hmm. yeah. it looks a lot more red now.",
+            "target": "Target (grandmother): still a little bit thick.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandson): like that? ok. i can hold it. just take it off the charger for a second. oh! can you see it? mm-hmm. yeah. it looks a lot more red now. | Speaker B (grandmother): still a little bit thick.",
+            "target": "Target (grandson): do we want thick or thin?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 97,
+            "context": "Speaker A (grandmother): still a little bit thick. | Speaker B (grandson): do we want thick or thin?",
+            "target": "Target (grandmother): thick. okay, so now... go ahead and have that there. now, he is going to attempt to crack some eggs. we'll use the pretty blue, since that's one of your favorite colors.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 98,
+            "context": "Speaker A (grandson): do we want thick or thin? | Speaker B (grandmother): thick. okay, so now... go ahead and have that there. now, he is going to attempt to crack some eggs. we'll use the pretty blue, since that's one of your favorite colors.",
+            "target": "Target (grandson): me?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 99,
+            "context": "Speaker A (grandmother): thick. okay, so now... go ahead and have that there. now, he is going to attempt to crack some eggs. we'll use the pretty blue, since that's one of your favorite colors. | Speaker B (grandson): me?",
+            "target": "Target (grandmother): red is your favorite color?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 100,
+            "context": "Speaker A (grandson): me? | Speaker B (grandmother): red is your favorite color?",
+            "target": "Target (grandson): no, it's black and white.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 101,
+            "context": "Speaker A (grandmother): red is your favorite color? | Speaker B (grandson): no, it's black and white.",
+            "target": "Target (grandmother): yeah, but you like red and blue too.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 102,
+            "context": "Speaker A (grandson): no, it's black and white. | Speaker B (grandmother): yeah, but you like red and blue too.",
+            "target": "Target (grandson): she knows nothing about me.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 103,
+            "context": "Speaker A (grandmother): yeah, but you like red and blue too. | Speaker B (grandson): she knows nothing about me.",
+            "target": "Target (grandmother): that's not true. i've bought many of sheets for him.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 104,
+            "context": "Speaker A (grandson): she knows nothing about me. | Speaker B (grandmother): that's not true. i've bought many of sheets for him.",
+            "target": "Target (grandson): i'm gonna put this in my pocket.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 105,
+            "context": "Speaker A (grandmother): that's not true. i've bought many of sheets for him. | Speaker B (grandson): i'm gonna put this in my pocket.",
+            "target": "Target (grandmother): we need to focus on this.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 106,
+            "context": "Speaker A (grandson): i'm gonna put this in my pocket. | Speaker B (grandmother): we need to focus on this.",
+            "target": "Target (grandson): so it's gonna get flour on it. i don't trust it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 107,
+            "context": "Speaker A (grandmother): we need to focus on this. | Speaker B (grandson): so it's gonna get flour on it. i don't trust it.",
+            "target": "Target (grandmother): so eggs are my chickens",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 108,
+            "context": "Speaker A (grandson): so it's gonna get flour on it. i don't trust it. | Speaker B (grandmother): so eggs are my chickens",
+            "target": "Target (grandson): hair for my grandma.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 109,
+            "context": "Speaker A (grandmother): so eggs are my chickens | Speaker B (grandson): hair for my grandma.",
+            "target": "Target (grandmother): okay, most of the time when i'm baking. not most. every time when i'm baking my hair is up. but this is for my son, so it's for family. it's okay. okay, so matthew is going to attempt to crack an egg. have you cracked an egg before?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 110,
+            "context": "Speaker A (grandson): hair for my grandma. | Speaker B (grandmother): okay, most of the time when i'm baking. not most. every time when i'm baking my hair is up. but this is for my son, so it's for family. it's okay. okay, so matthew is going to attempt to crack an egg. have you cracked an egg before?",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 111,
+            "context": "Speaker A (grandmother): okay, most of the time when i'm baking. not most. every time when i'm baking my hair is up. but this is for my son, so it's for family. it's okay. okay, so matthew is going to attempt to crack an egg. have you cracked an egg before? | Speaker B (grandson): yeah.",
+            "target": "Target (grandmother): okay. that's why i have paper towel there.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 112,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandmother): okay. that's why i have paper towel there.",
+            "target": "Target (grandson): long time ago.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 113,
+            "context": "Speaker A (grandmother): okay. that's why i have paper towel there. | Speaker B (grandson): long time ago.",
+            "target": "Target (grandmother): okay. crack hard. oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 114,
+            "context": "Speaker A (grandson): long time ago. | Speaker B (grandmother): okay. crack hard. oh, okay.",
+            "target": "Target (grandson): then like, like that. oh, i got some shell and i got some on me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 115,
+            "context": "Speaker A (grandmother): okay. crack hard. oh, okay. | Speaker B (grandson): then like, like that. oh, i got some shell and i got some on me.",
+            "target": "Target (grandmother): so when you do that, you take this and that's on me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 116,
+            "context": "Speaker A (grandson): then like, like that. oh, i got some shell and i got some on me. | Speaker B (grandmother): so when you do that, you take this and that's on me.",
+            "target": "Target (grandson): you should show the camera.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 117,
+            "context": "Speaker A (grandmother): so when you do that, you take this and that's on me. | Speaker B (grandson): you should show the camera.",
+            "target": "Target (grandmother): well, here.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 118,
+            "context": "Speaker A (grandson): you should show the camera. | Speaker B (grandmother): well, here.",
+            "target": "Target (grandson): i'm not very skilled at cracking eggs. you should do it. no, show the camera. what about that one?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 119,
+            "context": "Speaker A (grandmother): well, here. | Speaker B (grandson): i'm not very skilled at cracking eggs. you should do it. no, show the camera. what about that one?",
+            "target": "Target (grandmother): well, that's part of the egg. that's not an eggshell. oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 120,
+            "context": "Speaker A (grandson): i'm not very skilled at cracking eggs. you should do it. no, show the camera. what about that one? | Speaker B (grandmother): well, that's part of the egg. that's not an eggshell. oh, okay.",
+            "target": "Target (grandson): i don't know how i managed to get it on me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 121,
+            "context": "Speaker A (grandmother): well, that's part of the egg. that's not an eggshell. oh, okay. | Speaker B (grandson): i don't know how i managed to get it on me.",
+            "target": "Target (grandmother): wrong way?",
+            "gold_label": "digital disparity",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 122,
+            "context": "Speaker A (grandson): i don't know how i managed to get it on me. | Speaker B (grandmother): wrong way?",
+            "target": "Target (grandson): no, you just gotta turn it, turn it with your hand.",
+            "gold_label": "digital disparity",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 123,
+            "context": "Speaker A (grandmother): wrong way? | Speaker B (grandson): no, you just gotta turn it, turn it with your hand.",
+            "target": "Target (grandmother): oh, it's pictures. okay.",
+            "gold_label": "digital disparity",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 124,
+            "context": "Speaker A (grandson): no, you just gotta turn it, turn it with your hand. | Speaker B (grandmother): oh, it's pictures. okay.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "digital disparity",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 125,
+            "context": "Speaker A (grandmother): oh, it's pictures. okay. | Speaker B (grandson): okay.",
+            "target": "Target (grandmother): gotta like lean it down.",
+            "gold_label": "digital disparity",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 126,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandmother): gotta like lean it down.",
+            "target": "Target (grandson): yeah. like that? no, not to me, to. to the, to the. this? yeah, yeah.",
+            "gold_label": "digital disparity",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 127,
+            "context": "Speaker A (grandmother): gotta like lean it down. | Speaker B (grandson): yeah. like that? no, not to me, to. to the, to the. this? yeah, yeah.",
+            "target": "Target (grandmother): all right, that's good. now there you go. and just separate. good job. now put it on the paper.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 128,
+            "context": "Speaker A (grandson): yeah. like that? no, not to me, to. to the, to the. this? yeah, yeah. | Speaker B (grandmother): all right, that's good. now there you go. and just separate. good job. now put it on the paper.",
+            "target": "Target (grandson): the way it separates is satisfying. so three or four.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 129,
+            "context": "Speaker A (grandmother): all right, that's good. now there you go. and just separate. good job. now put it on the paper. | Speaker B (grandson): the way it separates is satisfying. so three or four.",
+            "target": "Target (grandmother): we're gonna do all of those. oh, let me knock. you needed help. much better.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 130,
+            "context": "Speaker A (grandson): the way it separates is satisfying. so three or four. | Speaker B (grandmother): we're gonna do all of those. oh, let me knock. you needed help. much better.",
+            "target": "Target (grandson): oh. oh. is that good enough?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 131,
+            "context": "Speaker A (grandmother): we're gonna do all of those. oh, let me knock. you needed help. much better. | Speaker B (grandson): oh. oh. is that good enough?",
+            "target": "Target (grandmother): yep. you're afraid of it getting on you again, huh?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 132,
+            "context": "Speaker A (grandson): oh. oh. is that good enough? | Speaker B (grandmother): yep. you're afraid of it getting on you again, huh?",
+            "target": "Target (grandson): nope. what are they? it's just little egg stuff. oh, no. oh",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 133,
+            "context": "Speaker A (grandmother): yep. you're afraid of it getting on you again, huh? | Speaker B (grandson): nope. what are they? it's just little egg stuff. oh, no. oh",
+            "target": "Target (grandmother): it's okay. hurry. good job.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 134,
+            "context": "Speaker A (grandson): nope. what are they? it's just little egg stuff. oh, no. oh | Speaker B (grandmother): it's okay. hurry. good job.",
+            "target": "Target (grandson): is that good enough?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 135,
+            "context": "Speaker A (grandmother): it's okay. hurry. good job. | Speaker B (grandson): is that good enough?",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 136,
+            "context": "Speaker A (grandson): is that good enough? | Speaker B (grandmother): yeah.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 137,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandson): okay.",
+            "target": "Target (grandmother): good. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 138,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandmother): good. okay.",
+            "target": "Target (grandson): the way i like cracked is like. oh, oh, oh. okay, hold on.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 139,
+            "context": "Speaker A (grandmother): good. okay. | Speaker B (grandson): the way i like cracked is like. oh, oh, oh. okay, hold on.",
+            "target": "Target (grandmother): grab the camera.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 140,
+            "context": "Speaker A (grandson): the way i like cracked is like. oh, oh, oh. okay, hold on. | Speaker B (grandmother): grab the camera.",
+            "target": "Target (grandson): oh, no.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 141,
+            "context": "Speaker A (grandmother): grab the camera. | Speaker B (grandson): oh, no.",
+            "target": "Target (grandmother): you hear the. the elevator music to this.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 142,
+            "context": "Speaker A (grandson): oh, no. | Speaker B (grandmother): you hear the. the elevator music to this.",
+            "target": "Target (grandson): grandma save the day. yes. okay, technical difficulties.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 143,
+            "context": "Speaker A (grandmother): you hear the. the elevator music to this. | Speaker B (grandson): grandma save the day. yes. okay, technical difficulties.",
+            "target": "Target (grandmother): we gotta love them now.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 144,
+            "context": "Speaker A (grandson): grandma save the day. yes. okay, technical difficulties. | Speaker B (grandmother): we gotta love them now.",
+            "target": "Target (grandson): i need to wash my hands.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 145,
+            "context": "Speaker A (grandmother): we gotta love them now. | Speaker B (grandson): i need to wash my hands.",
+            "target": "Target (grandmother): we're going to do one egg at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 146,
+            "context": "Speaker A (grandson): i need to wash my hands. | Speaker B (grandmother): we're going to do one egg at a time.",
+            "target": "Target (grandson): what's in here? what is this? we are back from the technical difficulties. and now i'm going to pour the stuff the eggs into the mixer. she is having technical difficulties, i think. do i just pour them all in? okay, so she said one at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 147,
+            "context": "Speaker A (grandmother): we're going to do one egg at a time. | Speaker B (grandson): what's in here? what is this? we are back from the technical difficulties. and now i'm going to pour the stuff the eggs into the mixer. she is having technical difficulties, i think. do i just pour them all in? okay, so she said one at a time.",
+            "target": "Target (grandmother): boom.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 148,
+            "context": "Speaker A (grandson): what's in here? what is this? we are back from the technical difficulties. and now i'm going to pour the stuff the eggs into the mixer. she is having technical difficulties, i think. do i just pour them all in? okay, so she said one at a time. | Speaker B (grandmother): boom.",
+            "target": "Target (grandson): okay, i think that's good. and then boom. and then. oh, no, that was not in the mid. oh, no. oh, there it goes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 149,
+            "context": "Speaker A (grandmother): boom. | Speaker B (grandson): okay, i think that's good. and then boom. and then. oh, no, that was not in the mid. oh, no. oh, there it goes.",
+            "target": "Target (grandmother): get it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 150,
+            "context": "Speaker A (grandson): okay, i think that's good. and then boom. and then. oh, no, that was not in the mid. oh, no. oh, there it goes. | Speaker B (grandmother): get it?",
+            "target": "Target (grandson): yeah. only one of them was gone. weird. okay, that worked out well. i thought i was going to spill them all over. i did not. luckily. good job. are we doing square round? we are charging it. all right, we're done. that's bloopers.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 151,
+            "context": "Speaker A (grandmother): get it? | Speaker B (grandson): yeah. only one of them was gone. weird. okay, that worked out well. i thought i was going to spill them all over. i did not. luckily. good job. are we doing square round? we are charging it. all right, we're done. that's bloopers.",
+            "target": "Target (grandmother): very much so.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 152,
+            "context": "Speaker A (grandson): yeah. only one of them was gone. weird. okay, that worked out well. i thought i was going to spill them all over. i did not. luckily. good job. are we doing square round? we are charging it. all right, we're done. that's bloopers. | Speaker B (grandmother): very much so.",
+            "target": "Target (grandson): that has made it to the blooper show.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 153,
+            "context": "Speaker A (grandmother): very much so. | Speaker B (grandson): that has made it to the blooper show.",
+            "target": "Target (grandmother): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 154,
+            "context": "Speaker A (grandson): that has made it to the blooper show. | Speaker B (grandmother): okay.",
+            "target": "Target (grandson): when do we stop? oh, oh, oh, oh, oh.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 155,
+            "context": "Speaker A (grandmother): okay. | Speaker B (grandson): when do we stop? oh, oh, oh, oh, oh.",
+            "target": "Target (grandmother): okay, that's. that's going to be really loud.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 156,
+            "context": "Speaker A (grandson): when do we stop? oh, oh, oh, oh, oh. | Speaker B (grandmother): okay, that's. that's going to be really loud.",
+            "target": "Target (grandson): that sounded satisfying. wait, no, no, no, no, no. i want to put it close to the mic and you crunch it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 157,
+            "context": "Speaker A (grandmother): okay, that's. that's going to be really loud. | Speaker B (grandson): that sounded satisfying. wait, no, no, no, no, no. i want to put it close to the mic and you crunch it.",
+            "target": "Target (grandmother): all right, go ahead.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 158,
+            "context": "Speaker A (grandson): that sounded satisfying. wait, no, no, no, no, no. i want to put it close to the mic and you crunch it. | Speaker B (grandmother): all right, go ahead.",
+            "target": "Target (grandson): i'm behind you. asmr.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 159,
+            "context": "Speaker A (grandmother): all right, go ahead. | Speaker B (grandson): i'm behind you. asmr.",
+            "target": "Target (grandmother): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 160,
+            "context": "Speaker A (grandson): i'm behind you. asmr. | Speaker B (grandmother): okay.",
+            "target": "Target (grandson): we never knew you can make asmr with egg. broken eggs.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 161,
+            "context": "Speaker A (grandmother): okay. | Speaker B (grandson): we never knew you can make asmr with egg. broken eggs.",
+            "target": "Target (grandmother): that's how they did jurassic park with a baby dinosaur being born. now we're going to use the goop. goop is flour, oil, and crisco that i use to line.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 162,
+            "context": "Speaker A (grandson): we never knew you can make asmr with egg. broken eggs. | Speaker B (grandmother): that's how they did jurassic park with a baby dinosaur being born. now we're going to use the goop. goop is flour, oil, and crisco that i use to line.",
+            "target": "Target (grandson): she can't even finish her sentences. oh, never mind.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 163,
+            "context": "Speaker A (grandmother): that's how they did jurassic park with a baby dinosaur being born. now we're going to use the goop. goop is flour, oil, and crisco that i use to line. | Speaker B (grandson): she can't even finish her sentences. oh, never mind.",
+            "target": "Target (grandmother): so that they don't stick to it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 164,
+            "context": "Speaker A (grandson): she can't even finish her sentences. oh, never mind. | Speaker B (grandmother): so that they don't stick to it.",
+            "target": "Target (grandson): ring three. oh, it looks disgusting.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 165,
+            "context": "Speaker A (grandmother): so that they don't stick to it. | Speaker B (grandson): ring three. oh, it looks disgusting.",
+            "target": "Target (grandmother): that's why it's called poop. so when you do a cake, you always put oil. not oil, but crisco, and then flour, and you rub it in so that it doesn't stick to the pan.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 166,
+            "context": "Speaker A (grandson): ring three. oh, it looks disgusting. | Speaker B (grandmother): that's why it's called poop. so when you do a cake, you always put oil. not oil, but crisco, and then flour, and you rub it in so that it doesn't stick to the pan.",
+            "target": "Target (grandson): ooh.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 167,
+            "context": "Speaker A (grandmother): that's why it's called poop. so when you do a cake, you always put oil. not oil, but crisco, and then flour, and you rub it in so that it doesn't stick to the pan. | Speaker B (grandson): ooh.",
+            "target": "Target (grandmother): that's what i'm doing.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 168,
+            "context": "Speaker A (grandson): ooh. | Speaker B (grandmother): that's what i'm doing.",
+            "target": "Target (grandson): am i allowed to eat that?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 169,
+            "context": "Speaker A (grandmother): that's what i'm doing. | Speaker B (grandson): am i allowed to eat that?",
+            "target": "Target (grandmother): no, it's got raw egg in it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 170,
+            "context": "Speaker A (grandson): am i allowed to eat that? | Speaker B (grandmother): no, it's got raw egg in it.",
+            "target": "Target (grandson): would that make me sick?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 171,
+            "context": "Speaker A (grandmother): no, it's got raw egg in it. | Speaker B (grandson): would that make me sick?",
+            "target": "Target (grandmother): it can.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 172,
+            "context": "Speaker A (grandson): would that make me sick? | Speaker B (grandmother): it can.",
+            "target": "Target (grandson): what would it give me?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 173,
+            "context": "Speaker A (grandmother): it can. | Speaker B (grandson): what would it give me?",
+            "target": "Target (grandmother): salmonella poisoning, which would mean a trip to the er. but krishana's working tonight, so, you know, you can see krishana quick.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 174,
+            "context": "Speaker A (grandson): what would it give me? | Speaker B (grandmother): salmonella poisoning, which would mean a trip to the er. but krishana's working tonight, so, you know, you can see krishana quick.",
+            "target": "Target (grandson): my death might. doesn't hurt anyone.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 175,
+            "context": "Speaker A (grandmother): salmonella poisoning, which would mean a trip to the er. but krishana's working tonight, so, you know, you can see krishana quick. | Speaker B (grandson): my death might. doesn't hurt anyone.",
+            "target": "Target (grandmother): well, wouldn't even die. well, i mean, i guess you could.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 176,
+            "context": "Speaker A (grandson): my death might. doesn't hurt anyone. | Speaker B (grandmother): well, wouldn't even die. well, i mean, i guess you could.",
+            "target": "Target (grandson): she'd rather. she'd rather sacrifice me to see her friend.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 177,
+            "context": "Speaker A (grandmother): well, wouldn't even die. well, i mean, i guess you could. | Speaker B (grandson): she'd rather. she'd rather sacrifice me to see her friend.",
+            "target": "Target (grandmother): no, that's. that's not what i said. i taste better all the time, but i know that my eggs are good, so they're very fresh, but no, you cannot taste it. i thought they're fresh. they are, but i'm not going to risk you getting sick, so you risk yourself getting sick. yeah, me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 178,
+            "context": "Speaker A (grandson): she'd rather. she'd rather sacrifice me to see her friend. | Speaker B (grandmother): no, that's. that's not what i said. i taste better all the time, but i know that my eggs are good, so they're very fresh, but no, you cannot taste it. i thought they're fresh. they are, but i'm not going to risk you getting sick, so you risk yourself getting sick. yeah, me.",
+            "target": "Target (grandson): it's just me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 179,
+            "context": "Speaker A (grandmother): no, that's. that's not what i said. i taste better all the time, but i know that my eggs are good, so they're very fresh, but no, you cannot taste it. i thought they're fresh. they are, but i'm not going to risk you getting sick, so you risk yourself getting sick. yeah, me. | Speaker B (grandson): it's just me.",
+            "target": "Target (grandmother): okay, put that on pause.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 180,
+            "context": "Speaker A (grandson): it's just me. | Speaker B (grandmother): okay, put that on pause.",
+            "target": "Target (grandson): all right, we will be right back. three, two, one.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 181,
+            "context": "Speaker A (grandmother): okay, put that on pause. | Speaker B (grandson): all right, we will be right back. three, two, one.",
+            "target": "Target (grandmother): and we're back. we're gonna put liners on the bottom.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 182,
+            "context": "Speaker A (grandson): all right, we will be right back. three, two, one. | Speaker B (grandmother): and we're back. we're gonna put liners on the bottom.",
+            "target": "Target (grandson): what for?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 183,
+            "context": "Speaker A (grandmother): and we're back. we're gonna put liners on the bottom. | Speaker B (grandson): what for?",
+            "target": "Target (grandmother): that helps them from not to stick as well. plus, you also can see what side you're going to use for the layers of the cake.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 184,
+            "context": "Speaker A (grandson): what for? | Speaker B (grandmother): that helps them from not to stick as well. plus, you also can see what side you're going to use for the layers of the cake.",
+            "target": "Target (grandson): also, don't forget to comment what kind of cakes. oh, i just turned my mic off, i think.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 185,
+            "context": "Speaker A (grandmother): that helps them from not to stick as well. plus, you also can see what side you're going to use for the layers of the cake. | Speaker B (grandson): also, don't forget to comment what kind of cakes. oh, i just turned my mic off, i think.",
+            "target": "Target (grandmother): no, it's on.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 186,
+            "context": "Speaker A (grandson): also, don't forget to comment what kind of cakes. oh, i just turned my mic off, i think. | Speaker B (grandmother): no, it's on.",
+            "target": "Target (grandson): okay, never mind. okay, don't forget to comment what kind of cakes you want us to do. because who knows? we might do it because. yeah, why not?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 187,
+            "context": "Speaker A (grandmother): no, it's on. | Speaker B (grandson): okay, never mind. okay, don't forget to comment what kind of cakes you want us to do. because who knows? we might do it because. yeah, why not?",
+            "target": "Target (grandmother): so maybe the next cake we do should be the dice cake. we'll do the lava cake.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 188,
+            "context": "Speaker A (grandson): okay, never mind. okay, don't forget to comment what kind of cakes you want us to do. because who knows? we might do it because. yeah, why not? | Speaker B (grandmother): so maybe the next cake we do should be the dice cake. we'll do the lava cake.",
+            "target": "Target (grandson): that's what i was just gonna think. that's what i was just thinking.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 189,
+            "context": "Speaker A (grandmother): so maybe the next cake we do should be the dice cake. we'll do the lava cake. | Speaker B (grandson): that's what i was just gonna think. that's what i was just thinking.",
+            "target": "Target (grandmother): we can do the dice dice cake next saturday. we can do a lava or the dice cake. because i leave it is going crazy out of town. stand closer to me. there we go. okay, now hand me a spatula, please.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 190,
+            "context": "Speaker A (grandson): that's what i was just gonna think. that's what i was just thinking. | Speaker B (grandmother): we can do the dice dice cake next saturday. we can do a lava or the dice cake. because i leave it is going crazy out of town. stand closer to me. there we go. okay, now hand me a spatula, please.",
+            "target": "Target (grandson): anyone? yeah, either you get small one.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 191,
+            "context": "Speaker A (grandmother): we can do the dice dice cake next saturday. we can do a lava or the dice cake. because i leave it is going crazy out of town. stand closer to me. there we go. okay, now hand me a spatula, please. | Speaker B (grandson): anyone? yeah, either you get small one.",
+            "target": "Target (grandmother): so do you want to pour this or do you want me to pour it? looks kind of heavy.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 192,
+            "context": "Speaker A (grandson): anyone? yeah, either you get small one. | Speaker B (grandmother): so do you want to pour this or do you want me to pour it? looks kind of heavy.",
+            "target": "Target (grandson): i'll show you pouring it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 193,
+            "context": "Speaker A (grandmother): so do you want to pour this or do you want me to pour it? looks kind of heavy. | Speaker B (grandson): i'll show you pouring it.",
+            "target": "Target (grandmother): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 194,
+            "context": "Speaker A (grandson): i'll show you pouring it. | Speaker B (grandmother): okay.",
+            "target": "Target (grandson): come here, come here. oh. so it's like a thick red consistency, which is what you want. if you're doing red, this is what it should look like.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 195,
+            "context": "Speaker A (grandmother): okay. | Speaker B (grandson): come here, come here. oh. so it's like a thick red consistency, which is what you want. if you're doing red, this is what it should look like.",
+            "target": "Target (grandmother): red velvet.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 196,
+            "context": "Speaker A (grandson): come here, come here. oh. so it's like a thick red consistency, which is what you want. if you're doing red, this is what it should look like. | Speaker B (grandmother): red velvet.",
+            "target": "Target (grandson): red velvet.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 197,
+            "context": "Speaker A (grandmother): red velvet. | Speaker B (grandson): red velvet.",
+            "target": "Target (grandmother): but that's okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 198,
+            "context": "Speaker A (grandson): red velvet. | Speaker B (grandmother): but that's okay.",
+            "target": "Target (grandson): a little dog red. that's not okay.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 199,
+            "context": "Speaker A (grandmother): but that's okay. | Speaker B (grandson): a little dog red. that's not okay.",
+            "target": "Target (grandmother): we might have enough actually to do. normally i would weigh each pan.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 200,
+            "context": "Speaker A (grandson): a little dog red. that's not okay. | Speaker B (grandmother): we might have enough actually to do. normally i would weigh each pan.",
+            "target": "Target (grandson): but it's okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 201,
+            "context": "Speaker A (grandmother): we might have enough actually to do. normally i would weigh each pan. | Speaker B (grandson): but it's okay.",
+            "target": "Target (grandmother): we're not going to do that tonight because it's getting late. and the sooner we get these in the oven, the better.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 202,
+            "context": "Speaker A (grandson): but it's okay. | Speaker B (grandmother): we're not going to do that tonight because it's getting late. and the sooner we get these in the oven, the better.",
+            "target": "Target (grandson): also, the sooner this video comes out.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 203,
+            "context": "Speaker A (grandmother): we're not going to do that tonight because it's getting late. and the sooner we get these in the oven, the better. | Speaker B (grandson): also, the sooner this video comes out.",
+            "target": "Target (grandmother): the reason i usually weigh the cakes, you want them about the same size. so that it. when the.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 204,
+            "context": "Speaker A (grandson): also, the sooner this video comes out. | Speaker B (grandmother): the reason i usually weigh the cakes, you want them about the same size. so that it. when the.",
+            "target": "Target (grandson): he's not buying it though, is he?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 205,
+            "context": "Speaker A (grandmother): the reason i usually weigh the cakes, you want them about the same size. so that it. when the. | Speaker B (grandson): he's not buying it though, is he?",
+            "target": "Target (grandmother): no, you're paying for it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 206,
+            "context": "Speaker A (grandson): he's not buying it though, is he? | Speaker B (grandmother): no, you're paying for it.",
+            "target": "Target (grandson): what? with what money?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 207,
+            "context": "Speaker A (grandmother): no, you're paying for it. | Speaker B (grandson): what? with what money?",
+            "target": "Target (grandmother): wave child labor.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 208,
+            "context": "Speaker A (grandson): what? with what money? | Speaker B (grandmother): wave child labor.",
+            "target": "Target (grandson): she's kidnapped me. i'm actually her grandson.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 209,
+            "context": "Speaker A (grandmother): wave child labor. | Speaker B (grandson): she's kidnapped me. i'm actually her grandson.",
+            "target": "Target (grandmother): okay, so we're gonna do a little bit more. we have enough to do four layers, which means i have to take out some. some goop cake. goop. five minutes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 210,
+            "context": "Speaker A (grandson): she's kidnapped me. i'm actually her grandson. | Speaker B (grandmother): okay, so we're gonna do a little bit more. we have enough to do four layers, which means i have to take out some. some goop cake. goop. five minutes.",
+            "target": "Target (grandson): how do you make it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 211,
+            "context": "Speaker A (grandmother): okay, so we're gonna do a little bit more. we have enough to do four layers, which means i have to take out some. some goop cake. goop. five minutes. | Speaker B (grandson): how do you make it?",
+            "target": "Target (grandmother): flour, oil, vegetable oil, and crisco.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 212,
+            "context": "Speaker A (grandson): how do you make it? | Speaker B (grandmother): flour, oil, vegetable oil, and crisco.",
+            "target": "Target (grandson): what's crisco?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 213,
+            "context": "Speaker A (grandmother): flour, oil, vegetable oil, and crisco. | Speaker B (grandson): what's crisco?",
+            "target": "Target (grandmother): crisco is fat lard.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 214,
+            "context": "Speaker A (grandson): what's crisco? | Speaker B (grandmother): crisco is fat lard.",
+            "target": "Target (grandson): oh.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 215,
+            "context": "Speaker A (grandmother): crisco is fat lard. | Speaker B (grandson): oh.",
+            "target": "Target (grandmother): then i'm gonna get one more liner. sorry if i hurt your ears.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 216,
+            "context": "Speaker A (grandson): oh. | Speaker B (grandmother): then i'm gonna get one more liner. sorry if i hurt your ears.",
+            "target": "Target (grandson): that's some bad asmr for you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 217,
+            "context": "Speaker A (grandmother): then i'm gonna get one more liner. sorry if i hurt your ears. | Speaker B (grandson): that's some bad asmr for you.",
+            "target": "Target (grandmother): okay. liner.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 218,
+            "context": "Speaker A (grandson): that's some bad asmr for you. | Speaker B (grandmother): okay. liner.",
+            "target": "Target (grandson): oh, what was that? from what?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 219,
+            "context": "Speaker A (grandmother): okay. liner. | Speaker B (grandson): oh, what was that? from what?",
+            "target": "Target (grandmother): gloss. okay, one more. okay, so i hope i got that.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 220,
+            "context": "Speaker A (grandson): oh, what was that? from what? | Speaker B (grandmother): gloss. okay, one more. okay, so i hope i got that.",
+            "target": "Target (grandson): because i put my mic up close, so i hope i got it. i probably didn't. you, like, smack it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 221,
+            "context": "Speaker A (grandmother): gloss. okay, one more. okay, so i hope i got that. | Speaker B (grandson): because i put my mic up close, so i hope i got it. i probably didn't. you, like, smack it?",
+            "target": "Target (grandmother): smack it down. smack. you or smack.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 222,
+            "context": "Speaker A (grandson): because i put my mic up close, so i hope i got it. i probably didn't. you, like, smack it? | Speaker B (grandmother): smack it down. smack. you or smack.",
+            "target": "Target (grandson): i mean, you already do both anyway.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 223,
+            "context": "Speaker A (grandmother): smack it down. smack. you or smack. | Speaker B (grandson): i mean, you already do both anyway.",
+            "target": "Target (grandmother): oh, please. yes. you're so abused.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 224,
+            "context": "Speaker A (grandson): i mean, you already do both anyway. | Speaker B (grandmother): oh, please. yes. you're so abused.",
+            "target": "Target (grandson): totally.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 225,
+            "context": "Speaker A (grandmother): oh, please. yes. you're so abused. | Speaker B (grandson): totally.",
+            "target": "Target (grandmother): i don't think you've ever been spanked.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 226,
+            "context": "Speaker A (grandson): totally. | Speaker B (grandmother): i don't think you've ever been spanked.",
+            "target": "Target (grandson): yeah, i have. have you?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 227,
+            "context": "Speaker A (grandmother): i don't think you've ever been spanked. | Speaker B (grandson): yeah, i have. have you?",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 228,
+            "context": "Speaker A (grandson): yeah, i have. have you? | Speaker B (grandmother): yeah.",
+            "target": "Target (grandson): okay. i hope i got those hands. i hope i didn't get those sounds. of course, you had to get decked out with the pink scissors.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 229,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandson): okay. i hope i got those hands. i hope i didn't get those sounds. of course, you had to get decked out with the pink scissors.",
+            "target": "Target (grandmother): that's the paris hilton ones. okay, so i'm gonna stick these in the oven.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 230,
+            "context": "Speaker A (grandson): okay. i hope i got those hands. i hope i didn't get those sounds. of course, you had to get decked out with the pink scissors. | Speaker B (grandmother): that's the paris hilton ones. okay, so i'm gonna stick these in the oven.",
+            "target": "Target (grandson): is that where we end it? and here is all the stuff. and here's where we're gonna end it. so we will see you in part two. have a good day.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 231,
+            "context": "Speaker A (grandmother): that's the paris hilton ones. okay, so i'm gonna stick these in the oven. | Speaker B (grandson): is that where we end it? and here is all the stuff. and here's where we're gonna end it. so we will see you in part two. have a good day.",
+            "target": "Target (grandmother): have a good day.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 232,
+            "context": "Speaker A (grandson): is that where we end it? and here is all the stuff. and here's where we're gonna end it. so we will see you in part two. have a good day. | Speaker B (grandmother): have a good day.",
+            "target": "Target (grandson): bye.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

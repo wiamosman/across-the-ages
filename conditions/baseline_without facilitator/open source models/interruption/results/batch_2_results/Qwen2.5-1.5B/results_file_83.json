@@ -1,0 +1,92 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down",
+    "target": "Speaker A (granddaughter) (Target): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down\nSpeaker B (granddaughter): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up?",
+    "target": "Speaker A (grandfather) (Target): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up?\nSpeaker B (grandfather): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions!",
+    "target": "Speaker A (granddaughter) (Target): I can't help it, it's catchy! Look at the needle go, it's dancing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions!\nSpeaker B (granddaughter): I can't help it, it's catchy! Look at the needle go, it's dancing.",
+    "target": "Speaker A (grandfather) (Target): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): I can't help it, it's catchy! Look at the needle go, it's dancing.\nSpeaker B (grandfather): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat.",
+    "target": "Speaker A (granddaughter) (Target): there you go. You know what you should do? Just slowly go down?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat.\nSpeaker B (granddaughter): there you go. You know what you should do? Just slowly go down?",
+    "target": "Speaker A (grandfather) (Target): It's going. You see it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): there you go. You know what you should do? Just slowly go down?\nSpeaker B (grandfather): It's going. You see it?",
+    "target": "Speaker A (granddaughter) (Target): Oh yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): It's going. You see it?\nSpeaker B (granddaughter): Oh yeah.",
+    "target": "Speaker A (grandfather) (Target): And you know what? That saves the needle there. There's a little needle underneath. Oh, I'm ready to dance! Hey, let's dance! Come on, Gigi! We gotta get you some better speakers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

@@ -1,0 +1,942 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey, Nono, what are you doing today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey, Nono, what are you doing today?",
+    "target": "Speaker A (grandfather) (Target): Today I'm going to try to repair this windowsill.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey, Nono, what are you doing today?\nSpeaker B (grandfather): Today I'm going to try to repair this windowsill.",
+    "target": "Speaker A (grandson) (Target): You can fix that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Today I'm going to try to repair this windowsill.\nSpeaker B (grandson): You can fix that?",
+    "target": "Speaker A (grandfather) (Target): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): You can fix that?\nSpeaker B (grandfather): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.",
+    "target": "Speaker A (grandson) (Target): OK, get off the ladder. I'll do that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.\nSpeaker B (grandson): OK, get off the ladder. I'll do that.",
+    "target": "Speaker A (grandfather) (Target): It's got to be removed. You want to do it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): OK, get off the ladder. I'll do that.\nSpeaker B (grandfather): It's got to be removed. You want to do it?",
+    "target": "Speaker A (grandson) (Target): Yeah. Show me how.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): It's got to be removed. You want to do it?\nSpeaker B (grandson): Yeah. Show me how.",
+    "target": "Speaker A (grandfather) (Target): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Yeah. Show me how.\nSpeaker B (grandfather): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.",
+    "target": "Speaker A (grandson) (Target): Here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.\nSpeaker B (grandson): Here?",
+    "target": "Speaker A (grandfather) (Target): Yeah. Keep doing it. Okay, grab it now, it's gonna fall.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Here?\nSpeaker B (grandfather): Yeah. Keep doing it. Okay, grab it now, it's gonna fall.",
+    "target": "Speaker A (grandson) (Target): Yeah, I'm gonna hold this. There. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Yeah. Keep doing it. Okay, grab it now, it's gonna fall.\nSpeaker B (grandson): Yeah, I'm gonna hold this. There. Okay.",
+    "target": "Speaker A (grandfather) (Target): Use both hands. This is also—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Yeah, I'm gonna hold this. There. Okay.\nSpeaker B (grandfather): Use both hands. This is also—",
+    "target": "Speaker A (grandson) (Target): What about this?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Use both hands. This is also—\nSpeaker B (grandson): What about this?",
+    "target": "Speaker A (grandfather) (Target): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): What about this?\nSpeaker B (grandfather): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.",
+    "target": "Speaker A (grandson) (Target): Does that have to be removed too?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.\nSpeaker B (grandson): Does that have to be removed too?",
+    "target": "Speaker A (grandfather) (Target): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): Does that have to be removed too?\nSpeaker B (grandfather): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.",
+    "target": "Speaker A (grandson) (Target): Yeah, classic Italian.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker B (grandfather): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.\nSpeaker B (grandson): Yeah, classic Italian.",
+    "target": "Speaker A (grandmother) (Target): You guys test how solid it is? Halfway.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker B (grandson): Yeah, classic Italian.\nSpeaker B (grandmother): You guys test how solid it is? Halfway.",
+    "target": "Speaker A (grandfather) (Target): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandmother): You guys test how solid it is? Halfway.\nSpeaker B (grandfather): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.",
+    "target": "Speaker A (grandson) (Target): Grab it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandfather): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.\nSpeaker B (grandson): Grab it.",
+    "target": "Speaker A (grandfather) (Target): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandson): Grab it.\nSpeaker B (grandfather): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.",
+    "target": "Speaker A (grandson) (Target): Starting here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandfather): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.\nSpeaker B (grandson): Starting here?",
+    "target": "Speaker A (grandfather) (Target): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandson): Starting here?\nSpeaker B (grandfather): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.",
+    "target": "Speaker A (grandson) (Target): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandfather): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.\nSpeaker B (grandson): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.",
+    "target": "Speaker A (grandfather) (Target): Let me see.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandson): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.\nSpeaker B (grandfather): Let me see.",
+    "target": "Speaker A (grandson) (Target): No, I got it now. I know how to use this thing. You want to see what?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandfather): Let me see.\nSpeaker B (grandson): No, I got it now. I know how to use this thing. You want to see what?",
+    "target": "Speaker A (grandfather) (Target): Oh no, I wanna see— I wanna see the drill.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandson): No, I got it now. I know how to use this thing. You want to see what?\nSpeaker B (grandfather): Oh no, I wanna see— I wanna see the drill.",
+    "target": "Speaker A (grandson) (Target): I just moved it. Put it on!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandfather): Oh no, I wanna see— I wanna see the drill.\nSpeaker B (grandson): I just moved it. Put it on!",
+    "target": "Speaker A (grandfather) (Target): I wanna see.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandson): I just moved it. Put it on!\nSpeaker B (grandfather): I wanna see.",
+    "target": "Speaker A (grandson) (Target): Yeah. It's on right now. You had it on left.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandfather): I wanna see.\nSpeaker B (grandson): Yeah. It's on right now. You had it on left.",
+    "target": "Speaker A (grandfather) (Target): No, no, no, he's going left.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandson): Yeah. It's on right now. You had it on left.\nSpeaker B (grandfather): No, no, no, he's going left.",
+    "target": "Speaker A (grandson) (Target): No, I— never mind. He's going left. Never mind. That's enough.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandfather): No, no, no, he's going left.\nSpeaker B (grandson): No, I— never mind. He's going left. Never mind. That's enough.",
+    "target": "Speaker A (grandfather) (Target): Get one wire, put in the hole. Look at him. Go ahead.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandson): No, I— never mind. He's going left. Never mind. That's enough.\nSpeaker B (grandfather): Get one wire, put in the hole. Look at him. Go ahead.",
+    "target": "Speaker A (grandson) (Target): What the heck? Now what? Put it in there? With the wire in there?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandfather): Get one wire, put in the hole. Look at him. Go ahead.\nSpeaker B (grandson): What the heck? Now what? Put it in there? With the wire in there?",
+    "target": "Speaker A (grandfather) (Target): Yes, Julian.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandson): What the heck? Now what? Put it in there? With the wire in there?\nSpeaker B (grandfather): Yes, Julian.",
+    "target": "Speaker A (grandson) (Target): Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandfather): Yes, Julian.\nSpeaker B (grandson): Yes.",
+    "target": "Speaker A (grandfather) (Target): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandson): Yes.\nSpeaker B (grandfather): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.",
+    "target": "Speaker A (grandson) (Target): What is this? Look at this. What are these little things? Little wires?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandfather): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.\nSpeaker B (grandson): What is this? Look at this. What are these little things? Little wires?",
+    "target": "Speaker A (grandfather) (Target): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandson): What is this? Look at this. What are these little things? Little wires?\nSpeaker B (grandfather): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.",
+    "target": "Speaker A (grandson) (Target): Okay. Pretty solid, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative agreement",
+    "raw_output": "Role: none\nType: cooperative agreement"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.\nSpeaker B (grandson): Okay. Pretty solid, right?",
+    "target": "Speaker A (grandfather) (Target): That's not bad.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): Okay. Pretty solid, right?\nSpeaker B (grandfather): That's not bad.",
+    "target": "Speaker A (grandson) (Target): Yeah, it feels about the same.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): That's not bad.\nSpeaker B (grandson): Yeah, it feels about the same.",
+    "target": "Speaker A (grandfather) (Target): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandson): Yeah, it feels about the same.\nSpeaker B (grandfather): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.",
+    "target": "Speaker A (grandson) (Target): With the brush? So we do what? Paint it, the whole thing?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandfather): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.\nSpeaker B (grandson): With the brush? So we do what? Paint it, the whole thing?",
+    "target": "Speaker A (grandfather) (Target): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandson): With the brush? So we do what? Paint it, the whole thing?\nSpeaker B (grandfather): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.",
+    "target": "Speaker A (grandson) (Target): You want me to get a cloth?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandfather): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.\nSpeaker B (grandson): You want me to get a cloth?",
+    "target": "Speaker A (grandfather) (Target): No, here. You do it like this. Take some off, okay? Then do like this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandson): You want me to get a cloth?\nSpeaker B (grandfather): No, here. You do it like this. Take some off, okay? Then do like this.",
+    "target": "Speaker A (grandson) (Target): Didn't I do that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandfather): No, here. You do it like this. Take some off, okay? Then do like this.\nSpeaker B (grandson): Didn't I do that?",
+    "target": "Speaker A (grandfather) (Target): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandson): Didn't I do that?\nSpeaker B (grandfather): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.",
+    "target": "Speaker A (grandson) (Target): And what does this do, Nono?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandfather): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.\nSpeaker B (grandson): And what does this do, Nono?",
+    "target": "Speaker A (grandfather) (Target): Well, it doesn't really matter. Not for me. Some people let it dry first.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandson): And what does this do, Nono?\nSpeaker B (grandfather): Well, it doesn't really matter. Not for me. Some people let it dry first.",
+    "target": "Speaker A (grandson) (Target): And do you want to apply it while it's dry or wet? Doesn't matter?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandfather): Well, it doesn't really matter. Not for me. Some people let it dry first.\nSpeaker B (grandson): And do you want to apply it while it's dry or wet? Doesn't matter?",
+    "target": "Speaker A (grandfather) (Target): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandson): And do you want to apply it while it's dry or wet? Doesn't matter?\nSpeaker B (grandfather): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?",
+    "target": "Speaker A (grandson) (Target): What's this? Yeah. Okay. How much you want? Shee. Literally.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandfather): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?\nSpeaker B (grandson): What's this? Yeah. Okay. How much you want? Shee. Literally.",
+    "target": "Speaker A (grandfather) (Target): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandson): What's this? Yeah. Okay. How much you want? Shee. Literally.\nSpeaker B (grandfather): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.",
+    "target": "Speaker A (grandson) (Target): Oh, I'm trying. Good, or one more? Right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandfather): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.\nSpeaker B (grandson): Oh, I'm trying. Good, or one more? Right.",
+    "target": "Speaker A (grandfather) (Target): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandson): Oh, I'm trying. Good, or one more? Right.\nSpeaker B (grandfather): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.",
+    "target": "Speaker A (grandson) (Target): These are all plastic. This one? What the heck is this? How much? Good? Or one more?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandfather): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.\nSpeaker B (grandson): These are all plastic. This one? What the heck is this? How much? Good? Or one more?",
+    "target": "Speaker A (grandfather) (Target): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandson): These are all plastic. This one? What the heck is this? How much? Good? Or one more?\nSpeaker B (grandfather): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.",
+    "target": "Speaker A (grandson) (Target): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandfather): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.\nSpeaker B (grandson): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.",
+    "target": "Speaker A (grandfather) (Target): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandson): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.\nSpeaker B (grandfather): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.",
+    "target": "Speaker A (grandson) (Target): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker B (grandfather): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.\nSpeaker B (grandson): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?",
+    "target": "Speaker A (grandmother) (Target): Of course he did.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker B (grandson): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?\nSpeaker B (grandmother): Of course he did.",
+    "target": "Speaker A (grandfather) (Target): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker B (grandmother): Of course he did.\nSpeaker B (grandfather): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.",
+    "target": "Speaker A (grandson) (Target): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandfather): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.\nSpeaker B (grandson): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.",
+    "target": "Speaker A (grandfather) (Target): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.\nSpeaker B (grandfather): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.",
+    "target": "Speaker A (grandson) (Target): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandfather): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.\nSpeaker B (grandson): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.",
+    "target": "Speaker A (grandfather) (Target): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.\nSpeaker B (grandfather): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.",
+    "target": "Speaker A (grandson) (Target): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandfather): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.\nSpeaker B (grandson): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?",
+    "target": "Speaker A (grandfather) (Target): No, no, don't forget nothing. Can you make that square and flat? We need more sticks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?\nSpeaker B (grandfather): No, no, don't forget nothing. Can you make that square and flat? We need more sticks.",
+    "target": "Speaker A (grandson) (Target): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): No, no, don't forget nothing. Can you make that square and flat? We need more sticks.\nSpeaker B (grandson): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.",
+    "target": "Speaker A (grandfather) (Target): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.\nSpeaker B (grandfather): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.",
+    "target": "Speaker A (grandson) (Target): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandfather): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.\nSpeaker B (grandson): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?",
+    "target": "Speaker A (grandfather) (Target): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?\nSpeaker B (grandfather): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.",
+    "target": "Speaker A (grandson) (Target): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandfather): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.\nSpeaker B (grandson): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?",
+    "target": "Speaker A (grandfather) (Target): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?\nSpeaker B (grandfather): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.",
+    "target": "Speaker A (grandson) (Target): All along? From right to left? Inside? Um, quite a bit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandfather): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.\nSpeaker B (grandson): All along? From right to left? Inside? Um, quite a bit.",
+    "target": "Speaker A (grandfather) (Target): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): All along? From right to left? Inside? Um, quite a bit.\nSpeaker B (grandfather): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.",
+    "target": "Speaker A (grandson) (Target): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (grandfather): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.\nSpeaker B (grandson): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?",
+    "target": "Speaker A (grandfather) (Target): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (grandson): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?\nSpeaker B (grandfather): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.",
+    "target": "Speaker A (grandson) (Target): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandfather): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.\nSpeaker B (grandson): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?",
+    "target": "Speaker A (grandfather) (Target): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (grandson): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?\nSpeaker B (grandfather): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.",
+    "target": "Speaker A (grandson) (Target): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.\nSpeaker B (grandson): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.",
+    "target": "Speaker A (grandfather) (Target): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative agreement",
+    "raw_output": "Role: none\nType: cooperative agreement"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.\nSpeaker B (grandfather): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.",
+    "target": "Speaker A (grandson) (Target): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.\nSpeaker B (grandson): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?",
+    "target": "Speaker A (grandfather) (Target): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?\nSpeaker B (grandfather): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.",
+    "target": "Speaker A (grandson) (Target): So you're using more of that glue? Is that your homemade box?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.\nSpeaker B (grandson): So you're using more of that glue? Is that your homemade box?",
+    "target": "Speaker A (grandfather) (Target): Yeah, homemade box. Oh, this is about at least 30 years old.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): So you're using more of that glue? Is that your homemade box?\nSpeaker B (grandfather): Yeah, homemade box. Oh, this is about at least 30 years old.",
+    "target": "Speaker A (grandson) (Target): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandfather): Yeah, homemade box. Oh, this is about at least 30 years old.\nSpeaker B (grandson): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.",
+    "target": "Speaker A (grandfather) (Target): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.\nSpeaker B (grandfather): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.",
+    "target": "Speaker A (grandson) (Target): What's going on now, Nono? Yeah. This is the first coat, okay?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandfather): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.\nSpeaker B (grandson): What's going on now, Nono? Yeah. This is the first coat, okay?",
+    "target": "Speaker A (grandfather) (Target): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): What's going on now, Nono? Yeah. This is the first coat, okay?\nSpeaker B (grandfather): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.",
+    "target": "Speaker A (grandson) (Target): Just to lighten it up? Okay, so it's all done. You just gotta do one more coat of paint, match it, and it's done, right? I think you match the texture very, very good. For a first time you're doing it, I think it's incredible. Good job, Nono. See ya. We'll see you next time. Let us know if you believed in the process, because I didn't think it was going to work, and it turned out amazing. So he proved once again that he can do anything. Wow, right? Not a professional can fix anything.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandfather): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.\nSpeaker B (grandson): Just to lighten it up? Okay, so it's all done. You just gotta do one more coat of paint, match it, and it's done, right? I think you match the texture very, very good. For a first time you're doing it, I think it's incredible. Good job, Nono. See ya. We'll see you next time. Let us know if you believed in the process, because I didn't think it was going to work, and it turned out amazing. So he proved once again that he can do anything. Wow, right? Not a professional can fix anything.",
+    "target": "Speaker A (grandfather) (Target): That's it. Could have been a little bit better, but— See you next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

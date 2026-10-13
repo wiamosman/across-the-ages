@@ -1,0 +1,73 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 61,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see. Technology makes things so convenient these days, doesn't it?",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates.",
+      "golden": "complain",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "I understand, it's amazing how things have changed. I remember when we had to do everything manually.",
+      "golden": "inform",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech.",
+      "golden": "asking for opinions",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape.",
+      "golden": "complain",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "I get that. It's like we're always expected to be available, and it can be overwhelming sometimes.",
+      "golden": "agree",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "Exactly, it's like there's no off switch. Do you ever feel like things were simpler back then?",
+      "golden": "asking for opinions",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "That's a great point. Every little bit helps when it comes to conserving resources.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

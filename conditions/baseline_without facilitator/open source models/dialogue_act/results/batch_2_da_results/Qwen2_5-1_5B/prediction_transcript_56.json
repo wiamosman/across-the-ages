@@ -1,0 +1,145 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 56,
+    "utterances": [
+        {
+            "text": "Well, that's hard. It takes a lot of practice to do that.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Here?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Can I get a Pop It one? I want it to be a Pop It Troll.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. So this is for Grandpa?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Oh yeah, tighten it up. Where's yours?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yours in the shed?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, we're just borrowing Uncle Brian's right now.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You guys found something! I found something! I found something!",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Let's throw it back out. Okay, you throw it back out.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I'll throw it back out and you bring it back in, okay? How far can I go?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "There!",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Whoa!",
+            "golden": "backchannel",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Do it again!",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "That went far!",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I know.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Here?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

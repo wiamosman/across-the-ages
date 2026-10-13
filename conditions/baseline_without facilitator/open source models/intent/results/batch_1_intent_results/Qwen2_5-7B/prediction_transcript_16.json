@@ -1,0 +1,118 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 16,
+    "utterances": [
+        {
+            "text": "No lumps of flour. Okay, got it.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Scrape around your bowl.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "A bunch of lumps still.",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, you have to keep beating.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "encourage",
+            "status": "WRONG"
+        },
+        {
+            "text": "You have to what?",
+            "golden": "ask for help",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "You want to beat better with that? Here",
+            "golden": "ask for help",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "No no no",
+            "golden": "refuse",
+            "predicted": "doubt",
+            "raw": "doubt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Grandma said you have to keep beating. Oh, this is great.",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "You can do that better.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Here. You can do that better. Come on.",
+            "golden": "emphasize",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no. I do not want to beat the dough. Okay.",
+            "golden": "refuse",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "CORRECT"
+        },
+        {
+            "text": "so beat it as i told u Like this !",
+            "golden": "warn",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's fun. Making bread is fun.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Thats great ,, now clean this ..",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "You're beating some?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "challenge",
+            "status": "WRONG"
+        }
+    ]
+}

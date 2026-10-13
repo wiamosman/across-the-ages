@@ -1,0 +1,571 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 71,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how's your day going?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+      "golden": "statement-non-opinion",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I'm doing well, just finished some homework. Do you need any help with the gardening?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That's great, Grandpa! Let me know if you change your mind and need a hand.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I appreciate your concern, but I've got it under control. It's good exercise for me!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds good, Grandpa! I'm excited to learn from you.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, right here. Let's start with this section and I'll guide you through the process.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great, I'm ready to get started. Just let me know what to do first.",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Great, now let's make sure the soil is well-prepared before planting.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, should I start by loosening the soil with the rake?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Ah, that's a good question. Let's take a closer look at it together.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Okay, let's do that. I'm eager to learn more about gardening from you.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, I'll start clearing this area then. Thanks for the guidance!",
+      "golden": "answer",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, I love classic Italian! Are you planning to cook something special?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think a classic Italian dish would be wonderful. Maybe some pasta?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, let's get started on that pasta then!",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Yes, let's start by boiling the water for the pasta.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, did I do it the wrong way? Let's fix it together.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you figured it out. Let's see how it works.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's give it a try! I'm sure it'll turn out great.",
+      "golden": "agreement",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, let's get that pasta cooking now!",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Great! I'll get the water boiling while you prepare the sauce.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Ah, I see. Thanks for pointing that out. Let's keep going.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem! I'm excited to see how it turns out.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's focus on what we're doing here. We can figure it out together.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds good! I'll keep an eye on the water while you work on the sauce.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Let's take a closer look at the instructions. We can figure this out together.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+      "golden": "agreement",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, let's get that wire sorted out. We can do this together.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Got it! I'll start untangling the wire while you check the instructions.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Let's take a closer look at these wires. We can figure out what they do together.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, I'm almost done untangling this. How's it going with the instructions?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, it looks pretty solid. We're making good progress here.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! Let's keep going and see if we can finish this up soon.",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "That's good to hear. Let's keep going and see what else we can accomplish.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's tackle the next part. Do you need any help with the instructions?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, a cloth would be helpful to clean up any excess paint.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Okay, I'll double-check everything and start cleaning up.",
+      "golden": "agreement",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "This tool helps us smooth out the surface after painting, making it look even better.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, I'll make sure to use it after we're done painting.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, I didn't know that. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Sure, I can check how much paint we have left.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, I'll go check the paint and see if we need to get more.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+      "golden": "agreement",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thank you for the kind words! I'm glad you believed in the process and that it turned out well. It's always a pleasure working on projects like this together. Looking forward to our next adventure!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

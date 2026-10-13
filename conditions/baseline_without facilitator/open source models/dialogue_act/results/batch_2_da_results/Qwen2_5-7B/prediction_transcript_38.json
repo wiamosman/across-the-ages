@@ -1,0 +1,67 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 38,
+    "utterances": [
+        {
+            "text": "I think I can reach the pedal.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+            "golden": "disagreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "And then between where I can touch that little arrow.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Fine. Turn?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Yes.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, cool. Good job.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

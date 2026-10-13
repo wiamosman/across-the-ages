@@ -1,0 +1,139 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 39,
+    "utterances": [
+        {
+            "text": "Look at that grin. That grin, that looked like a— he grinned like a shit-eating possum. That's what he did. Possums like that shit. How's a shit-eating possum grin? Show me, show me. Slow down a little bit. The boy's driving, that's what he's doing. He's this— grandpa's teaching the boy to drive. That's right, nobody else would. That's what he told me, said nobody loves him but Grandpa.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, that because I don't get my driving permit yet.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "The problem with you kids today is you've got no patience for the rules. You all think you can just hop in a seat and go without learning the basics first. Always in a rush, just like the rest of your generation.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "That's not fair, Papa. I’m literally sitting here trying to learn from you right now. You don't have to group me in with 'everyone else' just because I'm young.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Of course. Make this right-hand turn up here. Hope he does it, we don't die. That's what I'm concerned about. Look, there's Lance's restaurant, Rock-a-Land, right there. Make that turn. Come on, make a turn, make the turn, make the turn, make the turn. There you go, buddy. Straighten it out. There you go. Hey, he did good. Smile. Yeah, that stuff's good. Easy. Slow down on this curb. You'll slide off here. Slow down, please. Slow down. Okay, he did it without me doing all that. There we go.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Am I scaring you, Papa?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Huh?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "Others (interruption)"
+        },
+        {
+            "text": "Am I scaring you?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "A little bit, this way. All right.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Huh"
+        },
+        {
+            "text": "Not doing too bad for my first time.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Your first time?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "One of them.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "One of your first? Either your first or it's not. First time driving this long, right? What else have you drove?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: One of"
+        },
+        {
+            "text": "Truck and my friend Robbie's truck.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "A what?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: One of"
+        },
+        {
+            "text": "My friend Robbie's truck.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Your friend Robbie's truck?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "My other friend, JJ's.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Easy, it's a little hard hitting those bumps with this priceless truck. Easy on the bumps. You all right? They don't show much mercy. Smile. Come on, you little possum, you. Yeah, now don't you put this in the ditch. A little bit that way and swing in.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Here?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, please. Park. Yeah, hit the brake. You're not— you got to pull that thing. You can't go too fast into that. Well, we made it, folks. We're live. We're live here in Cooksville, Oklahoma. We're still living. Still with the living. That's just uh, park it right here. I'll finish it. Okay. Huh? You go where? Turn! Stop, stop, stop! You okay?",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion, command,"
+        },
+        {
+            "text": "Sorry about that. Yeah.",
+            "golden": "apology",
+            "predicted": "apology",
+            "raw": "apology"
+        }
+    ]
+}

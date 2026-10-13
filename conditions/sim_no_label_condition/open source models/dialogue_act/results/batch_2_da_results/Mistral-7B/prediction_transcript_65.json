@@ -1,0 +1,121 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 65,
+    "utterances": [
+        {
+            "text": "Finger many a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Oh no.",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: F"
+        },
+        {
+            "text": "Nice and easy. Hold the thread.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Finger"
+        },
+        {
+            "text": "Where's the thread?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "You're all set, Joe.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh my goodness.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "That sounds pretty fast to me.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Oh no. Oh no.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others\n\nHistory:\nTurn: I'"
+        },
+        {
+            "text": "What? You got it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Is that straight? Man, that seam is so clean!",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement (assuming the first \"Oh no\""
+        },
+        {
+            "text": "Clean? Did you spill something on the fabric, dear? I don't see any dirt. Let me get the damp cloth from the kitchen.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nHistory:"
+        },
+        {
+            "text": "No, no, Grandma! Stay here. 'Clean' just means the line is perfect. It looks professional.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nHistory:"
+        },
+        {
+            "text": "Oh! You young people and your words. I thought I'd have to start scrubbing the cotton. If it’s straight, just say it’s straight!",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Clean?"
+        },
+        {
+            "text": "Is that straight?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, you got a little wide there at the end. Okay, let's do this again. It's gonna make a difference. You see how you went big?",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nbackchannel\nstatement-opinion"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That— it— like I said, it doesn't seem like a lot, but it does make a difference in the end. Your corners won't match up. Quilters always say, \"Quarter inch is my friend.\" All right. Okay, I think the top one was good. No, that's all right. Drop the foot, hold the thread. Okay, go back, backtrack.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Ok nice!!",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, go front. Off the material. Okay. There, that's better. All right, let me iron this up.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        }
+    ]
+}

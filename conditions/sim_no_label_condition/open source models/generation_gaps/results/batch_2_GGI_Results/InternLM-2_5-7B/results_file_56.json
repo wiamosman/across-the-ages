@@ -1,0 +1,191 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 56,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Well, that's hard. It takes a lot of practice to do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Well, that's hard. It takes a lot of practice to do that.",
+            "target": "Target (granddaughter): Here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Well, that's hard. It takes a lot of practice to do that. | Speaker B (granddaughter): Here?",
+            "target": "Target (grandfather): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Here? | Speaker B (grandfather): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—",
+            "target": "Target (granddaughter): Can I get a Pop It one? I want it to be a Pop It Troll.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a— | Speaker B (granddaughter): Can I get a Pop It one? I want it to be a Pop It Troll.",
+            "target": "Target (grandfather): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Can I get a Pop It one? I want it to be a Pop It Troll. | Speaker B (grandfather): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.",
+            "target": "Target (granddaughter): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish. | Speaker B (granddaughter): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!",
+            "target": "Target (grandfather): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand! | Speaker B (grandfather): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?",
+            "target": "Target (granddaughter): Okay. So this is for Grandpa?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay? | Speaker B (granddaughter): Okay. So this is for Grandpa?",
+            "target": "Target (grandfather): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Okay. So this is for Grandpa? | Speaker B (grandfather): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.",
+            "target": "Target (granddaughter): Oh yeah, tighten it up. Where's yours?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up. | Speaker B (granddaughter): Oh yeah, tighten it up. Where's yours?",
+            "target": "Target (grandfather): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Oh yeah, tighten it up. Where's yours? | Speaker B (grandfather): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.",
+            "target": "Target (granddaughter): Yours in the shed?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed. | Speaker B (granddaughter): Yours in the shed?",
+            "target": "Target (grandfather): Yeah, we're just borrowing Uncle Brian's right now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Yours in the shed? | Speaker B (grandfather): Yeah, we're just borrowing Uncle Brian's right now.",
+            "target": "Target (granddaughter): You guys found something! I found something! I found something!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Yeah, we're just borrowing Uncle Brian's right now. | Speaker B (granddaughter): You guys found something! I found something! I found something!",
+            "target": "Target (grandfather): Let's throw it back out. Okay, you throw it back out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): You guys found something! I found something! I found something! | Speaker B (grandfather): Let's throw it back out. Okay, you throw it back out.",
+            "target": "Target (granddaughter): I'll throw it back out and you bring it back in, okay? How far can I go?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Let's throw it back out. Okay, you throw it back out. | Speaker B (granddaughter): I'll throw it back out and you bring it back in, okay? How far can I go?",
+            "target": "Target (grandfather): There!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): I'll throw it back out and you bring it back in, okay? How far can I go? | Speaker B (grandfather): There!",
+            "target": "Target (granddaughter): Whoa!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): There! | Speaker B (granddaughter): Whoa!",
+            "target": "Target (grandfather): Do it again!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Whoa! | Speaker B (grandfather): Do it again!",
+            "target": "Target (granddaughter): That went far!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Do it again! | Speaker B (granddaughter): That went far!",
+            "target": "Target (granddaughter): Yeah, I know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): That went far! | Speaker B (granddaughter): Yeah, I know.",
+            "target": "Target (granddaughter): Here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): Yeah, I know. | Speaker B (granddaughter): Here?",
+            "target": "Target (grandfather): Yeah",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

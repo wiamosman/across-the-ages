@@ -1,0 +1,172 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation history does not provide enough context to determine if Speaker A is interrupting or being interrupted."
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this.",
+    "target": "Speaker A (granddaughter) (Target): Just say like a shape of an L.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a clear backchannel, acknowledging her grandfather"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this.\nSpeaker B (granddaughter): Just say like a shape of an L.",
+    "target": "Speaker A (grandfather) (Target): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually,",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's target utterance is a response to his granddaughter's"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): Just say like a shape of an L.\nSpeaker B (grandfather): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually,",
+    "target": "Speaker A (granddaughter) (Target): this is a boring game.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The granddaughter interrupts her grandfather while he was explaining his"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually,\nSpeaker B (granddaughter): this is a boring game.",
+    "target": "Speaker A (grandfather) (Target): That is, you got to be smart to play this game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather starts speaking about the game, but the granddaughter"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): this is a boring game.\nSpeaker B (grandfather): That is, you got to be smart to play this game.",
+    "target": "Speaker A (granddaughter) (Target): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter interrupts her grandfather mid-sentence to"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): That is, you got to be smart to play this game.\nSpeaker B (granddaughter): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow.",
+    "target": "Speaker A (grandfather) (Target): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandfather interrupts his granddaughter but does not change"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow.\nSpeaker B (grandfather): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board.",
+    "target": "Speaker A (granddaughter) (Target): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter is acknowledging the grandfather's instructions and providing a"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board.\nSpeaker B (granddaughter): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here.",
+    "target": "Speaker A (grandfather) (Target): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is not an interruption as he is providing guidance and feedback to his grandd"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (granddaughter): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here.\nSpeaker B (grandfather): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces.",
+    "target": "Speaker A (granddaughter) (Target): What is this called here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe granddaughter's question does not interrupt the flow of the conversation as she is asking for clar"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandfather): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces.\nSpeaker B (granddaughter): What is this called here?",
+    "target": "Speaker A (grandfather) (Target): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, as he is"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (granddaughter): What is this called here?\nSpeaker B (grandfather): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then.",
+    "target": "Speaker A (granddaughter) (Target): How does this work?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe granddaughter is asking a question to clarify the game rules, which is a natural part of"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandfather): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then.\nSpeaker B (granddaughter): How does this work?",
+    "target": "Speaker A (grandfather) (Target): Go like this. So this is the queen. This is the king. The king can only move one space.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A interrupts Speaker B while she was asking a"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (granddaughter): How does this work?\nSpeaker B (grandfather): Go like this. So this is the queen. This is the king. The king can only move one space.",
+    "target": "Speaker A (granddaughter) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's question \"Why?\" is a natural response to the grandfather"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandfather): Go like this. So this is the queen. This is the king. The king can only move one space.\nSpeaker B (granddaughter): Why?",
+    "target": "Speaker A (grandfather) (Target): Because he's the king. And the queen, she can go like this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandfather's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (granddaughter): Why?\nSpeaker B (grandfather): Because he's the king. And the queen, she can go like this.",
+    "target": "Speaker A (granddaughter) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandfather): Because he's the king. And the queen, she can go like this.\nSpeaker B (granddaughter): Why?",
+    "target": "Speaker A (grandfather) (Target): And like this, because she's powerful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the granddaughter asks her question, so there"
+  }
+]

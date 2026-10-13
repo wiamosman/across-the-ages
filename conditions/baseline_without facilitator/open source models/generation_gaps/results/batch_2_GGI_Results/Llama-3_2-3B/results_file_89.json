@@ -1,0 +1,175 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 89,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Is there something wrong with your hand?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Is there something wrong with your hand?",
+            "target": "Target (granddaughter): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Is there something wrong with your hand? | Speaker B (granddaughter): No.",
+            "target": "Target (grandmother): Why are you turning your fork? It's all dangled. Honestly, the way you’re shoveling that in looks like you were raised in a barn, not in this family.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): No. | Speaker B (grandmother): Why are you turning your fork? It's all dangled. Honestly, the way you’re shoveling that in looks like you were raised in a barn, not in this family.",
+            "target": "Target (granddaughter): That's actually pretty mean, Grandma. It's just a fork, I'm not being 'uncivilized' just because I'm comfortable.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Why are you turning your fork? It's all dangled. Honestly, the way you’re shoveling that in looks like you were raised in a barn, not in this family. | Speaker B (granddaughter): That's actually pretty mean, Grandma. It's just a fork, I'm not being 'uncivilized' just because I'm comfortable.",
+            "target": "Target (grandmother): It’s about standards. But you kids don't care about dignity anymore. Now, turn it back. Use the tines to push, don't scoop like a child.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): That's actually pretty mean, Grandma. It's just a fork, I'm not being 'uncivilized' just because I'm comfortable. | Speaker B (grandmother): It’s about standards. But you kids don't care about dignity anymore. Now, turn it back. Use the tines to push, don't scoop like a child.",
+            "target": "Target (granddaughter): Why is your 'English way' the only right way? Scooping is way more efficient for peas. We’re just arguing over a procedure that doesn't change how the food tastes.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): It’s about standards. But you kids don't care about dignity anymore. Now, turn it back. Use the tines to push, don't scoop like a child. | Speaker B (granddaughter): Why is your 'English way' the only right way? Scooping is way more efficient for peas. We’re just arguing over a procedure that doesn't change how the food tastes.",
+            "target": "Target (grandmother): Efficiency is for the kitchen; elegance is for the table. I won't have you eating like an American tourist at my Sunday dinner. We are stopping the meal until you hold it correctly.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Why is your 'English way' the only right way? Scooping is way more efficient for peas. We’re just arguing over a procedure that doesn't change how the food tastes. | Speaker B (grandmother): Efficiency is for the kitchen; elegance is for the table. I won't have you eating like an American tourist at my Sunday dinner. We are stopping the meal until you hold it correctly.",
+            "target": "Target (granddaughter): Um, I don't know, it's just how I eat. This is how you eat?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): Efficiency is for the kitchen; elegance is for the table. I won't have you eating like an American tourist at my Sunday dinner. We are stopping the meal until you hold it correctly. | Speaker B (granddaughter): Um, I don't know, it's just how I eat. This is how you eat?",
+            "target": "Target (grandmother): Yeah. No, no, no, no. Okay, okay. Like this. I like this, the fork this way. Why would you eat with the fork this way?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Um, I don't know, it's just how I eat. This is how you eat? | Speaker B (grandmother): Yeah. No, no, no, no. Okay, okay. Like this. I like this, the fork this way. Why would you eat with the fork this way?",
+            "target": "Target (granddaughter): I don't know, because it's curved up.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Yeah. No, no, no, no. Okay, okay. Like this. I like this, the fork this way. Why would you eat with the fork this way? | Speaker B (granddaughter): I don't know, because it's curved up.",
+            "target": "Target (grandmother): No. Okay, okay, no. Let me show you. Okay. This is the English way of eating. Okay. Like this. Like this. Cut it like this. And you eat it like this. Not like this.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): I don't know, because it's curved up. | Speaker B (grandmother): No. Okay, okay, no. Let me show you. Okay. This is the English way of eating. Okay. Like this. Like this. Cut it like this. And you eat it like this. Not like this.",
+            "target": "Target (granddaughter): Okay, okay, okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): No. Okay, okay, no. Let me show you. Okay. This is the English way of eating. Okay. Like this. Like this. Cut it like this. And you eat it like this. Not like this. | Speaker B (granddaughter): Okay, okay, okay.",
+            "target": "Target (grandmother): You want to try?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Okay, okay, okay. | Speaker B (grandmother): You want to try?",
+            "target": "Target (granddaughter): yes",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): You want to try? | Speaker B (granddaughter): yes",
+            "target": "Target (grandmother): Mm-hmm. That's good. Mm-hmm. And now— oh, jump, jump, jump! Jump! Bring the arm in a bit. Bring the arm in a bit. Let me show you again.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): yes | Speaker B (grandmother): Mm-hmm. That's good. Mm-hmm. And now— oh, jump, jump, jump! Jump! Bring the arm in a bit. Bring the arm in a bit. Let me show you again.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Mm-hmm. That's good. Mm-hmm. And now— oh, jump, jump, jump! Jump! Bring the arm in a bit. Bring the arm in a bit. Let me show you again. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): Let me show you again. Like this. I'm so stressed. Straight, just straight, straight down. Like that. Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): Let me show you again. Like this. I'm so stressed. Straight, just straight, straight down. Like that. Mm-hmm.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Let me show you again. Like this. I'm so stressed. Straight, just straight, straight down. Like that. Mm-hmm. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): Cut. Straight up. Right. There you go, you're British.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): Cut. Straight up. Right. There you go, you're British.",
+            "target": "Target (granddaughter): I'm British now!",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): Cut. Straight up. Right. There you go, you're British. | Speaker B (granddaughter): I'm British now!",
+            "target": "Target (grandmother): You're British! Sort of one.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        }
+    ]
+}

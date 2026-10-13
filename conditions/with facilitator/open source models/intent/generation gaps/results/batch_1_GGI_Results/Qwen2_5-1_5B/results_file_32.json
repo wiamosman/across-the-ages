@@ -1,0 +1,139 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 32,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Hey Grandpa! How are you doing today?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Hey Grandpa! How are you doing today?",
+            "target": "Target (grandfather): That sounds like quite a project you've got there! I'm glad to hear the truck is in good shape. Those new seats from LMC should make a big difference. If you need any help with the wiring or anything else, just let me know. I'm always here to lend a hand.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Hey Grandpa! How are you doing today? | Speaker B (grandfather): That sounds like quite a project you've got there! I'm glad to hear the truck is in good shape. Those new seats from LMC should make a big difference. If you need any help with the wiring or anything else, just let me know. I'm always here to lend a hand.",
+            "target": "Target (grandson): Thanks, Grandpa! I really appreciate your offer to help. I'll definitely let you know if I run into any issues with the wiring. It's great to have your expertise on hand!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): That sounds like quite a project you've got there! I'm glad to hear the truck is in good shape. Those new seats from LMC should make a big difference. If you need any help with the wiring or anything else, just let me know. I'm always here to lend a hand. | Speaker B (grandson): Thanks, Grandpa! I really appreciate your offer to help. I'll definitely let you know if I run into any issues with the wiring. It's great to have your expertise on hand!",
+            "target": "Target (grandfather): I know it can be a bit overwhelming with all the work ahead, but I'm sure you'll do a great job. If you ever feel stuck, don't hesitate to ask for advice or help. I'm proud of you for taking on such a big project!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your offer to help. I'll definitely let you know if I run into any issues with the wiring. It's great to have your expertise on hand! | Speaker B (grandfather): I know it can be a bit overwhelming with all the work ahead, but I'm sure you'll do a great job. If you ever feel stuck, don't hesitate to ask for advice or help. I'm proud of you for taking on such a big project!",
+            "target": "Target (grandson): Thanks, Grandpa! That means a lot to me. I'll keep your advice in mind and definitely reach out if I need some guidance. It's reassuring to know you're proud of me.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): I know it can be a bit overwhelming with all the work ahead, but I'm sure you'll do a great job. If you ever feel stuck, don't hesitate to ask for advice or help. I'm proud of you for taking on such a big project! | Speaker B (grandson): Thanks, Grandpa! That means a lot to me. I'll keep your advice in mind and definitely reach out if I need some guidance. It's reassuring to know you're proud of me.",
+            "target": "Target (grandfather): Wow, you've really thought this through! I'm impressed with how you're planning everything out, especially with the insulator and the couch idea. It's great to see you taking initiative and making it your own. If you need any tips on cutting the carpet or anything else, just give me a shout. I'm excited to see how it all turns out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): Thanks, Grandpa! That means a lot to me. I'll keep your advice in mind and definitely reach out if I need some guidance. It's reassuring to know you're proud of me. | Speaker B (grandfather): Wow, you've really thought this through! I'm impressed with how you're planning everything out, especially with the insulator and the couch idea. It's great to see you taking initiative and making it your own. If you need any tips on cutting the carpet or anything else, just give me a shout. I'm excited to see how it all turns out!",
+            "target": "Target (grandson): Thanks, Grandpa! I'm really excited about this project, and your support means the world to me. I'll definitely reach out if I need help with the carpet or anything else. Can't wait to show you the finished result!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): Wow, you've really thought this through! I'm impressed with how you're planning everything out, especially with the insulator and the couch idea. It's great to see you taking initiative and making it your own. If you need any tips on cutting the carpet or anything else, just give me a shout. I'm excited to see how it all turns out! | Speaker B (grandson): Thanks, Grandpa! I'm really excited about this project, and your support means the world to me. I'll definitely reach out if I need help with the carpet or anything else. Can't wait to show you the finished result!",
+            "target": "Target (grandfather): It sounds like you're really getting into the details of this project, and that's fantastic! Rotating the pieces can be tricky, but I'm sure you'll manage it well. Remember, if you need a hand or some advice, I'm just a call away. Keep up the great work!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Thanks, Grandpa! I'm really excited about this project, and your support means the world to me. I'll definitely reach out if I need help with the carpet or anything else. Can't wait to show you the finished result! | Speaker B (grandfather): It sounds like you're really getting into the details of this project, and that's fantastic! Rotating the pieces can be tricky, but I'm sure you'll manage it well. Remember, if you need a hand or some advice, I'm just a call away. Keep up the great work!",
+            "target": "Target (grandson): Thanks for the encouragement, Grandpa! I'm definitely going to keep your offer for help in mind, especially with those tricky parts. It's great to know I can count on you. I'll make sure to keep you updated on how it's going!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): It sounds like you're really getting into the details of this project, and that's fantastic! Rotating the pieces can be tricky, but I'm sure you'll manage it well. Remember, if you need a hand or some advice, I'm just a call away. Keep up the great work! | Speaker B (grandson): Thanks for the encouragement, Grandpa! I'm definitely going to keep your offer for help in mind, especially with those tricky parts. It's great to know I can count on you. I'll make sure to keep you updated on how it's going!",
+            "target": "Target (grandfather): It sounds like you're making great progress, and I'm glad to hear you're adding extra insulation—that's always a smart move! I remember working on projects like this and the smell of glue can be quite strong, but it's all part of the process. If you need any tips on handling the glue or anything else, let me know. Keep up the fantastic work!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): Thanks for the encouragement, Grandpa! I'm definitely going to keep your offer for help in mind, especially with those tricky parts. It's great to know I can count on you. I'll make sure to keep you updated on how it's going! | Speaker B (grandfather): It sounds like you're making great progress, and I'm glad to hear you're adding extra insulation—that's always a smart move! I remember working on projects like this and the smell of glue can be quite strong, but it's all part of the process. If you need any tips on handling the glue or anything else, let me know. Keep up the fantastic work!",
+            "target": "Target (grandson): Thanks, Grandpa! I'll definitely keep that in mind about the glue. Your experience is really helpful, and I'm grateful for your advice. I'll let you know if I run into any issues. It's nice to have someone who knows what they're doing to turn to!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): It sounds like you're making great progress, and I'm glad to hear you're adding extra insulation—that's always a smart move! I remember working on projects like this and the smell of glue can be quite strong, but it's all part of the process. If you need any tips on handling the glue or anything else, let me know. Keep up the fantastic work! | Speaker B (grandson): Thanks, Grandpa! I'll definitely keep that in mind about the glue. Your experience is really helpful, and I'm grateful for your advice. I'll let you know if I run into any issues. It's nice to have someone who knows what they're doing to turn to!",
+            "target": "Target (grandfather): I'm glad you're feeling confident about the project. It's always rewarding to see your hard work come together. If you run into any challenges or just want to share your progress, I'm here to listen and help out. Keep up the great work!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely keep that in mind about the glue. Your experience is really helpful, and I'm grateful for your advice. I'll let you know if I run into any issues. It's nice to have someone who knows what they're doing to turn to! | Speaker B (grandfather): I'm glad you're feeling confident about the project. It's always rewarding to see your hard work come together. If you run into any challenges or just want to share your progress, I'm here to listen and help out. Keep up the great work!",
+            "target": "Target (grandson): Thanks, Grandpa! It's really motivating to hear your support. I'll definitely keep you updated as I go along. It's nice knowing I can share my progress with you and get your advice when needed.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): I'm glad you're feeling confident about the project. It's always rewarding to see your hard work come together. If you run into any challenges or just want to share your progress, I'm here to listen and help out. Keep up the great work! | Speaker B (grandson): Thanks, Grandpa! It's really motivating to hear your support. I'll definitely keep you updated as I go along. It's nice knowing I can share my progress with you and get your advice when needed.",
+            "target": "Target (grandfather): It sounds like you're really making progress with those new seats! Leather seats can really add a touch of class and comfort. If you need longer bolts, I might have some spare ones in the garage, or we can take a trip to the hardware store together. Testing them out sounds like a great idea—let me know how they feel once they're all set up!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): Thanks, Grandpa! It's really motivating to hear your support. I'll definitely keep you updated as I go along. It's nice knowing I can share my progress with you and get your advice when needed. | Speaker B (grandfather): It sounds like you're really making progress with those new seats! Leather seats can really add a touch of class and comfort. If you need longer bolts, I might have some spare ones in the garage, or we can take a trip to the hardware store together. Testing them out sounds like a great idea—let me know how they feel once they're all set up!",
+            "target": "Target (grandson): That sounds awesome, Grandpa! I'll definitely take you up on that offer if I need those bolts. Testing them out together could be fun too. Thanks for always being there to help out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): It sounds like you're really making progress with those new seats! Leather seats can really add a touch of class and comfort. If you need longer bolts, I might have some spare ones in the garage, or we can take a trip to the hardware store together. Testing them out sounds like a great idea—let me know how they feel once they're all set up! | Speaker B (grandson): That sounds awesome, Grandpa! I'll definitely take you up on that offer if I need those bolts. Testing them out together could be fun too. Thanks for always being there to help out!",
+            "target": "Target (grandfather): I'm glad you're finding the project rewarding. It's always exciting to see things come together, especially when you can test them out and see the results of your hard work. If you need any help with those bolts or anything else, just let me know. I'm here to lend a hand whenever you need it!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): That sounds awesome, Grandpa! I'll definitely take you up on that offer if I need those bolts. Testing them out together could be fun too. Thanks for always being there to help out! | Speaker B (grandfather): I'm glad you're finding the project rewarding. It's always exciting to see things come together, especially when you can test them out and see the results of your hard work. If you need any help with those bolts or anything else, just let me know. I'm here to lend a hand whenever you need it!",
+            "target": "Target (grandson): Thanks, Grandpa! It's really reassuring to know you're always ready to help. I'll definitely reach out if I need anything. I'm excited to see how everything turns out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): I'm glad you're finding the project rewarding. It's always exciting to see things come together, especially when you can test them out and see the results of your hard work. If you need any help with those bolts or anything else, just let me know. I'm here to lend a hand whenever you need it! | Speaker B (grandson): Thanks, Grandpa! It's really reassuring to know you're always ready to help. I'll definitely reach out if I need anything. I'm excited to see how everything turns out!",
+            "target": "Target (grandfather): Wow, it sounds like you've got quite the setup going on there! It's impressive how you're managing all the wiring and installation. Those fog lights will definitely add a nice touch to your project. If you need any help with mounting the relay or anything else, just let me know. I'm always here to lend a hand or offer some advice if you need it. Keep up the great work!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Thanks, Grandpa! It's really reassuring to know you're always ready to help. I'll definitely reach out if I need anything. I'm excited to see how everything turns out! | Speaker B (grandfather): Wow, it sounds like you've got quite the setup going on there! It's impressive how you're managing all the wiring and installation. Those fog lights will definitely add a nice touch to your project. If you need any help with mounting the relay or anything else, just let me know. I'm always here to lend a hand or offer some advice if you need it. Keep up the great work!",
+            "target": "Target (grandson): Thanks, Grandpa! Your support means a lot to me. I'll definitely keep you in the loop as I continue working on the project. It's great to know I can count on your advice and help whenever needed!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 68,
+    "utterances": [
+        {
+            "text": "Is that your pumpkin light that broke?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, let's see how we can fix it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Really hard. Let's see. Let's put it in your pumpkin and see what it looks like. Just set it in this part.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Time to hook it up!",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        }
+    ]
+}

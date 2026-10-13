@@ -1,0 +1,111 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 67,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+            "target": "Target (grandfather): yes i see",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty. | Speaker B (grandfather): yes i see",
+            "target": "Target (grandson): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): yes i see | Speaker B (grandson): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+            "target": "Target (grandfather): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right. | Speaker B (grandfather): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+            "target": "Target (grandson): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy. | Speaker B (grandson): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+            "target": "Target (grandfather): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up. | Speaker B (grandfather): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+            "target": "Target (grandson): Them spark plugs go out though.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix. | Speaker B (grandson): Them spark plugs go out though.",
+            "target": "Target (grandfather): Yeah,",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Them spark plugs go out though. | Speaker B (grandfather): Yeah,",
+            "target": "Target (grandson): this thing went I ain't know they wear out bad.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): Yeah, | Speaker B (grandson): this thing went I ain't know they wear out bad.",
+            "target": "Target (grandfather): Yeah, sad",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): this thing went I ain't know they wear out bad. | Speaker B (grandfather): Yeah, sad",
+            "target": "Target (grandson): They keep it from firing, right? yes , now i need to sit here .. alright!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): Yeah, sad | Speaker B (grandson): They keep it from firing, right? yes , now i need to sit here .. alright!",
+            "target": "Target (grandson): Ain't got nothing to fire on.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): They keep it from firing, right? yes , now i need to sit here .. alright! | Speaker B (grandson): Ain't got nothing to fire on.",
+            "target": "Target (grandfather): it will be solved no worries!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

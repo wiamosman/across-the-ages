@@ -1,0 +1,451 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 95,
+    "utterances": [
+        {
+            "text": "He's live! Hi! Okay, so touch it.",
+            "golden": "advise",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Wait, it's loading.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "wait"
+        },
+        {
+            "text": "Wait, it's coming. It's loading. It's going to load. It has to go somewhere and back. There he is! How beautiful! He's live!",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Look at him! How you doing, dude? How you been? Long time no see. Yeah. Oh wait, there you are. Hi from Santa Barbara. So there's people—",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "You can type on there. There's people— If you wanted to say hi, you could type on there. You could like say, \"Hi, Manny,\" or anything you want.",
+            "golden": "explain",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Grandfather, say hi to everybody. I don't want to say it in front of you. Say hi, Periscope. I'm the brown guy.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "I'm getting behind the camera. We're broadcasting right now.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "There's people in here.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Hi everyone.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "We're teaching grandfather how to use Periscope. Yeah, he can travel the world without leaving his couch.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "He's gonna follow us to the beach.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Hey grandfather.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Join.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "join"
+        },
+        {
+            "text": "Yeah, other people are— look. grandfather, say hi to everybody. Say hi everyone over here. Say hi to the camera here. Hey, how are you guys doing?",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "We're having a great Sunday. Saturday.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Saturday. Whatever day, it's great. We have somebody watching from Greensville, South Carolina.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "So you can see all these people saying hi. We have somebody watching from Greensville, South Carolina. All the way from Carolina.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "How y'all doing? Everyone's saying hi, grandfather. How y'all doing back there? Somebody says hi from San Francisco. Oh, how's the Bay today? Hi, Johnny D. Hi, Nana. Yeah, yeah, yeah. Can you see them there? Yeah, we just say noisy. Hey, you got someone from Turkey too.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Grandfather, you're so high tech.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yeah, grandfather's so high-tech. He got Periscope and he got Snapchat.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Don't call me 'high-tech' like I'm a child learning to tie my shoes. I ran a business for forty years, I think I can handle a telephone without being patronized.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "I'm just complimenting you! Why are you getting so sensitive? It's just cool that you're doing this.",
+            "golden": "oppose",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "It's not 'cool,' it's just a tool. You're talking about me to these strangers like I'm a trained parrot.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Fine, forget it. Look, more people are joining. Look at the screen!",
+            "golden": "emphasize",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Everything is moving too fast. The words are flying up and these bubbles keep popping. I can't read a single name before it disappears. This is just a mess of colors, how do you focus on anything?",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "What's going on up there? What about this Alaska thing? Woo! Yeah, grandfather's!",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "You know what? Hearts, people!",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "Give grandfather some hearts! Give grandfather some hearts. He needs some hearts.",
+            "golden": "invite",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "If you tap this, it makes hearts.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Oh, he's got a heart flutter.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Look at, we're watching it on like 3 screens. How did you do this? Tap it. Did it go away? No. Now other people are tapping on it.",
+            "golden": "confirm",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Oh yeah, I see. So they can do it. Get on Meerkat, grandfather. Yeah, we'll get him on Meerkat next. He got Snapchat and he got Periscope today.",
+            "golden": "advise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yeah. Oh, look, it's 60-year-old Nana here.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "Hey, Megan loves grandfather. Oh, never too old.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "It's true. Good work, Nana.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Hey grandfather, people are saying you're cute. Don't make him blush.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "They don't know me.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "He's a handsome looking guy, isn't he? He's the nicest grandfather.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Yeah, I'm great.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "I'm great.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "I got all my teeth.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "He had one of his teeth pulled the other day.",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Oh, that's great.",
+            "golden": "acknowledge",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Megan Morris, I don't know who that is.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Well dressed.",
+            "golden": "inform",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "He's well dressed.",
+            "golden": "inform",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "He's a dapper dude.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "So true.",
+            "golden": "confirm",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Hello, Virginia. That's it. He likes your swag comment. Yeah, great weather, great weather. Where are you? grandfather. Oh yeah, yeah, I got good jeans. That's great. That's granddaughter number 1 next to me. How many grandkids do you have now? I have 14 grandchildren now. Babe, they're saying that you're pretty. Oh, stop it. That's my wife right there. She's beautiful. She's a gorgeous lady. Scanning rain buckets here. I asked him what it was. Hi, Toronto. Because it's so cold. Oh, poor kids in Connecticut. All right, it's sunny in the desert.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Isn't that amazing? Look, 43 people are watching.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, so he's right in the desert. So grandfather got Snapchat today, he got Periscope. What is he missing? Yeah, where else are you at? Periscope. What is he missing? Oh, nice view, huh? Why is that Chevy truck here? What year? '74. It's a '74. That's my father's. That's my son-in-law's.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "grandfather, what personality traits would you like to pass on to younger generations, and which one's winning?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "grandfather, what personality traits would you like to pass on to future generations? Friendliness. What's the key to living a happy life? Future generations. Talking to everybody you can.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Living a happy life. That's true. Future generations. Talking to everybody you can. 43 at once, preferably.",
+            "golden": "confirm",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yes, 43 at once. All of you at once. 78.",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "All of you at once. Now you can talk to everyone in the world.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "grandfather, how old are you? He's 78, going on 25. How old are you?",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "78. And someone said they weren't talking about me being sexy, they were talking about you.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yeah, grandfather is a good-looking dude. Whoa, grandfather, someone's—",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "there's some hearts, there's some hearts for you.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Here, wave at the camera, grandfather. Hey, we're gonna teach grandfather some other platforms. Yeah, thanks. We'll come on later on.",
+            "golden": "plan",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Follow us.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "follow"
+        },
+        {
+            "text": "We're gonna teach grandfather some other platforms.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Wild Stallion.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Oh God, we're gonna give him Instagram next.",
+            "golden": "plan",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Nope. Later, dude. No, you guys are fun.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Oh, grandfather's a single dude. He's available. Is that grandfather's wife?",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Hey, hey, something like that. Granddaughter, grandfather.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Yeah, are we late? Something like that.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Granddaughter, grandfather.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "All right everyone, thank you for joining us. Hi from London, bye Shelly. Katie baby.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Thank you for joining us. Have a good day. Later, haters. Oh yeah, grandfather's a good-looking dude. He keeps healthy. Brazil. Oh yeah, grandfather's a good-looking dude. Yeah, we'll show more of grandfather later on. Okay. All right, have a great day, everybody. Say bye to everyone, grandfather.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Bye, world.",
+            "golden": "greet",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Bye, world. Chat me back. Love you guys.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        }
+    ]
+}

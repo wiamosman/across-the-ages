@@ -1,0 +1,343 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 58,
+    "utterances": [
+        {
+            "text": "They're cute.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "They're so cute. They're like your cue balls.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay, don't get vulgar.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. Okay, now what is this?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "This is the right hand.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, what is this?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Left hand.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Very good. I don't have a star for you. But I got to do it. You don't wise up. Okay, now let's try this.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "Now, this is C, D, E, F, G. Okay?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Because they're on the same line. Okay. Okay. Now, It's your turn.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. C, D, E, F, G. Damn Grandma, you're really a savage with these corrections.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "A what? A savage? I am not a wild animal, I am a music teacher! Why are you calling me names?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No! It means you're cool and direct. It’s a good thing, I promise.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: No!"
+        },
+        {
+            "text": "Well, use your 'good' words for the piano, then. I don't feel very savage, my back hurts. Let's focus.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nHistory:"
+        },
+        {
+            "text": "Wrong.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What? What do you mean? Oh, I didn't know I was supposed to hit it 3 times.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: What"
+        },
+        {
+            "text": "I told you you couldn't. Listen.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Forgive me, I'm hungover.",
+            "golden": "statement-non-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "Okay, I don't know why I put these glasses on. I can't see out of them.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others (apology and statement-non-op"
+        },
+        {
+            "text": "Do you want these?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "offer\n\nHistory:\nTurn: Do you"
+        },
+        {
+            "text": "Put it in my cleavage.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "It'll be safe there.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "It's way down here. Okay, now this one— oh shit, my head's crooked. Oh, I must have dropped them somewhere.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others (disagreement or statement-non-"
+        },
+        {
+            "text": "Get yourself together, Grandma.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Wait, wait, I'm trying. But one eye is more blurry than the other. Oh no. Okay, now see this one? Mm-hmm. Okay, that's a what?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "Right.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And this is a left.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Left.",
+            "golden": "backchannel",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, now start looking for those notes.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, there they are. C, D, E, F. We're just gonna go up to this bar.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, so it's red.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "So, left hand. No. What?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "You almost used the wrong finger. Use them in sequence. You know, 1, 2, 3, 4, 5.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\n(Note: The history provided indicates"
+        },
+        {
+            "text": "Okay. Wrong. What?!! What do you mean?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay, now this is what you're gonna do, I think. Okay, now, work either.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: You almost"
+        },
+        {
+            "text": "Who needs glasses? I'll read it for you.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\ndisagreement\ncommand\nanswer"
+        },
+        {
+            "text": "Okay, now when you get to this part, you're gonna go to G. Okay, just try that. Okay, first the right hand. Oh, together, I'm sorry.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\nagreement\nacknowledgement"
+        },
+        {
+            "text": "Together?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Mire. Yeah. Well, yeah, because they're right underneath each other, the bars. See that?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Together?"
+        },
+        {
+            "text": "Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, you're supposed to start with this one.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: No"
+        },
+        {
+            "text": "Oh, shit.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Very classical, daughter. Okay, go.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: No,"
+        },
+        {
+            "text": "hhhh Okay. Ah, okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Right hand, left hand. Concentrate first before you bang on the notes.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, so I'm supposed to start here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, that's good. No, no, no, you're supposed to start here. That's your first note. See that? Okay. See that? C, D, E, F.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nInstructions:\nYou will be"
+        },
+        {
+            "text": "Okay, and then C, D, E, F. Okay. Got it?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Got it. Good girl. Now do it again. Okay, try and hit the note. You know, don't skip lightly through it and then, you know, like you're thinking, pause, then you stop thinking and then I'm supposed to fill it in or something.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. Got it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

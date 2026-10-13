@@ -1,0 +1,102 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): I think I can reach the pedal.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): I think I can reach the pedal.",
+    "target": "Speaker A (grandfather) (Target): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): I think I can reach the pedal.\nSpeaker B (grandfather): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+    "target": "Speaker A (granddaughter) (Target): And then between where I can touch that little arrow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a cooperative assistance as she is"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.\nSpeaker B (granddaughter): And then between where I can touch that little arrow.",
+    "target": "Speaker A (grandfather) (Target): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather starts speaking while his granddaughter is still in the"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): And then between where I can touch that little arrow.\nSpeaker B (grandfather): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+    "target": "Speaker A (granddaughter) (Target): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention\n\nExplanation: The granddaughter interrupts her grandfather mid-sentence to"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.\nSpeaker B (granddaughter): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+    "target": "Speaker A (grandfather) (Target): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather interrupts his granddaughter mid-sentence to"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.\nSpeaker B (grandfather): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+    "target": "Speaker A (granddaughter) (Target): Fine. Turn?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe granddaughter's response is a backchannel and does not interrupt the flow of the conversation"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.\nSpeaker B (granddaughter): Fine. Turn?",
+    "target": "Speaker A (grandfather) (Target): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing instructions and encouragement to his granddaughter, allowing her to finish her turn before"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Fine. Turn?\nSpeaker B (grandfather): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+    "target": "Speaker A (granddaughter) (Target): Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe granddaughter's response is a standard backchannel, acknowledging her grandfather's instructions before"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?\nSpeaker B (granddaughter): Yes.",
+    "target": "Speaker A (grandfather) (Target): Okay, cool. Good job.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

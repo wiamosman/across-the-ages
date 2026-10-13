@@ -1,0 +1,199 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 45,
+    "utterances": [
+        {
+            "text": "Okay, so Grandma, now we're going to put both hands on the piano at the same time like you are, and you're going to read what you've always read. We're at the page called Putting It All Together, and you'll see 2 measures, and the first measure is right hand. You see there's 4 C's that you've always played. That's the top, and then you're going to switch when you go down to the left hand. Okay, so let's start here with the right hand with the middle C. So C, C, C, C, then switch to the left hand. Oops. Right, right. It's just showing you how— what music looks like when it's there at the same time. So that wasn't hard, right?",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, I practiced that a lot.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay, this one this one is called playing with both hands.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Ooh, that's what scares me.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "And it's not so bad when you see them on top of each other. You have the middle C and your C chord on top of each other. That means at the same time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I really struggle with that visually. Can I just write the letter names like 'C' and 'Chord' directly under the notes? It’s much safer for me to follow if I see the letters before I try to coordinate both hands.",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, Grandma, that's a crutch. If you keep writing the letters, you'll never actually learn to read the staff properly. We have to do it the standard way, even if it feels awkward.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "But the letters work for me! Fine, show me again.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Your middle C with your right hand and your—",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Over here?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Chord, your C chord, the full C chord. No single notes with the left hand. You have 3 at the same time.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, okay. With the left hand?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "answer",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Okay, this is the one I have to play, right?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right. Right, and you see on top of it, it's this. So again, that's gonna go down all at the same time.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Does that go down all at one time?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Just like that. See, you're— so you know what you're looking at? Your right hand, right? And then down here is your left hand. Right, so they're stacked. So you did it at the same time. That's the first note. Consider that one beat. Then you go ahead and play the other note as is?",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "As is. There's nothing—",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "With this hand.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right, because there's nothing under it. Okay, and here we go again. Right. And then— there you go. You're reading music, Grandma. You just read music.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's good. I hope I can keep it up.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "We'll try it one more time. Okay. Let's see now. Just so you understand, when you see them on top of each other—",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "On top of each other, you start with this hand?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Both hands. Both hands. At the same time. Okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right. Good. Yay!",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "And the rest of the song is all assigned to you. Oh, I get 2 of those. I shouldn't have done that.",
+            "golden": "statement-non-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "I have to practice those so I don't get that other key in there. Yes.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "It'll come natural after a few times. It will. At first it might feel awkward, but it'll come.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "It'll come. Because I practice about 10 and 15 in the morning and then again in the afternoon.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "That's a lot of practice. That's good. That's why you're progressing so well. Okay, so that's all for today. I'll give you some more assignments.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay. I go through 67.",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay. 67.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

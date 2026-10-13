@@ -1,0 +1,73 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 86,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh, it sounds like you have something exciting planned for the weekend! What are you going to do?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "asking for help"
+    },
+    {
+      "text": "I'm thinking of going to the new cinema with some friends. I'm just trying to figure out the best way to get there.",
+      "golden": "inform",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "The one by the old town loop? That's a nice area! Are you going with friends who know the way?",
+      "golden": "confirm",
+      "predicted": "unknown",
+      "raw": "asking for help"
+    },
+    {
+      "text": "Yes, I'm going with a few friends. We were looking at the map earlier to see if that loop is the quickest route.",
+      "golden": "inform",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Using the map on your phone is a smart choice these days. Just make sure your phone is charged so you don't lose your way!",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "That's a great point! I'll make sure to bring my portable charger just in case we need the directions later.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I understand, dear. Having a backup makes things simpler. Just be safe and mind the traffic on the road.",
+      "golden": "warn",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Do you have any other plans for the day after your little trip to the cinema?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Not really, just planning to relax and maybe catch up on some shows once I'm back home.",
+      "golden": "inform",
+      "predicted": "arrange",
+      "raw": "arrange"
+    }
+  ]
+}

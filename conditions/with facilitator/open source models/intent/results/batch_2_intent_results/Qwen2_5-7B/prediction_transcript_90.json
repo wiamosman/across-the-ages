@@ -1,0 +1,223 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 90,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "I understand, sometimes it takes a few tries to get the hang of a new stitch. Is there anything specific you need help with in your knitting?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma. I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "golden": "refuse",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I see. Maybe we can try a different approach together for that difficult cable pattern?",
+      "golden": "suggest",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That sounds like a good idea, Grandma. What do you have in mind?",
+      "golden": "agree",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Ah, the 'Continental' style! I've heard it's quite efficient for faster knitting. Would you like to show me how you do it?",
+      "golden": "asking for opinions",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Sure, I'd love to show you! It's actually pretty simple once you get the hang of holding the yarn in your left hand.",
+      "golden": "agree",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "That sounds like a great idea! I'm eager to learn that method from you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Great! Let's start with the basics of the Continental knit stitch and then we can move on to more advanced techniques.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Thank you for showing me, dear. I'm always amazed at how much I can learn from your fresh perspective on knitting.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "You're welcome! I'm really glad to help. Let's dive into it and have some fun learning together.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I do enjoy this! It's fascinating to see how different knitting techniques work.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm so glad you're enjoying it! Let's try a new tension technique today and see how it goes.",
+      "golden": "suggest",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'm watching closely. Thank you for taking the time to explain this loop method to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! I'm really excited to show you this new technique. Let's get started!",
+      "golden": "plan",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "It's wonderful to see how much you've learned about complex patterns. I'm so proud of you!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thank you so much! It means a lot to hear that from you. Let's dive into this new technique now!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Is there anything else you'd like to show me? I'm eager to learn more about how you find your patterns.",
+      "golden": "asking for opinions",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Sure! I can show you how to use this app to organize your knitting patterns. It's really handy!",
+      "golden": "suggest",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Great! I'm ready whenever you are. Just let me know what to do on the screen next.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's get started! First, open the app and I'll guide you through the steps to save a project.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, sometimes the digital methods can be more efficient for keeping track. I'm glad you're showing me these things.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm happy to help! Let's make sure you feel comfortable using it on your own to find your favorite wool colors.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Let's try another feature together. I'm curious to see what else you can teach me about these modern tools.",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, let's explore more features! It's fun to learn how technology and knitting come together.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm really enjoying this time with you. What do you want to show me next on your tablet?",
+      "golden": "asking for opinions",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm glad you're enjoying it! How about we try setting up your email so we can share patterns?",
+      "golden": "suggest",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I'm just enjoying knitting right now. Do you have any tips for me on this row?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Knitting sounds fun! I can help if you need any advice on specific patterns or purling techniques.",
+      "golden": "suggest",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "That's interesting! Purling is such a fundamental part of knitting. Would you like me to show you my way of purling?",
+      "golden": "suggest",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I'd love to learn! Maybe we can exchange tips. I can show you some digital patterns too.",
+      "golden": "agree",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "Great! Let's start with the basics of purling. It's quite simple once you get the hang of the needle position.",
+      "golden": "plan",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Sounds good! I'm excited to learn from you and maybe we can try some of those digital patterns later.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's see how it's done. I'm sure you'll pick up my traditional purl quickly!",
+      "golden": "praise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "It's wonderful to see us sharing knitting tips. It's a skill that can be quite relaxing for both of us.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    }
+  ]
+}

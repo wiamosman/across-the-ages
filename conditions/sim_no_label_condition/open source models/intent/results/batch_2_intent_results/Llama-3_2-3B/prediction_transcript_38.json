@@ -1,0 +1,67 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 38,
+    "utterances": [
+        {
+            "text": "I think I can reach the pedal.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+            "golden": "refuse",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "And then between where I can touch that little arrow.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+            "golden": "oppose",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+            "golden": "warn",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Fine. Turn?",
+            "golden": "agree",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+            "golden": "praise",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Yes.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, cool. Good job.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        }
+    ]
+}

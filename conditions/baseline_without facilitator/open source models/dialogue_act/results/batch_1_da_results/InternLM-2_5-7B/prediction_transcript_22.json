@@ -1,0 +1,60 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 22,
+    "utterances": [
+        {
+            "text": " Okay. Push this through the window. And then what?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command\n\n```"
+        },
+        {
+            "text": "Off jumps Jack!",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": "Off jumps Jack! Okay  try it again. Try it again.Through the front door. You want to do around the back?  ",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command\n\n\n```python"
+        },
+        {
+            "text": "Yeah",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        },
+        {
+            "text": " You did it ! and then push this up and then do it this way and then do Off jumps Jack! Nice job!!",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\n\nuser"
+        },
+        {
+            "text": " We're knitting!!",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": " Who's the Little girl? ",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\n```python\n{"
+        },
+        {
+            "text": "meee!",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```"
+        },
+        {
+            "text": "  You got it.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        }
+    ]
+}

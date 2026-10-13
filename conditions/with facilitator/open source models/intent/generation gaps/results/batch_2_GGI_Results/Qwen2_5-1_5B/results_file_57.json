@@ -1,0 +1,159 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 57,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): Oh, I see. Is there anything I can do to help with that?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): Oh, I see. Is there anything I can do to help with that?",
+      "target": "Target (granddaughter): Thanks, Grandpa! I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Oh, I see. Is there anything I can do to help with that? | Speaker B (granddaughter): Thanks, Grandpa! I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "target": "Target (grandfather): That's the spirit. Now, about that reel right there—could you explain how you've set it up?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I think I'm managing okay for now, but I'll let you know if I need anything. | Speaker B (grandfather): That's the spirit. Now, about that reel right there—could you explain how you've set it up?",
+      "target": "Target (granddaughter): Oh, sorry, Grandpa! I was actually thinking about the new project I'm working on for school. It's a bit confusing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): That's the spirit. Now, about that reel right there—could you explain how you've set it up? | Speaker B (granddaughter): Oh, sorry, Grandpa! I was actually thinking about the new project I'm working on for school. It's a bit confusing.",
+      "target": "Target (grandfather): Wow, that sounds complex! Did you manage to find a good research angle for it yet?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): Oh, sorry, Grandpa! I was actually thinking about the new project I'm working on for school. It's a bit confusing. | Speaker B (grandfather): Wow, that sounds complex! Did you manage to find a good research angle for it yet?",
+      "target": "Target (granddaughter): Yeah, I did! It's going well so far, but I might need some advice on the conclusion later.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Wow, that sounds complex! Did you manage to find a good research angle for it yet? | Speaker B (granddaughter): Yeah, I did! It's going well so far, but I might need some advice on the conclusion later.",
+      "target": "Target (grandfather): I'd be happy to help. While we think on that, do you want to try using some of these worms as bait?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): Yeah, I did! It's going well so far, but I might need some advice on the conclusion later. | Speaker B (grandfather): I'd be happy to help. While we think on that, do you want to try using some of these worms as bait?",
+      "target": "Target (granddaughter): Sure! Balancing the project and fishing is a good way to clear my head. Thanks for the advice!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): I'd be happy to help. While we think on that, do you want to try using some of these worms as bait? | Speaker B (granddaughter): Sure! Balancing the project and fishing is a good way to clear my head. Thanks for the advice!",
+      "target": "Target (grandfather): I understand perfectly. Let's get started with the fishing then, and we can talk while we wait!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): Sure! Balancing the project and fishing is a good way to clear my head. Thanks for the advice! | Speaker B (grandfather): I understand perfectly. Let's get started with the fishing then, and we can talk while we wait!",
+      "target": "Target (granddaughter): Actually, could we talk a little more about my project first? It'll help me relax more while we're fishing.",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): I understand perfectly. Let's get started with the fishing then, and we can talk while we wait! | Speaker B (granddaughter): Actually, could we talk a little more about my project first? It'll help me relax more while we're fishing.",
+      "target": "Target (grandfather): Alright, tell me all about it. We can prep the rods and have some fun together at the same time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): Actually, could we talk a little more about my project first? It'll help me relax more while we're fishing. | Speaker B (grandfather): Alright, tell me all about it. We can prep the rods and have some fun together at the same time.",
+      "target": "Target (granddaughter): Perfect. Can we discuss the structure before we cast the lines out?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): Alright, tell me all about it. We can prep the rods and have some fun together at the same time. | Speaker B (granddaughter): Perfect. Can we discuss the structure before we cast the lines out?",
+      "target": "Target (grandfather): Of course. Go ahead, and let's see if we can catch some interesting ideas out here!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): Perfect. Can we discuss the structure before we cast the lines out? | Speaker B (grandfather): Of course. Go ahead, and let's see if we can catch some interesting ideas out here!",
+      "target": "Target (grandfather): I hope we catch a big one today! It's always exciting to see what the water has in store for us.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Of course. Go ahead, and let's see if we can catch some interesting ideas out here! | Speaker B (grandfather): I hope we catch a big one today! It's always exciting to see what the water has in store for us.",
+      "target": "Target (grandfather): I remember catching a huge fish here once, it was quite the adventure!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandfather): I hope we catch a big one today! It's always exciting to see what the water has in store for us. | Speaker B (grandfather): I remember catching a huge fish here once, it was quite the adventure!",
+      "target": "Target (grandfather): Fishing is all about patience, but I promise it will be worth it when we catch something amazing!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): I remember catching a huge fish here once, it was quite the adventure! | Speaker B (grandfather): Fishing is all about patience, but I promise it will be worth it when we catch something amazing!",
+      "target": "Target (grandfather): I think you'll enjoy it once we get into the rhythm of it. It's quite relaxing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    }
+  ]
+}

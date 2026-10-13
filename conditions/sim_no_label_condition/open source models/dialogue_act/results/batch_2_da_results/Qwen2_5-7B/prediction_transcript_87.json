@@ -1,0 +1,97 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 87,
+    "utterances": [
+        {
+            "text": "Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Like a long line? Yeah, that's called a chain. That's a single crochet.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay. So let's— Make a long line like that. Wrap it around your fingers over here.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Here. Here. So I do this.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "For 1 minute. I'm going to try something.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I'm going to try something.",
+            "golden": "backchannel",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You can just do it that way, huh?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I actually knitted a blanket like this once. It's really cool.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "And you turn to come back. Wrap it around your fingers. That keeps it tense. And you make one, and then you make one in the next one.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Make another one? I can't see them too well to go through there.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        }
+    ]
+}

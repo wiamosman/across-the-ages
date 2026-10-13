@@ -1,0 +1,223 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 90,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "I understand, sometimes it takes a few tries to get the hang of a new stitch. Is there anything specific you need help with in your knitting?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: Hello dear"
+    },
+    {
+      "text": "Thanks, Grandma. I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see. Maybe we can try a different approach together for that difficult cable pattern?",
+      "golden": "question",
+      "predicted": "others",
+      "raw": "proposal\n\nHistory:\nTurn: I understand"
+    },
+    {
+      "text": "That sounds like a good idea, Grandma. What do you have in mind?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That sounds"
+    },
+    {
+      "text": "Ah, the 'Continental' style! I've heard it's quite efficient for faster knitting. Would you like to show me how you do it?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand (optional)\n(Note:"
+    },
+    {
+      "text": "Sure, I'd love to show you! It's actually pretty simple once you get the hang of holding the yarn in your left hand.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand (implicit in \"I'"
+    },
+    {
+      "text": "That sounds like a great idea! I'm eager to learn that method from you.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! Let's start with the basics of the Continental knit stitch and then we can move on to more advanced techniques.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thank you for showing me, dear. I'm always amazed at how much I can learn from your fresh perspective on knitting.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're welcome! I'm really glad to help. Let's dive into it and have some fun learning together.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: You'"
+    },
+    {
+      "text": "Oh, I do enjoy this! It's fascinating to see how different knitting techniques work.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so glad you're enjoying it! Let's try a new tension technique today and see how it goes.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Alright, I'm watching closely. Thank you for taking the time to explain this loop method to me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm really excited to show you this new technique. Let's get started!",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "It's wonderful to see how much you've learned about complex patterns. I'm so proud of you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you so much! It means a lot to hear that from you. Let's dive into this new technique now!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\ncommand"
+    },
+    {
+      "text": "Is there anything else you'd like to show me? I'm eager to learn more about how you find your patterns.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Sure! I can show you how to use this app to organize your knitting patterns. It's really handy!",
+      "golden": "statement-non-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Great! I'm ready whenever you are. Just let me know what to do on the screen next.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's get started! First, open the app and I'll guide you through the steps to save a project.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, sometimes the digital methods can be more efficient for keeping track. I'm glad you're showing me these things.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Great!"
+    },
+    {
+      "text": "I'm happy to help! Let's make sure you feel comfortable using it on your own to find your favorite wool colors.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Let's try another feature together. I'm curious to see what else you can teach me about these modern tools.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Let'"
+    },
+    {
+      "text": "Sure, let's explore more features! It's fun to learn how technology and knitting come together.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm really enjoying this time with you. What do you want to show me next on your tablet?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you're enjoying it! How about we try setting up your email so we can share patterns?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Oh, I'm just enjoying knitting right now. Do you have any tips for me on this row?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Knitting sounds fun! I can help if you need any advice on specific patterns or purling techniques.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "That's interesting! Purling is such a fundamental part of knitting. Would you like me to show you my way of purling?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "I'd love to learn! Maybe we can exchange tips. I can show you some digital patterns too.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Great! Let's start with the basics of purling. It's quite simple once you get the hang of the needle position.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds good! I'm excited to learn from you and maybe we can try some of those digital patterns later.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's see how it's done. I'm sure you'll pick up my traditional purl quickly!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It's wonderful to see us sharing knitting tips. It's a skill that can be quite relaxing for both of us.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

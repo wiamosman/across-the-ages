@@ -1,0 +1,385 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 52,
+    "utterances": [
+        {
+            "text": "Marlin and his first driving lesson by granddaddy.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "You ready, grandpa?",
+            "golden": "confirm",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "You ready?",
+            "golden": "confirm",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Hold on.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "wait"
+        },
+        {
+            "text": "Thank you. All right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, put your hands on the wheel. Now turn your wheel all the way that way. You ready?",
+            "golden": "advise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, easy. Hit your brake. A little bit more. Hit the brake. Hit the brake. All right, now turn your wheel all this way. We're going to go back through where we went. Ready?",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yep. You got— turn it, turn it. There you go. You got her. Easy. Remember the ditches. I'm really paying attention to the ditch. Do not Turn, turn, turn, turn.",
+            "golden": "acknowledge",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "You got it.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Turn it all the way.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "turn"
+        },
+        {
+            "text": "Hey, wait, get that way a little. You want to hit the goddamn tree. Easy. Go up that way a little bit. Get over that way.",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "This way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, so we won't get in the mud hole, get stuck. Got her.",
+            "golden": "explain",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Mhm.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Excellent, Mark.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "All right. Yep, keep easing ahead. Give a little gas. Easy, man. Go on up. Turn that way. Yep, there you go. Bring her on up.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "On up.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "On up.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "All right, hit the brake. You got it. You ready?",
+            "golden": "advise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Now turn your wheel that way. All right, you ready?",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Going to back up. Better give her a little gas. Oh man, come on back. What the fuck is—",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Am I supposed to turn this way now?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Hold on.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "wait"
+        },
+        {
+            "text": "What?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask"
+        },
+        {
+            "text": "Hit the brake. All right, turn that way. Hold. Yep, you got her.",
+            "golden": "advise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Mhm.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Ready?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "wait"
+        },
+        {
+            "text": "All the way. I got it all the way, so I can't go anymore.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Give a little gas. You got her. Get up this way. Don't go in that mud hole again. Don't run in the damn tree. You got her, man. We'll go right back out there again. You want to? You got it. Easy. I'm just giving her a little push. Good job, Morlan. Excellent. Good job, Morlan. Excellent. Good job, Morlan.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Excellent.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "I'm just giving her a little push. Watch that ditch. Get it way— there you go. Look where you going now. Don't never take your eyes off the road.",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Good job, Morlan. Excellent. I'm not on the road though.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "It don't make a difference.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Yes, I know, but you don't have to keep yelling at me like I’m stupid. I’m trying to listen.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Well, just shut up. I'm teaching you. You shut the fuck up. I'm tell you how to drive. Don't cut too close to this truck. All right, now cut. Turn it hard. Yep, turn it. Hit the brake. Goddamn, hit the brake. Yeah, all right, now turn your wheel back the other way.",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "This way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Oh man, hit the brake.",
+            "golden": "advise",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "This way? Yeah.",
+            "golden": "confirm",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Oh man. I put the wrong gear. That was my fault. Sorry about that. All right, turn your wheel that way. Yeah, you gotta make your turn. Hit the brake just a little bit. Hit the brake. All right, now turn your wheel back that way.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "This way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yep.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All the way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yep. Ready? Mm-hmm. Here we go. Good job. I guess keep that— oh, get that way a little bit. You going to hit the goddamn tree and stump and ditch and all of it. There you go. It's just a hair, guys. Go that way, boy. See that ditch? There you go. Get up out that way, remember, so we don't get in the mud.",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "There you go.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "Up that way a little more. Don't run in that block. Got it? Out that way a little bit. Yeah, give it a hair of gas. All right, you got to make your turn again. You ready?",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, make your turn. There you go. Give a little, little gas. All right, hold, hold, hold. You know what you're doing damn good. All right, turn your wheel all the way that way.",
+            "golden": "praise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "This way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yep.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Ready? Yep.",
+            "golden": "confirm",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "All right, give her hair or gas. Oh shit, we stuck. Go ahead, do it again. Easy. Come on back. Come on.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "We're not stuck with me.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "No, not yet. All right, turn back that way. Now remember, get up on that side. We going to park it. Yeah, we're going to park it this time. All right, I'll park it. All right, go ahead.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "This is fun.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Is it? That way a little bit. That way, that way. Yeah, get out of that mud.",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Let's turn this way.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "turn"
+        },
+        {
+            "text": "Yeah, and then turn it. You got it, you got it, you doing fine. Pull that way a little. This side, Morley, that way Granddaddy can swing it around. Yeah, Morley, good job, buddy.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Right here? Now go?",
+            "golden": "confirm",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Yeah, right here. Hit the brake. Now I'm going to go show your Nana",
+            "golden": "plan",
+            "predicted": "taunt",
+            "raw": "taunt"
+        }
+    ]
+}

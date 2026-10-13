@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Hello dear, how was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Hello dear, how was your day?",
+    "target": "Speaker A (grandson) (Target): Hi Grandma! My day was pretty good, just busy with schoolwork.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Hello dear, how was your day?\nSpeaker B (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork.",
+    "target": "Speaker A (grandmother) (Target): Oh, I see! Technology is amazing these days. Can you show me how it works?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork.\nSpeaker B (grandmother): Oh, I see! Technology is amazing these days. Can you show me how it works?",
+    "target": "Speaker A (grandson) (Target): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): Oh, I see! Technology is amazing these days. Can you show me how it works?\nSpeaker B (grandson): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+    "target": "Speaker A (grandmother) (Target): Oh, I understand now. Thank you for explaining, dear. Technology can be a bit tricky for me sometimes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?\nSpeaker B (grandmother): Oh, I understand now. Thank you for explaining, dear. Technology can be a bit tricky for me sometimes.",
+    "target": "Speaker A (grandson) (Target): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): Oh, I understand now. Thank you for explaining, dear. Technology can be a bit tricky for me sometimes.\nSpeaker B (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+    "target": "Speaker A (grandmother) (Target): Would you mind showing me again how to use that app? I want to learn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.\nSpeaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.",
+    "target": "Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.\nSpeaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+    "target": "Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative agreement",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?\nSpeaker B (grandfather): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandfather): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?\nSpeaker B (grandson): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+    "target": "Speaker A (grandmother) (Target): Oh, that buzzing sound is quite interesting! What does it mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandson): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?\nSpeaker B (grandmother): Oh, that buzzing sound is quite interesting! What does it mean?",
+    "target": "Speaker A (grandson) (Target): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandmother): Oh, that buzzing sound is quite interesting! What does it mean?\nSpeaker B (grandson): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+    "target": "Speaker A (grandmother) (Target): Yes, I'm ready! Thank you for being so patient with me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandson): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.\nSpeaker B (grandmother): Yes, I'm ready! Thank you for being so patient with me.",
+    "target": "Speaker A (grandfather) (Target): It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker B (grandmother): Yes, I'm ready! Thank you for being so patient with me.\nSpeaker B (grandfather): It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm happy to help out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker B (grandfather): It's great to see you helping Grandma with the app. You're doing a wonderful job!\nSpeaker B (grandson): Thanks, Grandpa! I'm happy to help out.",
+    "target": "Speaker A (grandmother) (Target): Yes, please! I want to make sure I understand it correctly.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

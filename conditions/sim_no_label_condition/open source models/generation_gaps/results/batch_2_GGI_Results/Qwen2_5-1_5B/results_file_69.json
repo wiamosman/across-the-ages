@@ -1,0 +1,111 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 69,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here.",
+            "target": "Target (grandfather): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here. | Speaker B (grandfather): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up.",
+            "target": "Target (grandson): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up. | Speaker B (grandson): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent.",
+            "target": "Target (grandfather): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent. | Speaker B (grandfather): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know.",
+            "target": "Target (grandson): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know. | Speaker B (grandson): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors.",
+            "target": "Target (grandfather): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors. | Speaker B (grandfather): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Oh yeah. Okay? Okay? Okay, I didn't know!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Oh yeah. Okay? Okay? Okay, I didn't know!",
+            "target": "Target (grandmother): Tighten it back up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Oh yeah. Okay? Okay? Okay, I didn't know! | Speaker B (grandmother): Tighten it back up.",
+            "target": "Target (grandfather): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more...",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Tighten it back up. | Speaker B (grandfather): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more...",
+            "target": "Target (grandson): Ooh! Getting tired.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more... | Speaker B (grandson): Ooh! Getting tired.",
+            "target": "Target (grandfather): There we go. That's good. That's enough. That's enough. You got to break it. See, this slides in and out. Thumb right there. These fingers over this. Put your other hand on there and get a hold of it. Hold it up, Marcus. You got to be a big boy. Perfect. Wait, are you heating it up, Marcus? Now it's perfect.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Ooh! Getting tired. | Speaker B (grandfather): There we go. That's good. That's enough. That's enough. You got to break it. See, this slides in and out. Thumb right there. These fingers over this. Put your other hand on there and get a hold of it. Hold it up, Marcus. You got to be a big boy. Perfect. Wait, are you heating it up, Marcus? Now it's perfect.",
+            "target": "Target (grandson): hhh fine!! ok finish! So GRANDFATHER has taught me how to make a hot dog. All of his wisdom.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        }
+    ]
+}

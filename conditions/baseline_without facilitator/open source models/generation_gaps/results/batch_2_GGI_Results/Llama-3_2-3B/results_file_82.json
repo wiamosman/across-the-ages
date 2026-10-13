@@ -1,0 +1,143 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 82,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this.",
+            "target": "Target (granddaughter): Just say like a shape of an L.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): 1, 2, 1. 1, 2, 1. 4, 1. So you can always move like this. | Speaker B (granddaughter): Just say like a shape of an L.",
+            "target": "Target (grandfather): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually,",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Just say like a shape of an L. | Speaker B (grandfather): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually,",
+            "target": "Target (granddaughter): this is a boring game.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Yep, it's like the shape of an L. So, but okay, so that's your queen. All right, so it's— I think it's my move. Yeah, my move. So I'm gonna go like This actually, | Speaker B (granddaughter): this is a boring game.",
+            "target": "Target (grandfather): That is, you got to be smart to play this game.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): this is a boring game. | Speaker B (grandfather): That is, you got to be smart to play this game.",
+            "target": "Target (granddaughter): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): That is, you got to be smart to play this game. | Speaker B (granddaughter): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow.",
+            "target": "Target (grandfather): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Can we just play on the iPad? It highlights where the pieces can go so you don't have to keep counting '1, 2, 1' out loud. It's too slow. | Speaker B (grandfather): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board.",
+            "target": "Target (granddaughter): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): The iPad doesn't teach you how to think, it teaches you how to click. If you don't listen to the numbers, you don't learn the strategy. Now, focus on the board. | Speaker B (granddaughter): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here.",
+            "target": "Target (grandfather): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): I am looking, but I'm not really listening to the '1, 2' stuff. I'm just going to move this tall one here. | Speaker B (grandfather): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces.",
+            "target": "Target (granddaughter): What is this called here?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Wait. Everything stops. We are in a total muddle now. You aren't listening and we've got the whole back row wrong. We aren't moving another inch until we reset these pieces. | Speaker B (granddaughter): What is this called here?",
+            "target": "Target (grandfather): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): What is this called here? | Speaker B (grandfather): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then.",
+            "target": "Target (granddaughter): How does this work?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): That's your king. No, your king can only move one space at a time. That's the queen. we got— we got them mixed up then. | Speaker B (granddaughter): How does this work?",
+            "target": "Target (grandfather): Go like this. So this is the queen. This is the king. The king can only move one space.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): How does this work? | Speaker B (grandfather): Go like this. So this is the queen. This is the king. The king can only move one space.",
+            "target": "Target (granddaughter): Why?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Go like this. So this is the queen. This is the king. The king can only move one space. | Speaker B (granddaughter): Why?",
+            "target": "Target (grandfather): Because he's the king. And the queen, she can go like this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Why? | Speaker B (grandfather): Because he's the king. And the queen, she can go like this.",
+            "target": "Target (granddaughter): Why?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Because he's the king. And the queen, she can go like this. | Speaker B (granddaughter): Why?",
+            "target": "Target (grandfather): And like this, because she's powerful.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        }
+    ]
+}

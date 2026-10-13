@@ -1,0 +1,397 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 62,
+    "utterances": [
+        {
+            "text": "Wait a minute. Now wait a minute. Put it this way and this way. You got advice?",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Okay. All right. Okay.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Okay. Now, here.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay? Okay, you shut it. Now we keep going!",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Wait— wait... Sorry, no drop your thumb and pick that up again. How did you pick that up? That way?",
+            "golden": "confirm",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "I see it. Oh okay. Drop my thumb. And then you pick it up that way. Yep, got it. That's it. Now do it nice and neat.",
+            "golden": "praise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Yeah, yeah, you got it. Actually, Grandma, I saw this video online where they hold the yarn in the left hand instead of throwing it with the right. It’s supposed to be faster.",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "The left hand? Why would you do that? You'll get all tangled up. I’ve been knitting for sixty years with my right hand and it’s plenty fast. Put that yarn back where it belongs.",
+            "golden": "criticize",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I"
+        },
+        {
+            "text": "But it's called the Continental style! It looks way more efficient once you get the hang of it.",
+            "golden": "oppose",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Continental? Sounds like a lot of fuss for nothing. You're here to learn from me, not a computer screen. Now, pay attention to the throw.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Yeah, yeah, you got it. Okay, didn't get into that. Thank you. All right.",
+            "golden": "agree",
+            "predicted": "thank",
+            "raw": "thank\n\nUtterance: I"
+        },
+        {
+            "text": "That's it.",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay, I got it.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Leave them even, huh? Let's see how even you did. Not so great. They're very tight.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "I'm doing it very tight. Is that all right?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah. Yeah, you're doing it nice and loose. Let's try that. You did it right.",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Wait a second. So this goes that way, that way. And then like—",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "No, the other one.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Okay.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "That's right. Are you watching? Take a picture of it so she can do it when she gets home. Just look at the film. Yeah, that's what we're doing.",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "There. Yeah. Okay. Okay. Yeah, I got it. I got it. Okay, so this—",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Go ahead.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "So this piece, so it gets totally brought in together, right? Here, there, there.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "That's it. No, you have— you're right. No, not that way, from the front. That's it.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "This way?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "But when you do it, you have to make sure that you make them even.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Right. Okay. Okay, so after I do this, what about when you go to the number 2?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Then you can, then you do it on 2 needles to begin.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Well, now I can just, but now I can just, Wait a minute, with what?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Okay, no, no, when I get the second needle. Go ahead, do the second needle. Okay, now this is how you have it, right?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Okay. Yeah, yes.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Oh, now you turn it around, or else you have, if you have 3 needles, then you have to do the next needle. Here. Oh, you still have this. Okay, so—",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Right, right. I have to have it.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Oh. Oh, you have to have that.",
+            "golden": "acknowledge",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I"
+        },
+        {
+            "text": "So this has to be long enough to do the whole way around.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Oh yeah, yeah. All right. Okay? Yep. Got it. You r smart. Oh, you r a genius. Some of people r hard to teach.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "compliment (or praise)"
+        },
+        {
+            "text": "Okay. Oh yes. I don't think it's me.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Somebody's smart around here. Well, you certainly did good. See?",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Thank you.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "Now if you have other needles, you just continue on the next needle. But when you first started, you should do it on 2 needles only.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "So when I first start, I should do it wide?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange (assuming \"it\" refers"
+        },
+        {
+            "text": "Yeah, but if you— I use it differently than you do. Look. Oh, it comes over. It comes— I'm thinking— okay, yeah, but wait a minute.",
+            "golden": "explain",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Does it go around again?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "Wait a minute, let it just take a minute. You did these?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Uh-huh.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, that's all right.",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Oh, thank goodness.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "But you see, you have to have it long. I know, it's too short. Yeah, you have to have it so that you can do this and then this. You have to have two.",
+            "golden": "advise",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Yes, okay, okay. So I have to have it so I can do this. No, this.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Yeah. And this. That's it. Now you got it.",
+            "golden": "praise",
+            "predicted": "emphasize",
+            "raw": "Emphasize"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Now you go in here.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Okay. Over in here and over this, right?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "That's it. Take it out.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "But wait, wait, wait, wait, wait, wait, wait. I want to start with the next needle. So how do I do that? Okay, so I guess I do it this way.",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Oh, you want to do the next needle.",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Right. So I do that.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay. Well, now let that one go and work on— you can't do that.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "I can't do that?",
+            "golden": "confirm",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Wait a minute. Do you see how loose it is?",
+            "golden": "confirm",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "That's not good.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Right.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 35,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Hello there, my dear! How have you been?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Hello there, my dear! How have you been?",
+            "target": "Target (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Hello there, my dear! How have you been? | Speaker B (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you?",
+            "target": "Target (grandfather): It's wonderful to hear from you! Is there something exciting happening that surprised you?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you? | Speaker B (grandfather): It's wonderful to hear from you! Is there something exciting happening that surprised you?",
+            "target": "Target (grandson): Well, I recently got an A on my science project, which was a nice surprise! How about you, Grandpa? Anything exciting happening on your end?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): It's wonderful to hear from you! Is there something exciting happening that surprised you? | Speaker B (grandson): Well, I recently got an A on my science project, which was a nice surprise! How about you, Grandpa? Anything exciting happening on your end?",
+            "target": "Target (grandfather): That's great to hear! Would you like to share what's making you so happy?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Well, I recently got an A on my science project, which was a nice surprise! How about you, Grandpa? Anything exciting happening on your end? | Speaker B (grandfather): That's great to hear! Would you like to share what's making you so happy?",
+            "target": "Target (grandson): Thanks, Grandpa! Well, getting that A was really satisfying after all the hard work I put into it. Plus, my friends and I are planning a little celebration this weekend. How about you? Anything fun planned?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): That's great to hear! Would you like to share what's making you so happy? | Speaker B (grandson): Thanks, Grandpa! Well, getting that A was really satisfying after all the hard work I put into it. Plus, my friends and I are planning a little celebration this weekend. How about you? Anything fun planned?",
+            "target": "Target (grandfather): I'm all ears, my dear. What's been happening that's got you feeling so upbeat?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Thanks, Grandpa! Well, getting that A was really satisfying after all the hard work I put into it. Plus, my friends and I are planning a little celebration this weekend. How about you? Anything fun planned? | Speaker B (grandfather): I'm all ears, my dear. What's been happening that's got you feeling so upbeat?",
+            "target": "Target (grandson): Well, besides the project, I've been enjoying hanging out with friends and playing some video games. It's just been a good week overall! What about you, Grandpa? Anything exciting or new happening with you?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): I'm all ears, my dear. What's been happening that's got you feeling so upbeat? | Speaker B (grandson): Well, besides the project, I've been enjoying hanging out with friends and playing some video games. It's just been a good week overall! What about you, Grandpa? Anything exciting or new happening with you?",
+            "target": "Target (grandfather): I'm eager to hear all about it! Take your time and share what you feel comfortable with.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Well, besides the project, I've been enjoying hanging out with friends and playing some video games. It's just been a good week overall! What about you, Grandpa? Anything exciting or new happening with you? | Speaker B (grandfather): I'm eager to hear all about it! Take your time and share what you feel comfortable with.",
+            "target": "Target (grandson): Thanks, Grandpa! It's nice to have someone who wants to hear about my week. Well, besides the celebration, I'm thinking of trying out a new game that just came out. How about you? Any plans for the weekend?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): I'm eager to hear all about it! Take your time and share what you feel comfortable with. | Speaker B (grandson): Thanks, Grandpa! It's nice to have someone who wants to hear about my week. Well, besides the celebration, I'm thinking of trying out a new game that just came out. How about you? Any plans for the weekend?",
+            "target": "Target (grandfather): I can sense your excitement! I'm really curious to know what has you so thrilled. Please, go ahead and tell me more!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 16,
+    "utterances": [
+        {
+            "text": "No lumps of flour. Okay, got it.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'd like to",
+            "status": "WRONG"
+        },
+        {
+            "text": "Scrape around your bowl.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "A bunch of lumps still.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, you have to keep beating.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You have to what?",
+            "golden": "ask for help",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "You want to beat better with that? Here",
+            "golden": "ask for help",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "No no no",
+            "golden": "refuse",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Grandma said you have to keep beating. Oh, this is great.",
+            "golden": "joke",
+            "predicted": "joke",
+            "raw": "joke\n\nUtterance: I can't believe",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You can do that better.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: Can you help me",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "confirm or acknowledge\n\nUtterance: Can you help",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Here. You can do that better. Come on.",
+            "golden": "emphasize",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no. I do not want to beat the dough. Okay.",
+            "golden": "refuse",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: Can you help me find",
+            "status": "CORRECT"
+        },
+        {
+            "text": "so beat it as i told u Like this !",
+            "golden": "warn",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's fun. Making bread is fun.",
+            "golden": "praise",
+            "predicted": "inform",
+            "raw": "enjoy (or inform, if speaking about sharing the enjoyment",
+            "status": "WRONG"
+        },
+        {
+            "text": "Thats great ,, now clean this ..",
+            "golden": "praise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "You're beating some?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        }
+    ]
+}

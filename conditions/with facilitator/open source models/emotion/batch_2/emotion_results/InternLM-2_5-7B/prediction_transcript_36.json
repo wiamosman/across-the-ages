@@ -1,0 +1,61 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 36,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "happy",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "happy",
+      "predicted": "happy",
+      "raw": "happy"
+    },
+    {
+      "text": "Oh, I'm sorry to hear that. Do you want to talk about it?",
+      "golden": "sad",
+      "predicted": "sad",
+      "raw": "sad"
+    },
+    {
+      "text": "Thanks, Grandpa. It's just a lot of assignments piling up, but I'll manage.",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "It sounds like you're having a tough time. I'm here if you need to talk or need any help.",
+      "golden": "neutral",
+      "predicted": "sad",
+      "raw": "sad"
+    },
+    {
+      "text": "I appreciate that, Grandpa. I'll definitely let you know if I need anything.",
+      "golden": "happy",
+      "predicted": "happy",
+      "raw": "happy"
+    },
+    {
+      "text": "Oh, is the sensor giving you trouble? Let me help you with that.",
+      "golden": "neutral",
+      "predicted": "happy",
+      "raw": "happy"
+    },
+    {
+      "text": "Yeah, the sensor's been acting up. I could use some help figuring it out.",
+      "golden": "neutral",
+      "predicted": "frustrated",
+      "raw": "frustrated"
+    },
+    {
+      "text": "Alright, I'll let you handle it. Just remember I'm here if you need anything.",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    }
+  ]
+}

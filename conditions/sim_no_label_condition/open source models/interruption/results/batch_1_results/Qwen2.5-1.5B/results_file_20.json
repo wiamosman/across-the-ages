@@ -1,0 +1,692 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Oh, we are.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Oh, we are.",
+    "target": "Speaker A (granddaughter) (Target):  Well, I am.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Oh, we are.\nSpeaker B (granddaughter):  Well, I am.",
+    "target": "Speaker A (grandmother) (Target): Oh, you look at it",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter):  Well, I am.\nSpeaker B (grandmother): Oh, you look at it",
+    "target": "Speaker A (granddaughter) (Target): I'll say This is my grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): Oh, you look at it\nSpeaker B (granddaughter): I'll say This is my grandma.",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): I'll say This is my grandma.\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (granddaughter) (Target): Okay, you gonna start? Okay, everybody, this is. This is my grandma. And she has agreed to start learning how to play the piano. She's never played before in her life. And how old are you, Grandma? If you want to say ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): Yeah.\nSpeaker B (granddaughter): Okay, you gonna start? Okay, everybody, this is. This is my grandma. And she has agreed to start learning how to play the piano. She's never played before in her life. And how old are you, Grandma? If you want to say",
+    "target": "Speaker A (grandmother) (Target): 88.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): Okay, you gonna start? Okay, everybody, this is. This is my grandma. And she has agreed to start learning how to play the piano. She's never played before in her life. And how old are you, Grandma? If you want to say \nSpeaker B (grandmother): 88.",
+    "target": "Speaker A (granddaughter) (Target):  She's 88. And we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. So we're going to go ahead and get started.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandmother): 88.\nSpeaker A (granddaughter):  She's 88. And we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. So we're going to go ahead and get started.",
+    "target": "Speaker A (granddaughter) (Target): Do you want to say anything, Grandma?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (granddaughter):  She's 88. And we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. So we're going to go ahead and get started.\nSpeaker B (granddaughter): Do you want to say anything, Grandma?",
+    "target": "Speaker A (grandmother) (Target):  No. hhhh",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): Do you want to say anything, Grandma?\nSpeaker B (grandmother):  No. hhhh",
+    "target": "Speaker A (granddaughter) (Target): No? hhh , Okay. Okay. Okay. So have you seen my books before? Okay, this is my first book. And book one. And it starts out with just explaining about the piano. I'm just going to find a page here where it talks about the groups of two and three black keys. The piano is divided into white keys and black keys. That's obvious. But some people don't notice that the black keys are in groups of twos and threes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother):  No. hhhh\nSpeaker B (granddaughter): No? hhh , Okay. Okay. Okay. So have you seen my books before? Okay, this is my first book. And book one. And it starts out with just explaining about the piano. I'm just going to find a page here where it talks about the groups of two and three black keys. The piano is divided into white keys and black keys. That's obvious. But some people don't notice that the black keys are in groups of twos and threes.",
+    "target": "Speaker A (grandmother) (Target): Yeah, I really didn't notice until you said that. That they're in threes and twos.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): No? hhh , Okay. Okay. Okay. So have you seen my books before? Okay, this is my first book. And book one. And it starts out with just explaining about the piano. I'm just going to find a page here where it talks about the groups of two and three black keys. The piano is divided into white keys and black keys. That's obvious. But some people don't notice that the black keys are in groups of twos and threes.\nSpeaker B (grandmother): Yeah, I really didn't notice until you said that. That they're in threes and twos.",
+    "target": "Speaker A (granddaughter) (Target): Really? You didn't notice?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Yeah, I really didn't notice until you said that. That they're in threes and twos.\nSpeaker B (granddaughter): Really? You didn't notice?",
+    "target": "Speaker A (grandmother) (Target): Well, I hadn't really looked at it, but until you said it, I hadn't noticed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): Really? You didn't notice?\nSpeaker B (grandmother): Well, I hadn't really looked at it, but until you said it, I hadn't noticed.",
+    "target": "Speaker A (granddaughter) (Target): Okay, so that's how you're going to find your white keys. By finding a group of two or a group of three black keys. So now when you look at the piano, it's not so overwhelming because you know that I'm going to tell you that next to every group of two black keys is a white key called C. They're all Cs. They're all Cs. Next to all the groups of two black keys.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): Well, I hadn't really looked at it, but until you said it, I hadn't noticed.\nSpeaker B (granddaughter): Okay, so that's how you're going to find your white keys. By finding a group of two or a group of three black keys. So now when you look at the piano, it's not so overwhelming because you know that I'm going to tell you that next to every group of two black keys is a white key called C. They're all Cs. They're all Cs. Next to all the groups of two black keys.",
+    "target": "Speaker A (grandmother) (Target): Even on this side? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (granddaughter): Okay, so that's how you're going to find your white keys. By finding a group of two or a group of three black keys. So now when you look at the piano, it's not so overwhelming because you know that I'm going to tell you that next to every group of two black keys is a white key called C. They're all Cs. They're all Cs. Next to all the groups of two black keys.\nSpeaker B (grandmother): Even on this side?",
+    "target": "Speaker A (granddaughter) (Target): No, no, just on the left. Just on the left. So on the left of all the groups of two black keys is a C. Go ahead. Go ahead and find them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): Even on this side? \nSpeaker B (granddaughter): No, no, just on the left. Just on the left. So on the left of all the groups of two black keys is a C. Go ahead. Go ahead and find them.",
+    "target": "Speaker A (grandmother) (Target): Well, they're starting right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (granddaughter): No, no, just on the left. Just on the left. So on the left of all the groups of two black keys is a C. Go ahead. Go ahead and find them.\nSpeaker B (grandmother): Well, they're starting right here.",
+    "target": "Speaker A (granddaughter) (Target): The groups of two only. Not. Not next. Not the groups of three.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): Well, they're starting right here.\nSpeaker B (granddaughter): The groups of two only. Not. Not next. Not the groups of three.",
+    "target": "Speaker A (grandmother) (Target): I messed up on that one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (granddaughter): The groups of two only. Not. Not next. Not the groups of three.\nSpeaker B (grandmother): I messed up on that one.",
+    "target": "Speaker A (granddaughter) (Target): Okay, good. We should be looking at the camera, though.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): I messed up on that one.\nSpeaker B (granddaughter): Okay, good. We should be looking at the camera, though.",
+    "target": "Speaker A (grandmother) (Target): How can you look at the camera when you're looking at the keys?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (granddaughter): Okay, good. We should be looking at the camera, though.\nSpeaker B (grandmother): How can you look at the camera when you're looking at the keys?",
+    "target": "Speaker A (granddaughter) (Target): I don't know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): How can you look at the camera when you're looking at the keys?\nSpeaker B (granddaughter): I don't know.",
+    "target": "Speaker A (grandmother) (Target): You can.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (granddaughter): I don't know.\nSpeaker B (grandmother): You can.",
+    "target": "Speaker A (granddaughter) (Target): Okay, well, that was okay. That was good, Grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): You can.\nSpeaker B (granddaughter): Okay, well, that was okay. That was good, Grandma.",
+    "target": "Speaker A (grandmother) (Target): Now, was that pictured? Did you picture that? Did you take a picture of that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (granddaughter): Okay, well, that was okay. That was good, Grandma.\nSpeaker B (grandmother): Now, was that pictured? Did you picture that? Did you take a picture of that?",
+    "target": "Speaker A (granddaughter) (Target): Yes, we're on camera.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): Now, was that pictured? Did you picture that? Did you take a picture of that?\nSpeaker B (granddaughter): Yes, we're on camera.",
+    "target": "Speaker A (grandmother) (Target): Oh, my goodness. You may want to throw the first ones away.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (granddaughter): Yes, we're on camera.\nSpeaker B (grandmother): Oh, my goodness. You may want to throw the first ones away.",
+    "target": "Speaker A (granddaughter) (Target): Maybe I'll look at them. Okay. So we. We went through finding C already. Next to the two black keys.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): Oh, my goodness. You may want to throw the first ones away.\nSpeaker B (granddaughter): Maybe I'll look at them. Okay. So we. We went through finding C already. Next to the two black keys.",
+    "target": "Speaker A (grandmother) (Target): Next to the two black keys.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (granddaughter): Maybe I'll look at them. Okay. So we. We went through finding C already. Next to the two black keys.\nSpeaker B (grandmother): Next to the two black keys.",
+    "target": "Speaker A (granddaughter) (Target): Right? Middle C. You've probably heard of. Heard that. You've heard of middle C. So it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Next to the two black keys.\nSpeaker B (granddaughter): Right? Middle C. You've probably heard of. Heard that. You've heard of middle C. So it.",
+    "target": "Speaker A (grandmother) (Target): Would be between them. No, that's the middle.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (granddaughter): Right? Middle C. You've probably heard of. Heard that. You've heard of middle C. So it.\nSpeaker B (grandmother): Would be between them. No, that's the middle.",
+    "target": "Speaker A (granddaughter) (Target): No, middle C is the C closest to the middle of the piano. So it's still on the left of the two black keys.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandmother): Would be between them. No, that's the middle.\nSpeaker B (granddaughter): No, middle C is the C closest to the middle of the piano. So it's still on the left of the two black keys.",
+    "target": "Speaker A (grandmother) (Target): Oh, okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (granddaughter): No, middle C is the C closest to the middle of the piano. So it's still on the left of the two black keys.\nSpeaker B (grandmother): Oh, okay.",
+    "target": "Speaker A (granddaughter) (Target): But middle C is the C closest to the middle. Can you. Can you see our face? Okay. Hopefully we're loud enough for the cameras picking us up. Okay, so middle C is the one closest to the middle. Okay, so you have several Cs, you have several Cs, but the middle one is closest to you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandmother): Oh, okay.\nSpeaker B (granddaughter): But middle C is the C closest to the middle. Can you. Can you see our face? Okay. Hopefully we're loud enough for the cameras picking us up. Okay, so middle C is the one closest to the middle. Okay, so you have several Cs, you have several Cs, but the middle one is closest to you.",
+    "target": "Speaker A (grandmother) (Target): Okay, well, is there two of these? Just one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (granddaughter): But middle C is the C closest to the middle. Can you. Can you see our face? Okay. Hopefully we're loud enough for the cameras picking us up. Okay, so middle C is the one closest to the middle. Okay, so you have several Cs, you have several Cs, but the middle one is closest to you.\nSpeaker B (grandmother): Okay, well, is there two of these? Just one.",
+    "target": "Speaker A (granddaughter) (Target): There's one middle C. Just one middle C. Right. There's several Cs.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandmother): Okay, well, is there two of these? Just one.\nSpeaker B (granddaughter): There's one middle C. Just one middle C. Right. There's several Cs.",
+    "target": "Speaker A (grandmother) (Target): Yeah, I just found them after the two black ones.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (granddaughter): There's one middle C. Just one middle C. Right. There's several Cs.\nSpeaker B (grandmother): Yeah, I just found them after the two black ones.",
+    "target": "Speaker A (granddaughter) (Target): Right, right. Jay is over there dancing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandmother): Yeah, I just found them after the two black ones.\nSpeaker B (granddaughter): Right, right. Jay is over there dancing.",
+    "target": "Speaker A (grandmother) (Target): And then. And then the middle C is here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (granddaughter): Right, right. Jay is over there dancing.\nSpeaker B (grandmother): And then. And then the middle C is here.",
+    "target": "Speaker A (granddaughter) (Target): Right. Okay. And that's where you're going to start playing on middle C with your right hand. Oh, my right hand. With your right hand. So look at this page. It says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. Right. So if you put your thumb on C, all of your other fingers will naturally fall on a key. Don't skip any keys. Don't skip any keys. Right. So that's middle C position. All that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandmother): And then. And then the middle C is here.\nSpeaker B (granddaughter): Right. Okay. And that's where you're going to start playing on middle C with your right hand. Oh, my right hand. With your right hand. So look at this page. It says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. Right. So if you put your thumb on C, all of your other fingers will naturally fall on a key. Don't skip any keys. Don't skip any keys. Right. So that's middle C position. All that.",
+    "target": "Speaker A (grandmother) (Target): Middle C position.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (granddaughter): Right. Okay. And that's where you're going to start playing on middle C with your right hand. Oh, my right hand. With your right hand. So look at this page. It says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. Right. So if you put your thumb on C, all of your other fingers will naturally fall on a key. Don't skip any keys. Don't skip any keys. Right. So that's middle C position. All that.\nSpeaker B (grandmother): Middle C position.",
+    "target": "Speaker A (granddaughter) (Target): Okay, now what you're going to do. Can you see this? When you see the C, you're going to play a C. So go ahead and play practice number one on page 18. And don't look at your fingers because they're in position. They're in position. And you're going to look here. Got it? Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandmother): Middle C position.\nSpeaker B (granddaughter): Okay, now what you're going to do. Can you see this? When you see the C, you're going to play a C. So go ahead and play practice number one on page 18. And don't look at your fingers because they're in position. They're in position. And you're going to look here. Got it? Okay.",
+    "target": "Speaker A (grandmother) (Target): Is that middle C?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (granddaughter): Okay, now what you're going to do. Can you see this? When you see the C, you're going to play a C. So go ahead and play practice number one on page 18. And don't look at your fingers because they're in position. They're in position. And you're going to look here. Got it? Okay.\nSpeaker B (grandmother): Is that middle C?",
+    "target": "Speaker A (granddaughter) (Target): Yes. Oh, C. Don't look at your fingers, grandma. See? And then number two, finger three, four, five. Five. Five. Okay. And then now let's move to practice number two twice. See?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandmother): Is that middle C?\nSpeaker B (granddaughter): Yes. Oh, C. Don't look at your fingers, grandma. See? And then number two, finger three, four, five. Five. Five. Okay. And then now let's move to practice number two twice. See?",
+    "target": "Speaker A (grandmother) (Target): What's two?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (granddaughter): Yes. Oh, C. Don't look at your fingers, grandma. See? And then number two, finger three, four, five. Five. Five. Okay. And then now let's move to practice number two twice. See?\nSpeaker B (grandmother): What's two?",
+    "target": "Speaker A (granddaughter) (Target): Your second finger. Oh, three, four, five. Right. Okay. So these are your fingers, except for C is your. Is your number one finger. So we don't have a number one there. We just have a C. Got it. So this will be one of your practice pages for this week.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandmother): What's two?\nSpeaker B (granddaughter): Your second finger. Oh, three, four, five. Right. Okay. So these are your fingers, except for C is your. Is your number one finger. So we don't have a number one there. We just have a C. Got it. So this will be one of your practice pages for this week.",
+    "target": "Speaker A (grandmother) (Target): Can I practice?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (granddaughter): Your second finger. Oh, three, four, five. Right. Okay. So these are your fingers, except for C is your. Is your number one finger. So we don't have a number one there. We just have a C. Got it. So this will be one of your practice pages for this week.\nSpeaker B (grandmother): Can I practice?",
+    "target": "Speaker A (granddaughter) (Target): Yes. I'm going to leave the keyboard. Here you are. Oh. Have fun. And I'm going to leave the book here, and I'll give you assignments.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandmother): Can I practice?\nSpeaker B (granddaughter): Yes. I'm going to leave the keyboard. Here you are. Oh. Have fun. And I'm going to leave the book here, and I'll give you assignments.",
+    "target": "Speaker A (grandmother) (Target): Oh, okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (granddaughter): Yes. I'm going to leave the keyboard. Here you are. Oh. Have fun. And I'm going to leave the book here, and I'll give you assignments.\nSpeaker B (grandmother): Oh, okay.",
+    "target": "Speaker A (granddaughter) (Target): Okay. So I don't have a pen with me, but I'm going to mark this page where you're going to practice. And you have to keep your eyes on the paper and not on your hands. Right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandmother): Oh, okay.\nSpeaker B (granddaughter): Okay. So I don't have a pen with me, but I'm going to mark this page where you're going to practice. And you have to keep your eyes on the paper and not on your hands. Right.",
+    "target": "Speaker A (grandmother) (Target): You have to get that feeling. Because it's hard to get that feeling.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (granddaughter): Okay. So I don't have a pen with me, but I'm going to mark this page where you're going to practice. And you have to keep your eyes on the paper and not on your hands. Right.\nSpeaker B (grandmother): You have to get that feeling. Because it's hard to get that feeling.",
+    "target": "Speaker A (granddaughter) (Target): When you're not used to it. Yeah. Is this seat okay for you? It's high enough?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandmother): You have to get that feeling. Because it's hard to get that feeling.\nSpeaker B (granddaughter): When you're not used to it. Yeah. Is this seat okay for you? It's high enough?",
+    "target": "Speaker A (grandmother) (Target): Oh, yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (granddaughter): When you're not used to it. Yeah. Is this seat okay for you? It's high enough?\nSpeaker B (grandmother): Oh, yeah.",
+    "target": "Speaker A (granddaughter) (Target): Okay. So there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. And that's going to be the end of our lesson. But let's go through it right now. Up here, it says, eyes on music. Very important rule. So just so you keep that in mind while you're playing these. So go ahead and start here again with C2, 3, 4. Okay. Right. It feels a little awkward right now, but it'll feel smoother as you practice each day. Just go through it a couple times each day. Okay. Okay. Our last page for today is page 20.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandmother): Oh, yeah.\nSpeaker B (granddaughter): Okay. So there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. And that's going to be the end of our lesson. But let's go through it right now. Up here, it says, eyes on music. Very important rule. So just so you keep that in mind while you're playing these. So go ahead and start here again with C2, 3, 4. Okay. Right. It feels a little awkward right now, but it'll feel smoother as you practice each day. Just go through it a couple times each day. Okay. Okay. Our last page for today is page 20.",
+    "target": "Speaker A (grandmother) (Target): It's a little longer, and you start with three. I have to figure out my fingers there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (granddaughter): Okay. So there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. And that's going to be the end of our lesson. But let's go through it right now. Up here, it says, eyes on music. Very important rule. So just so you keep that in mind while you're playing these. So go ahead and start here again with C2, 3, 4. Okay. Right. It feels a little awkward right now, but it'll feel smoother as you practice each day. Just go through it a couple times each day. Okay. Okay. Our last page for today is page 20.\nSpeaker B (grandmother): It's a little longer, and you start with three. I have to figure out my fingers there.",
+    "target": "Speaker A (granddaughter) (Target): Three.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandmother): It's a little longer, and you start with three. I have to figure out my fingers there.\nSpeaker B (granddaughter): Three.",
+    "target": "Speaker A (grandmother) (Target): Well, three. Okay, I. I messed up. I'm going to start over.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker B (granddaughter): Three.\nSpeaker A (grandmother): Well, three. Okay, I. I messed up. I'm going to start over.",
+    "target": "Speaker A (grandmother) (Target): Can I?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker B (grandmother): Well, three. Okay, I. I messed up. I'm going to start over.\nSpeaker B (grandmother): Can I?",
+    "target": "Speaker A (granddaughter) (Target): Yes, you can. 3. It's hard for me to figure out. Right. Second line, C.5. It's easy to know where 5 is, isn't it? Yeah. Okay, good. Last line. I have to count my fingers at first. You. At first? Yeah, at first. It takes a lot of thinking.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandmother): Can I?\nSpeaker B (granddaughter): Yes, you can. 3. It's hard for me to figure out. Right. Second line, C.5. It's easy to know where 5 is, isn't it? Yeah. Okay, good. Last line. I have to count my fingers at first. You. At first? Yeah, at first. It takes a lot of thinking.",
+    "target": "Speaker A (grandmother) (Target): Figure out which finger is numbered?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (granddaughter): Yes, you can. 3. It's hard for me to figure out. Right. Second line, C.5. It's easy to know where 5 is, isn't it? Yeah. Okay, good. Last line. I have to count my fingers at first. You. At first? Yeah, at first. It takes a lot of thinking.\nSpeaker B (grandmother): Figure out which finger is numbered?",
+    "target": "Speaker A (granddaughter) (Target): Right. Your brain has to know which finger to move without looking at it. Yeah, you do. Okay, so when. After you've practiced it throughout the week, it should be. It should sound a little smoother. Like this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandmother): Figure out which finger is numbered?\nSpeaker B (granddaughter): Right. Your brain has to know which finger to move without looking at it. Yeah, you do. Okay, so when. After you've practiced it throughout the week, it should be. It should sound a little smoother. Like this.",
+    "target": "Speaker A (grandmother) (Target): I'll show you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (granddaughter): Right. Your brain has to know which finger to move without looking at it. Yeah, you do. Okay, so when. After you've practiced it throughout the week, it should be. It should sound a little smoother. Like this.\nSpeaker B (grandmother): I'll show you.",
+    "target": "Speaker A (granddaughter) (Target): I'll play page 23C. 3C. 3C. The next line, C. Hear how smooth that sounds? It doesn't have to be fast. It could stay slow. It's not very.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandmother): I'll show you.\nSpeaker B (granddaughter): I'll play page 23C. 3C. 3C. The next line, C. Hear how smooth that sounds? It doesn't have to be fast. It could stay slow. It's not very.",
+    "target": "Speaker A (grandmother) (Target): You're used to your fingers being numbered. You know which number? Yes, that's. What could. I have to stop and think which is three and which is four. I know. Until I get.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (granddaughter): I'll play page 23C. 3C. 3C. The next line, C. Hear how smooth that sounds? It doesn't have to be fast. It could stay slow. It's not very.\nSpeaker B (grandmother): You're used to your fingers being numbered. You know which number? Yes, that's. What could. I have to stop and think which is three and which is four. I know. Until I get.",
+    "target": "Speaker A (granddaughter) (Target): But after a while, you won't have to think about it anymore. It'll just be natural. It isn't very pretty yet. The song isn't very pretty, but it still helps you get going. We're gonna get into pretty songs later. After you move your fingers a little bit better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandmother): You're used to your fingers being numbered. You know which number? Yes, that's. What could. I have to stop and think which is three and which is four. I know. Until I get.\nSpeaker B (granddaughter): But after a while, you won't have to think about it anymore. It'll just be natural. It isn't very pretty yet. The song isn't very pretty, but it still helps you get going. We're gonna get into pretty songs later. After you move your fingers a little bit better.",
+    "target": "Speaker A (grandmother) (Target): You have to learn your fingers. You know where they are. I have to stop. That's what I can do. I have to stop and think. I can't be smooth and go ahead and do it all at once because I'm thinking, where is that third finger?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (granddaughter): But after a while, you won't have to think about it anymore. It'll just be natural. It isn't very pretty yet. The song isn't very pretty, but it still helps you get going. We're gonna get into pretty songs later. After you move your fingers a little bit better.\nSpeaker B (grandmother): You have to learn your fingers. You know where they are. I have to stop. That's what I can do. I have to stop and think. I can't be smooth and go ahead and do it all at once because I'm thinking, where is that third finger?",
+    "target": "Speaker A (granddaughter) (Target): Right. Right. At first it's all thinking and rough, and then after the thinking goes away. Then it gets smooth. Yes. Okay, so let's say goodbye. This is the end of the first goodbye. The end of the first lesson. See you next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandmother): You have to learn your fingers. You know where they are. I have to stop. That's what I can do. I have to stop and think. I can't be smooth and go ahead and do it all at once because I'm thinking, where is that third finger?\nSpeaker B (granddaughter): Right. Right. At first it's all thinking and rough, and then after the thinking goes away. Then it gets smooth. Yes. Okay, so let's say goodbye. This is the end of the first goodbye. The end of the first lesson. See you next time.",
+    "target": "Speaker A (grandmother) (Target): See you next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

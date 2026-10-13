@@ -1,0 +1,139 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 32,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): welcome to outside the barn. and today we're going to be working on my grandpa's 1950 gmc. and it's actually in pretty good shape. it's painted. and here. yeah, it should start right up, too. and on the inside, it's basically new. got the wiring mess. and we're gonna change the seats out, pull them out and put new carpet in it. and maybe change the radio. i have no idea. it's got the wood bed and honestly, a very solid car. and hopefully we can. oh, yeah. here. there's the new seats. you got these from lmc? yeah, yeah. so this would be nice. they sit up very high.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): welcome to outside the barn. and today we're going to be working on my grandpa's 1950 gmc. and it's actually in pretty good shape. it's painted. and here. yeah, it should start right up, too. and on the inside, it's basically new. got the wiring mess. and we're gonna change the seats out, pull them out and put new carpet in it. and maybe change the radio. i have no idea. it's got the wood bed and honestly, a very solid car. and hopefully we can. oh, yeah. here. there's the new seats. you got these from lmc? yeah, yeah. so this would be nice. they sit up very high.",
+            "target": "Target (grandfather): they're just the same height as the original seats here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): welcome to outside the barn. and today we're going to be working on my grandpa's 1950 gmc. and it's actually in pretty good shape. it's painted. and here. yeah, it should start right up, too. and on the inside, it's basically new. got the wiring mess. and we're gonna change the seats out, pull them out and put new carpet in it. and maybe change the radio. i have no idea. it's got the wood bed and honestly, a very solid car. and hopefully we can. oh, yeah. here. there's the new seats. you got these from lmc? yeah, yeah. so this would be nice. they sit up very high. | Speaker B (grandfather): they're just the same height as the original seats here.",
+            "target": "Target (grandson): oh.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): they're just the same height as the original seats here. | Speaker B (grandson): oh.",
+            "target": "Target (grandfather): but they're. they should give me a lot more room at least. you're setting up like you're right on the steering wheel.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): oh. | Speaker B (grandfather): but they're. they should give me a lot more room at least. you're setting up like you're right on the steering wheel.",
+            "target": "Target (grandson): yeah. and we put a floor shift recently in it that wasn't on video, but that was pretty cool. hopefully we can get this thing fixed up for you and that'll be fun. i got them already a bolted. before we put the carpet in, we're going to put some insulator in, glue that stuff on there with some spray glue. and my grandpa wanted to make a couch. so we put the frame here and we'll just put the stuff these pieces on. then we'll have them a couch. get this all out. so you want to put carpet in it too? yeah. his idea was just to lay the mat down and then we could just cut around it because this insulator is obviously not the same as the truck. so it's cutting there. we got that. all that cut out. pretty dang good. re gluing it down.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): but they're. they should give me a lot more room at least. you're setting up like you're right on the steering wheel. | Speaker B (grandson): yeah. and we put a floor shift recently in it that wasn't on video, but that was pretty cool. hopefully we can get this thing fixed up for you and that'll be fun. i got them already a bolted. before we put the carpet in, we're going to put some insulator in, glue that stuff on there with some spray glue. and my grandpa wanted to make a couch. so we put the frame here and we'll just put the stuff these pieces on. then we'll have them a couch. get this all out. so you want to put carpet in it too? yeah. his idea was just to lay the mat down and then we could just cut around it because this insulator is obviously not the same as the truck. so it's cutting there. we got that. all that cut out. pretty dang good. re gluing it down.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): yeah. and we put a floor shift recently in it that wasn't on video, but that was pretty cool. hopefully we can get this thing fixed up for you and that'll be fun. i got them already a bolted. before we put the carpet in, we're going to put some insulator in, glue that stuff on there with some spray glue. and my grandpa wanted to make a couch. so we put the frame here and we'll just put the stuff these pieces on. then we'll have them a couch. get this all out. so you want to put carpet in it too? yeah. his idea was just to lay the mat down and then we could just cut around it because this insulator is obviously not the same as the truck. so it's cutting there. we got that. all that cut out. pretty dang good. re gluing it down. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): oh, there's a. let's rotate back there. oh.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): oh, there's a. let's rotate back there. oh.",
+            "target": "Target (grandfather): i wonder where i lost that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): oh, there's a. let's rotate back there. oh. | Speaker B (grandfather): i wonder where i lost that.",
+            "target": "Target (grandson): that's perfect, though. that was a smart idea. we got all this here, so that's nice. and we're gonna put an extra little layer here just for extra insulation. putting some glue down. it's stinky. i did. i missed.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): i wonder where i lost that. | Speaker B (grandson): that's perfect, though. that was a smart idea. we got all this here, so that's nice. and we're gonna put an extra little layer here just for extra insulation. putting some glue down. it's stinky. i did. i missed.",
+            "target": "Target (grandfather): okay. they're on the bottom.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): that's perfect, though. that was a smart idea. we got all this here, so that's nice. and we're gonna put an extra little layer here just for extra insulation. putting some glue down. it's stinky. i did. i missed. | Speaker B (grandfather): okay. they're on the bottom.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): okay. they're on the bottom. | Speaker B (grandson): okay.",
+            "target": "Target (grandfather): that is the way it tastes. it goes right now.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandfather): that is the way it tastes. it goes right now.",
+            "target": "Target (grandson): yeah, it is good stuff. and get the new seats in here. they actually look really nice. nice new leather lmc seats. got the other one in. can't see anything, but i think we need longer bolts. yeah. at least on this one. see them immediately. this is nice. okay. oh, shoot. i got them all put in there. test them out.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): that is the way it tastes. it goes right now. | Speaker B (grandson): yeah, it is good stuff. and get the new seats in here. they actually look really nice. nice new leather lmc seats. got the other one in. can't see anything, but i think we need longer bolts. yeah. at least on this one. see them immediately. this is nice. okay. oh, shoot. i got them all put in there. test them out.",
+            "target": "Target (grandfather): okay. he's got adjusting here. that's the back.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): yeah, it is good stuff. and get the new seats in here. they actually look really nice. nice new leather lmc seats. got the other one in. can't see anything, but i think we need longer bolts. yeah. at least on this one. see them immediately. this is nice. okay. oh, shoot. i got them all put in there. test them out. | Speaker B (grandfather): okay. he's got adjusting here. that's the back.",
+            "target": "Target (grandson): oh, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): okay. he's got adjusting here. that's the back. | Speaker B (grandson): oh, yeah.",
+            "target": "Target (grandfather): just got a thing here to adjust slides.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): oh, yeah. | Speaker B (grandfather): just got a thing here to adjust slides.",
+            "target": "Target (grandson): oh, that's cool. perfect. oh, yeah, yeah, that's. is it more comfy than the buck seat? bucket seat? yes. we were waiting for parts for the carpet. we have to do that later. and he got this light at a swap meet for $5, so. looks pretty well installed. kit. yeah. that's cool. he's got the lights already hooked up here. they're nice. looks like fog lights. wiring up the lights and like. like two go to the first light to go to the second light. and then these here go to the battery, and that's it. and then we got the switch down there which goes in the cab. it's honestly very simple. well, i got this on here. we got hooked up to the battery, the ground here. i'm gonna hook the power up. we gotta hook it up to these lights first. and i think that's it. got all these hooked up. they just go straight to the lights. and then we'll put the toggle switch in the cab. got these hooked up. we have to mount the relay somewhere. and i think that calls for self tappers right there. and then we'll wire that nicely. hook those up, hook the toggle switch up, and that'll be good.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): just got a thing here to adjust slides. | Speaker B (grandson): oh, that's cool. perfect. oh, yeah, yeah, that's. is it more comfy than the buck seat? bucket seat? yes. we were waiting for parts for the carpet. we have to do that later. and he got this light at a swap meet for $5, so. looks pretty well installed. kit. yeah. that's cool. he's got the lights already hooked up here. they're nice. looks like fog lights. wiring up the lights and like. like two go to the first light to go to the second light. and then these here go to the battery, and that's it. and then we got the switch down there which goes in the cab. it's honestly very simple. well, i got this on here. we got hooked up to the battery, the ground here. i'm gonna hook the power up. we gotta hook it up to these lights first. and i think that's it. got all these hooked up. they just go straight to the lights. and then we'll put the toggle switch in the cab. got these hooked up. we have to mount the relay somewhere. and i think that calls for self tappers right there. and then we'll wire that nicely. hook those up, hook the toggle switch up, and that'll be good.",
+            "target": "Target (grandfather): put it with this other bird's nest here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): oh, that's cool. perfect. oh, yeah, yeah, that's. is it more comfy than the buck seat? bucket seat? yes. we were waiting for parts for the carpet. we have to do that later. and he got this light at a swap meet for $5, so. looks pretty well installed. kit. yeah. that's cool. he's got the lights already hooked up here. they're nice. looks like fog lights. wiring up the lights and like. like two go to the first light to go to the second light. and then these here go to the battery, and that's it. and then we got the switch down there which goes in the cab. it's honestly very simple. well, i got this on here. we got hooked up to the battery, the ground here. i'm gonna hook the power up. we gotta hook it up to these lights first. and i think that's it. got all these hooked up. they just go straight to the lights. and then we'll put the toggle switch in the cab. got these hooked up. we have to mount the relay somewhere. and i think that calls for self tappers right there. and then we'll wire that nicely. hook those up, hook the toggle switch up, and that'll be good. | Speaker B (grandfather): put it with this other bird's nest here.",
+            "target": "Target (grandson): oh, come on. it's so close too. there. cool. all right. nice professional wiring job. i got him wired up here. that was a barren hit. we're gonna cut here, cut there, and then wire them straight up. and these, they don't have a ground. they ground to this. so i guess we just don't hook up the ground. let's hook up the battery and see if the lights work. all right. turn them on. anything. ah, yes. nice. yeah. cool. all right, we'll button those up and then we'll be done. and i think that's it. we finally got this thing looking better. that should be the end of the video. so remember to like and subscribe and hit the notification bell and see you next time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        }
+    ]
+}

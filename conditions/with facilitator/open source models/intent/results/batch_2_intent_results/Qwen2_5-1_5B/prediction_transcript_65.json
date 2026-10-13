@@ -1,0 +1,121 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 65,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "chat"
+    },
+    {
+      "text": "Oh dear, what happened?",
+      "golden": "asking for opinions",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, nothing bad happened, just a lot of assignments to finish. But I'm managing!",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I think it's in the sewing basket. Let me help you find it.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Hello there, I hope you're doing well. Do you need any help with the sewing?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thank you for offering to help. I think we can manage, but it's nice to know you're here.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm doing well, just busy with schoolwork. I appreciate the offer though!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh dear, what's wrong? Can I help with something?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, nothing's wrong, Grandma. Just a bit overwhelmed with all the assignments. Thanks for asking!",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you think so! It's always nice to see your work appreciated.",
+      "golden": "acknowledge",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "Thanks, Grandma! It really means a lot to me. I'm trying my best to keep up with everything.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see! Thank you for explaining that to me. I'm learning new things every day.",
+      "golden": "acknowledge",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "I'm glad you're learning too, Grandma! It's fun to share things with you.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yes, it looks perfectly straight to me. You've done a wonderful job!",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you, Grandma! I'm really happy you think so. It makes all the effort worth it.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm so proud of you for paying attention to detail. It really shows in your work.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad you're happy with it! Your hard work is paying off.",
+      "golden": "praise",
+      "predicted": "apologise",
+      "raw": "apologize"
+    }
+  ]
+}

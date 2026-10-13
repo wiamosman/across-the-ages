@@ -1,0 +1,199 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 40,
+    "utterances": [
+        {
+            "text": "A little slower, a little slower. I'd be driving slower too right through here because this is nothing but nasty. Go over that way. Good job. Watch coming up here, there's some bumps and holes in the road. Slower, because this is nastier here to get through. And when you go through that thing, real slow, like—",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Barely move.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Same thing when you're going to drop off or go way over on that. If you just hit the grass a bit, it won't hurt. And then going through that water up there.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "So?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Just like you went through that. You're doing great. Try and stay that inside. There's a huge one right here. Yeah, and there's a huge one right here.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I think I missed it.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Found it. Okay, good. Slow, slow, slow. You're good, you're good. Slow. Doing great, Kelvin. Good job. For practice, when we get up to the stop sign, use your turn signal.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I will.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "We forgot to do that last time. Turn signal. There you go. Wait, what is that beeping? The screen is flashing red and making a racket. What did you break?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Papa, I didn't break anything. It’s just the blind-spot assist sensor because of that bush. Just tap the 'OK' on the steering wheel to clear the notification.",
+            "golden": "statement-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Clear the what? There’s too many damn gadgets in here, I can't even see the speedometer with all these pop-ups. Just drive the car, don't worry about the computer! Okay, turn here. Signal, turn signal.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "It's on.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, is it? Click in here, click. I'm pretty sure it's not down here. You may get a chance to turn around here, do a 3-point turn. You okay?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I've never done a 3-point turn before.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, it's easy. You'll do just fine. You backed out of that driveway that time, first time.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "That's true. Careful, careful. These are nasty here. Backed out the driveway.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You backed out of the driveway.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I forgot about that. That's about like a 3-point turn. Well, I've officially been off-roading in a—",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You calling this off-roading?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What we're going to do instead of go to the end, pull up here until I tell you. I know it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "There was no way to avoid that. Which way?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Okay, head that way. No, no, that way, that way, that way. Okay, now stop. You're going to back into that driveway right there. You see it?",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh! yes,",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can do this. You can do this. Okay, reverse. All right, back into the driveway. Be careful of that post that's there. You can see it. Go ahead, you got your wheel turned a bit. You're good. Okay, turn it, turn it, turn it, turn it. Okay, watch what you're doing and watch that side too. Now, you don't want to hit that fence, so you're doing great. 'Til right now, stop. Pull forward and turn your wheel that way as you pull forward. But try and be moving when you turn your wheel, 'cause that'll wear your tires out on that. Easy. Keep going. Good job, Kelvin. Nice. Thank you. Nice. Just watch this guy. Oh, he's getting out of our way. I bet there's a kid driving, right? That shouldn't be driving. Way over that way. Don't matter.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "No, it's grass.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, hit the grass on a deal like that. It doesn't matter. Okay, you're doing great. Very good. You got her. He's going to back out of there too. He's turning around, I think.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Where do I go?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Go right. Okay, I'm gonna stop this thing.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Go right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        }
+    ]
+}

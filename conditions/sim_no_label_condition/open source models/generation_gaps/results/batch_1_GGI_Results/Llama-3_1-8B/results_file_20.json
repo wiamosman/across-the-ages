@@ -1,0 +1,489 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "file_index": 20,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): oh, we are.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): oh, we are.",
+            "target": "Target (granddaughter): well, i am.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): oh, we are. | Speaker B (granddaughter): well, i am.",
+            "target": "Target (grandmother): oh, you look at it",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): well, i am. | Speaker B (grandmother): oh, you look at it",
+            "target": "Target (granddaughter): i'll say this is my grandma.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): oh, you look at it | Speaker B (granddaughter): i'll say this is my grandma.",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): i'll say this is my grandma. | Speaker B (grandmother): yeah.",
+            "target": "Target (granddaughter): okay, you gonna start? okay, everybody, this is. this is my grandma. and she has agreed to start learning how to play the piano. she's never played before in her life. and how old are you, grandma? if you want to say",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (granddaughter): okay, you gonna start? okay, everybody, this is. this is my grandma. and she has agreed to start learning how to play the piano. she's never played before in her life. and how old are you, grandma? if you want to say",
+            "target": "Target (grandmother): 88.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): okay, you gonna start? okay, everybody, this is. this is my grandma. and she has agreed to start learning how to play the piano. she's never played before in her life. and how old are you, grandma? if you want to say | Speaker B (grandmother): 88.",
+            "target": "Target (granddaughter): she's 88. and we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. so we're going to go ahead and get started.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): 88. | Speaker B (granddaughter): she's 88. and we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. so we're going to go ahead and get started.",
+            "target": "Target (granddaughter): do you want to say anything, grandma?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): she's 88. and we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. so we're going to go ahead and get started. | Speaker B (granddaughter): do you want to say anything, grandma?",
+            "target": "Target (grandmother): no. hhhh",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): do you want to say anything, grandma? | Speaker B (grandmother): no. hhhh",
+            "target": "Target (granddaughter): no? hhh , okay. okay. okay. so have you seen my books before? okay, this is my first book. and book one. and it starts out with just explaining about the piano. i'm just going to find a page here where it talks about the groups of two and three black keys. the piano is divided into white keys and black keys. that's obvious. but some people don't notice that the black keys are in groups of twos and threes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): no. hhhh | Speaker B (granddaughter): no? hhh , okay. okay. okay. so have you seen my books before? okay, this is my first book. and book one. and it starts out with just explaining about the piano. i'm just going to find a page here where it talks about the groups of two and three black keys. the piano is divided into white keys and black keys. that's obvious. but some people don't notice that the black keys are in groups of twos and threes.",
+            "target": "Target (grandmother): yeah, i really didn't notice until you said that. that they're in threes and twos.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): no? hhh , okay. okay. okay. so have you seen my books before? okay, this is my first book. and book one. and it starts out with just explaining about the piano. i'm just going to find a page here where it talks about the groups of two and three black keys. the piano is divided into white keys and black keys. that's obvious. but some people don't notice that the black keys are in groups of twos and threes. | Speaker B (grandmother): yeah, i really didn't notice until you said that. that they're in threes and twos.",
+            "target": "Target (granddaughter): really? you didn't notice?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): yeah, i really didn't notice until you said that. that they're in threes and twos. | Speaker B (granddaughter): really? you didn't notice?",
+            "target": "Target (grandmother): well, i hadn't really looked at it, but until you said it, i hadn't noticed.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): really? you didn't notice? | Speaker B (grandmother): well, i hadn't really looked at it, but until you said it, i hadn't noticed.",
+            "target": "Target (granddaughter): okay, so that's how you're going to find your white keys. by finding a group of two or a group of three black keys. so now when you look at the piano, it's not so overwhelming because you know that i'm going to tell you that next to every group of two black keys is a white key called c. they're all cs. they're all cs. next to all the groups of two black keys.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): well, i hadn't really looked at it, but until you said it, i hadn't noticed. | Speaker B (granddaughter): okay, so that's how you're going to find your white keys. by finding a group of two or a group of three black keys. so now when you look at the piano, it's not so overwhelming because you know that i'm going to tell you that next to every group of two black keys is a white key called c. they're all cs. they're all cs. next to all the groups of two black keys.",
+            "target": "Target (grandmother): even on this side?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): okay, so that's how you're going to find your white keys. by finding a group of two or a group of three black keys. so now when you look at the piano, it's not so overwhelming because you know that i'm going to tell you that next to every group of two black keys is a white key called c. they're all cs. they're all cs. next to all the groups of two black keys. | Speaker B (grandmother): even on this side?",
+            "target": "Target (granddaughter): no, no, just on the left. just on the left. so on the left of all the groups of two black keys is a c. go ahead. go ahead and find them.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): even on this side? | Speaker B (granddaughter): no, no, just on the left. just on the left. so on the left of all the groups of two black keys is a c. go ahead. go ahead and find them.",
+            "target": "Target (grandmother): well, they're starting right here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): no, no, just on the left. just on the left. so on the left of all the groups of two black keys is a c. go ahead. go ahead and find them. | Speaker B (grandmother): well, they're starting right here.",
+            "target": "Target (granddaughter): the groups of two only. not. not next. not the groups of three.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): well, they're starting right here. | Speaker B (granddaughter): the groups of two only. not. not next. not the groups of three.",
+            "target": "Target (grandmother): i messed up on that one.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): the groups of two only. not. not next. not the groups of three. | Speaker B (grandmother): i messed up on that one.",
+            "target": "Target (granddaughter): okay, good. we should be looking at the camera, though.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): i messed up on that one. | Speaker B (granddaughter): okay, good. we should be looking at the camera, though.",
+            "target": "Target (grandmother): how can you look at the camera when you're looking at the keys?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): okay, good. we should be looking at the camera, though. | Speaker B (grandmother): how can you look at the camera when you're looking at the keys?",
+            "target": "Target (granddaughter): i don't know.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): how can you look at the camera when you're looking at the keys? | Speaker B (granddaughter): i don't know.",
+            "target": "Target (grandmother): you can.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (granddaughter): i don't know. | Speaker B (grandmother): you can.",
+            "target": "Target (granddaughter): okay, well, that was okay. that was good, grandma.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): you can. | Speaker B (granddaughter): okay, well, that was okay. that was good, grandma.",
+            "target": "Target (grandmother): now, was that pictured? did you picture that? did you take a picture of that?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (granddaughter): okay, well, that was okay. that was good, grandma. | Speaker B (grandmother): now, was that pictured? did you picture that? did you take a picture of that?",
+            "target": "Target (granddaughter): yes, we're on camera.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): now, was that pictured? did you picture that? did you take a picture of that? | Speaker B (granddaughter): yes, we're on camera.",
+            "target": "Target (grandmother): oh, my goodness. you may want to throw the first ones away.",
+            "gold_label": "digital disparity",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): yes, we're on camera. | Speaker B (grandmother): oh, my goodness. you may want to throw the first ones away.",
+            "target": "Target (granddaughter): maybe i'll look at them. okay. so we. we went through finding c already. next to the two black keys.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): oh, my goodness. you may want to throw the first ones away. | Speaker B (granddaughter): maybe i'll look at them. okay. so we. we went through finding c already. next to the two black keys.",
+            "target": "Target (grandmother): next to the two black keys.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): maybe i'll look at them. okay. so we. we went through finding c already. next to the two black keys. | Speaker B (grandmother): next to the two black keys.",
+            "target": "Target (granddaughter): right? middle c. you've probably heard of. heard that. you've heard of middle c. so it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): next to the two black keys. | Speaker B (granddaughter): right? middle c. you've probably heard of. heard that. you've heard of middle c. so it.",
+            "target": "Target (grandmother): would be between them. no, that's the middle.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (granddaughter): right? middle c. you've probably heard of. heard that. you've heard of middle c. so it. | Speaker B (grandmother): would be between them. no, that's the middle.",
+            "target": "Target (granddaughter): no, middle c is the c closest to the middle of the piano. so it's still on the left of the two black keys.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): would be between them. no, that's the middle. | Speaker B (granddaughter): no, middle c is the c closest to the middle of the piano. so it's still on the left of the two black keys.",
+            "target": "Target (grandmother): oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (granddaughter): no, middle c is the c closest to the middle of the piano. so it's still on the left of the two black keys. | Speaker B (grandmother): oh, okay.",
+            "target": "Target (granddaughter): but middle c is the c closest to the middle. can you. can you see our face? okay. hopefully we're loud enough for the cameras picking us up. okay, so middle c is the one closest to the middle. okay, so you have several cs, you have several cs, but the middle one is closest to you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): oh, okay. | Speaker B (granddaughter): but middle c is the c closest to the middle. can you. can you see our face? okay. hopefully we're loud enough for the cameras picking us up. okay, so middle c is the one closest to the middle. okay, so you have several cs, you have several cs, but the middle one is closest to you.",
+            "target": "Target (grandmother): okay, well, is there two of these? just one.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (granddaughter): but middle c is the c closest to the middle. can you. can you see our face? okay. hopefully we're loud enough for the cameras picking us up. okay, so middle c is the one closest to the middle. okay, so you have several cs, you have several cs, but the middle one is closest to you. | Speaker B (grandmother): okay, well, is there two of these? just one.",
+            "target": "Target (granddaughter): there's one middle c. just one middle c. right. there's several cs.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): okay, well, is there two of these? just one. | Speaker B (granddaughter): there's one middle c. just one middle c. right. there's several cs.",
+            "target": "Target (grandmother): yeah, i just found them after the two black ones.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (granddaughter): there's one middle c. just one middle c. right. there's several cs. | Speaker B (grandmother): yeah, i just found them after the two black ones.",
+            "target": "Target (granddaughter): right, right. jay is over there dancing.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandmother): yeah, i just found them after the two black ones. | Speaker B (granddaughter): right, right. jay is over there dancing.",
+            "target": "Target (grandmother): and then. and then the middle c is here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (granddaughter): right, right. jay is over there dancing. | Speaker B (grandmother): and then. and then the middle c is here.",
+            "target": "Target (granddaughter): right. okay. and that's where you're going to start playing on middle c with your right hand. oh, my right hand. with your right hand. so look at this page. it says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. right. so if you put your thumb on c, all of your other fingers will naturally fall on a key. don't skip any keys. don't skip any keys. right. so that's middle c position. all that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): and then. and then the middle c is here. | Speaker B (granddaughter): right. okay. and that's where you're going to start playing on middle c with your right hand. oh, my right hand. with your right hand. so look at this page. it says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. right. so if you put your thumb on c, all of your other fingers will naturally fall on a key. don't skip any keys. don't skip any keys. right. so that's middle c position. all that.",
+            "target": "Target (grandmother): middle c position.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (granddaughter): right. okay. and that's where you're going to start playing on middle c with your right hand. oh, my right hand. with your right hand. so look at this page. it says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. right. so if you put your thumb on c, all of your other fingers will naturally fall on a key. don't skip any keys. don't skip any keys. right. so that's middle c position. all that. | Speaker B (grandmother): middle c position.",
+            "target": "Target (granddaughter): okay, now what you're going to do. can you see this? when you see the c, you're going to play a c. so go ahead and play practice number one on page 18. and don't look at your fingers because they're in position. they're in position. and you're going to look here. got it? okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): middle c position. | Speaker B (granddaughter): okay, now what you're going to do. can you see this? when you see the c, you're going to play a c. so go ahead and play practice number one on page 18. and don't look at your fingers because they're in position. they're in position. and you're going to look here. got it? okay.",
+            "target": "Target (grandmother): is that middle c?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (granddaughter): okay, now what you're going to do. can you see this? when you see the c, you're going to play a c. so go ahead and play practice number one on page 18. and don't look at your fingers because they're in position. they're in position. and you're going to look here. got it? okay. | Speaker B (grandmother): is that middle c?",
+            "target": "Target (granddaughter): yes. oh, c. don't look at your fingers, grandma. see? and then number two, finger three, four, five. five. five. okay. and then now let's move to practice number two twice. see?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): is that middle c? | Speaker B (granddaughter): yes. oh, c. don't look at your fingers, grandma. see? and then number two, finger three, four, five. five. five. okay. and then now let's move to practice number two twice. see?",
+            "target": "Target (grandmother): what's two?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (granddaughter): yes. oh, c. don't look at your fingers, grandma. see? and then number two, finger three, four, five. five. five. okay. and then now let's move to practice number two twice. see? | Speaker B (grandmother): what's two?",
+            "target": "Target (granddaughter): your second finger. oh, three, four, five. right. okay. so these are your fingers, except for c is your. is your number one finger. so we don't have a number one there. we just have a c. got it. so this will be one of your practice pages for this week.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): what's two? | Speaker B (granddaughter): your second finger. oh, three, four, five. right. okay. so these are your fingers, except for c is your. is your number one finger. so we don't have a number one there. we just have a c. got it. so this will be one of your practice pages for this week.",
+            "target": "Target (grandmother): can i practice?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): your second finger. oh, three, four, five. right. okay. so these are your fingers, except for c is your. is your number one finger. so we don't have a number one there. we just have a c. got it. so this will be one of your practice pages for this week. | Speaker B (grandmother): can i practice?",
+            "target": "Target (granddaughter): yes. i'm going to leave the keyboard. here you are. oh. have fun. and i'm going to leave the book here, and i'll give you assignments.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): can i practice? | Speaker B (granddaughter): yes. i'm going to leave the keyboard. here you are. oh. have fun. and i'm going to leave the book here, and i'll give you assignments.",
+            "target": "Target (grandmother): oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (granddaughter): yes. i'm going to leave the keyboard. here you are. oh. have fun. and i'm going to leave the book here, and i'll give you assignments. | Speaker B (grandmother): oh, okay.",
+            "target": "Target (granddaughter): okay. so i don't have a pen with me, but i'm going to mark this page where you're going to practice. and you have to keep your eyes on the paper and not on your hands. right.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): oh, okay. | Speaker B (granddaughter): okay. so i don't have a pen with me, but i'm going to mark this page where you're going to practice. and you have to keep your eyes on the paper and not on your hands. right.",
+            "target": "Target (grandmother): you have to get that feeling. because it's hard to get that feeling.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): okay. so i don't have a pen with me, but i'm going to mark this page where you're going to practice. and you have to keep your eyes on the paper and not on your hands. right. | Speaker B (grandmother): you have to get that feeling. because it's hard to get that feeling.",
+            "target": "Target (granddaughter): when you're not used to it. yeah. is this seat okay for you? it's high enough?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): you have to get that feeling. because it's hard to get that feeling. | Speaker B (granddaughter): when you're not used to it. yeah. is this seat okay for you? it's high enough?",
+            "target": "Target (grandmother): oh, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): when you're not used to it. yeah. is this seat okay for you? it's high enough? | Speaker B (grandmother): oh, yeah.",
+            "target": "Target (granddaughter): okay. so there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. and that's going to be the end of our lesson. but let's go through it right now. up here, it says, eyes on music. very important rule. so just so you keep that in mind while you're playing these. so go ahead and start here again with c2, 3, 4. okay. right. it feels a little awkward right now, but it'll feel smoother as you practice each day. just go through it a couple times each day. okay. okay. our last page for today is page 20.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): oh, yeah. | Speaker B (granddaughter): okay. so there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. and that's going to be the end of our lesson. but let's go through it right now. up here, it says, eyes on music. very important rule. so just so you keep that in mind while you're playing these. so go ahead and start here again with c2, 3, 4. okay. right. it feels a little awkward right now, but it'll feel smoother as you practice each day. just go through it a couple times each day. okay. okay. our last page for today is page 20.",
+            "target": "Target (grandmother): it's a little longer, and you start with three. i have to figure out my fingers there.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (granddaughter): okay. so there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. and that's going to be the end of our lesson. but let's go through it right now. up here, it says, eyes on music. very important rule. so just so you keep that in mind while you're playing these. so go ahead and start here again with c2, 3, 4. okay. right. it feels a little awkward right now, but it'll feel smoother as you practice each day. just go through it a couple times each day. okay. okay. our last page for today is page 20. | Speaker B (grandmother): it's a little longer, and you start with three. i have to figure out my fingers there.",
+            "target": "Target (granddaughter): three.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): it's a little longer, and you start with three. i have to figure out my fingers there. | Speaker B (granddaughter): three.",
+            "target": "Target (grandmother): well, three. okay, i. i messed up. i'm going to start over.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): three. | Speaker B (grandmother): well, three. okay, i. i messed up. i'm going to start over.",
+            "target": "Target (grandmother): can i?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): well, three. okay, i. i messed up. i'm going to start over. | Speaker B (grandmother): can i?",
+            "target": "Target (granddaughter): yes, you can. 3. it's hard for me to figure out. right. second line, c.5. it's easy to know where 5 is, isn't it? yeah. okay, good. last line. i have to count my fingers at first. you. at first? yeah, at first. it takes a lot of thinking.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): can i? | Speaker B (granddaughter): yes, you can. 3. it's hard for me to figure out. right. second line, c.5. it's easy to know where 5 is, isn't it? yeah. okay, good. last line. i have to count my fingers at first. you. at first? yeah, at first. it takes a lot of thinking.",
+            "target": "Target (grandmother): figure out which finger is numbered?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (granddaughter): yes, you can. 3. it's hard for me to figure out. right. second line, c.5. it's easy to know where 5 is, isn't it? yeah. okay, good. last line. i have to count my fingers at first. you. at first? yeah, at first. it takes a lot of thinking. | Speaker B (grandmother): figure out which finger is numbered?",
+            "target": "Target (granddaughter): right. your brain has to know which finger to move without looking at it. yeah, you do. okay, so when. after you've practiced it throughout the week, it should be. it should sound a little smoother. like this.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandmother): figure out which finger is numbered? | Speaker B (granddaughter): right. your brain has to know which finger to move without looking at it. yeah, you do. okay, so when. after you've practiced it throughout the week, it should be. it should sound a little smoother. like this.",
+            "target": "Target (grandmother): i'll show you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (granddaughter): right. your brain has to know which finger to move without looking at it. yeah, you do. okay, so when. after you've practiced it throughout the week, it should be. it should sound a little smoother. like this. | Speaker B (grandmother): i'll show you.",
+            "target": "Target (granddaughter): i'll play page 23c. 3c. 3c. the next line, c. hear how smooth that sounds? it doesn't have to be fast. it could stay slow. it's not very.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): i'll show you. | Speaker B (granddaughter): i'll play page 23c. 3c. 3c. the next line, c. hear how smooth that sounds? it doesn't have to be fast. it could stay slow. it's not very.",
+            "target": "Target (grandmother): you're used to your fingers being numbered. you know which number? yes, that's. what could. i have to stop and think which is three and which is four. i know. until i get.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (granddaughter): i'll play page 23c. 3c. 3c. the next line, c. hear how smooth that sounds? it doesn't have to be fast. it could stay slow. it's not very. | Speaker B (grandmother): you're used to your fingers being numbered. you know which number? yes, that's. what could. i have to stop and think which is three and which is four. i know. until i get.",
+            "target": "Target (granddaughter): but after a while, you won't have to think about it anymore. it'll just be natural. it isn't very pretty yet. the song isn't very pretty, but it still helps you get going. we're gonna get into pretty songs later. after you move your fingers a little bit better.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandmother): you're used to your fingers being numbered. you know which number? yes, that's. what could. i have to stop and think which is three and which is four. i know. until i get. | Speaker B (granddaughter): but after a while, you won't have to think about it anymore. it'll just be natural. it isn't very pretty yet. the song isn't very pretty, but it still helps you get going. we're gonna get into pretty songs later. after you move your fingers a little bit better.",
+            "target": "Target (grandmother): you have to learn your fingers. you know where they are. i have to stop. that's what i can do. i have to stop and think. i can't be smooth and go ahead and do it all at once because i'm thinking, where is that third finger?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (granddaughter): but after a while, you won't have to think about it anymore. it'll just be natural. it isn't very pretty yet. the song isn't very pretty, but it still helps you get going. we're gonna get into pretty songs later. after you move your fingers a little bit better. | Speaker B (grandmother): you have to learn your fingers. you know where they are. i have to stop. that's what i can do. i have to stop and think. i can't be smooth and go ahead and do it all at once because i'm thinking, where is that third finger?",
+            "target": "Target (granddaughter): right. right. at first it's all thinking and rough, and then after the thinking goes away. then it gets smooth. yes. okay, so let's say goodbye. this is the end of the first goodbye. the end of the first lesson. see you next time.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandmother): you have to learn your fingers. you know where they are. i have to stop. that's what i can do. i have to stop and think. i can't be smooth and go ahead and do it all at once because i'm thinking, where is that third finger? | Speaker B (granddaughter): right. right. at first it's all thinking and rough, and then after the thinking goes away. then it gets smooth. yes. okay, so let's say goodbye. this is the end of the first goodbye. the end of the first lesson. see you next time.",
+            "target": "Target (grandmother): see you next time.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

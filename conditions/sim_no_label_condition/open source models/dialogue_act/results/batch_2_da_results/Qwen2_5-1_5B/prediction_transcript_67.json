@@ -1,0 +1,85 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 67,
+    "utterances": [
+        {
+            "text": "It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "yes i see",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Them spark plugs go out though.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah,",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "this thing went I ain't know they wear out bad.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, sad",
+            "golden": "backchannel",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "They keep it from firing, right? yes , now i need to sit here .. alright!",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Ain't got nothing to fire on.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "it will be solved no worries!",
+            "golden": "statement-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        }
+    ]
+}

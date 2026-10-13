@@ -1,0 +1,942 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how's your day going?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how's your day going?",
+    "target": "Speaker A (grandfather) (Target): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how's your day going?\nSpeaker B (grandfather): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+    "target": "Speaker A (grandson) (Target): I'm doing well, just finished some homework. Do you need any help with the gardening?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?\nSpeaker B (grandson): I'm doing well, just finished some homework. Do you need any help with the gardening?",
+    "target": "Speaker A (grandfather) (Target): Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural part of the conversation, as he is acknowledging the offer of"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): I'm doing well, just finished some homework. Do you need any help with the gardening?\nSpeaker B (grandfather): Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+    "target": "Speaker A (grandson) (Target): That's great, Grandpa! Let me know if you change your mind and need a hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a backchannel and does not interrupt the"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Yes, I can fix it. I've been gardening for years, so I know a thing or two!\nSpeaker B (grandson): That's great, Grandpa! Let me know if you change your mind and need a hand.",
+    "target": "Speaker A (grandfather) (Target): I appreciate your concern, but I've got it under control. It's good exercise for me!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlap. Both speakers are taking turns speaking naturally. The"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): That's great, Grandpa! Let me know if you change your mind and need a hand.\nSpeaker B (grandfather): I appreciate your concern, but I've got it under control. It's good exercise for me!",
+    "target": "Speaker A (grandson) (Target): Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): I appreciate your concern, but I've got it under control. It's good exercise for me!\nSpeaker B (grandson): Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+    "target": "Speaker A (grandfather) (Target): Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, acknowledging his"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Alright, Grandpa! Just let me know if you need anything. I'm here to help.\nSpeaker B (grandfather): Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+    "target": "Speaker A (grandson) (Target): Sounds good, Grandpa! I'm excited to learn from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis target utterance is a standard backchannel response, indicating agreement and engagement in the conversation. It does"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Alright, I'll show you how it's done. It's all about patience and knowing the plants.\nSpeaker B (grandson): Sounds good, Grandpa! I'm excited to learn from you.",
+    "target": "Speaker A (grandfather) (Target): Yes, right here. Let's start with this section and I'll guide you through the process.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Sounds good, Grandpa! I'm excited to learn from you.\nSpeaker B (grandfather): Yes, right here. Let's start with this section and I'll guide you through the process.",
+    "target": "Speaker A (grandson) (Target): Great, I'm ready to get started. Just let me know what to do first.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Yes, right here. Let's start with this section and I'll guide you through the process.\nSpeaker B (grandson): Great, I'm ready to get started. Just let me know what to do first.",
+    "target": "Speaker A (grandfather) (Target): Great, now let's make sure the soil is well-prepared before planting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Great, I'm ready to get started. Just let me know what to do first.\nSpeaker B (grandfather): Great, now let's make sure the soil is well-prepared before planting.",
+    "target": "Speaker A (grandson) (Target): Alright, should I start by loosening the soil with the rake?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is asking a question and waiting for the grandfather's response, which is a natural flow"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Great, now let's make sure the soil is well-prepared before planting.\nSpeaker B (grandson): Alright, should I start by loosening the soil with the rake?",
+    "target": "Speaker A (grandfather) (Target): Ah, that's a good question. Let's take a closer look at it together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Alright, should I start by loosening the soil with the rake?\nSpeaker B (grandfather): Ah, that's a good question. Let's take a closer look at it together.",
+    "target": "Speaker A (grandson) (Target): Okay, let's do that. I'm eager to learn more about gardening from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlap. Both speakers are having a natural flow of conversation"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): Ah, that's a good question. Let's take a closer look at it together.\nSpeaker B (grandson): Okay, let's do that. I'm eager to learn more about gardening from you.",
+    "target": "Speaker A (grandfather) (Target): Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): Okay, let's do that. I'm eager to learn more about gardening from you.\nSpeaker B (grandfather): Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll start clearing this area then. Thanks for the guidance!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker B (grandfather): Yes, we'll need to remove that to ensure the plants have enough space to grow.\nSpeaker B (grandson): Got it, I'll start clearing this area then. Thanks for the guidance!",
+    "target": "Speaker A (grandmother) (Target): Oh, I love classic Italian! Are you planning to cook something special?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's question does not interrupt the conversation between the grandfather and grandson. She is simply joining"
+  },
+  {
+    "index": 18,
+    "context": "Speaker B (grandson): Got it, I'll start clearing this area then. Thanks for the guidance!\nSpeaker B (grandmother): Oh, I love classic Italian! Are you planning to cook something special?",
+    "target": "Speaker A (grandfather) (Target): I think a classic Italian dish would be wonderful. Maybe some pasta?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandmother): Oh, I love classic Italian! Are you planning to cook something special?\nSpeaker B (grandfather): I think a classic Italian dish would be wonderful. Maybe some pasta?",
+    "target": "Speaker A (grandson) (Target): Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandfather): I think a classic Italian dish would be wonderful. Maybe some pasta?\nSpeaker B (grandson): Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's get started on that pasta then!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandson): Pasta sounds great! I can make a simple tomato basil pasta if you'd like.\nSpeaker B (grandfather): Alright, let's get started on that pasta then!",
+    "target": "Speaker A (grandson) (Target): Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandfather): Alright, let's get started on that pasta then!\nSpeaker B (grandson): Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+    "target": "Speaker A (grandfather) (Target): Yes, let's start by boiling the water for the pasta.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation as he acknowledges the"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandson): Great! I'll start by boiling the pasta. Can you help me with chopping the basil?\nSpeaker B (grandfather): Yes, let's start by boiling the water for the pasta.",
+    "target": "Speaker A (grandson) (Target): Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is acknowledging the grandfather's instruction and offering assistance, which is a cooper"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandfather): Yes, let's start by boiling the water for the pasta.\nSpeaker B (grandson): Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+    "target": "Speaker A (grandfather) (Target): Oh, did I do it the wrong way? Let's fix it together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandson): Sure, I'll get the water boiling. Let me know if you need any help with the basil.\nSpeaker B (grandfather): Oh, did I do it the wrong way? Let's fix it together.",
+    "target": "Speaker A (grandson) (Target): No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandfather): Oh, did I do it the wrong way? Let's fix it together.\nSpeaker B (grandson): No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+    "target": "Speaker A (grandfather) (Target): I'm glad you figured it out. Let's see how it works.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandson): No worries, Grandpa! We can fix it together. I'll show you how I usually do it.\nSpeaker B (grandfather): I'm glad you figured it out. Let's see how it works.",
+    "target": "Speaker A (grandson) (Target): Alright, let's give it a try! I'm sure it'll turn out great.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandfather): I'm glad you figured it out. Let's see how it works.\nSpeaker B (grandson): Alright, let's give it a try! I'm sure it'll turn out great.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's get that pasta cooking now!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandson): Alright, let's give it a try! I'm sure it'll turn out great.\nSpeaker B (grandfather): Alright, let's get that pasta cooking now!",
+    "target": "Speaker A (grandson) (Target): Great! I'll get the water boiling while you prepare the sauce.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandfather): Alright, let's get that pasta cooking now!\nSpeaker B (grandson): Great! I'll get the water boiling while you prepare the sauce.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Thanks for pointing that out. Let's keep going.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandson): Great! I'll get the water boiling while you prepare the sauce.\nSpeaker B (grandfather): Ah, I see. Thanks for pointing that out. Let's keep going.",
+    "target": "Speaker A (grandson) (Target): No problem! I'm excited to see how it turns out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandfather): Ah, I see. Thanks for pointing that out. Let's keep going.\nSpeaker B (grandson): No problem! I'm excited to see how it turns out.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's focus on what we're doing here. We can figure it out together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandson): No problem! I'm excited to see how it turns out.\nSpeaker B (grandfather): Alright, let's focus on what we're doing here. We can figure it out together.",
+    "target": "Speaker A (grandson) (Target): Sounds good! I'll keep an eye on the water while you work on the sauce.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandfather): Alright, let's focus on what we're doing here. We can figure it out together.\nSpeaker B (grandson): Sounds good! I'll keep an eye on the water while you work on the sauce.",
+    "target": "Speaker A (grandfather) (Target): Let's take a closer look at the instructions. We can figure this out together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandson): Sounds good! I'll keep an eye on the water while you work on the sauce.\nSpeaker B (grandfather): Let's take a closer look at the instructions. We can figure this out together.",
+    "target": "Speaker A (grandson) (Target): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a brief overlap to agree with his grandfather, showing he is"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandfather): Let's take a closer look at the instructions. We can figure this out together.\nSpeaker B (grandson): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's get that wire sorted out. We can do this together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandson): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.\nSpeaker B (grandfather): Alright, let's get that wire sorted out. We can do this together.",
+    "target": "Speaker A (grandson) (Target): Got it! I'll start untangling the wire while you check the instructions.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a standard backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandfather): Alright, let's get that wire sorted out. We can do this together.\nSpeaker B (grandson): Got it! I'll start untangling the wire while you check the instructions.",
+    "target": "Speaker A (grandfather) (Target): Let's take a closer look at these wires. We can figure out what they do together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandson): Got it! I'll start untangling the wire while you check the instructions.\nSpeaker B (grandfather): Let's take a closer look at these wires. We can figure out what they do together.",
+    "target": "Speaker A (grandson) (Target): Alright, I'm almost done untangling this. How's it going with the instructions?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is providing a backchannel response and asking for an update on the instructions, which"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): Let's take a closer look at these wires. We can figure out what they do together.\nSpeaker B (grandson): Alright, I'm almost done untangling this. How's it going with the instructions?",
+    "target": "Speaker A (grandfather) (Target): Yes, it looks pretty solid. We're making good progress here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is agreeing with the grandson and acknowledging their progress, which does not interrupt"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): Alright, I'm almost done untangling this. How's it going with the instructions?\nSpeaker B (grandfather): Yes, it looks pretty solid. We're making good progress here.",
+    "target": "Speaker A (grandson) (Target): Great! Let's keep going and see if we can finish this up soon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): Yes, it looks pretty solid. We're making good progress here.\nSpeaker B (grandson): Great! Let's keep going and see if we can finish this up soon.",
+    "target": "Speaker A (grandfather) (Target): That's good to hear. Let's keep going and see what else we can accomplish.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandson): Great! Let's keep going and see if we can finish this up soon.\nSpeaker B (grandfather): That's good to hear. Let's keep going and see what else we can accomplish.",
+    "target": "Speaker A (grandson) (Target): Alright, let's tackle the next part. Do you need any help with the instructions?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nBoth speakers are maintaining a natural flow in the conversation, acknowledging each other's contributions"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandfather): That's good to hear. Let's keep going and see what else we can accomplish.\nSpeaker B (grandson): Alright, let's tackle the next part. Do you need any help with the instructions?",
+    "target": "Speaker A (grandfather) (Target): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandson): Alright, let's tackle the next part. Do you need any help with the instructions?\nSpeaker B (grandfather): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+    "target": "Speaker A (grandson) (Target): Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a natural response to his grandfather's"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandfather): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.\nSpeaker B (grandson): Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+    "target": "Speaker A (grandfather) (Target): Yes, a cloth would be helpful to clean up any excess paint.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, as he is"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandson): Sounds good! Do you think we should let it dry for a bit before adding another coat?\nSpeaker B (grandfather): Yes, a cloth would be helpful to clean up any excess paint.",
+    "target": "Speaker A (grandson) (Target): Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandfather): Yes, a cloth would be helpful to clean up any excess paint.\nSpeaker B (grandson): Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+    "target": "Speaker A (grandfather) (Target): Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation and does not interrupt or"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandson): Alright, I'll grab a cloth. Do you want me to start cleaning up now?\nSpeaker B (grandfather): Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+    "target": "Speaker A (grandson) (Target): Okay, I'll double-check everything and start cleaning up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandfather): Oh, I must have missed that. Let's double-check to make sure everything is clean.\nSpeaker B (grandson): Okay, I'll double-check everything and start cleaning up.",
+    "target": "Speaker A (grandfather) (Target): This tool helps us smooth out the surface after painting, making it look even better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is responding to the conversation and not interrupting anyone. He is providing additional"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandson): Okay, I'll double-check everything and start cleaning up.\nSpeaker B (grandfather): This tool helps us smooth out the surface after painting, making it look even better.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll make sure to use it after we're done painting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandfather): This tool helps us smooth out the surface after painting, making it look even better.\nSpeaker B (grandson): Got it, I'll make sure to use it after we're done painting.",
+    "target": "Speaker A (grandfather) (Target): It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a helpful addition to the conversation, providing more"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandson): Got it, I'll make sure to use it after we're done painting.\nSpeaker B (grandfather): It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+    "target": "Speaker A (grandson) (Target): Oh, I didn't know that. Thanks for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a standard backchannel, acknowledging the information provided"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandfather): It's best to apply it while the paint is still wet. That way, it blends smoothly.\nSpeaker B (grandson): Oh, I didn't know that. Thanks for the tip!",
+    "target": "Speaker A (grandfather) (Target): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is asking for clarification on the words \"Shee\" and \"L"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandson): Oh, I didn't know that. Thanks for the tip!\nSpeaker B (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+    "target": "Speaker A (grandson) (Target): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, providing clar"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?\nSpeaker B (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+    "target": "Speaker A (grandfather) (Target): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather acknowledges the explanation and shifts the conversation to another topic, allowing the flow to continue"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.\nSpeaker B (grandfather): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+    "target": "Speaker A (grandson) (Target): Sure, I can check how much paint we have left.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandfather): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.\nSpeaker B (grandson): Sure, I can check how much paint we have left.",
+    "target": "Speaker A (grandfather) (Target): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of the conversation, not an interruption"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandson): Sure, I can check how much paint we have left.\nSpeaker B (grandfather): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+    "target": "Speaker A (grandson) (Target): Alright, I'll go check the paint and see if we need to get more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandfather): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.\nSpeaker B (grandson): Alright, I'll go check the paint and see if we need to get more.",
+    "target": "Speaker A (grandfather) (Target): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a backchannel and does not interrupt the flow of the conversation. He is"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandson): Alright, I'll go check the paint and see if we need to get more.\nSpeaker B (grandfather): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker B (grandfather): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.\nSpeaker B (grandson): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+    "target": "Speaker A (grandmother) (Target): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel and does not interrupt the flow of the"
+  },
+  {
+    "index": 63,
+    "context": "Speaker B (grandson): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.\nSpeaker B (grandmother): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+    "target": "Speaker A (grandfather) (Target): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation as he is acknowledging"
+  },
+  {
+    "index": 64,
+    "context": "Speaker B (grandmother): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?\nSpeaker B (grandfather): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandfather): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.\nSpeaker B (grandson): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+    "target": "Speaker A (grandfather) (Target): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is agreeing with Speaker B's assessment of the tool being cool and offering"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.\nSpeaker B (grandfather): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandfather): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.\nSpeaker B (grandson): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+    "target": "Speaker A (grandfather) (Target): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing a backchannel response and agreeing with the grandson, allowing the conversation"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.\nSpeaker B (grandfather): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+    "target": "Speaker A (grandson) (Target): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandfather): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.\nSpeaker B (grandson): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+    "target": "Speaker A (grandfather) (Target): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather starts speaking while the grandson is still in the middle"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.\nSpeaker B (grandfather): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+    "target": "Speaker A (grandson) (Target): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.\nSpeaker B (grandson): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+    "target": "Speaker A (grandfather) (Target): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.\nSpeaker B (grandfather): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a backchannel and agreement with his grandfather's statement,"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandfather): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.\nSpeaker B (grandson): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+    "target": "Speaker A (grandfather) (Target): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a response to the grandson's statement about"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.\nSpeaker B (grandfather): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandfather): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.\nSpeaker B (grandson): Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+    "target": "Speaker A (grandfather) (Target): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is providing advice and assistance to his grandson, who asked for"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): Thanks, Grandpa. I'll give it a try and let you know how it goes.\nSpeaker B (grandfather): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandfather): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.\nSpeaker B (grandson): Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+    "target": "Speaker A (grandfather) (Target): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, providing additional information"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): Got it, I'll try adding more material and see if that works. Thanks for the advice!\nSpeaker B (grandfather): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (grandfather): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.\nSpeaker B (grandson): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+    "target": "Speaker A (grandfather) (Target): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, providing additional information and offering assistance."
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.\nSpeaker B (grandfather): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+    "target": "Speaker A (grandson) (Target): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandfather): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.\nSpeaker B (grandson): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+    "target": "Speaker A (grandfather) (Target): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a natural response to the conversation, as he offers"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (grandson): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!\nSpeaker B (grandfather): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+    "target": "Speaker A (grandson) (Target): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?\nSpeaker B (grandson): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+    "target": "Speaker A (grandfather) (Target): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!\nSpeaker B (grandfather): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.\nSpeaker B (grandson): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+    "target": "Speaker A (grandfather) (Target): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.\nSpeaker B (grandfather): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+    "target": "Speaker A (grandson) (Target): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.\nSpeaker B (grandson): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+    "target": "Speaker A (grandfather) (Target): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, providing additional information and offering help to"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.\nSpeaker B (grandfather): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+    "target": "Speaker A (grandson) (Target): I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandfather): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.\nSpeaker B (grandson): I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+    "target": "Speaker A (grandfather) (Target): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): I'd love to learn how to make one, Grandpa! It sounds like a fun project.\nSpeaker B (grandfather): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+    "target": "Speaker A (grandson) (Target): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural part of the conversation and does not interrupt or change the flow"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandfather): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.\nSpeaker B (grandson): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+    "target": "Speaker A (grandfather) (Target): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.\nSpeaker B (grandfather): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+    "target": "Speaker A (grandson) (Target): Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural backchannel and agreement with his grandfather's statement"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandfather): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.\nSpeaker B (grandson): Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+    "target": "Speaker A (grandfather) (Target): Thank you for the kind words! I'm glad you believed in the process and that it turned out well. It's always a pleasure working on projects like this together. Looking forward to our next adventure!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlaps from Speaker A. The Target's"
+  }
+]

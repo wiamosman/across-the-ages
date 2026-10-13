@@ -1,0 +1,67 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 38,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That's great! Just make sure you're comfortable and safe while driving.",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely be careful. Do you have any tips for driving in the rain?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like you're figuring it out. If you need any help, just let me know.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate it. I'll definitely reach out if I need anything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I understand, driving styles have changed over the years. Just make sure you're safe and comfortable with your method.",
+      "golden": "explain",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thanks for understanding, Grandpa. I'll make sure to stay safe and adapt as needed.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's give it a try and see how it feels.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds good, Grandpa! I'm ready to give it a shot.",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "I'm glad you're feeling confident. Let's make sure we're both comfortable with the way you're driving.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    }
+  ]
+}

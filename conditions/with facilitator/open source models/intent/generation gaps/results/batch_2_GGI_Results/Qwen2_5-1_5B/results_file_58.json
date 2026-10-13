@@ -1,0 +1,455 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 58,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandmother): Hello dear, how was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandmother): Hello dear, how was your day?",
+      "target": "Target (granddaughter): Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandmother): Hello dear, how was your day? | Speaker B (granddaughter): Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "target": "Target (grandmother): Oh, thank you! I'm glad you like the new sheet music I found.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (granddaughter): Hi Grandma! My day was pretty good, just a bit busy with schoolwork. | Speaker B (grandmother): Oh, thank you! I'm glad you like the new sheet music I found.",
+      "target": "Target (granddaughter): Yeah, those pieces are amazing! I couldn't stop practicing them.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandmother): Oh, thank you! I'm glad you like the new sheet music I found. | Speaker B (granddaughter): Yeah, those pieces are amazing! I couldn't stop practicing them.",
+      "target": "Target (grandmother): Would you like to help me set up the music room for our rehearsal later?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): Yeah, those pieces are amazing! I couldn't stop practicing them. | Speaker B (grandmother): Would you like to help me set up the music room for our rehearsal later?",
+      "target": "Target (granddaughter): I'd love to help! What are we preparing?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandmother): Would you like to help me set up the music room for our rehearsal later? | Speaker B (granddaughter): I'd love to help! What are we preparing?",
+      "target": "Target (grandmother): Oh, are you showing me something with your hand? Is that a new chord?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): I'd love to help! What are we preparing? | Speaker B (grandmother): Oh, are you showing me something with your hand? Is that a new chord?",
+      "target": "Target (granddaughter): Oh, I was just pointing at the metronome. Do you need help finding the right tempo?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandmother): Oh, are you showing me something with your hand? Is that a new chord? | Speaker B (granddaughter): Oh, I was just pointing at the metronome. Do you need help finding the right tempo?",
+      "target": "Target (grandmother): Oh, I see! Are you practicing the finger placements with your hands?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): Oh, I was just pointing at the metronome. Do you need help finding the right tempo? | Speaker B (grandmother): Oh, I see! Are you practicing the finger placements with your hands?",
+      "target": "Target (granddaughter): No, I'm not practicing just yet. Just trying to help get the room ready!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandmother): Oh, I see! Are you practicing the finger placements with your hands? | Speaker B (granddaughter): No, I'm not practicing just yet. Just trying to help get the room ready!",
+      "target": "Target (grandmother): Oh, you're playing notes on the piano! That's wonderful.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): No, I'm not practicing just yet. Just trying to help get the room ready! | Speaker B (grandmother): Oh, you're playing notes on the piano! That's wonderful.",
+      "target": "Target (granddaughter): Haha, not the piano yet! Just dusting the keys so they're clean.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandmother): Oh, you're playing notes on the piano! That's wonderful. | Speaker B (granddaughter): Haha, not the piano yet! Just dusting the keys so they're clean.",
+      "target": "Target (grandmother): Oh my, I didn't mean to be so intense about the lesson! I'm just trying to help you learn.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): Haha, not the piano yet! Just dusting the keys so they're clean. | Speaker B (grandmother): Oh my, I didn't mean to be so intense about the lesson! I'm just trying to help you learn.",
+      "target": "Target (granddaughter): No worries, Grandma! I appreciate your guidance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandmother): Oh my, I didn't mean to be so intense about the lesson! I'm just trying to help you learn. | Speaker B (granddaughter): No worries, Grandma! I appreciate your guidance.",
+      "target": "Target (grandmother): Oh, I see! Thank you for explaining that modern rhythm to me. I'm glad to know it's a compliment.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): No worries, Grandma! I appreciate your guidance. | Speaker B (grandmother): Oh, I see! Thank you for explaining that modern rhythm to me. I'm glad to know it's a compliment.",
+      "target": "Target (grandmother): I'm learning new musical styles every day with you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandmother): Oh, I see! Thank you for explaining that modern rhythm to me. I'm glad to know it's a compliment. | Speaker B (grandmother): I'm learning new musical styles every day with you!",
+      "target": "Target (granddaughter): I'm glad to hear that, Grandma! It's fun sharing my favorite tracks with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandmother): I'm learning new musical styles every day with you! | Speaker B (granddaughter): I'm glad to hear that, Grandma! It's fun sharing my favorite tracks with you.",
+      "target": "Target (grandmother): It's okay, dear. We can try that difficult bridge together again. Just take your time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (granddaughter): I'm glad to hear that, Grandma! It's fun sharing my favorite tracks with you. | Speaker B (grandmother): It's okay, dear. We can try that difficult bridge together again. Just take your time.",
+      "target": "Target (granddaughter): Thanks, Grandma! I really appreciate your patience with my technique.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandmother): It's okay, dear. We can try that difficult bridge together again. Just take your time. | Speaker B (granddaughter): Thanks, Grandma! I really appreciate your patience with my technique.",
+      "target": "Target (grandmother): Oh dear, make sure you rest your wrists and drink water. Let me know if you need a break.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate your patience with my technique. | Speaker B (grandmother): Oh dear, make sure you rest your wrists and drink water. Let me know if you need a break.",
+      "target": "Target (granddaughter): I will, Grandma. Thanks for always looking out for my health!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandmother): Oh dear, make sure you rest your wrists and drink water. Let me know if you need a break. | Speaker B (granddaughter): I will, Grandma. Thanks for always looking out for my health!",
+      "target": "Target (grandmother): Oh, what are those? Let me take a look at your gear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (granddaughter): I will, Grandma. Thanks for always looking out for my health! | Speaker B (grandmother): Oh, what are those? Let me take a look at your gear.",
+      "target": "Target (granddaughter): Oh, these are my new monitoring headphones. They're really clear!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandmother): Oh, what are those? Let me take a look at your gear. | Speaker B (granddaughter): Oh, these are my new monitoring headphones. They're really clear!",
+      "target": "Target (grandmother): I'm glad to hear that. Let's make sure all the cables are in their right place.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (granddaughter): Oh, these are my new monitoring headphones. They're really clear! | Speaker B (grandmother): I'm glad to hear that. Let's make sure all the cables are in their right place.",
+      "target": "Target (granddaughter): Sure, I'll untangle the wires and put the cases back.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandmother): I'm glad to hear that. Let's make sure all the cables are in their right place. | Speaker B (granddaughter): Sure, I'll untangle the wires and put the cases back.",
+      "target": "Target (grandmother): Oh, I'm just fine, dear. But thank you for checking if I was tired.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (granddaughter): Sure, I'll untangle the wires and put the cases back. | Speaker B (grandmother): Oh, I'm just fine, dear. But thank you for checking if I was tired.",
+      "target": "Target (granddaughter): I'm glad you're energized! Let me know if you want to start the scale exercises.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandmother): Oh, I'm just fine, dear. But thank you for checking if I was tired. | Speaker B (granddaughter): I'm glad you're energized! Let me know if you want to start the scale exercises.",
+      "target": "Target (grandmother): Alright then, let's continue with the melody we were practicing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (granddaughter): I'm glad you're energized! Let me know if you want to start the scale exercises. | Speaker B (grandmother): Alright then, let's continue with the melody we were practicing.",
+      "target": "Target (granddaughter): Okay, sounds good! Should we focus on the intro or the chorus next?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandmother): Alright then, let's continue with the melody we were practicing. | Speaker B (granddaughter): Okay, sounds good! Should we focus on the intro or the chorus next?",
+      "target": "Target (grandmother): Okay, let's make sure we have the sheet music sorted out properly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (granddaughter): Okay, sounds good! Should we focus on the intro or the chorus next? | Speaker B (grandmother): Okay, let's make sure we have the sheet music sorted out properly.",
+      "target": "Target (granddaughter): Alright, let's double-check the order then. Do you need help with the page turns?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandmother): Okay, let's make sure we have the sheet music sorted out properly. | Speaker B (granddaughter): Alright, let's double-check the order then. Do you need help with the page turns?",
+      "target": "Target (grandmother): Great, let's keep up the good work and finish this rehearsal together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (granddaughter): Alright, let's double-check the order then. Do you need help with the page turns? | Speaker B (grandmother): Great, let's keep up the good work and finish this rehearsal together.",
+      "target": "Target (granddaughter): I'm glad we're playing this together. Let me know if there's any other part I should check.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandmother): Great, let's keep up the good work and finish this rehearsal together. | Speaker B (granddaughter): I'm glad we're playing this together. Let me know if there's any other part I should check.",
+      "target": "Target (grandmother): I'm so glad we're sharing this passion, dear. It makes the practice more enjoyable.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (granddaughter): I'm glad we're playing this together. Let me know if there's any other part I should check. | Speaker B (grandmother): I'm so glad we're sharing this passion, dear. It makes the practice more enjoyable.",
+      "target": "Target (granddaughter): It really does! I'm learning a lot about classical structure from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandmother): I'm so glad we're sharing this passion, dear. It makes the practice more enjoyable. | Speaker B (granddaughter): It really does! I'm learning a lot about classical structure from you.",
+      "target": "Target (grandmother): Yes, dear, use your left hand for that bass line. It might be easier.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (granddaughter): It really does! I'm learning a lot about classical structure from you. | Speaker B (grandmother): Yes, dear, use your left hand for that bass line. It might be easier.",
+      "target": "Target (granddaughter): Oh, I see! Thanks for the tip, I'll try that fingering.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandmother): Yes, dear, use your left hand for that bass line. It might be easier. | Speaker B (granddaughter): Oh, I see! Thanks for the tip, I'll try that fingering.",
+      "target": "Target (grandmother): Oh, I just meant that using your left hand might make the reach easier. Let me show you.",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (granddaughter): Oh, I see! Thanks for the tip, I'll try that fingering. | Speaker B (grandmother): Oh, I just meant that using your left hand might make the reach easier. Let me show you.",
+      "target": "Target (granddaughter): Okay, I'll give it a try. Thanks for showing me the posture!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandmother): Oh, I just meant that using your left hand might make the reach easier. Let me show you. | Speaker B (granddaughter): Okay, I'll give it a try. Thanks for showing me the posture!",
+      "target": "Target (grandmother): Thank you, dear. I appreciate your help with reading the fine print on these scores.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (granddaughter): Okay, I'll give it a try. Thanks for showing me the posture! | Speaker B (grandmother): Thank you, dear. I appreciate your help with reading the fine print on these scores.",
+      "target": "Target (granddaughter): You're welcome! I'm glad I could help read the dynamic markings.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandmother): Thank you, dear. I appreciate your help with reading the fine print on these scores. | Speaker B (granddaughter): You're welcome! I'm glad I could help read the dynamic markings.",
+      "target": "Target (grandmother): Yes, let's play the duet together. It's always more fun that way.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (granddaughter): You're welcome! I'm glad I could help read the dynamic markings. | Speaker B (grandmother): Yes, let's play the duet together. It's always more fun that way.",
+      "target": "Target (granddaughter): Absolutely, harmonizing together is always more enjoyable!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandmother): Yes, let's play the duet together. It's always more fun that way. | Speaker B (granddaughter): Absolutely, harmonizing together is always more enjoyable!",
+      "target": "Target (grandmother): Alright, let's get started then. I'm sure we'll sound great together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (granddaughter): Absolutely, harmonizing together is always more enjoyable! | Speaker B (grandmother): Alright, let's get started then. I'm sure we'll sound great together.",
+      "target": "Target (granddaughter): Great! Should we start with the warm-up scales first?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandmother): Alright, let's get started then. I'm sure we'll sound great together. | Speaker B (granddaughter): Great! Should we start with the warm-up scales first?",
+      "target": "Target (grandmother): Yes, dear, let's go ahead and start. I'm sure we'll have fun.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (granddaughter): Great! Should we start with the warm-up scales first? | Speaker B (grandmother): Yes, dear, let's go ahead and start. I'm sure we'll have fun.",
+      "target": "Target (granddaughter): I'm excited! Let's start with the rhythmic section.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandmother): Yes, dear, let's go ahead and start. I'm sure we'll have fun. | Speaker B (granddaughter): I'm excited! Let's start with the rhythmic section.",
+      "target": "Target (grandmother): Oh dear, is the tempo alright? Can I help with the counting?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (granddaughter): I'm excited! Let's start with the rhythmic section. | Speaker B (grandmother): Oh dear, is the tempo alright? Can I help with the counting?",
+      "target": "Target (granddaughter): Oh, I'm fine! Just a bit overwhelmed with all the complex syncopation.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandmother): Oh dear, is the tempo alright? Can I help with the counting? | Speaker B (granddaughter): Oh, I'm fine! Just a bit overwhelmed with all the complex syncopation.",
+      "target": "Target (grandmother): Alright then, let's get back to it. I'm here if you need to slow down.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (granddaughter): Oh, I'm fine! Just a bit overwhelmed with all the complex syncopation. | Speaker B (grandmother): Alright then, let's get back to it. I'm here if you need to slow down.",
+      "target": "Target (granddaughter): Thanks, Grandma! I think I'll start with the phrasing. Do you think we should go with the staccato or the legato approach?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandmother): Alright then, let's get back to it. I'm here if you need to slow down. | Speaker B (granddaughter): Thanks, Grandma! I think I'll start with the phrasing. Do you think we should go with the staccato or the legato approach?",
+      "target": "Target (grandmother): Yes, that's right. Just take your time and let me know if you need any help with the articulation.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I think I'll start with the phrasing. Do you think we should go with the staccato or the legato approach? | Speaker B (grandmother): Yes, that's right. Just take your time and let me know if you need any help with the articulation.",
+      "target": "Target (granddaughter): Okay, I'll let you know. I think I'll go with legato, it seems more flowing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandmother): Yes, that's right. Just take your time and let me know if you need any help with the articulation. | Speaker B (granddaughter): Okay, I'll let you know. I think I'll go with legato, it seems more flowing.",
+      "target": "Target (grandmother): Yes, you've got it! You're doing great, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (granddaughter): Okay, I'll let you know. I think I'll go with legato, it seems more flowing. | Speaker B (grandmother): Yes, you've got it! You're doing great, dear.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'm really excited about how our sound is all coming together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandmother): Yes, you've got it! You're doing great, dear. | Speaker B (granddaughter): Thanks, Grandma! I'm really excited about how our sound is all coming together.",
+      "target": "Target (grandmother): I'm so proud of you for mastering it. If you have any more questions, just ask.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

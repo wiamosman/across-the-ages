@@ -1,0 +1,583 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 96,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (granddaughter): Hi Grandpa! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (granddaughter): Hi Grandpa! How have you been?",
+      "target": "Target (grandfather): Hello Sarah! It's wonderful to hear about your adventures in New York City. It sounds like an exciting place to live and work. I'm curious to learn more about your vlogging and how you make videos for a living.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (granddaughter): Hi Grandpa! How have you been? | Speaker B (grandfather): Hello Sarah! It's wonderful to hear about your adventures in New York City. It sounds like an exciting place to live and work. I'm curious to learn more about your vlogging and how you make videos for a living.",
+      "target": "Target (grandfather): Sarah, I'd love to learn how to vlog! It sounds like a fascinating way to share stories and connect with people. Maybe you can show me some tips and tricks when you're back in Texas. I'd be happy to tell you all about my work with dump trucks too.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandfather): Hello Sarah! It's wonderful to hear about your adventures in New York City. It sounds like an exciting place to live and work. I'm curious to learn more about your vlogging and how you make videos for a living. | Speaker B (grandfather): Sarah, I'd love to learn how to vlog! It sounds like a fascinating way to share stories and connect with people. Maybe you can show me some tips and tricks when you're back in Texas. I'd be happy to tell you all about my work with dump trucks too.",
+      "target": "Target (granddaughter): That sounds great, Grandpa! I'd love to show you how to vlog. It's really fun and creative. And I'd love to hear more about your work with dump trucks. It sounds interesting!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Sarah, I'd love to learn how to vlog! It sounds like a fascinating way to share stories and connect with people. Maybe you can show me some tips and tricks when you're back in Texas. I'd be happy to tell you all about my work with dump trucks too. | Speaker B (granddaughter): That sounds great, Grandpa! I'd love to show you how to vlog. It's really fun and creative. And I'd love to hear more about your work with dump trucks. It sounds interesting!",
+      "target": "Target (grandfather): Yes, that's right, Sarah. I run a construction company here, and my office is where I manage all the operations. It's a bit different from vlogging, but it's rewarding in its own way. I'd love to show you around when you visit.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): That sounds great, Grandpa! I'd love to show you how to vlog. It's really fun and creative. And I'd love to hear more about your work with dump trucks. It sounds interesting! | Speaker B (grandfather): Yes, that's right, Sarah. I run a construction company here, and my office is where I manage all the operations. It's a bit different from vlogging, but it's rewarding in its own way. I'd love to show you around when you visit.",
+      "target": "Target (granddaughter): That sounds amazing, Grandpa! I'd love to see your office and learn more about how you manage everything. It's so cool that you run a construction company!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Yes, that's right, Sarah. I run a construction company here, and my office is where I manage all the operations. It's a bit different from vlogging, but it's rewarding in its own way. I'd love to show you around when you visit. | Speaker B (granddaughter): That sounds amazing, Grandpa! I'd love to see your office and learn more about how you manage everything. It's so cool that you run a construction company!",
+      "target": "Target (grandfather): I'm glad you're interested, Sarah. When you come by, I'll show you how we manage the projects and maybe you can teach me a bit about vlogging. It's always good to learn new things!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): That sounds amazing, Grandpa! I'd love to see your office and learn more about how you manage everything. It's so cool that you run a construction company! | Speaker B (grandfather): I'm glad you're interested, Sarah. When you come by, I'll show you how we manage the projects and maybe you can teach me a bit about vlogging. It's always good to learn new things!",
+      "target": "Target (granddaughter): That sounds like a great plan, Grandpa! I'm excited to learn from you and share what I know about vlogging. It's going to be so much fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): I'm glad you're interested, Sarah. When you come by, I'll show you how we manage the projects and maybe you can teach me a bit about vlogging. It's always good to learn new things! | Speaker B (granddaughter): That sounds like a great plan, Grandpa! I'm excited to learn from you and share what I know about vlogging. It's going to be so much fun!",
+      "target": "Target (grandfather): It sounds like you have a lot on your plate, Sarah. I'm impressed by how much you manage to accomplish with your video channel. Family support is always important.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): That sounds like a great plan, Grandpa! I'm excited to learn from you and share what I know about vlogging. It's going to be so much fun! | Speaker B (grandfather): It sounds like you have a lot on your plate, Sarah. I'm impressed by how much you manage to accomplish with your video channel. Family support is always important.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I really appreciate your support. It's true, having family around makes everything easier and more enjoyable.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): It sounds like you have a lot on your plate, Sarah. I'm impressed by how much you manage to accomplish with your video channel. Family support is always important. | Speaker B (granddaughter): Thanks, Grandpa! I really appreciate your support. It's true, having family around makes everything easier and more enjoyable.",
+      "target": "Target (grandfather): That sounds like a fun challenge, Sarah! I'd love to give vlogging a try. Maybe you can show me how to use the camera and share some tips. I'm always up for learning something new.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I really appreciate your support. It's true, having family around makes everything easier and more enjoyable. | Speaker B (grandfather): That sounds like a fun challenge, Sarah! I'd love to give vlogging a try. Maybe you can show me how to use the camera and share some tips. I'm always up for learning something new.",
+      "target": "Target (granddaughter): I'd love to help you with vlogging, Grandpa! We can start with the basics and then dive into some fun editing tricks. It's going to be a blast!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): That sounds like a fun challenge, Sarah! I'd love to give vlogging a try. Maybe you can show me how to use the camera and share some tips. I'm always up for learning something new. | Speaker B (granddaughter): I'd love to help you with vlogging, Grandpa! We can start with the basics and then dive into some fun editing tricks. It's going to be a blast!",
+      "target": "Target (grandfather): I feel excited about the idea, Sarah! It's a great opportunity to try something new and have some fun with it. Plus, learning from you will be a wonderful experience.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): I'd love to help you with vlogging, Grandpa! We can start with the basics and then dive into some fun editing tricks. It's going to be a blast! | Speaker B (grandfather): I feel excited about the idea, Sarah! It's a great opportunity to try something new and have some fun with it. Plus, learning from you will be a wonderful experience.",
+      "target": "Target (granddaughter): I'm so glad you're excited, Grandpa! We'll have a lot of fun together, and I'm sure you'll pick it up quickly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): I feel excited about the idea, Sarah! It's a great opportunity to try something new and have some fun with it. Plus, learning from you will be a wonderful experience. | Speaker B (granddaughter): I'm so glad you're excited, Grandpa! We'll have a lot of fun together, and I'm sure you'll pick it up quickly.",
+      "target": "Target (grandfather): Ah, I see! Thanks for explaining the different camera angles, Sarah. I'm looking forward to trying my hand at vlogging with your guidance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): I'm so glad you're excited, Grandpa! We'll have a lot of fun together, and I'm sure you'll pick it up quickly. | Speaker B (grandfather): Ah, I see! Thanks for explaining the different camera angles, Sarah. I'm looking forward to trying my hand at vlogging with your guidance.",
+      "target": "Target (granddaughter): I'm really looking forward to it too, Grandpa! Let's set a date to start our vlogging adventure.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Ah, I see! Thanks for explaining the different camera angles, Sarah. I'm looking forward to trying my hand at vlogging with your guidance. | Speaker B (granddaughter): I'm really looking forward to it too, Grandpa! Let's set a date to start our vlogging adventure.",
+      "target": "Target (grandfather): That sounds fascinating, Sarah! I'm eager to learn how to edit and share my day with others. It seems like a wonderful way to connect with people.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (granddaughter): I'm really looking forward to it too, Grandpa! Let's set a date to start our vlogging adventure. | Speaker B (grandfather): That sounds fascinating, Sarah! I'm eager to learn how to edit and share my day with others. It seems like a wonderful way to connect with people.",
+      "target": "Target (granddaughter): I'm so happy you're excited, Grandpa! Let's pick a weekend to start, and I'll show you all the basics of editing and sharing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): That sounds fascinating, Sarah! I'm eager to learn how to edit and share my day with others. It seems like a wonderful way to connect with people. | Speaker B (granddaughter): I'm so happy you're excited, Grandpa! Let's pick a weekend to start, and I'll show you all the basics of editing and sharing.",
+      "target": "Target (grandfather): I understand, Sarah. It sounds like a meaningful way to connect with others and share experiences. I'm excited to learn more about how to do it effectively.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (granddaughter): I'm so happy you're excited, Grandpa! Let's pick a weekend to start, and I'll show you all the basics of editing and sharing. | Speaker B (grandfather): I understand, Sarah. It sounds like a meaningful way to connect with others and share experiences. I'm excited to learn more about how to do it effectively.",
+      "target": "Target (granddaughter): Great! How about we start next Saturday? I'll bring my laptop and we can dive into the editing software together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): I understand, Sarah. It sounds like a meaningful way to connect with others and share experiences. I'm excited to learn more about how to do it effectively. | Speaker B (granddaughter): Great! How about we start next Saturday? I'll bring my laptop and we can dive into the editing software together.",
+      "target": "Target (grandfather): That's okay, Sarah. Sometimes the best vlogs come from spontaneous moments. Just go with the flow and see where it takes you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (granddaughter): Great! How about we start next Saturday? I'll bring my laptop and we can dive into the editing software together. | Speaker B (grandfather): That's okay, Sarah. Sometimes the best vlogs come from spontaneous moments. Just go with the flow and see where it takes you!",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'm really looking forward to it. I think we'll have a lot of fun exploring this together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandfather): That's okay, Sarah. Sometimes the best vlogs come from spontaneous moments. Just go with the flow and see where it takes you! | Speaker B (granddaughter): Thanks, Grandpa! I'm really looking forward to it. I think we'll have a lot of fun exploring this together.",
+      "target": "Target (grandfather): That's good to hear, Sarah! Cows can be quite gentle creatures. Have you ever thought about including them in your vlogs?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'm really looking forward to it. I think we'll have a lot of fun exploring this together. | Speaker B (grandfather): That's good to hear, Sarah! Cows can be quite gentle creatures. Have you ever thought about including them in your vlogs?",
+      "target": "Target (grandfather): I think including cows in your vlogs could add a unique touch, Sarah. They might bring a bit of charm and humor to your videos!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandfather): That's good to hear, Sarah! Cows can be quite gentle creatures. Have you ever thought about including them in your vlogs? | Speaker B (grandfather): I think including cows in your vlogs could add a unique touch, Sarah. They might bring a bit of charm and humor to your videos!",
+      "target": "Target (granddaughter): That's a great idea, Grandpa! I think the cows would definitely add some charm to the vlogs. I'll try to include them in my next video.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandfather): I think including cows in your vlogs could add a unique touch, Sarah. They might bring a bit of charm and humor to your videos! | Speaker B (granddaughter): That's a great idea, Grandpa! I think the cows would definitely add some charm to the vlogs. I'll try to include them in my next video.",
+      "target": "Target (grandfather): Alright, Sarah! I'll be ready with the camera. Let's make some memorable vlogs at the farm!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (granddaughter): That's a great idea, Grandpa! I think the cows would definitely add some charm to the vlogs. I'll try to include them in my next video. | Speaker B (grandfather): Alright, Sarah! I'll be ready with the camera. Let's make some memorable vlogs at the farm!",
+      "target": "Target (granddaughter): That sounds awesome, Grandpa! I can't wait to start filming with you. It's going to be so much fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandfather): Alright, Sarah! I'll be ready with the camera. Let's make some memorable vlogs at the farm! | Speaker B (granddaughter): That sounds awesome, Grandpa! I can't wait to start filming with you. It's going to be so much fun!",
+      "target": "Target (grandfather): Thank you, Sarah! I'm glad you like my shoes. Let's head to the ranch and capture some great moments together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (granddaughter): That sounds awesome, Grandpa! I can't wait to start filming with you. It's going to be so much fun! | Speaker B (grandfather): Thank you, Sarah! I'm glad you like my shoes. Let's head to the ranch and capture some great moments together!",
+      "target": "Target (granddaughter): I'm so excited, Grandpa! Let's make sure to get some shots of the sunset too. It's going to be beautiful!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandfather): Thank you, Sarah! I'm glad you like my shoes. Let's head to the ranch and capture some great moments together! | Speaker B (granddaughter): I'm so excited, Grandpa! Let's make sure to get some shots of the sunset too. It's going to be beautiful!",
+      "target": "Target (grandfather): Yes, Meemaw's shoes are quite comfortable, aren't they? I'm sure they'll be perfect for the ranch visit.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (granddaughter): I'm so excited, Grandpa! Let's make sure to get some shots of the sunset too. It's going to be beautiful! | Speaker B (grandfather): Yes, Meemaw's shoes are quite comfortable, aren't they? I'm sure they'll be perfect for the ranch visit.",
+      "target": "Target (grandfather): I'm looking forward to this adventure, Sarah! Let's make sure we capture every moment at the ranch.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandfather): Yes, Meemaw's shoes are quite comfortable, aren't they? I'm sure they'll be perfect for the ranch visit. | Speaker B (grandfather): I'm looking forward to this adventure, Sarah! Let's make sure we capture every moment at the ranch.",
+      "target": "Target (grandfather): Sarah, do you think we should focus on the cows first or explore the ranch a bit before filming?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandfather): I'm looking forward to this adventure, Sarah! Let's make sure we capture every moment at the ranch. | Speaker B (grandfather): Sarah, do you think we should focus on the cows first or explore the ranch a bit before filming?",
+      "target": "Target (grandfather): I think exploring the ranch first might give us some great ideas for filming later. What do you think, Sarah?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandfather): Sarah, do you think we should focus on the cows first or explore the ranch a bit before filming? | Speaker B (grandfather): I think exploring the ranch first might give us some great ideas for filming later. What do you think, Sarah?",
+      "target": "Target (granddaughter): I think exploring first sounds like a great idea! We can get a feel for the place and then decide the best spots to film.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandfather): I think exploring the ranch first might give us some great ideas for filming later. What do you think, Sarah? | Speaker B (granddaughter): I think exploring first sounds like a great idea! We can get a feel for the place and then decide the best spots to film.",
+      "target": "Target (grandfather): Ah, I see! Thanks for explaining how my outfit looks on camera, Sarah. I'm glad to know my outfit is on point!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (granddaughter): I think exploring first sounds like a great idea! We can get a feel for the place and then decide the best spots to film. | Speaker B (grandfather): Ah, I see! Thanks for explaining how my outfit looks on camera, Sarah. I'm glad to know my outfit is on point!",
+      "target": "Target (granddaughter): Haha, you're welcome! Let's head out and start exploring then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandfather): Ah, I see! Thanks for explaining how my outfit looks on camera, Sarah. I'm glad to know my outfit is on point! | Speaker B (granddaughter): Haha, you're welcome! Let's head out and start exploring then!",
+      "target": "Target (grandfather): Haha, Sarah, I'm just trying to keep up with your style! I'm glad we're all set for the ranch adventure. Let's make the most of it!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (granddaughter): Haha, you're welcome! Let's head out and start exploring then! | Speaker B (grandfather): Haha, Sarah, I'm just trying to keep up with your style! I'm glad we're all set for the ranch adventure. Let's make the most of it!",
+      "target": "Target (granddaughter): I'm so excited for this adventure! Let's capture some amazing moments together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandfather): Haha, Sarah, I'm just trying to keep up with your style! I'm glad we're all set for the ranch adventure. Let's make the most of it! | Speaker B (granddaughter): I'm so excited for this adventure! Let's capture some amazing moments together.",
+      "target": "Target (grandfather): Sarah, I'm really excited to see what we can discover at the ranch today. Let's make sure to capture some great memories together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (granddaughter): I'm so excited for this adventure! Let's capture some amazing moments together. | Speaker B (grandfather): Sarah, I'm really excited to see what we can discover at the ranch today. Let's make sure to capture some great memories together!",
+      "target": "Target (granddaughter): Absolutely, Grandpa! I can't wait to see what surprises the ranch has in store for us. Let's make it unforgettable!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): Sarah, I'm really excited to see what we can discover at the ranch today. Let's make sure to capture some great memories together! | Speaker B (granddaughter): Absolutely, Grandpa! I can't wait to see what surprises the ranch has in store for us. Let's make it unforgettable!",
+      "target": "Target (grandfather): I'm glad you're on board, Sarah. Let's start by checking out the barn and see what ideas we can come up with for filming.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (granddaughter): Absolutely, Grandpa! I can't wait to see what surprises the ranch has in store for us. Let's make it unforgettable! | Speaker B (grandfather): I'm glad you're on board, Sarah. Let's start by checking out the barn and see what ideas we can come up with for filming.",
+      "target": "Target (grandfather): Sarah, do you think we should start filming near the barn or explore a bit more first?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): I'm glad you're on board, Sarah. Let's start by checking out the barn and see what ideas we can come up with for filming. | Speaker B (grandfather): Sarah, do you think we should start filming near the barn or explore a bit more first?",
+      "target": "Target (grandfather): I think starting near the barn could be interesting, but I'm open to exploring more if you have other ideas.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandfather): Sarah, do you think we should start filming near the barn or explore a bit more first? | Speaker B (grandfather): I think starting near the barn could be interesting, but I'm open to exploring more if you have other ideas.",
+      "target": "Target (grandfather): Sarah, I'm really looking forward to seeing what creative ideas you have for filming today. Let's make it a fun experience!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): I think starting near the barn could be interesting, but I'm open to exploring more if you have other ideas. | Speaker B (grandfather): Sarah, I'm really looking forward to seeing what creative ideas you have for filming today. Let's make it a fun experience!",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'm excited too. I think starting near the barn sounds great, but maybe we can explore a bit after that to get some variety.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandfather): Sarah, I'm really looking forward to seeing what creative ideas you have for filming today. Let's make it a fun experience! | Speaker B (granddaughter): Thanks, Grandpa! I'm excited too. I think starting near the barn sounds great, but maybe we can explore a bit after that to get some variety.",
+      "target": "Target (grandfather): That's right! Embracing the spirit of adventure is what it's all about. Let's see what we can learn together today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'm excited too. I think starting near the barn sounds great, but maybe we can explore a bit after that to get some variety. | Speaker B (grandfather): That's right! Embracing the spirit of adventure is what it's all about. Let's see what we can learn together today.",
+      "target": "Target (granddaughter): I'm really looking forward to it too! Maybe we can try some new angles and see what works best.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandfather): That's right! Embracing the spirit of adventure is what it's all about. Let's see what we can learn together today. | Speaker B (granddaughter): I'm really looking forward to it too! Maybe we can try some new angles and see what works best.",
+      "target": "Target (grandfather): Oh Sarah, I understand it can be intimidating to vlog for the first time, but remember, you're not alone in this. We're here to support each other and have fun.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (granddaughter): I'm really looking forward to it too! Maybe we can try some new angles and see what works best. | Speaker B (grandfather): Oh Sarah, I understand it can be intimidating to vlog for the first time, but remember, you're not alone in this. We're here to support each other and have fun.",
+      "target": "Target (granddaughter): Thanks, Grandpa. I know we'll have a great time together. I'm just a bit nervous about trying something new on camera, but I'm sure it'll be fun.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandfather): Oh Sarah, I understand it can be intimidating to vlog for the first time, but remember, you're not alone in this. We're here to support each other and have fun. | Speaker B (granddaughter): Thanks, Grandpa. I know we'll have a great time together. I'm just a bit nervous about trying something new on camera, but I'm sure it'll be fun.",
+      "target": "Target (grandfather): Ah yes, counting cows on video can be quite the task, but it's all part of the fun. Let's make sure we get it right together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa. I know we'll have a great time together. I'm just a bit nervous about trying something new on camera, but I'm sure it'll be fun. | Speaker B (grandfather): Ah yes, counting cows on video can be quite the task, but it's all part of the fun. Let's make sure we get it right together.",
+      "target": "Target (granddaughter): Counting cows sounds like a fun challenge! I'm ready to give it a try and see how well we do on film.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandfather): Ah yes, counting cows on video can be quite the task, but it's all part of the fun. Let's make sure we get it right together. | Speaker B (granddaughter): Counting cows sounds like a fun challenge! I'm ready to give it a try and see how well we do on film.",
+      "target": "Target (grandfather): Well, Sarah, the key is to stay calm and focused. Start by grouping them in small numbers and then count each group. It helps to have a system in place.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (granddaughter): Counting cows sounds like a fun challenge! I'm ready to give it a try and see how well we do on film. | Speaker B (grandfather): Well, Sarah, the key is to stay calm and focused. Start by grouping them in small numbers and then count each group. It helps to have a system in place.",
+      "target": "Target (granddaughter): Thanks for the tip, Grandpa! I'll try to stay calm and use your system. I'm sure we'll do great.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandfather): Well, Sarah, the key is to stay calm and focused. Start by grouping them in small numbers and then count each group. It helps to have a system in place. | Speaker B (granddaughter): Thanks for the tip, Grandpa! I'll try to stay calm and use your system. I'm sure we'll do great.",
+      "target": "Target (grandfather): Ah, I see. Thanks for the tip on how to hold the camera steady, Sarah. I'll give it a try and see how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (granddaughter): Thanks for the tip, Grandpa! I'll try to stay calm and use your system. I'm sure we'll do great. | Speaker B (grandfather): Ah, I see. Thanks for the tip on how to hold the camera steady, Sarah. I'll give it a try and see how it goes.",
+      "target": "Target (grandfather): Sarah, it's fascinating how technology has changed the way we do things. I'm eager to learn more about this vlogging stuff from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandfather): Ah, I see. Thanks for the tip on how to hold the camera steady, Sarah. I'll give it a try and see how it goes. | Speaker B (grandfather): Sarah, it's fascinating how technology has changed the way we do things. I'm eager to learn more about this vlogging stuff from you.",
+      "target": "Target (grandfather): Sarah, I appreciate your patience with me as I learn this new technology. It's quite exciting to see how things have evolved.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandfather): Sarah, it's fascinating how technology has changed the way we do things. I'm eager to learn more about this vlogging stuff from you. | Speaker B (grandfather): Sarah, I appreciate your patience with me as I learn this new technology. It's quite exciting to see how things have evolved.",
+      "target": "Target (granddaughter): I'm really glad you're interested, Grandpa! It's fun to share this with you. Let me know if you have any questions.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandfather): Sarah, I appreciate your patience with me as I learn this new technology. It's quite exciting to see how things have evolved. | Speaker B (granddaughter): I'm really glad you're interested, Grandpa! It's fun to share this with you. Let me know if you have any questions.",
+      "target": "Target (grandfather): Sure, Sarah, I'll give it a try. It's a lovely day on the ranch, and I'm enjoying learning this new skill with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (granddaughter): I'm really glad you're interested, Grandpa! It's fun to share this with you. Let me know if you have any questions. | Speaker B (grandfather): Sure, Sarah, I'll give it a try. It's a lovely day on the ranch, and I'm enjoying learning this new skill with you.",
+      "target": "Target (granddaughter): I'm so happy you're enjoying it, Grandpa! It's a great way to capture memories. Maybe we can make a vlog together about a day on the ranch?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandfather): Sure, Sarah, I'll give it a try. It's a lovely day on the ranch, and I'm enjoying learning this new skill with you. | Speaker B (granddaughter): I'm so happy you're enjoying it, Grandpa! It's a great way to capture memories. Maybe we can make a vlog together about a day on the ranch?",
+      "target": "Target (grandfather): Alright, Sarah, I'm holding the camera now. It's quite an interesting experience, and I'm glad you're here to guide me through it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (granddaughter): I'm so happy you're enjoying it, Grandpa! It's a great way to capture memories. Maybe we can make a vlog together about a day on the ranch? | Speaker B (grandfather): Alright, Sarah, I'm holding the camera now. It's quite an interesting experience, and I'm glad you're here to guide me through it.",
+      "target": "Target (grandfather): Sarah, I'm really enjoying this. It's amazing how technology lets us capture these moments so easily.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandfather): Alright, Sarah, I'm holding the camera now. It's quite an interesting experience, and I'm glad you're here to guide me through it. | Speaker B (grandfather): Sarah, I'm really enjoying this. It's amazing how technology lets us capture these moments so easily.",
+      "target": "Target (grandfather): Sarah, it's truly wonderful to be able to share these moments with you. I'm grateful for your help in navigating this new technology.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandfather): Sarah, I'm really enjoying this. It's amazing how technology lets us capture these moments so easily. | Speaker B (grandfather): Sarah, it's truly wonderful to be able to share these moments with you. I'm grateful for your help in navigating this new technology.",
+      "target": "Target (granddaughter): I'm so glad you're enjoying it, Grandpa! It's really fun to do this together. Maybe next time we can try editing the video too?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandfather): Sarah, it's truly wonderful to be able to share these moments with you. I'm grateful for your help in navigating this new technology. | Speaker B (granddaughter): I'm so glad you're enjoying it, Grandpa! It's really fun to do this together. Maybe next time we can try editing the video too?",
+      "target": "Target (grandfather): Weatherford sounds like a nice place to visit. I'm looking forward to seeing more of it with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (granddaughter): I'm so glad you're enjoying it, Grandpa! It's really fun to do this together. Maybe next time we can try editing the video too? | Speaker B (grandfather): Weatherford sounds like a nice place to visit. I'm looking forward to seeing more of it with you.",
+      "target": "Target (granddaughter): I'm excited for our trip to Weatherford, Grandpa! It'll be great to explore together and maybe capture some more memories.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandfather): Weatherford sounds like a nice place to visit. I'm looking forward to seeing more of it with you. | Speaker B (granddaughter): I'm excited for our trip to Weatherford, Grandpa! It'll be great to explore together and maybe capture some more memories.",
+      "target": "Target (grandfather): Thank you, Sarah! It's been a wonderful journey, and I'm so grateful to have you celebrate with us.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (granddaughter): I'm excited for our trip to Weatherford, Grandpa! It'll be great to explore together and maybe capture some more memories. | Speaker B (grandfather): Thank you, Sarah! It's been a wonderful journey, and I'm so grateful to have you celebrate with us.",
+      "target": "Target (granddaughter): I'm so happy to be part of this journey with you, Grandpa! Let's make more amazing memories together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandfather): Thank you, Sarah! It's been a wonderful journey, and I'm so grateful to have you celebrate with us. | Speaker B (granddaughter): I'm so happy to be part of this journey with you, Grandpa! Let's make more amazing memories together.",
+      "target": "Target (grandfather): It's truly a blessing to have such a wonderful family. Thank you for being here with us, Sarah.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (granddaughter): I'm so happy to be part of this journey with you, Grandpa! Let's make more amazing memories together. | Speaker B (grandfather): It's truly a blessing to have such a wonderful family. Thank you for being here with us, Sarah.",
+      "target": "Target (granddaughter): I'm so grateful to have you in my life, Grandpa. Let's cherish every moment together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandfather): It's truly a blessing to have such a wonderful family. Thank you for being here with us, Sarah. | Speaker B (granddaughter): I'm so grateful to have you in my life, Grandpa. Let's cherish every moment together.",
+      "target": "Target (grandfather): Well, Sarah, I think the secret to a long career is patience and understanding. We've always tried to support each other through thick and thin.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (granddaughter): I'm so grateful to have you in my life, Grandpa. Let's cherish every moment together. | Speaker B (grandfather): Well, Sarah, I think the secret to a long career is patience and understanding. We've always tried to support each other through thick and thin.",
+      "target": "Target (grandfather): And of course, a little humor goes a long way in keeping things light and joyful while we film.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandfather): Well, Sarah, I think the secret to a long career is patience and understanding. We've always tried to support each other through thick and thin. | Speaker B (grandfather): And of course, a little humor goes a long way in keeping things light and joyful while we film.",
+      "target": "Target (granddaughter): You're right, Grandpa. Laughter really is the best medicine. I'm so glad we can share these moments.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

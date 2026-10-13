@@ -1,0 +1,1722 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Hello there! How have you been?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Hello there! How have you been?",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Hello there! How have you been?\nSpeaker B (grandson): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?",
+    "target": "Speaker A (grandfather) (Target): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?\nSpeaker B (grandfather): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?",
+    "target": "Speaker A (grandson) (Target): Yeah, I really enjoy it! It's challenging but fun. Do you play often?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?\nSpeaker B (grandson): Yeah, I really enjoy it! It's challenging but fun. Do you play often?",
+    "target": "Speaker A (grandfather) (Target): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): Yeah, I really enjoy it! It's challenging but fun. Do you play often?\nSpeaker B (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?",
+    "target": "Speaker A (grandson) (Target): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?\nSpeaker B (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-",
+    "target": "Speaker A (grandfather) (Target): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-\nSpeaker B (grandfather): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.",
+    "target": "Speaker A (grandson) (Target): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.\nSpeaker B (grandson): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.",
+    "target": "Speaker A (grandfather) (Target): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (grandson): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.\nSpeaker A (grandfather): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.",
+    "target": "Speaker A (grandfather) (Target): Do you have a favorite chess piece or strategy that you like to use?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandfather): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.\nSpeaker B (grandfather): Do you have a favorite chess piece or strategy that you like to use?",
+    "target": "Speaker A (grandson) (Target): I really like using the knight for its unique movement. It can be quite tricky for the opponent!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Do you have a favorite chess piece or strategy that you like to use?\nSpeaker B (grandson): I really like using the knight for its unique movement. It can be quite tricky for the opponent!",
+    "target": "Speaker A (grandfather) (Target): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): I really like using the knight for its unique movement. It can be quite tricky for the opponent!\nSpeaker B (grandfather): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.",
+    "target": "Speaker A (grandson) (Target): Yeah, the bishop is great too! I love how it can control long diagonals.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandfather): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.\nSpeaker A (grandson): Yeah, the bishop is great too! I love how it can control long diagonals.",
+    "target": "Speaker A (grandson) (Target): Do you have a favorite opening move? I've been trying to learn more about them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Yeah, the bishop is great too! I love how it can control long diagonals.\nSpeaker A (grandson): Do you have a favorite opening move? I've been trying to learn more about them.",
+    "target": "Speaker A (grandson) (Target): I think the King's Gambit is really interesting, but it's a bit risky. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandson): Do you have a favorite opening move? I've been trying to learn more about them.\nSpeaker A (grandson): I think the King's Gambit is really interesting, but it's a bit risky. What do you think?",
+    "target": "Speaker A (grandson) (Target): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): I think the King's Gambit is really interesting, but it's a bit risky. What do you think?\nSpeaker A (grandson): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?",
+    "target": "Speaker A (grandson) (Target): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandson): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?\nSpeaker A (grandson): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.",
+    "target": "Speaker A (grandson) (Target): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.\nSpeaker A (grandson): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.",
+    "target": "Speaker A (grandson) (Target): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandson): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.\nSpeaker B (grandson): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?",
+    "target": "Speaker A (grandfather) (Target): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?\nSpeaker B (grandfather): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.",
+    "target": "Speaker A (grandson) (Target): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandfather): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.\nSpeaker B (grandson): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?",
+    "target": "Speaker A (grandfather) (Target): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?\nSpeaker B (grandfather): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.",
+    "target": "Speaker A (grandson) (Target): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandfather): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.\nSpeaker B (grandson): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?\nSpeaker B (grandfather): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!",
+    "target": "Speaker A (grandson) (Target): Haha, no worries! So, about the pawns, when do you think is the best time to advance them?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandfather): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!\nSpeaker B (grandson): Haha, no worries! So, about the pawns, when do you think is the best time to advance them?",
+    "target": "Speaker A (grandfather) (Target): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): Haha, no worries! So, about the pawns, when do you think is the best time to advance them?\nSpeaker B (grandfather): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandfather): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!\nSpeaker B (grandson): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?",
+    "target": "Speaker A (grandfather) (Target): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?\nSpeaker B (grandfather): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.",
+    "target": "Speaker A (grandson) (Target): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandfather): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.\nSpeaker B (grandson): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?",
+    "target": "Speaker A (grandfather) (Target): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?\nSpeaker B (grandfather): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.",
+    "target": "Speaker A (grandson) (Target): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandfather): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.\nSpeaker B (grandson): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?",
+    "target": "Speaker A (grandfather) (Target): Haha, you're getting really good at this! I better watch out or you'll be beating me soon!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?\nSpeaker B (grandfather): Haha, you're getting really good at this! I better watch out or you'll be beating me soon!",
+    "target": "Speaker A (grandson) (Target): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandfather): Haha, you're getting really good at this! I better watch out or you'll be beating me soon!\nSpeaker B (grandson): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!\nSpeaker B (grandfather): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandfather): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!\nSpeaker B (grandson): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?",
+    "target": "Speaker A (grandfather) (Target): That's right, it's all about anticipating your opponent. You're really grasping the concept well!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?\nSpeaker B (grandfather): That's right, it's all about anticipating your opponent. You're really grasping the concept well!",
+    "target": "Speaker A (grandson) (Target): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandfather): That's right, it's all about anticipating your opponent. You're really grasping the concept well!\nSpeaker B (grandson): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.",
+    "target": "Speaker A (grandfather) (Target): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker B (grandson): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.\nSpeaker A (grandfather): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!",
+    "target": "Speaker A (grandfather) (Target): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker B (grandfather): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!\nSpeaker B (grandfather): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.\nSpeaker B (grandfather): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.",
+    "target": "Speaker A (grandson) (Target): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.\nSpeaker B (grandson): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!",
+    "target": "Speaker A (grandfather) (Target): That's a good observation! Understanding the movement of each piece is key to mastering the game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandson): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!\nSpeaker B (grandfather): That's a good observation! Understanding the movement of each piece is key to mastering the game.",
+    "target": "Speaker A (grandson) (Target): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandfather): That's a good observation! Understanding the movement of each piece is key to mastering the game.\nSpeaker B (grandson): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.",
+    "target": "Speaker A (grandfather) (Target): I understand now. It's important to track your moves. You're really getting the hang of this!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandson): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.\nSpeaker B (grandfather): I understand now. It's important to track your moves. You're really getting the hang of this!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandfather): I understand now. It's important to track your moves. You're really getting the hang of this!\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.",
+    "target": "Speaker A (grandfather) (Target): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.\nSpeaker B (grandfather): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.",
+    "target": "Speaker A (grandson) (Target): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandfather): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.\nSpeaker B (grandson): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.",
+    "target": "Speaker A (grandfather) (Target): Yes, you can go first this time. Let's see how you strategize!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandson): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.\nSpeaker B (grandfather): Yes, you can go first this time. Let's see how you strategize!",
+    "target": "Speaker A (grandson) (Target): Alright, here goes! I'll try to surprise you with my first move.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandfather): Yes, you can go first this time. Let's see how you strategize!\nSpeaker B (grandson): Alright, here goes! I'll try to surprise you with my first move.",
+    "target": "Speaker A (grandfather) (Target): Well played! You really gave me a challenge there. Let's play another round!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandson): Alright, here goes! I'll try to surprise you with my first move.\nSpeaker B (grandfather): Well played! You really gave me a challenge there. Let's play another round!",
+    "target": "Speaker A (grandson) (Target): Alright, let's do it! I'm ready for another round.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandfather): Well played! You really gave me a challenge there. Let's play another round!\nSpeaker B (grandson): Alright, let's do it! I'm ready for another round.",
+    "target": "Speaker A (grandfather) (Target): It's all about positioning and strategy. You'll get the hang of it with more practice!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandson): Alright, let's do it! I'm ready for another round.\nSpeaker B (grandfather): It's all about positioning and strategy. You'll get the hang of it with more practice!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandfather): It's all about positioning and strategy. You'll get the hang of it with more practice!\nSpeaker B (grandson): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!",
+    "target": "Speaker A (grandfather) (Target): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!\nSpeaker B (grandfather): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!",
+    "target": "Speaker A (grandson) (Target): Alright, I'm feeling confident about my moves this game!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandfather): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!\nSpeaker B (grandson): Alright, I'm feeling confident about my moves this game!",
+    "target": "Speaker A (grandfather) (Target): I see you're thinking ahead. That's a smart move!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandson): Alright, I'm feeling confident about my moves this game!\nSpeaker B (grandfather): I see you're thinking ahead. That's a smart move!",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandfather): I see you're thinking ahead. That's a smart move!\nSpeaker B (grandson): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.",
+    "target": "Speaker A (grandfather) (Target): It's all about the rules of the game. Let's keep playing and see how it goes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.\nSpeaker B (grandfather): It's all about the rules of the game. Let's keep playing and see how it goes!",
+    "target": "Speaker A (grandson) (Target): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandfather): It's all about the rules of the game. Let's keep playing and see how it goes!\nSpeaker B (grandson): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!",
+    "target": "Speaker A (grandfather) (Target): I see, you're right. Let's focus on the next move then.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandson): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!\nSpeaker B (grandfather): I see, you're right. Let's focus on the next move then.",
+    "target": "Speaker A (grandson) (Target): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandfather): I see, you're right. Let's focus on the next move then.\nSpeaker B (grandson): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!",
+    "target": "Speaker A (grandfather) (Target): You're explaining the rules well. Let's see what move we can make next.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandson): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!\nSpeaker B (grandfather): You're explaining the rules well. Let's see what move we can make next.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandfather): You're explaining the rules well. Let's see what move we can make next.\nSpeaker B (grandson): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!",
+    "target": "Speaker A (grandfather) (Target): Oh, is that a new chess clock or something? That looks interesting!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!\nSpeaker B (grandfather): Oh, is that a new chess clock or something? That looks interesting!",
+    "target": "Speaker A (grandson) (Target): Yeah, it's a smart assistant that can help time our games and even answer chess questions.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandfather): Oh, is that a new chess clock or something? That looks interesting!\nSpeaker B (grandson): Yeah, it's a smart assistant that can help time our games and even answer chess questions.",
+    "target": "Speaker A (grandfather) (Target): I wonder what kind of help it can provide. Do you think it's useful for our practice?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandson): Yeah, it's a smart assistant that can help time our games and even answer chess questions.\nSpeaker B (grandfather): I wonder what kind of help it can provide. Do you think it's useful for our practice?",
+    "target": "Speaker A (grandson) (Target): I think it's pretty useful! It can keep track of our scores and even suggest puzzles.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker B (grandfather): I wonder what kind of help it can provide. Do you think it's useful for our practice?\nSpeaker A (grandson): I think it's pretty useful! It can keep track of our scores and even suggest puzzles.",
+    "target": "Speaker A (grandson) (Target): Plus, it's really cool to see how it tracks the board. It's like having a little helper.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker B (grandson): I think it's pretty useful! It can keep track of our scores and even suggest puzzles.\nSpeaker B (grandson): Plus, it's really cool to see how it tracks the board. It's like having a little helper.",
+    "target": "Speaker A (grandfather) (Target): It sounds like you're figuring it out well. Do you need any help with the next move?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Plus, it's really cool to see how it tracks the board. It's like having a little helper.\nSpeaker B (grandfather): It sounds like you're figuring it out well. Do you need any help with the next move?",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): It sounds like you're figuring it out well. Do you need any help with the next move?\nSpeaker B (grandson): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.",
+    "target": "Speaker A (grandfather) (Target): It seems like you're having fun with this. If you need any advice, just let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.\nSpeaker B (grandfather): It seems like you're having fun with this. If you need any advice, just let me know!",
+    "target": "Speaker A (grandson) (Target): I really appreciate it, Grandpa! It's been a blast exploring these chess features.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker B (grandfather): It seems like you're having fun with this. If you need any advice, just let me know!\nSpeaker A (grandson): I really appreciate it, Grandpa! It's been a blast exploring these chess features.",
+    "target": "Speaker A (grandson) (Target): By the way, have you ever used a digital chess assistant like this before?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker B (grandson): I really appreciate it, Grandpa! It's been a blast exploring these chess features.\nSpeaker B (grandson): By the way, have you ever used a digital chess assistant like this before?",
+    "target": "Speaker A (granddaughter) (Target): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker B (grandson): By the way, have you ever used a digital chess assistant like this before?\nSpeaker B (granddaughter): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?",
+    "target": "Speaker A (grandfather) (Target): Hello there! How are you doing today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker B (granddaughter): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?\nSpeaker B (grandfather): Hello there! How are you doing today?",
+    "target": "Speaker A (grandson) (Target): I'm doing great, Grandpa! Just excited about these new tools. How about you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker B (grandfather): Hello there! How are you doing today?\nSpeaker B (grandson): I'm doing great, Grandpa! Just excited about these new tools. How about you?",
+    "target": "Speaker A (granddaughter) (Target): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): I'm doing great, Grandpa! Just excited about these new tools. How about you?\nSpeaker B (granddaughter): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?",
+    "target": "Speaker A (grandson) (Target): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker B (granddaughter): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?\nSpeaker B (grandson): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!",
+    "target": "Speaker A (grandfather) (Target): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker B (grandson): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!\nSpeaker B (grandfather): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandfather): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?\nSpeaker B (granddaughter): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (granddaughter): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.\nSpeaker B (grandfather): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?",
+    "target": "Speaker A (granddaughter) (Target): Sure, let's try that! It might be a stronger move.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?\nSpeaker B (granddaughter): Sure, let's try that! It might be a stronger move.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker B (granddaughter): Sure, let's try that! It might be a stronger move.\nSpeaker B (grandfather): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're all working together well. I'm sure you'll master that strategy soon!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.\nSpeaker B (grandmother): It sounds like you're all working together well. I'm sure you'll master that strategy soon!",
+    "target": "Speaker A (grandfather) (Target): Thank you for the encouragement. We're getting there step by step.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandmother): It sounds like you're all working together well. I'm sure you'll master that strategy soon!\nSpeaker B (grandfather): Thank you for the encouragement. We're getting there step by step.",
+    "target": "Speaker A (grandmother) (Target): I'm so proud of how you're all practicing together. Keep it up!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): Thank you for the encouragement. We're getting there step by step.\nSpeaker B (grandmother): I'm so proud of how you're all practicing together. Keep it up!",
+    "target": "Speaker A (grandfather) (Target): Thanks, we're trying our best to solve these chess puzzles together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker B (grandmother): I'm so proud of how you're all practicing together. Keep it up!\nSpeaker A (grandfather): Thanks, we're trying our best to solve these chess puzzles together.",
+    "target": "Speaker A (grandfather) (Target): Let's keep going, maybe we can try a different approach to this opening.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker B (grandfather): Thanks, we're trying our best to solve these chess puzzles together.\nSpeaker B (grandfather): Let's keep going, maybe we can try a different approach to this opening.",
+    "target": "Speaker A (grandson) (Target): Great idea! Let's see if a new strategy works better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandfather): Let's keep going, maybe we can try a different approach to this opening.\nSpeaker B (grandson): Great idea! Let's see if a new strategy works better.",
+    "target": "Speaker A (grandfather) (Target): That's interesting! Show me what you've learned about this move.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandson): Great idea! Let's see if a new strategy works better.\nSpeaker B (grandfather): That's interesting! Show me what you've learned about this move.",
+    "target": "Speaker A (grandson) (Target): Alright, I'll give it a shot and see if this new method works.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandfather): That's interesting! Show me what you've learned about this move.\nSpeaker B (grandson): Alright, I'll give it a shot and see if this new method works.",
+    "target": "Speaker A (grandfather) (Target): Haha, that's a neat trick! But let's keep working together on the rest of the game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandson): Alright, I'll give it a shot and see if this new method works.\nSpeaker B (grandfather): Haha, that's a neat trick! But let's keep working together on the rest of the game.",
+    "target": "Speaker A (grandson) (Target): Sure thing, let's see how we can improve it together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandfather): Haha, that's a neat trick! But let's keep working together on the rest of the game.\nSpeaker B (grandson): Sure thing, let's see how we can improve it together!",
+    "target": "Speaker A (grandfather) (Target): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 95,
+    "context": "Speaker A (grandson): Sure thing, let's see how we can improve it together!\nSpeaker B (grandfather): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.",
+    "target": "Speaker A (grandson) (Target): Sounds like a plan! I'm excited to see the results.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 96,
+    "context": "Speaker A (grandfather): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.\nSpeaker B (grandson): Sounds like a plan! I'm excited to see the results.",
+    "target": "Speaker A (grandfather) (Target): Ah, I understand now. The king moves just like in chess, one step at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 97,
+    "context": "Speaker A (grandson): Sounds like a plan! I'm excited to see the results.\nSpeaker B (grandfather): Ah, I understand now. The king moves just like in chess, one step at a time.",
+    "target": "Speaker A (grandson) (Target): Exactly, and with practice, we'll get better at it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 98,
+    "context": "Speaker A (grandfather): Ah, I understand now. The king moves just like in chess, one step at a time.\nSpeaker B (grandson): Exactly, and with practice, we'll get better at it.",
+    "target": "Speaker A (grandfather) (Target): Oh, I see what you mean. The king steps carefully, just like in chess.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 99,
+    "context": "Speaker A (grandson): Exactly, and with practice, we'll get better at it.\nSpeaker B (grandfather): Oh, I see what you mean. The king steps carefully, just like in chess.",
+    "target": "Speaker A (grandson) (Target): Yes, and once we master this, we can try more complex strategies.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 100,
+    "context": "Speaker A (grandfather): Oh, I see what you mean. The king steps carefully, just like in chess.\nSpeaker B (grandson): Yes, and once we master this, we can try more complex strategies.",
+    "target": "Speaker A (grandfather) (Target): Ah, so the queen has more freedom to move around. That's interesting!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 101,
+    "context": "Speaker A (grandson): Yes, and once we master this, we can try more complex strategies.\nSpeaker B (grandfather): Ah, so the queen has more freedom to move around. That's interesting!",
+    "target": "Speaker A (grandson) (Target): Exactly, the queen's versatility makes her the most powerful piece on the board.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 102,
+    "context": "Speaker A (grandfather): Ah, so the queen has more freedom to move around. That's interesting!\nSpeaker B (grandson): Exactly, the queen's versatility makes her the most powerful piece on the board.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 103,
+    "context": "Speaker A (grandson): Exactly, the queen's versatility makes her the most powerful piece on the board.\nSpeaker B (grandfather): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!",
+    "target": "Speaker A (grandson) (Target): Yes, the king can only move one square at a time, but he's crucial for the game's outcome.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 104,
+    "context": "Speaker B (grandfather): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!\nSpeaker B (grandson): Yes, the king can only move one square at a time, but he's crucial for the game's outcome.",
+    "target": "Speaker A (granddaughter) (Target): I love how chess combines strategy and creativity. Do you play often, Grandpa?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 105,
+    "context": "Speaker B (grandson): Yes, the king can only move one square at a time, but he's crucial for the game's outcome.\nSpeaker B (granddaughter): I love how chess combines strategy and creativity. Do you play often, Grandpa?",
+    "target": "Speaker A (grandfather) (Target): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 106,
+    "context": "Speaker B (granddaughter): I love how chess combines strategy and creativity. Do you play often, Grandpa?\nSpeaker B (grandfather): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?",
+    "target": "Speaker A (grandson) (Target): A crumble sounds delicious! Maybe we can make it together after this match?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 107,
+    "context": "Speaker A (grandfather): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?\nSpeaker B (grandson): A crumble sounds delicious! Maybe we can make it together after this match?",
+    "target": "Speaker A (grandfather) (Target): Felicia... that's an interesting name. Was that the name of an old chess champion?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 108,
+    "context": "Speaker A (grandson): A crumble sounds delicious! Maybe we can make it together after this match?\nSpeaker B (grandfather): Felicia... that's an interesting name. Was that the name of an old chess champion?",
+    "target": "Speaker A (grandson) (Target): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 109,
+    "context": "Speaker A (grandfather): Felicia... that's an interesting name. Was that the name of an old chess champion?\nSpeaker B (grandson): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?",
+    "target": "Speaker A (grandfather) (Target): Ah, I must have misunderstood. Where was the rook supposed to be?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 110,
+    "context": "Speaker A (grandson): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?\nSpeaker B (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be?",
+    "target": "Speaker A (grandson) (Target): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 111,
+    "context": "Speaker A (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be?\nSpeaker B (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",
+    "target": "Speaker A (grandfather) (Target): Right, I see. So, what move are you planning to do next?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 112,
+    "context": "Speaker A (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.\nSpeaker B (grandfather): Right, I see. So, what move are you planning to do next?",
+    "target": "Speaker A (grandson) (Target): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 113,
+    "context": "Speaker A (grandfather): Right, I see. So, what move are you planning to do next?\nSpeaker B (grandson): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 114,
+    "context": "Speaker A (grandson): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.\nSpeaker B (grandfather): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 115,
+    "context": "Speaker B (grandfather): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?\nSpeaker B (grandson): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 116,
+    "context": "Speaker A (grandson): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.\nSpeaker B (grandmother): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?",
+    "target": "Speaker A (grandson) (Target): I hope so! I've been practicing a lot, so fingers crossed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 117,
+    "context": "Speaker B (grandmother): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?\nSpeaker A (grandson): I hope so! I've been practicing a lot, so fingers crossed.",
+    "target": "Speaker A (grandson) (Target): By the way, Grandma, do you have any tips for staying calm during a tough game?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 118,
+    "context": "Speaker B (grandson): I hope so! I've been practicing a lot, so fingers crossed.\nSpeaker B (grandson): By the way, Grandma, do you have any tips for staying calm during a tough game?",
+    "target": "Speaker A (grandfather) (Target): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 119,
+    "context": "Speaker A (grandson): By the way, Grandma, do you have any tips for staying calm during a tough game?\nSpeaker B (grandfather): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 120,
+    "context": "Speaker A (grandfather): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.\nSpeaker B (grandson): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!",
+    "target": "Speaker A (grandfather) (Target): Wow, you're really keeping track of every piece! You're doing great.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 121,
+    "context": "Speaker A (grandson): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!\nSpeaker B (grandfather): Wow, you're really keeping track of every piece! You're doing great.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate your support.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 122,
+    "context": "Speaker A (grandfather): Wow, you're really keeping track of every piece! You're doing great.\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate your support.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 123,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support.\nSpeaker B (grandfather): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.",
+    "target": "Speaker A (grandson) (Target): I'm glad you think so, Grandpa! I try my best to make the rules clear.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 124,
+    "context": "Speaker A (grandfather): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.\nSpeaker B (grandson): I'm glad you think so, Grandpa! I try my best to make the rules clear.",
+    "target": "Speaker A (grandfather) (Target): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 125,
+    "context": "Speaker A (grandson): I'm glad you think so, Grandpa! I try my best to make the rules clear.\nSpeaker B (grandfather): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate that. I just try to stay organized.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 126,
+    "context": "Speaker A (grandfather): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate that. I just try to stay organized.",
+    "target": "Speaker A (grandfather) (Target): Alright, let me try moving this knight right and see what happens. You're guiding me well!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 127,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate that. I just try to stay organized.\nSpeaker B (grandfather): Alright, let me try moving this knight right and see what happens. You're guiding me well!",
+    "target": "Speaker A (grandson) (Target): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 128,
+    "context": "Speaker A (grandfather): Alright, let me try moving this knight right and see what happens. You're guiding me well!\nSpeaker B (grandson): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.",
+    "target": "Speaker A (grandfather) (Target): Okay, I'm making the move now. Let's see what happens next!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 129,
+    "context": "Speaker A (grandson): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.\nSpeaker B (grandfather): Okay, I'm making the move now. Let's see what happens next!",
+    "target": "Speaker A (grandson) (Target): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 130,
+    "context": "Speaker A (grandfather): Okay, I'm making the move now. Let's see what happens next!\nSpeaker B (grandson): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.",
+    "target": "Speaker A (grandfather) (Target): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 131,
+    "context": "Speaker A (grandson): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.\nSpeaker B (grandfather): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.",
+    "target": "Speaker A (grandson) (Target): No problem, Grandpa! Just take it step by step and you'll get the hang of the game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 132,
+    "context": "Speaker A (grandfather): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.\nSpeaker B (grandson): No problem, Grandpa! Just take it step by step and you'll get the hang of the game.",
+    "target": "Speaker A (grandfather) (Target): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 133,
+    "context": "Speaker A (grandson): No problem, Grandpa! Just take it step by step and you'll get the hang of the game.\nSpeaker B (grandfather): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.",
+    "target": "Speaker A (grandson) (Target): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 134,
+    "context": "Speaker A (grandfather): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.\nSpeaker B (grandson): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.",
+    "target": "Speaker A (grandfather) (Target): I'm glad you're enjoying the chess lesson. It's fun to play together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 135,
+    "context": "Speaker A (grandson): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.\nSpeaker B (grandfather): I'm glad you're enjoying the chess lesson. It's fun to play together!",
+    "target": "Speaker A (grandson) (Target): Yeah, it's awesome playing with you, Grandpa! We make a great team.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 136,
+    "context": "Speaker A (grandfather): I'm glad you're enjoying the chess lesson. It's fun to play together!\nSpeaker B (grandson): Yeah, it's awesome playing with you, Grandpa! We make a great team.",
+    "target": "Speaker A (grandfather) (Target): Well, let's see what this bishop can do. Maybe he can pin the queen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 137,
+    "context": "Speaker B (grandson): Yeah, it's awesome playing with you, Grandpa! We make a great team.\nSpeaker B (grandfather): Well, let's see what this bishop can do. Maybe he can pin the queen.",
+    "target": "Speaker A (granddaughter) (Target): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 138,
+    "context": "Speaker A (grandfather): Well, let's see what this bishop can do. Maybe he can pin the queen.\nSpeaker B (granddaughter): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 139,
+    "context": "Speaker B (granddaughter): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!\nSpeaker B (grandfather): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!",
+    "target": "Speaker A (grandson) (Target): Yeah, Grandpa, and if we time the attack right, we can win the game!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 140,
+    "context": "Speaker A (grandfather): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!\nSpeaker B (grandson): Yeah, Grandpa, and if we time the attack right, we can win the game!",
+    "target": "Speaker A (grandfather) (Target): Thanks! I'll try to make a smart move with my knight now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 141,
+    "context": "Speaker A (grandson): Yeah, Grandpa, and if we time the attack right, we can win the game!\nSpeaker B (grandfather): Thanks! I'll try to make a smart move with my knight now.",
+    "target": "Speaker A (grandson) (Target): Great! Let's see if we can solve this chess puzzle together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 142,
+    "context": "Speaker A (grandfather): Thanks! I'll try to make a smart move with my knight now.\nSpeaker B (grandson): Great! Let's see if we can solve this chess puzzle together!",
+    "target": "Speaker A (grandfather) (Target): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 143,
+    "context": "Speaker A (grandson): Great! Let's see if we can solve this chess puzzle together!\nSpeaker B (grandfather): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! It's all about practice and having fun together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 144,
+    "context": "Speaker A (grandfather): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.\nSpeaker B (grandson): Thanks, Grandpa! It's all about practice and having fun together.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. I need to be careful with my next move then!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 145,
+    "context": "Speaker A (grandson): Thanks, Grandpa! It's all about practice and having fun together.\nSpeaker B (grandfather): Ah, I see. I need to be careful with my next move then!",
+    "target": "Speaker A (grandson) (Target): Alright, let's see if you can outsmart me this time!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 146,
+    "context": "Speaker A (grandfather): Ah, I see. I need to be careful with my next move then!\nSpeaker B (grandson): Alright, let's see if you can outsmart me this time!",
+    "target": "Speaker A (grandfather) (Target): Alright, let's see if I can make a move that surprises you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 147,
+    "context": "Speaker A (grandson): Alright, let's see if you can outsmart me this time!\nSpeaker B (grandfather): Alright, let's see if I can make a move that surprises you!",
+    "target": "Speaker A (grandson) (Target): Bring it on, Grandpa! I'm ready for your surprise move.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 148,
+    "context": "Speaker A (grandfather): Alright, let's see if I can make a move that surprises you!\nSpeaker B (grandson): Bring it on, Grandpa! I'm ready for your surprise move.",
+    "target": "Speaker A (grandfather) (Target): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 149,
+    "context": "Speaker B (grandson): Bring it on, Grandpa! I'm ready for your surprise move.\nSpeaker B (grandfather): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?",
+    "target": "Speaker A (grandmother) (Target): Oh, I love the Ghostbusters theme! What was your favorite part of that story?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 150,
+    "context": "Speaker A (grandfather): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?\nSpeaker B (grandmother): Oh, I love the Ghostbusters theme! What was your favorite part of that story?",
+    "target": "Speaker A (grandfather) (Target): I remember the original movie coming out. It's great to see new generations enjoying it too!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 151,
+    "context": "Speaker B (grandmother): Oh, I love the Ghostbusters theme! What was your favorite part of that story?\nSpeaker B (grandfather): I remember the original movie coming out. It's great to see new generations enjoying it too!",
+    "target": "Speaker A (grandson) (Target): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 152,
+    "context": "Speaker A (grandfather): I remember the original movie coming out. It's great to see new generations enjoying it too!\nSpeaker B (grandson): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!",
+    "target": "Speaker A (grandfather) (Target): It's wonderful to share these interests. What did you think of the new version compared to the original?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 153,
+    "context": "Speaker A (grandson): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!\nSpeaker B (grandfather): It's wonderful to share these interests. What did you think of the new version compared to the original?",
+    "target": "Speaker A (grandson) (Target): I think the new one was fun, but nothing beats the classic! The original had such a unique charm.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 154,
+    "context": "Speaker A (grandfather): It's wonderful to share these interests. What did you think of the new version compared to the original?\nSpeaker B (grandson): I think the new one was fun, but nothing beats the classic! The original had such a unique charm.",
+    "target": "Speaker A (grandfather) (Target): I was asking how you felt about the new one compared to the classic. Did you like it more or less?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 155,
+    "context": "Speaker A (grandson): I think the new one was fun, but nothing beats the classic! The original had such a unique charm.\nSpeaker B (grandfather): I was asking how you felt about the new one compared to the classic. Did you like it more or less?",
+    "target": "Speaker A (grandson) (Target): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 156,
+    "context": "Speaker A (grandfather): I was asking how you felt about the new one compared to the classic. Did you like it more or less?\nSpeaker B (grandson): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.",
+    "target": "Speaker A (grandfather) (Target): It sounds like we are both fans of the classics. Can you clarify which part you liked best?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 157,
+    "context": "Speaker A (grandson): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.\nSpeaker B (grandfather): It sounds like we are both fans of the classics. Can you clarify which part you liked best?",
+    "target": "Speaker A (grandson) (Target): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 158,
+    "context": "Speaker A (grandfather): It sounds like we are both fans of the classics. Can you clarify which part you liked best?\nSpeaker B (grandson): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. Are you talking about the plot now or a different strategy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 159,
+    "context": "Speaker A (grandson): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.\nSpeaker B (grandfather): Ah, I see. Are you talking about the plot now or a different strategy?",
+    "target": "Speaker A (grandson) (Target): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 160,
+    "context": "Speaker A (grandfather): Ah, I see. Are you talking about the plot now or a different strategy?\nSpeaker B (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",
+    "target": "Speaker A (grandfather) (Target): Alright, I misunderstood. Could you tell me more about what you liked about the cast?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 161,
+    "context": "Speaker A (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.\nSpeaker B (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast?",
+    "target": "Speaker A (grandson) (Target): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 162,
+    "context": "Speaker A (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast?\nSpeaker B (grandson): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.",
+    "target": "Speaker A (grandfather) (Target): I see, it sounds like a great film. Is there a board game for it too?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 163,
+    "context": "Speaker A (grandson): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.\nSpeaker B (grandfather): I see, it sounds like a great film. Is there a board game for it too?",
+    "target": "Speaker A (grandson) (Target): There might be, but I'm just talking about the movie. It's a film that I really love.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 164,
+    "context": "Speaker A (grandfather): I see, it sounds like a great film. Is there a board game for it too?\nSpeaker B (grandson): There might be, but I'm just talking about the movie. It's a film that I really love.",
+    "target": "Speaker A (grandfather) (Target): Thanks for clarifying. I'm curious, what chess opening are you playing now?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 165,
+    "context": "Speaker A (grandson): There might be, but I'm just talking about the movie. It's a film that I really love.\nSpeaker B (grandfather): Thanks for clarifying. I'm curious, what chess opening are you playing now?",
+    "target": "Speaker A (grandson) (Target): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 166,
+    "context": "Speaker A (grandfather): Thanks for clarifying. I'm curious, what chess opening are you playing now?\nSpeaker B (grandson): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.",
+    "target": "Speaker A (grandfather) (Target): I'm glad to hear that I could help you learn some moves. You're doing well!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 167,
+    "context": "Speaker B (grandson): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.\nSpeaker A (grandfather): I'm glad to hear that I could help you learn some moves. You're doing well!",
+    "target": "Speaker A (grandfather) (Target): If you ever need more tips or want to play another round, just let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 168,
+    "context": "Speaker B (grandfather): I'm glad to hear that I could help you learn some moves. You're doing well!\nSpeaker B (grandfather): If you ever need more tips or want to play another round, just let me know!",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 169,
+    "context": "Speaker A (grandfather): If you ever need more tips or want to play another round, just let me know!\nSpeaker B (granddaughter): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.",
+    "target": "Speaker A (grandfather) (Target): It sounds like you did win the last match! Congratulations! Was it a checkmate?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 170,
+    "context": "Speaker B (granddaughter): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.\nSpeaker B (grandfather): It sounds like you did win the last match! Congratulations! Was it a checkmate?",
+    "target": "Speaker A (grandmother) (Target): Oh, I'm so proud of you for winning! What strategy did you use to achieve that victory?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 171,
+    "context": "Speaker B (grandfather): It sounds like you did win the last match! Congratulations! Was it a checkmate?\nSpeaker B (grandmother): Oh, I'm so proud of you for winning! What strategy did you use to achieve that victory?",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandma and Grandpa! I was playing chess, and it was a tough but fun match!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

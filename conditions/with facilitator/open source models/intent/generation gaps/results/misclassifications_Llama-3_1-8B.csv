@@ -1,0 +1,48 @@
+model,file_index,file_name,turn_index,text,gold_label,predicted_label,error_type
+Llama-3_1-8B,1,results_file_1.json,47,,none,stereotyped expectation,none → stereotyped expectation
+Llama-3_1-8B,1,results_file_1.json,75,,none,ignored input,none → ignored input
+Llama-3_1-8B,1,results_file_1.json,207,,none,ignored input,none → ignored input
+Llama-3_1-8B,2,results_file_2.json,159,,none,ignored input,none → ignored input
+Llama-3_1-8B,2,results_file_2.json,193,,none,ignored input,none → ignored input
+Llama-3_1-8B,2,results_file_2.json,206,,none,ignored input,none → ignored input
+Llama-3_1-8B,3,results_file_3.json,24,,none,ignored input,none → ignored input
+Llama-3_1-8B,4,results_file_4.json,120,,none,stereotyped expectation,none → stereotyped expectation
+Llama-3_1-8B,4,results_file_4.json,126,,none,perceived disrespect,none → perceived disrespect
+Llama-3_1-8B,4,results_file_4.json,230,,none,digital disparity,none → digital disparity
+Llama-3_1-8B,5,results_file_5.json,1,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,5,results_file_5.json,7,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,5,results_file_5.json,9,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,7,results_file_7.json,49,,none,ignored input,none → ignored input
+Llama-3_1-8B,7,results_file_7.json,70,,none,ignored input,none → ignored input
+Llama-3_1-8B,8,results_file_8.json,36,,none,ignored input,none → ignored input
+Llama-3_1-8B,12,results_file_12.json,4,,none,ignored input,none → ignored input
+Llama-3_1-8B,14,results_file_14.json,33,,none,method divergence,none → method divergence
+Llama-3_1-8B,15,results_file_15.json,41,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,17,results_file_17.json,5,,none,ignored input,none → ignored input
+Llama-3_1-8B,23,results_file_23.json,68,,none,ignored input,none → ignored input
+Llama-3_1-8B,24,results_file_24.json,187,,none,ignored input,none → ignored input
+Llama-3_1-8B,24,results_file_24.json,189,,none,stereotyped expectation,none → stereotyped expectation
+Llama-3_1-8B,24,results_file_24.json,255,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,26,results_file_26.json,11,,none,method divergence,none → method divergence
+Llama-3_1-8B,27,results_file_27.json,4,,none,ignored input,none → ignored input
+Llama-3_1-8B,27,results_file_27.json,12,,none,method divergence,none → method divergence
+Llama-3_1-8B,29,results_file_29.json,3,,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,31,results_file_31.json,6,,none,method divergence,none → method divergence
+Llama-3_1-8B,31,results_file_31.json,90,,none,method divergence,none → method divergence
+Llama-3_1-8B,31,results_file_31.json,124,,none,method divergence,none → method divergence
+Llama-3_1-8B,33,results_file_33.json,14,,none,method divergence,none → method divergence
+Llama-3_1-8B,33,results_file_33.json,16,,none,digital disparity,none → digital disparity
+Llama-3_1-8B,46,results_file_46.json,5,"Target (grandmother): Oh, are you talking about your age, dear? You're growing up so fast!",none,stereotyped expectation,none → stereotyped expectation
+Llama-3_1-8B,51,results_file_51.json,10,Target (grandfather): I see you're keeping it simple today. Anything you'd like to share or talk about?,none,stereotyped expectation,none → stereotyped expectation
+Llama-3_1-8B,53,results_file_53.json,1,"Target (grandmother): Oh dear, I think you meant 'brake' instead of 'break'. It's important to use the right words, especially when driving.",none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,54,results_file_54.json,18,Target (grandmother): It seems like you're counting something. Are you practicing a dance or a routine?,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,60,results_file_60.json,39,"Target (grandson): Thanks! I've been practicing a lot, and your tips have been super helpful and Tronco Tronco.",none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,60,results_file_60.json,41,"Target (grandson): Oh, sorry! 'Tronco Tronco' is just a fun way to say something is really cool or awesome. It's kind of like saying 'super cool'!",none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,60,results_file_60.json,42,Target (grandson): Grandpa when do i need Left-handed instrument?,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,60,results_file_60.json,44,Target (grandson): Thanks for explaining that! I guess it's similar to how 'Tronco Tronco' is just a fun way to express excitement.,none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,60,results_file_60.json,48,"Target (grandson): Oh, sorry! I meant to say 'great' but it got cut off. My bad!",none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,70,results_file_70.json,10,"Target (grandmother): Oh, that buzzing sound is quite interesting! What does it mean?",none,slang mismatch,none → slang mismatch
+Llama-3_1-8B,95,results_file_95.json,8,"Target (grandfather): Oh, I see! So I can type a message in this box to say hello to everyone watching?",none,digital disparity,none → digital disparity
+Llama-3_1-8B,99,results_file_99.json,1,"Target (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",digital disparity,none,digital disparity → none
+Llama-3_1-8B,102,results_file_102.json,10,Target (grandson): I wanted to show you how I talk to people in the chat. It's really fun and interactive!,none,digital disparity,none → digital disparity
+Llama-3_1-8B,102,results_file_102.json,11,"Target (grandmother): Oh, I see. So the people watching might not see me here in the room?",none,digital disparity,none → digital disparity

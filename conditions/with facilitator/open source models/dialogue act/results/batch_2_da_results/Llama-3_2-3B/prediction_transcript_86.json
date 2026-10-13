@@ -1,0 +1,73 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 86,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, it sounds like you have something exciting planned for the weekend! What are you going to do?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm thinking of going to the new cinema with some friends. I'm just trying to figure out the best way to get there.",
+      "golden": "statement-non-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "The one by the old town loop? That's a nice area! Are you going with friends who know the way?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, I'm going with a few friends. We were looking at the map earlier to see if that loop is the quickest route.",
+      "golden": "answer",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Using the map on your phone is a smart choice these days. Just make sure your phone is charged so you don't lose your way!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That's a great point! I'll make sure to bring my portable charger just in case we need the directions later.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. Having a backup makes things simpler. Just be safe and mind the traffic on the road.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Do you have any other plans for the day after your little trip to the cinema?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Not really, just planning to relax and maybe catch up on some shows once I'm back home.",
+      "golden": "answer",
+      "predicted": "question",
+      "raw": "question"
+    }
+  ]
+}

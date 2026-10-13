@@ -1,0 +1,1927 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 100,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how's your day going?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "It's going well, thank you, dear! I'm glad we're out for this drive.",
+      "golden": "thank",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "But I think I'll stick to just driving for fun today, not work!",
+      "golden": "inform",
+      "predicted": "refuse",
+      "raw": "refuse"
+    },
+    {
+      "text": "That's great, Grandpa! Driving should be fun, not stressful.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh, I've been driving for over 40 years now! It's been quite the journey.",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Wow, that's impressive! You must have some amazing stories from all those years.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, it was quite different back then! We didn't have all these fancy gadgets in the car. It was more about basic skills and road sense.",
+      "golden": "explain",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "I bet it was! I can't imagine driving without GPS or backup cameras. How did you manage?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, it was a simpler time. We had to rely on our instincts more than technology.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's amazing how things have changed. Do you think driving was more enjoyable back then?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Oh yes, I remember my first car! It was a Ford Cortina. A real classic back in the day!",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "A Ford Cortina? That sounds cool! I wish I could see one in person.",
+      "golden": "praise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, it was a Ford Cortina. A real classic back in the day!",
+      "golden": "emphasize",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Maybe we can find one at a car show or museum sometime. That would be awesome!",
+      "golden": "plan",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Yes, it was quite the car back then. They don't make them like that anymore!",
+      "golden": "flaunt",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Yeah, they really had a unique style. I love how vintage cars have so much character.",
+      "golden": "agree",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "No, it was definitely a Ford Cortina. I remember it well.",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, a Ford Cortina! I've read about those. They seem really cool.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, you're right! Back then, we didn't have a theory test like you do now. It was much simpler.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Wow, that sounds so much easier! I can't imagine not having to study for a theory test.",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I did pass my practical on my first try! It was quite an experience.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "That's impressive! I hope I can pass on my first try too.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "No, I passed on my first try, dear. I was quite determined back then!",
+      "golden": "emphasize",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "I bet you were! I think I'll need some of that determination too.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh, I didn't fail, dear. I passed on my first try, remember?",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Right, you did mention that! I guess I just need to focus and practice more.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, back then, the test was more about practical driving skills rather than theory. I guess things have changed a lot since then!",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it seems like there's a lot more to study now. Do you have any tips for staying focused?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, that's interesting about your studies! I suppose some things like focus never change.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, I guess some things do stay the same. Thanks for the advice, Grandpa!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh no, I didn't have any issues with stopping safely. I was quite careful!",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's good to hear! I guess being careful is key. Do you think it's different now with all the technology?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No, dear, I remember stopping just fine. Maybe you're thinking of someone else?",
+      "golden": "confirm",
+      "predicted": "doubt",
+      "raw": "doubt"
+    },
+    {
+      "text": "Oh, I might have mixed it up. But yeah, technology has changed a lot of things, don't you think?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you, dear. It's nice to know you have faith in my driving skills!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Of course, I trust you completely! But I do wonder how you feel about all the new gadgets in cars these days.",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "I appreciate that, dear. It's always good to have a little boost of confidence.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad to hear that! So, have you tried using any of those new features in your car?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That sounds like a good idea, dear. I'm always open to learning new things.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's great to hear! If you need any help figuring out those features, just let me know.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, how exciting! I'm honored to be the one to show you my car's features. Let's get started then!",
+      "golden": "agree",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "I'm really excited for you to try it out! Let me know how it goes.",
+      "golden": "comfort",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That's wonderful, dear. I'm sure these new pedals will make the drive even smoother.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you think so! I hope you enjoy the drive.",
+      "golden": "comfort",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Yes, I do feel a bit nervous about the carriageways, but I'm sure with your help, I'll manage just fine.",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Don't worry, I'll be right there to guide you through it. You'll do great!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thank you for being so supportive, dear. I'm sure it will be a great experience.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm really looking forward to it too. Let's make it a fun day!",
+      "golden": "plan",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh, I'm sure I will! Let's get going then, shall we?",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Absolutely, let's head out and have a blast!",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "No, I'm not quite used to these touchscreens yet, but I'm eager to learn. Thank you for your patience.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem at all, I'm happy to help you with anything you need.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Ah, yes, I see that button now. Thank you for pointing it out. I'm ready to give it a try.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Great! Let's get started whenever you're ready.",
+      "golden": "arrange",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I see it now. Thank you for showing me. I'm ready to try it out.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Awesome! Just let me know if you need any more help along the way.",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Oh, I see what you mean. Let me give it a try and see how it goes.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing great! I'm here if you need anything.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, I didn't realize it was so advanced! Thank you for explaining it to me. I'll try to get the hang of it.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I appreciate your patience with me. It's all quite fascinating, really.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you're finding it interesting! Let me know if you want to explore more features together.",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "No problem at all! I'm always here to help you out.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "If you ever have any questions or need more help, just let me know. I'm happy to assist!",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yes, I did have a Golf once! It was a lovely car, very reliable.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "That's awesome! I bet it brought back some great memories.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, thank you, dear! I'm feeling just fine. Let's enjoy the ride together.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to hear that! It's always nice to spend time together.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Don't worry, I'll keep it nice and steady. Safety first!",
+      "golden": "comfort",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Thanks for being so careful, Grandpa. I really appreciate it.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, I'll make sure to stick to 30 mph here. We want to enjoy the ride safely.",
+      "golden": "confirm",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Sounds perfect, Grandpa. Let's enjoy the ride!",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I love spending time with you like this, Grandpa. It's always so relaxing.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh yes, I remember that day. It was quite a scare, but thankfully we were alright. Let's focus on having a safe drive today.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's amazing how time flies, isn't it? I'm glad we're here together now, making new memories.",
+      "golden": "care",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Absolutely, Grandpa. I'm so grateful for these moments with you.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, it was in the old Golf. Those were some nerve-wracking moments, but we got through it together. Let's keep our eyes on the road.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I'm really enjoying this drive with you, Grandpa. It's nice to have these peaceful moments together.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh yes, technology has come a long way since then. Those cameras are everywhere now, keeping an eye on things. It's quite different from when I first learned.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it's amazing how much things have changed. I can't imagine driving without all these gadgets now.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Those cameras are used for monitoring traffic and ensuring safety on the roads. They help in managing traffic flow and can also be used for security.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "It's great that they help with safety, but sometimes it feels like we're being watched all the time.",
+      "golden": "doubt",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "Ah, that yellow box is likely a speed camera. They are used to monitor and enforce speed limits to keep everyone safe on the road.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "I get that they're for safety, but it still feels a bit invasive sometimes. Do you think there are too many cameras around?",
+      "golden": "asking for opinions",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "You should only stop in a yellow box if your exit is clear and you won't block the intersection. It's important to keep the traffic flowing smoothly.",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "I see, but sometimes it feels like there are too many rules to remember. Do you think it's getting a bit too much?",
+      "golden": "asking for opinions",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "It sounds like you're learning a lot about driving rules. I'm proud of you for taking it seriously.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, I'm trying my best to keep up with everything.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's right, dear. It's good to see you're understanding the rules. It makes driving safer for everyone.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I guess it does make sense. I'll keep practicing to get better at it.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, understanding these rules will make you a more confident driver. Keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, I'll keep working on it. I want to be as good as you someday.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "By the way, do you have any tips for parallel parking? I find it a bit tricky.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "That's a very important skill to master. I'm glad you're taking it seriously. Since we're driving near the theater, maybe we can plan to see a musical soon?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, I'd love to go to the musical with you! And about parallel parking, any advice would be great.",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "asking for help"
+    },
+    {
+      "text": "Thanks for planning the musical with me! I'm really looking forward to it. And if you have any tips on parallel parking, I'd appreciate it.",
+      "golden": "ask for help",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I really appreciate you taking the time to plan the musical with me. It's going to be so much fun! And if you could share any parallel parking tips, that would be awesome.",
+      "golden": "ask for help",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, Pascal, is it? You're always full of surprises!",
+      "golden": "praise",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Haha, yeah, I like to keep things interesting! So, any parallel parking tips you can share?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Of course, dear! One big tip is to line up your back bumper with the car in front before you start cutting the wheel.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That makes sense! I'll try to visualize that next time. It's been a bit tricky for me lately.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "And remember to check your mirrors constantly. It’s all about the angles and taking it slow.",
+      "golden": "advise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Glad I could help! So, once I'm at that 45-degree angle, when should I start straightening out?",
+      "golden": "ask for help",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "You want to start straightening when your front door passes the back bumper of the car ahead.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandma! But I'm still curious—do you prefer using the mirrors or looking over your shoulder?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "That makes sense, dear. I usually do a bit of both to make sure I don't miss anything in the blind spot.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you found it helpful! I'll keep practicing those angles like you suggested.",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It really is a skill, but I'll try to be more mindful of my speed. Thank you for practicing with me.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Grandma, I really appreciate your advice. Could you please share how you judge the distance to the curb?",
+      "golden": "ask for help",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, you're too kind! I usually look at where the curb meets the bottom of my side mirror.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I know you'll have some great tips for me. Let me know when you're ready to show me in person.",
+      "golden": "praise",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "That's good to know. I'll be careful and keep practicing that curb distance. Thank you for all your help, dear.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help. Just let me know when you're ready for our next drive.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. I'll make sure to keep that in mind and practice more. Thank you for your advice!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great, Grandma! Whenever you're ready, I'm all ears for those parallel parking tricks.",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I didn't know that about the steering wheel lock! Thank you for explaining, dear. I'll watch for that.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm glad I could help. Let me know if you need anything else about the car controls.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I see, dear. I'll make sure to pay attention to those little things during my practice. Thank you for being so patient with me.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help you out with the maneuvers.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, I see. I'll definitely be careful to stay within the lines during the bay park. Thank you for explaining it so clearly, dear.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad I could help, Grandma. Just let me know if you have any more questions about the parking criteria.",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That's a relief to hear! I'll try to relax a bit more today then. Thank you for the reassurance, dear.",
+      "golden": "thank",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm really glad to hear that, Grandma. Enjoy your day and take the driving easy!",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I think I'd like to try a forward bay park today. It seems a bit easier for me to handle.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That sounds like a great idea, Grandma! If you need any tips on the reference points, just let me know.",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, here I go! I'll give it my best shot at this parking spot.",
+      "golden": "inform",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Good luck, Grandma! I'm sure you'll do great. Just take your time with the steering.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thank you, dear! I haven't used a reverse camera before, but it sounds quite handy for this.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yeah, it's really useful once you get the hang of it. If you want, I can show you the grid lines on it.",
+      "golden": "plan",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Alright, I'll give the camera a try. Thank you for guiding me through this technology.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm always here to help you out with the modern features.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yes, I see the lines on the screen! Thank you for your help, dear.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad it's working for you, Grandma! If you have any more questions about the display, just let me know.",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Well, I suppose if they're already on the road, they might have the priority at this junction. Could you explain it to me?",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Sure, Grandma! When you're at an intersection, the car already on the main road usually has the right of way. Yielding is key.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, it does seem right. Thank you for clarifying that right of way for me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help with the rules of the road.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll give the reverse park a try. It's nice to have the camera for extra help with the distance.",
+      "golden": "acknowledge",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's great, Grandma! The camera can definitely make things easier. Just take your time and follow the guidelines.",
+      "golden": "comfort",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "If you need any more help with the sensors or the display, just let me know. I'm happy to assist!",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Alright, I'm turning to the right now. Thanks for guiding me through this corner.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing great, Grandma! I'm here if you need any positioning advice.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, I thought I needed to signal earlier. Thanks for letting me know. I'll go left now.",
+      "golden": "acknowledge",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "No problem, Grandma! Just remember to signal before you reach the turn so others know your plan.",
+      "golden": "warn",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I guess I signal now because there's no other traffic around us right now. But it's always good to be cautious.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, it's always better to build the habit. You're doing great with the steering!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, I remember those hand signals! It's amazing how things have changed with indicator lights over the years.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's true, technology and rules have evolved so much. Do you find it easier now with all the new dashboard gadgets?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yeah, I think the new gadgets make things a lot easier, especially with navigation and safety features like blind-spot alerts.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Back then, not all cars had indicator lights, so drivers used hand signals to show where they were going. It was a different time!",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Wow, that's really interesting! I can't imagine having to roll down the window every time I wanted to turn.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "To signal a left turn, you would extend your left arm straight out. It was quite the workout in heavy traffic!",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That sounds like it would have been quite a challenge in the winter! I'm glad we have it easier now.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Well, it was a bit tricky, but drivers were more attentive back then because they had to watch each other so closely.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I guess that makes sense. It's interesting how driving safety has evolved through technology.",
+      "golden": "agree",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "It's fascinating how things have changed, isn't it? I'm glad we have modern safety standards now.",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yeah, it's amazing how technology has made things so much more reliable for everyone on the road.",
+      "golden": "agree",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Oh yes, to signal slowing down, you would move your arm up and down. It was like a little dance for the car behind!",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That sounds fun! I can't imagine doing that while trying to brake during a driving test today.",
+      "golden": "joke",
+      "predicted": "doubt",
+      "raw": "doubt"
+    },
+    {
+      "text": "It's really interesting to hear about those old methods. Do you have any other driving stories like that?",
+      "golden": "ask for help",
+      "predicted": "inform",
+      "raw": "ask for more information"
+    },
+    {
+      "text": "Wow, that's fascinating! I love hearing about how things were done differently. It's like a glimpse into a different era of driving.",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I'm feeling a bit nervous about the highway, but I know you'll be a good guide. It's always a bit daunting at first.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your trust in me. It means a lot.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Do you have any advice for handling nerves behind the wheel? I could use some tips for my own test.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I guess it's just about consistent practice and getting used to the car's size, right?",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, that's so sweet of you to say! I'm sure you'll be a fantastic instructor when you're older.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! That means a lot. I'll keep practicing and hopefully get as good as you.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh dear, I guess I need more practice with the hill starts then! But I'm sure with your help, I'll get there soon.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Of course, Grandma! I'm always here to help you out. We can practice the hill starts together tonight.",
+      "golden": "comfort",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Well, I appreciate your high standards for safety. It means I'll be well-prepared when I go for my renewal.",
+      "golden": "praise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Thanks, Grandma! I'm glad you think so. Let's keep working on the observation skills and we'll both improve.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a great approach. Keeping it strictly by the book will make the real test feel like a breeze!",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I'm sure it will, Grandma! I'm really looking forward to our next highway session.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh yes, I do love driving up Bluewood! It's such a beautiful view. I'm glad you're helping me get back my confidence.",
+      "golden": "thank",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm happy to help, Grandma! It's always fun driving with you. Maybe we can try the mountain road next time?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, I see the edge of the road. I'll make sure to stay centered in the lane. Thank you for pointing that out.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great! I'm sure you'll do just fine with the lane keeping. Let me know if you want to practice more merges.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, it can be a bit nerve-wracking to merge, but with your guidance, I'm sure I'll manage just fine. I'll merge when I see a clear gap.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm glad to hear that, Grandma! Just match the speed of traffic and remember I'm here to help you spot a gap.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I did check my blind spot before that lane change. Thank you for reminding me, it's always important.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's great to hear, Grandma! Always better to be safe than sorry. Let me know if you want to try some more maneuvers.",
+      "golden": "advise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "The blind spot is an area around the car that you can't see in your mirrors. It's important to turn your head quickly before moving.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Thanks for the explanation, Grandma! It's a great reminder for why shoulder checks are mandatory.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, it's crucial to always be aware of your surroundings while driving.",
+      "golden": "emphasize",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "Got it, I'll make sure to keep that in mind when I'm driving later. Thanks again for the great tips!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, that's right. It's always good to be extra careful and double-check those hidden areas.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Absolutely, I'll be sure to stay vigilant. Thanks for teaching me your safety habits!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thank you for the tip about the digital speedometer, dear. I'll make sure to keep an eye on it.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm glad we can help each other out with the driving lessons.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, the steering here is quite similar to my old car. I'm getting the hang of it, thanks to your help.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm really happy to hear that, Grandma! If you need any more help with the car's features, just let me know.",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "It's nice to have you here guiding me. I feel much more confident in traffic now.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm so glad to hear that, Grandma! It's always fun spending time on the road with you.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yes, it has been quite a while since I last drove on this road.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's great that you're getting back into it. If you want, we can go for a drive together more often.",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Thank you for the advice, dear. I'll make sure to change lanes only when it's safe and the lines are broken.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help if you need anything.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, I think that's called the passing lane, isn't it?",
+      "golden": "confirm",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yes, that's right! The passing lane is for overtaking other cars.",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see. Thank you for explaining that to me. I'll keep it in mind during my test.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! If you have any more questions, just let me know.",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "By the way, how's your driving practice going? Are you feeling more confident?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I am feeling better, though I'll slow down a bit now. Thank you for keeping an eye on the speed for me.",
+      "golden": "thank",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "You're doing great, Grandma! Just keep practicing and you'll get the hang of it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, I think that sign means the speed limit is about to change, doesn't it?",
+      "golden": "confirm",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yes, it usually means the speed limit is about to change. Just keep an eye on the signs.",
+      "golden": "confirm",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Oh, I believe it's 60 miles per hour on a single carriageway, isn't it?",
+      "golden": "confirm",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yes, that's right, Grandma. It's 60 miles per hour on a single carriageway.",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll speed up a bit and see if we can safely overtake the lorry.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Okay, just make sure to check your mirrors and signal before you do.",
+      "golden": "warn",
+      "predicted": "warn",
+      "raw": "warn"
+    },
+    {
+      "text": "Alright, I'll increase the speed a bit more and see if we can safely overtake the lorry.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great, just be careful and take your time.",
+      "golden": "warn",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Alright, I'll make sure to stay under 70 and move back to the left lane after overtaking.",
+      "golden": "confirm",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "Sounds good, just keep an eye on the traffic around you.",
+      "golden": "warn",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "You're doing great, just stay focused and we'll be fine.",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "encourage"
+    },
+    {
+      "text": "If you need any help or advice, just let me know.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Alright, I'll make sure to do that. Safety first, always.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Great! I'm glad we're on the same page about safety.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, it's important to be considerate to other drivers. I'll make sure to adjust my speed accordingly.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's great to hear! Let me know if you want to practice driving together sometime.",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "By the way, have you tried using the new navigation app I mentioned? It's really helpful.",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Thank you for the advice, dear. I'll make sure to stay in the lane if I feel unsure.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem! If you need any help with the app, just let me know.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, it does feel a bit chilly in the car. Maybe we should turn up the heat a little.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, I can adjust the thermostat for you. Just let me know if it feels better.",
+      "golden": "arrange",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yes, speeding can be quite dangerous. It's always better to be safe and cautious.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Absolutely, I always try to drive carefully. Safety first!",
+      "golden": "emphasize",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I'm glad we agree on being cautious. It's always better to arrive safely.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Exactly, better safe than sorry. Thanks for always reminding me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thank you, dear. That means a lot to me. I'm always trying to be careful on the road.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad we both prioritize safety. It's important to me too.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. Driving can be intimidating for some people, but with practice, it becomes easier.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yeah, I guess practice does make perfect. I'll keep at it.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "By the way, do you have any tips for staying calm while driving?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Oh, you cheeky one! I suppose I can whip up something special for you to reward your hard work.",
+      "golden": "joke",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Haha, thanks! I could use a nice treat after all this driving.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, that's right! I'll make a delicious peas dish. I'll make sure to include it in our meal.",
+      "golden": "confirm",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That sounds amazing! I can't wait to try it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you're looking forward to it! I'll start preparing soon.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Awesome! Let me know if you need any help with the preparation.",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "Oh, you're making me blush! Thank you, dear. I'll do my best to live up to that praise.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "You're the best, Grandma! I'm sure it'll be delicious.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Well, dear, I think it's a mix of experience and a lot of love put into every dish.",
+      "golden": "explain",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "That's why your cooking is unbeatable! I can't wait to try it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "You're too kind, dear. I'm just happy you enjoy my cooking so much.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I always do, Grandma! Can I help with anything?",
+      "golden": "ask for help",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Is the road ahead clear? I hope everything's okay with the traffic there.",
+      "golden": "care",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yeah, the traffic can be a bit crazy sometimes. But I'm sure it'll be fine. Do you need me to pick up anything for dinner on our way?",
+      "golden": "ask for help",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I see! Thank you for explaining that to me, dear. I'll keep an eye out for those markings next time.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm glad I could help. Let me know if there's anything else you need.",
+      "golden": "acknowledge",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Ah, I see what you mean now. It's quite fascinating how these road markings work. Thank you for showing me, dear.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you found it interesting, Grandma! If you ever want to go for a drive and see more, just let me know.",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Thank you for explaining all of this to me, dear. It's quite helpful to understand how these things work.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help you out with anything you need.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Alright, dear, I'll keep an eye out for the Bluewater sign. Thank you for guiding me.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see the Bluewater sign now! Thank you for pointing it out, dear.",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad you found it, Grandma! If you need any more directions, just let me know.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yes, I can see the little green studs on the road now. Thank you for explaining it so clearly, dear.",
+      "golden": "confirm",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Ah, I understand now. It's all making sense, thanks to your help.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm really glad I could help, Grandma. If you ever need anything else, just ask!",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thank you, dear, for being so patient and explaining everything so clearly.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always happy to help you out.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, I know how to get to the Marks & Spencer nearby. A quick coffee sounds lovely.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm really looking forward to our coffee together. It's always nice to spend time with you.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I'm looking forward to it too, Grandma! It's always a pleasure to catch up with you.",
+      "golden": "care",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh, that's interesting! I didn't realize modern cars had such sensors. Technology has come such a long way.",
+      "golden": "acknowledge",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yeah, it's amazing how much technology has advanced. Cars can do so many things now!",
+      "golden": "emphasize",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Oh my, that sounds like quite the adventure! I suppose I should give it a try sometime.",
+      "golden": "joke",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I must say, technology never ceases to amaze me. It's wonderful how cars have become so advanced.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it's pretty cool! Maybe I can show you some of the features next time.",
+      "golden": "invite",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "That sounds very helpful indeed. I might need a lesson on all these new car features one day.",
+      "golden": "ask for help",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'd be happy to give you a tour of all the new features. It's really not as complicated as it seems!",
+      "golden": "comfort",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That's a great tip! I'll have to remember that next time I'm driving. Thank you for sharing your knowledge with me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! I'm always here to help if you need anything else.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, my driving instructor was quite the character! He was very patient and always had a story to tell. Driving lessons were never boring with him around.",
+      "golden": "introduce",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "He sounds like a fun instructor! It's great when learning is enjoyable. Do you have any funny stories from your lessons?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, he really was! I learned a lot from him, and he made the experience enjoyable.",
+      "golden": "confirm",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you had such a positive experience! It's important to have good memories from learning something new.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, his name was Mr. Thompson. He was quite memorable!",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Mr. Thompson sounds like a great teacher! Did he have any unique teaching methods?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, he did. He had a knack for making lessons fun and informative.",
+      "golden": "confirm",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "That's awesome! It's great when teachers can make learning enjoyable. Do you remember any specific lessons that stood out?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "That's true! A good teacher or mentor is hard to replace. It's all about the trust and connection you build with them.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Absolutely, those connections make all the difference. Did you ever keep in touch with Mr. Thompson after your lessons?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's really nice to hear. It's always special when you can maintain those relationships. Did he have any impact on how you drive today?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's amazing! It's great to hear how instructors can have such a lasting impact. What was it about Mr. Thompson that influenced you the most?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I think it was his calm nature. A teacher should be supportive, not intimidating.",
+      "golden": "criticize",
+      "predicted": "criticize",
+      "raw": "criticize"
+    },
+    {
+      "text": "I completely agree. A supportive teacher can make all the difference in a student's life.",
+      "golden": "agree",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "It's understandable to feel protective of your students. Everyone has their own teaching style, but it's important to be patient and encouraging.",
+      "golden": "explain",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Absolutely, patience and encouragement can really help students thrive. Did you ever have a student who surprised you with their progress?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's amazing! It's always inspiring to hear about students who exceed expectations. What do you think made the difference for them?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I guess having a teacher who believes in you can really boost your confidence. Did you have any specific strategies to encourage them?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you for noticing. It's important to stay aware of our surroundings.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Of course, being attentive is key. Do you think that awareness helped you connect better with your students?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, especially when teaching. We check the left mirror and the rearview mirror before turning left. It's always good to double-check.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a good habit to have. I see how that discipline translates to your teaching. Did being aware help you connect with your students?",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you, dear. It's nice to hear that I'm doing well. Let's keep practicing together.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to practice with you, Grandma. It's always fun learning from you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad we're on the same page. It's always nice to have your support.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support too. Do you have any tips for staying motivated?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I think setting small goals and celebrating little achievements can help. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "I guess it's important to stay positive and keep pushing forward, even when things get tough.",
+      "golden": "emphasize",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That's very true. On a dual carriageway, we need to be extra cautious and maintain a safe distance from other vehicles.",
+      "golden": "inform",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "That's a good point, Grandma. I'll make sure to keep that in mind when I'm driving.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, generally, it's best to stay in the left lane unless you're overtaking. It keeps the traffic flowing smoothly.",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Thanks for the advice, Grandma. I'll definitely remember to stay in the left lane unless I need to overtake.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, it's important to pay attention to the road markings. They guide you safely and help avoid any trouble.",
+      "golden": "warn",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Got it, Grandma. I'll make sure to pay close attention to the road markings.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh dear, it's crucial to always stop at stop signs and obey traffic lights. They are there for everyone's safety.",
+      "golden": "warn",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Absolutely, Grandma. I'll be extra careful with stop signs and traffic lights.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you, dear. I'm glad you think so. It's always important to keep improving.",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thanks, Grandma. I really appreciate your advice and support.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Well, I think I might need a bit more practice before I feel completely comfortable driving to Bloor on my own.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I can help you practice if you'd like. We can take it slow and go over the route together.",
+      "golden": "comfort",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That sounds like a wonderful idea. I would appreciate another lesson with you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "When would you like to schedule the next lesson?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "How about this weekend? We can go for a drive on Saturday morning.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "You're welcome, dear. I'm glad we could spend this time together. Let me know when you're ready for the next lesson.",
+      "golden": "leave",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm ready whenever you are! How about we meet at 9 AM on Saturday?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    }
+  ]
+}

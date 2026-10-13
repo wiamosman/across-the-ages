@@ -1,0 +1,90 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 13,
+    "utterances": [
+        {
+            "text": " Kim, I think we should make a traditional Passover breakfast or lunch dish. I even like it for dinner, called matzah brie. Those who don't know, matzah is an unleavened bread, right? Which we love. And you break up one piece of matzah into several smaller bite pieces. And then we put some hot water on it and let it just soak a minute so they get soft.",
+            "golden": "plan",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me with",
+            "status": "WRONG"
+        },
+        {
+            "text": "doing it ",
+            "golden": "acknowledge",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": " That's perfect. We scramble up two eggs. We'll crack them. Crack them. You beat up the eggs and make it all, you know, fluffy. Put a little salt in there while you're doing that. It's got the salt in there. I'm gonna use sea salt",
+            "golden": "plan",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes,Everybody's worrying about different kinds of salts now",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: I'll make sure",
+            "status": "CORRECT"
+        },
+        {
+            "text": "They are?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": " shake it up real good. So I'm gonna get rid of the extra water in the sink. Keep stirring. Make it fluffy. See, now the matzah's dry. And I think you can put the eggs. ",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Pour it? ",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yep, right on top. Perfect.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm here to",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then mix that up. So then you have your Whole thing. And it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. You don't like it too hard either. It's the easiest meal. A lot of people like jam on it.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'd really appreciate",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I do.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": " Strawberry jam or fig jam or whatever. I like it just plain. Perfect. Okay,  ",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm here to",
+            "status": "WRONG"
+        },
+        {
+            "text": "  good job. ",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I need help with this",
+            "status": "CORRECT"
+        }
+    ]
+}

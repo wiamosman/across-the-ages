@@ -1,0 +1,481 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 99,
+    "utterances": [
+        {
+            "text": "What's going on, guys? Welcome back to the channel. Today is pretty exciting because I'm going to be teaching my grandpa how to use a PC for the very first time. Now, he's never used a computer in his life, so it should be a pretty interesting video. And ever since I moved in with him about 2 years ago, he's been sort of surrounded by PC hardware. He's watched me you know, build sections of a PC here and there as I do it quite frequently. And I think all that exposure has gotten him curious about actually using one. So on occasion for the past few months, he would ask me if I could teach him how to use a computer. And I said, \"Sure, of course.\" And finally we're getting around to it today. I actually built him his own system, which is right here. You can go ahead and check out that build video if you haven't seen it yet. It's pretty fun, and I think it's a pretty pretty robust system that we have here for him, especially since he's mainly gonna be using the internet. But yeah, it should be pretty fun. My expectations for this are, I think since he's never really even touched a computer in his life, I think he's gonna be a bit overwhelmed by the whole thing. I think there are gonna be certain things that he's just been used to all his life doing analog, and now he's gonna have digital version of it, and I think it's gonna be a lot to unpack at first. But I think overall it's gonna be a positive experience for him. I think a small part of me hopes that he eventually becomes so proficient with PCs that he can then and help me with my YouTube channel. I mean, how awesome would that be if he could just handle all the gaming benchmarks from here on out? Although, he did recently leave tin foil in the microwave, so might have to rethink that idea. I don't really have any reservations about teaching him how to use a PC. I think my worst fear is that he just simply won't enjoy it or he'll find it too complicated and give up, and then I'll have no use for this system. I mean, literally, I'll just have to douse it in gasoline and light it on fire, which I never enjoy doing. So I think on that note though, I think we're ready to unveil this to him for the first time and get his reaction. That should be kind of fun. And then we'll just dive into some simple lessons, simple tutorials on just how to use a PC to get him up and running on his own two feet. So here we go, guys. Teaching my grandpa how to use a computer for the very first time. All right, Grandpa. Well, thank you very much for being here. I appreciate you being in one of my videos and taking the time out of your day. Are you ready to see your computer for the first time?",
+            "golden": "greet",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay, I'm gonna go ahead and unveil it for you. Here it is, I present to you your very first computer.",
+            "golden": "introduce",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Oh wow, beautiful.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "admire"
+        },
+        {
+            "text": "You like it?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Yeah, sure, yeah, boy.",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "I made it pretty for you.",
+            "golden": "flaunt",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Oh, you made it? GTX 1080?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah, you like it?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Why not 1080 Ti?",
+            "golden": "joke",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Uh, well, I just figured since you're browsing the web, let's just hook it up. Let's hook it up. So the first step is to turn the computer on. And what I'm gonna need you to do is stand up, and if you look on the top of the computer, that button right there, go ahead and press that.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Hmm.",
+            "golden": "acknowledge",
+            "predicted": "emphasize",
+            "raw": "emphasize"
+        },
+        {
+            "text": "Bravo, that was beautiful. Now you can see that the computer is loading up. It's booting up, so you have to give it a few seconds. It takes a while for it to fully prepare. Here we are. This is called the desktop. The desktop is basically the first screen that you see when you turn your computer on, and you can put different icons and different applications on your desktop. So the one that I have here for you right now is Google Chrome, and that's the program we use to access the internet. You're gonna wanna Put your hand on the mouse, and you're gonna wanna navigate over to that icon. With your index finger, click it twice in a row. There you go. This is your homepage. Your homepage is basically the website, the first website you see when you start browsing the internet. So right now your homepage is Google. It's a search website that allows you to search for anything. What would you wanna search for? Anything you want. Toy, toy.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Toys? Okay, so you can click in the box, the search box. Now you can start typing what you want to search for. So using the keyboard, you can type in \"toys.\" So go ahead and find the letters for that. Now you've entered the realm of online shopping here, which can be very addicting. So if you wanted to, The internet lets you buy certain products. Actually, there's a lot of products online that you can buy. So if you wanted to, you can add it to your cart. You know, like a shopping cart.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Obviously, when you're online, you don't have a physical shopping cart that you're pushing around, but the internet still calls it a cart because it's something we're familiar with.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "So if you wanted to buy the Bugs Bunny DVD, you could click \"Add to Cart,\" and then at that point it would ask you for your credit card information and your shipping address and things like that so that it can send you the DVD when it's ready.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "You can use credit card, huh?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah, you can use a credit card, exactly. So that's kind of a very basic overview of how to browse the web, just briefly. But there's a couple other things you can do, including email. So basically, email, just as a refresher, is kind of like writing someone a letter.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "But it's all done on the computer, and it's instantaneous. Anything that you write and send someone, they'll receive immediately.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "I don't understand how a letter gets anywhere without a stamp or a mailbox. If I type it here, how does it physically cross the city in a second? It sounds like magic tricks, not mail.",
+            "golden": "doubt",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "It's just data traveling through wires, Grandpa. It's not magic, it's just modern life. Everyone does it now.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Well, 'everyone' isn't sitting in this room. To me, it seems like we're just pretending to talk to people. If there's no paper, how do I know they actually got it?",
+            "golden": "oppose",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "You just have to trust the system. It's not that complicated, really. Let's just move on to the next part.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yes.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "And then they can then proceed to write you back immediately. If they want to. Sometimes they don't write back. And you just kinda sit there wondering why. But let's go ahead and get you registered with an email account. Now I've already created a bookmarks bar here for you. These are bookmarks. These allow you to access your frequently visited websites more easily. So I've already made a couple here. One's for your email. So if you ever want to look at your email, all you have to do is click it and it takes you to the Gmail inbox that we created for you. From here you can see all of your new emails. Obviously no one's emailed you yet because no one knows that you have an email address. And this is also where you can write emails. You can send emails to people. People. The way you do that is by clicking on the red compose button. Just a single click there. And now you see how this box has opened up?",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So that box is kind of like, it's kind of like your, the paper.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Oh, you can type in it?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "It's kind of like the paper that you're going to be writing on.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "I have to type, right?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yes, exactly. So you're going to have to type. And in order to send an email to anyone, you first need to know their email address. Kind of like a phone number, right?",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "So you want to send it to— let's do an email to me, all right?",
+            "golden": "arrange",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah. Subject is like the title of your letter or the title of your email. Yes.",
+            "golden": "acknowledge",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "And if you want, you can leave it blank, but it's generally a good idea to put something in here. That way when the person receives your email, they kind of know what it's about, right? Without having to read the whole thing. And then you have this big— the big window here, this big empty box where you can write anything you want. So you can write, \"Dear Kyle, you are my favorite grandson.\"",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "In fact, make that grandchild.",
+            "golden": "joke",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Stop telling me what to write like I'm in kindergarten. I know who my grandchildren are. You’re talking to me like I’ve lost my mind just because I don't know where the 'Shift' key is.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "I'm just trying to make the video fun, Grandpa! My viewers like it when I explain things simply. It’s for the channel.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "The channel? I thought you were teaching *me*. If you want a puppet for your show, go buy one. I’m a man, not a character for your 'fans' to laugh at.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "How come you make the big letter and you big letter and how you make the big letter?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Oh, how do you make it capitalized?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So the way you do that is you hold Shift and then press the key.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "So like a little T would just be hitting it like that, but a big T would be holding Shift and then hitting T. And once you've got everything there, you can just click the blue Send button right here. You just click it, and it'll say right here in this yellow box, it says, \"Your message has been sent.\" So that means probably within a few seconds, the recipient will have received the email you just wrote. So I can actually check right now on my phone to see if I got your email. Yep, there it is. It says, \"Dear Kyle, you're my favorite grandson. In fact, make that grandchild, period.\" So thank you. That was a beautiful— it's the nicest email I've ever gotten. So now let's talk about YouTube briefly and how to use that, 'cause it's a glorious platform that allows you to watch a lot of useless videos for free. Unless it's Bitwit Ultra. That's $1.50 a month. First 2 weeks are free though. So to access YouTube, you can see I've also added a bookmark for you right here where it says YouTube. So you can just click that and it'll take you Right there. What's something that you might want to see a video of on YouTube? It could be anything you want.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "These are all videos?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, those are all videos.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "I have a hard time to see. How about trending?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Trending? Nothing good is ever on trending, so you want to avoid trending at all costs. It's a long story to get into right now, but let's search for monkeys. So The internet's smart, right? So if you start typing in monkey, you'll see all of these other suggestions pop up. Basically, the internet, or YouTube, is trying to guess what you're about to type based on what other people in the past have searched for. So you've got monkeys jumping on the bed, monkey eating a banana, monkey on the car, monkey throws poop at grandma.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Hmm. I like that one. There you go.",
+            "golden": "agree",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Alright, so go ahead and click on the first one. And now we can watch a video of a monkey throwing poop at Grandma. Not my grandma, not our grandma, of course. But there he did it, he just threw the poop. Oh no! It's on the ground! And then there's a guy laughing at her. That's rude. That was, uh, you just watched, those are 20 seconds you can never get back. But welcome to the internet. What's a song that you enjoy?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Elvis.",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "Elvis?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Okay, so why don't we do that? Why don't we go ahead and click in the search bar right here.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Enter. Yep. Yeah, you're getting the hang of it. Okay, now I've got my little mini speaker connected, so go ahead and hit the play button. Play button, the little triangle. So, do you know this song?",
+            "golden": "asking for opinions",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You do?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So now you can listen to the song and you can actually watch this anytime, and you can watch it as many times as you want. There's probably a 10-hour version of it somewhere. So yeah, I mean, this is pretty much what YouTube's good for. Watching— it's for entertainment a lot of the time.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes. Or education as well, kind of like what I do. So before I get flagged for copyright infringement, let's go ahead and pause this. Okay, Grandpa, I think we've learned a lot today, and this is probably a lot to take in for you, but you did really good. Honestly, I think you're going to be a computer whiz in no time. So before we close out the video, I want to quickly just show you how to shut the system down, or how to turn the computer off. The best way to do that, first of all, is grab the mouse, and to close this window, to close the internet, you want to highlight the big X that's in the very far top right corner, and then you wanna go to the very bottom left corner where you see that little white square. Go ahead and click that. Beautiful. You'll see that it says Power right there. So you wanna click where it says power, 'cause you actually wanna power the computer down. So click that. There you go. And you should see an option for shut down. I might have to enlarge the text for you because it's a little bit tiny. I didn't really take that into consideration. We are using a 1080p monitor, so I felt the scaling wouldn't be quite as awful if we were doing something like 4K. But after you click shut down, you'll see that your monitor and your computer will turn off.",
+            "golden": "praise",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh, you don't have to press the button, huh?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Nope. In fact, it's generally a better idea to use the mouse in order to shut everything down through the software. So I think we have learned quite a bit today. We've covered a lot of ground, and you did really well. You were absolutely fantastic. I'm pretty sure that you're gonna be a computer be a computer whiz in no time. But what did you think about your first computer experience today?",
+            "golden": "asking for opinions",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "I think I like it.",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "You like it?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Which part that I showed you today did you like the most?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "YouTube.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "You liked YouTube?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, YouTube's pretty awesome. It's got that visual element and there's definitely a lot that can be seen.",
+            "golden": "agree",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "And unseen. The email too is very useful. I think you're gonna really enjoy that once you start messaging your friends back and forth. But on that note, Grandpa, thank you so much again for being a part of this little video. I really do appreciate it.",
+            "golden": "thank",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Thank you.",
+            "golden": "thank",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "And hopefully you enjoy your new computer from here on out. Maybe we'll do another lesson. Maybe we'll do a lesson 2 if there's enough demand for it. I don't know. Leave your guys' feedback in the comments below and be sure to toss me a like on the video if you enjoyed it, and congratulate my grandpa for his first PC endeavor. Welcome to the PC Master Race, Grandpa. It is a beautiful community that I'm sure you're gonna fit in just fine. But thank you guys so much for tuning in. Have a good one. Be sure to subscribe to the channel for more tech stuff coming at you really soon, and I'll see y'all in the next video.",
+            "golden": "leave",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Bye. Bye.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "goodbye"
+        },
+        {
+            "text": "Bye.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "goodbye"
+        }
+    ]
+}

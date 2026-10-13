@@ -1,0 +1,199 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 80,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That's good to hear! What did you do at school today?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "It was mostly lectures, but I finished a big project I've been working on.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "You always work so hard. Is it the one about the history of horses?",
+      "golden": "doubt",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Exactly, Grandma! I was talking about that history project, specifically the part about horses.",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, dear, if you need help proofreading anything, just let me know.",
+      "golden": "comfort",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma. I'll let you know if I need a second pair of eyes.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad to hear that, dear. Is there anything else special you want to share about your day?",
+      "golden": "asking for opinions",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Well, I did get an A on my math test, which was pretty exciting!",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Oh, an A in math! That's wonderful! Was it a very difficult test?",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "It was quite a challenge, but I studied really hard for it.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see! You really earned that grade. Let's see if we can celebrate that for you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Would you like to go see the stables together later to celebrate?",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Sure, I'd love to go see the horses with you later!",
+      "golden": "agree",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "That's lovely, dear. If you change your mind, just let me know.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I'll let you know if anything changes.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, sweetheart. If there's anything else you'd like to do, just let me know.",
+      "golden": "arrange",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I really appreciate how thoughtful you are, Grandma. Maybe we can also bake some cookies together later?",
+      "golden": "plan",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, baking cookies sounds like a treat! Should we make the ones with the chess patterns?",
+      "golden": "praise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's a great idea! Chess cookies would be perfect for our afternoon.",
+      "golden": "agree",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, what are you showing me on your screen, dear?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I'm showing you the recipe for the cookies we can bake together. Do you want to take a look?",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I see! That's a very clear list of instructions, dear.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Great! Let's start with gathering the ingredients. Do you have everything we need?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I should have it all. It reminds me of when I used to play chess with your grandpa while waiting for the oven.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I love hearing those stories! Maybe we can play a match while our cookies are baking?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'd like that. I'll even show you how to move the knight effectively; it's the piece that moves in an L-shape.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, I'd love that! The knight is one of my favorite pieces because of its unique move.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Alright, I'll take the white pieces then. Let's have a fun game!",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Great! I'll set up the board now. I'm excited to see how this match goes.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Okay, let's start. I'm looking forward to it!",
+      "golden": "plan",
+      "predicted": "greet",
+      "raw": "greet"
+    }
+  ]
+}

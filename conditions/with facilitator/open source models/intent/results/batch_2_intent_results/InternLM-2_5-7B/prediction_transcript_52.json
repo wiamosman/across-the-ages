@@ -1,0 +1,385 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 52,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Yes, I'm ready! What do you have planned for us today?",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I was thinking we could go for a walk in the park and maybe grab some ice cream after. What do you think?",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Great! I'm looking forward to it. What should we do first?",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Let's start with the walk, and then we can get ice cream. Sound good?",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "You're welcome! So, what's the plan for today?",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I thought we could start with a walk in the park and then grab some ice cream. Does that sound good to you?",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Alright, let's get started then! I'm excited to see what you have in mind.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Great! Let's head out and enjoy the day.",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Alright, I'm turning it carefully. Thanks for the guidance! I'm keeping an eye on the ditches.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "No problem! Just let me know if you need any more help.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Got it, I'm turning it all the way now. Thanks for the help!",
+      "golden": "acknowledge",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "You're doing great! Let's keep going and enjoy the drive.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, this way looks good. Let's keep going!",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I'm glad you're enjoying the drive. It's a nice day for it!",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Alright, we're doing great! Just let me know if there's anything else I should watch out for.",
+      "golden": "ask for help",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "Sure thing, I'll keep an eye out for any signs or changes.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Thanks for the guidance, I'm giving it a little gas now. We're moving smoothly!",
+      "golden": "acknowledge",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "Great! Just keep an eye on the speed limit signs, and we'll be all set.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "We're doing well, just let me know if there's anything else I should adjust.",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "You're doing great! Just keep a steady pace and we'll be fine.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Great teamwork! I'm glad we're making progress together.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm really enjoying this drive with you, Grandpa. It's nice to spend time together.",
+      "golden": "praise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I'm really enjoying this, it's nice to work together like this.",
+      "golden": "praise",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Yeah, it's been a great day. We should do this more often!",
+      "golden": "plan",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Yes, turn this way now. You're doing great!",
+      "golden": "advise",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm glad you think so. I really appreciate your guidance.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I said to turn this way now, you're doing great!",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Got it, Grandpa! I'm turning now.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I'm proud of how well you're handling this. Keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! That means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's perfect, you've done a great job. Let's move on to the next step.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Alright, I'm ready for the next step. What should I do?",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Great job! Now, let's try adjusting the angle slightly to the left.",
+      "golden": "advise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Okay, I'll adjust it to the left. Does this look better?",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "That's okay, you're doing well. Just take your time and adjust slowly.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thanks, I'll keep adjusting it slowly.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm sorry if I came across as yelling. I just want to help you succeed.",
+      "golden": "apologize",
+      "predicted": "apologise",
+      "raw": "apologise"
+    },
+    {
+      "text": "No worries, Grandpa. I know you're just trying to help.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yes, that's the right direction. You're doing great, just keep going slowly.",
+      "golden": "advise",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "Thanks, Grandpa. I'll keep at it and let you know if I need more help.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, you're doing it perfectly. Just keep steady and you'll be on the road in no time.",
+      "golden": "praise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandpa. It really helps me feel more confident.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, that's correct. You're getting the hang of it, just keep practicing.",
+      "golden": "advise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I will, Grandpa. Thanks for always being there for me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, all the way. You're doing really well, just stay focused.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "I'll definitely keep that in mind, Grandpa. Your advice always means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great job! You're really getting the hang of this. Keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep pushing forward.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm proud of you for sticking with it. You're doing fantastic!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! Your support really motivates me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, that's the right direction. You're doing great, just keep going.",
+      "golden": "advise",
+      "predicted": "confirm",
+      "raw": "confirm"
+    },
+    {
+      "text": "I really appreciate it, Grandpa. I'll make sure to keep up the hard work.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Absolutely, you're ready. Just take your time and stay calm.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Thanks, Grandpa. I'll remember to stay calm and focused.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Of course not, you're doing wonderfully. I'm here to help you along the way.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I feel so much better knowing you're here to support me. It means a lot.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad you're enjoying it. It's important to have fun while learning.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thanks, Grandpa. I'm really enjoying learning with you.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, let's go that way. You're leading the way now.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Okay, I'll do my best to lead us in the right direction!",
+      "golden": "agree",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Yes, right here is perfect. Let's go ahead.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    }
+  ]
+}

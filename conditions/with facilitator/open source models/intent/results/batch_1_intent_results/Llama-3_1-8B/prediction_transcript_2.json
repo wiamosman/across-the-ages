@@ -1,0 +1,1476 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "file_index": 2,
+  "utterances": [
+    {
+      "text": "Hello, my dear! How have you been doing lately?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, just busy with school and everything. How about you?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, Matthew! It's so lovely to hear from you. How has school been treating you?",
+      "golden": "care",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "WRONG"
+    },
+    {
+      "text": "School's been a bit hectic, but I'm managing. We've got a lot of assignments coming up. How have you been, Grandma?",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I see, dear. Is there anything exciting happening at school or anything you'd like to share with me?",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, we have a school trip planned next month to the science museum, which I'm really looking forward to. It's always fun to learn new things outside the classroom!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I remember! It sounds like you had a good time. Is there anything else you'd like to tell me about your day or any plans you have coming up?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, besides the trip, I've been thinking about joining the school's photography club. I think it would be a great way to explore my creative side and learn something new. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful to hear, Matthew! If you ever feel like sharing more about your day or any fun plans, I'm always here to listen. Is there anything else you'd like to talk about?",
+      "golden": "praise",
+      "predicted": "care",
+      "raw": "care",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate that. I've also been thinking about maybe taking up some cooking classes. I know you have some amazing recipes, and I'd love to learn from you too. Do you think we could cook together sometime?",
+      "golden": "invite",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, dear, sometimes it's nice to keep things light and easy. But if there's anything deeper or more serious you'd like to discuss, I'm here for that too. How can I help you today?",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "I appreciate that, Grandma. Right now, I'm just enjoying sharing these ideas with you. Maybe we can plan a day to cook together soon? That would be really fun!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's perfectly fine, dear. We can take all the time we need. I'm here to chat as long as you like. Is there anything specific you'd like to talk about or explore together?",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "I appreciate you wanting to take your time, Matthew. It's important to feel comfortable and not rush things. If there's anything on your mind, whether it's about school, friends, or something else, I'm here to listen and help if I can. What would you like to talk about?",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Matthew, I truly enjoy these moments when we can just talk and share. If there's anything specific you're thinking about or any questions you have, I'm here to help. Sometimes just chatting can lead to interesting thoughts and ideas. What do you feel like discussing today?",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate how supportive you are. Actually, I've been thinking a lot about my future career options. I'm a bit unsure about which path to choose. Do you have any advice or experiences you'd like to share?",
+      "golden": "ask for help",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, thank you so much, Matthew! That means a lot to me. I'm glad you feel that way. It's always a joy to chat with you and hear about what's going on in your life. Is there anything else you'd like to share or talk about today?",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "It's wonderful to hear that, Matthew. I always enjoy our conversations and learning from you too. If there's anything specific you'd like to discuss or any stories you want to share, I'm all ears. How's everything going with your friends or school lately?",
+      "golden": "care",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "WRONG"
+    },
+    {
+      "text": "Things are going pretty well with my friends and school, Grandma. We've been busy with projects and exams, but it's all manageable. I was actually curious about how you decided on your career path when you were younger. What influenced your choices?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, that's a great idea, Matthew! You're always so helpful with these things. I'll definitely try moving it around to show them. Thank you for the suggestion! Is there anything else you'd like to talk about or any other tips you have for me?",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear that, Grandma! I'm always here to help. As for tips, maybe we could explore some new hobbies together? I've been thinking about trying out some painting or gardening. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, I'm planning to redo the sink soon. It's been on my list for a while now. Do you have any suggestions or ideas on how I should go about it? Your input is always valuable to me.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad you remembered about the sink project! I'm thinking of going for something modern and easy to maintain. Do you have any thoughts on what style or features might be good? Your ideas are always so creative!",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I appreciate your interest in the sink project, Matthew. It's always nice to hear your thoughts. If you have any specific ideas or styles in mind, I'd love to hear them. Maybe you could help me pick out some options online? Your tech skills are always impressive!",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'd be happy to help you with the sink project. We could look at some options online together. Maybe a sleek, stainless steel design would be nice? It's modern and easy to clean. Let me know what you think!",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's perfectly alright, Matthew. I understand if you prefer not to share right now. Whenever you're ready to talk or if you have any other ideas, I'm here to listen. Is there anything else you'd like to do together today?",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for understanding, Grandma. I'm always here to help out and share ideas when I can. How about we start with the sink project and then maybe go for a walk later? It's a beautiful day outside!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I see! Sometimes pictures can be a bit confusing without the right labels. If you'd like, I can help you figure out what it might be or how to find more information about it. Let me know how I can assist you!",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "offer",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate your offer to help. Maybe we can look up some tutorials online together to make sure we're on the right track with the sink project. And after that, a walk sounds perfect!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, 'mixed breed gaming' sounds intriguing! I'm not too familiar with that term, but I'm eager to learn more. Is it something related to YouTube or a particular game you enjoy? I'd love to hear more about it if you want to share.",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Haha, 'mixed breed gaming' isn't actually a term I use, but it sounds like a cool concept! I think you might be referring to something else. Maybe we can explore some gaming videos together on YouTube later? It's always fun to learn new things!",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you for explaining, Matthew. It sounds like you're really into this 'mixed breed gaming' concept. If you have any videos or links you'd like to share, I'd be happy to take a look. It's always fun to learn about new things from you!",
+      "golden": "care",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I appreciate you sharing this with me, Matthew. It sounds like a fascinating world you're exploring. If there's anything specific you'd like to show me or discuss about it, I'm all ears. It's wonderful to see your enthusiasm!",
+      "golden": "praise",
+      "predicted": "care",
+      "raw": "care",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really glad you're sharing this with me, Matthew. If you ever want to dive deeper into 'mixed breed gaming' or show me something specific, just let me know. I'm always here to learn from you and enjoy these moments together.",
+      "golden": "care",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really glad you're interested in learning about gaming with me. How about we set up a time this weekend to watch some videos together? I can show you some of my favorite games and explain why I enjoy them so much!",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a lovely idea, Matthew! I'd be delighted to share my cupcakes with everyone. Maybe we could even make a video together showing how to bake them. It could be a fun project for us! What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad you suggested that, Matthew! Making a video together sounds like a wonderful idea. We can show everyone how much fun baking can be, and maybe even share some tips and tricks. When would you like to start planning it?",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds awesome, Grandma! How about we start planning it this Saturday afternoon? We can brainstorm some ideas and maybe even bake a batch of cupcakes to get started. I'm really looking forward to it!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thank you, Matthew! I'm so glad you think the cupcakes are amazing. Your support means the world to me. If anyone has any feedback, I'll take it with a pinch of sugar, but it's lovely to know you have my back. Maybe we can make some more together soon!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to support you. I'm sure everyone will love your cupcakes as much as I do. Let's definitely plan to make some more together soon. Maybe we can try some new flavors or decorations this time!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's okay, Matthew. I appreciate your honesty. It's always good to express how you truly feel, and I'm grateful for your support. If there's anything else you'd like to share or discuss, I'm here to listen.",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate that. I'm glad we can talk openly. If there's anything you want to discuss or any ideas for our cupcake project, I'm all ears. I'm excited to hear your thoughts!",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a wonderful idea, Matthew! I'm sure there are plenty of creative cake ideas out there. We could even ask our friends and family for their favorite cake recipes or flavors. It would be fun to try something new together. I'm excited to see what suggestions we get!",
+      "golden": "plan",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds fantastic, Grandma! I love the idea of getting input from everyone. Maybe we can even have a little taste-testing party once we try out some new recipes. It'll be a fun way to spend time together and get everyone's feedback. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh yes, I remember that! The pistachio was a delightful addition, wasn't it? It's always fun to experiment with different flavors and see what works best. Maybe we can try incorporating pistachio into one of our cake ideas too. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I think that's a great idea, Grandma! Pistachio could add a unique twist to our cupcakes. Maybe we can pair it with a citrus flavor like lemon or orange for a refreshing combination. Let's jot down these ideas and start planning our taste-testing party!",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Having fun is the best part of baking, isn't it? It's wonderful to create something delicious while enjoying the process together. If you ever want to try something new or just have a baking day for fun, I'm always here to join in. Let me know if you have any ideas or if there's a particular flavor you'd like to experiment with next!",
+      "golden": "care",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I love that you're always up for a baking adventure. How about we try something with a tropical twist next time? Maybe coconut or pineapple? We can brainstorm more ideas and make a list of flavors to experiment with. I'm really looking forward to our taste-testing party!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I meant that baking can be a fun and creative activity, where we can try out new recipes or flavors just for the joy of it. It's not always about making something perfect, but enjoying the process and spending time together. Does that make sense?",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Absolutely, Grandma! I totally get it. It's all about the fun and creativity, not just the end result. I'm really glad we can share these moments together. Let's keep brainstorming and see where our imagination takes us!",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful, Matthew! Making cookie cutters sounds like a fun and creative project. We could use them to make some uniquely shaped cookies. I'd love to see what designs you come up with. Maybe we can plan a baking day soon to try them out together!",
+      "golden": "plan",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really looking forward to seeing your cookie cutter designs, Matthew! It's amazing how creative you can be. Do you have any ideas for the shapes you want to make? Maybe we could even create some themed cookies for a special occasion!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'm thinking of making some animal shapes and maybe some fun geometric designs. We could definitely do themed cookies for a holiday or birthday. Let's plan a day soon to start working on them!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds like a great idea, Matthew! Having good microphones will definitely make things easier, especially if you're planning to record or share your baking adventures. If you need any help setting them up or have any questions, feel free to ask. I'm always here to lend a hand!",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "offer",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for offering to help, Grandma! I might take you up on that when I'm setting up the microphones. I'm really excited to start recording our baking sessions. It'll be fun to share our cookie creations with everyone!",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, Matthew, that's the spirit! Every big venture starts small, and it's wonderful to see you taking it seriously and having fun with it. Those five subscribers are lucky to have such professional content! Keep up the great work, and who knows, maybe you'll have many more joining soon!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! Your encouragement means a lot to me. I'm really looking forward to seeing how our baking adventures grow. Maybe one day we'll have a whole community of cookie enthusiasts following along!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, Matthew, every subscriber counts, and it's wonderful that you're enjoying the process. It's all about having fun and learning along the way. I'm sure your creativity and enthusiasm will attract more people over time. Keep at it, and remember, I'm always here to support you!",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "encourage",
+      "status": "WRONG"
+    },
+    {
+      "text": "Matthew, it's so wonderful to see you enjoying what you're doing and sharing it with others. Remember, it's not just about the numbers but the joy and experience you gain from it. I'm proud of you for putting yourself out there and being creative. If there's anything you need or any ideas you want to bounce off me, I'm here to chat!",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! Your support really means the world to me. I might take you up on that offer to bounce some ideas around soon. It's great to have someone as wise as you to chat with about this journey!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I see, Matthew. It's great that you're taking the time to reflect on your progress. Every step forward is a step in the right direction, and I'm here to cheer you on. Is there anything specific you'd like to discuss or any feedback you're looking for?",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Matthew, I'm really proud of you for taking the initiative and putting yourself out there. It's wonderful to see you enjoying the process and learning as you go. If you ever want to brainstorm ideas or need a sounding board, I'm always here for you. Keep up the great work!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thank you so much, Grandma! I really appreciate your encouragement and support. I actually have a few ideas I'd love to get your thoughts on. Maybe we can chat about them this weekend?",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, it sounds like you're dealing with a bit of a challenge. I'm here to listen if you want to share more about what's going on. Sometimes talking things through can help, and I'm always here to support you.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma. I really appreciate you being there for me. I think talking things through with you will definitely help. I'll make a list of what I want to discuss so we can have a productive chat this weekend!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I understand, Matthew. It seems like you're going through something important. If you feel like talking more about it, I'm here to listen and help in any way I can. Remember, you're not alone, and I'm always here for you.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thank you, Grandma. It really means a lot to me knowing that I have your support. I'll definitely take you up on your offer to talk this weekend. I feel better already just knowing you're there for me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It's hard to say exactly how long it will take, Matthew. Sometimes things take longer than we expect, but what's important is that you're taking steps forward. If you want to talk through the details, maybe we can figure out a plan together. I'm here to help however I can.",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "offer",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma. I really appreciate your patience and understanding. I agree that taking steps forward is important, and having your support makes it easier. Let's definitely plan to talk more this weekend and figure out a good approach together.",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Alright, Matthew, if you think 10 to 15 minutes is a good estimate, then let's go with that. It's always good to have a timeframe in mind. If you need any help or want to talk more about it, I'm here for you. Just let me know.",
+      "golden": "agree",
+      "predicted": "unknown",
+      "raw": "offer",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma. Having a timeframe really helps me stay focused. I'll definitely reach out if I need more guidance or support. Looking forward to our chat this weekend!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It sounds like you've got things sorted out, Matthew. If there's anything else you need or want to discuss, I'm just a call away. I'm always here to support you, no matter what.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma. I feel really lucky to have you in my corner. I'll make sure to reach out if anything comes up. Can't wait for our chat this weekend!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's okay, Matthew. If you're unsure about something, feel free to ask me. I'm here to help you figure it out. What is it that you don't understand?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! Right now, I think I've got everything under control, but I'll definitely reach out if I hit a snag. I really appreciate your offer to help!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Ah, zigzagging sounds interesting! Are you talking about a pattern or a design? I'd love to hear more about it. Maybe you can show me what you mean?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, sorry Grandma, I meant zigzagging through my schedule! It's been a bit hectic lately, but I'm managing. I'll definitely show you some of the designs I'm working on when we chat this weekend!",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a good plan, Matthew. Sometimes keeping things simple is the best way to go. If you ever want to try something different, I'm here to brainstorm with you. Whatever you decide, I'm sure it'll turn out great!",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support and advice. I'll definitely keep it simple for now, but it's great to know you're there if I need to brainstorm new ideas. Looking forward to showing you my designs this weekend!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, that's nice to hear! I'm sure it'll be great having your dad there. It's always good to have family around. If there's anything you need help with while he's there, just let me know.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if I need any help. It's always comforting to know I have you and Dad around. I'm really looking forward to our chat this weekend!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "A flash water? Hmm, I'm not sure what that is. Could you tell me more about it or show me how it works? I'm always curious to learn new things!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, sorry for the confusion, Grandma! I meant 'flash drive'—it's a small device that you can use to store and transfer files. I can definitely show you how it works when we meet this weekend!",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I see! You're talking about those fly salt guns. I've heard they're quite effective and fun to use. Thanks for the suggestion, dear. I'll look into getting one for Uncle Jace. It's always nice to have a little help with those pesky flies!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Haha, Grandma, I think there might be a little mix-up again! I was talking about a flash drive, not a fly salt gun. But those salt guns do sound fun! I'll make sure to bring my flash drive when we meet so I can show you how it works.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like a fun idea, Matthew! I'll definitely consider getting one for Uncle Jace. Thanks for the advice, dear. It's always great to hear your suggestions!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "No problem, Grandma! I'm glad you liked the idea of the salt gun. But don't worry, I'll bring the flash drive this weekend and show you how it works. It's really handy for storing photos and documents.",
+      "golden": "plan",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's an interesting idea, Matthew. Are you suggesting we split the cost or do something together to make it happen? I'm open to your suggestions, dear!",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, that's a great idea, Grandma! We could definitely split the cost if you'd like. Or maybe we could even plan a fun outing to pick one up together. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, are you talking about a pattern or design for something? I'm intrigued! Can you tell me more about what you're thinking? I'm always excited to hear your creative ideas!",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Sure, Grandma! I was actually thinking about designing a custom pattern for the salt gun to make it more unique. Maybe something floral or vintage-inspired that you might like. We could brainstorm some ideas together!",
+      "golden": "plan",
+      "predicted": "introduce",
+      "raw": "introduce",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, it sounds like you're comparing sizes or maybe talking about a design element. Is there something specific you're working on, dear? I'd love to hear more about it!",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Grandma! I'm thinking about designing a custom pattern for the salt gun to make it more unique. Maybe something floral or vintage-inspired that you might like. We could brainstorm some ideas together!",
+      "golden": "plan",
+      "predicted": "introduce",
+      "raw": "introduce",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear that, Matthew! If there's anything else you'd like to share or if you need help with your project, I'm here to support you. Your ideas are always so creative!",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. Maybe we can start by sketching out some ideas together. Do you have any favorite floral patterns or vintage designs that come to mind?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Hmm, a long way to put a fist? That sounds intriguing! Are you thinking about a design or maybe something related to a project you're working on? I'd love to hear more about it if you'd like to share!",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I think there might have been a mix-up in what I said! I was talking about designing a pattern for the salt gun. But now that you mention it, a design with a fist could be pretty cool too! What do you think about combining floral elements with something bold like that?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, that sounds like a fun plan! I'm happy to take on the yellow. Are we working on something together? It sounds like a creative project, and I'm excited to see how it turns out!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Grandma, it's definitely a creative project we're working on together! I'm thinking of combining floral patterns with bold elements like fists or geometric shapes. I think your idea of using yellow will really make it pop. Do you have any suggestions on how we can start sketching these ideas?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's perfectly alright, Matthew! It's important to do what you enjoy. Blue is such a lovely color, and I'm sure you'll make it look fantastic. If you ever want to switch things up or need any help, just let me know!",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you, Grandma! I appreciate your support and advice. I think starting with a sketch that highlights the floral elements and then layering the bold shapes on top could be a good approach. Maybe we can use some colored pencils to play around with the colors and see how they blend together. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Of course, Matthew! To do the yellow, you can start by mixing the paint thoroughly and then use broad strokes to cover the area evenly. If you need more detailed guidance, I'm here to help you step by step. Just let me know!",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks for the tip, Grandma! Mixing the paint thoroughly sounds like a great start. I might need your help with the broad strokes technique, though. Could you show me how to do it when we start painting?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's a great question, Matthew! Some tools can make the process easier or help you achieve a specific effect. For example, certain brushes might be better for detailed work or creating textures. If you're unsure, I can show you how it works or we can figure it out together!",
+      "golden": "explain",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds perfect, Grandma! I'd love to learn more about the different brushes and how they can change the look of the painting. Maybe we can try out a few different techniques together and see what works best for our project.",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you're on board, Matthew! Let's dive in and see what we can create together. If you have any questions or need more help, just ask. I'm here to support you!",
+      "golden": "care",
+      "predicted": "emphasize",
+      "raw": "emphasize",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really looking forward to it. I'll make sure to ask if I need any help along the way. Let's make something amazing together!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you're getting the hang of things, Matthew! If there's anything else you're curious about or if you want to try something new, just let me know. I'm excited to see what you come up with!",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "encourage",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandma! I'm really curious about how different colors can affect the mood of a painting. Maybe we can explore that together next time?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, you can move the brush gently across the surface. Try to keep your strokes even and steady for a smooth finish. If you want to experiment with different techniques, I can show you some tips. Just let me know if you'd like more guidance!",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds great, Grandma! I'd love to learn more about different techniques and how they can change the feel of a painting. Your guidance is always so helpful!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's right, Matthew! You just go with the flow and let your creativity guide you. It's all about finding what feels right for you. If you have any more questions or want to try something different, I'm here to help you explore!",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support and guidance. I'll definitely take your advice and let my creativity flow. Maybe next time we can try some new techniques together?",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, and then you can add more layers or details as you go along. It's like building a story with your art. If you want to try something new or need a bit more guidance, feel free to ask. I'm here to help you every step of the way!",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds amazing, Grandma! I love the idea of building a story with art. Maybe we can start with a simple project and gradually add more layers to it. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear that, Matthew! Stars can be a lot of fun to paint, and they add a magical touch to your artwork. If you have any tips or techniques you've discovered, I'd love to hear about them. Keep enjoying the process!",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I actually tried a new technique with layering colors to create a starry night effect. I'd love to show it to you and get your thoughts on it. Maybe we can work on it together next time?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, you can squeeze the paint gently and then let your brush glide across the canvas. It's all about finding the right balance and rhythm. If you ever feel unsure or want to try something different, I'm here to help you explore new techniques!",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the advice, Grandma! I'll definitely try that technique. It's always great to learn from you. Maybe next time we can experiment with some new colors together?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, Matthew, it's okay! Sometimes we learn the best techniques after trying things out a few times. Every experience is a chance to learn and grow, and I'm here to help you figure it out. If you want to try again or need some advice, just let me know!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I really appreciate your support, Grandma! It's always reassuring to know you're there to guide me. I'm excited to try out your technique and see how it turns out. I'll definitely let you know how it goes and maybe we can plan a painting session soon?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I understand, Matthew. Sometimes things can be challenging, but that's part of the fun of learning something new. Remember, every artist faces difficulties, and it's okay to feel this way. If you need any help or want to take a break, I'm here for you. We can tackle it together!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! It's really encouraging to hear that. I'll keep pushing through and remember that it's all part of the learning process. Maybe we can set up a time next week to paint together? I'd love to get your insights on some new techniques.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It's perfectly normal to feel that way, Matthew. Sometimes things seem easier in our minds than they are in practice, but that's how we learn and improve. Remember, every step you take is progress, and I'm proud of you for trying. If you need any tips or just want to talk about it, I'm here to help!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! Your words mean a lot to me and really help keep me motivated. I'll definitely reach out if I need any advice or just want to chat. Let's plan for next week, maybe Wednesday? I can't wait to learn more from you!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds like a great choice, Matthew! Yellow can really brighten up a painting and add a nice touch. If you need any help with mixing or applying it, just let me know. I'm excited to see how it turns out!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really looking forward to it. I'll make sure to gather all my supplies and maybe we can try some new techniques together. Your guidance always makes painting more fun and insightful!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Of course, Matthew! I can help you with that. Let's take a look and see how we can remove it together. Sometimes it's just a matter of finding the right technique. Don't worry, we'll figure it out!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks so much for your help, Grandma! I'm really grateful to have you guide me through this. It's always reassuring to know that we can tackle any challenge together. Looking forward to our painting session!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I understand, Matthew. It can be tricky sometimes, but remember, every challenge is an opportunity to learn something new. Let's take it step by step, and I'm here to help you through it. You're doing great, and we'll get through this together!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me. I'm excited to learn and improve with your help. Let's make this painting session a memorable one!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, thank you, Matthew! I do try my best, but even I have moments where things don't go as planned. It's all part of the process, and I'm glad we can work through it together. If there's anything specific you'd like to learn or try, just let me know!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I really appreciate your openness, Grandma. It's comforting to know that even when things don't go as planned, we can still enjoy the process together. I'd love to try some new techniques today if you're up for it!",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a great perspective, Matthew! Sometimes the essence of what we're creating is more important than how it appears. It's wonderful to see you focusing on the deeper meaning and quality of your work. If you need any tips or advice on how to achieve the taste you're aiming for, I'm here to help!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I really value your advice and would love to hear any tips you have for trying out new techniques. Maybe we can experiment with some different brush strokes or color combinations?",
+      "golden": "thank",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Haha, that's a clever way to put it, Matthew! When you get both the taste and the look just right, it's truly a masterpiece. You're doing wonderfully, and I'm so proud of your creativity and humor. Keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you, Grandma! Your encouragement means a lot to me. Let's dive into experimenting with those techniques. I'm eager to learn from your experience and see what we can create together!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Yes, that's right! You gently touch the cake to check its texture, and if it's perfect, you can move on to the next step. It's all about getting a feel for it. You're doing a great job, Matthew, and I'm here if you need any guidance along the way!",
+      "golden": "confirm",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the tip, Grandma! I appreciate your guidance. I'll definitely try to get a feel for it like you said. It's great having you here to help me along the way!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, be careful with your finger, Matthew! It's easy to get caught up in the excitement and accidentally poke too hard. Just a gentle touch will do. You're doing great, and I'm here to help if you need any tips or tricks!",
+      "golden": "warn",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the reminder, Grandma! I'll be careful not to poke too hard. It's reassuring to know you're here to guide me through this. I'm really enjoying learning from you!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Alright, Matthew, I can handle the text part for you. It's perfectly okay to focus on what you're comfortable with. If you need any help or have questions, just let me know. I'm here to support you!",
+      "golden": "arrange",
+      "predicted": "care",
+      "raw": "care",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate your support. I'll definitely reach out if I have any questions. It's comforting to know you're here to help me along the way.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's a lovely idea, Matthew! Writing 'Dad' in the middle will make it extra special for him. Let's make sure it's nicely centered and stands out. I'm here to help with that if you need any guidance!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I think centering it will look great. I'll give it a try and let you know if I need any help. It's always fun working on these projects together!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Well, Matthew, I think adding some colorful sprinkles around the edges could make it look festive and fun! What do you think about that? I'm sure whatever we decide, it will be a wonderful cake for your dad!",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a great idea, Grandma! Adding colorful sprinkles will definitely make the cake more festive. I think Dad will love it. Let's go for it!",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Exactly, Matthew! It's all about balancing the design, just like squeezing the icing evenly on both sides. You're doing a fantastic job with it. If you need any help or tips, just let me know. I'm here to assist you!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! Your tips are always super helpful. I'll keep that in mind while working on the cake. It's great having your guidance!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Yes, and once we've got the icing just right, we can add those sprinkles to make it even more festive! You're doing great, Matthew. Do you want to try adding the sprinkles yourself, or would you like me to help?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I think I can handle the sprinkles, Grandma! But if I mess up, I'll definitely call you for backup. Thanks for offering to help!",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a fun way to look at it, Matthew! Those little stones will add a nice texture and color to the cake. It's like we're decorating a garden with colorful pebbles. Would you like to try placing them in a pattern, or just sprinkle them randomly?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I love the idea of decorating it like a garden! Maybe we can try a pattern to make it look even more special. What do you think would look best?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, yes! I've always enjoyed adding a little extra flair to our cakes. It's a fun way to make them special, don't you think? I'm glad you're discovering new things with me. Is there anything else you'd like to try or learn about while we're baking?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Absolutely, Grandma! I love learning new things with you. Maybe we could try a new recipe next time or learn a new decorating technique. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's right, Matthew! It's wonderful to share what we know and learn together. Every time we bake, we create memories and pass on little bits of wisdom. If you ever have questions or want to try something new, I'm always here to explore with you.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate that. Maybe next time we can try making some cookies with different shapes or flavors. It sounds like a fun challenge!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's a good point, Matthew! Keeping our hands clean while baking is important. It's all part of making sure everything turns out just right. Do you have any other tips or tricks you'd like to share?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "One tip I learned is to chill the dough before baking. It helps the cookies keep their shape better. What do you think about trying that next time?",
+      "golden": "advise",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, I must have misspoken or you might have misunderstood me. I didn't mean to say anything about tying it stupidly. Let's make sure we're on the same page. What exactly are you referring to, sweetheart?",
+      "golden": "doubt",
+      "predicted": "apologise",
+      "raw": "apologise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I was talking about chilling the cookie dough before baking it. It's supposed to help the cookies keep their shape better. Sorry if I wasn't clear!",
+      "golden": "explain",
+      "predicted": "apologise",
+      "raw": "apologise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, I see what you mean now! Yes, sometimes we use ties to secure the piping bags for better control. It's a handy trick to keep everything neat and tidy. Thank you for pointing that out, Matthew. Do you want to give it a try together?",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds like a fun idea! I'd love to try it together. Maybe we can bake some cookies this weekend?",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's an interesting thought, Matthew! Sometimes sitting can give us better control, especially if we're working on something detailed. Why don't we try both ways and see which one feels more comfortable for you?",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Sure, that sounds like a great plan! I'm excited to see which method works best for us. Maybe we can make it a little experiment while baking this weekend!",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "WRONG"
+    },
+    {
+      "text": "Let's start by getting the piping bag ready, Matthew. First, we'll fill it with the frosting, and then gently twist the top to push the frosting down. If you like, I can show you how to tie it securely so it doesn't spill out. Would you like me to demonstrate?",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, please! I'd love to see how you do it. I always find your tips really helpful.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, you'll want to twist it tightly enough so that the frosting doesn't leak out, but not so tight that it feels like it's going to burst. It's a bit of a balance, but I'll be right here to help you find the right tension. Let's give it a try together!",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate your guidance. Let's give it a shot together and see how it goes. I'm sure with your help, I'll get the hang of it in no time!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's right, Matthew! It's our little secret. I'm glad you're feeling confident about it. Let's keep practicing, and soon you'll be a pro at this. If you have any other questions or need more tips, just let me know!",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "encourage",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really excited to keep practicing with you. I'll definitely let you know if I have more questions. It's always fun learning from you!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm so glad you're enjoying this, Matthew! It's wonderful to see you getting the hang of it. If you want to try decorating another cupcake or need any more help, just let me know. I'm here for you!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I think I'm ready to try decorating another cupcake. Your tips have been really helpful. Let's see how creative we can get with this one!",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Haha, you're right, Matthew! I guess it's not much of a secret if we're chatting about it. But it's still fun to have our little inside joke, isn't it? You're doing great, and I'm enjoying this time with you. If you want to try something else or have any more questions, just let me know!",
+      "golden": "joke",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Absolutely, Grandma! I love our little inside jokes. It's always a blast spending time with you. Maybe after this cupcake, we can try something new together. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad you like it, Matthew! It's always nice to find a way that works best for you. If you have any other ideas or want to try something new, I'm here to help. Just let me know what you'd like to do next!",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! How about we try making some cookies next? I think it would be fun to experiment with different flavors and shapes. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I see what you mean, Matthew! Sometimes these things turn out differently than we expect, but that's part of the fun, isn't it? Maybe we can try a different technique to make it look more like a star. I'm here to help if you want to give it another go!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds great, Grandma! Trying out new techniques will definitely make it more exciting. Maybe we can even come up with our own secret recipe. I'm ready whenever you are!",
+      "golden": "agree",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, you can gently push it down to get the shape you want. Sometimes a little pressure helps to create the design you're aiming for. If you need any more guidance, I'm right here to assist you!",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the tip, Grandma! I'll give it a try and see how it turns out. It's always fun learning new things with you. Let's see if we can make some star-shaped cookies!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad you're okay with it, Matthew! Sometimes things turn out unexpectedly, but that's part of the creative process. If you ever want to try something else or need any help, just let me know. I'm here for you!",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I love how you always encourage me to try new things and remind me that it's okay if they don't turn out perfect. Let's get started on those star-shaped cookies and see what creative designs we can come up with!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, cheerleader colors! That's an interesting observation, Matthew. Maybe we can think of a theme or a story to go along with these colors. What do you think? It could be fun to imagine how these colors fit into something exciting!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a great idea, Grandma! We could make a story about a cheerleading team that bakes cookies to celebrate their big win. Maybe each cookie could represent a different team member or a special moment from their season. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a good tip, Matthew! Using the microwave to warm things up is really convenient. It's great to see you thinking of practical solutions. If you have any other ideas or tips, feel free to share them with me!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'm glad you liked the idea. I'll definitely share more tips as we go along. Maybe we can also try using different cookie cutters to make unique shapes for each team member. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, it depends on what you're freezing, Matthew. For most things, a few hours should be enough, but if you're trying to freeze something like ice cream, it might take longer to get really solid. Do you have something specific in mind that you're thinking about freezing?",
+      "golden": "explain",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I was actually thinking about freezing some homemade popsicles. I want them to be solid enough to enjoy on a hot day. Do you think a few hours would be enough for that?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, different things freeze at different rates because of their water content and texture. For example, liquids like ice cream need more time to freeze solid compared to something like fruit. Is there something specific you're curious about freezing, Matthew?",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks for explaining, Grandma! I think I'll try freezing the popsicles for a few hours and see how they turn out. If they aren't solid enough, I can always leave them in a bit longer. Do you have any tips for making them extra tasty?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you're wondering if something will be ready after freezing, is that right? If you let me know what you're working on, I can help you figure out the best way to finish it up!",
+      "golden": "confirm",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, I'm making homemade popsicles with fruit juice and maybe some yogurt. Do you think adding a bit of honey would make them tastier, or do you have another suggestion?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, how exciting, Matthew! Starting a new cake sounds like a fun project. Do you have a particular recipe in mind, or are you experimenting with something new? I'd love to hear more about it!",
+      "golden": "praise",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Actually, Grandma, I'm making popsicles, not a cake. But I appreciate your enthusiasm! I'm thinking of experimenting with fruit juice and yogurt. Do you think adding honey would be a good idea, or do you have any other suggestions to make them extra tasty?",
+      "golden": "explain",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, Matthew, I've been baking for quite a long time! It's one of my favorite hobbies, and I've learned a lot over the years. If you ever need any tips or want to try a recipe together, I'm here to help!",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "offer",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I might take you up on that offer sometime. For now, I'll try adding honey to the popsicles and see how they turn out. I'll let you know how they taste!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds wonderful, Matthew! A 'number one dad' cake is such a thoughtful idea. I'm sure it will be a hit! If you need any last-minute advice or help with the decorations, just let me know. I'm here to support you!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. Actually, I'm making popsicles, not a cake, but your enthusiasm is always uplifting! I'll definitely keep your offer in mind if I decide to bake something. I'll let you know how the popsicles turn out!",
+      "golden": "explain",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, Matthew, sometimes the little imperfections make things even more special! I'm sure it adds character to your cake. It's the thought and effort that count, and I'm proud of you for putting your heart into it!",
+      "golden": "comfort",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "sure",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "It's wonderful to see how much thought you've put into this cake, Matthew. I'm sure your dad will appreciate it greatly. If you ever want to try another baking project together, just let me know. I'm always here to share some tips and enjoy the fun with you!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "wow. he did that. that looks really good.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'm glad you think so. I'd love to bake something together next time. Maybe we can try making cookies or a pie?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "yeah.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really excited to try baking with you, Grandma! Maybe we can plan it for next weekend? I'm sure it'll be a lot of fun and I can learn some of your baking secrets!",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "you made that. you decorated it.",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt",
+      "status": "WRONG"
+    },
+    {
+      "text": "Matthew, I can't wait to try a slice of your cake! It's wonderful to see you getting creative in the kitchen. If you ever want to share more of your creations or need any help, I'm always here for you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really glad you like it. I might take you up on that offer for help soon—I could use some tips on making the frosting just right!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "You're very welcome, Matthew! I'm so proud of you for trying new things and sharing them with us. It's always a joy to see your creativity shine. If you have any other projects in mind, I'd love to hear about them!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    }
+  ]
+}

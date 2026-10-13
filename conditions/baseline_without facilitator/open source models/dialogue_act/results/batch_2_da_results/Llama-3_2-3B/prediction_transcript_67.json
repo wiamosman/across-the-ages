@@ -1,0 +1,85 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 67,
+    "utterances": [
+        {
+            "text": "It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "yes i see",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Them spark plugs go out though.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah,",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "this thing went I ain't know they wear out bad.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, sad",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "They keep it from firing, right? yes , now i need to sit here .. alright!",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Ain't got nothing to fire on.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "it will be solved no worries!",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

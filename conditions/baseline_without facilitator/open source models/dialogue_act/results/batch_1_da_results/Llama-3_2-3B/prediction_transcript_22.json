@@ -1,0 +1,60 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 22,
+    "utterances": [
+        {
+            "text": " Okay. Push this through the window. And then what?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Off jumps Jack!",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Off jumps Jack! Okay  try it again. Try it again.Through the front door. You want to do around the back?  ",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": " You did it ! and then push this up and then do it this way and then do Off jumps Jack! Nice job!!",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": " We're knitting!!",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": " Who's the Little girl? ",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "meee!",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "  You got it.",
+            "golden": "statement-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        }
+    ]
+}

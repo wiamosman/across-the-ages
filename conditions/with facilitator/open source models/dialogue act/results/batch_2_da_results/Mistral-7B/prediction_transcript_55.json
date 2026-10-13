@@ -1,0 +1,181 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 55,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "That's great to hear! How do you find driving it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Driving is going well, but I'm still a bit nervous about parking.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "I'm glad you're enjoying it. If you ever need any tips, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I might take you up on that offer soon.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I see. Well, I'm here if you need anything.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I appreciate it, Grandpa. I'll definitely ask if I need help.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, just let me know if you need anything or want to chat.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Will do, Grandpa! Thanks again for being there for me.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I appreciate"
+    },
+    {
+      "text": "Yes, he's still here. Do you want to talk to him?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Sure, I'd love to talk to him!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're welcome! Let me know if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll let you know if I need anything.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to help. If you ever need anything, just reach out.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I really appreciate it, Grandpa. You're the best!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Great, I'm here if you need anything else.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks again, Grandpa. I'll definitely reach out if I need anything.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Wow, it sounds like you've got quite a catch there! How many do you think there are?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm not sure, but it looks like there are quite a few! Maybe around ten or so?",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer\n\nHistory:\nTurn: Thanks again"
+    },
+    {
+      "text": "That's impressive! Catching a needlefish is quite a feat, even if it got away. Keep up the great work!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep practicing and hopefully catch one next time.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Fishing can be quite the adventure, can't it? I'm proud of you for trying your best.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it really is! Thanks for always supporting me, Grandpa.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks,"
+    },
+    {
+      "text": "I'm sorry if it seemed that way. I know you're working hard and I appreciate your effort.",
+      "golden": "apology",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "No worries, Grandpa. I know you mean well and I appreciate it.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "A big trout, that's fantastic! You're really making the most of this trip.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really enjoying it and learning a lot.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks,"
+    },
+    {
+      "text": "Wow, five keepers! That's really impressive. You're doing an amazing job out there.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

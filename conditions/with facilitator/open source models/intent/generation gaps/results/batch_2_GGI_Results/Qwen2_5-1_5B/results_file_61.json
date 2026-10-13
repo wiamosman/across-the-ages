@@ -1,0 +1,95 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 61,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): Ah, I see. Technology makes things so convenient these days, doesn't it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): Ah, I see. Technology makes things so convenient these days, doesn't it?",
+      "target": "Target (grandson): Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Ah, I see. Technology makes things so convenient these days, doesn't it? | Speaker B (grandson): Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates.",
+      "target": "Target (grandfather): I understand, it's amazing how things have changed. I remember when we had to do everything manually.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates. | Speaker B (grandfather): I understand, it's amazing how things have changed. I remember when we had to do everything manually.",
+      "target": "Target (grandson): Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): I understand, it's amazing how things have changed. I remember when we had to do everything manually. | Speaker B (grandson): Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech.",
+      "target": "Target (grandfather): That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech. | Speaker B (grandfather): That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks.",
+      "target": "Target (grandson): Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks. | Speaker B (grandson): Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape.",
+      "target": "Target (granddaughter): I get that. It's like we're always expected to be available, and it can be overwhelming sometimes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape. | Speaker B (granddaughter): I get that. It's like we're always expected to be available, and it can be overwhelming sometimes.",
+      "target": "Target (grandson): Exactly, it's like there's no off switch. Do you ever feel like things were simpler back then?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (granddaughter): I get that. It's like we're always expected to be available, and it can be overwhelming sometimes. | Speaker B (grandson): Exactly, it's like there's no off switch. Do you ever feel like things were simpler back then?",
+      "target": "Target (grandfather): That's a great point. Every little bit helps when it comes to conserving resources.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

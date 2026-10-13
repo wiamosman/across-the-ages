@@ -1,0 +1,97 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 78,
+    "utterances": [
+        {
+            "text": "Teaching my Persian grandpa English! How are you?",
+            "golden": "statement-non-opinion",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Very good, thank you.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "How was your day?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "My name is—",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yes, yes. My name is Mehdi. It is good, yes?",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "hhhhhhhh, old, old...",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "hhhh ok this was difficult lets try other question! how was your day?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Good, good, good, good, very good, very good, very good.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "What is your name?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "My name is Mehdi.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Good job!",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

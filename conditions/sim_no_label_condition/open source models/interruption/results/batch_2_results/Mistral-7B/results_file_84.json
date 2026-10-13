@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation history does not provide enough context for an interruption analysis. The Target is simply sharing information about"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here.",
+    "target": "Speaker A (grandfather) (Target): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to the information provided by his grandson and asking a question, which is a natural"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here.\nSpeaker B (grandfather): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why?",
+    "target": "Speaker A (grandson) (Target): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandfather mid-sentence to suggest"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why?\nSpeaker B (grandson): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look.",
+    "target": "Speaker A (grandfather) (Target): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none\n\nExplanation: The grandson's intervention changed the topic from the grandfather's"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look.\nSpeaker B (grandfather): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam.",
+    "target": "Speaker A (grandson) (Target): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam.\nSpeaker B (grandson): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos.",
+    "target": "Speaker A (grandfather) (Target): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is not an interruption as he waits for the grand"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos.\nSpeaker B (grandfather): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground?",
+    "target": "Speaker A (grandson) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A was responding to Speaker B's question and did not interrupt or change the topic"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground?\nSpeaker B (grandson): Why?",
+    "target": "Speaker A (grandfather) (Target): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Why?\nSpeaker B (grandfather): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good.",
+    "target": "Speaker A (grandson) (Target): It's a lot of cement. Look at him checking all them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's utterance does not interrupt the grandfather's flow as he"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good.\nSpeaker B (grandson): It's a lot of cement. Look at him checking all them.",
+    "target": "Speaker A (grandfather) (Target): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's \"Yeah, yeah\" can be considered a backchannel, which is a common way"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): It's a lot of cement. Look at him checking all them.\nSpeaker B (grandfather): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it?",
+    "target": "Speaker A (grandson) (Target): Oh yeah, lots of times.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it?\nSpeaker B (grandson): Oh yeah, lots of times.",
+    "target": "Speaker A (grandfather) (Target): Lots of times? Yeah, because otherwise water gets in. And would lift it up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is agreeing with the grandson and providing additional information, which does not disrupt the"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Oh yeah, lots of times.\nSpeaker B (grandfather): Lots of times? Yeah, because otherwise water gets in. And would lift it up.",
+    "target": "Speaker A (grandson) (Target): Yep. Everything. They packed more and more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a continuation of the conversation, acknowledging his grandfather's statement"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Lots of times? Yeah, because otherwise water gets in. And would lift it up.\nSpeaker B (grandson): Yep. Everything. They packed more and more.",
+    "target": "Speaker A (grandfather) (Target): Did they put some stone on top of it? That's good. That's where it's supposed to be. They must be Italians. Who else would do a good job like this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Yep. Everything. They packed more and more.\nSpeaker B (grandfather): Did they put some stone on top of it? That's good. That's where it's supposed to be. They must be Italians. Who else would do a good job like this?",
+    "target": "Speaker A (grandson) (Target): Oh yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "cooperative agreement",
+    "pred_type": "none",
+    "raw_output": "Role: cooperative agreement\nType: none"
+  }
+]

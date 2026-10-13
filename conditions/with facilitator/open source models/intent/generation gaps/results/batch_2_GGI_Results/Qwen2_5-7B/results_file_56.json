@@ -1,0 +1,167 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 56,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): Well, a little fresh air will do you good. Ready to learn how to cast that line?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (granddaughter): Hi Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): Well, a little fresh air will do you good. Ready to learn how to cast that line?",
+      "target": "Target (granddaughter): Yeah, I'm ready! It's better than staring at my assignments and this Pop It Troll all day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Well, a little fresh air will do you good. Ready to learn how to cast that line? | Speaker B (granddaughter): Yeah, I'm ready! It's better than staring at my assignments and this Pop It Troll all day.",
+      "target": "Target (grandfather): A Pop It Troll? I'm not sure what that is, but it sounds interesting!",
+      "gold_label": "slang mismatch",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): Yeah, I'm ready! It's better than staring at my assignments and this Pop It Troll all day. | Speaker B (grandfather): A Pop It Troll? I'm not sure what that is, but it sounds interesting!",
+      "target": "Target (granddaughter): Oh, it's just a toy that's really popular right now. It's like a fidget toy that you can pop back and forth.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): A Pop It Troll? I'm not sure what that is, but it sounds interesting! | Speaker B (granddaughter): Oh, it's just a toy that's really popular right now. It's like a fidget toy that you can pop back and forth.",
+      "target": "Target (grandfather): Ah, I see! Well, put the toy aside for a moment. You need both hands to tighten the reel.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): Oh, it's just a toy that's really popular right now. It's like a fidget toy that you can pop back and forth. | Speaker B (grandfather): Ah, I see! Well, put the toy aside for a moment. You need both hands to tighten the reel.",
+      "target": "Target (granddaughter): Got it. I'll tighten it up now. Is this enough tension on the line?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Ah, I see! Well, put the toy aside for a moment. You need both hands to tighten the reel. | Speaker B (granddaughter): Got it. I'll tighten it up now. Is this enough tension on the line?",
+      "target": "Target (grandfather): I'm not sure what you mean by 'tighten it up'—do you mean the drag setting?",
+      "gold_label": "slang mismatch",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): Got it. I'll tighten it up now. Is this enough tension on the line? | Speaker B (grandfather): I'm not sure what you mean by 'tighten it up'—do you mean the drag setting?",
+      "target": "Target (granddaughter): Oh, I just meant making sure everything is in order. You know, make it 'slay'?",
+      "gold_label": "slang mismatch",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): I'm not sure what you mean by 'tighten it up'—do you mean the drag setting? | Speaker B (granddaughter): Oh, I just meant making sure everything is in order. You know, make it 'slay'?",
+      "target": "Target (grandfather): Slay? I think I left the bait in the shed. Let me go check while you practice your stance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): Oh, I just meant making sure everything is in order. You know, make it 'slay'? | Speaker B (grandfather): Slay? I think I left the bait in the shed. Let me go check while you practice your stance.",
+      "target": "Target (granddaughter): Okay, Grandpa! I'll wait here. Look what I found in the tackle box while you were gone!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): Slay? I think I left the bait in the shed. Let me go check while you practice your stance. | Speaker B (granddaughter): Okay, Grandpa! I'll wait here. Look what I found in the tackle box while you were gone!",
+      "target": "Target (grandfather): That's great! What did you find?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): Okay, Grandpa! I'll wait here. Look what I found in the tackle box while you were gone! | Speaker B (grandfather): That's great! What did you find?",
+      "target": "Target (granddaughter): I found some old photos tucked in the side pocket. They're really cool!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): That's great! What did you find? | Speaker B (granddaughter): I found some old photos tucked in the side pocket. They're really cool!",
+      "target": "Target (grandfather): Sure, let's see. But first, show me a cast. Let's see how far you can go.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): I found some old photos tucked in the side pocket. They're really cool! | Speaker B (grandfather): Sure, let's see. But first, show me a cast. Let's see how far you can go.",
+      "target": "Target (granddaughter): Alright, watch this! I'm going to aim for that lily pad.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Sure, let's see. But first, show me a cast. Let's see how far you can go. | Speaker B (granddaughter): Alright, watch this! I'm going to aim for that lily pad.",
+      "target": "Target (grandfather): Wow, that was impressive! You really threw it far for your first try.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (granddaughter): Alright, watch this! I'm going to aim for that lily pad. | Speaker B (grandfather): Wow, that was impressive! You really threw it far for your first try.",
+      "target": "Target (granddaughter): Thanks! Now look at these photos. They're like a time capsule from when you were my age!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): Wow, that was impressive! You really threw it far for your first try. | Speaker B (granddaughter): Thanks! Now look at these photos. They're like a time capsule from when you were my age!",
+      "target": "Target (granddaughter): Do you remember any stories from when these were taken?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (granddaughter): Thanks! Now look at these photos. They're like a time capsule from when you were my age! | Speaker B (granddaughter): Do you remember any stories from when these were taken?",
+      "target": "Target (grandfather): Ah, that's a good spot in the photo. That was my first big catch! You have the same look in your eyes today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

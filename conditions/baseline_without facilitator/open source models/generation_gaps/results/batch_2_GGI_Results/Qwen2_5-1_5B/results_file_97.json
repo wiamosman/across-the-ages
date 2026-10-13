@@ -1,0 +1,455 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 97,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Tell me what you're doing.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Tell me what you're doing.",
+            "target": "Target (granddaughter): I am doing— I am putting all these together.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Tell me what you're doing. | Speaker B (granddaughter): I am doing— I am putting all these together.",
+            "target": "Target (grandmother): What game is it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): I am doing— I am putting all these together. | Speaker B (grandmother): What game is it?",
+            "target": "Target (granddaughter): Chess.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): What game is it? | Speaker B (granddaughter): Chess.",
+            "target": "Target (grandmother): And where does— which one is the king and which one is the queen?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Chess. | Speaker B (grandmother): And where does— which one is the king and which one is the queen?",
+            "target": "Target (granddaughter): This is the queen and this is the king.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): And where does— which one is the king and which one is the queen? | Speaker B (granddaughter): This is the queen and this is the king.",
+            "target": "Target (grandmother): What are these on each end?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): This is the queen and this is the king. | Speaker B (grandmother): What are these on each end?",
+            "target": "Target (granddaughter): Castles.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): What are these on each end? | Speaker B (granddaughter): Castles.",
+            "target": "Target (grandmother): Oh, okay. And who are these guys all in a row?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Castles. | Speaker B (grandmother): Oh, okay. And who are these guys all in a row?",
+            "target": "Target (granddaughter): Pawns. Pawns?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Oh, okay. And who are these guys all in a row? | Speaker B (granddaughter): Pawns. Pawns?",
+            "target": "Target (grandmother): Pawns. Uh-huh. So you have in this game the Conquistadors versus the Mayans.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Pawns. Pawns? | Speaker B (grandmother): Pawns. Uh-huh. So you have in this game the Conquistadors versus the Mayans.",
+            "target": "Target (granddaughter): Yeah, and there's 2 sets and each joins. So this one is a normal one and the other one is different.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Pawns. Uh-huh. So you have in this game the Conquistadors versus the Mayans. | Speaker B (granddaughter): Yeah, and there's 2 sets and each joins. So this one is a normal one and the other one is different.",
+            "target": "Target (grandmother): Okay. It's normal?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Yeah, and there's 2 sets and each joins. So this one is a normal one and the other one is different. | Speaker B (grandmother): Okay. It's normal?",
+            "target": "Target (granddaughter): Yeah, this one is normal. The other one different.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): Okay. It's normal? | Speaker B (granddaughter): Yeah, this one is normal. The other one different.",
+            "target": "Target (grandmother): Okay. Who makes the first move?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Yeah, this one is normal. The other one different. | Speaker B (grandmother): Okay. Who makes the first move?",
+            "target": "Target (granddaughter): Um, these.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Okay. Who makes the first move? | Speaker B (granddaughter): Um, these.",
+            "target": "Target (grandmother): Okay, do you want to go first?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Um, these. | Speaker B (grandmother): Okay, do you want to go first?",
+            "target": "Target (granddaughter): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Okay, do you want to go first? | Speaker B (granddaughter): Yes.",
+            "target": "Target (grandmother): All right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Yes. | Speaker B (grandmother): All right.",
+            "target": "Target (granddaughter): These.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): All right. | Speaker B (granddaughter): These.",
+            "target": "Target (grandmother): Okay, sounds good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): These. | Speaker B (grandmother): Okay, sounds good.",
+            "target": "Target (granddaughter): Okay, I can move that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): Okay, sounds good. | Speaker B (granddaughter): Okay, I can move that.",
+            "target": "Target (grandmother): And go twice. All right, my turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): Okay, I can move that. | Speaker B (grandmother): And go twice. All right, my turn.",
+            "target": "Target (granddaughter): Oh, I was gonna say you should have moved that here. Whatever you think. So space it like this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): And go twice. All right, my turn. | Speaker B (granddaughter): Oh, I was gonna say you should have moved that here. Whatever you think. So space it like this.",
+            "target": "Target (grandmother): You want me to move that guy there? All right. Space it out?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Oh, I was gonna say you should have moved that here. Whatever you think. So space it like this. | Speaker B (grandmother): You want me to move that guy there? All right. Space it out?",
+            "target": "Target (granddaughter): You move all the way to here. Or this one should move all the way to here. So these move twice.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): You want me to move that guy there? All right. Space it out? | Speaker B (granddaughter): You move all the way to here. Or this one should move all the way to here. So these move twice.",
+            "target": "Target (grandmother): All right, I'll watch you. And then you— Okay, on the first move.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): You move all the way to here. Or this one should move all the way to here. So these move twice. | Speaker B (grandmother): All right, I'll watch you. And then you— Okay, on the first move.",
+            "target": "Target (granddaughter): Yes, and then it moves one.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): All right, I'll watch you. And then you— Okay, on the first move. | Speaker B (granddaughter): Yes, and then it moves one.",
+            "target": "Target (grandmother): After the first move, only once.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): Yes, and then it moves one. | Speaker B (grandmother): After the first move, only once.",
+            "target": "Target (granddaughter): Yeah. On the second move.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): After the first move, only once. | Speaker B (granddaughter): Yeah. On the second move.",
+            "target": "Target (grandmother): Okay. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): Yeah. On the second move. | Speaker B (grandmother): Okay. Okay.",
+            "target": "Target (granddaughter): And let me show you how these guys go. 1, 2. This could go this one or two. Or when there's someone here or here, it can talk to each one.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): Okay. Okay. | Speaker B (granddaughter): And let me show you how these guys go. 1, 2. This could go this one or two. Or when there's someone here or here, it can talk to each one.",
+            "target": "Target (grandmother): Okay. Okay. Okay. I see. How old are you? 5. Oh, you're very good at the game of chess.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (granddaughter): And let me show you how these guys go. 1, 2. This could go this one or two. Or when there's someone here or here, it can talk to each one. | Speaker B (grandmother): Okay. Okay. Okay. I see. How old are you? 5. Oh, you're very good at the game of chess.",
+            "target": "Target (granddaughter): Thank you. My dad teach me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): Okay. Okay. Okay. I see. How old are you? 5. Oh, you're very good at the game of chess. | Speaker B (granddaughter): Thank you. My dad teach me.",
+            "target": "Target (grandmother): Oh, he's a good teacher. Okay, so let's move something else. I'm going to move out my— it's your— I, I thought you just went. All right, who went first? You went, then I went, now it's my turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): Thank you. My dad teach me. | Speaker B (grandmother): Oh, he's a good teacher. Okay, so let's move something else. I'm going to move out my— it's your— I, I thought you just went. All right, who went first? You went, then I went, now it's my turn.",
+            "target": "Target (granddaughter): Hold on, so you say I went fast and then you went, right? See, it's my time. Oh my goodness. Oh, I am forgetting. Sorry about the video, guys. Sorry about the video, guys.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): Oh, he's a good teacher. Okay, so let's move something else. I'm going to move out my— it's your— I, I thought you just went. All right, who went first? You went, then I went, now it's my turn. | Speaker B (granddaughter): Hold on, so you say I went fast and then you went, right? See, it's my time. Oh my goodness. Oh, I am forgetting. Sorry about the video, guys. Sorry about the video, guys.",
+            "target": "Target (grandmother): Why are you talking to the phone instead of me? I'm sitting right here, honey. We don't need 'video guys' to play a game of chess.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (granddaughter): Hold on, so you say I went fast and then you went, right? See, it's my time. Oh my goodness. Oh, I am forgetting. Sorry about the video, guys. Sorry about the video, guys. | Speaker B (grandmother): Why are you talking to the phone instead of me? I'm sitting right here, honey. We don't need 'video guys' to play a game of chess.",
+            "target": "Target (granddaughter): It's for my channel, Grandma! We have to act like we're teaching the subscribers. You have to look at the lens, not the board.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): Why are you talking to the phone instead of me? I'm sitting right here, honey. We don't need 'video guys' to play a game of chess. | Speaker B (granddaughter): It's for my channel, Grandma! We have to act like we're teaching the subscribers. You have to look at the lens, not the board.",
+            "target": "Target (grandmother): I can't see the strategy if I'm looking at a camera lens. It feels very silly to pretend we have an audience when it's just us in the living room.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): It's for my channel, Grandma! We have to act like we're teaching the subscribers. You have to look at the lens, not the board. | Speaker B (grandmother): I can't see the strategy if I'm looking at a camera lens. It feels very silly to pretend we have an audience when it's just us in the living room.",
+            "target": "Target (granddaughter): Learn to how play chess. Now your turn.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandmother): I can't see the strategy if I'm looking at a camera lens. It feels very silly to pretend we have an audience when it's just us in the living room. | Speaker B (granddaughter): Learn to how play chess. Now your turn.",
+            "target": "Target (grandmother): Okay, learn how to play chess. Okay, your turn. All right, I'm gonna go here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (granddaughter): Learn to how play chess. Now your turn. | Speaker B (grandmother): Okay, learn how to play chess. Okay, your turn. All right, I'm gonna go here.",
+            "target": "Target (granddaughter): Yes, now we're getting— You can't move because I am flying.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandmother): Okay, learn how to play chess. Okay, your turn. All right, I'm gonna go here. | Speaker B (granddaughter): Yes, now we're getting— You can't move because I am flying.",
+            "target": "Target (grandmother): I can't go in front. Okay, I'm going to try taking out my bishop. 1, 2—",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (granddaughter): Yes, now we're getting— You can't move because I am flying. | Speaker B (grandmother): I can't go in front. Okay, I'm going to try taking out my bishop. 1, 2—",
+            "target": "Target (granddaughter): That's not a bishop, Dad, it's a horse.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandmother): I can't go in front. Okay, I'm going to try taking out my bishop. 1, 2— | Speaker B (granddaughter): That's not a bishop, Dad, it's a horse.",
+            "target": "Target (grandmother): All right, my knight. I mean, I mean my knight, my horse. Yeah, I'm taking him out. Okay, thanks for correcting me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (granddaughter): That's not a bishop, Dad, it's a horse. | Speaker B (grandmother): All right, my knight. I mean, I mean my knight, my horse. Yeah, I'm taking him out. Okay, thanks for correcting me.",
+            "target": "Target (granddaughter): Come on.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): All right, my knight. I mean, I mean my knight, my horse. Yeah, I'm taking him out. Okay, thanks for correcting me. | Speaker B (granddaughter): Come on.",
+            "target": "Target (grandmother): Well, wait a minute, that's my knight.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (granddaughter): Come on. | Speaker B (grandmother): Well, wait a minute, that's my knight.",
+            "target": "Target (granddaughter): Well, Daddy said you can't just go through, guys. I said this moves 2 times, then over.",
+            "gold_label": "method divergence",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandmother): Well, wait a minute, that's my knight. | Speaker B (granddaughter): Well, Daddy said you can't just go through, guys. I said this moves 2 times, then over.",
+            "target": "Target (grandmother): But that's what I'm saying, dear. The knight is the only piece that can jump over others. I played this with your grandfather for years, I promise that's how it works.",
+            "gold_label": "method divergence",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (granddaughter): Well, Daddy said you can't just go through, guys. I said this moves 2 times, then over. | Speaker B (grandmother): But that's what I'm saying, dear. The knight is the only piece that can jump over others. I played this with your grandfather for years, I promise that's how it works.",
+            "target": "Target (granddaughter): No, you're not listening! My way is how we're doing it for the video. You have to move it around the other pieces, not over them. Just do it my way.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandmother): But that's what I'm saying, dear. The knight is the only piece that can jump over others. I played this with your grandfather for years, I promise that's how it works. | Speaker B (granddaughter): No, you're not listening! My way is how we're doing it for the video. You have to move it around the other pieces, not over them. Just do it my way.",
+            "target": "Target (grandmother): Yeah, with the only the The knight can go through them. Only the knight can. Right, right. And the knight can jump over someone. That's the only guy who can jump.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (granddaughter): No, you're not listening! My way is how we're doing it for the video. You have to move it around the other pieces, not over them. Just do it my way. | Speaker B (grandmother): Yeah, with the only the The knight can go through them. Only the knight can. Right, right. And the knight can jump over someone. That's the only guy who can jump.",
+            "target": "Target (grandson): I think this one.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandmother): Yeah, with the only the The knight can go through them. Only the knight can. Right, right. And the knight can jump over someone. That's the only guy who can jump. | Speaker B (grandson): I think this one.",
+            "target": "Target (grandmother): You don't think so?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandson): I think this one. | Speaker B (grandmother): You don't think so?",
+            "target": "Target (granddaughter): Well, okay. Now I'm gonna move my next pawn here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandmother): You don't think so? | Speaker B (granddaughter): Well, okay. Now I'm gonna move my next pawn here.",
+            "target": "Target (grandmother): Yeah, I know so. All right, so I went from 1 to 1. All right. Now it's your turn. Okay. Wow. All right, I'm gonna turn this off so I can think about how to play, okay?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (granddaughter): Well, okay. Now I'm gonna move my next pawn here. | Speaker B (grandmother): Yeah, I know so. All right, so I went from 1 to 1. All right. Now it's your turn. Okay. Wow. All right, I'm gonna turn this off so I can think about how to play, okay?",
+            "target": "Target (grandson): Okay, goodbye guys!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        }
+    ]
+}

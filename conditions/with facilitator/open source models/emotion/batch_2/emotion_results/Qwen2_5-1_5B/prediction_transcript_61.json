@@ -1,0 +1,73 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 61,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "happy",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "happy",
+      "predicted": "happy",
+      "raw": "happy"
+    },
+    {
+      "text": "Ah, I see. Technology makes things so convenient these days, doesn't it?",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates.",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "I understand, it's amazing how things have changed. I remember when we had to do everything manually.",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech.",
+      "golden": "neutral",
+      "predicted": "sad",
+      "raw": "sadness"
+    },
+    {
+      "text": "That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks.",
+      "golden": "neutral",
+      "predicted": "happy",
+      "raw": "happy"
+    },
+    {
+      "text": "Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape.",
+      "golden": "frustrated",
+      "predicted": "neutral",
+      "raw": "neutral"
+    },
+    {
+      "text": "I get that. It's like we're always expected to be available, and it can be overwhelming sometimes.",
+      "golden": "neutral",
+      "predicted": "sad",
+      "raw": "sadness"
+    },
+    {
+      "text": "Exactly, it's like there's no off switch. Do you ever feel like things were simpler back then?",
+      "golden": "neutral",
+      "predicted": "sad",
+      "raw": "sadness"
+    },
+    {
+      "text": "That's a great point. Every little bit helps when it comes to conserving resources.",
+      "golden": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral"
+    }
+  ]
+}

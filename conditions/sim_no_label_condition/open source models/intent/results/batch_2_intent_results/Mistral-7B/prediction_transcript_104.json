@@ -1,0 +1,421 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 104,
+    "utterances": [
+        {
+            "text": "that you have to answer, okay? Because that might be a block. Okay, sometimes this happens. Okay, so how many— I need to answer your question so you can block it. The next turn you go. Okay, so how many blocks can you stack to the Earth? Like how many blocks that can go on Earth?",
+            "golden": "explain",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "How many blocks?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, how many blocks can go around the Earth?",
+            "golden": "emphasize",
+            "predicted": "ask for help",
+            "raw": "ask for help (or) inform ("
+        },
+        {
+            "text": "The Earth?",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Yeah, like surround Earth.",
+            "golden": "explain",
+            "predicted": "emphasize",
+            "raw": "Emphasize"
+        },
+        {
+            "text": "Surround Earth? How many blocks? There's trillion, trillion blocks. Very hard to count.",
+            "golden": "explain",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Go to the Earth globe.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange (assuming \"Go to the"
+        },
+        {
+            "text": "Yeah, like— Can you explain to me how the pieces move and attack?",
+            "golden": "ask for help",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Do I have to go over this again?",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Yes, yes, please.",
+            "golden": "emphasize",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "The queen can move anywhere. The pawn can move straight or 2. The king can move 1 direction and has the ability to go anywhere but once. And the bishop can go anywhere, like in diagonal. This guy can move anywhere in a straight line.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "What's that guy called? Is it called a guy?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "That's a rook.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt (assuming the speaker is express"
+        },
+        {
+            "text": "Yeah, rook.",
+            "golden": "acknowledge",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "That's right.",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "And what else? Rook.",
+            "golden": "asking for opinions",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "How do you spell?",
+            "golden": "ask for help",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "R-O-O-K. R-O-O-K. Yeah, rook. Rook.",
+            "golden": "explain",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "A rook.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "This utterance does not contain any intent"
+        },
+        {
+            "text": "A rook.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "This utterance does not contain any intent"
+        },
+        {
+            "text": "A rook. Are you a castle, man? Are you a man?",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "The knight, he can go this way or he can go downhill. Okay, he can go downhill. Okay, remember that.",
+            "golden": "explain",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Down and up.",
+            "golden": "emphasize",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "Yeah, down and up.",
+            "golden": "agree",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah, not L. Down and up.",
+            "golden": "emphasize",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Down and up. You like 1, 2, and then 1 and then L.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Yeah, well, 2. 1, 1 space, then 2 spaces.",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "1, 2.",
+            "golden": "acknowledge",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "This is the same one you play when you—",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "interrupt\n\nUtterance: I"
+        },
+        {
+            "text": "I remember showing you this set when you were much smaller, we used the regular rules then, do you remember?",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "remind (or share memory) could also"
+        },
+        {
+            "text": "And now, and now. Yeah, 1 space and then 2 spaces. That's 1, and 1 more. One space. Move it one space and then two more spaces. That's a capital L. Yes.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yeah, yeah, you move like this. Yeah, no, yeah, you can move like this too.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "No, no, no, no, it has to be— yeah, it has to be three. Has to be three spaces.",
+            "golden": "oppose",
+            "predicted": "emphasize",
+            "raw": "emphasize"
+        },
+        {
+            "text": "One. Teacher Mr. Sal didn't say that. I thought he said like only this way.",
+            "golden": "doubt",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "And one more.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange (assuming \"And one more"
+        },
+        {
+            "text": "Yeah, he didn't say like 3.",
+            "golden": "doubt",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "It has to be 3. That's a—",
+            "golden": "emphasize",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I"
+        },
+        {
+            "text": "he didn't say 3.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "3 spaces.",
+            "golden": "emphasize",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "I thought he said 1, 2, 3.",
+            "golden": "acknowledge",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "1, 2, 3.",
+            "golden": "acknowledge",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "That's why he said that. Yeah. Okay, you're so cute, baby. Okay, so you can answer the question.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge, compliment, confirm"
+        },
+        {
+            "text": "Yeah, you can also do 1, 2, 3 over here. Right, or over here. It could be 1, 2, and then 1, or 1 and 1, 2.",
+            "golden": "explain",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "That's because he has the ability to double move.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay, so you didn't answer questions, so say goodbye to your queen. Ah, you eat my queen!",
+            "golden": "warn",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "You intend to eat my queen! You, you eat my 2 horse already.",
+            "golden": "complain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "I have 3, you have 2.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtter"
+        },
+        {
+            "text": "Oh my God.",
+            "golden": "emphasize",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "If I capture all the pawns, that's one goal I complete. If you do all goals separate, then you win.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "He's so smart.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Then you have to do a super question.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Super question?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "If you don't answer that super question, we have to restart and have to fight with one pawn.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "One pawn?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange (assuming this is in the"
+        },
+        {
+            "text": "Yes. That hard? We have to fight with one pawn. And one pawn has to be in a different direction. Yeah, we have to answer questions to each other to see how good we are, and then we can move others.",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay? Also, we have this guy too. Also, yeah, we're gonna put that guy too in the next round, okay? And move the king. It's your turn. Oh, you forgot. This guy's here.",
+            "golden": "arrange",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Okay, I can eat yours. Yes.",
+            "golden": "plan",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "You can't do that! You can capture my king too instead of that pawn. This guy can fight directions. Okay, remember that. Okay, who you gonna go, the king or the pawn?",
+            "golden": "prevent",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "I can eat your king, right?",
+            "golden": "confirm",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Well, the king is more— it's not so important.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Oh yeah, the king knight means that the king— I eat your king means I win, you lose already. Yes or no, daddy? You lose!",
+            "golden": "flaunt",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "I win! No, the queen is still the biggest one still too. You have to defeat the queen too.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Oh, I win, I win, I win the king knight.",
+            "golden": "flaunt",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "You have to eat the queen.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "The queen too?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah, you only have the king. I defeated your queen.",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

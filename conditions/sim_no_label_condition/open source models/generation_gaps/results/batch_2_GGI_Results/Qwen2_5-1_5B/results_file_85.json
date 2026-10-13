@@ -1,0 +1,231 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 85,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): There's a bishop, another pawn, a knight. La la la la la la la la la. Let's see if I still— okay, that takes care of— no? Oh, here it is. All right, now you have 8. Now, on the corners you have the castle, You have the—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): There's a bishop, another pawn, a knight. La la la la la la la la la. Let's see if I still— okay, that takes care of— no? Oh, here it is. All right, now you have 8. Now, on the corners you have the castle, You have the—",
+            "target": "Target (granddaughter): Oh, this is the, uh, Here's the other one on the corner right here?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): There's a bishop, another pawn, a knight. La la la la la la la la la. Let's see if I still— okay, that takes care of— no? Oh, here it is. All right, now you have 8. Now, on the corners you have the castle, You have the— | Speaker B (granddaughter): Oh, this is the, uh, Here's the other one on the corner right here?",
+            "target": "Target (grandfather): Yeah, yeah. Then you have the— I see this, the knight, and then the bishop. And it goes the same thing on this side. See the knight? Oh, that's what I wanted. Okay, the bishop is right there. Okay, now in the middle is a queen on her own color. Oh wait, this is her color, right? Okay, yeah. This is the queen, okay, on her color, and then the king right there. I'm hoping— see the queen on her own color, and the king. You see, castle, knight, bishop, queen on her own color.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Oh, this is the, uh, Here's the other one on the corner right here? | Speaker B (grandfather): Yeah, yeah. Then you have the— I see this, the knight, and then the bishop. And it goes the same thing on this side. See the knight? Oh, that's what I wanted. Okay, the bishop is right there. Okay, now in the middle is a queen on her own color. Oh wait, this is her color, right? Okay, yeah. This is the queen, okay, on her color, and then the king right there. I'm hoping— see the queen on her own color, and the king. You see, castle, knight, bishop, queen on her own color.",
+            "target": "Target (granddaughter): Wait, I found a cat-shaped keychain! It looks just like the knight. I'm gonna name him Sir Meows-a-Lot. He should lead the army.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Yeah, yeah. Then you have the— I see this, the knight, and then the bishop. And it goes the same thing on this side. See the knight? Oh, that's what I wanted. Okay, the bishop is right there. Okay, now in the middle is a queen on her own color. Oh wait, this is her color, right? Okay, yeah. This is the queen, okay, on her color, and then the king right there. I'm hoping— see the queen on her own color, and the king. You see, castle, knight, bishop, queen on her own color. | Speaker B (granddaughter): Wait, I found a cat-shaped keychain! It looks just like the knight. I'm gonna name him Sir Meows-a-Lot. He should lead the army.",
+            "target": "Target (grandfather): Listen to what I'm saying about the Queen's color, it's the most important part. White queen on a white square. Don't worry about the cat right now.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Wait, I found a cat-shaped keychain! It looks just like the knight. I'm gonna name him Sir Meows-a-Lot. He should lead the army. | Speaker B (grandfather): Listen to what I'm saying about the Queen's color, it's the most important part. White queen on a white square. Don't worry about the cat right now.",
+            "target": "Target (granddaughter): Sir Meows-a-Lot says we should turn the board 'right meow'! Get it? Meow?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Listen to what I'm saying about the Queen's color, it's the most important part. White queen on a white square. Don't worry about the cat right now. | Speaker B (granddaughter): Sir Meows-a-Lot says we should turn the board 'right meow'! Get it? Meow?",
+            "target": "Target (grandfather): You're playing around and not hearing the rules. Now we've got the board sideways. We have to stop. Total stall until we rotate this properly. No cat keychains on the battlefield until we know where the King goes.",
+            "gold_label": "ignored input",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Sir Meows-a-Lot says we should turn the board 'right meow'! Get it? Meow? | Speaker B (grandfather): You're playing around and not hearing the rules. Now we've got the board sideways. We have to stop. Total stall until we rotate this properly. No cat keychains on the battlefield until we know where the King goes.",
+            "target": "Target (granddaughter): Here's the bishop. Well, that's not the queen then. That's— the king is bigger, right? Is the king bigger?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): You're playing around and not hearing the rules. Now we've got the board sideways. We have to stop. Total stall until we rotate this properly. No cat keychains on the battlefield until we know where the King goes. | Speaker B (granddaughter): Here's the bishop. Well, that's not the queen then. That's— the king is bigger, right? Is the king bigger?",
+            "target": "Target (grandfather): Yeah, yeah, the queen has to be on her own color. You're right. Oh, you saw that. Okay, so same thing on this side. The castle. The knight, which is a horse. The bishop, and then the queen on her own color. We got it! And I'll do that, the other one, after you leave. Cool!",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Here's the bishop. Well, that's not the queen then. That's— the king is bigger, right? Is the king bigger? | Speaker B (grandfather): Yeah, yeah, the queen has to be on her own color. You're right. Oh, you saw that. Okay, so same thing on this side. The castle. The knight, which is a horse. The bishop, and then the queen on her own color. We got it! And I'll do that, the other one, after you leave. Cool!",
+            "target": "Target (granddaughter): Okay. Okay. Okay. And all these—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Yeah, yeah, the queen has to be on her own color. You're right. Oh, you saw that. Okay, so same thing on this side. The castle. The knight, which is a horse. The bishop, and then the queen on her own color. We got it! And I'll do that, the other one, after you leave. Cool! | Speaker B (granddaughter): Okay. Okay. Okay. And all these—",
+            "target": "Target (grandfather): Or you want to wait?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Okay. Okay. Okay. And all these— | Speaker B (grandfather): Or you want to wait?",
+            "target": "Target (granddaughter): Well, you could do it right now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): Or you want to wait? | Speaker B (granddaughter): Well, you could do it right now.",
+            "target": "Target (grandfather): Let's do it now?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Well, you could do it right now. | Speaker B (grandfather): Let's do it now?",
+            "target": "Target (granddaughter): Yeah, right meow.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Let's do it now? | Speaker B (granddaughter): Yeah, right meow.",
+            "target": "Target (grandfather): All right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Yeah, right meow. | Speaker B (grandfather): All right.",
+            "target": "Target (granddaughter): Right meow. Let's turn her around.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): All right. | Speaker B (granddaughter): Right meow. Let's turn her around.",
+            "target": "Target (grandfather): Just a little bit, just a little bit. And when he walks in And be ready to play.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Right meow. Let's turn her around. | Speaker B (grandfather): Just a little bit, just a little bit. And when he walks in And be ready to play.",
+            "target": "Target (granddaughter): Hey, wonderful, good girl.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): Just a little bit, just a little bit. And when he walks in And be ready to play. | Speaker B (granddaughter): Hey, wonderful, good girl.",
+            "target": "Target (grandfather): You can— you already know how to do that. Oh, I'm a pro now. You know the little pawns, put those little pawns in place. Let's see, all right. A knight, the This is the castle, the knight, the castle over here, the knight, and then the bishop. The queen has to be in her own color. Where's the queen?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Hey, wonderful, good girl. | Speaker B (grandfather): You can— you already know how to do that. Oh, I'm a pro now. You know the little pawns, put those little pawns in place. Let's see, all right. A knight, the This is the castle, the knight, the castle over here, the knight, and then the bishop. The queen has to be in her own color. Where's the queen?",
+            "target": "Target (granddaughter): Yes, sir.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): You can— you already know how to do that. Oh, I'm a pro now. You know the little pawns, put those little pawns in place. Let's see, all right. A knight, the This is the castle, the knight, the castle over here, the knight, and then the bishop. The queen has to be in her own color. Where's the queen? | Speaker B (granddaughter): Yes, sir.",
+            "target": "Target (grandfather): Right here. It has to be white on white, so it has to be on this color right there. So the black over there. Okay. And all you have to do is put the little— do the little pawns for your dad.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): Yes, sir. | Speaker B (grandfather): Right here. It has to be white on white, so it has to be on this color right there. So the black over there. Okay. And all you have to do is put the little— do the little pawns for your dad.",
+            "target": "Target (granddaughter): Okay. Mm-hmm. Okay, how does it look? That one.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): Right here. It has to be white on white, so it has to be on this color right there. So the black over there. Okay. And all you have to do is put the little— do the little pawns for your dad. | Speaker B (granddaughter): Okay. Mm-hmm. Okay, how does it look? That one.",
+            "target": "Target (grandfather): There you go. See, it's the same on both sides. Each corner has to have this. Okay, 1, 2, 3, plus the king and queen in the middle.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): Okay. Mm-hmm. Okay, how does it look? That one. | Speaker B (grandfather): There you go. See, it's the same on both sides. Each corner has to have this. Okay, 1, 2, 3, plus the king and queen in the middle.",
+            "target": "Target (granddaughter): Sweet!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): There you go. See, it's the same on both sides. Each corner has to have this. Okay, 1, 2, 3, plus the king and queen in the middle. | Speaker B (granddaughter): Sweet!",
+            "target": "Target (grandfather): You got it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Sweet! | Speaker B (grandfather): You got it?",
+            "target": "Target (granddaughter): Oh Yep. Hey, I just learned something!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): You got it? | Speaker B (granddaughter): Oh Yep. Hey, I just learned something!",
+            "target": "Target (grandfather): I have to teach you how to play chess.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): Oh Yep. Hey, I just learned something! | Speaker B (grandfather): I have to teach you how to play chess.",
+            "target": "Target (granddaughter): Oh boy!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

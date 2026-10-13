@@ -1,0 +1,1927 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 100,
+    "utterances": [
+        {
+            "text": "Grandmother, you're quite good driving, innit? I might get you to work for me.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Pass. Welcome guys to Passman. I've got a very special guest on today, it's my nana. Nana, thanks for coming on. She's my number one YouTube fan. All right guys, so I wanted to give my Nana had a lesson today because she was feeling a bit uncomfortable on carriageways, wasn't you?",
+            "golden": "greeting",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Now, how long you been driving, Nana?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "50 years.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "50 years, yeah? God, can you tell us about your driving test? What was your test like back then?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "It was okay, actually.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah?",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, it wasn't bad.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "What was she even driving? Do you remember what car it was? Ford. Ford.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Ford.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Ford. Any idea what Ford it was?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Old school Ford, I guess.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I can't remember. Probably Escort, yeah.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Ford Escort?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, reverse to go home.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "No, it's not reverse yet. Um, let me just ask you a few questions, Nana, quick. Yeah, so they didn't even have a theory test back then, did they? No, it was just a few questions.",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yeah, that's right. Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Um, did you pass first time?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, second.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Second?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What did they fail you for?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Emergency stop.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What happened? Because they still do that in the test now.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Are they today?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "They do it still.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What happened, you didn't stop quick enough, or— Yeah, you didn't stop quick enough.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, I thought I did, but he didn't.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "He said it weren't quick enough, yeah?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That's right.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay. So no, no, look, I'm just gonna— look, you know how to drive. You've been driving longer than I've been born.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, certainly.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, so I'm just gonna give you a little bit of confidence again.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And then I'll just mention little things that's probably different to what you're used to anyway.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So like, you just do you. You drive. I'm gonna do a little route into Welling where you go to your normal shops. Into like Morrison's and stuff. Okay. So once we've gone into there, get used to my car a little bit. You're the first one to drive my car, by the way.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, really?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, because I've only just got my pedals fit.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Lucky me.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah. And then we're going to do some carriageways because you're a bit nervous to get on them now, aren't you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, because of your dad. He wasn't well because of the pandemic. Didn't drive a couple of years and I just—",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's what it is.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I feel you. All right, Nané, come on then. You've got the best instructor here anyway.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So I'm just going to sit and watch you. You're not used to these handbrakes, are you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "All right, so that's the water hold, Nané. I'll explain that to you later, yeah? But can you see your parking brakes on there, the P?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, so see this button?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can pull it out or get a biting point and press the gas and watch what happens. Look, lift your clutch up and press the gas a little bit. See that? It gets rid of it anyway.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "I don't like it. Where is the lever? I want to feel the click so I know the car isn't going to roll back on us. This button feels like a toy.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It’s not a toy, Nana, it’s sensors. Look at her face, guys, she thinks the car is going to fly away! It’s just a digital switch.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Don't 'look at her face' me. I am sitting right here. I have driven half a million miles without a 'digital switch' and I never rolled into a ditch. You’re making me feel like a toddler in a high chair for your little show.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay. Yeah?",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You had a Golf as well, didn't you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, I did.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I miss it.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "There you go, you can drive this whenever you want now. Let's get some climb on. Are you hot? You cold? You're right.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, I'm fine.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. Oh no, I don't want no speeding today, Tom.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No speeding.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's the speed limit on these roads? 30.",
+            "golden": "statement-non-opinion",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "30?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And you can see your speed out there, it tells you what gear you're in as well. Yeah, come on then. Do you remember, must have been 15 years ago, we had a bloody crash on this road, didn't we, when you were driving? 15 years ago?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, it's more than that. 25 years ago? Yeah, yeah, I remember sitting in the back. Yeah, I didn't even have a belt on, do you remember? I know, I flew into that seat, smashed my chin. I know, your airbag come out, didn't it?",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, bloody hell, it was really scary.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Someone just pulled out on us, do you remember? Yeah, yeah, and it was in your Golf, wasn't it? Yep.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, yeah, and it was brand new Golf as well, wasn't it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, I remember it wasn't even fitted with ABS, was it? Back then ABS was like a special feature, wasn't it? Yeah. Nanny, look at all the cameras up there.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, no.",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What are them cameras there for?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Speeding.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's this yellow box.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Oh, is it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, so if anyone stops in that yellow box, they get— they get a ticket. £60. Yeah, right, then it's straight on. Yeah, yeah. When are you allowed to stop in a yellow box?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "When am I allowed?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, there's—",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "you're never allowed, are you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, when you're turning right and the opening's clear, you can. So look, look at this moped. He's sitting in the box, see? Yeah, because he's turning right.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, no, when he's opening, it's clear he's going to turn.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "All right.",
+            "golden": "backchannel",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, I'll let you learn some stuff with me now. Yeah, I know. We never hit the musical, did we?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah. So these zebra crossings then, if anyone's ever approaching, we've got to stop for them.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, yeah, of course.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "You're quite good driving in there. I might get you to work for me.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Pass.",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You can be Pascal.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "So, Nana, you know when you keep popping it to neutral?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "They call that coasting.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Coasting?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah. In the driving test, they want you to always be in gear.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I know, and they used to tell me off. Yeah, he says you're spoiling— you're damaging the car, damaging the engine.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You know what, it doesn't damage it, but I think the reason they don't like you coasting is because it's no control. There's less control.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You know what, in traffic, I don't blame you. It's nice to just rest your foot for a minute, isn't it?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "If you was my student, I'd be telling you off now, but I'll let you off because you're my nana. Why? For coasting. Because they don't really like you doing that in the test.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "It's not something that will fail you unless you keep on doing it.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay, I'll leave it there then.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, you do you, it's fine. I've had someone fail for that, Nana, just because they kept on doing it.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Really?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It was only a little minor fault. Because do you know how many minors you're allowed in your test? How many minors? Like, like a small mistake, like 15 little mistakes.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh really?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So you might stall, you might do a bit of coasting, you might forget a little mirror check. Yeah, you know, you might go a bit too slow, a bit too fast, like they're little minors.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "But one dangerous fault is a fail. So the guy in this test, he'd done this over and over and over, and his little mind is— yeah, their mind is stacked up, and they failed him for it.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh my God.",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So they don't really like you coasting in the test, but we're not in a test today. Yeah, you can do what you want, you know.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What do you want to do, a forward or reverse bay park?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Uh, forward.",
+            "golden": "answer",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Go for it, anywhere you like.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wow, how was it?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "That was brilliant. I couldn't have faulted that. All right, so then there— have you ever had a reverse camera?",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "So you're gonna press the stick down and then first gear.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Same with mine.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh, nice. Okay, see it?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, so then check all your little blind spots as well. Look over your shoulders. Look. Yeah, that's it. That's how they want you to do it, okay? Now, who's got the priority with these guys? If they're trying to come around you, what would you do? Someone's trying to drive. Who do you think's got the priority if someone was coming?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I have to stop, don't I?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, you would have to, yeah. So keep an eye out. Seems right, doesn't it?",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, turn anywhere you like, really. We can get out both sides. You've got your camera to help you as well, look.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well, I'm not used to them, am I?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, this is nice. And then round to the right.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I don't have to signal here, do I?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, you don't. Why don't you have to signal here? We're gonna go left now.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I'm gonna go left.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, why don't we have to signal there?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Because there's one way.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Exactly. And years ago you you had to do left and right with your hand as well.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Arm signals?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, because if you didn't, you didn't pass your test.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Why did they do arm signals? Didn't they have lights on the cars?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Or— Yeah, they did. Just to reinforce.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So, Nana, how would you do a left signal with your arm?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Just go like that.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "How are they going to see that behind?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Um, you go, uh, with this hand and you go—",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, like that.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well done. They are saying theory. Yeah. What's your arm signal if you was going to be slowing down? Do you remember that one?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "This, like this.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yeah, shunning it. And then right, just sticking your arm out, isn't it?",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yep.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, then we're going to go to the carriageway soon. How are you feeling? Just thinking about it? Hmm, it's the thought that's worse than it is.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, yeah.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "But you know, once we're on it, we'll be— we'll be right. I'll demonstrate to you anyway.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "But if I met— if I just met you today for the first time and you got in my car, I'd say, \"Nene, you're ready for your driving test.\" Oh, really? Yeah.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "But I didn't pass it.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You haven't passed my mock test.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh dear.",
+            "golden": "backchannel",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "I'm strict on my mock tests.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, that's how it should be, innit?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, exactly. So when you go for your test, it feels easier too.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah. You know, I've got you now. I might feel confident.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, no, no, look, now that you're coming here, it's all muscle memory. It all comes back to you, doesn't it? Yeah, I know, because you love going up Bluewood, don't you?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I used to love it.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, so no, no, watch these white lines. Can you see the solid white lines?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can't cross them. So just speed up for now and just keep in this lane for a little bit, and then when you think it's safe— no rush, we've got, we've got a few miles to the exit anyway— but when you think it's safe, I want you to change over to that middle lane. Yeah. That's probably one of the scariest things on these carriageways, doing that, isn't it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And you checked your blind spot?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What is the blind spot in there? What actually is it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I don't know.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "It's the area that your mirror can't see.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh really?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "So that's why you checked your shoulder, didn't you? Because there's spots in your mirrors. And behind these pillars, these are blind spots.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, okay. Yeah, that's like the over overtaking the overtaking lane.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "All right, get your gear up as well, more economical. You're in 4 now. No, so go to 5. Look at it, top right. Yeah, that's it. And it tells you what gear you're in. See, 5 now.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right. Yeah, no, I didn't know which way to put the 5.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Same as your car.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, there's cameras here as well.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, how'd you feel, Nana?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Look It's been years since you've been on there, isn't it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I know, I know. I'm all right driving here, you know, but when I get to come off the motorway— changing lane, yeah.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What is it that scares you coming off? Uh, if it's changing lane or slowing down? It's tricky. Just make sure you do it in good time. Yeah, don't leave it to the last second. Yeah, and remember these solid lines in there, look, so you can't change that lane when that's solid. Yeah, yeah, see when them lines are broken? Yeah, that's when you can change. Yes. And then what lane should we be in generally now if there's free?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Middle. No, no, that one.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Not the middle lane. What'd you call that lane?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That's the normal driving lane.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, is it? No, no, no. Look, if we're overtaking, yeah, we can kind of progress in this lane. Yeah. So look, with this big lorry here, yeah, look, we can keep to 50. No, we're overtaking, so at the moment this would be fine in your test as well.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "But look, we're a little bit over the speed limit. Yeah, be careful.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "53.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's the limit on here? It's 50 at the moment. Oh really?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, now the speed is going to change any second here. Yeah, so just keep in this lane for a sec because we're going to keep progressing. So then look, there's a white and black stripe there. Can you see that white with the black stripe? What does that mean?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I don't know.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "It means national speed limit. Oh, so what would the national speed limit be on this carriageway? Maximum of what?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Maximum, it should be 70.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, so let's get in front of that lorry. Just keep an eye on your speed. As long as you don't go over the 70 mark, you're good. Because then loads of people, they middle lane hog. They just stay in the middle lane.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "No, no, I don.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, so these are the lanes for overtaking.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, so what we'll do then, we'll get past that lorry, and just when it's safe, no rush, we'll just get back in gently. Yeah.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "We shouldn't get in this lane because of that.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I mean, look, it's pretty cool now after that. It's pretty clear. Yeah, normally if we're in this lane and people are trying to get in there, we just got to be nice to them, you know. Sometimes speed up and they can get behind. Sometimes we can slow down to let them in.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Sometimes we— if it's clear, you go.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Exactly. Yeah.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "So no, no, if you're coming down here and you're feeling a bit nervous and you're coming to Bluewater, just, just stay in this lane.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, you know, you don't want to be in the overtaking lanes.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Because look, it's chilly in this lane, isn't it?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah. And they're not really even hitting 70 when it's like this. Exactly. I don't speed anyway. I don't like speeding.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, good. That's when, that's when stuff gets dangerous, when people going too fast normally, isn't it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah. I used to drive to Midlands, you know. Yeah, what's that, 3 hours away, isn't it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. And now probably I can do it, but—",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, no, you feel fine. I'm sitting in the car, I feel, I feel safe. I feel like you're a confident driver.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh really?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "It's just, it's just the thought of it, getting on these carriageways, because I get people coming to me, they call me up like from online or whatever, but like, they've actually got licenses and they're scared to come on the carriageways. People book motorway lessons.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "I know. Really?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So your payment for this lesson today, you're gonna cook me some banging Turkish food.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I want to do bezel today with artichokes.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Oh, lovely. Yeah, bezel is a peas dish, isn't it?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Making my mouth already. I know.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Why?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "And then it's Nana is always the best cooks.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, thank you.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Why are they always the best cooks though? I guess it's the experience.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Not always though, is it?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, you're right, it's not always. It's not always. My nana is the best cook.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Thank God.",
+            "golden": "backchannel",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "All right, Nana, look, this one's coming off the Dartford Crossing.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, so we have to go to the other lane.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well, we don. We don, because you know the road markings, Nana? Yeah. If we're in a slip road, meaning like it's going to exit— yeah, then see, see the markings next to you, they start going really small. They're really close together. And do you know what color them— do you know what color the little studs are? Look, they're white little studs now, aren't they? If they're green and close together, that means you're in the slip road.",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So at the moment, look, we're not in a slip road. And look, see the 3 stripes? The 3, 2, 1. Look, that's where the exits come in. But as you can see, look, I can go straight. We can go straight from this lane. So, Nana, you know that I was talking about them little markings really close and dotted? Yeah, look, here they are.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So look, if they're to your right, then you're in the slip road. But look, they're to our left now, so we're not in it. Yeah, so that's how we know.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, yeah.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Okay, look at the signs up there. Tell me when you can see the one for Bluewater.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, nice.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "And the lines are broken, so we can cross it. Look on the floor— Bluewater.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "That's it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So no, no, look, this is a great example of being in the slip road now. So look at the markings next to you. Can you see? Yeah, they're little green studs and they're really close together. See?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So this is how you know you're in a slip road.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, okay. Yeah, yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, look, this blue was there.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. Have we got time to have a coffee in Marks?",
+            "golden": "question",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "I think we do. Yeah, we'll have a quick coffee. All right, you can— you know how to get to Marks, don't you?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah. All right, get us into Marks Spencer's then. Have you got your badge on you?",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. Um, what was gonna say? They changed the roads as well down here now, haven't they?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, it has changed a little bit actually. They put a few new roundabouts in. I don't know if you noticed, my car actually keeps you off of the lines as well. If you notice, the wheels turns a little bit for you.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "The wheel is moving by itself? No, thank you. I do not want a car that thinks it is smarter than I am. If I want to move the wheel, I will move it. If the car starts fighting me, we are going to have a problem.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It’s lane-assist, Nana! It stops people from drifting. I bet my viewers would love to see you fight the steering wheel. It’s like wrestling a ghost, isn't it?",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It’s not 'lane-assist,' it’s a nuisance. I don't need a ghost to drive me to Marks and Spencer's. And stop talking about your 'viewers' like I’m a science experiment. I’m your grandmother, not a viral video.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh really?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I didn't. It's got like a lane assist. It assists you to keep in your lanes, which is quite a nice thing.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, but when you look ahead, you can't go wrong, can you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, that's why I teach my guys actually. Is that what you learn? Yeah, look as far as you can see and your steering follows.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, he always used to say to me, you know, 50 years ago, and I'll never forget it.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Wow, what was your driving instructor like then, eh?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "He was very good.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Was he?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Very patient as well. He was a young man, really, you know.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, his name—",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I remember his name as well. Malcolm. Malcolm.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wow. Your examiner or your teacher? My teacher. Your teacher.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "He was really good.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "You know what, it's something about It's about your driving school teachers, isn't it? Then they're like, yeah, people just have that loyalty to them. It's like a barber. Yeah, a guy will never change his barber. If that barber changes area, that guy's going to that area to get his haircut. Yeah, yeah. Because I get some people in there, they come to me from other students, and their instructor like shouts at them and screams at them.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "And you see, that's what is wrong, isn't it? That's why I didn't let them teach me.",
+            "golden": "agreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, you know, it's hard to teach. It's hard teaching family. Go on, have a go. We'll tell you what gear you're in. Look, you're in 4, but you'll be all right in 4.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, yeah, yeah.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Like, I asked them then, I say to them, who's your teacher? Who's shouting at you? And like, they, they don't want to say.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Oh, no, it's all right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, but you know what, I mean, not that I'm going to name and shame them, I just— exactly, they just got this thing for him, you know. I don't know why I touched your wheel then, and he's— you're all right. I went into learner mode there.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, did you touch You just went a little bit close to the curb, but he was all right.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, come back to 1 then. Let's start fresh. Yeah, go to 1. That's it, because you're stopped there.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, check.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You checking your mirrors out as well? Nice. You checked your mirror as well.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What 2 mirrors do we check if we're going left? And then do you remember? 1. 2. Yeah, in pairs.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, yeah.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "All right, go and find a little spot somewhere. Oh, well done. Oh, look at that, perfect. Go and pop her straight in. Yes, sure. Nice.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Was it— it was a good day.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, it did. You're right, then. They were in.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh yeah, but it was too close.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh yeah, that's fine.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Nice.",
+            "golden": "backchannel",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "And then engine off. So when we're on a dual carriageway—",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's the best lane to stay in normally?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "The inner lane.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, so they're the overtaking lanes. How do you know when you're on a slip road? Uh, from the markings. Yeah, markings. Yeah, yeah, nice and close to the green. Green, yeah. You don't cross the white lines. You Yeah, yeah, you can actually get in trouble for doing that as well for police, see?",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Yeah, yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Um, and then there was that stop sign in the Morrisons. There was that stop sign that would have failed your test, and then that traffic light, I think.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Really?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, but apart from that, your driving was really nice.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, good.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "So do you reckon you'd drive to Bloor on your own yet?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Maybe.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'll have to give you one more lesson, maybe.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, maybe. Yeah, I think so. I don't think I've got Brazilian as payment for later.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Thanks for coming on, I really appreciate Thank you for giving me a lesson. No problem. All right, tell them to press like and subscribe.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Press like, like, and subscribe, and subscribe.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "That'll do. Thanks, guys. Bye. Bye. Bye.",
+            "golden": "others",
+            "predicted": "greeting",
+            "raw": "greeting"
+        }
+    ]
+}

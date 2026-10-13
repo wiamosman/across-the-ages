@@ -1,0 +1,538 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 23,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): good afternoon. thank you so much for joining me for yarn by and boy, are we in for a special treat today. next to me is my beautiful granddaughter, ryan kate. how you doing, ryan kate?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): good afternoon. thank you so much for joining me for yarn by and boy, are we in for a special treat today. next to me is my beautiful granddaughter, ryan kate. how you doing, ryan kate?",
+            "target": "Target (granddaughter): doing good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): good afternoon. thank you so much for joining me for yarn by and boy, are we in for a special treat today. next to me is my beautiful granddaughter, ryan kate. how you doing, ryan kate? | Speaker B (granddaughter): doing good.",
+            "target": "Target (grandmother): oh, and she's so happy to be here too. to be in yarn biting to meet my knitting friends because guess what, we got a knitter right here. oh, yeah. we're going to be spending some time together. quality time. that means yarn time. and you know what, why don't you show us around, ryan? show us around your beautiful house. it's on half an acre. we'll start over here, ryan. oh, i'm sorry. one acre. thank you. over here. let's switch this around here. here we go. who's this, ryan? this is rasco. right. and here's the yard. and behind is a nature conservative.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): doing good. | Speaker B (grandmother): oh, and she's so happy to be here too. to be in yarn biting to meet my knitting friends because guess what, we got a knitter right here. oh, yeah. we're going to be spending some time together. quality time. that means yarn time. and you know what, why don't you show us around, ryan? show us around your beautiful house. it's on half an acre. we'll start over here, ryan. oh, i'm sorry. one acre. thank you. over here. let's switch this around here. here we go. who's this, ryan? this is rasco. right. and here's the yard. and behind is a nature conservative.",
+            "target": "Target (granddaughter): right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): oh, and she's so happy to be here too. to be in yarn biting to meet my knitting friends because guess what, we got a knitter right here. oh, yeah. we're going to be spending some time together. quality time. that means yarn time. and you know what, why don't you show us around, ryan? show us around your beautiful house. it's on half an acre. we'll start over here, ryan. oh, i'm sorry. one acre. thank you. over here. let's switch this around here. here we go. who's this, ryan? this is rasco. right. and here's the yard. and behind is a nature conservative. | Speaker B (granddaughter): right.",
+            "target": "Target (grandmother): why don't you point out some special areas for us? right. and your property. what about the pumpkin vines?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): right. | Speaker B (grandmother): why don't you point out some special areas for us? right. and your property. what about the pumpkin vines?",
+            "target": "Target (granddaughter): oh, yes, we have several pumpkin vines all throughout. we have down over here, right there, all along over here, and two or three over here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): why don't you point out some special areas for us? right. and your property. what about the pumpkin vines? | Speaker B (granddaughter): oh, yes, we have several pumpkin vines all throughout. we have down over here, right there, all along over here, and two or three over here.",
+            "target": "Target (grandmother): and behind where you see that picket fence, that is a nature conservatory. so that will never be built up. yep, that gorgeous. and then over here we have some more trees. very nice. do you like living here, ryan?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): oh, yes, we have several pumpkin vines all throughout. we have down over here, right there, all along over here, and two or three over here. | Speaker B (grandmother): and behind where you see that picket fence, that is a nature conservatory. so that will never be built up. yep, that gorgeous. and then over here we have some more trees. very nice. do you like living here, ryan?",
+            "target": "Target (granddaughter): i love it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): and behind where you see that picket fence, that is a nature conservatory. so that will never be built up. yep, that gorgeous. and then over here we have some more trees. very nice. do you like living here, ryan? | Speaker B (granddaughter): i love it.",
+            "target": "Target (grandmother): it's gorgeous. look how breezy it is. it's. oh, very little humidity today, so we are just having a great time. it's my husband's 85th birthday, so the family all got together. we got kids here and we're gonna have four families tomorrow. so let's set the phone down. and ms. ryan kate is a knitter.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): i love it. | Speaker B (grandmother): it's gorgeous. look how breezy it is. it's. oh, very little humidity today, so we are just having a great time. it's my husband's 85th birthday, so the family all got together. we got kids here and we're gonna have four families tomorrow. so let's set the phone down. and ms. ryan kate is a knitter.",
+            "target": "Target (grandmother): why don't you show the yarn bike viewers what you got there?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): it's gorgeous. look how breezy it is. it's. oh, very little humidity today, so we are just having a great time. it's my husband's 85th birthday, so the family all got together. we got kids here and we're gonna have four families tomorrow. so let's set the phone down. and ms. ryan kate is a knitter. | Speaker B (grandmother): why don't you show the yarn bike viewers what you got there?",
+            "target": "Target (granddaughter): i'm just starting on a scarf.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): why don't you show the yarn bike viewers what you got there? | Speaker B (granddaughter): i'm just starting on a scarf.",
+            "target": "Target (grandmother): oh, wow. isn't that beautiful? you've already finished one, is that correct?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): i'm just starting on a scarf. | Speaker B (grandmother): oh, wow. isn't that beautiful? you've already finished one, is that correct?",
+            "target": "Target (granddaughter): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): oh, wow. isn't that beautiful? you've already finished one, is that correct? | Speaker B (granddaughter): yes.",
+            "target": "Target (grandmother): she made one and she gave it to her great grandmother. how awesome is that? and they call her gigi for great grandma! hhh",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): yes. | Speaker B (grandmother): she made one and she gave it to her great grandmother. how awesome is that? and they call her gigi for great grandma! hhh",
+            "target": "Target (granddaughter): great grandma! hhh",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): she made one and she gave it to her great grandmother. how awesome is that? and they call her gigi for great grandma! hhh | Speaker B (granddaughter): great grandma! hhh",
+            "target": "Target (grandmother): and then her other great grandma, we call her buela. buela.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): great grandma! hhh | Speaker B (grandmother): and then her other great grandma, we call her buela. buela.",
+            "target": "Target (granddaughter): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): and then her other great grandma, we call her buela. buela. | Speaker B (granddaughter): yes.",
+            "target": "Target (grandmother): and in spanish that means grandma. grandma, so that is so great grandma. so this is so pretty. and what ms. ryan kate, she tell the story about how you hadn't knitted for a year, what you did to get started again.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): yes. | Speaker B (grandmother): and in spanish that means grandma. grandma, so that is so great grandma. so this is so pretty. and what ms. ryan kate, she tell the story about how you hadn't knitted for a year, what you did to get started again.",
+            "target": "Target (granddaughter): my nana here taught me how to knit several years ago. i was about 8 or 9 years old. and then i had really picked up knitting and then i just kind of lost it for a year or so. and then when i finally picked it back up again, i just had my fingers had that little memory in them and i just remembered how to knit and i didn't even have to, like, look it up on youtube.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): and in spanish that means grandma. grandma, so that is so great grandma. so this is so pretty. and what ms. ryan kate, she tell the story about how you hadn't knitted for a year, what you did to get started again. | Speaker B (granddaughter): my nana here taught me how to knit several years ago. i was about 8 or 9 years old. and then i had really picked up knitting and then i just kind of lost it for a year or so. and then when i finally picked it back up again, i just had my fingers had that little memory in them and i just remembered how to knit and i didn't even have to, like, look it up on youtube.",
+            "target": "Target (grandmother): so why don't you go ahead and make six regular knit stitches like you're doing. and we're working in garter stitch, so that's knit on each side. so there she goes. nice and loose, the way i just taught you. like many beginning knitters, ryan tends to work very, very tight because she wants to get them just right. but i'm telling her to relax, pull it up a little bit. and that way your hands don't get fatigued, they don't get so tired. i know i've mentioned to you all several times that i've actually had surgery from a knitting marathon trying to get a lot of sweaters, a lot of knitted items done in time for christmas. okay, another. another situation here is she was working just on the tips. and that's going to make it very small. so when you form your stitch, you want to be sure that the needle goes past, goes past the tip because you want the full width. and then you pull it. and i tell her, pull it up a little bit. pull it up a little bit. and then you can use your finger to slide off. let's try that. so that way we work nice and loose. get into the habit. that way your fingers won't get tired. your stitches will be to gauge. and if you have to make smaller stitches, then work with a thinner needle, smaller size needle so you have sticks. okay, now we're going to use a stitch marker. and what we're doing is we're going to create an edge, a garter stitch edge. okay, now go ahead. and now you're going to purl.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): my nana here taught me how to knit several years ago. i was about 8 or 9 years old. and then i had really picked up knitting and then i just kind of lost it for a year or so. and then when i finally picked it back up again, i just had my fingers had that little memory in them and i just remembered how to knit and i didn't even have to, like, look it up on youtube. | Speaker B (grandmother): so why don't you go ahead and make six regular knit stitches like you're doing. and we're working in garter stitch, so that's knit on each side. so there she goes. nice and loose, the way i just taught you. like many beginning knitters, ryan tends to work very, very tight because she wants to get them just right. but i'm telling her to relax, pull it up a little bit. and that way your hands don't get fatigued, they don't get so tired. i know i've mentioned to you all several times that i've actually had surgery from a knitting marathon trying to get a lot of sweaters, a lot of knitted items done in time for christmas. okay, another. another situation here is she was working just on the tips. and that's going to make it very small. so when you form your stitch, you want to be sure that the needle goes past, goes past the tip because you want the full width. and then you pull it. and i tell her, pull it up a little bit. pull it up a little bit. and then you can use your finger to slide off. let's try that. so that way we work nice and loose. get into the habit. that way your fingers won't get tired. your stitches will be to gauge. and if you have to make smaller stitches, then work with a thinner needle, smaller size needle so you have sticks. okay, now we're going to use a stitch marker. and what we're doing is we're going to create an edge, a garter stitch edge. okay, now go ahead. and now you're going to purl.",
+            "target": "Target (grandmother): do you remember how to purl?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): so why don't you go ahead and make six regular knit stitches like you're doing. and we're working in garter stitch, so that's knit on each side. so there she goes. nice and loose, the way i just taught you. like many beginning knitters, ryan tends to work very, very tight because she wants to get them just right. but i'm telling her to relax, pull it up a little bit. and that way your hands don't get fatigued, they don't get so tired. i know i've mentioned to you all several times that i've actually had surgery from a knitting marathon trying to get a lot of sweaters, a lot of knitted items done in time for christmas. okay, another. another situation here is she was working just on the tips. and that's going to make it very small. so when you form your stitch, you want to be sure that the needle goes past, goes past the tip because you want the full width. and then you pull it. and i tell her, pull it up a little bit. pull it up a little bit. and then you can use your finger to slide off. let's try that. so that way we work nice and loose. get into the habit. that way your fingers won't get tired. your stitches will be to gauge. and if you have to make smaller stitches, then work with a thinner needle, smaller size needle so you have sticks. okay, now we're going to use a stitch marker. and what we're doing is we're going to create an edge, a garter stitch edge. okay, now go ahead. and now you're going to purl. | Speaker B (grandmother): do you remember how to purl?",
+            "target": "Target (granddaughter): no",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): do you remember how to purl? | Speaker B (granddaughter): no",
+            "target": "Target (grandmother): no, we don't remember how to purl. that's okay. so purl. i think we might not even have gotten up to purl.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): no | Speaker B (grandmother): no, we don't remember how to purl. that's okay. so purl. i think we might not even have gotten up to purl.",
+            "target": "Target (granddaughter): you know iam still ...",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): no, we don't remember how to purl. that's okay. so purl. i think we might not even have gotten up to purl. | Speaker B (granddaughter): you know iam still ...",
+            "target": "Target (grandmother): that's okay. so we're going to put the needle. i'm sorry. we're going to put the yarn in front of the needle. then we're going to put the needle in front of the right needle in front of the left needle.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): you know iam still ... | Speaker B (grandmother): that's okay. so we're going to put the needle. i'm sorry. we're going to put the yarn in front of the needle. then we're going to put the needle in front of the right needle in front of the left needle.",
+            "target": "Target (granddaughter): oh, yes. you just do it backwards.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): that's okay. so we're going to put the needle. i'm sorry. we're going to put the yarn in front of the needle. then we're going to put the needle in front of the right needle in front of the left needle. | Speaker B (granddaughter): oh, yes. you just do it backwards.",
+            "target": "Target (grandmother): exactly. because really there is just one stitch. it's the knit stitch. and this is the reverse of the knit stitch. so you go on top instead of behind. okay, wrap it through. so let's do six of those. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): oh, yes. you just do it backwards. | Speaker B (grandmother): exactly. because really there is just one stitch. it's the knit stitch. and this is the reverse of the knit stitch. so you go on top instead of behind. okay, wrap it through. so let's do six of those. okay.",
+            "target": "Target (granddaughter): ok",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): exactly. because really there is just one stitch. it's the knit stitch. and this is the reverse of the knit stitch. so you go on top instead of behind. okay, wrap it through. so let's do six of those. okay. | Speaker B (granddaughter): ok",
+            "target": "Target (grandmother): and we still have the yarn in front. i need to wrap the yarn. very good. no, the other. you had it. you had it right!",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): ok | Speaker B (grandmother): and we still have the yarn in front. i need to wrap the yarn. very good. no, the other. you had it. you had it right!",
+            "target": "Target (granddaughter): yes",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): and we still have the yarn in front. i need to wrap the yarn. very good. no, the other. you had it. you had it right! | Speaker B (granddaughter): yes",
+            "target": "Target (grandmother): can you kind of work a little on the table? so there you go.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): yes | Speaker B (grandmother): can you kind of work a little on the table? so there you go.",
+            "target": "Target (grandmother): so our friends can watch.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): can you kind of work a little on the table? so there you go. | Speaker B (grandmother): so our friends can watch.",
+            "target": "Target (grandmother): is it hard to learn a new stitch? okay, you got a little tangle there. all you do is pull it off. you got it. and see, and you're still working on the tips. you're still working on the tips. okay. that one we didn't get right. that's okay. you're doing so well. but we're still there. so you wrap it around and this is where you forgot to pull it this way. and then you go through. okay, now wrap it around. did you wrap it? okay, pull it through. oh, okay. no, you did it right. keep it in front. i told you how to. i told her the wrong way. that's why she didn't get it. you got it. i put the right needle in front of the left. left needle through the loop, right? correct. now you're going to wrap it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): so our friends can watch. | Speaker B (grandmother): is it hard to learn a new stitch? okay, you got a little tangle there. all you do is pull it off. you got it. and see, and you're still working on the tips. you're still working on the tips. okay. that one we didn't get right. that's okay. you're doing so well. but we're still there. so you wrap it around and this is where you forgot to pull it this way. and then you go through. okay, now wrap it around. did you wrap it? okay, pull it through. oh, okay. no, you did it right. keep it in front. i told you how to. i told her the wrong way. that's why she didn't get it. you got it. i put the right needle in front of the left. left needle through the loop, right? correct. now you're going to wrap it.",
+            "target": "Target (granddaughter): oh!!!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): is it hard to learn a new stitch? okay, you got a little tangle there. all you do is pull it off. you got it. and see, and you're still working on the tips. you're still working on the tips. okay. that one we didn't get right. that's okay. you're doing so well. but we're still there. so you wrap it around and this is where you forgot to pull it this way. and then you go through. okay, now wrap it around. did you wrap it? okay, pull it through. oh, okay. no, you did it right. keep it in front. i told you how to. i told her the wrong way. that's why she didn't get it. you got it. i put the right needle in front of the left. left needle through the loop, right? correct. now you're going to wrap it. | Speaker B (granddaughter): oh!!!",
+            "target": "Target (grandmother): all right. see, it was nana. nana mistake.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): oh!!! | Speaker B (grandmother): all right. see, it was nana. nana mistake.",
+            "target": "Target (grandmother): very good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): all right. see, it was nana. nana mistake. | Speaker B (grandmother): very good.",
+            "target": "Target (grandmother): so we want to count six in front. remember to keep this needle in front. oh, you're counting.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): very good. | Speaker B (grandmother): so we want to count six in front. remember to keep this needle in front. oh, you're counting.",
+            "target": "Target (granddaughter): yeah, that's 1, 2, 3, 4, 5, 6.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): so we want to count six in front. remember to keep this needle in front. oh, you're counting. | Speaker B (granddaughter): yeah, that's 1, 2, 3, 4, 5, 6.",
+            "target": "Target (grandmother): so one more or do you already have six? six. okay, so now we're going to put another marker. and now what we're going to do, we are going to make a left cable and the left sided cable is actually going to lean to the left. and so we're going to pick up six stitches with. you can use a cable needle, you can use a regular knitting needle, pencil, pen, whatever you want to. just something to hold your stitches temporarily. so pick up. and this is how you're going to pick up. you're just going to go like this one. you're just going to pick them up by just moving them from the left needle to your spare needle. two, three. and i'm doing it. i'm coming from the the right to left at the top of the stitch. okay, so you finish. that's. this will be four, then five and then six. very good. okay, so now we have six. and this is going to form the first part of our needle. now what we're going to do is we're going to move our needle to the back because now guess what? now we're going to do some knit stitches.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): yeah, that's 1, 2, 3, 4, 5, 6. | Speaker B (grandmother): so one more or do you already have six? six. okay, so now we're going to put another marker. and now what we're going to do, we are going to make a left cable and the left sided cable is actually going to lean to the left. and so we're going to pick up six stitches with. you can use a cable needle, you can use a regular knitting needle, pencil, pen, whatever you want to. just something to hold your stitches temporarily. so pick up. and this is how you're going to pick up. you're just going to go like this one. you're just going to pick them up by just moving them from the left needle to your spare needle. two, three. and i'm doing it. i'm coming from the the right to left at the top of the stitch. okay, so you finish. that's. this will be four, then five and then six. very good. okay, so now we have six. and this is going to form the first part of our needle. now what we're going to do is we're going to move our needle to the back because now guess what? now we're going to do some knit stitches.",
+            "target": "Target (grandmother): and we're going to knit six more stitches. this one's a little trickier because you got to get that first stitch. but it's alright. we'll do it. we'll do it right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandmother): so one more or do you already have six? six. okay, so now we're going to put another marker. and now what we're going to do, we are going to make a left cable and the left sided cable is actually going to lean to the left. and so we're going to pick up six stitches with. you can use a cable needle, you can use a regular knitting needle, pencil, pen, whatever you want to. just something to hold your stitches temporarily. so pick up. and this is how you're going to pick up. you're just going to go like this one. you're just going to pick them up by just moving them from the left needle to your spare needle. two, three. and i'm doing it. i'm coming from the the right to left at the top of the stitch. okay, so you finish. that's. this will be four, then five and then six. very good. okay, so now we have six. and this is going to form the first part of our needle. now what we're going to do is we're going to move our needle to the back because now guess what? now we're going to do some knit stitches. | Speaker B (grandmother): and we're going to knit six more stitches. this one's a little trickier because you got to get that first stitch. but it's alright. we'll do it. we'll do it right.",
+            "target": "Target (grandmother): do you do anything while you're knitting? do you watch tv or watch videos or do you just concentrate? what do you like watching while you're knitting? tv and a particular show or anything?",
+            "gold_label": "ignored input",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): and we're going to knit six more stitches. this one's a little trickier because you got to get that first stitch. but it's alright. we'll do it. we'll do it right. | Speaker B (grandmother): do you do anything while you're knitting? do you watch tv or watch videos or do you just concentrate? what do you like watching while you're knitting? tv and a particular show or anything?",
+            "target": "Target (granddaughter): yeah, like show called gilmore girls.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandmother): do you do anything while you're knitting? do you watch tv or watch videos or do you just concentrate? what do you like watching while you're knitting? tv and a particular show or anything? | Speaker B (granddaughter): yeah, like show called gilmore girls.",
+            "target": "Target (grandmother): do you really like gilmore girls? i hear about it, but i don't know about it.",
+            "gold_label": "ignored input",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (granddaughter): yeah, like show called gilmore girls. | Speaker B (grandmother): do you really like gilmore girls? i hear about it, but i don't know about it.",
+            "target": "Target (grandmother): all right, so somehow this, see how i made that so loose i don't.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandmother): do you really like gilmore girls? i hear about it, but i don't know about it. | Speaker B (grandmother): all right, so somehow this, see how i made that so loose i don't.",
+            "target": "Target (grandmother): know what happened there.",
+            "gold_label": "ignored input",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): all right, so somehow this, see how i made that so loose i don't. | Speaker B (grandmother): know what happened there.",
+            "target": "Target (grandmother): so i'm just gonna pull it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): know what happened there. | Speaker B (grandmother): so i'm just gonna pull it.",
+            "target": "Target (grandmother): see how easy that is? just to pull it up there? okay, so that's three. now why don't you just keep three more knit stitches?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): so i'm just gonna pull it. | Speaker B (grandmother): see how easy that is? just to pull it up there? okay, so that's three. now why don't you just keep three more knit stitches?",
+            "target": "Target (grandmother): all right. we still have the cable stitches in front. keep your work a little bit higher.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandmother): see how easy that is? just to pull it up there? okay, so that's three. now why don't you just keep three more knit stitches? | Speaker B (grandmother): all right. we still have the cable stitches in front. keep your work a little bit higher.",
+            "target": "Target (grandmother): there you go.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): all right. we still have the cable stitches in front. keep your work a little bit higher. | Speaker B (grandmother): there you go.",
+            "target": "Target (grandmother): no, now we're doing knit. yes, like that. underneath. now wrap it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandmother): there you go. | Speaker B (grandmother): no, now we're doing knit. yes, like that. underneath. now wrap it.",
+            "target": "Target (granddaughter): that's five.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): no, now we're doing knit. yes, like that. underneath. now wrap it. | Speaker B (granddaughter): that's five.",
+            "target": "Target (grandmother): good. there you go. nice and loose. nice and loose. and then six. that's the first part. excellent. and now guess what? now we have the first part. and do you see how this is going when you knit these? it's actually going to be leaning towards the left. it's to going, going to be leaning towards the left. that's why it's called a left leaning or left sided cable. so what we've done now do you see this isn't a double needle. so i'm actually very carefully going to hold the stitches at the base and i'm going to turn these around so that we can knit off of this. okay. wasn't that slick? that's pretty slick. but you saw how i held this stitches so they didn't come undone at the bottom. now we're going to knit the next six stitches. i've crossed. see how cool that is? look at that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): that's five. | Speaker B (grandmother): good. there you go. nice and loose. nice and loose. and then six. that's the first part. excellent. and now guess what? now we have the first part. and do you see how this is going when you knit these? it's actually going to be leaning towards the left. it's to going, going to be leaning towards the left. that's why it's called a left leaning or left sided cable. so what we've done now do you see this isn't a double needle. so i'm actually very carefully going to hold the stitches at the base and i'm going to turn these around so that we can knit off of this. okay. wasn't that slick? that's pretty slick. but you saw how i held this stitches so they didn't come undone at the bottom. now we're going to knit the next six stitches. i've crossed. see how cool that is? look at that.",
+            "target": "Target (granddaughter): oh wow.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): good. there you go. nice and loose. nice and loose. and then six. that's the first part. excellent. and now guess what? now we have the first part. and do you see how this is going when you knit these? it's actually going to be leaning towards the left. it's to going, going to be leaning towards the left. that's why it's called a left leaning or left sided cable. so what we've done now do you see this isn't a double needle. so i'm actually very carefully going to hold the stitches at the base and i'm going to turn these around so that we can knit off of this. okay. wasn't that slick? that's pretty slick. but you saw how i held this stitches so they didn't come undone at the bottom. now we're going to knit the next six stitches. i've crossed. see how cool that is? look at that. | Speaker B (granddaughter): oh wow.",
+            "target": "Target (granddaughter): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): oh wow. | Speaker B (granddaughter): yeah.",
+            "target": "Target (grandmother): isn't that neat? so i've crossed and that's what gives us that cable, that beautiful braid look. that could be pretty. yeah. so what we're going to do is.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (granddaughter): yeah. | Speaker B (grandmother): isn't that neat? so i've crossed and that's what gives us that cable, that beautiful braid look. that could be pretty. yeah. so what we're going to do is.",
+            "target": "Target (grandmother): we’re going to work two cables.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandmother): isn't that neat? so i've crossed and that's what gives us that cable, that beautiful braid look. that could be pretty. yeah. so what we're going to do is. | Speaker B (grandmother): we’re going to work two cables.",
+            "target": "Target (grandmother): and so we're going to this one. the first one's always a little bit tough, but that's alright. we'll get past the first one. it's a little bit tricky. we got one. and this is another reason why to do your stitches loose so that it's more comfortable to work. and i'm going to do three. and now i want you to do knit three more. the last three that are on the cable. yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): we’re going to work two cables. | Speaker B (grandmother): and so we're going to this one. the first one's always a little bit tough, but that's alright. we'll get past the first one. it's a little bit tricky. we got one. and this is another reason why to do your stitches loose so that it's more comfortable to work. and i'm going to do three. and now i want you to do knit three more. the last three that are on the cable. yes.",
+            "target": "Target (granddaughter): so that, that was five, right? that's four.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandmother): and so we're going to this one. the first one's always a little bit tough, but that's alright. we'll get past the first one. it's a little bit tricky. we got one. and this is another reason why to do your stitches loose so that it's more comfortable to work. and i'm going to do three. and now i want you to do knit three more. the last three that are on the cable. yes. | Speaker B (granddaughter): so that, that was five, right? that's four.",
+            "target": "Target (grandmother): oh okay.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (granddaughter): so that, that was five, right? that's four. | Speaker B (grandmother): oh okay.",
+            "target": "Target (granddaughter): four.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): oh okay. | Speaker B (granddaughter): four.",
+            "target": "Target (grandmother): stand corrected.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (granddaughter): four. | Speaker B (grandmother): stand corrected.",
+            "target": "Target (granddaughter): this is so tight.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandmother): stand corrected. | Speaker B (granddaughter): this is so tight.",
+            "target": "Target (grandmother): yes, that's okay. we're going to start loosening up a little bit. right, five. and now one more. an important part when you're learning how to do cables is don't get lost. that's why i love markers. very good. excellent. and so if you see here, they're a little bit tight, right?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (granddaughter): this is so tight. | Speaker B (grandmother): yes, that's okay. we're going to start loosening up a little bit. right, five. and now one more. an important part when you're learning how to do cables is don't get lost. that's why i love markers. very good. excellent. and so if you see here, they're a little bit tight, right?",
+            "target": "Target (granddaughter): they're very tight.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): yes, that's okay. we're going to start loosening up a little bit. right, five. and now one more. an important part when you're learning how to do cables is don't get lost. that's why i love markers. very good. excellent. and so if you see here, they're a little bit tight, right? | Speaker B (granddaughter): they're very tight.",
+            "target": "Target (grandmother): that's all right. we're going to work them looser, and then you want to count them, and you should have 6, and 6 is what, 12.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (granddaughter): they're very tight. | Speaker B (grandmother): that's all right. we're going to work them looser, and then you want to count them, and you should have 6, and 6 is what, 12.",
+            "target": "Target (granddaughter): so 2, 4, 6, 8, 10, 12.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandmother): that's all right. we're going to work them looser, and then you want to count them, and you should have 6, and 6 is what, 12. | Speaker B (granddaughter): so 2, 4, 6, 8, 10, 12.",
+            "target": "Target (grandmother): okay. and so now we're going to put a marker. markers are good. and now we're going to do six more purl. so we're going to move the yarn in front.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (granddaughter): so 2, 4, 6, 8, 10, 12. | Speaker B (grandmother): okay. and so now we're going to put a marker. markers are good. and now we're going to do six more purl. so we're going to move the yarn in front.",
+            "target": "Target (granddaughter): says 1, 2, 3.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandmother): okay. and so now we're going to put a marker. markers are good. and now we're going to do six more purl. so we're going to move the yarn in front. | Speaker B (granddaughter): says 1, 2, 3.",
+            "target": "Target (grandmother): nice and loose, right?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (granddaughter): says 1, 2, 3. | Speaker B (grandmother): nice and loose, right?",
+            "target": "Target (granddaughter): 4.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandmother): nice and loose, right? | Speaker B (granddaughter): 4.",
+            "target": "Target (grandmother): whoops.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (granddaughter): 4. | Speaker B (grandmother): whoops.",
+            "target": "Target (granddaughter): 4.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandmother): whoops. | Speaker B (granddaughter): 4.",
+            "target": "Target (grandmother): now you do 5 and 6 of the purl. try to keep them nice and loose.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (granddaughter): 4. | Speaker B (grandmother): now you do 5 and 6 of the purl. try to keep them nice and loose.",
+            "target": "Target (granddaughter): right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandmother): now you do 5 and 6 of the purl. try to keep them nice and loose. | Speaker B (granddaughter): right.",
+            "target": "Target (grandmother): and what we're going to do is we're going to leave for a little while while we work to the end of the row. we're going to work another couple of rows of cables and also some purl stitches. all right, we'll get back to you in a few. thank you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (granddaughter): right. | Speaker B (grandmother): and what we're going to do is we're going to leave for a little while while we work to the end of the row. we're going to work another couple of rows of cables and also some purl stitches. all right, we'll get back to you in a few. thank you.",
+            "target": "Target (granddaughter): sa. sa. sam.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

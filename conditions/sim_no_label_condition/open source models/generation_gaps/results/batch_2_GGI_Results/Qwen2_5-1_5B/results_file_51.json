@@ -1,0 +1,111 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 51,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): How nice! Go more to the middle. Slower, slower, slower, slower. Let's accelerate. Go to the other side. Stop now, but you have to say stop. Stop. More.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): How nice! Go more to the middle. Slower, slower, slower, slower. Let's accelerate. Go to the other side. Stop now, but you have to say stop. Stop. More.",
+            "target": "Target (grandson): More?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): How nice! Go more to the middle. Slower, slower, slower, slower. Let's accelerate. Go to the other side. Stop now, but you have to say stop. Stop. More. | Speaker B (grandson): More?",
+            "target": "Target (grandfather): Yes. So we test him better. Oh, my God. Okay, you can go. Like froggy, jump.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): More? | Speaker B (grandfather): Yes. So we test him better. Oh, my God. Okay, you can go. Like froggy, jump.",
+            "target": "Target (grandson): Wait, like the game? Am I supposed to 'jump' the speed limit here or dodge the puddles like an obstacle course?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Yes. So we test him better. Oh, my God. Okay, you can go. Like froggy, jump. | Speaker B (grandson): Wait, like the game? Am I supposed to 'jump' the speed limit here or dodge the puddles like an obstacle course?",
+            "target": "Target (grandfather): What? No, no games! I mean the car is hopping because your foot is shaky on the clutch. Like a little frog hopping. You must stay steady.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Wait, like the game? Am I supposed to 'jump' the speed limit here or dodge the puddles like an obstacle course? | Speaker B (grandfather): What? No, no games! I mean the car is hopping because your foot is shaky on the clutch. Like a little frog hopping. You must stay steady.",
+            "target": "Target (grandson): Oh, okay. I thought you wanted me to zigzag. My bad.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): What? No, no games! I mean the car is hopping because your foot is shaky on the clutch. Like a little frog hopping. You must stay steady. | Speaker B (grandson): Oh, okay. I thought you wanted me to zigzag. My bad.",
+            "target": "Target (grandfather): No zigzagging! Just steady. Go to the middle of the puddle.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Oh, okay. I thought you wanted me to zigzag. My bad. | Speaker B (grandfather): No zigzagging! Just steady. Go to the middle of the puddle.",
+            "target": "Target (grandson): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): No zigzagging! Just steady. Go to the middle of the puddle. | Speaker B (grandson): Okay.",
+            "target": "Target (grandfather): Don't let be disturbed because some of them may run across the road and you will see them. Don't worry, don't worry until you're not ready to drive. Concentrate on the bottom of the car. Get ready to stop or touch the bottom and very gently—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Okay. | Speaker B (grandfather): Don't let be disturbed because some of them may run across the road and you will see them. Don't worry, don't worry until you're not ready to drive. Concentrate on the bottom of the car. Get ready to stop or touch the bottom and very gently—",
+            "target": "Target (grandson): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Don't let be disturbed because some of them may run across the road and you will see them. Don't worry, don't worry until you're not ready to drive. Concentrate on the bottom of the car. Get ready to stop or touch the bottom and very gently— | Speaker B (grandson): Okay.",
+            "target": "Target (grandfather): Too fast, too fast. Take hold. So we start here. Yes, I believe you can drive.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Okay. | Speaker B (grandfather): Too fast, too fast. Take hold. So we start here. Yes, I believe you can drive.",
+            "target": "Target (grandson): Really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): Too fast, too fast. Take hold. So we start here. Yes, I believe you can drive. | Speaker B (grandson): Really?",
+            "target": "Target (grandfather): You can do it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

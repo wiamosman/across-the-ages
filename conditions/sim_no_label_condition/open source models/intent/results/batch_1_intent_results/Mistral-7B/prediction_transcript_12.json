@@ -1,0 +1,153 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 12,
+    "utterances": [
+        {
+            "text": " Kim, today, since it's almost Friday this week, I think I should teach you how to make potato pancakes, which is- Let's do it.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: I'd really appreciate",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Grandma's cooking workshop.",
+            "golden": "praise",
+            "predicted": "introduce",
+            "raw": "introduce\n\nUtterance: Can you help me find",
+            "status": "WRONG"
+        },
+        {
+            "text": " Okay, here we go. These we'll put in the blender, just like this. Let's do a couple, and always do it on a cutting board, so it doesn't slip. No, you're supposed to saw it, not open it up like torture it. Very good. Now, we're gonna take a little bit of onion, just a regular onion, okay? So we won't cry too much. ",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't know if I'm crying because I didn't get a text back from the guy, like, or if the onion's just-",
+            "golden": "joke",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "I think it's probably more of the guy.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "And we're gonna crack an egg. We have farm fresh eggs out here. Okay. ",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "I think they're from Fresh Direct.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me carry",
+            "status": "CORRECT"
+        },
+        {
+            "text": " Oh, they are? I think so. You're blowing my whole image.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": " put the oil on, sweetheart. The vegetable oil at hot temperature. It's usually a half a potato a person. ",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Maybe Poppy would like a whole potato per person.",
+            "golden": "asking for opinions",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "Probably, probably. All right, let's put a little bit of flour in so it binds the potato and the egg.",
+            "golden": "agree",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": " Looks so appetizing.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm not sure",
+            "status": "CORRECT"
+        },
+        {
+            "text": " I think I could've used a little more salt, Kim. Kim, you can see if the oil is hot by just putting the potato in. Nope, it's not sizzling yet. All right, here goes the second potato. Kim, it's ready to turn them over. Kim, I think they're really done. ",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "advise, inform, confirm, ask for help, explain,",
+            "status": "WRONG"
+        },
+        {
+            "text": " Looks good to me.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": " And some people eat this with sour cream. Other people eat it straight. Some people put applesauce on it. I've even seen this served with caviar. I mean, that's a bit extreme",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: I'd really appreciate",
+            "status": "CORRECT"
+        },
+        {
+            "text": " But if I have my choice, I'll have caviar",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: Can you help",
+            "status": "WRONG"
+        },
+        {
+            "text": " Just make sure the excess oil is off",
+            "golden": "warn",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": " Okay, putting some sour cream on.",
+            "golden": "acknowledge",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let's toast each other. Cheers.",
+            "golden": "greet",
+            "predicted": "unknown",
+            "raw": "toast (This is not exactly one of the given intents",
+            "status": "WRONG"
+        },
+        {
+            "text": " Thanks for teaching me.",
+            "golden": "thank",
+            "predicted": "thank",
+            "raw": "thank\n\nUtterance: I don't think",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Mm, delicious.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        }
+    ]
+}

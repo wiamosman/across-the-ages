@@ -1,0 +1,61 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 36,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I'm sorry to hear that. Do you want to talk about it?",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa. It's just a lot of assignments piling up, but I'll manage.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like you're having a tough time. I'm here if you need to talk or need any help.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I appreciate that, Grandpa. I'll definitely let you know if I need anything.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, is the sensor giving you trouble? Let me help you with that.",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "help"
+    },
+    {
+      "text": "Yeah, the sensor's been acting up. I could use some help figuring it out.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Alright, I'll let you handle it. Just remember I'm here if you need anything.",
+      "golden": "care",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

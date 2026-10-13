@@ -1,0 +1,91 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 53,
+    "utterances": [
+        {
+            "text": "Can I please honk at the break?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: Can I"
+        },
+        {
+            "text": "Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nHistory:\nTurn: Can I"
+        },
+        {
+            "text": "Thanks.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I'm giving it some gas.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Don't freak out too much. You're acting like I'm trying to win a race or something.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: Not"
+        },
+        {
+            "text": "I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: Don"
+        },
+        {
+            "text": "Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement\nacknowledgement\ncommand"
+        },
+        {
+            "text": "Why?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Put on the brakes! Austin, put on the brakes.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I'm making another joke.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Put on the brakes!",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        }
+    ]
+}

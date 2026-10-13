@@ -1,0 +1,181 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 55,
+    "utterances": [
+        {
+            "text": "All right, man, you ready to drive, Captain?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah, I'm already driving.",
+            "golden": "inform",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Uh, you on video? Okay, you're already driving?",
+            "golden": "confirm",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Are you the captain?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "question\n\nUtterance: I"
+        },
+        {
+            "text": "No, but you are.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "What, what are you, the first mate?",
+            "golden": "confirm",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, you're the first mate. All right, gear straight. Here, first mate. All right, let's give her some gas. Here we go. That's all right, you got it. I got you. There we go. Good job. Yeah. Oh God. Oh, you got a fish! You got him! Oh, it's me. Get it, get it, get it, get it, buddy! Go ahead, reel. Whoa, he got a fish! He got a fish!",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange (This utterance may indicate someone"
+        },
+        {
+            "text": "Is he still there?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "Yeah, yeah, reel him in, bring him to the boat, flip him in the boat, put him inside the boat. Yeah, that's a ladyfish! Yeah, good job, good job!",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Nice, thanks!",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "There you go. What do you got to say?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Thank you.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "Congratulations! Good job! All right, now you got to pick him up and put him in the cooler.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "congratulate\n\nUtterance"
+        },
+        {
+            "text": "ok There you go.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "No, the hook's out. He don't have teeth, so you don't have to— where he won't bite you. Oh, it's a she. Okay. It's a ladyfish. All right, open up the cooler and put them in.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I"
+        },
+        {
+            "text": "Yeah. Oh my gosh, that's a lot! Okay, let's see how many fish are in there.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I"
+        },
+        {
+            "text": "Let's see, let's see.",
+            "golden": "acknowledge",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Oh, there's more. Look at all that fish, guys! Wow! And I actually got one giant needlefish, but it got loose.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "It got loose?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You also lost a big trout too, didn't you? Probably because you were playing with your phone instead of watching the line.",
+            "golden": "criticize",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "That’s not fair, Grandpa. I was working hard. You’re making it sound like I don’t care about the trip. I’m doing my best.",
+            "golden": "oppose",
+            "predicted": "unknown",
+            "raw": "defend\n\nUtterance: I"
+        },
+        {
+            "text": "Now, now, I was only teasing. Don't get your line in a tangle. You've done a fine job today. Yes also a bigtrout.",
+            "golden": "comfort",
+            "predicted": "taunt",
+            "raw": "taunt, praise"
+        },
+        {
+            "text": "yes also a bigtrout",
+            "golden": "acknowledge",
+            "predicted": "doubt",
+            "raw": "doubt (regarding the understanding of \""
+        },
+        {
+            "text": "because of him, we didn't get our limit. But, uh, we're taking home 3 big— or we're taking 5, 5 trout.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: I"
+        },
+        {
+            "text": "5 keepers.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "The intent expressed in the dialogue utterance"
+        },
+        {
+            "text": "Yeah, and one of them is a monster. It's like 23 inches. We had a blessed day today. Anyway, I just wanted to say to y'all, um, God bless you, God bless your families, God bless America.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "bless\n\nUtterance: Hi"
+        }
+    ]
+}

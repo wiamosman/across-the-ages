@@ -1,0 +1,135 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 75,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Lift it? Am I supposed to lift it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Lift it? Am I supposed to lift it?",
+            "target": "Target (grandmother): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Lift it? Am I supposed to lift it? | Speaker B (grandmother): Mm-hmm.",
+            "target": "Target (granddaughter): Can I use this?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Mm-hmm. | Speaker B (granddaughter): Can I use this?",
+            "target": "Target (grandmother): Lift it first. Get your fabric under there. Make sure it's lined up with the tape.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Can I use this? | Speaker B (grandmother): Lift it first. Get your fabric under there. Make sure it's lined up with the tape.",
+            "target": "Target (granddaughter): Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Lift it first. Get your fabric under there. Make sure it's lined up with the tape. | Speaker B (granddaughter): Yep.",
+            "target": "Target (grandmother): Now put the needle down. You know, turn the needle.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Yep. | Speaker B (grandmother): Now put the needle down. You know, turn the needle.",
+            "target": "Target (granddaughter): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Now put the needle down. You know, turn the needle. | Speaker B (granddaughter): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?",
+            "target": "Target (grandmother): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp? | Speaker B (grandmother): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.",
+            "target": "Target (granddaughter): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp. | Speaker B (granddaughter): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.",
+            "target": "Target (grandmother): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen. | Speaker B (grandmother): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.",
+            "target": "Target (granddaughter): Eh?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting. | Speaker B (granddaughter): Eh?",
+            "target": "Target (grandmother): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Eh? | Speaker B (grandmother): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.",
+            "target": "Target (granddaughter): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out. | Speaker B (granddaughter): Oh yeah.",
+            "target": "Target (grandmother): That's what you were wanting to do.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Oh yeah. | Speaker B (grandmother): That's what you were wanting to do.",
+            "target": "Target (granddaughter): Don't want to be famous.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): That's what you were wanting to do. | Speaker B (granddaughter): Don't want to be famous.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

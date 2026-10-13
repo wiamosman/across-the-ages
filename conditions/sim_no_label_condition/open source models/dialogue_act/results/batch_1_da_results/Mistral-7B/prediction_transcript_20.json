@@ -1,0 +1,420 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 20,
+    "utterances": [
+        {
+            "text": "Oh, we are.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": " Well, I am.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, you look at it",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "I'll say This is my grandma.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, you gonna start? Okay, everybody, this is. This is my grandma. And she has agreed to start learning how to play the piano. She's never played before in her life. And how old are you, Grandma? If you want to say ",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "88.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion."
+        },
+        {
+            "text": " She's 88. And we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. So we're going to go ahead and get started.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Do you want to say anything, Grandma?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": " No. hhhh",
+            "golden": "disagreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nExplanation: The grandma"
+        },
+        {
+            "text": "No? hhh , Okay. Okay. Okay. So have you seen my books before? Okay, this is my first book. And book one. And it starts out with just explaining about the piano. I'm just going to find a page here where it talks about the groups of two and three black keys. The piano is divided into white keys and black keys. That's obvious. But some people don't notice that the black keys are in groups of twos and threes.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Yeah, I really didn't notice until you said that. That they're in threes and twos.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Really? You didn't notice?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Well, I hadn't really looked at it, but until you said it, I hadn't noticed.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, so that's how you're going to find your white keys. By finding a group of two or a group of three black keys. So now when you look at the piano, it's not so overwhelming because you know that I'm going to tell you that next to every group of two black keys is a white key called C. They're all Cs. They're all Cs. Next to all the groups of two black keys.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Even on this side? ",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No, no, just on the left. Just on the left. So on the left of all the groups of two black keys is a C. Go ahead. Go ahead and find them.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Well, they're starting right here.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "The groups of two only. Not. Not next. Not the groups of three.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I messed up on that one.",
+            "golden": "statement-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "Okay, good. We should be looking at the camera, though.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nExplanation: The speaker acknowled"
+        },
+        {
+            "text": "How can you look at the camera when you're looking at the keys?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I don't know.",
+            "golden": "statement-non-opinion",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The target utter"
+        },
+        {
+            "text": "You can.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay, well, that was okay. That was good, Grandma.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nExplanation: The target utter"
+        },
+        {
+            "text": "Now, was that pictured? Did you picture that? Did you take a picture of that?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, we're on camera.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion."
+        },
+        {
+            "text": "Oh, my goodness. You may want to throw the first ones away.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Maybe I'll look at them. Okay. So we. We went through finding C already. Next to the two black keys.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Next to the two black keys.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Right? Middle C. You've probably heard of. Heard that. You've heard of middle C. So it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (assuming the speaker"
+        },
+        {
+            "text": "Would be between them. No, that's the middle.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, middle C is the C closest to the middle of the piano. So it's still on the left of the two black keys.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "But middle C is the C closest to the middle. Can you. Can you see our face? Okay. Hopefully we're loud enough for the cameras picking us up. Okay, so middle C is the one closest to the middle. Okay, so you have several Cs, you have several Cs, but the middle one is closest to you.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (three times"
+        },
+        {
+            "text": "Okay, well, is there two of these? Just one.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\n\nExplanation: The target utter"
+        },
+        {
+            "text": "There's one middle C. Just one middle C. Right. There's several Cs.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Yeah, I just found them after the two black ones.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Right, right. Jay is over there dancing.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "And then. And then the middle C is here.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Right. Okay. And that's where you're going to start playing on middle C with your right hand. Oh, my right hand. With your right hand. So look at this page. It says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. Right. So if you put your thumb on C, all of your other fingers will naturally fall on a key. Don't skip any keys. Don't skip any keys. Right. So that's middle C position. All that.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Middle C position.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion."
+        },
+        {
+            "text": "Okay, now what you're going to do. Can you see this? When you see the C, you're going to play a C. So go ahead and play practice number one on page 18. And don't look at your fingers because they're in position. They're in position. And you're going to look here. Got it? Okay.",
+            "golden": "command",
+            "predicted": "instruction",
+            "raw": "instruction\n\nExplanation: The target utter"
+        },
+        {
+            "text": "Is that middle C?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes. Oh, C. Don't look at your fingers, grandma. See? And then number two, finger three, four, five. Five. Five. Okay. And then now let's move to practice number two twice. See?",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer\n\nExplanation: The target utter"
+        },
+        {
+            "text": "What's two?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Your second finger. Oh, three, four, five. Right. Okay. So these are your fingers, except for C is your. Is your number one finger. So we don't have a number one there. We just have a C. Got it. So this will be one of your practice pages for this week.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Can I practice?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The target utter"
+        },
+        {
+            "text": "Yes. I'm going to leave the keyboard. Here you are. Oh. Have fun. And I'm going to leave the book here, and I'll give you assignments.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\ncommand\nstatement-non-opin"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. So I don't have a pen with me, but I'm going to mark this page where you're going to practice. And you have to keep your eyes on the paper and not on your hands. Right.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "You have to get that feeling. Because it's hard to get that feeling.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "When you're not used to it. Yeah. Is this seat okay for you? It's high enough?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. So there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. And that's going to be the end of our lesson. But let's go through it right now. Up here, it says, eyes on music. Very important rule. So just so you keep that in mind while you're playing these. So go ahead and start here again with C2, 3, 4. Okay. Right. It feels a little awkward right now, but it'll feel smoother as you practice each day. Just go through it a couple times each day. Okay. Okay. Our last page for today is page 20.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (The speaker is express"
+        },
+        {
+            "text": "It's a little longer, and you start with three. I have to figure out my fingers there.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Three.",
+            "golden": "backchannel",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Well, three. Okay, I. I messed up. I'm going to start over.",
+            "golden": "statement-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "Can I?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, you can. 3. It's hard for me to figure out. Right. Second line, C.5. It's easy to know where 5 is, isn't it? Yeah. Okay, good. Last line. I have to count my fingers at first. You. At first? Yeah, at first. It takes a lot of thinking.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "acknowledge, statement-non-opinion,"
+        },
+        {
+            "text": "Figure out which finger is numbered?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Right. Your brain has to know which finger to move without looking at it. Yeah, you do. Okay, so when. After you've practiced it throughout the week, it should be. It should sound a little smoother. Like this.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "I'll show you.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I'll play page 23C. 3C. 3C. The next line, C. Hear how smooth that sounds? It doesn't have to be fast. It could stay slow. It's not very.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You're used to your fingers being numbered. You know which number? Yes, that's. What could. I have to stop and think which is three and which is four. I know. Until I get.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "But after a while, you won't have to think about it anymore. It'll just be natural. It isn't very pretty yet. The song isn't very pretty, but it still helps you get going. We're gonna get into pretty songs later. After you move your fingers a little bit better.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (regarding"
+        },
+        {
+            "text": "You have to learn your fingers. You know where they are. I have to stop. That's what I can do. I have to stop and think. I can't be smooth and go ahead and do it all at once because I'm thinking, where is that third finger?",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Right. Right. At first it's all thinking and rough, and then after the thinking goes away. Then it gets smooth. Yes. Okay, so let's say goodbye. This is the end of the first goodbye. The end of the first lesson. See you next time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "acknowledge, statement-opinion, agreement,"
+        },
+        {
+            "text": "See you next time.",
+            "golden": "statement-non-opinion",
+            "predicted": "greeting",
+            "raw": "acknowledgement (or) greeting (depend"
+        }
+    ]
+}

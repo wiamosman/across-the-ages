@@ -1,0 +1,343 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 58,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, thank you! I'm glad you like the new sheet music I found.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, those pieces are amazing! I couldn't stop practicing them.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Would you like to help me set up the music room for our rehearsal later?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'd love to help! What are we preparing?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, are you showing me something with your hand? Is that a new chord?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I was just pointing at the metronome. Do you need help finding the right tempo?",
+      "golden": "question",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Oh, I see! Are you practicing the finger placements with your hands?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "No, I'm not practicing just yet. Just trying to help get the room ready!",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, you're playing notes on the piano! That's wonderful.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, not the piano yet! Just dusting the keys so they're clean.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh my, I didn't mean to be so intense about the lesson! I'm just trying to help you learn.",
+      "golden": "apology",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "No worries, Grandma! I appreciate your guidance.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see! Thank you for explaining that modern rhythm to me. I'm glad to know it's a compliment.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm learning new musical styles every day with you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad to hear that, Grandma! It's fun sharing my favorite tracks with you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It's okay, dear. We can try that difficult bridge together again. Just take your time.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your patience with my technique.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh dear, make sure you rest your wrists and drink water. Let me know if you need a break.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "I will, Grandma. Thanks for always looking out for my health!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, what are those? Let me take a look at your gear.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, these are my new monitoring headphones. They're really clear!",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "I'm glad to hear that. Let's make sure all the cables are in their right place.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sure, I'll untangle the wires and put the cases back.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, I'm just fine, dear. But thank you for checking if I was tired.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm glad you're energized! Let me know if you want to start the scale exercises.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright then, let's continue with the melody we were practicing.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Okay, sounds good! Should we focus on the intro or the chorus next?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Okay, let's make sure we have the sheet music sorted out properly.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, let's double-check the order then. Do you need help with the page turns?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Great, let's keep up the good work and finish this rehearsal together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm glad we're playing this together. Let me know if there's any other part I should check.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so glad we're sharing this passion, dear. It makes the practice more enjoyable.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It really does! I'm learning a lot about classical structure from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, dear, use your left hand for that bass line. It might be easier.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, I see! Thanks for the tip, I'll try that fingering.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I just meant that using your left hand might make the reach easier. Let me show you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Okay, I'll give it a try. Thanks for showing me the posture!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you, dear. I appreciate your help with reading the fine print on these scores.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help read the dynamic markings.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, let's play the duet together. It's always more fun that way.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Absolutely, harmonizing together is always more enjoyable!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's get started then. I'm sure we'll sound great together.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great! Should we start with the warm-up scales first?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, dear, let's go ahead and start. I'm sure we'll have fun.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm excited! Let's start with the rhythmic section.",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh dear, is the tempo alright? Can I help with the counting?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I'm fine! Just a bit overwhelmed with all the complex syncopation.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright then, let's get back to it. I'm here if you need to slow down.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I think I'll start with the phrasing. Do you think we should go with the staccato or the legato approach?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, that's right. Just take your time and let me know if you need any help with the articulation.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Okay, I'll let you know. I think I'll go with legato, it seems more flowing.",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Yes, you've got it! You're doing great, dear.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really excited about how our sound is all coming together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm so proud of you for mastering it. If you have any more questions, just ask.",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    }
+  ]
+}

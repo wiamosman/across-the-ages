@@ -1,0 +1,382 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): Hi Grandma! Are you ready for our piano practice session today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): Hi Grandma! Are you ready for our piano practice session today?",
+    "target": "Speaker A (grandmother) (Target): Hello, my dear! How are you doing today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis is a normal turn-taking exchange where Speaker A greets her granddaughter before asking"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): Hi Grandma! Are you ready for our piano practice session today?\nSpeaker B (grandmother): Hello, my dear! How are you doing today?",
+    "target": "Speaker A (granddaughter) (Target): I'm doing well! I've been practicing those scales we talked about. Can you hear me okay?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural turn following the grandmother's question"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): Hello, my dear! How are you doing today?\nSpeaker B (granddaughter): I'm doing well! I've been practicing those scales we talked about. Can you hear me okay?",
+    "target": "Speaker A (grandmother) (Target): Yes, dear, it's me, Grandma Stiepel. Is everything alright?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation as she acknowledges her"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): I'm doing well! I've been practicing those scales we talked about. Can you hear me okay?\nSpeaker B (grandmother): Yes, dear, it's me, Grandma Stiepel. Is everything alright?",
+    "target": "Speaker A (granddaughter) (Target): Everything is great! I just wanted to show you how much faster I've gotten at the C major scale.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural continuation of the conversation, starting"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Yes, dear, it's me, Grandma Stiepel. Is everything alright?\nSpeaker B (granddaughter): Everything is great! I just wanted to show you how much faster I've gotten at the C major scale.",
+    "target": "Speaker A (grandmother) (Target): Oh, are you talking about your age, dear? You're growing up so fast!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging her granddaughter"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): Everything is great! I just wanted to show you how much faster I've gotten at the C major scale.\nSpeaker B (grandmother): Oh, are you talking about your age, dear? You're growing up so fast!",
+    "target": "Speaker A (granddaughter) (Target): Haha, I am! But listen to this—I’ve been practicing my finger agility every morning.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural continuation of her initial statement,"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Oh, are you talking about your age, dear? You're growing up so fast!\nSpeaker B (granddaughter): Haha, I am! But listen to this—I’ve been practicing my finger agility every morning.",
+    "target": "Speaker A (grandmother) (Target): That's wonderful, dear! Playing the piano is such a beautiful skill to have.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a backchannel and agreement to her granddaughter's statement"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Haha, I am! But listen to this—I’ve been practicing my finger agility every morning.\nSpeaker B (grandmother): That's wonderful, dear! Playing the piano is such a beautiful skill to have.",
+    "target": "Speaker A (granddaughter) (Target): It really is. I'm trying to do this new warm-up where I play the notes in reverse. Want to see?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural continuation of the conversation, acknowled"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): That's wonderful, dear! Playing the piano is such a beautiful skill to have.\nSpeaker B (granddaughter): It really is. I'm trying to do this new warm-up where I play the notes in reverse. Want to see?",
+    "target": "Speaker A (grandmother) (Target): Oh, that sounds like a great exercise! I'm so proud of you for practicing and improving your skills.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging her grand"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): It really is. I'm trying to do this new warm-up where I play the notes in reverse. Want to see?\nSpeaker B (grandmother): Oh, that sounds like a great exercise! I'm so proud of you for practicing and improving your skills.",
+    "target": "Speaker A (granddaughter) (Target): Thanks! Now, let's look at your hand position. Are you ready to try the descending scale?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural backchannel, acknowledging"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): Oh, that sounds like a great exercise! I'm so proud of you for practicing and improving your skills.\nSpeaker B (granddaughter): Thanks! Now, let's look at your hand position. Are you ready to try the descending scale?",
+    "target": "Speaker A (grandmother) (Target): That sounds like a fun way to practice, dear! Keep it up and you'll be playing beautifully in no time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a backchannel and agreement to her granddaughter's suggestion"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): Thanks! Now, let's look at your hand position. Are you ready to try the descending scale?\nSpeaker B (grandmother): That sounds like a fun way to practice, dear! Keep it up and you'll be playing beautifully in no time.",
+    "target": "Speaker A (granddaughter) (Target): I will! But I want you to try it too. It helps to move the wrist in both directions, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): That sounds like a fun way to practice, dear! Keep it up and you'll be playing beautifully in no time.\nSpeaker B (granddaughter): I will! But I want you to try it too. It helps to move the wrist in both directions, right?",
+    "target": "Speaker A (grandmother) (Target): That makes sense, dear. It's important to practice both directions to strengthen your fingers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel and agreement to her grandd"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): I will! But I want you to try it too. It helps to move the wrist in both directions, right?\nSpeaker B (grandmother): That makes sense, dear. It's important to practice both directions to strengthen your fingers.",
+    "target": "Speaker A (granddaughter) (Target): Exactly! Now, try to play the middle C, then move up to D. Can you do that for me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): That makes sense, dear. It's important to practice both directions to strengthen your fingers.\nSpeaker B (granddaughter): Exactly! Now, try to play the middle C, then move up to D. Can you do that for me?",
+    "target": "Speaker A (grandmother) (Target): I'd love to give it a try, dear. Let's see how I do!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (granddaughter): Exactly! Now, try to play the middle C, then move up to D. Can you do that for me?\nSpeaker B (grandmother): I'd love to give it a try, dear. Let's see how I do!",
+    "target": "Speaker A (granddaughter) (Target): Perfect! Now try to shift your hand slightly higher on the keys for the next note.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): I'd love to give it a try, dear. Let's see how I do!\nSpeaker B (granddaughter): Perfect! Now try to shift your hand slightly higher on the keys for the next note.",
+    "target": "Speaker A (grandmother) (Target): Alright, I'll move up one step. Let's see how it goes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a natural part of the conversation, as she acknowledges her granddaughter"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (granddaughter): Perfect! Now try to shift your hand slightly higher on the keys for the next note.\nSpeaker B (grandmother): Alright, I'll move up one step. Let's see how it goes!",
+    "target": "Speaker A (granddaughter) (Target): Great job! Now, remember to use your thumb as the anchor when you transition.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): Alright, I'll move up one step. Let's see how it goes!\nSpeaker B (granddaughter): Great job! Now, remember to use your thumb as the anchor when you transition.",
+    "target": "Speaker A (grandmother) (Target): Got it, dear. I'll move my thumb and start from there. Thank you for guiding me!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (granddaughter): Great job! Now, remember to use your thumb as the anchor when you transition.\nSpeaker B (grandmother): Got it, dear. I'll move my thumb and start from there. Thank you for guiding me!",
+    "target": "Speaker A (granddaughter) (Target): No problem! Now, let's try the opposite. Start with your pinky finger and go down.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): Got it, dear. I'll move my thumb and start from there. Thank you for guiding me!\nSpeaker B (granddaughter): No problem! Now, let's try the opposite. Start with your pinky finger and go down.",
+    "target": "Speaker A (grandmother) (Target): Alright, I'll start with my pinky and move down one. This is quite fun, thank you for teaching me!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (granddaughter): No problem! Now, let's try the opposite. Start with your pinky finger and go down.\nSpeaker B (grandmother): Alright, I'll start with my pinky and move down one. This is quite fun, thank you for teaching me!",
+    "target": "Speaker A (granddaughter) (Target): You're doing so well! I think adding some variations to these scales makes it less boring.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's comment is a positive reinforcement and agreement with"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): Alright, I'll start with my pinky and move down one. This is quite fun, thank you for teaching me!\nSpeaker B (granddaughter): You're doing so well! I think adding some variations to these scales makes it less boring.",
+    "target": "Speaker A (grandmother) (Target): I see, dear. It's nice to have some variety. I'm enjoying this!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging her granddaughter"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (granddaughter): You're doing so well! I think adding some variations to these scales makes it less boring.\nSpeaker B (grandmother): I see, dear. It's nice to have some variety. I'm enjoying this!",
+    "target": "Speaker A (granddaughter) (Target): I'm glad! It keeps the brain sharp too. Should we try another pattern together?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): I see, dear. It's nice to have some variety. I'm enjoying this!\nSpeaker B (granddaughter): I'm glad! It keeps the brain sharp too. Should we try another pattern together?",
+    "target": "Speaker A (grandmother) (Target): Thank you for showing me how to play like this. It's a wonderful way to learn!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlapping speech. Both speakers are taking turns and responding"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (granddaughter): I'm glad! It keeps the brain sharp too. Should we try another pattern together?\nSpeaker B (grandmother): Thank you for showing me how to play like this. It's a wonderful way to learn!",
+    "target": "Speaker A (granddaughter) (Target): You're so welcome. Why don't you try the same pattern but with your left hand now?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): Thank you for showing me how to play like this. It's a wonderful way to learn!\nSpeaker B (granddaughter): You're so welcome. Why don't you try the same pattern but with your left hand now?",
+    "target": "Speaker A (grandmother) (Target): That's a great idea, dear. I'll try it with my left hand too. Thank you for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural flow in the conversation as she acknowled"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (granddaughter): You're so welcome. Why don't you try the same pattern but with your left hand now?\nSpeaker B (grandmother): That's a great idea, dear. I'll try it with my left hand too. Thank you for the tip!",
+    "target": "Speaker A (granddaughter) (Target): How does it feel? The left hand is always a bit trickier for me at first.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A is asking a question to Speaker B"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): That's a great idea, dear. I'll try it with my left hand too. Thank you for the tip!\nSpeaker B (granddaughter): How does it feel? The left hand is always a bit trickier for me at first.",
+    "target": "Speaker A (grandmother) (Target): That's wonderful to know! I'm feeling more confident with each practice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a natural continuation of the conversation, acknowledging her granddaughter'"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (granddaughter): How does it feel? The left hand is always a bit trickier for me at first.\nSpeaker B (grandmother): That's wonderful to know! I'm feeling more confident with each practice.",
+    "target": "Speaker A (granddaughter) (Target): I can definitely tell! Your rhythm is becoming much more steady.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a backchannel and an agreement with"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): That's wonderful to know! I'm feeling more confident with each practice.\nSpeaker B (granddaughter): I can definitely tell! Your rhythm is becoming much more steady.",
+    "target": "Speaker A (grandmother) (Target): Oh, I see! Let me give it a try. I think I like this variation too!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation and does not"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (granddaughter): I can definitely tell! Your rhythm is becoming much more steady.\nSpeaker B (grandmother): Oh, I see! Let me give it a try. I think I like this variation too!",
+    "target": "Speaker A (granddaughter) (Target): That's the spirit! It's a bit of a challenge, but you're handling it like a pro.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural backchannel and agreement with"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandmother): Oh, I see! Let me give it a try. I think I like this variation too!\nSpeaker B (granddaughter): That's the spirit! It's a bit of a challenge, but you're handling it like a pro.",
+    "target": "Speaker A (grandmother) (Target): Yes, I do like it! It's a bit challenging, but I'm enjoying the practice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (granddaughter): That's the spirit! It's a bit of a challenge, but you're handling it like a pro.\nSpeaker B (grandmother): Yes, I do like it! It's a bit challenging, but I'm enjoying the practice.",
+    "target": "Speaker A (granddaughter) (Target): That’s why I call this my 'Boot Camp' series for the piano!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural continuation of the conversation, not"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandmother): Yes, I do like it! It's a bit challenging, but I'm enjoying the practice.\nSpeaker B (granddaughter): That’s why I call this my 'Boot Camp' series for the piano!",
+    "target": "Speaker A (grandmother) (Target): Oh, 'Boot Camp' series sounds intriguing! What inspired you to choose that name?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (granddaughter): That’s why I call this my 'Boot Camp' series for the piano!\nSpeaker B (grandmother): Oh, 'Boot Camp' series sounds intriguing! What inspired you to choose that name?",
+    "target": "Speaker A (granddaughter) (Target): I thought it was a fun way to make the exercises sound more exciting and challenging, like a fitness boot camp!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural continuation of the conversation, starting"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandmother): Oh, 'Boot Camp' series sounds intriguing! What inspired you to choose that name?\nSpeaker B (granddaughter): I thought it was a fun way to make the exercises sound more exciting and challenging, like a fitness boot camp!",
+    "target": "Speaker A (grandmother) (Target): Ah, I see! That makes sense now. 'Boot Camp for Clumsy Fingers' is a clever name!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel and does not interrupt the flow"
+  }
+]

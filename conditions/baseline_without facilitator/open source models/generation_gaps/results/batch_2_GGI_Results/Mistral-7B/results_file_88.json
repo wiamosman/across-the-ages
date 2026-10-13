@@ -1,0 +1,119 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 88,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): My sweet 91-year-old great-grandma teaching me a song.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): My sweet 91-year-old great-grandma teaching me a song.",
+            "target": "Target (grandmother): It's so beautiful. Chad looked it up and listened to it. You ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): My sweet 91-year-old great-grandma teaching me a song. | Speaker B (grandmother): It's so beautiful. Chad looked it up and listened to it. You ready?",
+            "target": "Target (granddaughter): Oh wait, okay. Okay, let me try by myself.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): It's so beautiful. Chad looked it up and listened to it. You ready? | Speaker B (granddaughter): Oh wait, okay. Okay, let me try by myself.",
+            "target": "Target (grandmother): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away!",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (stereotyped expectation)"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Oh wait, okay. Okay, let me try by myself. | Speaker B (grandmother): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away!",
+            "target": "Target (granddaughter): I was just adjusting my seat, Grandma. I'm actually really trying to learn this.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away! | Speaker B (granddaughter): I was just adjusting my seat, Grandma. I'm actually really trying to learn this.",
+            "target": "Target (grandmother): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (Grandmother's tone and instructions may come across as dismissive and dis"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): I was just adjusting my seat, Grandma. I'm actually really trying to learn this. | Speaker B (grandmother): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now!",
+            "target": "Target (granddaughter): Wait, I messed it! My fingers are getting tired, can we just—",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now! | Speaker B (granddaughter): Wait, I messed it! My fingers are getting tired, can we just—",
+            "target": "Target (grandmother): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Wait, I messed it! My fingers are getting tired, can we just— | Speaker B (grandmother): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp.",
+            "target": "Target (granddaughter): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe.",
+            "gold_label": "ignored input",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp. | Speaker B (granddaughter): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe.",
+            "target": "Target (grandmother): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "method divergence (less specific than perceived disrespect, as the grandmother's response was not dismiss"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe. | Speaker B (grandmother): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing.",
+            "target": "Target (granddaughter): I'm so proud. That's so fun! I just want to keep playing this song.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing. | Speaker B (granddaughter): I'm so proud. That's so fun! I just want to keep playing this song.",
+            "target": "Target (grandmother): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): I'm so proud. That's so fun! I just want to keep playing this song. | Speaker B (grandmother): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head.",
+            "target": "Target (granddaughter): Oh, you— it goes so fast and it took like an hour to— I know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head. | Speaker B (granddaughter): Oh, you— it goes so fast and it took like an hour to— I know.",
+            "target": "Target (grandmother): Isn't that a beautiful tune? I love",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        }
+    ]
+}

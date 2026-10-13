@@ -1,0 +1,97 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 78,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I'm doing well, thank you! It's wonderful that you're teaching me English.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad to help, Grandpa! It's fun for me too.",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "My day was quite nice. I spent some time in the garden and enjoyed the sunshine.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That sounds lovely! I wish I could have joined you in the garden earlier.",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I'm sorry if I misunderstood your question. I thought we were still catching up on my day. Let's start the lesson, shall we?",
+      "golden": "comfort",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "No worries, Grandpa! I was just saying it sounded nice. We can continue with the lesson whenever.",
+      "golden": "comfort",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Haha, it's good to see you laughing! I guess I got a bit ahead of myself. Let's try again when you're ready.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "laughing"
+    },
+    {
+      "text": "Sure thing, Grandpa! Let's practice some conversational phrases about your garden first.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Haha, yes, I might be getting older but I can still learn new phrases! What would you like to teach me first today?",
+      "golden": "inform",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "Haha, you're never too old to learn! How about we start with some phrases you can use on your phone?",
+      "golden": "invite",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "That's a good idea. My day was nice, but using the phone can be a struggle. I enjoyed the sunshine today, though.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you enjoyed it. So, about those English phrases for the phone, are you ready to become an expert?",
+      "golden": "invite",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I certainly am! It's so nice to have these chats with you while I learn.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's great chatting with you too, Grandpa! So, are you ready to dive into some more English?",
+      "golden": "invite",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    }
+  ]
+}

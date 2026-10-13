@@ -1,0 +1,230 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 3,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?.",
+            "target": "Target (grandmother): soak and wash your dried beancurd sticks.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): hello, welcome to my channel. my name is angela. and today i'm doing a little bit of a different video. instead of my normal vlogs, i'm going to be learning how to cook for my grandma. because since i moved to montreal, i haven't really gotten to eat a lot of the comfort foods that i grew up eating. and so i want to learn how to cook them so that when i'm back in montreal, i can cook them for myself.  so today, because my grandma speaks in cantonese, this video is also going to be a little bit different because i'm going to try to speak cantonese for the rest of the video. my cantonese is not very good because i grew up in canada, but i will put english subtitles here for you if you don't speak cantonese. but yeah, let's get started. so, today my grandma will be teaching me how to cook chinese soap, stir-fried vegetables.braised ribs with dried  beancurd sticks. okay, let's get started. first, what should we do ..grandma ?. | Speaker B (grandmother): soak and wash your dried beancurd sticks.",
+            "target": "Target (granddaughter): how long did you soak it for?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): soak and wash your dried beancurd sticks. | Speaker B (granddaughter): how long did you soak it for?",
+            "target": "Target (grandmother): i soak it for 30 mins.now cut the dried beancurd sticks into(one-inch) pieces. wow the ribs look very nice today.they are very fresh! , now with the clean ribs cut them into smaller pieces",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): how long did you soak it for? | Speaker B (grandmother): i soak it for 30 mins.now cut the dried beancurd sticks into(one-inch) pieces. wow the ribs look very nice today.they are very fresh! , now with the clean ribs cut them into smaller pieces",
+            "target": "Target (granddaughter): u can just follow the bones, right?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): i soak it for 30 mins.now cut the dried beancurd sticks into(one-inch) pieces. wow the ribs look very nice today.they are very fresh! , now with the clean ribs cut them into smaller pieces | Speaker B (granddaughter): u can just follow the bones, right?",
+            "target": "Target (grandmother): yes just cut between the bones, if u have chicken, u can also use the same method to braise, now add some ginger, when you are cooking meet you have to add ginger, the ginger helps to remove the raw meaty smell .some people remove the skin of the ginger, others dont ,if you dont remove it it will be more yeet heey , ok ,two slices of ginger is enough u dont have to cut them too thin and these are dried shiitake mashromms",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): u can just follow the bones, right? | Speaker B (grandmother): yes just cut between the bones, if u have chicken, u can also use the same method to braise, now add some ginger, when you are cooking meet you have to add ginger, the ginger helps to remove the raw meaty smell .some people remove the skin of the ginger, others dont ,if you dont remove it it will be more yeet heey , ok ,two slices of ginger is enough u dont have to cut them too thin and these are dried shiitake mashromms",
+            "target": "Target (granddaughter): wash the fresh dried bean curd sticks and cut them into large pieces.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): yes just cut between the bones, if u have chicken, u can also use the same method to braise, now add some ginger, when you are cooking meet you have to add ginger, the ginger helps to remove the raw meaty smell .some people remove the skin of the ginger, others dont ,if you dont remove it it will be more yeet heey , ok ,two slices of ginger is enough u dont have to cut them too thin and these are dried shiitake mashromms | Speaker B (granddaughter): wash the fresh dried bean curd sticks and cut them into large pieces.",
+            "target": "Target (grandmother): then the ribs are ready. you can also use chicken. slice some ginger to cook the meat. you must use ginger, otherwise it won’t work.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): wash the fresh dried bean curd sticks and cut them into large pieces. | Speaker B (grandmother): then the ribs are ready. you can also use chicken. slice some ginger to cook the meat. you must use ginger, otherwise it won’t work.",
+            "target": "Target (grandmother): two slices of ginger are enough. no need to cut into strips. soak the dried mushrooms for about half an hour. wash the soaking water. when cooking, you can use the water. first, put oil in the pan, then add the ginger. be careful not to burn yourself.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): then the ribs are ready. you can also use chicken. slice some ginger to cook the meat. you must use ginger, otherwise it won’t work. | Speaker B (grandmother): two slices of ginger are enough. no need to cut into strips. soak the dried mushrooms for about half an hour. wash the soaking water. when cooking, you can use the water. first, put oil in the pan, then add the ginger. be careful not to burn yourself.",
+            "target": "Target (granddaughter): how long do you sock them for?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): two slices of ginger are enough. no need to cut into strips. soak the dried mushrooms for about half an hour. wash the soaking water. when cooking, you can use the water. first, put oil in the pan, then add the ginger. be careful not to burn yourself. | Speaker B (granddaughter): how long do you sock them for?",
+            "target": "Target (grandmother): also 30 mins",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): how long do you sock them for? | Speaker B (grandmother): also 30 mins",
+            "target": "Target (granddaughter): will you using this water?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): also 30 mins | Speaker B (granddaughter): will you using this water?",
+            "target": "Target (grandmother): yes, you first wash the mashrooms and then sock them, then when we cook it, we will use the socking water, so first add oil then add the ginger to fry it alittle",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): will you using this water? | Speaker B (grandmother): yes, you first wash the mashrooms and then sock them, then when we cook it, we will use the socking water, so first add oil then add the ginger to fry it alittle",
+            "target": "Target (granddaughter): be careful that the oil doesn't splash",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): yes, you first wash the mashrooms and then sock them, then when we cook it, we will use the socking water, so first add oil then add the ginger to fry it alittle | Speaker B (granddaughter): be careful that the oil doesn't splash",
+            "target": "Target (grandmother): now add the ribs in, cook in high first then reduce the heat later ,, the meat has now changed colour! its now white before it was red , now add in some cooking wine 2 tablespoons , and 2 tablespoons of light soy sauce , 2 tablespoons of oyster sauce and 2 tablespoons of dark soy sauce",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): be careful that the oil doesn't splash | Speaker B (grandmother): now add the ribs in, cook in high first then reduce the heat later ,, the meat has now changed colour! its now white before it was red , now add in some cooking wine 2 tablespoons , and 2 tablespoons of light soy sauce , 2 tablespoons of oyster sauce and 2 tablespoons of dark soy sauce",
+            "target": "Target (granddaughter): also 2 tablespoons ? all 2 tablespoons?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): now add the ribs in, cook in high first then reduce the heat later ,, the meat has now changed colour! its now white before it was red , now add in some cooking wine 2 tablespoons , and 2 tablespoons of light soy sauce , 2 tablespoons of oyster sauce and 2 tablespoons of dark soy sauce | Speaker B (granddaughter): also 2 tablespoons ? all 2 tablespoons?",
+            "target": "Target (grandmother): yes, all of it. dark soy sauce is mainly for coloring. once you add the dark soy sauce, the color will change. next, add a little bit of crystal sugar. this is good now lwt it braise afterward we will add water to cover the top, then we will add the dried beancurd sticks,dont forget to add alittle bit of salt !we are also going to add vinegar, any vinegar is fine, also 2 tablespoons of vinegar ,everything is 2 tablespoons, adding vineger makes the ribs taste much better and more tinder , now add the mashroom with its water and let it braise, now it time to add water",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): also 2 tablespoons ? all 2 tablespoons? | Speaker B (grandmother): yes, all of it. dark soy sauce is mainly for coloring. once you add the dark soy sauce, the color will change. next, add a little bit of crystal sugar. this is good now lwt it braise afterward we will add water to cover the top, then we will add the dried beancurd sticks,dont forget to add alittle bit of salt !we are also going to add vinegar, any vinegar is fine, also 2 tablespoons of vinegar ,everything is 2 tablespoons, adding vineger makes the ribs taste much better and more tinder , now add the mashroom with its water and let it braise, now it time to add water",
+            "target": "Target (granddaughter): how much do you add?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): yes, all of it. dark soy sauce is mainly for coloring. once you add the dark soy sauce, the color will change. next, add a little bit of crystal sugar. this is good now lwt it braise afterward we will add water to cover the top, then we will add the dried beancurd sticks,dont forget to add alittle bit of salt !we are also going to add vinegar, any vinegar is fine, also 2 tablespoons of vinegar ,everything is 2 tablespoons, adding vineger makes the ribs taste much better and more tinder , now add the mashroom with its water and let it braise, now it time to add water | Speaker B (granddaughter): how much do you add?",
+            "target": "Target (grandmother): enough to cover the ribs, see? the same level as the ribs",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): how much do you add? | Speaker B (grandmother): enough to cover the ribs, see? the same level as the ribs",
+            "target": "Target (granddaughter): ahaaaa",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): enough to cover the ribs, see? the same level as the ribs | Speaker B (granddaughter): ahaaaa",
+            "target": "Target (grandmother): now that the water is boiled , add the beancurd and let it cook once its braised check check that there is enough flavour,if its not salty enough add some salt, once everything is nice and soft  its ready to eat",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): ahaaaa | Speaker B (grandmother): now that the water is boiled , add the beancurd and let it cook once its braised check check that there is enough flavour,if its not salty enough add some salt, once everything is nice and soft  its ready to eat",
+            "target": "Target (granddaughter): time to start  on the soup!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): now that the water is boiled , add the beancurd and let it cook once its braised check check that there is enough flavour,if its not salty enough add some salt, once everything is nice and soft  its ready to eat | Speaker B (granddaughter): time to start  on the soup!",
+            "target": "Target (grandmother): turn on the stove, once its boiling add the ribs in, cut the ribs just like before along the bones into pieces, add some ginger and push it down with your knife,take one carrot wash it and poil itand two chinese dates and you are good to go!and alittle bit of salt and let it braise some more it will be done when the water is fully absorbed ! over here our water is boiling and in the ribs and boil them  to remove , once it has boiled for a few mins ,drain and rinse the ribs, now fill up a pot with water for the actual soupit doesnt matter if the water is already boiling or not , add in the ginger , dates and ribs and let it boils for 30 mins before adding the carrots, the water is fully absorbed so turn off the heat, its ready to eat!",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): time to start  on the soup! | Speaker B (grandmother): turn on the stove, once its boiling add the ribs in, cut the ribs just like before along the bones into pieces, add some ginger and push it down with your knife,take one carrot wash it and poil itand two chinese dates and you are good to go!and alittle bit of salt and let it braise some more it will be done when the water is fully absorbed ! over here our water is boiling and in the ribs and boil them  to remove , once it has boiled for a few mins ,drain and rinse the ribs, now fill up a pot with water for the actual soupit doesnt matter if the water is already boiling or not , add in the ginger , dates and ribs and let it boils for 30 mins before adding the carrots, the water is fully absorbed so turn off the heat, its ready to eat!",
+            "target": "Target (granddaughter): its time to add the carrot in!",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): turn on the stove, once its boiling add the ribs in, cut the ribs just like before along the bones into pieces, add some ginger and push it down with your knife,take one carrot wash it and poil itand two chinese dates and you are good to go!and alittle bit of salt and let it braise some more it will be done when the water is fully absorbed ! over here our water is boiling and in the ribs and boil them  to remove , once it has boiled for a few mins ,drain and rinse the ribs, now fill up a pot with water for the actual soupit doesnt matter if the water is already boiling or not , add in the ginger , dates and ribs and let it boils for 30 mins before adding the carrots, the water is fully absorbed so turn off the heat, its ready to eat! | Speaker B (granddaughter): its time to add the carrot in!",
+            "target": "Target (grandmother): we will add some goji berries to the soup , first give them a quick wash , then add them to the pot one the carrots is soft its done!just use the chopsticks to check if its soft enough ! its done! put the lid back on and let it boil for a little longer, then it will be ready , dont add too much salt , all done its ready to drink now!",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): its time to add the carrot in! | Speaker B (grandmother): we will add some goji berries to the soup , first give them a quick wash , then add them to the pot one the carrots is soft its done!just use the chopsticks to check if its soft enough ! its done! put the lid back on and let it boil for a little longer, then it will be ready , dont add too much salt , all done its ready to drink now!",
+            "target": "Target (granddaughter): how much are you adding?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): we will add some goji berries to the soup , first give them a quick wash , then add them to the pot one the carrots is soft its done!just use the chopsticks to check if its soft enough ! its done! put the lid back on and let it boil for a little longer, then it will be ready , dont add too much salt , all done its ready to drink now! | Speaker B (granddaughter): how much are you adding?",
+            "target": "Target (grandmother): not too much just a little is enough , now cover it with the lid add in some salt and some oyster sauce not soy sauce just oyster sauce 1 tablespoon  for flavour, all done!",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): how much are you adding? | Speaker B (grandmother): not too much just a little is enough , now cover it with the lid add in some salt and some oyster sauce not soy sauce just oyster sauce 1 tablespoon  for flavour, all done!",
+            "target": "Target (granddaughter): everything is cooked! now its time to eat! , thank you granny for cooking me such alovely dinner",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): not too much just a little is enough , now cover it with the lid add in some salt and some oyster sauce not soy sauce just oyster sauce 1 tablespoon  for flavour, all done! | Speaker B (granddaughter): everything is cooked! now its time to eat! , thank you granny for cooking me such alovely dinner",
+            "target": "Target (grandmother): you are welcome!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): everything is cooked! now its time to eat! , thank you granny for cooking me such alovely dinner | Speaker B (grandmother): you are welcome!",
+            "target": "Target (granddaughter): it smells so good, granny!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): you are welcome! | Speaker B (granddaughter): it smells so good, granny!",
+            "target": "Target (grandmother): goji berries are good for your eyes! , same for carrots , alot if people like to add carrots to their soup!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): it smells so good, granny! | Speaker B (grandmother): goji berries are good for your eyes! , same for carrots , alot if people like to add carrots to their soup!",
+            "target": "Target (granddaughter): if you like this video, please give it a like and subscribe to this channel see you next time, bye bye!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

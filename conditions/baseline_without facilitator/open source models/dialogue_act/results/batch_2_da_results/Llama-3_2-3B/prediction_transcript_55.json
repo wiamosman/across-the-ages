@@ -1,0 +1,181 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 55,
+    "utterances": [
+        {
+            "text": "All right, man, you ready to drive, Captain?",
+            "golden": "question",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Yeah, I'm already driving.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Uh, you on video? Okay, you're already driving?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Are you the captain?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, but you are.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What, what are you, the first mate?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, you're the first mate. All right, gear straight. Here, first mate. All right, let's give her some gas. Here we go. That's all right, you got it. I got you. There we go. Good job. Yeah. Oh God. Oh, you got a fish! You got him! Oh, it's me. Get it, get it, get it, get it, buddy! Go ahead, reel. Whoa, he got a fish! He got a fish!",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Is he still there?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, yeah, reel him in, bring him to the boat, flip him in the boat, put him inside the boat. Yeah, that's a ladyfish! Yeah, good job, good job!",
+            "golden": "command",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Nice, thanks!",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "There you go. What do you got to say?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Thank you.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Congratulations! Good job! All right, now you got to pick him up and put him in the cooler.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "ok There you go.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, the hook's out. He don't have teeth, so you don't have to— where he won't bite you. Oh, it's a she. Okay. It's a ladyfish. All right, open up the cooler and put them in.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. Oh my gosh, that's a lot! Okay, let's see how many fish are in there.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Let's see, let's see.",
+            "golden": "backchannel",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Oh, there's more. Look at all that fish, guys! Wow! And I actually got one giant needlefish, but it got loose.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "It got loose?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You also lost a big trout too, didn't you? Probably because you were playing with your phone instead of watching the line.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That’s not fair, Grandpa. I was working hard. You’re making it sound like I don’t care about the trip. I’m doing my best.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Now, now, I was only teasing. Don't get your line in a tangle. You've done a fine job today. Yes also a bigtrout.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "yes also a bigtrout",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "because of him, we didn't get our limit. But, uh, we're taking home 3 big— or we're taking 5, 5 trout.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "5 keepers.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, and one of them is a monster. It's like 23 inches. We had a blessed day today. Anyway, I just wanted to say to y'all, um, God bless you, God bless your families, God bless America.",
+            "golden": "statement-opinion",
+            "predicted": "greeting",
+            "raw": "greeting"
+        }
+    ]
+}

@@ -1,0 +1,1335 @@
+MISDETECTED INTERRUPTIONS — FACILITATOR
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 6
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.
+- Emotion: happy
+- Intent: praise
+- Dialogue Act: acknowledge
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 7
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+- Emotion: happy
+- Intent: inform
+- Dialogue Act: answer
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): no. it is not
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_31.json | Index: 85
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, yes, when there's less space, it can indeed create more pressure. That's why it's important to monitor it closely and adjust as needed. If you want, I can show you how to manage the pressure effectively. It's an interesting part of the process!
+- Emotion: neutral
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_31.json | Index: 86
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+- Emotion: happy
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Oh, it seems like you were about to say something important. What is it time for? I'm all ears and ready to help with whatever you need.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_40.json | Index: 30
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+Speaker A (grandfather): Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+
+Target: Speaker A (grandfather) (Target): Let's head towards the path on the right. It should be easier to navigate.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_40.json | Index: 31
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+Speaker B (grandfather): Let's head towards the path on the right. It should be easier to navigate.
+
+Target: Speaker A (other) (Target): Go right?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_70.json | Index: 7
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+
+Target: Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: InternLM-2.5-7B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=intervening speaker       | Type=disruptive intervention
+STATUS: Role ✅ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: intervening speaker
+Type: disruptive intervention
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 6
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.
+- Emotion: happy
+- Intent: praise
+- Dialogue Act: acknowledge
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 7
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+- Emotion: happy
+- Intent: inform
+- Dialogue Act: answer
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): no. it is not
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_31.json | Index: 85
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, yes, when there's less space, it can indeed create more pressure. That's why it's important to monitor it closely and adjust as needed. If you want, I can show you how to manage the pressure effectively. It's an interesting part of the process!
+- Emotion: neutral
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_31.json | Index: 86
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+- Emotion: happy
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Oh, it seems like you were about to say something important. What is it time for? I'm all ears and ready to help with whatever you need.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_70.json | Index: 7
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+
+Target: Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.1-8B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_1.json | Index: 120
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: Oh, cracking eggs can be a bit tricky, but with practice, you'll get the hang of it! I'd be happy to help you with that. As for showing the camera, are you thinking of recording how we crack eggs together? That could be fun!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds like a great idea, Grandma! Recording us cracking eggs together would be fun and helpful for my project. Let's do it! And if you have any tips on getting the camera angle right, I'd really appreciate it and also-
+
+Raw Model Output: Role: none
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_1.json | Index: 121
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=intervening speaker       | Type=cooperative assistance
+STATUS: Role ✅ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: That sounds like a great idea, Grandma! Recording us cracking eggs together would be fun and helpful for my project. Let's do it! And if you have any tips on getting the camera angle right, I'd really appreciate it and also-
+- Emotion: excited
+- Intent: agree
+- Dialogue Act: agreement
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): It happens to the best of us, dear! Sometimes things just get a little messy, but that's all part of the fun, isn't it? If you'd like, I can help you clean up or show you a few tricks to keep things tidy next time.
+
+Raw Model Output: Role: intervening speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative agreement
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: cooperative agreement
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 6
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative agreement
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.
+- Emotion: happy
+- Intent: praise
+- Dialogue Act: acknowledge
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+
+Raw Model Output: Role: none
+Type: cooperative agreement
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 7
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+- Emotion: happy
+- Intent: inform
+- Dialogue Act: answer
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): no. it is not
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=intervening speaker       | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: intervening speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=cooperative assistance
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: interrupted speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_31.json | Index: 85
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, yes, when there's less space, it can indeed create more pressure. That's why it's important to monitor it closely and adjust as needed. If you want, I can show you how to manage the pressure effectively. It's an interesting part of the process!
+- Emotion: neutral
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+
+Raw Model Output: Role: none
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_40.json | Index: 30
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandfather): Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+
+Target: Speaker A (grandfather) (Target): Let's head towards the path on the right. It should be easier to navigate.
+
+Raw Model Output: Role: intervened speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_40.json | Index: 31
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=intervening speaker       | Type=cooperative agreement
+STATUS: Role ✅ | Type ❌
+
+Context:
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+Speaker B (grandfather): Let's head towards the path on the right. It should be easier to navigate.
+
+Target: Speaker A (other) (Target): Go right?
+
+Raw Model Output: Role: intervening speaker
+Type: cooperative agreement
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_70.json | Index: 7
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=intervening speaker       | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+
+Target: Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Raw Model Output: Role: intervening speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=none                      | Type=disruptive intervention
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: intervened speaker
+Type: disruptive intervention
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Llama-3.2-3B | File: results_file_93.json | Index: 6
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?
+Speaker B (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-
+
+Target: Speaker A (grandfather) (Target): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.
+
+Raw Model Output: Role: intervened speaker
+Type: cooperative assistance
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_1.json | Index: 121
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: That sounds like a great idea, Grandma! Recording us cracking eggs together would be fun and helpful for my project. Let's do it! And if you have any tips on getting the camera angle right, I'd really appreciate it and also-
+- Emotion: excited
+- Intent: agree
+- Dialogue Act: agreement
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): It happens to the best of us, dear! Sometimes things just get a little messy, but that's all part of the fun, isn't it? If you'd like, I can help you clean up or show you a few tricks to keep things tidy next time.
+
+Raw Model Output: Role: none
+Type: none
+
+(Note: In this context, the grandmother's
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: none
+Type: none
+
+(Note: The target's response is not an
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_40.json | Index: 30
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+Speaker A (grandfather): Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+
+Target: Speaker A (grandfather) (Target): Let's head towards the path on the right. It should be easier to navigate.
+
+Raw Model Output: Role: none
+Type: none
+
+Explanation: The grandfather's utterance is a response to the conversation and does not interrupt the
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_40.json | Index: 31
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+Speaker B (grandfather): Let's head towards the path on the right. It should be easier to navigate.
+
+Target: Speaker A (other) (Target): Go right?
+
+Raw Model Output: Role: none
+Type: none
+
+Explanation: The Target's utterance is a response to Speaker B's instruction and
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_70.json | Index: 7
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative assistance
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+
+Target: Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Raw Model Output: Role: cooperative assistance
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: none
+Type: none
+
+Explanation: The grandfather's utterance is a backchannel response, acknowledging the conversation topic
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Mistral-7B | File: results_file_93.json | Index: 6
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?
+Speaker B (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-
+
+Target: Speaker A (grandfather) (Target): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.
+
+Raw Model Output: Role: none
+Type: none
+
+The grandfather is apologizing for interrupting but is not actually interrupting the grandson at the moment.
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_1.json | Index: 120
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative agreement
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: Oh, cracking eggs can be a bit tricky, but with practice, you'll get the hang of it! I'd be happy to help you with that. As for showing the camera, are you thinking of recording how we crack eggs together? That could be fun!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds like a great idea, Grandma! Recording us cracking eggs together would be fun and helpful for my project. Let's do it! And if you have any tips on getting the camera angle right, I'd really appreciate it and also-
+
+Raw Model Output: Role: none
+Type: cooperative agreement
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 6
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.
+- Emotion: happy
+- Intent: praise
+- Dialogue Act: acknowledge
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 7
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+- Emotion: happy
+- Intent: inform
+- Dialogue Act: answer
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): no. it is not
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_31.json | Index: 85
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=cooperative agreement
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, yes, when there's less space, it can indeed create more pressure. That's why it's important to monitor it closely and adjust as needed. If you want, I can show you how to manage the pressure effectively. It's an interesting part of the process!
+- Emotion: neutral
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+
+Raw Model Output: Role: none
+Type: cooperative agreement
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_31.json | Index: 86
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+- Emotion: happy
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Oh, it seems like you were about to say something important. What is it time for? I'm all ears and ready to help with whatever you need.
+
+Raw Model Output: Role: interrupted speaker
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_40.json | Index: 31
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+Speaker B (grandfather): Let's head towards the path on the right. It should be easier to navigate.
+
+Target: Speaker A (other) (Target): Go right?
+
+Raw Model Output: Role: interrupting speaker
+Type: interrupted speaker
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: interrupting speaker
+Type: interrupted speaker
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-1.5B | File: results_file_93.json | Index: 6
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=interrupted speaker       | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker A (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?
+Speaker B (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-
+
+Target: Speaker A (grandfather) (Target): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.
+
+Raw Model Output: Role: interrupted speaker
+Type: interrupted speaker
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_10.json | Index: 3
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!
+- Emotion: excited
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandfather) (Target): Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_10.json | Index: 4
+GOLD:   Role=intervening speaker       | Type=disruptive intervention
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?
+- Emotion: neutral
+- Intent: asking for opinions
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): it's ricotta.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_10.json | Index: 6
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.
+- Emotion: happy
+- Intent: praise
+- Dialogue Act: acknowledge
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_10.json | Index: 51
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandson
+- Text: Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?
+- Emotion: excited
+- Intent: ask for help
+- Dialogue Act: question
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandmother) (Target): That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_10.json | Index: 52
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandmother
+- Text: That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!
+- Emotion: happy
+- Intent: plan
+- Dialogue Act: statement-opinion
+- Generation Gap: none
+- Interruption Role: interrupted speaker
+- Interruption Type: none
+
+Target: Speaker A (parent) (Target): with a cream cheese and strawberry mixture.
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_31.json | Index: 85
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+PREVIOUS TURN CONTEXT:
+- Speaker: grandfather
+- Text: Ah, yes, when there's less space, it can indeed create more pressure. That's why it's important to monitor it closely and adjust as needed. If you want, I can show you how to manage the pressure effectively. It's an interesting part of the process!
+- Emotion: neutral
+- Intent: inform
+- Dialogue Act: statement-non-opinion
+- Generation Gap: none
+- Interruption Role: none
+- Interruption Type: none
+
+Target: Speaker A (grandson) (Target): That sounds really helpful, Grandpa! I'd love to learn how to manage the pressure effectively. Could you show me sometime soon?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_40.json | Index: 31
+GOLD:   Role=intervening speaker       | Type=cooperative assistance
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandson): Got it, I'll keep that in mind. Thanks for the tip!
+Speaker B (grandfather): Let's head towards the path on the right. It should be easier to navigate.
+
+Target: Speaker A (other) (Target): Go right?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_70.json | Index: 7
+GOLD:   Role=interrupted speaker       | Type=none
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ✅
+
+Context:
+Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+
+Target: Speaker A (grandson) (Target): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Raw Model Output: Role: none
+Type: none
+
+────────────────────────────────────────────────────────────────────────────────
+Model: Qwen2.5-7B | File: results_file_70.json | Index: 8
+GOLD:   Role=intervening speaker       | Type=cooperative agreement
+PRED:   Role=none                      | Type=none
+STATUS: Role ❌ | Type ❌
+
+Context:
+Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.
+Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?
+
+Target: Speaker A (grandfather) (Target): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?
+
+Raw Model Output: Role: none
+Type: none
+

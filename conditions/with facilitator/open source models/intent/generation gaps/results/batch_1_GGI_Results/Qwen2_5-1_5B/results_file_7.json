@@ -1,0 +1,643 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 7,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Hi Grandpa! How have you been lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Hi Grandpa! How have you been lately?",
+            "target": "Target (grandmother): Hello my dear! I'm so glad to be back on your channel. You did a wonderful job with the light soup, and I'm sure you'll be a great jollof chef too. It's all about practice and love for cooking. I'm happy to teach you again!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Hi Grandpa! How have you been lately? | Speaker B (grandmother): Hello my dear! I'm so glad to be back on your channel. You did a wonderful job with the light soup, and I'm sure you'll be a great jollof chef too. It's all about practice and love for cooking. I'm happy to teach you again!",
+            "target": "Target (granddaughter): Thanks, Grandma! I'd love to learn more from you. Maybe we can plan a cooking session together soon?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Hello my dear! I'm so glad to be back on your channel. You did a wonderful job with the light soup, and I'm sure you'll be a great jollof chef too. It's all about practice and love for cooking. I'm happy to teach you again! | Speaker B (granddaughter): Thanks, Grandma! I'd love to learn more from you. Maybe we can plan a cooking session together soon?",
+            "target": "Target (grandmother): Well, I've been preparing the ingredients for the jollof rice. I've chopped the onions, tomatoes, and peppers. It's important to have everything ready before we start cooking. Do you want to help with the next steps?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I'd love to learn more from you. Maybe we can plan a cooking session together soon? | Speaker B (grandmother): Well, I've been preparing the ingredients for the jollof rice. I've chopped the onions, tomatoes, and peppers. It's important to have everything ready before we start cooking. Do you want to help with the next steps?",
+            "target": "Target (granddaughter): Absolutely, Grandma! I'd love to help with the next steps. Just let me know what to do!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Well, I've been preparing the ingredients for the jollof rice. I've chopped the onions, tomatoes, and peppers. It's important to have everything ready before we start cooking. Do you want to help with the next steps? | Speaker B (granddaughter): Absolutely, Grandma! I'd love to help with the next steps. Just let me know what to do!",
+            "target": "Target (grandmother): Oh yes, onions can make you cry sometimes! But there's a little trick I use—if you chill them in the fridge before chopping, it helps reduce the tears. Would you like to try it next time?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Absolutely, Grandma! I'd love to help with the next steps. Just let me know what to do! | Speaker B (grandmother): Oh yes, onions can make you cry sometimes! But there's a little trick I use—if you chill them in the fridge before chopping, it helps reduce the tears. Would you like to try it next time?",
+            "target": "Target (granddaughter): That's a great tip, Grandma! I'll definitely try chilling the onions next time. What should we do after the onions are ready?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Oh yes, onions can make you cry sometimes! But there's a little trick I use—if you chill them in the fridge before chopping, it helps reduce the tears. Would you like to try it next time? | Speaker B (granddaughter): That's a great tip, Grandma! I'll definitely try chilling the onions next time. What should we do after the onions are ready?",
+            "target": "Target (grandmother): Jollof rice is a delicious and flavorful West African dish, often made with rice, tomatoes, onions, and a variety of spices. It's known for its vibrant color and rich taste, and it's a favorite at gatherings and celebrations. You can tell people it's like a party in your mouth! Would you like to add anything else to that description?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): That's a great tip, Grandma! I'll definitely try chilling the onions next time. What should we do after the onions are ready? | Speaker B (grandmother): Jollof rice is a delicious and flavorful West African dish, often made with rice, tomatoes, onions, and a variety of spices. It's known for its vibrant color and rich taste, and it's a favorite at gatherings and celebrations. You can tell people it's like a party in your mouth! Would you like to add anything else to that description?",
+            "target": "Target (granddaughter): I love that description, Grandma! It really does sound like a party in your mouth. Maybe we can mention how versatile it is too, since you can add different proteins or veggies depending on what you have. What do you think?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Jollof rice is a delicious and flavorful West African dish, often made with rice, tomatoes, onions, and a variety of spices. It's known for its vibrant color and rich taste, and it's a favorite at gatherings and celebrations. You can tell people it's like a party in your mouth! Would you like to add anything else to that description? | Speaker B (granddaughter): I love that description, Grandma! It really does sound like a party in your mouth. Maybe we can mention how versatile it is too, since you can add different proteins or veggies depending on what you have. What do you think?",
+            "target": "Target (grandmother): I understand, dear. Jollof might be new to people from different parts of the world, but you can describe it as a spicy and savory rice dish that's enjoyed across West Africa. It's similar to a flavorful risotto or paella, but with a unique blend of spices that make it special. It's all about sharing our culture through food, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): I love that description, Grandma! It really does sound like a party in your mouth. Maybe we can mention how versatile it is too, since you can add different proteins or veggies depending on what you have. What do you think? | Speaker B (grandmother): I understand, dear. Jollof might be new to people from different parts of the world, but you can describe it as a spicy and savory rice dish that's enjoyed across West Africa. It's similar to a flavorful risotto or paella, but with a unique blend of spices that make it special. It's all about sharing our culture through food, isn't it?",
+            "target": "Target (granddaughter): Absolutely, Grandma! Sharing our culture through food is such a wonderful way to connect with others. I love how you compared it to risotto or paella; that makes it easier for people to relate to. Maybe we can also talk about how each family has their own special twist on the recipe?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): I understand, dear. Jollof might be new to people from different parts of the world, but you can describe it as a spicy and savory rice dish that's enjoyed across West Africa. It's similar to a flavorful risotto or paella, but with a unique blend of spices that make it special. It's all about sharing our culture through food, isn't it? | Speaker B (granddaughter): Absolutely, Grandma! Sharing our culture through food is such a wonderful way to connect with others. I love how you compared it to risotto or paella; that makes it easier for people to relate to. Maybe we can also talk about how each family has their own special twist on the recipe?",
+            "target": "Target (grandmother): Oh, thank you, dear! That's such a sweet compliment. I'm glad you enjoy my jollof rice so much. When I was in Japan, I did try to cook Ghanaian food whenever I could. It was a nice way to feel connected to home and share our culture with friends there. Cooking can be a wonderful way to bridge cultures, don't you think?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Absolutely, Grandma! Sharing our culture through food is such a wonderful way to connect with others. I love how you compared it to risotto or paella; that makes it easier for people to relate to. Maybe we can also talk about how each family has their own special twist on the recipe? | Speaker B (grandmother): Oh, thank you, dear! That's such a sweet compliment. I'm glad you enjoy my jollof rice so much. When I was in Japan, I did try to cook Ghanaian food whenever I could. It was a nice way to feel connected to home and share our culture with friends there. Cooking can be a wonderful way to bridge cultures, don't you think?",
+            "target": "Target (granddaughter): Absolutely, Grandma! Cooking really is a beautiful way to bring people together and share a piece of our heritage. It's amazing how food can create connections across different cultures. I'd love to hear more about your experiences cooking in Japan. Did your friends there enjoy the jollof rice?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Oh, thank you, dear! That's such a sweet compliment. I'm glad you enjoy my jollof rice so much. When I was in Japan, I did try to cook Ghanaian food whenever I could. It was a nice way to feel connected to home and share our culture with friends there. Cooking can be a wonderful way to bridge cultures, don't you think? | Speaker B (granddaughter): Absolutely, Grandma! Cooking really is a beautiful way to bring people together and share a piece of our heritage. It's amazing how food can create connections across different cultures. I'd love to hear more about your experiences cooking in Japan. Did your friends there enjoy the jollof rice?",
+            "target": "Target (grandmother): I understand, dear. Ghanaian food can be quite a labor of love, but it's so rewarding when you taste the final dish, isn't it? It's wonderful that you're exploring Japanese cuisine too; it's always great to learn and appreciate different cultures through their food. Maybe one day, we can cook some Ghanaian dishes together and make it a fun, learning experience. What do you think?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Absolutely, Grandma! Cooking really is a beautiful way to bring people together and share a piece of our heritage. It's amazing how food can create connections across different cultures. I'd love to hear more about your experiences cooking in Japan. Did your friends there enjoy the jollof rice? | Speaker B (grandmother): I understand, dear. Ghanaian food can be quite a labor of love, but it's so rewarding when you taste the final dish, isn't it? It's wonderful that you're exploring Japanese cuisine too; it's always great to learn and appreciate different cultures through their food. Maybe one day, we can cook some Ghanaian dishes together and make it a fun, learning experience. What do you think?",
+            "target": "Target (granddaughter): That sounds like a fantastic idea, Grandma! I'd love to learn from you and spend some quality time cooking together. It would be so much fun to combine our skills and maybe even create a new family recipe. When do you think we could plan this cooking day?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): I understand, dear. Ghanaian food can be quite a labor of love, but it's so rewarding when you taste the final dish, isn't it? It's wonderful that you're exploring Japanese cuisine too; it's always great to learn and appreciate different cultures through their food. Maybe one day, we can cook some Ghanaian dishes together and make it a fun, learning experience. What do you think? | Speaker B (granddaughter): That sounds like a fantastic idea, Grandma! I'd love to learn from you and spend some quality time cooking together. It would be so much fun to combine our skills and maybe even create a new family recipe. When do you think we could plan this cooking day?",
+            "target": "Target (grandmother): Oh, you're doing a wonderful job, dear! Your slicing looks very neat and precise. It's lovely to see you enjoying cooking and experimenting in the kitchen. Remember, practice makes perfect, and I'm sure you'll become an even better chef with time. Keep up the great work!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): That sounds like a fantastic idea, Grandma! I'd love to learn from you and spend some quality time cooking together. It would be so much fun to combine our skills and maybe even create a new family recipe. When do you think we could plan this cooking day? | Speaker B (grandmother): Oh, you're doing a wonderful job, dear! Your slicing looks very neat and precise. It's lovely to see you enjoying cooking and experimenting in the kitchen. Remember, practice makes perfect, and I'm sure you'll become an even better chef with time. Keep up the great work!",
+            "target": "Target (granddaughter): Thank you so much, Grandma! Your encouragement means the world to me. I'm really looking forward to our cooking day together. How about we plan it for next weekend? That way, we can have plenty of time to gather all the ingredients and make it a special day.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Oh, you're doing a wonderful job, dear! Your slicing looks very neat and precise. It's lovely to see you enjoying cooking and experimenting in the kitchen. Remember, practice makes perfect, and I'm sure you'll become an even better chef with time. Keep up the great work! | Speaker B (granddaughter): Thank you so much, Grandma! Your encouragement means the world to me. I'm really looking forward to our cooking day together. How about we plan it for next weekend? That way, we can have plenty of time to gather all the ingredients and make it a special day.",
+            "target": "Target (grandmother): Oh, that sounds exciting, dear! You know, cooking can be such a rewarding career, and you have a natural talent for it. As for the pepper, yes, just the pepper for now. Blending it will give your dish a nice kick of flavor. I'm here to help you with any questions you have along the way. Keep exploring and enjoying the process!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): Thank you so much, Grandma! Your encouragement means the world to me. I'm really looking forward to our cooking day together. How about we plan it for next weekend? That way, we can have plenty of time to gather all the ingredients and make it a special day. | Speaker B (grandmother): Oh, that sounds exciting, dear! You know, cooking can be such a rewarding career, and you have a natural talent for it. As for the pepper, yes, just the pepper for now. Blending it will give your dish a nice kick of flavor. I'm here to help you with any questions you have along the way. Keep exploring and enjoying the process!",
+            "target": "Target (granddaughter): Thanks for the advice, Grandma! I'll definitely keep experimenting and learning. I'm so glad to have your support and guidance. Let's make next weekend our special cooking day. I'll start looking up some recipes we can try together!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): Oh, that sounds exciting, dear! You know, cooking can be such a rewarding career, and you have a natural talent for it. As for the pepper, yes, just the pepper for now. Blending it will give your dish a nice kick of flavor. I'm here to help you with any questions you have along the way. Keep exploring and enjoying the process! | Speaker B (granddaughter): Thanks for the advice, Grandma! I'll definitely keep experimenting and learning. I'm so glad to have your support and guidance. Let's make next weekend our special cooking day. I'll start looking up some recipes we can try together!",
+            "target": "Target (grandmother): If you feel like the pepper needs a bit more blending to achieve the texture you want, go ahead and blend it a little more. It's all about finding the right balance for your dish. You're doing great, dear, and I'm proud of how you're taking charge in the kitchen!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): Thanks for the advice, Grandma! I'll definitely keep experimenting and learning. I'm so glad to have your support and guidance. Let's make next weekend our special cooking day. I'll start looking up some recipes we can try together! | Speaker B (grandmother): If you feel like the pepper needs a bit more blending to achieve the texture you want, go ahead and blend it a little more. It's all about finding the right balance for your dish. You're doing great, dear, and I'm proud of how you're taking charge in the kitchen!",
+            "target": "Target (granddaughter): Thank you, Grandma! Your tips are always so helpful. I'll make sure to blend the pepper just right. I'm really excited for our cooking day next weekend. I'll send you some recipe ideas soon, and we can decide together what to make!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): If you feel like the pepper needs a bit more blending to achieve the texture you want, go ahead and blend it a little more. It's all about finding the right balance for your dish. You're doing great, dear, and I'm proud of how you're taking charge in the kitchen! | Speaker B (granddaughter): Thank you, Grandma! Your tips are always so helpful. I'll make sure to blend the pepper just right. I'm really excited for our cooking day next weekend. I'll send you some recipe ideas soon, and we can decide together what to make!",
+            "target": "Target (grandmother): Oh, I love that you're cheering me on, dear! It's wonderful to have such a supportive sous-chef in the kitchen. As for questions, I'm curious to know what inspired you to start cooking today? Was it a particular dish or just the joy of experimenting? I'm always interested in hearing about your culinary adventures!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): Thank you, Grandma! Your tips are always so helpful. I'll make sure to blend the pepper just right. I'm really excited for our cooking day next weekend. I'll send you some recipe ideas soon, and we can decide together what to make! | Speaker B (grandmother): Oh, I love that you're cheering me on, dear! It's wonderful to have such a supportive sous-chef in the kitchen. As for questions, I'm curious to know what inspired you to start cooking today? Was it a particular dish or just the joy of experimenting? I'm always interested in hearing about your culinary adventures!",
+            "target": "Target (granddaughter): Honestly, it was a bit of both! I've always loved watching cooking shows and trying out new recipes. Today, I just felt like experimenting with something new and seeing where it takes me. It's so much fun to create something delicious from scratch!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): Oh, I love that you're cheering me on, dear! It's wonderful to have such a supportive sous-chef in the kitchen. As for questions, I'm curious to know what inspired you to start cooking today? Was it a particular dish or just the joy of experimenting? I'm always interested in hearing about your culinary adventures! | Speaker B (granddaughter): Honestly, it was a bit of both! I've always loved watching cooking shows and trying out new recipes. Today, I just felt like experimenting with something new and seeing where it takes me. It's so much fun to create something delicious from scratch!",
+            "target": "Target (grandmother): That's fascinating, dear! It sounds like you've learned a lot about adapting to different environments and cultures. It's amazing how different lifestyles can influence the way we cook and prepare our meals. I'm sure it must be quite an experience to adapt Ghanaian recipes to a Japanese kitchen. I'm proud of how you're embracing these challenges and learning from them. Do you have any favorite dishes you've tried making in Japan?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (granddaughter): Honestly, it was a bit of both! I've always loved watching cooking shows and trying out new recipes. Today, I just felt like experimenting with something new and seeing where it takes me. It's so much fun to create something delicious from scratch! | Speaker B (grandmother): That's fascinating, dear! It sounds like you've learned a lot about adapting to different environments and cultures. It's amazing how different lifestyles can influence the way we cook and prepare our meals. I'm sure it must be quite an experience to adapt Ghanaian recipes to a Japanese kitchen. I'm proud of how you're embracing these challenges and learning from them. Do you have any favorite dishes you've tried making in Japan?",
+            "target": "Target (granddaughter): Thank you, Grandma! It really is a fun challenge. One of my favorite dishes to make here is Okonomiyaki. It's like a savory pancake, and I love adding a bit of a Ghanaian twist to it with some spices. It's always a hit with my friends here!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): That's fascinating, dear! It sounds like you've learned a lot about adapting to different environments and cultures. It's amazing how different lifestyles can influence the way we cook and prepare our meals. I'm sure it must be quite an experience to adapt Ghanaian recipes to a Japanese kitchen. I'm proud of how you're embracing these challenges and learning from them. Do you have any favorite dishes you've tried making in Japan? | Speaker B (granddaughter): Thank you, Grandma! It really is a fun challenge. One of my favorite dishes to make here is Okonomiyaki. It's like a savory pancake, and I love adding a bit of a Ghanaian twist to it with some spices. It's always a hit with my friends here!",
+            "target": "Target (grandmother): Oh, that sounds wonderful, dear! I can't wait to see the video of you cooking jollof in Japan. It's such a thoughtful way to share a taste of home with your friends. As for my age, I'm 75, and I'm grateful for every year I've had. It's lovely to hear that everyone was surprised by our ages; I guess time flies when you're having fun! Keep slicing those tomatoes, you're doing a great job!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (granddaughter): Thank you, Grandma! It really is a fun challenge. One of my favorite dishes to make here is Okonomiyaki. It's like a savory pancake, and I love adding a bit of a Ghanaian twist to it with some spices. It's always a hit with my friends here! | Speaker B (grandmother): Oh, that sounds wonderful, dear! I can't wait to see the video of you cooking jollof in Japan. It's such a thoughtful way to share a taste of home with your friends. As for my age, I'm 75, and I'm grateful for every year I've had. It's lovely to hear that everyone was surprised by our ages; I guess time flies when you're having fun! Keep slicing those tomatoes, you're doing a great job!",
+            "target": "Target (granddaughter): Thanks, Grandma! I'll definitely send you the video once it's ready. It's amazing how food can bring people together, even when we're miles apart. And you're right, time really does fly when you're having fun! I'm so glad we can share these moments, even if it's through a screen.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): Oh, that sounds wonderful, dear! I can't wait to see the video of you cooking jollof in Japan. It's such a thoughtful way to share a taste of home with your friends. As for my age, I'm 75, and I'm grateful for every year I've had. It's lovely to hear that everyone was surprised by our ages; I guess time flies when you're having fun! Keep slicing those tomatoes, you're doing a great job! | Speaker B (granddaughter): Thanks, Grandma! I'll definitely send you the video once it's ready. It's amazing how food can bring people together, even when we're miles apart. And you're right, time really does fly when you're having fun! I'm so glad we can share these moments, even if it's through a screen.",
+            "target": "Target (grandmother): Oh, dear, turning 78 is quite a milestone, isn't it? I feel blessed to have lived such a full life surrounded by wonderful family and friends like you. Each year brings new experiences and memories, and I'm grateful for every moment. It's important to cherish the time we have and make the most of it. Thank you for asking, sweetheart!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I'll definitely send you the video once it's ready. It's amazing how food can bring people together, even when we're miles apart. And you're right, time really does fly when you're having fun! I'm so glad we can share these moments, even if it's through a screen. | Speaker B (grandmother): Oh, dear, turning 78 is quite a milestone, isn't it? I feel blessed to have lived such a full life surrounded by wonderful family and friends like you. Each year brings new experiences and memories, and I'm grateful for every moment. It's important to cherish the time we have and make the most of it. Thank you for asking, sweetheart!",
+            "target": "Target (granddaughter): You're absolutely right, Grandma. Every moment is precious, and I'm so grateful to have you in my life. Your wisdom and stories always inspire me. I can't wait to celebrate your 78th birthday together, even if it's virtually. Maybe we can cook something special together over a video call!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): Oh, dear, turning 78 is quite a milestone, isn't it? I feel blessed to have lived such a full life surrounded by wonderful family and friends like you. Each year brings new experiences and memories, and I'm grateful for every moment. It's important to cherish the time we have and make the most of it. Thank you for asking, sweetheart! | Speaker B (granddaughter): You're absolutely right, Grandma. Every moment is precious, and I'm so grateful to have you in my life. Your wisdom and stories always inspire me. I can't wait to celebrate your 78th birthday together, even if it's virtually. Maybe we can cook something special together over a video call!",
+            "target": "Target (grandmother): Not at all, dear! Age is just a number, and I feel as young as ever in spirit. Staying active and enjoying life keeps me feeling vibrant and engaged. Plus, having wonderful conversations with you keeps me on my toes! It's all about how we choose to live and appreciate each day. Thank you for caring, my sweet!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): You're absolutely right, Grandma. Every moment is precious, and I'm so grateful to have you in my life. Your wisdom and stories always inspire me. I can't wait to celebrate your 78th birthday together, even if it's virtually. Maybe we can cook something special together over a video call! | Speaker B (grandmother): Not at all, dear! Age is just a number, and I feel as young as ever in spirit. Staying active and enjoying life keeps me feeling vibrant and engaged. Plus, having wonderful conversations with you keeps me on my toes! It's all about how we choose to live and appreciate each day. Thank you for caring, my sweet!",
+            "target": "Target (granddaughter): You're such an inspiration, Grandma! I love how you embrace life with such positivity and energy. Let's definitely plan a virtual birthday celebration. Maybe we can even try a new recipe together! What do you think?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): Not at all, dear! Age is just a number, and I feel as young as ever in spirit. Staying active and enjoying life keeps me feeling vibrant and engaged. Plus, having wonderful conversations with you keeps me on my toes! It's all about how we choose to live and appreciate each day. Thank you for caring, my sweet! | Speaker B (granddaughter): You're such an inspiration, Grandma! I love how you embrace life with such positivity and energy. Let's definitely plan a virtual birthday celebration. Maybe we can even try a new recipe together! What do you think?",
+            "target": "Target (grandmother): Well, dear, staying young at heart is all about finding joy in the little things. I love gardening, reading, and taking walks in the park. These activities keep me active and connected to nature. Spending time with family, like you, and sharing stories and laughter also keeps my spirit lively. It's important to keep learning and trying new things, no matter our age. What are some things you enjoy doing that make you feel happy and energized?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (granddaughter): You're such an inspiration, Grandma! I love how you embrace life with such positivity and energy. Let's definitely plan a virtual birthday celebration. Maybe we can even try a new recipe together! What do you think? | Speaker B (grandmother): Well, dear, staying young at heart is all about finding joy in the little things. I love gardening, reading, and taking walks in the park. These activities keep me active and connected to nature. Spending time with family, like you, and sharing stories and laughter also keeps my spirit lively. It's important to keep learning and trying new things, no matter our age. What are some things you enjoy doing that make you feel happy and energized?",
+            "target": "Target (granddaughter): I love that mindset, Grandma! For me, spending time outdoors, especially hiking and exploring new trails, really makes me feel alive. I also enjoy painting and trying out different art styles. It's a great way to express myself and unwind. Maybe I could show you some of my recent paintings during our virtual celebration!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): Well, dear, staying young at heart is all about finding joy in the little things. I love gardening, reading, and taking walks in the park. These activities keep me active and connected to nature. Spending time with family, like you, and sharing stories and laughter also keeps my spirit lively. It's important to keep learning and trying new things, no matter our age. What are some things you enjoy doing that make you feel happy and energized? | Speaker B (granddaughter): I love that mindset, Grandma! For me, spending time outdoors, especially hiking and exploring new trails, really makes me feel alive. I also enjoy painting and trying out different art styles. It's a great way to express myself and unwind. Maybe I could show you some of my recent paintings during our virtual celebration!",
+            "target": "Target (grandmother): Oh, that's a lovely thought, dear! I do have a few goals for this year. I'd love to travel and visit some new places once it's safe to do so. I've always wanted to see the cherry blossoms in Japan, and maybe even explore some local spots I've never been to. Besides traveling, I want to continue learning new things, perhaps take up a new hobby or class. It's important to keep our minds active and curious, don't you think? What about you, do you have any exciting plans or goals for this year?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (granddaughter): I love that mindset, Grandma! For me, spending time outdoors, especially hiking and exploring new trails, really makes me feel alive. I also enjoy painting and trying out different art styles. It's a great way to express myself and unwind. Maybe I could show you some of my recent paintings during our virtual celebration! | Speaker B (grandmother): Oh, that's a lovely thought, dear! I do have a few goals for this year. I'd love to travel and visit some new places once it's safe to do so. I've always wanted to see the cherry blossoms in Japan, and maybe even explore some local spots I've never been to. Besides traveling, I want to continue learning new things, perhaps take up a new hobby or class. It's important to keep our minds active and curious, don't you think? What about you, do you have any exciting plans or goals for this year?",
+            "target": "Target (granddaughter): Those sound like wonderful goals, Grandma! Traveling to see the cherry blossoms in Japan would be such an amazing experience. As for me, I'd love to improve my painting skills and maybe even start a small online art shop. I'm also thinking about taking a cooking class to try out different cuisines. It's exciting to think about all the possibilities! Let's make sure to keep each other updated on our progress.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): Oh, that's a lovely thought, dear! I do have a few goals for this year. I'd love to travel and visit some new places once it's safe to do so. I've always wanted to see the cherry blossoms in Japan, and maybe even explore some local spots I've never been to. Besides traveling, I want to continue learning new things, perhaps take up a new hobby or class. It's important to keep our minds active and curious, don't you think? What about you, do you have any exciting plans or goals for this year? | Speaker B (granddaughter): Those sound like wonderful goals, Grandma! Traveling to see the cherry blossoms in Japan would be such an amazing experience. As for me, I'd love to improve my painting skills and maybe even start a small online art shop. I'm also thinking about taking a cooking class to try out different cuisines. It's exciting to think about all the possibilities! Let's make sure to keep each other updated on our progress.",
+            "target": "Target (grandmother): Oh my, that does sound quite concerning. It's important to stay informed and cautious during these times. I'm grateful that we're safe here in Ghana, but we must remain vigilant. Hopefully, things will improve soon, and we can all look forward to safer travels. Thank you for keeping me updated, dear. It's always good to know what's happening around the world.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (granddaughter): Those sound like wonderful goals, Grandma! Traveling to see the cherry blossoms in Japan would be such an amazing experience. As for me, I'd love to improve my painting skills and maybe even start a small online art shop. I'm also thinking about taking a cooking class to try out different cuisines. It's exciting to think about all the possibilities! Let's make sure to keep each other updated on our progress. | Speaker B (grandmother): Oh my, that does sound quite concerning. It's important to stay informed and cautious during these times. I'm grateful that we're safe here in Ghana, but we must remain vigilant. Hopefully, things will improve soon, and we can all look forward to safer travels. Thank you for keeping me updated, dear. It's always good to know what's happening around the world.",
+            "target": "Target (granddaughter): You're absolutely right, Grandma. Staying informed and cautious is key. I'm glad you're safe in Ghana, and I hope things get better soon so we can all enjoy our travel plans. Let's keep sharing updates and looking forward to brighter days!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): Oh my, that does sound quite concerning. It's important to stay informed and cautious during these times. I'm grateful that we're safe here in Ghana, but we must remain vigilant. Hopefully, things will improve soon, and we can all look forward to safer travels. Thank you for keeping me updated, dear. It's always good to know what's happening around the world. | Speaker B (granddaughter): You're absolutely right, Grandma. Staying informed and cautious is key. I'm glad you're safe in Ghana, and I hope things get better soon so we can all enjoy our travel plans. Let's keep sharing updates and looking forward to brighter days!",
+            "target": "Target (granddaughter): Yes, Grandma, it's important to stay positive and hopeful. I really appreciate our conversations and how we keep each other motivated. Do you have any specific hobbies or classes in mind that you're thinking of trying out this year?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (granddaughter): You're absolutely right, Grandma. Staying informed and cautious is key. I'm glad you're safe in Ghana, and I hope things get better soon so we can all enjoy our travel plans. Let's keep sharing updates and looking forward to brighter days! | Speaker B (granddaughter): Yes, Grandma, it's important to stay positive and hopeful. I really appreciate our conversations and how we keep each other motivated. Do you have any specific hobbies or classes in mind that you're thinking of trying out this year?",
+            "target": "Target (granddaughter): I'm glad to hear that, Grandma. It's always nice to have something to look forward to. If you decide on a hobby or class, let me know! Maybe we can even try something together, like a virtual class. That could be fun!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): Yes, Grandma, it's important to stay positive and hopeful. I really appreciate our conversations and how we keep each other motivated. Do you have any specific hobbies or classes in mind that you're thinking of trying out this year? | Speaker B (granddaughter): I'm glad to hear that, Grandma. It's always nice to have something to look forward to. If you decide on a hobby or class, let me know! Maybe we can even try something together, like a virtual class. That could be fun!",
+            "target": "Target (grandmother): Oh, it sounds like you're having fun cooking! You know, I always enjoy seeing you experiment in the kitchen. It reminds me of when I used to cook with your mom. Yes, it's just the onions in the pot for now, but I'm sure those tomatoes will add a lovely flavor once you add them. Are you trying out a new recipe today?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (granddaughter): I'm glad to hear that, Grandma. It's always nice to have something to look forward to. If you decide on a hobby or class, let me know! Maybe we can even try something together, like a virtual class. That could be fun! | Speaker B (grandmother): Oh, it sounds like you're having fun cooking! You know, I always enjoy seeing you experiment in the kitchen. It reminds me of when I used to cook with your mom. Yes, it's just the onions in the pot for now, but I'm sure those tomatoes will add a lovely flavor once you add them. Are you trying out a new recipe today?",
+            "target": "Target (granddaughter): Yes, Grandma, I'm trying a new pasta recipe today! It's a bit of an experiment, but I'm excited to see how it turns out. Do you have any tips for making the sauce extra tasty?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): Oh, it sounds like you're having fun cooking! You know, I always enjoy seeing you experiment in the kitchen. It reminds me of when I used to cook with your mom. Yes, it's just the onions in the pot for now, but I'm sure those tomatoes will add a lovely flavor once you add them. Are you trying out a new recipe today? | Speaker B (granddaughter): Yes, Grandma, I'm trying a new pasta recipe today! It's a bit of an experiment, but I'm excited to see how it turns out. Do you have any tips for making the sauce extra tasty?",
+            "target": "Target (grandmother): Well, dear, you can usually add the pepper once the onions have softened and become translucent. It helps to bring out the flavors nicely. Just keep an eye on them, and when they look ready, you can go ahead and add the pepper. Cooking is all about experimenting and finding what works best for you, so trust your instincts too!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (granddaughter): Yes, Grandma, I'm trying a new pasta recipe today! It's a bit of an experiment, but I'm excited to see how it turns out. Do you have any tips for making the sauce extra tasty? | Speaker B (grandmother): Well, dear, you can usually add the pepper once the onions have softened and become translucent. It helps to bring out the flavors nicely. Just keep an eye on them, and when they look ready, you can go ahead and add the pepper. Cooking is all about experimenting and finding what works best for you, so trust your instincts too!",
+            "target": "Target (granddaughter): Thanks for the tip, Grandma! I'll definitely keep an eye on the onions and add the pepper at the right time. It's always great to get advice from you. I'll let you know how it turns out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): Well, dear, you can usually add the pepper once the onions have softened and become translucent. It helps to bring out the flavors nicely. Just keep an eye on them, and when they look ready, you can go ahead and add the pepper. Cooking is all about experimenting and finding what works best for you, so trust your instincts too! | Speaker B (granddaughter): Thanks for the tip, Grandma! I'll definitely keep an eye on the onions and add the pepper at the right time. It's always great to get advice from you. I'll let you know how it turns out!",
+            "target": "Target (grandmother): Oh, I can imagine! Ghanaian dishes do have such rich and aromatic flavors. It's part of their charm, isn't it? I hope your neighbors enjoy the delightful smells wafting through the building. Maybe they'll be curious and want to try some of your cooking! Have you had any interesting reactions from them?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (granddaughter): Thanks for the tip, Grandma! I'll definitely keep an eye on the onions and add the pepper at the right time. It's always great to get advice from you. I'll let you know how it turns out! | Speaker B (grandmother): Oh, I can imagine! Ghanaian dishes do have such rich and aromatic flavors. It's part of their charm, isn't it? I hope your neighbors enjoy the delightful smells wafting through the building. Maybe they'll be curious and want to try some of your cooking! Have you had any interesting reactions from them?",
+            "target": "Target (granddaughter): Haha, yes, the neighbors have definitely commented on the delicious smells coming from my apartment! One of them even asked for the recipe last time. It's nice to share a bit of our culture with them.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): Oh, I can imagine! Ghanaian dishes do have such rich and aromatic flavors. It's part of their charm, isn't it? I hope your neighbors enjoy the delightful smells wafting through the building. Maybe they'll be curious and want to try some of your cooking! Have you had any interesting reactions from them? | Speaker B (granddaughter): Haha, yes, the neighbors have definitely commented on the delicious smells coming from my apartment! One of them even asked for the recipe last time. It's nice to share a bit of our culture with them.",
+            "target": "Target (grandmother): That's good to hear, dear. It's always nice when you can enjoy your cooking without worrying too much about the neighbors. It's wonderful that you're embracing your roots and sharing a bit of Ghanaian culture even while you're in Japan. If you ever need tips on managing the aromas or anything else, I'm always here to help. How's everything else going for you over there?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (granddaughter): Haha, yes, the neighbors have definitely commented on the delicious smells coming from my apartment! One of them even asked for the recipe last time. It's nice to share a bit of our culture with them. | Speaker B (grandmother): That's good to hear, dear. It's always nice when you can enjoy your cooking without worrying too much about the neighbors. It's wonderful that you're embracing your roots and sharing a bit of Ghanaian culture even while you're in Japan. If you ever need tips on managing the aromas or anything else, I'm always here to help. How's everything else going for you over there?",
+            "target": "Target (granddaughter): Thanks, Grandma! It's been a bit of an adventure, but I'm really enjoying it here. Work is keeping me busy, but I'm learning a lot and making new friends. How about you? How have you been doing?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): That's good to hear, dear. It's always nice when you can enjoy your cooking without worrying too much about the neighbors. It's wonderful that you're embracing your roots and sharing a bit of Ghanaian culture even while you're in Japan. If you ever need tips on managing the aromas or anything else, I'm always here to help. How's everything else going for you over there? | Speaker B (granddaughter): Thanks, Grandma! It's been a bit of an adventure, but I'm really enjoying it here. Work is keeping me busy, but I'm learning a lot and making new friends. How about you? How have you been doing?",
+            "target": "Target (grandmother): Oh, that sounds like a wonderful plan! It'll be lovely to have you back home for the holidays. I'm sure everyone will be thrilled to see you again. Do you have any special plans or things you'd like to do when you return?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! It's been a bit of an adventure, but I'm really enjoying it here. Work is keeping me busy, but I'm learning a lot and making new friends. How about you? How have you been doing? | Speaker B (grandmother): Oh, that sounds like a wonderful plan! It'll be lovely to have you back home for the holidays. I'm sure everyone will be thrilled to see you again. Do you have any special plans or things you'd like to do when you return?",
+            "target": "Target (granddaughter): I can't wait to come home for the holidays! I really miss everyone. I was thinking it would be nice to have a big family dinner and maybe visit some of the places we used to go when I was a kid. What do you think?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): Oh, that sounds like a wonderful plan! It'll be lovely to have you back home for the holidays. I'm sure everyone will be thrilled to see you again. Do you have any special plans or things you'd like to do when you return? | Speaker B (granddaughter): I can't wait to come home for the holidays! I really miss everyone. I was thinking it would be nice to have a big family dinner and maybe visit some of the places we used to go when I was a kid. What do you think?",
+            "target": "Target (grandmother): Oh dear, that sounds quite challenging for your grandma. It's difficult when things aren't as smooth as we'd hope, especially with all that's been happening around the world. I hope things improve soon and she can find a comfortable place. It's important to keep her spirits up during these times. If there's anything I can do to help or if you need someone to talk to, I'm always here for you. How is your mom handling all of this?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (granddaughter): I can't wait to come home for the holidays! I really miss everyone. I was thinking it would be nice to have a big family dinner and maybe visit some of the places we used to go when I was a kid. What do you think? | Speaker B (grandmother): Oh dear, that sounds quite challenging for your grandma. It's difficult when things aren't as smooth as we'd hope, especially with all that's been happening around the world. I hope things improve soon and she can find a comfortable place. It's important to keep her spirits up during these times. If there's anything I can do to help or if you need someone to talk to, I'm always here for you. How is your mom handling all of this?",
+            "target": "Target (granddaughter): Thanks, Grandma. It means a lot to know you're there for us. Mom is doing her best to stay positive, but it's been tough on her too. We're all trying to support each other as much as we can. I'll definitely let you know if there's anything specific we could use help with.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): Oh dear, that sounds quite challenging for your grandma. It's difficult when things aren't as smooth as we'd hope, especially with all that's been happening around the world. I hope things improve soon and she can find a comfortable place. It's important to keep her spirits up during these times. If there's anything I can do to help or if you need someone to talk to, I'm always here for you. How is your mom handling all of this? | Speaker B (granddaughter): Thanks, Grandma. It means a lot to know you're there for us. Mom is doing her best to stay positive, but it's been tough on her too. We're all trying to support each other as much as we can. I'll definitely let you know if there's anything specific we could use help with.",
+            "target": "Target (grandmother): It's wonderful to hear that you're enjoying your cooking, dear. The smell of pepper can be so invigorating, can't it? I'm glad you're finding joy in the little things amidst everything going on. It sounds like your mom has a lot on her plate, but it's good that you're all supporting each other. Remember, I'm always here if you need to chat or if there's anything I can do to help. How's the rest of your cooking coming along?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): Thanks, Grandma. It means a lot to know you're there for us. Mom is doing her best to stay positive, but it's been tough on her too. We're all trying to support each other as much as we can. I'll definitely let you know if there's anything specific we could use help with. | Speaker B (grandmother): It's wonderful to hear that you're enjoying your cooking, dear. The smell of pepper can be so invigorating, can't it? I'm glad you're finding joy in the little things amidst everything going on. It sounds like your mom has a lot on her plate, but it's good that you're all supporting each other. Remember, I'm always here if you need to chat or if there's anything I can do to help. How's the rest of your cooking coming along?",
+            "target": "Target (granddaughter): Thanks, Grandma! The cooking is going well, and I'm trying out some new recipes. It's nice to have something creative to focus on. I'll definitely keep you in the loop if we need any help. How have you been doing lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): It's wonderful to hear that you're enjoying your cooking, dear. The smell of pepper can be so invigorating, can't it? I'm glad you're finding joy in the little things amidst everything going on. It sounds like your mom has a lot on her plate, but it's good that you're all supporting each other. Remember, I'm always here if you need to chat or if there's anything I can do to help. How's the rest of your cooking coming along? | Speaker B (granddaughter): Thanks, Grandma! The cooking is going well, and I'm trying out some new recipes. It's nice to have something creative to focus on. I'll definitely keep you in the loop if we need any help. How have you been doing lately?",
+            "target": "Target (grandmother): Thank you for the advice, dear! I've heard a lot about chia seeds and their health benefits, but I haven't tried them in my porridge yet. I'll definitely give it a go. As for traveling, it's never too late to explore new places and experiences, even at my age. Once things settle down and it's safe, I think it would be wonderful to see more of the world. Do you have any places in mind that you'd like to visit after the pandemic?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! The cooking is going well, and I'm trying out some new recipes. It's nice to have something creative to focus on. I'll definitely keep you in the loop if we need any help. How have you been doing lately? | Speaker B (grandmother): Thank you for the advice, dear! I've heard a lot about chia seeds and their health benefits, but I haven't tried them in my porridge yet. I'll definitely give it a go. As for traveling, it's never too late to explore new places and experiences, even at my age. Once things settle down and it's safe, I think it would be wonderful to see more of the world. Do you have any places in mind that you'd like to visit after the pandemic?",
+            "target": "Target (granddaughter): I'm glad you're open to trying new things, Grandma! Chia seeds are great, and I think you'll enjoy them. As for travel, I'd love to visit Japan someday. The culture and food have always fascinated me. How about you? Is there a place you've always wanted to see?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): Thank you for the advice, dear! I've heard a lot about chia seeds and their health benefits, but I haven't tried them in my porridge yet. I'll definitely give it a go. As for traveling, it's never too late to explore new places and experiences, even at my age. Once things settle down and it's safe, I think it would be wonderful to see more of the world. Do you have any places in mind that you'd like to visit after the pandemic? | Speaker B (granddaughter): I'm glad you're open to trying new things, Grandma! Chia seeds are great, and I think you'll enjoy them. As for travel, I'd love to visit Japan someday. The culture and food have always fascinated me. How about you? Is there a place you've always wanted to see?",
+            "target": "Target (grandmother): I'm glad we're on the same page about traveling once it's safe. It's exciting to think about all the places we could explore together. If you have any ideas or dreams about where you'd like to go, I'd love to hear them. It's always nice to plan and dream about future adventures. Is there a particular place that has caught your interest?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (granddaughter): I'm glad you're open to trying new things, Grandma! Chia seeds are great, and I think you'll enjoy them. As for travel, I'd love to visit Japan someday. The culture and food have always fascinated me. How about you? Is there a place you've always wanted to see? | Speaker B (grandmother): I'm glad we're on the same page about traveling once it's safe. It's exciting to think about all the places we could explore together. If you have any ideas or dreams about where you'd like to go, I'd love to hear them. It's always nice to plan and dream about future adventures. Is there a particular place that has caught your interest?",
+            "target": "Target (granddaughter): That sounds like a wonderful idea, Grandma! I'd love to explore Japan with you. We could visit the cherry blossoms in spring or try some authentic sushi. Is there a place you've always dreamed of visiting?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): I'm glad we're on the same page about traveling once it's safe. It's exciting to think about all the places we could explore together. If you have any ideas or dreams about where you'd like to go, I'd love to hear them. It's always nice to plan and dream about future adventures. Is there a particular place that has caught your interest? | Speaker B (granddaughter): That sounds like a wonderful idea, Grandma! I'd love to explore Japan with you. We could visit the cherry blossoms in spring or try some authentic sushi. Is there a place you've always dreamed of visiting?",
+            "target": "Target (grandmother): Oh, there are so many places I'd love to visit! I've always dreamed of seeing the beautiful landscapes of New Zealand or perhaps exploring the historic sites in Italy. What about you, dear? Is there a place you've been dreaming of visiting?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): That sounds like a wonderful idea, Grandma! I'd love to explore Japan with you. We could visit the cherry blossoms in spring or try some authentic sushi. Is there a place you've always dreamed of visiting? | Speaker B (grandmother): Oh, there are so many places I'd love to visit! I've always dreamed of seeing the beautiful landscapes of New Zealand or perhaps exploring the historic sites in Italy. What about you, dear? Is there a place you've been dreaming of visiting?",
+            "target": "Target (granddaughter): New Zealand and Italy sound amazing, Grandma! I've always wanted to see the Northern Lights in Iceland. It's such a magical phenomenon. Maybe we could plan a trip to one of these places together someday!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): Oh, there are so many places I'd love to visit! I've always dreamed of seeing the beautiful landscapes of New Zealand or perhaps exploring the historic sites in Italy. What about you, dear? Is there a place you've been dreaming of visiting? | Speaker B (granddaughter): New Zealand and Italy sound amazing, Grandma! I've always wanted to see the Northern Lights in Iceland. It's such a magical phenomenon. Maybe we could plan a trip to one of these places together someday!",
+            "target": "Target (grandmother): Oh, thank you, dear! I suppose I've always had a bit of wanderlust in me. Traveling is such a wonderful way to learn and experience new cultures. It's lovely to think about all the adventures we could have together. Do you have any travel dreams or places you'd love to explore?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (granddaughter): New Zealand and Italy sound amazing, Grandma! I've always wanted to see the Northern Lights in Iceland. It's such a magical phenomenon. Maybe we could plan a trip to one of these places together someday! | Speaker B (grandmother): Oh, thank you, dear! I suppose I've always had a bit of wanderlust in me. Traveling is such a wonderful way to learn and experience new cultures. It's lovely to think about all the adventures we could have together. Do you have any travel dreams or places you'd love to explore?",
+            "target": "Target (granddaughter): I completely agree, Grandma! Traveling really opens up a whole new world of experiences. Besides Iceland, I've always been fascinated by the vibrant culture in Morocco and the beautiful beaches in Greece. We could make a list of all these places and start planning our adventures!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): Oh, thank you, dear! I suppose I've always had a bit of wanderlust in me. Traveling is such a wonderful way to learn and experience new cultures. It's lovely to think about all the adventures we could have together. Do you have any travel dreams or places you'd love to explore? | Speaker B (granddaughter): I completely agree, Grandma! Traveling really opens up a whole new world of experiences. Besides Iceland, I've always been fascinated by the vibrant culture in Morocco and the beautiful beaches in Greece. We could make a list of all these places and start planning our adventures!",
+            "target": "Target (grandmother): Yes, I have been to Israel, and it was truly a remarkable experience! The history and culture there are so rich and fascinating. One of my favorite places was Jerusalem; walking through the old city felt like stepping back in time. The markets, the architecture, and the people were all so vibrant and full of life. Have you ever thought about visiting there yourself?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (granddaughter): I completely agree, Grandma! Traveling really opens up a whole new world of experiences. Besides Iceland, I've always been fascinated by the vibrant culture in Morocco and the beautiful beaches in Greece. We could make a list of all these places and start planning our adventures! | Speaker B (grandmother): Yes, I have been to Israel, and it was truly a remarkable experience! The history and culture there are so rich and fascinating. One of my favorite places was Jerusalem; walking through the old city felt like stepping back in time. The markets, the architecture, and the people were all so vibrant and full of life. Have you ever thought about visiting there yourself?",
+            "target": "Target (granddaughter): Wow, Grandma, that sounds incredible! I've read a lot about Jerusalem and its historical significance. It must have been amazing to see it all in person. I would love to visit Israel someday and experience all that history and culture firsthand. Maybe you could share some of your favorite memories from your trip?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandmother): Yes, I have been to Israel, and it was truly a remarkable experience! The history and culture there are so rich and fascinating. One of my favorite places was Jerusalem; walking through the old city felt like stepping back in time. The markets, the architecture, and the people were all so vibrant and full of life. Have you ever thought about visiting there yourself? | Speaker B (granddaughter): Wow, Grandma, that sounds incredible! I've read a lot about Jerusalem and its historical significance. It must have been amazing to see it all in person. I would love to visit Israel someday and experience all that history and culture firsthand. Maybe you could share some of your favorite memories from your trip?",
+            "target": "Target (grandmother): Yes, I did visit many of the historical places mentioned in the Bible. It was quite an enlightening experience to see places like the Western Wall and the Church of the Holy Sepulchre. Each site had its own unique story and significance. It's amazing how history comes alive when you're standing right there. If you're interested, I'd love to share more about my experiences there.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (granddaughter): Wow, Grandma, that sounds incredible! I've read a lot about Jerusalem and its historical significance. It must have been amazing to see it all in person. I would love to visit Israel someday and experience all that history and culture firsthand. Maybe you could share some of your favorite memories from your trip? | Speaker B (grandmother): Yes, I did visit many of the historical places mentioned in the Bible. It was quite an enlightening experience to see places like the Western Wall and the Church of the Holy Sepulchre. Each site had its own unique story and significance. It's amazing how history comes alive when you're standing right there. If you're interested, I'd love to share more about my experiences there.",
+            "target": "Target (granddaughter): I'd love to hear more about your experiences, Grandma! It sounds like such a meaningful trip. What was your favorite part of visiting those historical sites?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): Yes, I did visit many of the historical places mentioned in the Bible. It was quite an enlightening experience to see places like the Western Wall and the Church of the Holy Sepulchre. Each site had its own unique story and significance. It's amazing how history comes alive when you're standing right there. If you're interested, I'd love to share more about my experiences there. | Speaker B (granddaughter): I'd love to hear more about your experiences, Grandma! It sounds like such a meaningful trip. What was your favorite part of visiting those historical sites?",
+            "target": "Target (grandmother): Oh, that's wonderful to hear that you want to visit Israel! As for me, I've always been fascinated by Japan. The blend of ancient traditions with modern technology is something I'd love to experience firsthand. Plus, the cherry blossoms and the cuisine are quite enticing! Is there a particular reason you're drawn to Israel?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (granddaughter): I'd love to hear more about your experiences, Grandma! It sounds like such a meaningful trip. What was your favorite part of visiting those historical sites? | Speaker B (grandmother): Oh, that's wonderful to hear that you want to visit Israel! As for me, I've always been fascinated by Japan. The blend of ancient traditions with modern technology is something I'd love to experience firsthand. Plus, the cherry blossoms and the cuisine are quite enticing! Is there a particular reason you're drawn to Israel?",
+            "target": "Target (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): Oh, that's wonderful to hear that you want to visit Israel! As for me, I've always been fascinated by Japan. The blend of ancient traditions with modern technology is something I'd love to experience firsthand. Plus, the cherry blossoms and the cuisine are quite enticing! Is there a particular reason you're drawn to Israel? | Speaker B (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there?",
+            "target": "Target (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there? | Speaker B (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there?",
+            "target": "Target (grandmother): Oh, it sounds like you're having a fun time cooking! I'm glad to hear you're interested in gaining wisdom from me. Cooking is a wonderful way to learn and share experiences. As for wisdom, I'd say one important thing is to always be curious and open to learning new things, just like you're doing now. And remember, sometimes the best lessons come from trying and making mistakes. How's the dish coming along?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (granddaughter): I think it's the rich history and the diverse culture that really draws me to Israel. There's just so much to learn and experience there. And Japan sounds amazing too! The cherry blossoms must be breathtaking. Have you ever thought about planning a trip there? | Speaker B (grandmother): Oh, it sounds like you're having a fun time cooking! I'm glad to hear you're interested in gaining wisdom from me. Cooking is a wonderful way to learn and share experiences. As for wisdom, I'd say one important thing is to always be curious and open to learning new things, just like you're doing now. And remember, sometimes the best lessons come from trying and making mistakes. How's the dish coming along?",
+            "target": "Target (granddaughter): Thanks for the advice, Grandma! I totally agree that being curious and open to learning is important. The dish is coming along pretty well, I think! I'm trying a new recipe, so fingers crossed it turns out tasty. Do you have any favorite recipes you'd recommend?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandmother): Oh, it sounds like you're having a fun time cooking! I'm glad to hear you're interested in gaining wisdom from me. Cooking is a wonderful way to learn and share experiences. As for wisdom, I'd say one important thing is to always be curious and open to learning new things, just like you're doing now. And remember, sometimes the best lessons come from trying and making mistakes. How's the dish coming along? | Speaker B (granddaughter): Thanks for the advice, Grandma! I totally agree that being curious and open to learning is important. The dish is coming along pretty well, I think! I'm trying a new recipe, so fingers crossed it turns out tasty. Do you have any favorite recipes you'd recommend?",
+            "target": "Target (grandmother): Oh dear, it sounds like you've had quite a busy day! Filming at Legon campus must have been exciting, but I hope you find some time to eat soon. It's important to take care of yourself, especially when you're on the go. Giving away your iPhone is quite generous of you! I'm sure it made someone very happy. How are you feeling about that decision?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (granddaughter): Thanks for the advice, Grandma! I totally agree that being curious and open to learning is important. The dish is coming along pretty well, I think! I'm trying a new recipe, so fingers crossed it turns out tasty. Do you have any favorite recipes you'd recommend? | Speaker B (grandmother): Oh dear, it sounds like you've had quite a busy day! Filming at Legon campus must have been exciting, but I hope you find some time to eat soon. It's important to take care of yourself, especially when you're on the go. Giving away your iPhone is quite generous of you! I'm sure it made someone very happy. How are you feeling about that decision?",
+            "target": "Target (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandmother): Oh dear, it sounds like you've had quite a busy day! Filming at Legon campus must have been exciting, but I hope you find some time to eat soon. It's important to take care of yourself, especially when you're on the go. Giving away your iPhone is quite generous of you! I'm sure it made someone very happy. How are you feeling about that decision? | Speaker B (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice?",
+            "target": "Target (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice? | Speaker B (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice?",
+            "target": "Target (grandmother): Maggi is a type of seasoning cube that adds flavor to dishes. It's quite popular in many kitchens for enhancing the taste of soups and stews. It's great that you're experimenting with different ingredients! How's the cooking going now? Are you enjoying the process?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! Filming was indeed exciting, and I'm planning to grab a bite soon. As for the iPhone, it felt good to help someone out, even though it was a bit of a tough decision. Do you think I made the right choice? | Speaker B (grandmother): Maggi is a type of seasoning cube that adds flavor to dishes. It's quite popular in many kitchens for enhancing the taste of soups and stews. It's great that you're experimenting with different ingredients! How's the cooking going now? Are you enjoying the process?",
+            "target": "Target (granddaughter): Oh, I see! Thanks for explaining that, Grandma. Cooking is going well, and I'm really enjoying trying out new recipes. It's a fun way to relax after a busy day. Do you have any favorite recipes you think I should try?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandmother): Maggi is a type of seasoning cube that adds flavor to dishes. It's quite popular in many kitchens for enhancing the taste of soups and stews. It's great that you're experimenting with different ingredients! How's the cooking going now? Are you enjoying the process? | Speaker B (granddaughter): Oh, I see! Thanks for explaining that, Grandma. Cooking is going well, and I'm really enjoying trying out new recipes. It's a fun way to relax after a busy day. Do you have any favorite recipes you think I should try?",
+            "target": "Target (grandmother): Oh, that's an interesting question! I can see some of your dad's features in you, but you also have your own unique qualities that make you special. Personality-wise, you have a wonderful blend of curiosity and creativity, which I think is a bit different from your dad. It's lovely to see how you've grown into your own person. What do you think makes you similar or different from him?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (granddaughter): Oh, I see! Thanks for explaining that, Grandma. Cooking is going well, and I'm really enjoying trying out new recipes. It's a fun way to relax after a busy day. Do you have any favorite recipes you think I should try? | Speaker B (grandmother): Oh, that's an interesting question! I can see some of your dad's features in you, but you also have your own unique qualities that make you special. Personality-wise, you have a wonderful blend of curiosity and creativity, which I think is a bit different from your dad. It's lovely to see how you've grown into your own person. What do you think makes you similar or different from him?",
+            "target": "Target (granddaughter): Thanks, Grandma! I think I'm similar to Dad in being quite determined and goal-oriented, but I also feel like I have a more artistic side that maybe comes from you. It's nice to hear that you see a blend of curiosity and creativity in me. Do you think you've passed on any of your traits to me?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandmother): Oh, that's an interesting question! I can see some of your dad's features in you, but you also have your own unique qualities that make you special. Personality-wise, you have a wonderful blend of curiosity and creativity, which I think is a bit different from your dad. It's lovely to see how you've grown into your own person. What do you think makes you similar or different from him? | Speaker B (granddaughter): Thanks, Grandma! I think I'm similar to Dad in being quite determined and goal-oriented, but I also feel like I have a more artistic side that maybe comes from you. It's nice to hear that you see a blend of curiosity and creativity in me. Do you think you've passed on any of your traits to me?",
+            "target": "Target (grandmother): It's funny how height can vary so much in families, isn't it? Your mom and I might share similar heights, but you certainly have your own stature. It's wonderful to see you growing and finding your own path. How do you feel about being taller than your mom?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I think I'm similar to Dad in being quite determined and goal-oriented, but I also feel like I have a more artistic side that maybe comes from you. It's nice to hear that you see a blend of curiosity and creativity in me. Do you think you've passed on any of your traits to me? | Speaker B (grandmother): It's funny how height can vary so much in families, isn't it? Your mom and I might share similar heights, but you certainly have your own stature. It's wonderful to see you growing and finding your own path. How do you feel about being taller than your mom?",
+            "target": "Target (granddaughter): I think it's kind of cool being taller than Mom! It makes me feel unique in our family. Plus, it's handy for reaching things on high shelves. Do you think height has any influence on personality or how people perceive us?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandmother): It's funny how height can vary so much in families, isn't it? Your mom and I might share similar heights, but you certainly have your own stature. It's wonderful to see you growing and finding your own path. How do you feel about being taller than your mom? | Speaker B (granddaughter): I think it's kind of cool being taller than Mom! It makes me feel unique in our family. Plus, it's handy for reaching things on high shelves. Do you think height has any influence on personality or how people perceive us?",
+            "target": "Target (grandmother): Wow, being 6'2\" is quite impressive! It's great that you're embracing your height and even aiming to surpass your dad. It's wonderful to see you setting goals for yourself, whether it's in height or other areas of your life. Keep reaching for the stars, dear! How do you feel about being the tallest in your family?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (granddaughter): I think it's kind of cool being taller than Mom! It makes me feel unique in our family. Plus, it's handy for reaching things on high shelves. Do you think height has any influence on personality or how people perceive us? | Speaker B (grandmother): Wow, being 6'2\" is quite impressive! It's great that you're embracing your height and even aiming to surpass your dad. It's wonderful to see you setting goals for yourself, whether it's in height or other areas of your life. Keep reaching for the stars, dear! How do you feel about being the tallest in your family?",
+            "target": "Target (granddaughter): Thanks, Grandma! I actually love being the tallest. It makes me feel special and confident. Plus, it's a fun conversation starter! Do you think being tall has influenced your life in any way?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandmother): Wow, being 6'2\" is quite impressive! It's great that you're embracing your height and even aiming to surpass your dad. It's wonderful to see you setting goals for yourself, whether it's in height or other areas of your life. Keep reaching for the stars, dear! How do you feel about being the tallest in your family? | Speaker B (granddaughter): Thanks, Grandma! I actually love being the tallest. It makes me feel special and confident. Plus, it's a fun conversation starter! Do you think being tall has influenced your life in any way?",
+            "target": "Target (grandmother): Well, when it comes to personality, I think you share your dad's determination and resilience. He's always been someone who sets his mind to something and works hard to achieve it, and I see that same drive in you. But you also have your own unique qualities, like your creativity and sense of humor, which make you stand out. It's wonderful to see how you've blended these traits into your own unique personality. What do you think about that?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I actually love being the tallest. It makes me feel special and confident. Plus, it's a fun conversation starter! Do you think being tall has influenced your life in any way? | Speaker B (grandmother): Well, when it comes to personality, I think you share your dad's determination and resilience. He's always been someone who sets his mind to something and works hard to achieve it, and I see that same drive in you. But you also have your own unique qualities, like your creativity and sense of humor, which make you stand out. It's wonderful to see how you've blended these traits into your own unique personality. What do you think about that?",
+            "target": "Target (granddaughter): Thanks, Grandma! I really appreciate hearing that. I do try to be determined like Dad, but I also love adding my own twist to things with creativity. It's nice to know you see those qualities in me. Do you have any stories about Dad when he was younger that show his determination?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandmother): Well, when it comes to personality, I think you share your dad's determination and resilience. He's always been someone who sets his mind to something and works hard to achieve it, and I see that same drive in you. But you also have your own unique qualities, like your creativity and sense of humor, which make you stand out. It's wonderful to see how you've blended these traits into your own unique personality. What do you think about that? | Speaker B (granddaughter): Thanks, Grandma! I really appreciate hearing that. I do try to be determined like Dad, but I also love adding my own twist to things with creativity. It's nice to know you see those qualities in me. Do you have any stories about Dad when he was younger that show his determination?",
+            "target": "Target (grandmother): Oh, washing rice is important! Make sure to rinse it a few times until the water runs clear. As for your personality, I think you and your dad share some traits, like being determined and hardworking. But you also have your own unique qualities, like your creativity and humor, which make you special. It's wonderful to see how you've blended these traits into your own unique personality. Do you feel like you and your dad are similar in other ways?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate hearing that. I do try to be determined like Dad, but I also love adding my own twist to things with creativity. It's nice to know you see those qualities in me. Do you have any stories about Dad when he was younger that show his determination? | Speaker B (grandmother): Oh, washing rice is important! Make sure to rinse it a few times until the water runs clear. As for your personality, I think you and your dad share some traits, like being determined and hardworking. But you also have your own unique qualities, like your creativity and humor, which make you special. It's wonderful to see how you've blended these traits into your own unique personality. Do you feel like you and your dad are similar in other ways?",
+            "target": "Target (granddaughter): I do think we share a lot of similarities, like our work ethic and determination. But I also think I have a bit more of a creative streak, which I love. It's interesting to see how different traits come out in different ways. Do you think there are any other family traits that have been passed down?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandmother): Oh, washing rice is important! Make sure to rinse it a few times until the water runs clear. As for your personality, I think you and your dad share some traits, like being determined and hardworking. But you also have your own unique qualities, like your creativity and humor, which make you special. It's wonderful to see how you've blended these traits into your own unique personality. Do you feel like you and your dad are similar in other ways? | Speaker B (granddaughter): I do think we share a lot of similarities, like our work ethic and determination. But I also think I have a bit more of a creative streak, which I love. It's interesting to see how different traits come out in different ways. Do you think there are any other family traits that have been passed down?",
+            "target": "Target (grandmother): It sounds like you're having quite the culinary adventure! A jollof cook-off sounds like a fun and delicious idea, especially with your friend Benny. It's a great way to celebrate your heritage and enjoy some friendly competition. As for becoming more like your dad, remember that you can always choose which traits to embrace and which ones to work on. It's all part of growing and finding your own path. I'm sure you'll find the balance that feels right for you. Do you need any tips for the cook-off?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (granddaughter): I do think we share a lot of similarities, like our work ethic and determination. But I also think I have a bit more of a creative streak, which I love. It's interesting to see how different traits come out in different ways. Do you think there are any other family traits that have been passed down? | Speaker B (grandmother): It sounds like you're having quite the culinary adventure! A jollof cook-off sounds like a fun and delicious idea, especially with your friend Benny. It's a great way to celebrate your heritage and enjoy some friendly competition. As for becoming more like your dad, remember that you can always choose which traits to embrace and which ones to work on. It's all part of growing and finding your own path. I'm sure you'll find the balance that feels right for you. Do you need any tips for the cook-off?",
+            "target": "Target (granddaughter): Thanks, Grandma! I might take you up on those tips for the cook-off. I love how supportive you are. It's really encouraging to hear your thoughts on embracing different traits. Do you have any advice on how to balance being determined like Dad while still nurturing my creative side?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandmother): It sounds like you're having quite the culinary adventure! A jollof cook-off sounds like a fun and delicious idea, especially with your friend Benny. It's a great way to celebrate your heritage and enjoy some friendly competition. As for becoming more like your dad, remember that you can always choose which traits to embrace and which ones to work on. It's all part of growing and finding your own path. I'm sure you'll find the balance that feels right for you. Do you need any tips for the cook-off? | Speaker B (granddaughter): Thanks, Grandma! I might take you up on those tips for the cook-off. I love how supportive you are. It's really encouraging to hear your thoughts on embracing different traits. Do you have any advice on how to balance being determined like Dad while still nurturing my creative side?",
+            "target": "Target (grandmother): Alright, dear. Just know that I'm always here if you need any advice or just want to chat. I'm proud of you for exploring new things and being open to different experiences. Enjoy your cooking and let me know how the jollof turns out! Remember, it's all about having fun and sharing good times with friends. Love you!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I might take you up on those tips for the cook-off. I love how supportive you are. It's really encouraging to hear your thoughts on embracing different traits. Do you have any advice on how to balance being determined like Dad while still nurturing my creative side? | Speaker B (grandmother): Alright, dear. Just know that I'm always here if you need any advice or just want to chat. I'm proud of you for exploring new things and being open to different experiences. Enjoy your cooking and let me know how the jollof turns out! Remember, it's all about having fun and sharing good times with friends. Love you!",
+            "target": "Target (granddaughter): Thanks, Grandma! I really appreciate your support and encouragement. I'll definitely keep you updated on how the cook-off goes. And I'll remember to enjoy the process and have fun with it. Love you too!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandmother): Alright, dear. Just know that I'm always here if you need any advice or just want to chat. I'm proud of you for exploring new things and being open to different experiences. Enjoy your cooking and let me know how the jollof turns out! Remember, it's all about having fun and sharing good times with friends. Love you! | Speaker B (granddaughter): Thanks, Grandma! I really appreciate your support and encouragement. I'll definitely keep you updated on how the cook-off goes. And I'll remember to enjoy the process and have fun with it. Love you too!",
+            "target": "Target (grandmother): Oh, I'm so proud of you, my dear! You've really embraced your cooking skills and it's wonderful to see you sharing your experiences with others. I'm glad I could help you along the way. Japan sounds like an exciting adventure, and I'm sure you'll have a great time exploring new foods and cultures. Remember, you can always call or message me if you need any advice or just want to chat. And yes, everyone should definitely subscribe to your channel to see all the amazing things you do! Love you and take care!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate your support and encouragement. I'll definitely keep you updated on how the cook-off goes. And I'll remember to enjoy the process and have fun with it. Love you too! | Speaker B (grandmother): Oh, I'm so proud of you, my dear! You've really embraced your cooking skills and it's wonderful to see you sharing your experiences with others. I'm glad I could help you along the way. Japan sounds like an exciting adventure, and I'm sure you'll have a great time exploring new foods and cultures. Remember, you can always call or message me if you need any advice or just want to chat. And yes, everyone should definitely subscribe to your channel to see all the amazing things you do! Love you and take care!",
+            "target": "Target (granddaughter): Thank you so much, Grandma! Your words mean the world to me. I'm really excited about the cook-off and my trip to Japan. I'll definitely keep you posted on everything. And I hope to make you proud with my channel too! Love you lots!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 72,
+    "utterances": [
+        {
+            "text": "Okay, pull the pin.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Pull the pin?",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "This one. Okay. Pull the pin. Do it.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+            "golden": "frustrated",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+            "golden": "neutral",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+            "golden": "frustrated",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Here we go. Here we go.",
+            "golden": "happy",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+            "golden": "neutral",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "Oops. Okay, let go of it.",
+            "golden": "surprise",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Okay!",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        }
+    ]
+}

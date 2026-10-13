@@ -1,0 +1,73 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 72,
+    "utterances": [
+        {
+            "text": "Okay, pull the pin.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Pull the pin?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "This one. Okay. Pull the pin. Do it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+            "golden": "statement-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Here we go. Here we go.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oops. Okay, let go of it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay!",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

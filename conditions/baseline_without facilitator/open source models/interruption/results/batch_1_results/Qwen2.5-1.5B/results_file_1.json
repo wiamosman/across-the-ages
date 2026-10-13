@@ -1,0 +1,2332 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (Grandson) (Target):  Hello, welcome back to Bake It With Grandma",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (Grandson):  Hello, welcome back to Bake It With Grandma",
+    "target": "Speaker A (Grandmother) (Target):  Where we are all about baking.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (Grandson):  Hello, welcome back to Bake It With Grandma\nSpeaker B (Grandmother):  Where we are all about baking.",
+    "target": "Speaker A (Grandson) (Target):  With love",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (Grandmother):  Where we are all about baking.\nSpeaker B (Grandson):  With love",
+    "target": "Speaker A (Grandmother) (Target): With love. I added that. he's like, with flour.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (Grandson):  With love\nSpeaker B (Grandmother): With love. I added that. he's like, with flour.",
+    "target": "Speaker A (Grandson) (Target):  Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (Grandmother): With love. I added that. he's like, with flour.\nSpeaker B (Grandson):  Yes.",
+    "target": "Speaker A (Grandmother) (Target):  OK, so as I said in our introductory before doing this, I just wanted to get some things prepared so you're not having to wait while we're doing all of that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (Grandson):  Yes.\nSpeaker B (Grandmother):  OK, so as I said in our introductory before doing this, I just wanted to get some things prepared so you're not having to wait while we're doing all of that.",
+    "target": "Speaker A (Grandson) (Target):  There will be bloopers, but the bloopers will probably be out before the video.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (Grandmother):  OK, so as I said in our introductory before doing this, I just wanted to get some things prepared so you're not having to wait while we're doing all of that.\nSpeaker B (Grandson):  There will be bloopers, but the bloopers will probably be out before the video.",
+    "target": "Speaker A (Grandmother) (Target): True.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (Grandson):  There will be bloopers, but the bloopers will probably be out before the video.\nSpeaker B (Grandmother): True.",
+    "target": "Speaker A (Grandson) (Target):   Yes. So just post the bloopers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (Grandmother): True.\nSpeaker B (Grandson):   Yes. So just post the bloopers.",
+    "target": "Speaker A (Grandmother) (Target):  So, We're going to use box cake, as I said previously, because ..",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (Grandson):   Yes. So just post the bloopers.\nSpeaker B (Grandmother):  So, We're going to use box cake, as I said previously, because ..",
+    "target": "Speaker A (Grandson) (Target): bloopers",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (Grandmother):  So, We're going to use box cake, as I said previously, because ..\nSpeaker B (Grandson): bloopers",
+    "target": "Speaker A (Grandmother) (Target):  it was a very last minute. Cake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (Grandson): bloopers\nSpeaker B (Grandmother):  it was a very last minute. Cake.",
+    "target": "Speaker A (Grandson) (Target): Cake. Once your phone's done charging, I can taking it out so we can show them what we're doing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (Grandmother):  it was a very last minute. Cake.\nSpeaker B (Grandson): Cake. Once your phone's done charging, I can taking it out so we can show them what we're doing.",
+    "target": "Speaker A (Grandmother) (Target): I'm going to. So what we're going to do is use red velvet, and I only have one. Red velvet to the color. So we are going to substitute the white cake",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (Grandson): Cake. Once your phone's done charging, I can taking it out so we can show them what we're doing.\nSpeaker B (Grandmother): I'm going to. So what we're going to do is use red velvet, and I only have one. Red velvet to the color. So we are going to substitute the white cake",
+    "target": "Speaker A (Grandson) (Target):  Red velvet's a good color.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (Grandmother): I'm going to. So what we're going to do is use red velvet, and I only have one. Red velvet to the color. So we are going to substitute the white cake\nSpeaker B (Grandson):  Red velvet's a good color.",
+    "target": "Speaker A (Grandmother) (Target):  So we are going to substitute the white cake and add them together. But to get red velvet, you're going to add some...",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (Grandson):  Red velvet's a good color.\nSpeaker B (Grandmother):  So we are going to substitute the white cake and add them together. But to get red velvet, you're going to add some...",
+    "target": "Speaker A (Grandson) (Target):  Red, white, and blue. Maca.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (Grandmother):  So we are going to substitute the white cake and add them together. But to get red velvet, you're going to add some...\nSpeaker B (Grandson):  Red, white, and blue. Maca.",
+    "target": "Speaker A (Grandmother) (Target): Cocoa powder. And red dye. Which...",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (Grandson):  Red, white, and blue. Maca.\nSpeaker B (Grandmother): Cocoa powder. And red dye. Which...",
+    "target": "Speaker A (Grandson) (Target): Is it red 40?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (Grandmother): Cocoa powder. And red dye. Which...\nSpeaker B (Grandson): Is it red 40?",
+    "target": "Speaker A (Grandmother) (Target):  This is red 40, which soon will be illegal, so I will have to replace all of my red dye.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (Grandson): Is it red 40?\nSpeaker B (Grandmother):  This is red 40, which soon will be illegal, so I will have to replace all of my red dye.",
+    "target": "Speaker A (Grandson) (Target): What... What?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (Grandmother):  This is red 40, which soon will be illegal, so I will have to replace all of my red dye.\nSpeaker B (Grandson): What... What?",
+    "target": "Speaker A (Grandmother) (Target): Yep, We're going to add...I'm going to bring this over here. So, didn't mean to cover your face.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (Grandson): What... What?\nSpeaker B (Grandmother): Yep, We're going to add...I'm going to bring this over here. So, didn't mean to cover your face.",
+    "target": "Speaker A (Grandson) (Target): And also no singing. grandma!",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (Grandmother): Yep, We're going to add...I'm going to bring this over here. So, didn't mean to cover your face.\nSpeaker B (Grandson): And also no singing. grandma!",
+    "target": "Speaker A (Grandmother) (Target): No singing?!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (Grandson): And also no singing. grandma!\nSpeaker B (Grandmother): No singing?!",
+    "target": "Speaker A (Grandson) (Target):  Yeah",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (Grandmother): No singing?!\nSpeaker B (Grandson):  Yeah",
+    "target": "Speaker A (Grandmother) (Target):  Well, nobody wants to hear me sing anyway.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (Grandson):  Yeah\nSpeaker B (Grandmother):  Well, nobody wants to hear me sing anyway.",
+    "target": "Speaker A (Grandson) (Target):  I know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (Grandmother):  Well, nobody wants to hear me sing anyway.\nSpeaker B (Grandson):  I know.",
+    "target": "Speaker A (Grandmother) (Target): Here is the red velvet.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (Grandson):  I know.\nSpeaker B (Grandmother): Here is the red velvet.",
+    "target": "Speaker A (Grandson) (Target): You should be on Nailed It, man.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (Grandmother): Here is the red velvet.\nSpeaker B (Grandson): You should be on Nailed It, man.",
+    "target": "Speaker A (Grandmother) (Target): Then, white cake. Yes, but Nailed It are people that can't bake. I, you know,",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (Grandson): You should be on Nailed It, man.\nSpeaker B (Grandmother): Then, white cake. Yes, but Nailed It are people that can't bake. I, you know,",
+    "target": "Speaker A (Grandson) (Target):  My point still stands, though.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (Grandmother): Then, white cake. Yes, but Nailed It are people that can't bake. I, you know,\nSpeaker B (Grandson):  My point still stands, though.",
+    "target": "Speaker A (Grandmother) (Target): mmmmm The love. Do you feel the love? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (Grandson):  My point still stands, though.\nSpeaker B (Grandmother): mmmmm The love. Do you feel the love?",
+    "target": "Speaker A (Grandson) (Target): Yeah",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (Grandmother): mmmmm The love. Do you feel the love? \nSpeaker B (Grandson): Yeah",
+    "target": "Speaker A (Grandmother) (Target): That was a joke, by the way. He actually said, but Grandma, you ruined my joke.  ok, Because he's really not mean. Do you see how the camera's going back and forth? Yeah. It's going crazy. Okay. I bought,",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (Grandson): Yeah\nSpeaker B (Grandmother): That was a joke, by the way. He actually said, but Grandma, you ruined my joke.  ok, Because he's really not mean. Do you see how the camera's going back and forth? Yeah. It's going crazy. Okay. I bought,",
+    "target": "Speaker A (Grandson) (Target): oh, wait, wait, wait. We, we, we bought new mics. So, oh, and a 360 camera. And that's why the camera's going insane.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (Grandmother): That was a joke, by the way. He actually said, but Grandma, you ruined my joke.  ok, Because he's really not mean. Do you see how the camera's going back and forth? Yeah. It's going crazy. Okay. I bought,\nSpeaker B (Grandson): oh, wait, wait, wait. We, we, we bought new mics. So, oh, and a 360 camera. And that's why the camera's going insane.",
+    "target": "Speaker A (Grandmother) (Target): It goes to me and then it goes to him. Iup of sugar",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (Grandson): oh, wait, wait, wait. We, we, we bought new mics. So, oh, and a 360 camera. And that's why the camera's going insane.\nSpeaker B (Grandmother): It goes to me and then it goes to him. Iup of sugar",
+    "target": "Speaker A (Grandson) (Target):  I'm prettier.though",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (Grandmother): It goes to me and then it goes to him. Iup of sugar\nSpeaker B (Grandson):  I'm prettier.though",
+    "target": "Speaker A (Grandmother) (Target): He is prettier because he looks like me anyway, two cups. So when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. I always add an extra egg. I'm only going to add one extra egg instead of two. But there's two cups of sugar and two cups of flour.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (Grandson):  I'm prettier.though\nSpeaker B (Grandmother): He is prettier because he looks like me anyway, two cups. So when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. I always add an extra egg. I'm only going to add one extra egg instead of two. But there's two cups of sugar and two cups of flour.",
+    "target": "Speaker A (Grandson) (Target): That's seven eggs. Right. You said four.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (Grandmother): He is prettier because he looks like me anyway, two cups. So when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. I always add an extra egg. I'm only going to add one extra egg instead of two. But there's two cups of sugar and two cups of flour.\nSpeaker B (Grandson): That's seven eggs. Right. You said four.",
+    "target": "Speaker A (Grandmother) (Target):  No, it's three on the box, and then you add an extra egg. But I'm not going to add two extra eggs.So pour that in there. Tell them what you're pouring in there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (Grandson): That's seven eggs. Right. You said four.\nSpeaker B (Grandmother):  No, it's three on the box, and then you add an extra egg. But I'm not going to add two extra eggs.So pour that in there. Tell them what you're pouring in there.",
+    "target": "Speaker A (Grandson) (Target): Pour this in here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (Grandmother):  No, it's three on the box, and then you add an extra egg. But I'm not going to add two extra eggs.So pour that in there. Tell them what you're pouring in there.\nSpeaker B (Grandson): Pour this in here?",
+    "target": "Speaker A (Grandmother) (Target): Yep",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (Grandson): Pour this in here?\nSpeaker B (Grandmother): Yep",
+    "target": "Speaker A (Grandson) (Target):  In here? Yeah. Okay. So this is sugar. She won't let me eat it. She's very mean. And flour. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (Grandmother): Yep\nSpeaker B (Grandson):  In here? Yeah. Okay. So this is sugar. She won't let me eat it. She's very mean. And flour.",
+    "target": "Speaker A (Grandmother) (Target): And flour. Two cups each.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (Grandson):  In here? Yeah. Okay. So this is sugar. She won't let me eat it. She's very mean. And flour. \nSpeaker B (Grandmother): And flour. Two cups each.",
+    "target": "Speaker A (Grandson) (Target): So do I just dump the whole thing in there? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (Grandmother): And flour. Two cups each.\nSpeaker B (Grandson): So do I just dump the whole thing in there?",
+    "target": "Speaker A (Grandmother) (Target):  Just dump it all. There you go. So these eggs are fresh, washed. the ones that we're using. From my chicken. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (Grandson): So do I just dump the whole thing in there? \nSpeaker B (Grandmother):  Just dump it all. There you go. So these eggs are fresh, washed. the ones that we're using. From my chicken.",
+    "target": "Speaker A (Grandson) (Target): 18 of them today. That's the highest she's ever gotten.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (Grandmother):  Just dump it all. There you go. So these eggs are fresh, washed. the ones that we're using. From my chicken. \nSpeaker B (Grandson): 18 of them today. That's the highest she's ever gotten.",
+    "target": "Speaker A (Grandmother) (Target): Most of them are babies. Well, except for 18.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (Grandson): 18 of them today. That's the highest she's ever gotten.\nSpeaker B (Grandmother): Most of them are babies. Well, except for 18.",
+    "target": "Speaker A (Grandson) (Target):  A lot of them were in just one single coop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (Grandmother): Most of them are babies. Well, except for 18.\nSpeaker B (Grandson):  A lot of them were in just one single coop.",
+    "target": "Speaker A (Grandmother) (Target): And I have 57 chickens. 55 are hens. Yes, I might have a slight problem. OK, I'm going to add.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (Grandson):  A lot of them were in just one single coop.\nSpeaker B (Grandmother): And I have 57 chickens. 55 are hens. Yes, I might have a slight problem. OK, I'm going to add.",
+    "target": "Speaker A (Grandson) (Target):  I can hear them",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (Grandmother): And I have 57 chickens. 55 are hens. Yes, I might have a slight problem. OK, I'm going to add.\nSpeaker B (Grandson):  I can hear them",
+    "target": "Speaker A (Grandmother) (Target): Two cups of sour cream. Add the sour cream? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (Grandson):  I can hear them\nSpeaker B (Grandmother): Two cups of sour cream. Add the sour cream?",
+    "target": "Speaker A (Grandson) (Target): Oh, I wasn't ready. Oh, I'm still not ready. No, I'm still,  okay, I'm ready.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (Grandmother): Two cups of sour cream. Add the sour cream? \nSpeaker B (Grandson): Oh, I wasn't ready. Oh, I'm still not ready. No, I'm still,  okay, I'm ready.",
+    "target": "Speaker A (Grandmother) (Target):  Our audience is waiting. Would you like some help?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (Grandson): Oh, I wasn't ready. Oh, I'm still not ready. No, I'm still,  okay, I'm ready.\nSpeaker B (Grandmother):  Our audience is waiting. Would you like some help?",
+    "target": "Speaker A (Grandson) (Target):  I mean, of our 21 viewers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (Grandmother):  Our audience is waiting. Would you like some help?\nSpeaker B (Grandson):  I mean, of our 21 viewers.",
+    "target": "Speaker A (Grandmother) (Target):  Hey, we had like 1,800 on our short. That was pretty good. Our first video.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (Grandson):  I mean, of our 21 viewers.\nSpeaker B (Grandmother):  Hey, we had like 1,800 on our short. That was pretty good. Our first video.",
+    "target": "Speaker A (Grandson) (Target): That was pretty good. I've been maintaining a couple thousand views every video, which I'm happy about. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (Grandmother):  Hey, we had like 1,800 on our short. That was pretty good. Our first video.\nSpeaker B (Grandson): That was pretty good. I've been maintaining a couple thousand views every video, which I'm happy about.",
+    "target": "Speaker A (Grandmother) (Target):  He has his own YouTube channel, and we may have said the name of it. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (Grandson): That was pretty good. I've been maintaining a couple thousand views every video, which I'm happy about. \nSpeaker B (Grandmother):  He has his own YouTube channel, and we may have said the name of it.",
+    "target": "Speaker A (Grandson) (Target):  I don't think we did, because I didn't want to say it. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (Grandmother):  He has his own YouTube channel, and we may have said the name of it. \nSpeaker B (Grandson):  I don't think we did, because I didn't want to say it.",
+    "target": "Speaker A (Grandmother) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (Grandson):  I don't think we did, because I didn't want to say it. \nSpeaker B (Grandmother): Why?",
+    "target": "Speaker A (Grandson) (Target):  Cuz I don't show my face on my BS video",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (Grandmother): Why?\nSpeaker B (Grandson):  Cuz I don't show my face on my BS video",
+    "target": "Speaker A (Grandmother) (Target):  Well, you've shown your face on this one, so what's the name of your other one?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (Grandson):  Cuz I don't show my face on my BS video\nSpeaker B (Grandmother):  Well, you've shown your face on this one, so what's the name of your other one?",
+    "target": "Speaker A (Grandson) (Target):  hmh",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (Grandmother):  Well, you've shown your face on this one, so what's the name of your other one?\nSpeaker B (Grandson):  hmh",
+    "target": "Speaker A (Grandmother) (Target):  It's a Yorkie. Oh, not a Yorkie. hhhhhhhhhh, That should be part of bloopers. A corgi.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (Grandson):  hmh\nSpeaker B (Grandmother):  It's a Yorkie. Oh, not a Yorkie. hhhhhhhhhh, That should be part of bloopers. A corgi.",
+    "target": "Speaker A (Grandson) (Target):   oh no, I can make it a blooper. I can! I know how. Hey, Lake. Hey.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (Grandmother):  It's a Yorkie. Oh, not a Yorkie. hhhhhhhhhh, That should be part of bloopers. A corgi.\nSpeaker B (Grandson):   oh no, I can make it a blooper. I can! I know how. Hey, Lake. Hey.",
+    "target": "Speaker A (Grandmother) (Target): Then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. Get my arm jiggles. Then we add The cocoa powder is brown. Then some red dye, D40.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (Grandson):   oh no, I can make it a blooper. I can! I know how. Hey, Lake. Hey.\nSpeaker B (Grandmother): Then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. Get my arm jiggles. Then we add The cocoa powder is brown. Then some red dye, D40.",
+    "target": "Speaker A (Grandson) (Target):   D40? It's red 40, not D40.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (Grandmother): Then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. Get my arm jiggles. Then we add The cocoa powder is brown. Then some red dye, D40.\nSpeaker B (Grandson):   D40? It's red 40, not D40.",
+    "target": "Speaker A (Grandmother) (Target):  Well, red, oh yeah, not D40, but red 40. D40 is actually a camera, a Nikon camera. Okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. And I guess I don't need all, didn't need all the, aren't these cute? These are so cute.I ordered these off Amazon and they are,Nancy Green. That's what these are. Aren't those cute? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (Grandson):   D40? It's red 40, not D40.\nSpeaker B (Grandmother):  Well, red, oh yeah, not D40, but red 40. D40 is actually a camera, a Nikon camera. Okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. And I guess I don't need all, didn't need all the, aren't these cute? These are so cute.I ordered these off Amazon and they are,Nancy Green. That's what these are. Aren't those cute?",
+    "target": "Speaker A (Grandson) (Target):  bloopers,They're not green.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (Grandmother):  Well, red, oh yeah, not D40, but red 40. D40 is actually a camera, a Nikon camera. Okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. And I guess I don't need all, didn't need all the, aren't these cute? These are so cute.I ordered these off Amazon and they are,Nancy Green. That's what these are. Aren't those cute? \nSpeaker B (Grandson):  bloopers,They're not green.",
+    "target": "Speaker A (Grandmother) (Target):  Well, no, that's the name of the brand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (Grandson):  bloopers,They're not green.\nSpeaker B (Grandmother):  Well, no, that's the name of the brand.",
+    "target": "Speaker A (Grandson) (Target):  Then the brand's lying to you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (Grandmother):  Well, no, that's the name of the brand.\nSpeaker B (Grandson):  Then the brand's lying to you.",
+    "target": "Speaker A (Grandmother) (Target): Super cute. There's like six different colors. I am obsessed with these. because then you're making people wait. But it gets my voice better.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (Grandson):  Then the brand's lying to you.\nSpeaker B (Grandmother): Super cute. There's like six different colors. I am obsessed with these. because then you're making people wait. But it gets my voice better.",
+    "target": "Speaker A (Grandson) (Target):  Just like your chickens. ",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (Grandmother): Super cute. There's like six different colors. I am obsessed with these. because then you're making people wait. But it gets my voice better.\nSpeaker B (Grandson):  Just like your chickens.",
+    "target": "Speaker A (Grandmother) (Target):  Yes, I am obsessed with my chickens. So Matthew, I'm going to have you turn this a little bit. You have to quit taking that off because then you're making people wait.  Why don't you just stand up and do it? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (Grandson):  Just like your chickens. \nSpeaker B (Grandmother):  Yes, I am obsessed with my chickens. So Matthew, I'm going to have you turn this a little bit. You have to quit taking that off because then you're making people wait.  Why don't you just stand up and do it?",
+    "target": "Speaker A (Grandson) (Target): But it gets my voice better. How do I do this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (Grandmother):  Yes, I am obsessed with my chickens. So Matthew, I'm going to have you turn this a little bit. You have to quit taking that off because then you're making people wait.  Why don't you just stand up and do it? \nSpeaker B (Grandson): But it gets my voice better. How do I do this?",
+    "target": "Speaker A (Grandmother) (Target):  Okay, so you're gonna hold the handle. Oh, okay. Hold, and then you're just gonna bring it down. All you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. This looks pink, not red. Well, that's because it's red velvet. It will be. Nope, you would do it. We just want to mix it in a little bit so that when we put it on the stand mixer,  it's not going to go everywhere because it'll go poof.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (Grandson): But it gets my voice better. How do I do this?\nSpeaker B (Grandmother):  Okay, so you're gonna hold the handle. Oh, okay. Hold, and then you're just gonna bring it down. All you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. This looks pink, not red. Well, that's because it's red velvet. It will be. Nope, you would do it. We just want to mix it in a little bit so that when we put it on the stand mixer,  it's not going to go everywhere because it'll go poof.",
+    "target": "Speaker A (Grandson) (Target): Has it done that to you? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (Grandmother):  Okay, so you're gonna hold the handle. Oh, okay. Hold, and then you're just gonna bring it down. All you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. This looks pink, not red. Well, that's because it's red velvet. It will be. Nope, you would do it. We just want to mix it in a little bit so that when we put it on the stand mixer,  it's not going to go everywhere because it'll go poof.\nSpeaker B (Grandson): Has it done that to you?",
+    "target": "Speaker A (Grandmother) (Target):  Yes. Multiple times. Mostly with buttercream because there's so much in buttercream. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (Grandson): Has it done that to you? \nSpeaker B (Grandmother):  Yes. Multiple times. Mostly with buttercream because there's so much in buttercream.",
+    "target": "Speaker A (Grandson) (Target): Are we using buttercream? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (Grandmother):  Yes. Multiple times. Mostly with buttercream because there's so much in buttercream. \nSpeaker B (Grandson): Are we using buttercream?",
+    "target": "Speaker A (Grandmother) (Target):  No. We're using, um, we're doing cream cheese frosting tomorrow. Okay. So what we're going to do, just to kind of take that off. Cause we want all of this in here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (Grandson): Are we using buttercream? \nSpeaker B (Grandmother):  No. We're using, um, we're doing cream cheese frosting tomorrow. Okay. So what we're going to do, just to kind of take that off. Cause we want all of this in here.",
+    "target": "Speaker A (Grandson) (Target):  We think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (Grandmother):  No. We're using, um, we're doing cream cheese frosting tomorrow. Okay. So what we're going to do, just to kind of take that off. Cause we want all of this in here.\nSpeaker B (Grandson):  We think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.",
+    "target": "Speaker A (Grandmother) (Target):   Like grandma starting a new job. Yes. I'm a nurse and I do a lot of this for fun. I actually have an in-home bakery, my own little ",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (Grandson):  We think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.\nSpeaker B (Grandmother):   Like grandma starting a new job. Yes. I'm a nurse and I do a lot of this for fun. I actually have an in-home bakery, my own little",
+    "target": "Speaker A (Grandson) (Target): Did you just smack your Mic? ",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (Grandmother):   Like grandma starting a new job. Yes. I'm a nurse and I do a lot of this for fun. I actually have an in-home bakery, my own little \nSpeaker B (Grandson): Did you just smack your Mic?",
+    "target": "Speaker A (Grandmother) (Target):  No, this is my glasses! I have a in-home bakery, but I have a separate kitchen that my husband built for me, which is amazing. That's why it's all pink and still, here's the camera. It's still a work in progress.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (Grandson): Did you just smack your Mic? \nSpeaker B (Grandmother):  No, this is my glasses! I have a in-home bakery, but I have a separate kitchen that my husband built for me, which is amazing. That's why it's all pink and still, here's the camera. It's still a work in progress.",
+    "target": "Speaker A (Grandson) (Target):  Isn't the whole thing supposed to be pink?  ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (Grandmother):  No, this is my glasses! I have a in-home bakery, but I have a separate kitchen that my husband built for me, which is amazing. That's why it's all pink and still, here's the camera. It's still a work in progress.\nSpeaker B (Grandson):  Isn't the whole thing supposed to be pink?",
+    "target": "Speaker A (Grandmother) (Target): Not the whole thing. Pink, white, and gray, and gold, because I've Paris helped, I am obsessed with Paris Hilton. Let me show you. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (Grandson):  Isn't the whole thing supposed to be pink?  \nSpeaker B (Grandmother): Not the whole thing. Pink, white, and gray, and gold, because I've Paris helped, I am obsessed with Paris Hilton. Let me show you.",
+    "target": "Speaker A (Grandson) (Target):    And you said I was wasting time",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (Grandmother): Not the whole thing. Pink, white, and gray, and gold, because I've Paris helped, I am obsessed with Paris Hilton. Let me show you. \nSpeaker B (Grandson):    And you said I was wasting time",
+    "target": "Speaker A (Grandmother) (Target): Paris Hilton. Pink, isn't that adorable? I'm so in love with it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (Grandson):    And you said I was wasting time\nSpeaker B (Grandmother): Paris Hilton. Pink, isn't that adorable? I'm so in love with it.",
+    "target": "Speaker A (Grandson) (Target):  Do you think you need to get in the view? Yeah. Told you I'm prettier.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (Grandmother): Paris Hilton. Pink, isn't that adorable? I'm so in love with it.\nSpeaker B (Grandson):  Do you think you need to get in the view? Yeah. Told you I'm prettier.",
+    "target": "Speaker A (Grandmother) (Target):   Paris Hilton. Isn't this just cute? And actually the knives are amazing. I would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called Washington Beef where they supply amazing meat. ",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (Grandson):  Do you think you need to get in the view? Yeah. Told you I'm prettier.\nSpeaker B (Grandmother):   Paris Hilton. Isn't this just cute? And actually the knives are amazing. I would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called Washington Beef where they supply amazing meat.",
+    "target": "Speaker A (Grandson) (Target):  She's lucky I haven't made fun of her.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker B (Grandmother):   Paris Hilton. Isn't this just cute? And actually the knives are amazing. I would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called Washington Beef where they supply amazing meat. \nSpeaker A (Grandson):  She's lucky I haven't made fun of her.",
+    "target": "Speaker A (Grandson) (Target): And they use very, very sharp knives to cut up meat.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker B (Grandson):  She's lucky I haven't made fun of her.\nSpeaker B (Grandson): And they use very, very sharp knives to cut up meat.",
+    "target": "Speaker A (Grandmother) (Target): How did he cut himself?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker B (Grandson): And they use very, very sharp knives to cut up meat.\nSpeaker A (Grandmother): How did he cut himself?",
+    "target": "Speaker A (Grandmother) (Target):  I'm sure he's been there for 40 years. So just celebrated his 40th year. Oh. Yeah. Exciting. Indeed. So what we're doing now, we're going to put this up there. We're going to add this there. Bring it down. Matthew, turn it on number two, please. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker B (Grandmother): How did he cut himself?\nSpeaker B (Grandmother):  I'm sure he's been there for 40 years. So just celebrated his 40th year. Oh. Yeah. Exciting. Indeed. So what we're doing now, we're going to put this up there. We're going to add this there. Bring it down. Matthew, turn it on number two, please.",
+    "target": "Speaker A (Grandson) (Target): Like that? OK. I can hold it. Just take it off the charger for a second. Oh! Can you see it? Mm-hmm. Yeah. It looks a lot more red now. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 95,
+    "context": "Speaker A (Grandmother):  I'm sure he's been there for 40 years. So just celebrated his 40th year. Oh. Yeah. Exciting. Indeed. So what we're doing now, we're going to put this up there. We're going to add this there. Bring it down. Matthew, turn it on number two, please. \nSpeaker B (Grandson): Like that? OK. I can hold it. Just take it off the charger for a second. Oh! Can you see it? Mm-hmm. Yeah. It looks a lot more red now.",
+    "target": "Speaker A (Grandmother) (Target):  Still a little bit thick.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 96,
+    "context": "Speaker A (Grandson): Like that? OK. I can hold it. Just take it off the charger for a second. Oh! Can you see it? Mm-hmm. Yeah. It looks a lot more red now. \nSpeaker B (Grandmother):  Still a little bit thick.",
+    "target": "Speaker A (Grandson) (Target): Do we want thick or thin?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 97,
+    "context": "Speaker A (Grandmother):  Still a little bit thick.\nSpeaker B (Grandson): Do we want thick or thin?",
+    "target": "Speaker A (Grandmother) (Target): Thick. Okay, so now... Go ahead and have that there. Now, he is going to attempt to crack some eggs. We'll use the pretty blue, since that's one of your favorite colors.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 98,
+    "context": "Speaker A (Grandson): Do we want thick or thin?\nSpeaker B (Grandmother): Thick. Okay, so now... Go ahead and have that there. Now, he is going to attempt to crack some eggs. We'll use the pretty blue, since that's one of your favorite colors.",
+    "target": "Speaker A (Grandson) (Target): Me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 99,
+    "context": "Speaker A (Grandmother): Thick. Okay, so now... Go ahead and have that there. Now, he is going to attempt to crack some eggs. We'll use the pretty blue, since that's one of your favorite colors.\nSpeaker B (Grandson): Me?",
+    "target": "Speaker A (Grandmother) (Target): Red is your favorite color?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 100,
+    "context": "Speaker A (Grandson): Me?\nSpeaker B (Grandmother): Red is your favorite color?",
+    "target": "Speaker A (Grandson) (Target): No, it's black and white.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 101,
+    "context": "Speaker A (Grandmother): Red is your favorite color?\nSpeaker B (Grandson): No, it's black and white.",
+    "target": "Speaker A (Grandmother) (Target): Yeah, but you like red and blue too.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 102,
+    "context": "Speaker A (Grandson): No, it's black and white.\nSpeaker B (Grandmother): Yeah, but you like red and blue too.",
+    "target": "Speaker A (Grandson) (Target): She knows nothing about me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 103,
+    "context": "Speaker A (Grandmother): Yeah, but you like red and blue too.\nSpeaker B (Grandson): She knows nothing about me.",
+    "target": "Speaker A (Grandmother) (Target): That's not true. I've bought many of sheets for him.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 104,
+    "context": "Speaker A (Grandson): She knows nothing about me.\nSpeaker B (Grandmother): That's not true. I've bought many of sheets for him.",
+    "target": "Speaker A (Grandson) (Target): I'm gonna put this in my pocket.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 105,
+    "context": "Speaker A (Grandmother): That's not true. I've bought many of sheets for him.\nSpeaker B (Grandson): I'm gonna put this in my pocket.",
+    "target": "Speaker A (Grandmother) (Target): We need to focus on this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 106,
+    "context": "Speaker A (Grandson): I'm gonna put this in my pocket.\nSpeaker B (Grandmother): We need to focus on this.",
+    "target": "Speaker A (Grandson) (Target): So it's gonna get flour on it. I don't trust it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 107,
+    "context": "Speaker A (Grandmother): We need to focus on this.\nSpeaker B (Grandson): So it's gonna get flour on it. I don't trust it.",
+    "target": "Speaker A (Grandmother) (Target): So eggs are my chickens",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 108,
+    "context": "Speaker A (Grandson): So it's gonna get flour on it. I don't trust it.\nSpeaker B (Grandmother): So eggs are my chickens",
+    "target": "Speaker A (Grandson) (Target): hair for my grandma.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 109,
+    "context": "Speaker A (Grandmother): So eggs are my chickens\nSpeaker B (Grandson): hair for my grandma.",
+    "target": "Speaker A (Grandmother) (Target): Okay, Most of the time when I'm baking. Not most. Every time when I'm baking my hair is up. But this is for my son, so it's for family. It's okay. Okay, so Matthew is going to attempt to crack an egg. Have you cracked an egg before?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 110,
+    "context": "Speaker A (Grandson): hair for my grandma.\nSpeaker B (Grandmother): Okay, Most of the time when I'm baking. Not most. Every time when I'm baking my hair is up. But this is for my son, so it's for family. It's okay. Okay, so Matthew is going to attempt to crack an egg. Have you cracked an egg before?",
+    "target": "Speaker A (Grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 111,
+    "context": "Speaker A (Grandmother): Okay, Most of the time when I'm baking. Not most. Every time when I'm baking my hair is up. But this is for my son, so it's for family. It's okay. Okay, so Matthew is going to attempt to crack an egg. Have you cracked an egg before?\nSpeaker B (Grandson): Yeah.",
+    "target": "Speaker A (Grandmother) (Target): Okay. That's why I have paper towel there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 112,
+    "context": "Speaker A (Grandson): Yeah.\nSpeaker B (Grandmother): Okay. That's why I have paper towel there.",
+    "target": "Speaker A (Grandson) (Target): Long time ago.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 113,
+    "context": "Speaker A (Grandmother): Okay. That's why I have paper towel there.\nSpeaker B (Grandson): Long time ago.",
+    "target": "Speaker A (Grandmother) (Target): Okay. Crack hard. Oh, okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 114,
+    "context": "Speaker A (Grandson): Long time ago.\nSpeaker B (Grandmother): Okay. Crack hard. Oh, okay.",
+    "target": "Speaker A (Grandson) (Target): Then like, like that. Oh, I got some shell and I got some on me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 115,
+    "context": "Speaker A (Grandmother): Okay. Crack hard. Oh, okay.\nSpeaker B (Grandson): Then like, like that. Oh, I got some shell and I got some on me.",
+    "target": "Speaker A (Grandmother) (Target): So when you do that, you take this and that's on me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 116,
+    "context": "Speaker A (Grandson): Then like, like that. Oh, I got some shell and I got some on me.\nSpeaker B (Grandmother): So when you do that, you take this and that's on me.",
+    "target": "Speaker A (Grandson) (Target): You should show the camera.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 117,
+    "context": "Speaker A (Grandmother): So when you do that, you take this and that's on me.\nSpeaker B (Grandson): You should show the camera.",
+    "target": "Speaker A (Grandmother) (Target): Well, here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 118,
+    "context": "Speaker A (Grandson): You should show the camera.\nSpeaker B (Grandmother): Well, here.",
+    "target": "Speaker A (Grandson) (Target): I'm not very skilled at cracking eggs. You should do it. No, show the camera. What about that one?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 119,
+    "context": "Speaker A (Grandmother): Well, here.\nSpeaker B (Grandson): I'm not very skilled at cracking eggs. You should do it. No, show the camera. What about that one?",
+    "target": "Speaker A (Grandmother) (Target): Well, that's part of the egg. That's not an eggshell. Oh, okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 120,
+    "context": "Speaker A (Grandson): I'm not very skilled at cracking eggs. You should do it. No, show the camera. What about that one?\nSpeaker B (Grandmother): Well, that's part of the egg. That's not an eggshell. Oh, okay.",
+    "target": "Speaker A (Grandson) (Target): I don't know how I managed to get it on me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 121,
+    "context": "Speaker A (Grandmother): Well, that's part of the egg. That's not an eggshell. Oh, okay.\nSpeaker B (Grandson): I don't know how I managed to get it on me.",
+    "target": "Speaker A (Grandmother) (Target): Wrong way?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 122,
+    "context": "Speaker A (Grandson): I don't know how I managed to get it on me.\nSpeaker B (Grandmother): Wrong way?",
+    "target": "Speaker A (Grandson) (Target): No, you just gotta turn it, turn it with your hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 123,
+    "context": "Speaker A (Grandmother): Wrong way?\nSpeaker B (Grandson): No, you just gotta turn it, turn it with your hand.",
+    "target": "Speaker A (Grandmother) (Target): Oh, it's pictures. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 124,
+    "context": "Speaker A (Grandson): No, you just gotta turn it, turn it with your hand.\nSpeaker B (Grandmother): Oh, it's pictures. Okay.",
+    "target": "Speaker A (Grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 125,
+    "context": "Speaker A (Grandmother): Oh, it's pictures. Okay.\nSpeaker B (Grandson): Okay.",
+    "target": "Speaker A (Grandmother) (Target): Gotta like lean it down.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 126,
+    "context": "Speaker A (Grandson): Okay.\nSpeaker B (Grandmother): Gotta like lean it down.",
+    "target": "Speaker A (Grandson) (Target): Yeah. Like that? No, not to me, to. To the, to the. This? Yeah, yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 127,
+    "context": "Speaker A (Grandmother): Gotta like lean it down.\nSpeaker B (Grandson): Yeah. Like that? No, not to me, to. To the, to the. This? Yeah, yeah.",
+    "target": "Speaker A (Grandmother) (Target): All right, that's good. Now there you go. And just separate. Good job. Now put it on the paper.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 128,
+    "context": "Speaker A (Grandson): Yeah. Like that? No, not to me, to. To the, to the. This? Yeah, yeah.\nSpeaker B (Grandmother): All right, that's good. Now there you go. And just separate. Good job. Now put it on the paper.",
+    "target": "Speaker A (Grandson) (Target): The way it separates is satisfying. So three or four.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 129,
+    "context": "Speaker A (Grandmother): All right, that's good. Now there you go. And just separate. Good job. Now put it on the paper.\nSpeaker B (Grandson): The way it separates is satisfying. So three or four.",
+    "target": "Speaker A (Grandmother) (Target): We're gonna do all of those. Oh, let me knock. You needed help. Much better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 130,
+    "context": "Speaker A (Grandson): The way it separates is satisfying. So three or four.\nSpeaker B (Grandmother): We're gonna do all of those. Oh, let me knock. You needed help. Much better.",
+    "target": "Speaker A (Grandson) (Target): Oh. Oh. Is that good enough?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 131,
+    "context": "Speaker A (Grandmother): We're gonna do all of those. Oh, let me knock. You needed help. Much better.\nSpeaker B (Grandson): Oh. Oh. Is that good enough?",
+    "target": "Speaker A (Grandmother) (Target): Yep. You're afraid of it getting on you again, huh?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 132,
+    "context": "Speaker A (Grandson): Oh. Oh. Is that good enough?\nSpeaker B (Grandmother): Yep. You're afraid of it getting on you again, huh?",
+    "target": "Speaker A (Grandson) (Target): Nope. What are they? It's just little egg stuff. Oh, no. Oh",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 133,
+    "context": "Speaker A (Grandmother): Yep. You're afraid of it getting on you again, huh?\nSpeaker B (Grandson): Nope. What are they? It's just little egg stuff. Oh, no. Oh",
+    "target": "Speaker A (Grandmother) (Target): it's okay. Hurry. Good job.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 134,
+    "context": "Speaker A (Grandson): Nope. What are they? It's just little egg stuff. Oh, no. Oh\nSpeaker B (Grandmother): it's okay. Hurry. Good job.",
+    "target": "Speaker A (Grandson) (Target): Is that good enough?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 135,
+    "context": "Speaker A (Grandmother): it's okay. Hurry. Good job.\nSpeaker B (Grandson): Is that good enough?",
+    "target": "Speaker A (Grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 136,
+    "context": "Speaker A (Grandson): Is that good enough?\nSpeaker B (Grandmother): Yeah.",
+    "target": "Speaker A (Grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 137,
+    "context": "Speaker A (Grandmother): Yeah.\nSpeaker B (Grandson): Okay.",
+    "target": "Speaker A (Grandmother) (Target): Good. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 138,
+    "context": "Speaker A (Grandson): Okay.\nSpeaker B (Grandmother): Good. Okay.",
+    "target": "Speaker A (Grandson) (Target): The way I like cracked is like. Oh, oh, oh. Okay, hold on.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 139,
+    "context": "Speaker A (Grandmother): Good. Okay.\nSpeaker B (Grandson): The way I like cracked is like. Oh, oh, oh. Okay, hold on.",
+    "target": "Speaker A (Grandmother) (Target): Grab the camera.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 140,
+    "context": "Speaker A (Grandson): The way I like cracked is like. Oh, oh, oh. Okay, hold on.\nSpeaker B (Grandmother): Grab the camera.",
+    "target": "Speaker A (Grandson) (Target): Oh, no.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 141,
+    "context": "Speaker A (Grandmother): Grab the camera.\nSpeaker B (Grandson): Oh, no.",
+    "target": "Speaker A (Grandmother) (Target): You hear the. The elevator music to this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 142,
+    "context": "Speaker A (Grandson): Oh, no.\nSpeaker B (Grandmother): You hear the. The elevator music to this.",
+    "target": "Speaker A (Grandson) (Target): grandma Save the day. Yes. Okay, technical difficulties.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 143,
+    "context": "Speaker A (Grandmother): You hear the. The elevator music to this.\nSpeaker B (Grandson): grandma Save the day. Yes. Okay, technical difficulties.",
+    "target": "Speaker A (Grandmother) (Target): We gotta love them now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 144,
+    "context": "Speaker A (Grandson): grandma Save the day. Yes. Okay, technical difficulties.\nSpeaker B (Grandmother): We gotta love them now.",
+    "target": "Speaker A (Grandson) (Target): I need to wash my hands.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 145,
+    "context": "Speaker A (Grandmother): We gotta love them now.\nSpeaker B (Grandson): I need to wash my hands.",
+    "target": "Speaker A (Grandmother) (Target): We're going to do one egg at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 146,
+    "context": "Speaker A (Grandson): I need to wash my hands.\nSpeaker B (Grandmother): We're going to do one egg at a time.",
+    "target": "Speaker A (Grandson) (Target): What's in here? What is this? We are back from the technical difficulties. And now I'm going to pour the stuff the eggs into the mixer. She is having technical difficulties, I think. Do I just pour them all in? Okay, so she said one at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 147,
+    "context": "Speaker A (Grandmother): We're going to do one egg at a time.\nSpeaker B (Grandson): What's in here? What is this? We are back from the technical difficulties. And now I'm going to pour the stuff the eggs into the mixer. She is having technical difficulties, I think. Do I just pour them all in? Okay, so she said one at a time.",
+    "target": "Speaker A (Grandmother) (Target): Boom.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 148,
+    "context": "Speaker A (Grandson): What's in here? What is this? We are back from the technical difficulties. And now I'm going to pour the stuff the eggs into the mixer. She is having technical difficulties, I think. Do I just pour them all in? Okay, so she said one at a time.\nSpeaker B (Grandmother): Boom.",
+    "target": "Speaker A (Grandson) (Target): Okay, I think that's good. And then boom. And then. Oh, no, that was not in the mid. Oh, no. Oh, there it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 149,
+    "context": "Speaker A (Grandmother): Boom.\nSpeaker B (Grandson): Okay, I think that's good. And then boom. And then. Oh, no, that was not in the mid. Oh, no. Oh, there it goes.",
+    "target": "Speaker A (Grandmother) (Target):  Get it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 150,
+    "context": "Speaker A (Grandson): Okay, I think that's good. And then boom. And then. Oh, no, that was not in the mid. Oh, no. Oh, there it goes.\nSpeaker B (Grandmother):  Get it?",
+    "target": "Speaker A (Grandson) (Target): Yeah. Only one of them was gone. Weird. Okay, that worked out well. I thought I was going to spill them all over. I did not. Luckily. Good job. Are we doing square round? We are charging it. All right, we're done. That's bloopers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 151,
+    "context": "Speaker A (Grandmother):  Get it?\nSpeaker B (Grandson): Yeah. Only one of them was gone. Weird. Okay, that worked out well. I thought I was going to spill them all over. I did not. Luckily. Good job. Are we doing square round? We are charging it. All right, we're done. That's bloopers.",
+    "target": "Speaker A (Grandmother) (Target): Very much so.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 152,
+    "context": "Speaker A (Grandson): Yeah. Only one of them was gone. Weird. Okay, that worked out well. I thought I was going to spill them all over. I did not. Luckily. Good job. Are we doing square round? We are charging it. All right, we're done. That's bloopers.\nSpeaker B (Grandmother): Very much so.",
+    "target": "Speaker A (Grandson) (Target): That has made it to the blooper show.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 153,
+    "context": "Speaker A (Grandmother): Very much so.\nSpeaker B (Grandson): That has made it to the blooper show.",
+    "target": "Speaker A (Grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 154,
+    "context": "Speaker A (Grandson): That has made it to the blooper show.\nSpeaker B (Grandmother): Okay.",
+    "target": "Speaker A (Grandson) (Target): When do we stop? Oh, oh, oh, oh, oh.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 155,
+    "context": "Speaker A (Grandmother): Okay.\nSpeaker B (Grandson): When do we stop? Oh, oh, oh, oh, oh.",
+    "target": "Speaker A (Grandmother) (Target): Okay, that's. That's going to be really loud.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 156,
+    "context": "Speaker A (Grandson): When do we stop? Oh, oh, oh, oh, oh.\nSpeaker B (Grandmother): Okay, that's. That's going to be really loud.",
+    "target": "Speaker A (Grandson) (Target): That sounded satisfying. Wait, no, no, no, no, no. I want to put it close to the mic and you crunch it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 157,
+    "context": "Speaker A (Grandmother): Okay, that's. That's going to be really loud.\nSpeaker B (Grandson): That sounded satisfying. Wait, no, no, no, no, no. I want to put it close to the mic and you crunch it.",
+    "target": "Speaker A (Grandmother) (Target): All right, go ahead.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 158,
+    "context": "Speaker A (Grandson): That sounded satisfying. Wait, no, no, no, no, no. I want to put it close to the mic and you crunch it.\nSpeaker B (Grandmother): All right, go ahead.",
+    "target": "Speaker A (Grandson) (Target): I'm behind you. Asmr.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 159,
+    "context": "Speaker A (Grandmother): All right, go ahead.\nSpeaker B (Grandson): I'm behind you. Asmr.",
+    "target": "Speaker A (Grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 160,
+    "context": "Speaker A (Grandson): I'm behind you. Asmr.\nSpeaker B (Grandmother): Okay.",
+    "target": "Speaker A (Grandson) (Target): We never knew you can make ASMR with egg. Broken eggs.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 161,
+    "context": "Speaker A (Grandmother): Okay.\nSpeaker B (Grandson): We never knew you can make ASMR with egg. Broken eggs.",
+    "target": "Speaker A (Grandmother) (Target): That's how they did Jurassic park with a baby dinosaur being born. Now we're going to use the goop. Goop is flour, oil, and Crisco that I use to line.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 162,
+    "context": "Speaker A (Grandson): We never knew you can make ASMR with egg. Broken eggs.\nSpeaker B (Grandmother): That's how they did Jurassic park with a baby dinosaur being born. Now we're going to use the goop. Goop is flour, oil, and Crisco that I use to line.",
+    "target": "Speaker A (Grandson) (Target): She can't even finish her sentences. Oh, never mind.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 163,
+    "context": "Speaker A (Grandmother): That's how they did Jurassic park with a baby dinosaur being born. Now we're going to use the goop. Goop is flour, oil, and Crisco that I use to line.\nSpeaker B (Grandson): She can't even finish her sentences. Oh, never mind.",
+    "target": "Speaker A (Grandmother) (Target): So that they don't stick to it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 164,
+    "context": "Speaker A (Grandson): She can't even finish her sentences. Oh, never mind.\nSpeaker B (Grandmother): So that they don't stick to it.",
+    "target": "Speaker A (Grandson) (Target): Ring three. Oh, it looks disgusting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 165,
+    "context": "Speaker A (Grandmother): So that they don't stick to it.\nSpeaker B (Grandson): Ring three. Oh, it looks disgusting.",
+    "target": "Speaker A (Grandmother) (Target): That's why it's called poop. So when you do a cake, you always put oil. Not oil, but Crisco, and then flour, and you rub it in so that it doesn't stick to the pan.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 166,
+    "context": "Speaker A (Grandson): Ring three. Oh, it looks disgusting.\nSpeaker B (Grandmother): That's why it's called poop. So when you do a cake, you always put oil. Not oil, but Crisco, and then flour, and you rub it in so that it doesn't stick to the pan.",
+    "target": "Speaker A (Grandson) (Target): Ooh.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 167,
+    "context": "Speaker A (Grandmother): That's why it's called poop. So when you do a cake, you always put oil. Not oil, but Crisco, and then flour, and you rub it in so that it doesn't stick to the pan.\nSpeaker B (Grandson): Ooh.",
+    "target": "Speaker A (Grandmother) (Target): That's what I'm doing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 168,
+    "context": "Speaker A (Grandson): Ooh.\nSpeaker B (Grandmother): That's what I'm doing.",
+    "target": "Speaker A (Grandson) (Target): Am I allowed to eat that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 169,
+    "context": "Speaker A (Grandmother): That's what I'm doing.\nSpeaker B (Grandson): Am I allowed to eat that?",
+    "target": "Speaker A (Grandmother) (Target): No, it's got raw egg in it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 170,
+    "context": "Speaker A (Grandson): Am I allowed to eat that?\nSpeaker B (Grandmother): No, it's got raw egg in it.",
+    "target": "Speaker A (Grandson) (Target): Would that make me sick?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 171,
+    "context": "Speaker A (Grandmother): No, it's got raw egg in it.\nSpeaker B (Grandson): Would that make me sick?",
+    "target": "Speaker A (Grandmother) (Target): It can.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 172,
+    "context": "Speaker A (Grandson): Would that make me sick?\nSpeaker B (Grandmother): It can.",
+    "target": "Speaker A (Grandson) (Target): What would it give me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 173,
+    "context": "Speaker A (Grandmother): It can.\nSpeaker B (Grandson): What would it give me?",
+    "target": "Speaker A (Grandmother) (Target): Salmonella poisoning, which would mean a trip to the ER. But Krishana's working tonight, so, you know, you can see Krishana quick.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 174,
+    "context": "Speaker A (Grandson): What would it give me?\nSpeaker B (Grandmother): Salmonella poisoning, which would mean a trip to the ER. But Krishana's working tonight, so, you know, you can see Krishana quick.",
+    "target": "Speaker A (Grandson) (Target): My death might. Doesn't hurt anyone.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 175,
+    "context": "Speaker A (Grandmother): Salmonella poisoning, which would mean a trip to the ER. But Krishana's working tonight, so, you know, you can see Krishana quick.\nSpeaker B (Grandson): My death might. Doesn't hurt anyone.",
+    "target": "Speaker A (Grandmother) (Target): Well, wouldn't even die. Well, I mean, I guess you could.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 176,
+    "context": "Speaker A (Grandson): My death might. Doesn't hurt anyone.\nSpeaker B (Grandmother): Well, wouldn't even die. Well, I mean, I guess you could.",
+    "target": "Speaker A (Grandson) (Target): She'd rather. She'd rather sacrifice me to see her friend.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 177,
+    "context": "Speaker A (Grandmother): Well, wouldn't even die. Well, I mean, I guess you could.\nSpeaker B (Grandson): She'd rather. She'd rather sacrifice me to see her friend.",
+    "target": "Speaker A (Grandmother) (Target): No, that's. That's not what I said. I taste better all the time, but I know that my eggs are good, so they're very fresh, but no, you cannot taste it. I thought they're fresh. They are, but I'm not going to risk you getting sick, so you risk yourself getting sick. Yeah, me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 178,
+    "context": "Speaker A (Grandson): She'd rather. She'd rather sacrifice me to see her friend.\nSpeaker B (Grandmother): No, that's. That's not what I said. I taste better all the time, but I know that my eggs are good, so they're very fresh, but no, you cannot taste it. I thought they're fresh. They are, but I'm not going to risk you getting sick, so you risk yourself getting sick. Yeah, me.",
+    "target": "Speaker A (Grandson) (Target): It's just me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 179,
+    "context": "Speaker A (Grandmother): No, that's. That's not what I said. I taste better all the time, but I know that my eggs are good, so they're very fresh, but no, you cannot taste it. I thought they're fresh. They are, but I'm not going to risk you getting sick, so you risk yourself getting sick. Yeah, me.\nSpeaker B (Grandson): It's just me.",
+    "target": "Speaker A (Grandmother) (Target): Okay, put that on pause.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 180,
+    "context": "Speaker A (Grandson): It's just me.\nSpeaker B (Grandmother): Okay, put that on pause.",
+    "target": "Speaker A (Grandson) (Target): All right, we will be right back. Three, two, one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 181,
+    "context": "Speaker A (Grandmother): Okay, put that on pause.\nSpeaker B (Grandson): All right, we will be right back. Three, two, one.",
+    "target": "Speaker A (Grandmother) (Target): And we're back. We're gonna put liners on the bottom.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 182,
+    "context": "Speaker A (Grandson): All right, we will be right back. Three, two, one.\nSpeaker B (Grandmother): And we're back. We're gonna put liners on the bottom.",
+    "target": "Speaker A (Grandson) (Target): What for?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 183,
+    "context": "Speaker A (Grandmother): And we're back. We're gonna put liners on the bottom.\nSpeaker B (Grandson): What for?",
+    "target": "Speaker A (Grandmother) (Target): That helps them from not to stick as well. Plus, you also can see what side you're going to use for the layers of the cake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 184,
+    "context": "Speaker A (Grandson): What for?\nSpeaker B (Grandmother): That helps them from not to stick as well. Plus, you also can see what side you're going to use for the layers of the cake.",
+    "target": "Speaker A (Grandson) (Target): Also, don't forget to comment what kind of cakes. Oh, I just turned my mic off, I think.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 185,
+    "context": "Speaker A (Grandmother): That helps them from not to stick as well. Plus, you also can see what side you're going to use for the layers of the cake.\nSpeaker B (Grandson): Also, don't forget to comment what kind of cakes. Oh, I just turned my mic off, I think.",
+    "target": "Speaker A (Grandmother) (Target): No, it's on.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 186,
+    "context": "Speaker A (Grandson): Also, don't forget to comment what kind of cakes. Oh, I just turned my mic off, I think.\nSpeaker B (Grandmother): No, it's on.",
+    "target": "Speaker A (Grandson) (Target): Okay, never mind. Okay, don't forget to comment what kind of cakes you want us to do. Because who knows? We might do it because. Yeah, why not?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 187,
+    "context": "Speaker A (Grandmother): No, it's on.\nSpeaker B (Grandson): Okay, never mind. Okay, don't forget to comment what kind of cakes you want us to do. Because who knows? We might do it because. Yeah, why not?",
+    "target": "Speaker A (Grandmother) (Target): So maybe the next cake we do should be the dice cake. We'll do the lava cake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 188,
+    "context": "Speaker A (Grandson): Okay, never mind. Okay, don't forget to comment what kind of cakes you want us to do. Because who knows? We might do it because. Yeah, why not?\nSpeaker B (Grandmother): So maybe the next cake we do should be the dice cake. We'll do the lava cake.",
+    "target": "Speaker A (Grandson) (Target): That's what I was just gonna think. That's what I was just thinking.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 189,
+    "context": "Speaker A (Grandmother): So maybe the next cake we do should be the dice cake. We'll do the lava cake.\nSpeaker B (Grandson): That's what I was just gonna think. That's what I was just thinking.",
+    "target": "Speaker A (Grandmother) (Target): We can do the dice dice cake next Saturday. We can do a lava or the dice cake. Because I leave it is going crazy out of town. Stand closer to me. There we go. Okay, now hand me a spatula, please.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 190,
+    "context": "Speaker A (Grandson): That's what I was just gonna think. That's what I was just thinking.\nSpeaker B (Grandmother): We can do the dice dice cake next Saturday. We can do a lava or the dice cake. Because I leave it is going crazy out of town. Stand closer to me. There we go. Okay, now hand me a spatula, please.",
+    "target": "Speaker A (Grandson) (Target): Anyone? Yeah, either you get small one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 191,
+    "context": "Speaker A (Grandmother): We can do the dice dice cake next Saturday. We can do a lava or the dice cake. Because I leave it is going crazy out of town. Stand closer to me. There we go. Okay, now hand me a spatula, please.\nSpeaker B (Grandson): Anyone? Yeah, either you get small one.",
+    "target": "Speaker A (Grandmother) (Target): So do you want to pour this or do you want me to pour it? Looks kind of heavy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 192,
+    "context": "Speaker A (Grandson): Anyone? Yeah, either you get small one.\nSpeaker B (Grandmother): So do you want to pour this or do you want me to pour it? Looks kind of heavy.",
+    "target": "Speaker A (Grandson) (Target): I'll show you pouring it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 193,
+    "context": "Speaker A (Grandmother): So do you want to pour this or do you want me to pour it? Looks kind of heavy.\nSpeaker B (Grandson): I'll show you pouring it.",
+    "target": "Speaker A (Grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 194,
+    "context": "Speaker A (Grandson): I'll show you pouring it.\nSpeaker B (Grandmother): Okay.",
+    "target": "Speaker A (Grandson) (Target): Come here, come here. Oh. So it's like a thick red consistency, which is what you want. If you're doing red, this is what it should look like.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 195,
+    "context": "Speaker A (Grandmother): Okay.\nSpeaker B (Grandson): Come here, come here. Oh. So it's like a thick red consistency, which is what you want. If you're doing red, this is what it should look like.",
+    "target": "Speaker A (Grandmother) (Target): Red velvet.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 196,
+    "context": "Speaker A (Grandson): Come here, come here. Oh. So it's like a thick red consistency, which is what you want. If you're doing red, this is what it should look like.\nSpeaker B (Grandmother): Red velvet.",
+    "target": "Speaker A (Grandson) (Target): Red velvet.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 197,
+    "context": "Speaker A (Grandmother): Red velvet.\nSpeaker B (Grandson): Red velvet.",
+    "target": "Speaker A (Grandmother) (Target): But that's okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 198,
+    "context": "Speaker A (Grandson): Red velvet.\nSpeaker B (Grandmother): But that's okay.",
+    "target": "Speaker A (Grandson) (Target): A little dog red. That's not okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 199,
+    "context": "Speaker A (Grandmother): But that's okay.\nSpeaker B (Grandson): A little dog red. That's not okay.",
+    "target": "Speaker A (Grandmother) (Target): We might have enough actually to do. Normally I would weigh each pan.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 200,
+    "context": "Speaker A (Grandson): A little dog red. That's not okay.\nSpeaker B (Grandmother): We might have enough actually to do. Normally I would weigh each pan.",
+    "target": "Speaker A (Grandson) (Target): But it's okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 201,
+    "context": "Speaker A (Grandmother): We might have enough actually to do. Normally I would weigh each pan.\nSpeaker B (Grandson): But it's okay.",
+    "target": "Speaker A (Grandmother) (Target): We're not going to do that tonight because it's getting late. And the sooner we get these in the oven, the better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 202,
+    "context": "Speaker A (Grandson): But it's okay.\nSpeaker B (Grandmother): We're not going to do that tonight because it's getting late. And the sooner we get these in the oven, the better.",
+    "target": "Speaker A (Grandson) (Target): Also, the sooner this video comes out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 203,
+    "context": "Speaker A (Grandmother): We're not going to do that tonight because it's getting late. And the sooner we get these in the oven, the better.\nSpeaker B (Grandson): Also, the sooner this video comes out.",
+    "target": "Speaker A (Grandmother) (Target): The reason I usually weigh the cakes, you want them about the same size. So that it. When the.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 204,
+    "context": "Speaker A (Grandson): Also, the sooner this video comes out.\nSpeaker B (Grandmother): The reason I usually weigh the cakes, you want them about the same size. So that it. When the.",
+    "target": "Speaker A (Grandson) (Target): He's not buying it though, is he?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 205,
+    "context": "Speaker A (Grandmother): The reason I usually weigh the cakes, you want them about the same size. So that it. When the.\nSpeaker B (Grandson): He's not buying it though, is he?",
+    "target": "Speaker A (Grandmother) (Target): No, you're paying for it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 206,
+    "context": "Speaker A (Grandson): He's not buying it though, is he?\nSpeaker B (Grandmother): No, you're paying for it.",
+    "target": "Speaker A (Grandson) (Target): What? With what money?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 207,
+    "context": "Speaker A (Grandmother): No, you're paying for it.\nSpeaker B (Grandson): What? With what money?",
+    "target": "Speaker A (Grandmother) (Target): Wave child labor.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 208,
+    "context": "Speaker A (Grandson): What? With what money?\nSpeaker B (Grandmother): Wave child labor.",
+    "target": "Speaker A (Grandson) (Target): She's kidnapped me. I'm actually her grandson.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 209,
+    "context": "Speaker A (Grandmother): Wave child labor.\nSpeaker B (Grandson): She's kidnapped me. I'm actually her grandson.",
+    "target": "Speaker A (Grandmother) (Target): Okay, so we're gonna do a little bit more. We have enough to do four layers, which means I have to take out some. Some goop cake. Goop. Five minutes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 210,
+    "context": "Speaker A (Grandson): She's kidnapped me. I'm actually her grandson.\nSpeaker B (Grandmother): Okay, so we're gonna do a little bit more. We have enough to do four layers, which means I have to take out some. Some goop cake. Goop. Five minutes.",
+    "target": "Speaker A (Grandson) (Target): How do you make it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 211,
+    "context": "Speaker A (Grandmother): Okay, so we're gonna do a little bit more. We have enough to do four layers, which means I have to take out some. Some goop cake. Goop. Five minutes.\nSpeaker B (Grandson): How do you make it?",
+    "target": "Speaker A (Grandmother) (Target): Flour, oil, vegetable oil, and Crisco.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 212,
+    "context": "Speaker A (Grandson): How do you make it?\nSpeaker B (Grandmother): Flour, oil, vegetable oil, and Crisco.",
+    "target": "Speaker A (Grandson) (Target): What's Crisco?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 213,
+    "context": "Speaker A (Grandmother): Flour, oil, vegetable oil, and Crisco.\nSpeaker B (Grandson): What's Crisco?",
+    "target": "Speaker A (Grandmother) (Target): Crisco is fat lard.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 214,
+    "context": "Speaker A (Grandson): What's Crisco?\nSpeaker B (Grandmother): Crisco is fat lard.",
+    "target": "Speaker A (Grandson) (Target): Oh.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 215,
+    "context": "Speaker A (Grandmother): Crisco is fat lard.\nSpeaker B (Grandson): Oh.",
+    "target": "Speaker A (Grandmother) (Target): Then I'm gonna get one more liner. Sorry if I hurt your ears.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 216,
+    "context": "Speaker A (Grandson): Oh.\nSpeaker B (Grandmother): Then I'm gonna get one more liner. Sorry if I hurt your ears.",
+    "target": "Speaker A (Grandson) (Target): That's some bad ASMR for you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 217,
+    "context": "Speaker A (Grandmother): Then I'm gonna get one more liner. Sorry if I hurt your ears.\nSpeaker B (Grandson): That's some bad ASMR for you.",
+    "target": "Speaker A (Grandmother) (Target): Okay. Liner.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 218,
+    "context": "Speaker A (Grandson): That's some bad ASMR for you.\nSpeaker B (Grandmother): Okay. Liner.",
+    "target": "Speaker A (Grandson) (Target): Oh, what was that? from what?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 219,
+    "context": "Speaker A (Grandmother): Okay. Liner.\nSpeaker B (Grandson): Oh, what was that? from what?",
+    "target": "Speaker A (Grandmother) (Target): Gloss. Okay, One more. Okay, so I hope I got that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 220,
+    "context": "Speaker A (Grandson): Oh, what was that? from what?\nSpeaker B (Grandmother): Gloss. Okay, One more. Okay, so I hope I got that.",
+    "target": "Speaker A (Grandson) (Target): Because I put my mic up close, so I hope I got it. I probably didn't. You, like, smack it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 221,
+    "context": "Speaker A (Grandmother): Gloss. Okay, One more. Okay, so I hope I got that.\nSpeaker B (Grandson): Because I put my mic up close, so I hope I got it. I probably didn't. You, like, smack it?",
+    "target": "Speaker A (Grandmother) (Target): Smack it down. Smack. You or smack.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 222,
+    "context": "Speaker A (Grandson): Because I put my mic up close, so I hope I got it. I probably didn't. You, like, smack it?\nSpeaker B (Grandmother): Smack it down. Smack. You or smack.",
+    "target": "Speaker A (Grandson) (Target): I mean, you already do both anyway.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 223,
+    "context": "Speaker A (Grandmother): Smack it down. Smack. You or smack.\nSpeaker B (Grandson): I mean, you already do both anyway.",
+    "target": "Speaker A (Grandmother) (Target): Oh, please. Yes. You're so abused.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 224,
+    "context": "Speaker A (Grandson): I mean, you already do both anyway.\nSpeaker B (Grandmother): Oh, please. Yes. You're so abused.",
+    "target": "Speaker A (Grandson) (Target): Totally.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 225,
+    "context": "Speaker A (Grandmother): Oh, please. Yes. You're so abused.\nSpeaker B (Grandson): Totally.",
+    "target": "Speaker A (Grandmother) (Target): I don't think you've ever been spanked.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 226,
+    "context": "Speaker A (Grandson): Totally.\nSpeaker B (Grandmother): I don't think you've ever been spanked.",
+    "target": "Speaker A (Grandson) (Target): Yeah, I have. Have you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 227,
+    "context": "Speaker A (Grandmother): I don't think you've ever been spanked.\nSpeaker B (Grandson): Yeah, I have. Have you?",
+    "target": "Speaker A (Grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 228,
+    "context": "Speaker A (Grandson): Yeah, I have. Have you?\nSpeaker B (Grandmother): Yeah.",
+    "target": "Speaker A (Grandson) (Target): Okay. I hope I got those hands. I hope I didn't get those sounds. Of course, you had to get decked out with the pink scissors.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 229,
+    "context": "Speaker A (Grandmother): Yeah.\nSpeaker B (Grandson): Okay. I hope I got those hands. I hope I didn't get those sounds. Of course, you had to get decked out with the pink scissors.",
+    "target": "Speaker A (Grandmother) (Target): That's the Paris Hilton ones. Okay, so I'm gonna stick these in the oven.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 230,
+    "context": "Speaker A (Grandson): Okay. I hope I got those hands. I hope I didn't get those sounds. Of course, you had to get decked out with the pink scissors.\nSpeaker B (Grandmother): That's the Paris Hilton ones. Okay, so I'm gonna stick these in the oven.",
+    "target": "Speaker A (Grandson) (Target): Is that where we end it? And here is all the stuff. And here's where we're gonna end it. So we will see you in part two. Have a good day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 231,
+    "context": "Speaker A (Grandmother): That's the Paris Hilton ones. Okay, so I'm gonna stick these in the oven.\nSpeaker B (Grandson): Is that where we end it? And here is all the stuff. And here's where we're gonna end it. So we will see you in part two. Have a good day.",
+    "target": "Speaker A (Grandmother) (Target): Have a good day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 232,
+    "context": "Speaker A (Grandson): Is that where we end it? And here is all the stuff. And here's where we're gonna end it. So we will see you in part two. Have a good day.\nSpeaker B (Grandmother): Have a good day.",
+    "target": "Speaker A (Grandson) (Target): Bye.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

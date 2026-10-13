@@ -1,0 +1,109 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 82,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I'm not sure I understand what you mean by 'shape of an L'. Could you explain it a bit more?",
+      "golden": "ask for help",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, it's just a line from a song. It means someone is losing or failing at something.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, I'm sorry to hear that. Maybe we can find something more interesting to do together.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "That sounds great! What do you have in mind?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Sure, we can try playing on the iPad. It might be more fun and faster for you.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Playing on the iPad sounds fun! Let's do it.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "That's okay, you can play the way you like. Let's see how it goes with your move.",
+      "golden": "comfort",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll give it a try and see how it goes.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's called a rook. It's a powerful piece in the game.",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, I see! So the rook can move in straight lines, right?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "asking for help"
+    },
+    {
+      "text": "The rook moves in straight lines, either horizontally or vertically, across the board. It's quite versatile.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Got it! Thanks for explaining, Grandpa. I'll try to remember that.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Well, the rook's ability to move in straight lines makes it a strong piece for controlling the board and attacking other pieces.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That makes sense! I'll try to use the rook more strategically in my next game.",
+      "golden": "inform",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "The rook's straight-line movement allows it to cover a lot of ground quickly, making it effective for both offense and defense.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    }
+  ]
+}

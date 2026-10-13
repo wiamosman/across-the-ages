@@ -1,0 +1,133 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 59,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, it's all about practice, dear. Just take it slow and you'll get the hang of it.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandma. I know practice makes perfect. I'll keep at it.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Ah, the diminished 7th chord can be tricky, but with a bit of practice, you'll master it in no time.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I guess I just need to keep practicing. Thanks for the encouragement!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, that's D major. You're doing great, just keep practicing.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'll keep practicing and hopefully get better soon.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I didn't mean to imply that, dear. I know you're capable of learning anything you set your mind to.",
+      "golden": "apology",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No worries, Grandma! I know you believe in me. I'll keep at it!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're really getting the hang of it! Just remember, practice makes perfect.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me. I'll keep practicing every day.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, that's it! You've got it right. I'm so proud of you for figuring it out.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really trying my best. Your encouragement keeps me going.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, try playing the C7 chord next. You're doing wonderfully, just keep exploring the chords.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll give the C7 chord a try. Thanks for the tip, Grandma!",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, that's correct! You're doing so well, keep it up!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me. I'll keep practicing.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's wonderful! You're really getting the hang of it. Keep practicing and you'll be a pro in no time.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! I'll keep at it and maybe even play a song for you soon.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's right, you've got it! You're really understanding these chords well. Keep going, I'm here if you need any help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

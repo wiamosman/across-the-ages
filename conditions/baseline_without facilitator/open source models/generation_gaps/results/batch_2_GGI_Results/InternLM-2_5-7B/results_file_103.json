@@ -1,0 +1,207 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 103,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): No, knights can go over pawns.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): No, knights can go over pawns.",
+            "target": "Target (grandmother): So are you teaching me chess?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): No, knights can go over pawns. | Speaker B (grandmother): So are you teaching me chess?",
+            "target": "Target (granddaughter): Yeah, knights can go over pawns, like gallop, gallop, left or right, you can choose it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): So are you teaching me chess? | Speaker B (granddaughter): Yeah, knights can go over pawns, like gallop, gallop, left or right, you can choose it.",
+            "target": "Target (grandmother): Okay, so is it Grandma's turn?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Yeah, knights can go over pawns, like gallop, gallop, left or right, you can choose it. | Speaker B (grandmother): Okay, so is it Grandma's turn?",
+            "target": "Target (granddaughter): Yeah, it's your turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Okay, so is it Grandma's turn? | Speaker B (granddaughter): Yeah, it's your turn.",
+            "target": "Target (grandmother): So what do I do?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Yeah, it's your turn. | Speaker B (grandmother): So what do I do?",
+            "target": "Target (granddaughter): Move anything you want.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): So what do I do? | Speaker B (granddaughter): Move anything you want.",
+            "target": "Target (grandmother): But I can only go 1 space, right? Because so now it's a checkmate already. How is it a checkmate already?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Move anything you want. | Speaker B (grandmother): But I can only go 1 space, right? Because so now it's a checkmate already. How is it a checkmate already?",
+            "target": "Target (granddaughter): Look, gang, gang, gang, I can't get you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): But I can only go 1 space, right? Because so now it's a checkmate already. How is it a checkmate already? | Speaker B (granddaughter): Look, gang, gang, gang, I can't get you.",
+            "target": "Target (grandmother): Not if I do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Look, gang, gang, gang, I can't get you. | Speaker B (grandmother): Not if I do that.",
+            "target": "Target (granddaughter): You can't go that way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Not if I do that. | Speaker B (granddaughter): You can't go that way.",
+            "target": "Target (grandmother): I can't go to the side.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): You can't go that way. | Speaker B (grandmother): I can't go to the side.",
+            "target": "Target (granddaughter): Pawns can only go front or in diagonal to capture. So you can't do that.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): I can't go to the side. | Speaker B (granddaughter): Pawns can only go front or in diagonal to capture. So you can't do that.",
+            "target": "Target (grandmother): Okay, so I'm gonna go like that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Pawns can only go front or in diagonal to capture. So you can't do that. | Speaker B (grandmother): Okay, so I'm gonna go like that.",
+            "target": "Target (grandmother): Well, back in my day, we just played that any piece could move a square to the side if it was blocked. It makes the game much faster.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Okay, so I'm gonna go like that. | Speaker B (grandmother): Well, back in my day, we just played that any piece could move a square to the side if it was blocked. It makes the game much faster.",
+            "target": "Target (granddaughter): But that’s not how the actual rules work, Grandma! You can't just change how the pieces move because you're bored, it ruins the whole strategy.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Well, back in my day, we just played that any piece could move a square to the side if it was blocked. It makes the game much faster. | Speaker B (granddaughter): But that’s not how the actual rules work, Grandma! You can't just change how the pieces move because you're bored, it ruins the whole strategy.",
+            "target": "Target (granddaughter): Grandma, you can move your B ship somewhere because it's open. Grandma can eat you.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): But that’s not how the actual rules work, Grandma! You can't just change how the pieces move because you're bored, it ruins the whole strategy. | Speaker B (granddaughter): Grandma, you can move your B ship somewhere because it's open. Grandma can eat you.",
+            "target": "Target (grandmother): Yeah, let me get you. Thank you, Mommy, for helping me.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): Grandma, you can move your B ship somewhere because it's open. Grandma can eat you. | Speaker B (grandmother): Yeah, let me get you. Thank you, Mommy, for helping me.",
+            "target": "Target (granddaughter): So I'm gonna move. Gallop, gallop. Left or right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): Yeah, let me get you. Thank you, Mommy, for helping me. | Speaker B (granddaughter): So I'm gonna move. Gallop, gallop. Left or right?",
+            "target": "Target (grandmother): He— how's— how is he able to gallop that much?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): So I'm gonna move. Gallop, gallop. Left or right? | Speaker B (grandmother): He— how's— how is he able to gallop that much?",
+            "target": "Target (granddaughter): Gallop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): He— how's— how is he able to gallop that much? | Speaker B (granddaughter): Gallop.",
+            "target": "Target (grandmother): No, don't be cheating.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): Gallop. | Speaker B (grandmother): No, don't be cheating.",
+            "target": "Target (granddaughter): Gallop, gallop. Left or right? I choose right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): No, don't be cheating. | Speaker B (granddaughter): Gallop, gallop. Left or right? I choose right.",
+            "target": "Target (grandmother): He can gallop like that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (granddaughter): Gallop, gallop. Left or right? I choose right. | Speaker B (grandmother): He can gallop like that?",
+            "target": "Target (granddaughter): Yeah, it goes in Ls.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

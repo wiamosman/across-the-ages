@@ -1,0 +1,69 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "file_index": 22,
+  "utterances": [
+    {
+      "text": "Hello, my dear! How have you been lately?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nUtterance: I'm",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh my, 'off jumps jack' sounds like something exciting! Could you tell me more about it?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I think there might be a mix-up! 'Off jumps jack' isn't something I'm familiar with. Maybe you heard it somewhere else?",
+      "golden": "explain",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nUtterance:",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear you're happy! What does 'off jumps jack' mean? Is it something fun you're doing?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n```python",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I love hearing about new things! It sounds like you're having a great time. Can you share more about what 'off jumps jack' involves?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n```python",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It seems like 'off jumps jack' is something really fun and exciting for you! I'm eager to learn more about it. Is it a game or an event you're involved in?",
+      "golden": "confirm",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nThe utterance is",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I think there might be a little misunderstanding. 'Off jumps jack' isn't something I'm familiar with either, but I'm happy to talk about something else fun or interesting if you'd like!",
+      "golden": "refuse",
+      "predicted": "explain",
+      "raw": "explain\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you're really excited about 'off jumps jack'! I'm thrilled to see you so happy. Is there anything special you'd like to share about it?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nThe utterance is",
+      "status": "CORRECT"
+    }
+  ]
+}

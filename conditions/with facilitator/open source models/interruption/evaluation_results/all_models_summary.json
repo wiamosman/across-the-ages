@@ -1,0 +1,1446 @@
+{
+    "models": [
+        {
+            "model": "Mistral-7B",
+            "total_samples": 5362,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 5362,
+                "accuracy": 0.7860872808653487,
+                "macro_precision": 0.33740362687731107,
+                "macro_recall": 0.479432775729072,
+                "macro_f1": 0.3025063783618696,
+                "weighted_precision": 0.9951475807646915,
+                "weighted_recall": 0.7860872808653487,
+                "weighted_f1": 0.8778009770851175,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0031185031185031187,
+                        "recall": 0.42857142857142855,
+                        "f1": 0.006191950464396285,
+                        "support": 7
+                    },
+                    "intervening speaker": {
+                        "precision": 0.01098901098901099,
+                        "recall": 0.2222222222222222,
+                        "f1": 0.020942408376963352,
+                        "support": 9
+                    },
+                    "none": {
+                        "precision": 0.9981033665244191,
+                        "recall": 0.7875046763935653,
+                        "f1": 0.8803847762442493,
+                        "support": 5346
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        3,
+                        0,
+                        4
+                    ],
+                    [
+                        3,
+                        2,
+                        4
+                    ],
+                    [
+                        956,
+                        180,
+                        4210
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 5362,
+                "accuracy": 0.7819843342036553,
+                "macro_precision": 0.3128895864390109,
+                "macro_recall": 0.3290646989227225,
+                "macro_f1": 0.2765541094764437,
+                "weighted_precision": 0.9968917867057017,
+                "weighted_recall": 0.7819843342036553,
+                "weighted_f1": 0.8763421939856008,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.25,
+                        "recall": 0.2,
+                        "f1": 0.2222222222222222,
+                        "support": 5
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0032258064516129032,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.006389776357827476,
+                        "support": 3
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 0.9983325393044307,
+                        "recall": 0.7829254623575566,
+                        "f1": 0.8776044393257251,
+                        "support": 5353
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        1,
+                        0,
+                        0,
+                        4
+                    ],
+                    [
+                        0,
+                        1,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        3,
+                        309,
+                        850,
+                        4191
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.59212980231257,
+                "correct_both": 3175,
+                "total": 5362
+            }
+        },
+        {
+            "model": "Llama-3.2-3B",
+            "total_samples": 2579,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2579,
+                "accuracy": 0.6017836370686312,
+                "macro_precision": 0.33316977691977695,
+                "macro_recall": 0.3344492020241339,
+                "macro_f1": 0.2520082589894425,
+                "weighted_precision": 0.9935625451935068,
+                "weighted_recall": 0.6017836370686312,
+                "weighted_f1": 0.7489723430620481,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0020833333333333333,
+                        "recall": 0.4,
+                        "f1": 0.004145077720207254,
+                        "support": 5
+                    },
+                    "none": {
+                        "precision": 0.9974259974259975,
+                        "recall": 0.6033476060724017,
+                        "f1": 0.7518796992481203,
+                        "support": 2569
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        1,
+                        4
+                    ],
+                    [
+                        3,
+                        2,
+                        0
+                    ],
+                    [
+                        62,
+                        957,
+                        1550
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2579,
+                "accuracy": 0.04420317952694843,
+                "macro_precision": 0.2458841593448776,
+                "macro_recall": 0.2608780108780109,
+                "macro_f1": 0.021372998740780715,
+                "weighted_precision": 0.9805522552373848,
+                "weighted_recall": 0.04420317952694843,
+                "weighted_f1": 0.08317344603461015,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 3
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0010804970286331713,
+                        "recall": 1.0,
+                        "f1": 0.0021586616297895305,
+                        "support": 2
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 0
+                    },
+                    "none": {
+                        "precision": 0.9824561403508771,
+                        "recall": 0.04351204351204351,
+                        "f1": 0.08333333333333333,
+                        "support": 2574
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        1,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1848,
+                        614,
+                        112
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.03993796044978674,
+                "correct_both": 103,
+                "total": 2579
+            }
+        },
+        {
+            "model": "Qwen2.5-1.5B",
+            "total_samples": 2579,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2579,
+                "accuracy": 0.9759596742923614,
+                "macro_precision": 0.33254062623860486,
+                "macro_recall": 0.3265862203191903,
+                "macro_f1": 0.32953652788688137,
+                "weighted_precision": 0.9937536279259123,
+                "weighted_recall": 0.9759596742923614,
+                "weighted_f1": 0.9847762777914676,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "none": {
+                        "precision": 0.9976218787158145,
+                        "recall": 0.979758660957571,
+                        "f1": 0.9886095836606441,
+                        "support": 2569
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        5
+                    ],
+                    [
+                        4,
+                        0,
+                        1
+                    ],
+                    [
+                        47,
+                        5,
+                        2517
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2579,
+                "accuracy": 0.4831329972857697,
+                "macro_precision": 0.2490007993605116,
+                "macro_recall": 0.12101787101787102,
+                "macro_f1": 0.16287581699346404,
+                "weighted_precision": 0.9940722102426628,
+                "weighted_recall": 0.4831329972857697,
+                "weighted_f1": 0.6502401751704946,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 3
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 0
+                    },
+                    "none": {
+                        "precision": 0.9960031974420464,
+                        "recall": 0.4840714840714841,
+                        "f1": 0.6515032679738562,
+                        "support": 2574
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        3
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        45,
+                        75,
+                        1208,
+                        1246
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.48196975571927103,
+                "correct_both": 1243,
+                "total": 2579
+            }
+        },
+        {
+            "model": "Llama-3.1-8B",
+            "total_samples": 2579,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2579,
+                "accuracy": 0.9658782473827064,
+                "macro_precision": 0.3326655982905983,
+                "macro_recall": 0.32321266381211883,
+                "macro_f1": 0.3278710102007239,
+                "weighted_precision": 0.9941270903550372,
+                "weighted_recall": 0.9658782473827064,
+                "weighted_f1": 0.979799098727018,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "none": {
+                        "precision": 0.9979967948717948,
+                        "recall": 0.9696379914363565,
+                        "f1": 0.9836130306021718,
+                        "support": 2569
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        5
+                    ],
+                    [
+                        5,
+                        0,
+                        0
+                    ],
+                    [
+                        65,
+                        13,
+                        2491
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2579,
+                "accuracy": 0.834044203179527,
+                "macro_precision": 0.24942022263450836,
+                "macro_recall": 0.2089160839160839,
+                "macro_f1": 0.2273784355179704,
+                "weighted_precision": 0.9957466507347414,
+                "weighted_recall": 0.834044203179527,
+                "weighted_f1": 0.9077504350884154,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 3
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 0
+                    },
+                    "none": {
+                        "precision": 0.9976808905380334,
+                        "recall": 0.8356643356643356,
+                        "f1": 0.9095137420718816,
+                        "support": 2574
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        3
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        5,
+                        138,
+                        280,
+                        2151
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.8069018999612253,
+                "correct_both": 2081,
+                "total": 2579
+            }
+        },
+        {
+            "model": "InternLM-2.5-7B",
+            "total_samples": 2579,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2579,
+                "accuracy": 0.9930205506010081,
+                "macro_precision": 0.3322953159465421,
+                "macro_recall": 0.3322953159465421,
+                "macro_f1": 0.3322953159465421,
+                "weighted_precision": 0.9930205506010081,
+                "weighted_recall": 0.9930205506010081,
+                "weighted_f1": 0.9930205506010081,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "none": {
+                        "precision": 0.9968859478396264,
+                        "recall": 0.9968859478396264,
+                        "f1": 0.9968859478396264,
+                        "support": 2569
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        5
+                    ],
+                    [
+                        2,
+                        0,
+                        3
+                    ],
+                    [
+                        5,
+                        3,
+                        2561
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2579,
+                "accuracy": 0.9957347809228383,
+                "macro_precision": 0.2495141857753595,
+                "macro_recall": 0.2494172494172494,
+                "macro_f1": 0.24946570817952204,
+                "weighted_precision": 0.9961217746192715,
+                "weighted_recall": 0.9957347809228383,
+                "weighted_f1": 0.9959282401769519,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 3
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 0
+                    },
+                    "none": {
+                        "precision": 0.998056743101438,
+                        "recall": 0.9976689976689976,
+                        "f1": 0.9978628327180882,
+                        "support": 2574
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        3
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        6,
+                        0,
+                        2568
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.9918573090345095,
+                "correct_both": 2558,
+                "total": 2579
+            }
+        },
+        {
+            "model": "Qwen2.5-7B",
+            "total_samples": 2579,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2579,
+                "accuracy": 0.9600620395502133,
+                "macro_precision": 0.34151819022890734,
+                "macro_recall": 0.45434021019852083,
+                "macro_f1": 0.34385201678806904,
+                "weighted_precision": 0.9929656726917282,
+                "weighted_recall": 0.9600620395502133,
+                "weighted_f1": 0.9759103094962555,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 5
+                    },
+                    "intervening speaker": {
+                        "precision": 0.027777777777777776,
+                        "recall": 0.4,
+                        "f1": 0.05194805194805195,
+                        "support": 5
+                    },
+                    "none": {
+                        "precision": 0.9967767929089444,
+                        "recall": 0.9630206305955624,
+                        "f1": 0.9796079984161552,
+                        "support": 2569
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        5
+                    ],
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        25,
+                        70,
+                        2474
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2579,
+                "accuracy": 0.9732454439705313,
+                "macro_precision": 0.2657997990659281,
+                "macro_recall": 0.45192307692307687,
+                "macro_f1": 0.2764767367196288,
+                "weighted_precision": 0.9969275867911248,
+                "weighted_recall": 0.9732454439705313,
+                "weighted_f1": 0.9846274029081021,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.022727272727272728,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.0425531914893617,
+                        "support": 3
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.041666666666666664,
+                        "recall": 0.5,
+                        "f1": 0.07692307692307693,
+                        "support": 2
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 0
+                    },
+                    "none": {
+                        "precision": 0.998805256869773,
+                        "recall": 0.9743589743589743,
+                        "f1": 0.9864306784660767,
+                        "support": 2574
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        1,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        43,
+                        23,
+                        0,
+                        2508
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.9600620395502133,
+                "correct_both": 2476,
+                "total": 2579
+            }
+        },
+        {
+            "model": "InternLM-2 5-7B",
+            "total_samples": 2783,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2783,
+                "accuracy": 0.8864534674811355,
+                "macro_precision": 0.33404687928977034,
+                "macro_recall": 0.37933621413995916,
+                "macro_f1": 0.31558912961331204,
+                "weighted_precision": 0.9966364291180596,
+                "weighted_recall": 0.8864534674811355,
+                "weighted_f1": 0.9381274884649321,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "intervening speaker": {
+                        "precision": 0.003355704697986577,
+                        "recall": 0.25,
+                        "f1": 0.006622516556291391,
+                        "support": 4
+                    },
+                    "none": {
+                        "precision": 0.9987849331713244,
+                        "recall": 0.8880086424198775,
+                        "f1": 0.9401448722836446,
+                        "support": 2777
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        2,
+                        1,
+                        1
+                    ],
+                    [
+                        14,
+                        297,
+                        2466
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2783,
+                "accuracy": 0.8803449514911965,
+                "macro_precision": 0.2496942519364044,
+                "macro_recall": 0.22040302267002518,
+                "macro_f1": 0.23413608562691132,
+                "weighted_precision": 0.9973414676698065,
+                "weighted_recall": 0.8803449514911965,
+                "weighted_f1": 0.9351982493096465,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 0.9987770077456176,
+                        "recall": 0.8816120906801007,
+                        "f1": 0.9365443425076453,
+                        "support": 2779
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        29,
+                        129,
+                        171,
+                        2450
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.874595759971254,
+                "correct_both": 2434,
+                "total": 2783
+            }
+        },
+        {
+            "model": "Qwen2 5-7B",
+            "total_samples": 2783,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2783,
+                "accuracy": 0.9953287818900467,
+                "macro_precision": 0.33285267964431625,
+                "macro_recall": 0.3324930980674589,
+                "macro_f1": 0.3326727916891851,
+                "weighted_precision": 0.9964052009043475,
+                "weighted_recall": 0.9953287818900467,
+                "weighted_f1": 0.9958667005255485,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 4
+                    },
+                    "none": {
+                        "precision": 0.9985580389329488,
+                        "recall": 0.9974792942023767,
+                        "f1": 0.9980183750675554,
+                        "support": 2777
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        2,
+                        0,
+                        2
+                    ],
+                    [
+                        5,
+                        2,
+                        2770
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2783,
+                "accuracy": 0.9974847287100251,
+                "macro_precision": 0.2498200143988481,
+                "macro_recall": 0.249730118747751,
+                "macro_f1": 0.24977505848479395,
+                "weighted_precision": 0.9978437944870987,
+                "weighted_recall": 0.9974847287100251,
+                "weighted_f1": 0.9976642292910419,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 0.9992800575953924,
+                        "recall": 0.998920474991004,
+                        "f1": 0.9991002339391758,
+                        "support": 2779
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        2776
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.9953287818900467,
+                "correct_both": 2770,
+                "total": 2783
+            }
+        },
+        {
+            "model": "Qwen2 5-1 5B",
+            "total_samples": 2783,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2783,
+                "accuracy": 0.8444125044915559,
+                "macro_precision": 0.3348659003831418,
+                "macro_recall": 0.6151722482295042,
+                "macro_f1": 0.3084820003348775,
+                "weighted_precision": 0.9978473573130789,
+                "weighted_recall": 0.8444125044915559,
+                "weighted_f1": 0.9143237826532377,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.004597701149425287,
+                        "recall": 1.0,
+                        "f1": 0.009153318077803204,
+                        "support": 2
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 4
+                    },
+                    "none": {
+                        "precision": 1.0,
+                        "recall": 0.8455167446885128,
+                        "f1": 0.9162926829268293,
+                        "support": 2777
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        0,
+                        0
+                    ],
+                    [
+                        429,
+                        0,
+                        2348
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2783,
+                "accuracy": 0.7114624505928854,
+                "macro_precision": 0.24949596774193547,
+                "macro_recall": 0.1781216264843469,
+                "macro_f1": 0.20785219399538107,
+                "weighted_precision": 0.9965494708657401,
+                "weighted_recall": 0.7114624505928855,
+                "weighted_f1": 0.8302137939104046,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 0.9979838709677419,
+                        "recall": 0.7124865059373876,
+                        "f1": 0.8314087759815243,
+                        "support": 2779
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        798,
+                        1980
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.5573122529644269,
+                "correct_both": 1551,
+                "total": 2783
+            }
+        },
+        {
+            "model": "Llama-3 1-8B",
+            "total_samples": 2783,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2783,
+                "accuracy": 0.9813151275601868,
+                "macro_precision": 0.332724171539961,
+                "macro_recall": 0.32781178730044414,
+                "macro_f1": 0.3302497128000484,
+                "weighted_precision": 0.9960205077611983,
+                "weighted_recall": 0.9813151275601868,
+                "weighted_f1": 0.988613135945815,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "intervening speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 4
+                    },
+                    "none": {
+                        "precision": 0.998172514619883,
+                        "recall": 0.9834353619013324,
+                        "f1": 0.9907491384001451,
+                        "support": 2777
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        1,
+                        0,
+                        3
+                    ],
+                    [
+                        9,
+                        37,
+                        2731
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2783,
+                "accuracy": 0.9802371541501976,
+                "macro_precision": 0.24972537532039546,
+                "macro_recall": 0.24541201871176682,
+                "macro_f1": 0.24754990925589837,
+                "weighted_precision": 0.9974657822714753,
+                "weighted_recall": 0.9802371541501976,
+                "weighted_f1": 0.988776425184537,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 0.9989015012815818,
+                        "recall": 0.9816480748470673,
+                        "f1": 0.9901996370235935,
+                        "support": 2779
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        0,
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        17,
+                        2,
+                        32,
+                        2728
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.9762845849802372,
+                "correct_both": 2717,
+                "total": 2783
+            }
+        },
+        {
+            "model": "Llama-3 2-3B",
+            "total_samples": 2783,
+            "role_metrics": {
+                "task": "Interruption Role",
+                "total_samples": 2783,
+                "accuracy": 0.7247574559827524,
+                "macro_precision": 0.3331101393232377,
+                "macro_recall": 0.32532108990517344,
+                "macro_f1": 0.2810442967532674,
+                "weighted_precision": 0.9958700081074264,
+                "weighted_recall": 0.7247574559827525,
+                "weighted_f1": 0.838716948264715,
+                "per_class": {
+                    "interrupted speaker": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "intervening speaker": {
+                        "precision": 0.001310615989515072,
+                        "recall": 0.25,
+                        "f1": 0.002607561929595828,
+                        "support": 4
+                    },
+                    "none": {
+                        "precision": 0.998019801980198,
+                        "recall": 0.7259632697155204,
+                        "f1": 0.8405253283302064,
+                        "support": 2777
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        0,
+                        761,
+                        2016
+                    ]
+                ],
+                "labels": [
+                    "interrupted speaker",
+                    "intervening speaker",
+                    "none"
+                ]
+            },
+            "type_metrics": {
+                "task": "Interruption Type",
+                "total_samples": 2783,
+                "accuracy": 0.19331656485806684,
+                "macro_precision": 0.25,
+                "macro_recall": 0.0483987045699892,
+                "macro_f1": 0.08109737714802533,
+                "weighted_precision": 0.9985627021200144,
+                "weighted_recall": 0.19331656485806684,
+                "weighted_f1": 0.3239232642391123,
+                "per_class": {
+                    "disruptive intervention": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 2
+                    },
+                    "cooperative assistance": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "cooperative agreement": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0,
+                        "support": 1
+                    },
+                    "none": {
+                        "precision": 1.0,
+                        "recall": 0.1935948182799568,
+                        "f1": 0.3243895085921013,
+                        "support": 2779
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        0,
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        1485,
+                        752,
+                        538
+                    ]
+                ],
+                "labels": [
+                    "disruptive intervention",
+                    "cooperative assistance",
+                    "cooperative agreement",
+                    "none"
+                ]
+            },
+            "combined_metrics": {
+                "combined_accuracy": 0.19331656485806684,
+                "correct_both": 538,
+                "total": 2783
+            }
+        }
+    ],
+    "total_models": 11
+}

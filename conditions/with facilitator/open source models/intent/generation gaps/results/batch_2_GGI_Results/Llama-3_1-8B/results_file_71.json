@@ -1,0 +1,759 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 71,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandson): Hey Grandpa, how's your day going?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandson): Hey Grandpa, how's your day going?",
+      "target": "Target (grandfather): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandson): Hey Grandpa, how's your day going? | Speaker B (grandfather): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+      "target": "Target (grandson): I'm doing well, just finished some homework. Do you need any help with the gardening?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandfather): Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you? | Speaker B (grandson): I'm doing well, just finished some homework. Do you need any help with the gardening?",
+      "target": "Target (grandfather): Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandson): I'm doing well, just finished some homework. Do you need any help with the gardening? | Speaker B (grandfather): Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+      "target": "Target (grandson): That's great, Grandpa! Let me know if you change your mind and need a hand.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandfather): Yes, I can fix it. I've been gardening for years, so I know a thing or two! | Speaker B (grandson): That's great, Grandpa! Let me know if you change your mind and need a hand.",
+      "target": "Target (grandfather): I appreciate your concern, but I've got it under control. It's good exercise for me!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandson): That's great, Grandpa! Let me know if you change your mind and need a hand. | Speaker B (grandfather): I appreciate your concern, but I've got it under control. It's good exercise for me!",
+      "target": "Target (grandson): Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandfather): I appreciate your concern, but I've got it under control. It's good exercise for me! | Speaker B (grandson): Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+      "target": "Target (grandfather): Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandson): Alright, Grandpa! Just let me know if you need anything. I'm here to help. | Speaker B (grandfather): Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+      "target": "Target (grandson): Sounds good, Grandpa! I'm excited to learn from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandfather): Alright, I'll show you how it's done. It's all about patience and knowing the plants. | Speaker B (grandson): Sounds good, Grandpa! I'm excited to learn from you.",
+      "target": "Target (grandfather): Yes, right here. Let's start with this section and I'll guide you through the process.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandson): Sounds good, Grandpa! I'm excited to learn from you. | Speaker B (grandfather): Yes, right here. Let's start with this section and I'll guide you through the process.",
+      "target": "Target (grandson): Great, I'm ready to get started. Just let me know what to do first.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandfather): Yes, right here. Let's start with this section and I'll guide you through the process. | Speaker B (grandson): Great, I'm ready to get started. Just let me know what to do first.",
+      "target": "Target (grandfather): Great, now let's make sure the soil is well-prepared before planting.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandson): Great, I'm ready to get started. Just let me know what to do first. | Speaker B (grandfather): Great, now let's make sure the soil is well-prepared before planting.",
+      "target": "Target (grandson): Alright, should I start by loosening the soil with the rake?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandfather): Great, now let's make sure the soil is well-prepared before planting. | Speaker B (grandson): Alright, should I start by loosening the soil with the rake?",
+      "target": "Target (grandfather): Ah, that's a good question. Let's take a closer look at it together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandson): Alright, should I start by loosening the soil with the rake? | Speaker B (grandfather): Ah, that's a good question. Let's take a closer look at it together.",
+      "target": "Target (grandson): Okay, let's do that. I'm eager to learn more about gardening from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandfather): Ah, that's a good question. Let's take a closer look at it together. | Speaker B (grandson): Okay, let's do that. I'm eager to learn more about gardening from you.",
+      "target": "Target (grandfather): Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandson): Okay, let's do that. I'm eager to learn more about gardening from you. | Speaker B (grandfather): Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+      "target": "Target (grandson): Got it, I'll start clearing this area then. Thanks for the guidance!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandfather): Yes, we'll need to remove that to ensure the plants have enough space to grow. | Speaker B (grandson): Got it, I'll start clearing this area then. Thanks for the guidance!",
+      "target": "Target (grandmother): Oh, I love classic Italian! Are you planning to cook something special?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandson): Got it, I'll start clearing this area then. Thanks for the guidance! | Speaker B (grandmother): Oh, I love classic Italian! Are you planning to cook something special?",
+      "target": "Target (grandfather): I think a classic Italian dish would be wonderful. Maybe some pasta?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandmother): Oh, I love classic Italian! Are you planning to cook something special? | Speaker B (grandfather): I think a classic Italian dish would be wonderful. Maybe some pasta?",
+      "target": "Target (grandson): Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): I think a classic Italian dish would be wonderful. Maybe some pasta? | Speaker B (grandson): Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+      "target": "Target (grandfather): Alright, let's get started on that pasta then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandson): Pasta sounds great! I can make a simple tomato basil pasta if you'd like. | Speaker B (grandfather): Alright, let's get started on that pasta then!",
+      "target": "Target (grandson): Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandfather): Alright, let's get started on that pasta then! | Speaker B (grandson): Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+      "target": "Target (grandfather): Yes, let's start by boiling the water for the pasta.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandson): Great! I'll start by boiling the pasta. Can you help me with chopping the basil? | Speaker B (grandfather): Yes, let's start by boiling the water for the pasta.",
+      "target": "Target (grandson): Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandfather): Yes, let's start by boiling the water for the pasta. | Speaker B (grandson): Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+      "target": "Target (grandfather): Oh, did I do it the wrong way? Let's fix it together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandson): Sure, I'll get the water boiling. Let me know if you need any help with the basil. | Speaker B (grandfather): Oh, did I do it the wrong way? Let's fix it together.",
+      "target": "Target (grandson): No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandfather): Oh, did I do it the wrong way? Let's fix it together. | Speaker B (grandson): No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+      "target": "Target (grandfather): I'm glad you figured it out. Let's see how it works.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandson): No worries, Grandpa! We can fix it together. I'll show you how I usually do it. | Speaker B (grandfather): I'm glad you figured it out. Let's see how it works.",
+      "target": "Target (grandson): Alright, let's give it a try! I'm sure it'll turn out great.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandfather): I'm glad you figured it out. Let's see how it works. | Speaker B (grandson): Alright, let's give it a try! I'm sure it'll turn out great.",
+      "target": "Target (grandfather): Alright, let's get that pasta cooking now!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandson): Alright, let's give it a try! I'm sure it'll turn out great. | Speaker B (grandfather): Alright, let's get that pasta cooking now!",
+      "target": "Target (grandson): Great! I'll get the water boiling while you prepare the sauce.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandfather): Alright, let's get that pasta cooking now! | Speaker B (grandson): Great! I'll get the water boiling while you prepare the sauce.",
+      "target": "Target (grandfather): Ah, I see. Thanks for pointing that out. Let's keep going.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandson): Great! I'll get the water boiling while you prepare the sauce. | Speaker B (grandfather): Ah, I see. Thanks for pointing that out. Let's keep going.",
+      "target": "Target (grandson): No problem! I'm excited to see how it turns out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandfather): Ah, I see. Thanks for pointing that out. Let's keep going. | Speaker B (grandson): No problem! I'm excited to see how it turns out.",
+      "target": "Target (grandfather): Alright, let's focus on what we're doing here. We can figure it out together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandson): No problem! I'm excited to see how it turns out. | Speaker B (grandfather): Alright, let's focus on what we're doing here. We can figure it out together.",
+      "target": "Target (grandson): Sounds good! I'll keep an eye on the water while you work on the sauce.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandfather): Alright, let's focus on what we're doing here. We can figure it out together. | Speaker B (grandson): Sounds good! I'll keep an eye on the water while you work on the sauce.",
+      "target": "Target (grandfather): Let's take a closer look at the instructions. We can figure this out together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandson): Sounds good! I'll keep an eye on the water while you work on the sauce. | Speaker B (grandfather): Let's take a closer look at the instructions. We can figure this out together.",
+      "target": "Target (grandson): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandfather): Let's take a closer look at the instructions. We can figure this out together. | Speaker B (grandson): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+      "target": "Target (grandfather): Alright, let's get that wire sorted out. We can do this together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandson): Sure thing, I'll grab the instructions. Let's make sure we don't miss anything. | Speaker B (grandfather): Alright, let's get that wire sorted out. We can do this together.",
+      "target": "Target (grandson): Got it! I'll start untangling the wire while you check the instructions.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandfather): Alright, let's get that wire sorted out. We can do this together. | Speaker B (grandson): Got it! I'll start untangling the wire while you check the instructions.",
+      "target": "Target (grandfather): Let's take a closer look at these wires. We can figure out what they do together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandson): Got it! I'll start untangling the wire while you check the instructions. | Speaker B (grandfather): Let's take a closer look at these wires. We can figure out what they do together.",
+      "target": "Target (grandson): Alright, I'm almost done untangling this. How's it going with the instructions?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): Let's take a closer look at these wires. We can figure out what they do together. | Speaker B (grandson): Alright, I'm almost done untangling this. How's it going with the instructions?",
+      "target": "Target (grandfather): Yes, it looks pretty solid. We're making good progress here.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandson): Alright, I'm almost done untangling this. How's it going with the instructions? | Speaker B (grandfather): Yes, it looks pretty solid. We're making good progress here.",
+      "target": "Target (grandson): Great! Let's keep going and see if we can finish this up soon.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): Yes, it looks pretty solid. We're making good progress here. | Speaker B (grandson): Great! Let's keep going and see if we can finish this up soon.",
+      "target": "Target (grandfather): That's good to hear. Let's keep going and see what else we can accomplish.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandson): Great! Let's keep going and see if we can finish this up soon. | Speaker B (grandfather): That's good to hear. Let's keep going and see what else we can accomplish.",
+      "target": "Target (grandson): Alright, let's tackle the next part. Do you need any help with the instructions?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): That's good to hear. Let's keep going and see what else we can accomplish. | Speaker B (grandson): Alright, let's tackle the next part. Do you need any help with the instructions?",
+      "target": "Target (grandfather): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandson): Alright, let's tackle the next part. Do you need any help with the instructions? | Speaker B (grandfather): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+      "target": "Target (grandson): Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandfather): Yes, we can use the brush to paint the whole thing. It'll give it a nice finish. | Speaker B (grandson): Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+      "target": "Target (grandfather): Yes, a cloth would be helpful to clean up any excess paint.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandson): Sounds good! Do you think we should let it dry for a bit before adding another coat? | Speaker B (grandfather): Yes, a cloth would be helpful to clean up any excess paint.",
+      "target": "Target (grandson): Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandfather): Yes, a cloth would be helpful to clean up any excess paint. | Speaker B (grandson): Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+      "target": "Target (grandfather): Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandson): Alright, I'll grab a cloth. Do you want me to start cleaning up now? | Speaker B (grandfather): Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+      "target": "Target (grandson): Okay, I'll double-check everything and start cleaning up.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandfather): Oh, I must have missed that. Let's double-check to make sure everything is clean. | Speaker B (grandson): Okay, I'll double-check everything and start cleaning up.",
+      "target": "Target (grandfather): This tool helps us smooth out the surface after painting, making it look even better.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandson): Okay, I'll double-check everything and start cleaning up. | Speaker B (grandfather): This tool helps us smooth out the surface after painting, making it look even better.",
+      "target": "Target (grandson): Got it, I'll make sure to use it after we're done painting.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandfather): This tool helps us smooth out the surface after painting, making it look even better. | Speaker B (grandson): Got it, I'll make sure to use it after we're done painting.",
+      "target": "Target (grandfather): It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandson): Got it, I'll make sure to use it after we're done painting. | Speaker B (grandfather): It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+      "target": "Target (grandson): Oh, I didn't know that. Thanks for the tip!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandfather): It's best to apply it while the paint is still wet. That way, it blends smoothly. | Speaker B (grandson): Oh, I didn't know that. Thanks for the tip!",
+      "target": "Target (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+      "gold_label": "slang mismatch",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandson): Oh, I didn't know that. Thanks for the tip! | Speaker B (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+      "target": "Target (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+      "gold_label": "slang mismatch",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain? | Speaker B (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+      "target": "Target (grandfather): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally. | Speaker B (grandfather): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+      "target": "Target (grandson): Sure, I can check how much paint we have left.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandfather): I appreciate you trying to explain. Let's make sure we have enough paint for the next coat. | Speaker B (grandson): Sure, I can check how much paint we have left.",
+      "target": "Target (grandfather): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandson): Sure, I can check how much paint we have left. | Speaker B (grandfather): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+      "target": "Target (grandson): Alright, I'll go check the paint and see if we need to get more.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandfather): Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish. | Speaker B (grandson): Alright, I'll go check the paint and see if we need to get more.",
+      "target": "Target (grandfather): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandson): Alright, I'll go check the paint and see if we need to get more. | Speaker B (grandfather): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+      "target": "Target (grandson): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandfather): Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish. | Speaker B (grandson): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+      "target": "Target (grandmother): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandson): Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly. | Speaker B (grandmother): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+      "target": "Target (grandfather): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (grandmother): Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it? | Speaker B (grandfather): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+      "target": "Target (grandson): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandfather): Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps. | Speaker B (grandson): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+      "target": "Target (grandfather): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (grandson): Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this. | Speaker B (grandfather): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+      "target": "Target (grandson): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandfather): That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration. | Speaker B (grandson): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+      "target": "Target (grandfather): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around. | Speaker B (grandfather): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+      "target": "Target (grandson): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandfather): I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with. | Speaker B (grandson): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+      "target": "Target (grandfather): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (grandson): Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help. | Speaker B (grandfather): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+      "target": "Target (grandson): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandfather): Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results. | Speaker B (grandson): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+      "target": "Target (grandfather): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 72,
+      "context": "Speaker A (grandson): Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out. | Speaker B (grandfather): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+      "target": "Target (grandson): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 73,
+      "context": "Speaker A (grandfather): Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance. | Speaker B (grandson): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+      "target": "Target (grandfather): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 74,
+      "context": "Speaker A (grandson): Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there. | Speaker B (grandfather): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+      "target": "Target (grandson): Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 75,
+      "context": "Speaker A (grandfather): If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand. | Speaker B (grandson): Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+      "target": "Target (grandfather): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 76,
+      "context": "Speaker A (grandson): Thanks, Grandpa. I'll give it a try and let you know how it goes. | Speaker B (grandfather): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+      "target": "Target (grandson): Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 77,
+      "context": "Speaker A (grandfather): To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance. | Speaker B (grandson): Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+      "target": "Target (grandfather): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 78,
+      "context": "Speaker A (grandson): Got it, I'll try adding more material and see if that works. Thanks for the advice! | Speaker B (grandfather): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+      "target": "Target (grandson): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 79,
+      "context": "Speaker A (grandfather): Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know. | Speaker B (grandson): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+      "target": "Target (grandfather): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 80,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes. | Speaker B (grandfather): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+      "target": "Target (grandson): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 81,
+      "context": "Speaker A (grandfather): That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help. | Speaker B (grandson): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+      "target": "Target (grandfather): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 82,
+      "context": "Speaker A (grandson): Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help! | Speaker B (grandfather): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+      "target": "Target (grandson): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 83,
+      "context": "Speaker A (grandfather): I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that? | Speaker B (grandson): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+      "target": "Target (grandfather): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 84,
+      "context": "Speaker A (grandson): I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help! | Speaker B (grandfather): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+      "target": "Target (grandson): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 85,
+      "context": "Speaker A (grandfather): I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help. | Speaker B (grandson): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+      "target": "Target (grandfather): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 86,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful. | Speaker B (grandfather): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+      "target": "Target (grandson): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 87,
+      "context": "Speaker A (grandfather): I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself. | Speaker B (grandson): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+      "target": "Target (grandfather): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 88,
+      "context": "Speaker A (grandson): That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa. | Speaker B (grandfather): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+      "target": "Target (grandson): I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 89,
+      "context": "Speaker A (grandfather): Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you. | Speaker B (grandson): I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+      "target": "Target (grandfather): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 90,
+      "context": "Speaker A (grandson): I'd love to learn how to make one, Grandpa! It sounds like a fun project. | Speaker B (grandfather): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+      "target": "Target (grandson): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 91,
+      "context": "Speaker A (grandfather): Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work. | Speaker B (grandson): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+      "target": "Target (grandfather): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 92,
+      "context": "Speaker A (grandson): I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa. | Speaker B (grandfather): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+      "target": "Target (grandson): Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 93,
+      "context": "Speaker A (grandfather): Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely. | Speaker B (grandson): Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+      "target": "Target (grandfather): Thank you for the kind words! I'm glad you believed in the process and that it turned out well. It's always a pleasure working on projects like this together. Looking forward to our next adventure!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 93,
+  "utterances": [
+    {
+      "text": "Hello there! How have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yeah, I really enjoy it! It's challenging but fun. Do you play often?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.",
+      "golden": "apology",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.",
+      "golden": "acknowledge",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Do you have a favorite chess piece or strategy that you like to use?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I really like using the knight for its unique movement. It can be quite tricky for the opponent!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, the bishop is great too! I love how it can control long diagonals.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Do you have a favorite opening move? I've been trying to learn more about them.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think the King's Gambit is really interesting, but it's a bit risky. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.",
+      "golden": "statement-opinion",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Haha, no worries! So, about the pawns, when do you think is the best time to advance them?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, you're getting really good at this! I better watch out or you'll be beating me soon!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's right, it's all about anticipating your opponent. You're really grasping the concept well!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a good observation! Understanding the movement of each piece is key to mastering the game.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I understand now. It's important to track your moves. You're really getting the hang of this!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, you can go first this time. Let's see how you strategize!",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, here goes! I'll try to surprise you with my first move.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Well played! You really gave me a challenge there. Let's play another round!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, let's do it! I'm ready for another round.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's all about positioning and strategy. You'll get the hang of it with more practice!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, I'm feeling confident about my moves this game!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I see you're thinking ahead. That's a smart move!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It's all about the rules of the game. Let's keep playing and see how it goes!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I see, you're right. Let's focus on the next move then.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're explaining the rules well. Let's see what move we can make next.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, is that a new chess clock or something? That looks interesting!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yeah, it's a smart assistant that can help time our games and even answer chess questions.",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "I wonder what kind of help it can provide. Do you think it's useful for our practice?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think it's pretty useful! It can keep track of our scores and even suggest puzzles.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Plus, it's really cool to see how it tracks the board. It's like having a little helper.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It sounds like you're figuring it out well. Do you need any help with the next move?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It seems like you're having fun with this. If you need any advice, just let me know!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I really appreciate it, Grandpa! It's been a blast exploring these chess features.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "By the way, have you ever used a digital chess assistant like this before?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Hello there! How are you doing today?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I'm doing great, Grandpa! Just excited about these new tools. How about you?",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Sure, let's try that! It might be a stronger move.",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like you're all working together well. I'm sure you'll master that strategy soon!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you for the encouragement. We're getting there step by step.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm so proud of how you're all practicing together. Keep it up!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, we're trying our best to solve these chess puzzles together.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Let's keep going, maybe we can try a different approach to this opening.",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Great idea! Let's see if a new strategy works better.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's interesting! Show me what you've learned about this move.",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, I'll give it a shot and see if this new method works.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Haha, that's a neat trick! But let's keep working together on the rest of the game.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sure thing, let's see how we can improve it together!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sounds like a plan! I'm excited to see the results.",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I understand now. The king moves just like in chess, one step at a time.",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Exactly, and with practice, we'll get better at it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I see what you mean. The king steps carefully, just like in chess.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, and once we master this, we can try more complex strategies.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, so the queen has more freedom to move around. That's interesting!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Exactly, the queen's versatility makes her the most powerful piece on the board.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, the king can only move one square at a time, but he's crucial for the game's outcome.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I love how chess combines strategy and creativity. Do you play often, Grandpa?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "A crumble sounds delicious! Maybe we can make it together after this match?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Felicia... that's an interesting name. Was that the name of an old chess champion?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?",
+      "golden": "answer",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Ah, I must have misunderstood. Where was the rook supposed to be?",
+      "golden": "question",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",
+      "golden": "answer",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "Right, I see. So, what move are you planning to do next?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I hope so! I've been practicing a lot, so fingers crossed.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "By the way, Grandma, do you have any tips for staying calm during a tough game?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Wow, you're really keeping track of every piece! You're doing great.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad you think so, Grandpa! I try my best to make the rules clear.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate that. I just try to stay organized.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, let me try moving this knight right and see what happens. You're guiding me well!",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Okay, I'm making the move now. Let's see what happens next!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandpa! Just take it step by step and you'll get the hang of the game.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you're enjoying the chess lesson. It's fun to play together!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's awesome playing with you, Grandpa! We make a great team.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Well, let's see what this bishop can do. Maybe he can pin the queen.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, Grandpa, and if we time the attack right, we can win the game!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks! I'll try to make a smart move with my knight now.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great! Let's see if we can solve this chess puzzle together!",
+      "golden": "agreement",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! It's all about practice and having fun together.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. I need to be careful with my next move then!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, let's see if you can outsmart me this time!",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, let's see if I can make a move that surprises you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Bring it on, Grandpa! I'm ready for your surprise move.",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I love the Ghostbusters theme! What was your favorite part of that story?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I remember the original movie coming out. It's great to see new generations enjoying it too!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It's wonderful to share these interests. What did you think of the new version compared to the original?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think the new one was fun, but nothing beats the classic! The original had such a unique charm.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I was asking how you felt about the new one compared to the classic. Did you like it more or less?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It sounds like we are both fans of the classics. Can you clarify which part you liked best?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. Are you talking about the plot now or a different strategy?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, I misunderstood. Could you tell me more about what you liked about the cast?",
+      "golden": "apology",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I see, it sounds like a great film. Is there a board game for it too?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "There might be, but I'm just talking about the movie. It's a film that I really love.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks for clarifying. I'm curious, what chess opening are you playing now?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad to hear that I could help you learn some moves. You're doing well!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "If you ever need more tips or want to play another round, just let me know!",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It sounds like you did win the last match! Congratulations! Was it a checkmate?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I'm so proud of you for winning! What strategy did you use to achieve that victory?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma and Grandpa! I was playing chess, and it was a tough but fun match!",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    }
+  ]
+}

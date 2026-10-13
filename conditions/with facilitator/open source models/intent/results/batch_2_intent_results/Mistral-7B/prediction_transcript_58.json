@@ -1,0 +1,343 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 58,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nUtterance:"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet\ncomfort (implied"
+    },
+    {
+      "text": "Oh, thank you! I'm glad you like the new sheet music I found.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yeah, those pieces are amazing! I couldn't stop practicing them.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Would you like to help me set up the music room for our rehearsal later?",
+      "golden": "invite",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I'd love to help! What are we preparing?",
+      "golden": "agree",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, are you showing me something with your hand? Is that a new chord?",
+      "golden": "doubt",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nUtter"
+    },
+    {
+      "text": "Oh, I was just pointing at the metronome. Do you need help finding the right tempo?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I see! Are you practicing the finger placements with your hands?",
+      "golden": "doubt",
+      "predicted": "unknown",
+      "raw": "observe\n\nUtterance: I"
+    },
+    {
+      "text": "No, I'm not practicing just yet. Just trying to help get the room ready!",
+      "golden": "clarify",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "Oh, you're playing notes on the piano! That's wonderful.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Haha, not the piano yet! Just dusting the keys so they're clean.",
+      "golden": "clarify",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "Oh my, I didn't mean to be so intense about the lesson! I'm just trying to help you learn.",
+      "golden": "apologize",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "No worries, Grandma! I appreciate your guidance.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "appreciate\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, I see! Thank you for explaining that modern rhythm to me. I'm glad to know it's a compliment.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "I'm learning new musical styles every day with you!",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "embrace (note: this intent is not"
+    },
+    {
+      "text": "I'm glad to hear that, Grandma! It's fun sharing my favorite tracks with you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "compliment\n\nUtterance: I"
+    },
+    {
+      "text": "It's okay, dear. We can try that difficult bridge together again. Just take your time.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your patience with my technique.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh dear, make sure you rest your wrists and drink water. Let me know if you need a break.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I will, Grandma. Thanks for always looking out for my health!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, what are those? Let me take a look at your gear.",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "examine (or inspect)\n\nUt"
+    },
+    {
+      "text": "Oh, these are my new monitoring headphones. They're really clear!",
+      "golden": "inform",
+      "predicted": "introduce",
+      "raw": "introduce\n\nUtterance: I"
+    },
+    {
+      "text": "I'm glad to hear that. Let's make sure all the cables are in their right place.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "Sure, I'll untangle the wires and put the cases back.",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Oh, I'm just fine, dear. But thank you for checking if I was tired.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "I'm glad you're energized! Let me know if you want to start the scale exercises.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Alright then, let's continue with the melody we were practicing.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Okay, sounds good! Should we focus on the intro or the chorus next?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Okay, let's make sure we have the sheet music sorted out properly.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's double-check the order then. Do you need help with the page turns?",
+      "golden": "offer help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Great, let's keep up the good work and finish this rehearsal together.",
+      "golden": "praise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I'm glad we're playing this together. Let me know if there's any other part I should check.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "I'm so glad we're sharing this passion, dear. It makes the practice more enjoyable.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "It really does! I'm learning a lot about classical structure from you.",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "learn (can be considered as a combination"
+    },
+    {
+      "text": "Yes, dear, use your left hand for that bass line. It might be easier.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Oh, I see! Thanks for the tip, I'll try that fingering.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, I just meant that using your left hand might make the reach easier. Let me show you.",
+      "golden": "explain",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Okay, I'll give it a try. Thanks for showing me the posture!",
+      "golden": "agree",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Thank you, dear. I appreciate your help with reading the fine print on these scores.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help read the dynamic markings.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, let's play the duet together. It's always more fun that way.",
+      "golden": "invite",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Absolutely, harmonizing together is always more enjoyable!",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Alright, let's get started then. I'm sure we'll sound great together.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "Great! Should we start with the warm-up scales first?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, dear, let's go ahead and start. I'm sure we'll have fun.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "I'm excited! Let's start with the rhythmic section.",
+      "golden": "plan",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh dear, is the tempo alright? Can I help with the counting?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I'm fine! Just a bit overwhelmed with all the complex syncopation.",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Alright then, let's get back to it. I'm here if you need to slow down.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I think I'll start with the phrasing. Do you think we should go with the staccato or the legato approach?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nUtterance"
+    },
+    {
+      "text": "Yes, that's right. Just take your time and let me know if you need any help with the articulation.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Okay, I'll let you know. I think I'll go with legato, it seems more flowing.",
+      "golden": "inform",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Yes, you've got it! You're doing great, dear.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really excited about how our sound is all coming together.",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm so proud of you for mastering it. If you have any more questions, just ask.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise\n\nUtterance: I"
+    }
+  ]
+}

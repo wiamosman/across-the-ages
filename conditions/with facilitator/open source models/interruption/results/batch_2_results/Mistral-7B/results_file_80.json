@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Hello dear, how was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Hello dear, how was your day?",
+    "target": "Speaker A (grandson) (Target): Hi Grandma! My day was pretty good, just busy with schoolwork.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Hello dear, how was your day?\nSpeaker B (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork.",
+    "target": "Speaker A (grandmother) (Target): That's good to hear! What did you do at school today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork.\nSpeaker B (grandmother): That's good to hear! What did you do at school today?",
+    "target": "Speaker A (grandson) (Target): It was mostly lectures, but I finished a big project I've been working on.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): That's good to hear! What did you do at school today?\nSpeaker B (grandson): It was mostly lectures, but I finished a big project I've been working on.",
+    "target": "Speaker A (grandmother) (Target): You always work so hard. Is it the one about the history of horses?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother is asking a question and the grandson is answering it, so"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): It was mostly lectures, but I finished a big project I've been working on.\nSpeaker B (grandmother): You always work so hard. Is it the one about the history of horses?",
+    "target": "Speaker A (grandson) (Target): Exactly, Grandma! I was talking about that history project, specifically the part about horses.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): You always work so hard. Is it the one about the history of horses?\nSpeaker B (grandson): Exactly, Grandma! I was talking about that history project, specifically the part about horses.",
+    "target": "Speaker A (grandmother) (Target): Alright, dear, if you need help proofreading anything, just let me know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Exactly, Grandma! I was talking about that history project, specifically the part about horses.\nSpeaker B (grandmother): Alright, dear, if you need help proofreading anything, just let me know.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandma. I'll let you know if I need a second pair of eyes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "cooperative agreement",
+    "pred_type": "none",
+    "raw_output": "Role: cooperative agreement\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): Alright, dear, if you need help proofreading anything, just let me know.\nSpeaker B (grandson): Thanks, Grandma. I'll let you know if I need a second pair of eyes.",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that, dear. Is there anything else special you want to share about your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): Thanks, Grandma. I'll let you know if I need a second pair of eyes.\nSpeaker B (grandmother): I'm glad to hear that, dear. Is there anything else special you want to share about your day?",
+    "target": "Speaker A (grandson) (Target): Well, I did get an A on my math test, which was pretty exciting!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural continuation of the conversation and does not interrupt the grandmother."
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandmother): I'm glad to hear that, dear. Is there anything else special you want to share about your day?\nSpeaker B (grandson): Well, I did get an A on my math test, which was pretty exciting!",
+    "target": "Speaker A (grandmother) (Target): Oh, an A in math! That's wonderful! Was it a very difficult test?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging her grandson'"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandson): Well, I did get an A on my math test, which was pretty exciting!\nSpeaker B (grandmother): Oh, an A in math! That's wonderful! Was it a very difficult test?",
+    "target": "Speaker A (grandson) (Target): It was quite a challenge, but I studied really hard for it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, answering his"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandmother): Oh, an A in math! That's wonderful! Was it a very difficult test?\nSpeaker B (grandson): It was quite a challenge, but I studied really hard for it.",
+    "target": "Speaker A (grandmother) (Target): I see! You really earned that grade. Let's see if we can celebrate that for you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandson): It was quite a challenge, but I studied really hard for it.\nSpeaker A (grandmother): I see! You really earned that grade. Let's see if we can celebrate that for you.",
+    "target": "Speaker A (grandmother) (Target): Would you like to go see the stables together later to celebrate?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker B (grandmother): I see! You really earned that grade. Let's see if we can celebrate that for you.\nSpeaker B (grandmother): Would you like to go see the stables together later to celebrate?",
+    "target": "Speaker A (grandson) (Target): Sure, I'd love to go see the horses with you later!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): Would you like to go see the stables together later to celebrate?\nSpeaker B (grandson): Sure, I'd love to go see the horses with you later!",
+    "target": "Speaker A (grandmother) (Target): That's lovely, dear. If you change your mind, just let me know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): Sure, I'd love to go see the horses with you later!\nSpeaker B (grandmother): That's lovely, dear. If you change your mind, just let me know.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandma! I'll let you know if anything changes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): That's lovely, dear. If you change your mind, just let me know.\nSpeaker B (grandson): Thanks, Grandma! I'll let you know if anything changes.",
+    "target": "Speaker A (grandmother) (Target): Alright, sweetheart. If there's anything else you'd like to do, just let me know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Thanks, Grandma! I'll let you know if anything changes.\nSpeaker B (grandmother): Alright, sweetheart. If there's anything else you'd like to do, just let me know.",
+    "target": "Speaker A (grandson) (Target): I really appreciate how thoughtful you are, Grandma. Maybe we can also bake some cookies together later?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): Alright, sweetheart. If there's anything else you'd like to do, just let me know.\nSpeaker B (grandson): I really appreciate how thoughtful you are, Grandma. Maybe we can also bake some cookies together later?",
+    "target": "Speaker A (grandmother) (Target): Oh, baking cookies sounds like a treat! Should we make the ones with the chess patterns?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel and agreement to the grand"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): I really appreciate how thoughtful you are, Grandma. Maybe we can also bake some cookies together later?\nSpeaker B (grandmother): Oh, baking cookies sounds like a treat! Should we make the ones with the chess patterns?",
+    "target": "Speaker A (grandson) (Target): That's a great idea! Chess cookies would be perfect for our afternoon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): Oh, baking cookies sounds like a treat! Should we make the ones with the chess patterns?\nSpeaker B (grandson): That's a great idea! Chess cookies would be perfect for our afternoon.",
+    "target": "Speaker A (grandmother) (Target): Oh, what are you showing me on your screen, dear?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's question does not interrupt the flow of the conversation as she is asking"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): That's a great idea! Chess cookies would be perfect for our afternoon.\nSpeaker B (grandmother): Oh, what are you showing me on your screen, dear?",
+    "target": "Speaker A (grandson) (Target): I'm showing you the recipe for the cookies we can bake together. Do you want to take a look?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption as he is providing"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): Oh, what are you showing me on your screen, dear?\nSpeaker B (grandson): I'm showing you the recipe for the cookies we can bake together. Do you want to take a look?",
+    "target": "Speaker A (grandmother) (Target): Oh, I see! That's a very clear list of instructions, dear.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): I'm showing you the recipe for the cookies we can bake together. Do you want to take a look?\nSpeaker B (grandmother): Oh, I see! That's a very clear list of instructions, dear.",
+    "target": "Speaker A (grandson) (Target): Great! Let's start with gathering the ingredients. Do you have everything we need?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a natural response to his grandmother's comment about"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): Oh, I see! That's a very clear list of instructions, dear.\nSpeaker B (grandson): Great! Let's start with gathering the ingredients. Do you have everything we need?",
+    "target": "Speaker A (grandmother) (Target): I should have it all. It reminds me of when I used to play chess with your grandpa while waiting for the oven.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is not an interruption as she is providing a backchannel and sharing a related"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): Great! Let's start with gathering the ingredients. Do you have everything we need?\nSpeaker B (grandmother): I should have it all. It reminds me of when I used to play chess with your grandpa while waiting for the oven.",
+    "target": "Speaker A (grandson) (Target): I love hearing those stories! Maybe we can play a match while our cookies are baking?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): I should have it all. It reminds me of when I used to play chess with your grandpa while waiting for the oven.\nSpeaker B (grandson): I love hearing those stories! Maybe we can play a match while our cookies are baking?",
+    "target": "Speaker A (grandmother) (Target): I'd like that. I'll even show you how to move the knight effectively; it's the piece that moves in an L-shape.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural continuation of the conversation, providing"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): I love hearing those stories! Maybe we can play a match while our cookies are baking?\nSpeaker B (grandmother): I'd like that. I'll even show you how to move the knight effectively; it's the piece that moves in an L-shape.",
+    "target": "Speaker A (grandson) (Target): Oh, I'd love that! The knight is one of my favorite pieces because of its unique move.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): I'd like that. I'll even show you how to move the knight effectively; it's the piece that moves in an L-shape.\nSpeaker B (grandson): Oh, I'd love that! The knight is one of my favorite pieces because of its unique move.",
+    "target": "Speaker A (grandmother) (Target): Alright, I'll take the white pieces then. Let's have a fun game!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A (grandmother) and Speaker B (grand"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Oh, I'd love that! The knight is one of my favorite pieces because of its unique move.\nSpeaker B (grandmother): Alright, I'll take the white pieces then. Let's have a fun game!",
+    "target": "Speaker A (grandson) (Target): Great! I'll set up the board now. I'm excited to see how this match goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Alright, I'll take the white pieces then. Let's have a fun game!\nSpeaker B (grandson): Great! I'll set up the board now. I'm excited to see how this match goes.",
+    "target": "Speaker A (grandmother) (Target): Okay, let's start. I'm looking forward to it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

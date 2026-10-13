@@ -1,0 +1,571 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 71,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how's your day going?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I'm doing well, just finished some homework. Do you need any help with the gardening?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+      "golden": "inform",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "That's great, Grandpa! Let me know if you change your mind and need a hand.",
+      "golden": "praise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I appreciate your concern, but I've got it under control. It's good exercise for me!",
+      "golden": "refuse",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds good, Grandpa! I'm excited to learn from you.",
+      "golden": "agree",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, right here. Let's start with this section and I'll guide you through the process.",
+      "golden": "arrange",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great, I'm ready to get started. Just let me know what to do first.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great, now let's make sure the soil is well-prepared before planting.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, should I start by loosening the soil with the rake?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Ah, that's a good question. Let's take a closer look at it together.",
+      "golden": "praise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Okay, let's do that. I'm eager to learn more about gardening from you.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Got it, I'll start clearing this area then. Thanks for the guidance!",
+      "golden": "thank",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Oh, I love classic Italian! Are you planning to cook something special?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I think a classic Italian dish would be wonderful. Maybe some pasta?",
+      "golden": "suggest",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's get started on that pasta then!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, let's start by boiling the water for the pasta.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, did I do it the wrong way? Let's fix it together.",
+      "golden": "doubt",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+      "golden": "comfort",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "I'm glad you figured it out. Let's see how it works.",
+      "golden": "acknowledge",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's give it a try! I'm sure it'll turn out great.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's get that pasta cooking now!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great! I'll get the water boiling while you prepare the sauce.",
+      "golden": "arrange",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Ah, I see. Thanks for pointing that out. Let's keep going.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem! I'm excited to see how it turns out.",
+      "golden": "praise",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "Alright, let's focus on what we're doing here. We can figure it out together.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds good! I'll keep an eye on the water while you work on the sauce.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Let's take a closer look at the instructions. We can figure this out together.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's get that wire sorted out. We can do this together.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Got it! I'll start untangling the wire while you check the instructions.",
+      "golden": "arrange",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Let's take a closer look at these wires. We can figure out what they do together.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'm almost done untangling this. How's it going with the instructions?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, it looks pretty solid. We're making good progress here.",
+      "golden": "praise",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Great! Let's keep going and see if we can finish this up soon.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's good to hear. Let's keep going and see what else we can accomplish.",
+      "golden": "encourage",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's tackle the next part. Do you need any help with the instructions?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Yes, a cloth would be helpful to clean up any excess paint.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+      "golden": "doubt",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Okay, I'll double-check everything and start cleaning up.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "This tool helps us smooth out the surface after painting, making it look even better.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Got it, I'll make sure to use it after we're done painting.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, I didn't know that. Thanks for the tip!",
+      "golden": "thank",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+      "golden": "doubt",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+      "golden": "acknowledge",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, I can check how much paint we have left.",
+      "golden": "agree",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'll go check the paint and see if we need to get more.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "chat"
+    },
+    {
+      "text": "Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+      "golden": "praise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+      "golden": "praise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+      "golden": "thank",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+      "golden": "warn",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+      "golden": "thank",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+      "golden": "agree",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+      "golden": "thank",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+      "golden": "refuse",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+      "golden": "praise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+      "golden": "invite",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+      "golden": "praise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thank you for the kind words! I'm glad you believed in the process and that it turned out well. It's always a pleasure working on projects like this together. Looking forward to our next adventure!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank"
+    }
+  ]
+}

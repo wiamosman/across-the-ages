@@ -1,0 +1,511 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 52,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Marlin and his first driving lesson by granddaddy.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Marlin and his first driving lesson by granddaddy.",
+            "target": "Target (grandson): You ready, grandpa?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Marlin and his first driving lesson by granddaddy. | Speaker B (grandson): You ready, grandpa?",
+            "target": "Target (grandfather): You ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): You ready, grandpa? | Speaker B (grandfather): You ready?",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): You ready? | Speaker B (grandson): Yes.",
+            "target": "Target (grandfather): Hold on.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandfather): Hold on.",
+            "target": "Target (grandson): Thank you. All right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Hold on. | Speaker B (grandson): Thank you. All right.",
+            "target": "Target (grandfather): All right, put your hands on the wheel. Now turn your wheel all the way that way. You ready?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Thank you. All right. | Speaker B (grandfather): All right, put your hands on the wheel. Now turn your wheel all the way that way. You ready?",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): All right, put your hands on the wheel. Now turn your wheel all the way that way. You ready? | Speaker B (grandson): Yes.",
+            "target": "Target (grandfather): All right, easy. Hit your brake. A little bit more. Hit the brake. Hit the brake. All right, now turn your wheel all this way. We're going to go back through where we went. Ready?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandfather): All right, easy. Hit your brake. A little bit more. Hit the brake. Hit the brake. All right, now turn your wheel all this way. We're going to go back through where we went. Ready?",
+            "target": "Target (grandson): Yep. You got— turn it, turn it. There you go. You got her. Easy. Remember the ditches. I'm really paying attention to the ditch. Do not Turn, turn, turn, turn.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): All right, easy. Hit your brake. A little bit more. Hit the brake. Hit the brake. All right, now turn your wheel all this way. We're going to go back through where we went. Ready? | Speaker B (grandson): Yep. You got— turn it, turn it. There you go. You got her. Easy. Remember the ditches. I'm really paying attention to the ditch. Do not Turn, turn, turn, turn.",
+            "target": "Target (grandfather): You got it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Yep. You got— turn it, turn it. There you go. You got her. Easy. Remember the ditches. I'm really paying attention to the ditch. Do not Turn, turn, turn, turn. | Speaker B (grandfather): You got it.",
+            "target": "Target (grandson): Turn it all the way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): You got it. | Speaker B (grandson): Turn it all the way.",
+            "target": "Target (grandfather): Hey, wait, get that way a little. You want to hit the goddamn tree. Easy. Go up that way a little bit. Get over that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): Turn it all the way. | Speaker B (grandfather): Hey, wait, get that way a little. You want to hit the goddamn tree. Easy. Go up that way a little bit. Get over that way.",
+            "target": "Target (grandson): This way?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Hey, wait, get that way a little. You want to hit the goddamn tree. Easy. Go up that way a little bit. Get over that way. | Speaker B (grandson): This way?",
+            "target": "Target (grandfather): Yeah, so we won't get in the mud hole, get stuck. Got her.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): This way? | Speaker B (grandfather): Yeah, so we won't get in the mud hole, get stuck. Got her.",
+            "target": "Target (grandson): Mhm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Yeah, so we won't get in the mud hole, get stuck. Got her. | Speaker B (grandson): Mhm.",
+            "target": "Target (grandfather): Excellent, Mark.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): Mhm. | Speaker B (grandfather): Excellent, Mark.",
+            "target": "Target (grandson): All right. Yep, keep easing ahead. Give a little gas. Easy, man. Go on up. Turn that way. Yep, there you go. Bring her on up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): Excellent, Mark. | Speaker B (grandson): All right. Yep, keep easing ahead. Give a little gas. Easy, man. Go on up. Turn that way. Yep, there you go. Bring her on up.",
+            "target": "Target (grandfather): On up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): All right. Yep, keep easing ahead. Give a little gas. Easy, man. Go on up. Turn that way. Yep, there you go. Bring her on up. | Speaker B (grandfather): On up.",
+            "target": "Target (grandson): On up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): On up. | Speaker B (grandson): On up.",
+            "target": "Target (grandfather): All right, hit the brake. You got it. You ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): On up. | Speaker B (grandfather): All right, hit the brake. You got it. You ready?",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): All right, hit the brake. You got it. You ready? | Speaker B (grandson): Yes.",
+            "target": "Target (grandfather): Now turn your wheel that way. All right, you ready?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandfather): Now turn your wheel that way. All right, you ready?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): Now turn your wheel that way. All right, you ready? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): Going to back up. Better give her a little gas. Oh man, come on back. What the fuck is—",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): Going to back up. Better give her a little gas. Oh man, come on back. What the fuck is—",
+            "target": "Target (grandson): Am I supposed to turn this way now?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): Going to back up. Better give her a little gas. Oh man, come on back. What the fuck is— | Speaker B (grandson): Am I supposed to turn this way now?",
+            "target": "Target (grandfather): Hold on.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandson): Am I supposed to turn this way now? | Speaker B (grandfather): Hold on.",
+            "target": "Target (grandson): What?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandfather): Hold on. | Speaker B (grandson): What?",
+            "target": "Target (grandfather): Hit the brake. All right, turn that way. Hold. Yep, you got her.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandson): What? | Speaker B (grandfather): Hit the brake. All right, turn that way. Hold. Yep, you got her.",
+            "target": "Target (grandson): Mhm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandfather): Hit the brake. All right, turn that way. Hold. Yep, you got her. | Speaker B (grandson): Mhm.",
+            "target": "Target (grandfather): Ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandson): Mhm. | Speaker B (grandfather): Ready?",
+            "target": "Target (grandson): All the way. I got it all the way, so I can't go anymore.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): Ready? | Speaker B (grandson): All the way. I got it all the way, so I can't go anymore.",
+            "target": "Target (grandfather): Give a little gas. You got her. Get up this way. Don't go in that mud hole again. Don't run in the damn tree. You got her, man. We'll go right back out there again. You want to? You got it. Easy. I'm just giving her a little push. Good job, Morlan. Excellent. Good job, Morlan. Excellent. Good job, Morlan.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandson): All the way. I got it all the way, so I can't go anymore. | Speaker B (grandfather): Give a little gas. You got her. Get up this way. Don't go in that mud hole again. Don't run in the damn tree. You got her, man. We'll go right back out there again. You want to? You got it. Easy. I'm just giving her a little push. Good job, Morlan. Excellent. Good job, Morlan. Excellent. Good job, Morlan.",
+            "target": "Target (grandson): Excellent.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandfather): Give a little gas. You got her. Get up this way. Don't go in that mud hole again. Don't run in the damn tree. You got her, man. We'll go right back out there again. You want to? You got it. Easy. I'm just giving her a little push. Good job, Morlan. Excellent. Good job, Morlan. Excellent. Good job, Morlan. | Speaker B (grandson): Excellent.",
+            "target": "Target (grandfather): I'm just giving her a little push. Watch that ditch. Get it way— there you go. Look where you going now. Don't never take your eyes off the road.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandson): Excellent. | Speaker B (grandfather): I'm just giving her a little push. Watch that ditch. Get it way— there you go. Look where you going now. Don't never take your eyes off the road.",
+            "target": "Target (grandson): Good job, Morlan. Excellent. I'm not on the road though.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandfather): I'm just giving her a little push. Watch that ditch. Get it way— there you go. Look where you going now. Don't never take your eyes off the road. | Speaker B (grandson): Good job, Morlan. Excellent. I'm not on the road though.",
+            "target": "Target (grandfather): It don't make a difference.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandson): Good job, Morlan. Excellent. I'm not on the road though. | Speaker B (grandfather): It don't make a difference.",
+            "target": "Target (grandson): Yes, I know, but you don't have to keep yelling at me like I’m stupid. I’m trying to listen.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandfather): It don't make a difference. | Speaker B (grandson): Yes, I know, but you don't have to keep yelling at me like I’m stupid. I’m trying to listen.",
+            "target": "Target (grandfather): Well, just shut up. I'm teaching you. You shut the fuck up. I'm tell you how to drive. Don't cut too close to this truck. All right, now cut. Turn it hard. Yep, turn it. Hit the brake. Goddamn, hit the brake. Yeah, all right, now turn your wheel back the other way.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandson): Yes, I know, but you don't have to keep yelling at me like I’m stupid. I’m trying to listen. | Speaker B (grandfather): Well, just shut up. I'm teaching you. You shut the fuck up. I'm tell you how to drive. Don't cut too close to this truck. All right, now cut. Turn it hard. Yep, turn it. Hit the brake. Goddamn, hit the brake. Yeah, all right, now turn your wheel back the other way.",
+            "target": "Target (grandson): This way?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandfather): Well, just shut up. I'm teaching you. You shut the fuck up. I'm tell you how to drive. Don't cut too close to this truck. All right, now cut. Turn it hard. Yep, turn it. Hit the brake. Goddamn, hit the brake. Yeah, all right, now turn your wheel back the other way. | Speaker B (grandson): This way?",
+            "target": "Target (grandfather): Oh man, hit the brake.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandson): This way? | Speaker B (grandfather): Oh man, hit the brake.",
+            "target": "Target (grandson): This way? Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandfather): Oh man, hit the brake. | Speaker B (grandson): This way? Yeah.",
+            "target": "Target (grandfather): Oh man. I put the wrong gear. That was my fault. Sorry about that. All right, turn your wheel that way. Yeah, you gotta make your turn. Hit the brake just a little bit. Hit the brake. All right, now turn your wheel back that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandson): This way? Yeah. | Speaker B (grandfather): Oh man. I put the wrong gear. That was my fault. Sorry about that. All right, turn your wheel that way. Yeah, you gotta make your turn. Hit the brake just a little bit. Hit the brake. All right, now turn your wheel back that way.",
+            "target": "Target (grandson): This way?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandfather): Oh man. I put the wrong gear. That was my fault. Sorry about that. All right, turn your wheel that way. Yeah, you gotta make your turn. Hit the brake just a little bit. Hit the brake. All right, now turn your wheel back that way. | Speaker B (grandson): This way?",
+            "target": "Target (grandfather): Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandson): This way? | Speaker B (grandfather): Yep.",
+            "target": "Target (grandson): All the way?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandfather): Yep. | Speaker B (grandson): All the way?",
+            "target": "Target (grandfather): Yep. Ready? Mm-hmm. Here we go. Good job. I guess keep that— oh, get that way a little bit. You going to hit the goddamn tree and stump and ditch and all of it. There you go. It's just a hair, guys. Go that way, boy. See that ditch? There you go. Get up out that way, remember, so we don't get in the mud.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandson): All the way? | Speaker B (grandfather): Yep. Ready? Mm-hmm. Here we go. Good job. I guess keep that— oh, get that way a little bit. You going to hit the goddamn tree and stump and ditch and all of it. There you go. It's just a hair, guys. Go that way, boy. See that ditch? There you go. Get up out that way, remember, so we don't get in the mud.",
+            "target": "Target (grandson): There you go.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandfather): Yep. Ready? Mm-hmm. Here we go. Good job. I guess keep that— oh, get that way a little bit. You going to hit the goddamn tree and stump and ditch and all of it. There you go. It's just a hair, guys. Go that way, boy. See that ditch? There you go. Get up out that way, remember, so we don't get in the mud. | Speaker B (grandson): There you go.",
+            "target": "Target (grandfather): Up that way a little more. Don't run in that block. Got it? Out that way a little bit. Yeah, give it a hair of gas. All right, you got to make your turn again. You ready?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandson): There you go. | Speaker B (grandfather): Up that way a little more. Don't run in that block. Got it? Out that way a little bit. Yeah, give it a hair of gas. All right, you got to make your turn again. You ready?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandfather): Up that way a little more. Don't run in that block. Got it? Out that way a little bit. Yeah, give it a hair of gas. All right, you got to make your turn again. You ready? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): All right, make your turn. There you go. Give a little, little gas. All right, hold, hold, hold. You know what you're doing damn good. All right, turn your wheel all the way that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): All right, make your turn. There you go. Give a little, little gas. All right, hold, hold, hold. You know what you're doing damn good. All right, turn your wheel all the way that way.",
+            "target": "Target (grandson): This way?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandfather): All right, make your turn. There you go. Give a little, little gas. All right, hold, hold, hold. You know what you're doing damn good. All right, turn your wheel all the way that way. | Speaker B (grandson): This way?",
+            "target": "Target (grandfather): Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandson): This way? | Speaker B (grandfather): Yep.",
+            "target": "Target (grandson): Ready? Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandfather): Yep. | Speaker B (grandson): Ready? Yep.",
+            "target": "Target (grandfather): All right, give her hair or gas. Oh shit, we stuck. Go ahead, do it again. Easy. Come on back. Come on.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandson): Ready? Yep. | Speaker B (grandfather): All right, give her hair or gas. Oh shit, we stuck. Go ahead, do it again. Easy. Come on back. Come on.",
+            "target": "Target (grandson): We're not stuck with me.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandfather): All right, give her hair or gas. Oh shit, we stuck. Go ahead, do it again. Easy. Come on back. Come on. | Speaker B (grandson): We're not stuck with me.",
+            "target": "Target (grandfather): No, not yet. All right, turn back that way. Now remember, get up on that side. We going to park it. Yeah, we're going to park it this time. All right, I'll park it. All right, go ahead.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandson): We're not stuck with me. | Speaker B (grandfather): No, not yet. All right, turn back that way. Now remember, get up on that side. We going to park it. Yeah, we're going to park it this time. All right, I'll park it. All right, go ahead.",
+            "target": "Target (grandson): This is fun.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandfather): No, not yet. All right, turn back that way. Now remember, get up on that side. We going to park it. Yeah, we're going to park it this time. All right, I'll park it. All right, go ahead. | Speaker B (grandson): This is fun.",
+            "target": "Target (grandfather): Is it? That way a little bit. That way, that way. Yeah, get out of that mud.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandson): This is fun. | Speaker B (grandfather): Is it? That way a little bit. That way, that way. Yeah, get out of that mud.",
+            "target": "Target (grandson): Let's turn this way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandfather): Is it? That way a little bit. That way, that way. Yeah, get out of that mud. | Speaker B (grandson): Let's turn this way.",
+            "target": "Target (grandfather): Yeah, and then turn it. You got it, you got it, you doing fine. Pull that way a little. This side, Morley, that way Granddaddy can swing it around. Yeah, Morley, good job, buddy.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandson): Let's turn this way. | Speaker B (grandfather): Yeah, and then turn it. You got it, you got it, you doing fine. Pull that way a little. This side, Morley, that way Granddaddy can swing it around. Yeah, Morley, good job, buddy.",
+            "target": "Target (grandson): Right here? Now go?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandfather): Yeah, and then turn it. You got it, you got it, you doing fine. Pull that way a little. This side, Morley, that way Granddaddy can swing it around. Yeah, Morley, good job, buddy. | Speaker B (grandson): Right here? Now go?",
+            "target": "Target (grandfather): Yeah, right here. Hit the brake. Now I'm going to go show your Nana",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 68,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I hope everything went well. Anything exciting happen today?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Not really, just the usual stuff. But I did get an A on my math test, so that was nice!",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Alright, let me know if you need any help with that.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if I need anything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That sounds like a good plan. Let me know if you need a hand with anything.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "If you need a stronger LED, I can help you find one. Just let me know.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma! I think I'm good for now, but I'll let you know if I change my mind.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, I'll try it like that. Let me know if I'm doing it right.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Sure, Grandma! Just follow the steps I showed you, and you'll be fine. Let me know if you get stuck.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    }
+  ]
+}

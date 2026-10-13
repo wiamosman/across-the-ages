@@ -1,0 +1,103 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 70,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, I see! Technology is amazing these days. Can you show me how it works?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, I understand now. Thank you for explaining, dear. Technology can be a bit tricky for me sometimes.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Would you mind showing me again how to use that app? I want to learn.",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Oh, that buzzing sound is quite interesting! What does it mean?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, I'm ready! Thank you for being so patient with me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm happy to help out.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, please! I want to make sure I understand it correctly.",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

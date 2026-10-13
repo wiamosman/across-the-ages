@@ -1,0 +1,79 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 36,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): Oh, I'm sorry to hear that. Do you want to talk about it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): Oh, I'm sorry to hear that. Do you want to talk about it?",
+      "target": "Target (grandson): Thanks, Grandpa. It's just a lot of assignments piling up, but I'll manage.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Oh, I'm sorry to hear that. Do you want to talk about it? | Speaker B (grandson): Thanks, Grandpa. It's just a lot of assignments piling up, but I'll manage.",
+      "target": "Target (grandfather): It sounds like you're having a tough time. I'm here if you need to talk or need any help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): Thanks, Grandpa. It's just a lot of assignments piling up, but I'll manage. | Speaker B (grandfather): It sounds like you're having a tough time. I'm here if you need to talk or need any help.",
+      "target": "Target (grandson): I appreciate that, Grandpa. I'll definitely let you know if I need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): It sounds like you're having a tough time. I'm here if you need to talk or need any help. | Speaker B (grandson): I appreciate that, Grandpa. I'll definitely let you know if I need anything.",
+      "target": "Target (grandfather): Oh, is the sensor giving you trouble? Let me help you with that.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): I appreciate that, Grandpa. I'll definitely let you know if I need anything. | Speaker B (grandfather): Oh, is the sensor giving you trouble? Let me help you with that.",
+      "target": "Target (grandson): Yeah, the sensor's been acting up. I could use some help figuring it out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Oh, is the sensor giving you trouble? Let me help you with that. | Speaker B (grandson): Yeah, the sensor's been acting up. I could use some help figuring it out.",
+      "target": "Target (grandfather): Alright, I'll let you handle it. Just remember I'm here if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

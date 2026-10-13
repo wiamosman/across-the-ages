@@ -1,0 +1,91 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 53,
+    "utterances": [
+        {
+            "text": "Can I please honk at the break?",
+            "golden": "ask for help",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Thanks.",
+            "golden": "acknowledge",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "I'm giving it some gas.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Don't freak out too much. You're acting like I'm trying to win a race or something.",
+            "golden": "criticize",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+            "golden": "oppose",
+            "predicted": "unknown",
+            "raw": "defend"
+        },
+        {
+            "text": "Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Why?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Put on the brakes! Austin, put on the brakes.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "I'm making another joke.",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "Put on the brakes!",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        }
+    ]
+}

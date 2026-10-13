@@ -1,0 +1,232 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Well, that's hard. It takes a lot of practice to do that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Well, that's hard. It takes a lot of practice to do that.",
+    "target": "Speaker A (granddaughter) (Target): Here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Well, that's hard. It takes a lot of practice to do that.\nSpeaker B (granddaughter): Here?",
+    "target": "Speaker A (grandfather) (Target): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): Here?\nSpeaker B (grandfather): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—",
+    "target": "Speaker A (granddaughter) (Target): Can I get a Pop It one? I want it to be a Pop It Troll.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: intervening speaker\nType: cooperative assistance"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): We'll get you a little special fishing rod for little kids. This is a big— for big people, for grandpas. But we'll get you a special one like that. We'll get you a—\nSpeaker B (granddaughter): Can I get a Pop It one? I want it to be a Pop It Troll.",
+    "target": "Speaker A (grandfather) (Target): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative agreement",
+    "raw_output": "Role: none\nType: cooperative agreement"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): Can I get a Pop It one? I want it to be a Pop It Troll.\nSpeaker B (grandfather): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.",
+    "target": "Speaker A (granddaughter) (Target): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): A 'Pop It'? Is that a new kind of lure, honey? You don't want to be popping the line too hard or you'll lose the fish.\nSpeaker B (granddaughter): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!",
+    "target": "Speaker A (grandfather) (Target): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): No, Grandpa! Pop Its! Like the fidget toys. The ones that go 'pop pop'. It’s the brand!\nSpeaker B (grandfather): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?",
+    "target": "Speaker A (granddaughter) (Target): Okay. So this is for Grandpa?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): Oh! A toy brand. I thought you were telling me how to fix the reel. Well, I’m clearly behind the times. We'll get you a Frozen fishing pole or Pop It Troll or something like that fishing pole, and then you can cast it. You can throw it out there, okay?\nSpeaker B (granddaughter): Okay. So this is for Grandpa?",
+    "target": "Speaker A (grandfather) (Target): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (granddaughter): Okay. So this is for Grandpa?\nSpeaker B (grandfather): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.",
+    "target": "Speaker A (granddaughter) (Target): Oh yeah, tighten it up. Where's yours?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandfather): Yeah, it'll be easier. That's for Grandpa, yeah, or Uncle Brian. So those are a little harder to throw out there. You're going the wrong way again, dear. Gotta go tighten it up.\nSpeaker B (granddaughter): Oh yeah, tighten it up. Where's yours?",
+    "target": "Speaker A (grandfather) (Target): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (granddaughter): Oh yeah, tighten it up. Where's yours?\nSpeaker B (grandfather): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.",
+    "target": "Speaker A (granddaughter) (Target): Yours in the shed?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandfather): Where's mine? Yeah, right there. You're using mine. No, Uncle's. Uncle? That's Uncle's too. I think that one's Uncle's. Mine's in the shed.\nSpeaker B (granddaughter): Yours in the shed?",
+    "target": "Speaker A (grandfather) (Target): Yeah, we're just borrowing Uncle Brian's right now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (granddaughter): Yours in the shed?\nSpeaker B (grandfather): Yeah, we're just borrowing Uncle Brian's right now.",
+    "target": "Speaker A (granddaughter) (Target): You guys found something! I found something! I found something!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandfather): Yeah, we're just borrowing Uncle Brian's right now.\nSpeaker B (granddaughter): You guys found something! I found something! I found something!",
+    "target": "Speaker A (grandfather) (Target): Let's throw it back out. Okay, you throw it back out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (granddaughter): You guys found something! I found something! I found something!\nSpeaker B (grandfather): Let's throw it back out. Okay, you throw it back out.",
+    "target": "Speaker A (granddaughter) (Target): I'll throw it back out and you bring it back in, okay? How far can I go?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandfather): Let's throw it back out. Okay, you throw it back out.\nSpeaker B (granddaughter): I'll throw it back out and you bring it back in, okay? How far can I go?",
+    "target": "Speaker A (grandfather) (Target): There!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (granddaughter): I'll throw it back out and you bring it back in, okay? How far can I go?\nSpeaker B (grandfather): There!",
+    "target": "Speaker A (granddaughter) (Target): Whoa!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandfather): There!\nSpeaker B (granddaughter): Whoa!",
+    "target": "Speaker A (grandfather) (Target): Do it again!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (granddaughter): Whoa!\nSpeaker B (grandfather): Do it again!",
+    "target": "Speaker A (granddaughter) (Target): That went far!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker B (grandfather): Do it again!\nSpeaker A (granddaughter): That went far!",
+    "target": "Speaker A (granddaughter) (Target): Yeah, I know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (granddaughter): That went far!\nSpeaker A (granddaughter): Yeah, I know.",
+    "target": "Speaker A (granddaughter) (Target): Here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker B (granddaughter): Yeah, I know.\nSpeaker B (granddaughter): Here?",
+    "target": "Speaker A (grandfather) (Target): Yeah",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

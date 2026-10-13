@@ -1,0 +1,259 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 74,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nUtterance:"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet\ncomfort (implied"
+    },
+    {
+      "text": "It sounds like you were busy with something. What were you working on?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I was working on a big project for my science class. It's a bit challenging, but I'm getting the hang of it.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform\n\nUtterance: I"
+    },
+    {
+      "text": "It sounds like you're working on something interesting. Is it a new project?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nUtterance"
+    },
+    {
+      "text": "Yeah, it's a new project about renewable energy. I'm learning a lot!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That's wonderful! Is it a hands-on project, like when we do our sewing or crafting?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask about specifics (implicitly"
+    },
+    {
+      "text": "Actually, it is! I'm building models with solar panels and wind turbines. It's science, but it's very hands-on.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That sounds like fun! Are you making something special with those small connecting dots?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nUtterance"
+    },
+    {
+      "text": "Yes, exactly! I'm using those to design systems that can generate clean energy.",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Alright, I'll keep my hands away so I don't move anything. Let me know if you need any help.",
+      "golden": "agree",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely ask if I need anything. It's just really exciting to work on something that can help the environment.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Alright, I'll just watch and enjoy your creativity. You're doing a great job!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! It means a lot to have your support.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I remember using a similar technique for alignment! It's wonderful to see you keeping those methods alive.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "compliment\n\nUtterance: I"
+    },
+    {
+      "text": "That's so cool, Grandma! I love learning from your techniques and adding my own twist to it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I understand, dear. It's important to appreciate the skills that have been passed down. Let's continue working together and make something beautiful.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Absolutely, Grandma! I can't wait to see what we create together.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "I'm truly sorry if I misunderstood your plan earlier. I want us to focus on creating something wonderful together.",
+      "golden": "apologize",
+      "predicted": "apologise",
+      "raw": "apologise\n\nUtterance:"
+    },
+    {
+      "text": "It's okay, Grandma. I know we're on the same page. Let's just focus on having fun and making something amazing!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh dear, I'll be careful with these tools! Yes, this is my last piece. Let's see what we can create next.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "I'm glad we're making such good progress. What would you like to work on next?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "How about we try making a scrapbook? It could be a fun way to capture our memories together.",
+      "golden": "invite",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, I'm coming over to help. Let's see what we can do together.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Great! I'll get the supplies ready. This is going to be so much fun!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "Thank you, dear. I'm always here to help with the cutting whenever you need.",
+      "golden": "care",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your help. Let's make this scrapbook amazing!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Alright, I'll push this into place nice and steady. Let me know if I'm doing it right.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "You're doing great, Grandma! Just a little more to the left, and it'll be perfect.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I'm sorry if I misunderstood the layout. Let's take a moment to figure it out together.",
+      "golden": "apologize",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "No worries, Grandma! We're figuring it out together, and that's what makes it fun.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Great, I'm glad we found the right spot this time. Let me know if there's anything else you need help with.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your help. It's always more fun doing things together.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, the rose decorations will look lovely there. Do you need any help with arranging them?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Sure, I'd love some help with that! Maybe we can arrange them together?",
+      "golden": "invite",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Alright, if you need anything, just let me know. I'm here to help.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if I need anything. It's great having you around.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Okay, dear. Just let me know if you need anything else. I'm always here for you.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I really appreciate it, Grandma. It's so nice to have your support.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, that's much better. You're doing a great job!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I'm trying my best. Your encouragement means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Goodbye for now, dear. Take care and let me know if you need anything.",
+      "golden": "leave",
+      "predicted": "leave",
+      "raw": "leave\n\nUtterance: I"
+    }
+  ]
+}

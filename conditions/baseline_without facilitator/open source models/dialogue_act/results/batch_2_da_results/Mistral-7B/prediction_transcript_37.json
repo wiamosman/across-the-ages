@@ -1,0 +1,139 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 37,
+    "utterances": [
+        {
+            "text": "What's that? Foot on the brake. Okay, foot on the brake and put it on D, on drive. Go ahead.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "With the brakes down?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "With the brakes on. Hold the brake down. Hold the brake down. Just make sure you put the brake. Okay, let it go.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "There we go. Wait, I can't see. I'm going so slow.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Now listen, baby, I'm going to explain this very simply for you. This big circle in front of you is a steering wheel. You use your hands to turn it left or right. Do you understand 'left' and 'right', or should I point?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (Explanation:"
+        },
+        {
+            "text": "Grandpa, I know what a steering wheel is and I know my lefts and rights. You don't have to talk to me like I'm five.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm just making sure! My granddaughter is driving my car. Go ahead, go that way. That's fine. Yeah, now go that way.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Turn.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah, there you go. Stay on that side. Keep on going around. Just keep on driving, baby. There you go. You could hit the gas if you want.",
+            "golden": "statement-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Where's the gas?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "That one, but be careful. Slow down, baby, slow down. Now I want you to go that way. Make a left, go left.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "direction\n\nHistory:\nTurn: That one"
+        },
+        {
+            "text": "Okay, okay. Oh, I hit the wrong one.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement\n\nHistory:\nTurn:"
+        },
+        {
+            "text": "Yes, easy on it. Suave. All right, now put it in reverse. Put on the R. Press the brake. Turn the wheel all around.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\nHistory:\nTurn: That one"
+        },
+        {
+            "text": "All the way around.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Now go slow. Turn the wheel and go slow. You're doing it. Okay, stop. Move the wheel the other way. All the way. Yes. Now put it on drive. Keep your feet on the brake. Now drive slowly. Go that way.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "There you go. Oh, that's how far it goes.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Go straight. Follow the yellow road.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Ok, iam i just Follow the yellow road.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nHistory:\nTurn: There you"
+        },
+        {
+            "text": "You are doing good. You got it, baby. Just go around that way. Keep on going straight. Straighten the wheel. And you're gonna park right in there.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement, acknowledgement, command, command,"
+        },
+        {
+            "text": "Oh gosh, I'm not gonna park good. Slowly. Are we good? Okay, okay, go away.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement\nacknowledgment\nap"
+        },
+        {
+            "text": "Oh, turn it all the way around. You're doing good. That's fine. Keep on going. Okay, all right, stop it. Put it on park. You are awesome.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement, acknowledgement, command, agreement,"
+        },
+        {
+            "text": "Yes!",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

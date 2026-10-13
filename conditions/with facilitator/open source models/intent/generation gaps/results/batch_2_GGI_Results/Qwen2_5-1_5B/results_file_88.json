@@ -1,0 +1,119 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 88,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (granddaughter): Hi Grandma! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been?",
+      "target": "Target (grandmother): Oh, I've been lovely, dear! I was just getting the piano ready for our lesson today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been? | Speaker B (grandmother): Oh, I've been lovely, dear! I was just getting the piano ready for our lesson today.",
+      "target": "Target (granddaughter): Yeah, I love sharing my favorite songs with you. Do you have any favorites from when you were my age?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandmother): Oh, I've been lovely, dear! I was just getting the piano ready for our lesson today. | Speaker B (granddaughter): Yeah, I love sharing my favorite songs with you. Do you have any favorites from when you were my age?",
+      "target": "Target (grandmother): I certainly do! But first, let's see how you've been practicing that Mozart piece I showed you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (granddaughter): Yeah, I love sharing my favorite songs with you. Do you have any favorites from when you were my age? | Speaker B (grandmother): I certainly do! But first, let's see how you've been practicing that Mozart piece I showed you.",
+      "target": "Target (granddaughter): Thanks, Grandma! I really appreciate your support. It means a lot to me that you're teaching me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandmother): I certainly do! But first, let's see how you've been practicing that Mozart piece I showed you. | Speaker B (granddaughter): Thanks, Grandma! I really appreciate your support. It means a lot to me that you're teaching me.",
+      "target": "Target (grandmother): I understand, dear. Take your time with the scales and let me know if you need help with the fingering.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate your support. It means a lot to me that you're teaching me. | Speaker B (grandmother): I understand, dear. Take your time with the scales and let me know if you need help with the fingering.",
+      "target": "Target (granddaughter): I'll definitely let you know, Grandma. By the way, what was your favorite song when you were my age?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandmother): I understand, dear. Take your time with the scales and let me know if you need help with the fingering. | Speaker B (granddaughter): I'll definitely let you know, Grandma. By the way, what was your favorite song when you were my age?",
+      "target": "Target (grandmother): It was a beautiful Chopin nocturne. We can take a break and I'll play it for you later if you like.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (granddaughter): I'll definitely let you know, Grandma. By the way, what was your favorite song when you were my age? | Speaker B (grandmother): It was a beautiful Chopin nocturne. We can take a break and I'll play it for you later if you like.",
+      "target": "Target (granddaughter): Thanks, Grandma. I think a break sounds good. Maybe we can listen to some of your favorite songs together?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandmother): It was a beautiful Chopin nocturne. We can take a break and I'll play it for you later if you like. | Speaker B (granddaughter): Thanks, Grandma. I think a break sounds good. Maybe we can listen to some of your favorite songs together?",
+      "target": "Target (grandmother): That's a wonderful idea. I'm here to support your musical journey, whether we are playing or just listening.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (granddaughter): Thanks, Grandma. I think a break sounds good. Maybe we can listen to some of your favorite songs together? | Speaker B (grandmother): That's a wonderful idea. I'm here to support your musical journey, whether we are playing or just listening.",
+      "target": "Target (granddaughter): No worries, Grandma. I appreciate you being here for me. Let's enjoy some music together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandmother): That's a wonderful idea. I'm here to support your musical journey, whether we are playing or just listening. | Speaker B (granddaughter): No worries, Grandma. I appreciate you being here for me. Let's enjoy some music together.",
+      "target": "Target (grandmother): That's wonderful to hear, dear! I'm glad you're enjoying the piano. Keep up the great work!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (granddaughter): No worries, Grandma. I appreciate you being here for me. Let's enjoy some music together. | Speaker B (grandmother): That's wonderful to hear, dear! I'm glad you're enjoying the piano. Keep up the great work!",
+      "target": "Target (granddaughter): Thanks, Grandma! I'm really looking forward to it. Do you have a favorite song in mind to play next?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): That's wonderful to hear, dear! I'm glad you're enjoying the piano. Keep up the great work! | Speaker B (granddaughter): Thanks, Grandma! I'm really looking forward to it. Do you have a favorite song in mind to play next?",
+      "target": "Target (grandmother): It sounds like you're really getting the hang of the rhythm! I'm so proud of you for sticking with it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    }
+  ]
+}

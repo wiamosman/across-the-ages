@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): North and south off of 323, then you go down.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): North and south off of 323, then you go down.",
+    "target": "Speaker A (granddaughter) (Target): They gave me the address though, because I'm definitely gonna have—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): North and south off of 323, then you go down.\nSpeaker B (granddaughter): They gave me the address though, because I'm definitely gonna have—",
+    "target": "Speaker A (grandmother) (Target): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): They gave me the address though, because I'm definitely gonna have—\nSpeaker B (grandmother): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l",
+    "target": "Speaker A (granddaughter) (Target): like a little loop?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l\nSpeaker B (granddaughter): like a little loop?",
+    "target": "Speaker A (grandmother) (Target): yes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): like a little loop?\nSpeaker B (grandmother): yes!",
+    "target": "Speaker A (granddaughter) (Target): My GPS will probably take me right there because I'll definitely have to use my map.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): yes!\nSpeaker B (granddaughter): My GPS will probably take me right there because I'll definitely have to use my map.",
+    "target": "Speaker A (grandmother) (Target): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): My GPS will probably take me right there because I'll definitely have to use my map.\nSpeaker B (grandmother): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway?",
+    "target": "Speaker A (granddaughter) (Target): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway?\nSpeaker B (granddaughter): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line.",
+    "target": "Speaker A (grandmother) (Target): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (granddaughter): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line.\nSpeaker A (grandmother): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting.",
+    "target": "Speaker A (grandmother) (Target): And the way this is taking you is the way I go to Tyler if I don't have to go to Shannon's side.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandmother): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting.\nSpeaker B (grandmother): And the way this is taking you is the way I go to Tyler if I don't have to go to Shannon's side.",
+    "target": "Speaker A (granddaughter) (Target): Yeah. It'll take you to Grand Saline. You'll get off of Highway 80.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

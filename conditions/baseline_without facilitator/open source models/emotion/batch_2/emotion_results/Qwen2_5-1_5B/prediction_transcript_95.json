@@ -1,0 +1,451 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 95,
+    "utterances": [
+        {
+            "text": "He's live! Hi! Okay, so touch it.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Wait, it's loading.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Wait, it's coming. It's loading. It's going to load. It has to go somewhere and back. There he is! How beautiful! He's live!",
+            "golden": "excited",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Look at him! How you doing, dude? How you been? Long time no see. Yeah. Oh wait, there you are. Hi from Santa Barbara. So there's people—",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "You can type on there. There's people— If you wanted to say hi, you could type on there. You could like say, \"Hi, Manny,\" or anything you want.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Grandfather, say hi to everybody. I don't want to say it in front of you. Say hi, Periscope. I'm the brown guy.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "I'm getting behind the camera. We're broadcasting right now.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "There's people in here.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Hi everyone.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "We're teaching grandfather how to use Periscope. Yeah, he can travel the world without leaving his couch.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "He's gonna follow us to the beach.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Hey grandfather.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Join.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Yeah, other people are— look. grandfather, say hi to everybody. Say hi everyone over here. Say hi to the camera here. Hey, how are you guys doing?",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "We're having a great Sunday. Saturday.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Saturday. Whatever day, it's great. We have somebody watching from Greensville, South Carolina.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "So you can see all these people saying hi. We have somebody watching from Greensville, South Carolina. All the way from Carolina.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "How y'all doing? Everyone's saying hi, grandfather. How y'all doing back there? Somebody says hi from San Francisco. Oh, how's the Bay today? Hi, Johnny D. Hi, Nana. Yeah, yeah, yeah. Can you see them there? Yeah, we just say noisy. Hey, you got someone from Turkey too.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Grandfather, you're so high tech.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yeah, grandfather's so high-tech. He got Periscope and he got Snapchat.",
+            "golden": "happy",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Don't call me 'high-tech' like I'm a child learning to tie my shoes. I ran a business for forty years, I think I can handle a telephone without being patronized.",
+            "golden": "frustrated",
+            "predicted": "angry",
+            "raw": "angry"
+        },
+        {
+            "text": "I'm just complimenting you! Why are you getting so sensitive? It's just cool that you're doing this.",
+            "golden": "frustrated",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "It's not 'cool,' it's just a tool. You're talking about me to these strangers like I'm a trained parrot.",
+            "golden": "frustrated",
+            "predicted": "angry",
+            "raw": "angry"
+        },
+        {
+            "text": "Fine, forget it. Look, more people are joining. Look at the screen!",
+            "golden": "neutral",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "Everything is moving too fast. The words are flying up and these bubbles keep popping. I can't read a single name before it disappears. This is just a mess of colors, how do you focus on anything?",
+            "golden": "frustrated",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "What's going on up there? What about this Alaska thing? Woo! Yeah, grandfather's!",
+            "golden": "excited",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "You know what? Hearts, people!",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Give grandfather some hearts! Give grandfather some hearts. He needs some hearts.",
+            "golden": "happy",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "If you tap this, it makes hearts.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Oh, he's got a heart flutter.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Look at, we're watching it on like 3 screens. How did you do this? Tap it. Did it go away? No. Now other people are tapping on it.",
+            "golden": "neutral",
+            "predicted": "frustrated",
+            "raw": "frustrated"
+        },
+        {
+            "text": "Oh yeah, I see. So they can do it. Get on Meerkat, grandfather. Yeah, we'll get him on Meerkat next. He got Snapchat and he got Periscope today.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yeah. Oh, look, it's 60-year-old Nana here.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Hey, Megan loves grandfather. Oh, never too old.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "It's true. Good work, Nana.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Hey grandfather, people are saying you're cute. Don't make him blush.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "They don't know me.",
+            "golden": "neutral",
+            "predicted": "sadness",
+            "raw": "sadness"
+        },
+        {
+            "text": "He's a handsome looking guy, isn't he? He's the nicest grandfather.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yeah, I'm great.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "I'm great.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "I got all my teeth.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "He had one of his teeth pulled the other day.",
+            "golden": "neutral",
+            "predicted": "sadness",
+            "raw": "sadness"
+        },
+        {
+            "text": "Oh, that's great.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Megan Morris, I don't know who that is.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Well dressed.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "He's well dressed.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "He's a dapper dude.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "So true.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Hello, Virginia. That's it. He likes your swag comment. Yeah, great weather, great weather. Where are you? grandfather. Oh yeah, yeah, I got good jeans. That's great. That's granddaughter number 1 next to me. How many grandkids do you have now? I have 14 grandchildren now. Babe, they're saying that you're pretty. Oh, stop it. That's my wife right there. She's beautiful. She's a gorgeous lady. Scanning rain buckets here. I asked him what it was. Hi, Toronto. Because it's so cold. Oh, poor kids in Connecticut. All right, it's sunny in the desert.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Isn't that amazing? Look, 43 people are watching.",
+            "golden": "excited",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yeah, so he's right in the desert. So grandfather got Snapchat today, he got Periscope. What is he missing? Yeah, where else are you at? Periscope. What is he missing? Oh, nice view, huh? Why is that Chevy truck here? What year? '74. It's a '74. That's my father's. That's my son-in-law's.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "grandfather, what personality traits would you like to pass on to younger generations, and which one's winning?",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "grandfather, what personality traits would you like to pass on to future generations? Friendliness. What's the key to living a happy life? Future generations. Talking to everybody you can.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Living a happy life. That's true. Future generations. Talking to everybody you can. 43 at once, preferably.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yes, 43 at once. All of you at once. 78.",
+            "golden": "happy",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "All of you at once. Now you can talk to everyone in the world.",
+            "golden": "happy",
+            "predicted": "angry",
+            "raw": "angry"
+        },
+        {
+            "text": "grandfather, how old are you? He's 78, going on 25. How old are you?",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "78. And someone said they weren't talking about me being sexy, they were talking about you.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Yeah, grandfather is a good-looking dude. Whoa, grandfather, someone's—",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "there's some hearts, there's some hearts for you.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Here, wave at the camera, grandfather. Hey, we're gonna teach grandfather some other platforms. Yeah, thanks. We'll come on later on.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Follow us.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "We're gonna teach grandfather some other platforms.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Wild Stallion.",
+            "golden": "neutral",
+            "predicted": "neutral",
+            "raw": "neutral"
+        },
+        {
+            "text": "Oh God, we're gonna give him Instagram next.",
+            "golden": "happy",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Nope. Later, dude. No, you guys are fun.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Oh, grandfather's a single dude. He's available. Is that grandfather's wife?",
+            "golden": "happy",
+            "predicted": "sadness",
+            "raw": "sadness"
+        },
+        {
+            "text": "Hey, hey, something like that. Granddaughter, grandfather.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Yeah, are we late? Something like that.",
+            "golden": "neutral",
+            "predicted": "fear",
+            "raw": "fear"
+        },
+        {
+            "text": "Granddaughter, grandfather.",
+            "golden": "neutral",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "All right everyone, thank you for joining us. Hi from London, bye Shelly. Katie baby.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Thank you for joining us. Have a good day. Later, haters. Oh yeah, grandfather's a good-looking dude. He keeps healthy. Brazil. Oh yeah, grandfather's a good-looking dude. Yeah, we'll show more of grandfather later on. Okay. All right, have a great day, everybody. Say bye to everyone, grandfather.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Bye, world.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        },
+        {
+            "text": "Bye, world. Chat me back. Love you guys.",
+            "golden": "happy",
+            "predicted": "happy",
+            "raw": "happy"
+        }
+    ]
+}

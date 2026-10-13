@@ -1,0 +1,132 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how's your day going?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how's your day going?",
+    "target": "Speaker A (grandfather) (Target): Good morning! I'm glad you're excited. It's going to be a fun day learning how to use the lathe. Let's make sure we capture some good moments on video.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural flow in the conversation as he greets his grandson and shares"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how's your day going?\nSpeaker B (grandfather): Good morning! I'm glad you're excited. It's going to be a fun day learning how to use the lathe. Let's make sure we capture some good moments on video.",
+    "target": "Speaker A (grandson) (Target): Yeah, I'm really looking forward to it! Do you think we should use your phone or mine for the video?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the grandfather's flow and"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Good morning! I'm glad you're excited. It's going to be a fun day learning how to use the lathe. Let's make sure we capture some good moments on video.\nSpeaker B (grandson): Yeah, I'm really looking forward to it! Do you think we should use your phone or mine for the video?",
+    "target": "Speaker A (grandfather) (Target): Ah, using a leveler app is a smart idea. Technology can really help with precision. Let me know if you need any help with the calibration.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Yeah, I'm really looking forward to it! Do you think we should use your phone or mine for the video?\nSpeaker B (grandfather): Ah, using a leveler app is a smart idea. Technology can really help with precision. Let me know if you need any help with the calibration.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll definitely ask if I need help. I think I'll use my phone for the video since it's newer.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Ah, using a leveler app is a smart idea. Technology can really help with precision. Let me know if you need any help with the calibration.\nSpeaker B (grandson): Thanks, Grandpa! I'll definitely ask if I need help. I think I'll use my phone for the video since it's newer.",
+    "target": "Speaker A (grandfather) (Target): I see, precision is key for symmetry. It's impressive how technology can assist with such accuracy. Let me know if you need any help once the sensors are ready.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, acknowledging the importance of precision and"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (grandson): Thanks, Grandpa! I'll definitely ask if I need help. I think I'll use my phone for the video since it's newer.\nSpeaker B (grandfather): I see, precision is key for symmetry. It's impressive how technology can assist with such accuracy. Let me know if you need any help once the sensors are ready.",
+    "target": "Speaker A (grandmother) (Target): Good morning, dear! It sounds like you're having a wonderful time learning with your grandfather. I'm sure you'll do great with the lathe and the app. Just take your time and enjoy the process.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker B (grandfather): I see, precision is key for symmetry. It's impressive how technology can assist with such accuracy. Let me know if you need any help once the sensors are ready.\nSpeaker B (grandmother): Good morning, dear! It sounds like you're having a wonderful time learning with your grandfather. I'm sure you'll do great with the lathe and the app. Just take your time and enjoy the process.",
+    "target": "Speaker A (grandson) (Target): Good morning, Grandma! Thanks for the encouragement. I'm really excited to try out the lathe and see how the app helps with the project.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): Good morning, dear! It sounds like you're having a wonderful time learning with your grandfather. I'm sure you'll do great with the lathe and the app. Just take your time and enjoy the process.\nSpeaker B (grandson): Good morning, Grandma! Thanks for the encouragement. I'm really excited to try out the lathe and see how the app helps with the project.",
+    "target": "Speaker A (grandmother) (Target): It's okay, dear. Sometimes we learn new things as we go along. Just keep asking questions and you'll get the hang of it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (grandson): Good morning, Grandma! Thanks for the encouragement. I'm really excited to try out the lathe and see how the app helps with the project.\nSpeaker B (grandmother): It's okay, dear. Sometimes we learn new things as we go along. Just keep asking questions and you'll get the hang of it.",
+    "target": "Speaker A (grandfather) (Target): That's right, learning is a journey. If you ever feel stuck, just ask and we'll figure it out together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandmother): It's okay, dear. Sometimes we learn new things as we go along. Just keep asking questions and you'll get the hang of it.\nSpeaker B (grandfather): That's right, learning is a journey. If you ever feel stuck, just ask and we'll figure it out together.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I really appreciate the support. I'll definitely ask if I get stuck.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a standard backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): That's right, learning is a journey. If you ever feel stuck, just ask and we'll figure it out together.\nSpeaker B (grandson): Thanks, Grandpa! I really appreciate the support. I'll definitely ask if I get stuck.",
+    "target": "Speaker A (grandfather) (Target): I understand, it can be tiring. Maybe it's time for a little break? We can continue once you're refreshed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, acknowledging the"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate the support. I'll definitely ask if I get stuck.\nSpeaker B (grandfather): I understand, it can be tiring. Maybe it's time for a little break? We can continue once you're refreshed.",
+    "target": "Speaker A (grandson) (Target): A break sounds good. Maybe we can grab a snack together?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

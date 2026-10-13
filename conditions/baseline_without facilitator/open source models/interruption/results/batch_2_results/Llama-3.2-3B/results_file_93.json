@@ -1,0 +1,1722 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): All right, show me how to play chess.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): All right, show me how to play chess.",
+    "target": "Speaker A (grandson) (Target): That's the rook, that's the knight, that's the bishop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): All right, show me how to play chess.\nSpeaker B (grandson): That's the rook, that's the knight, that's the bishop.",
+    "target": "Speaker A (grandfather) (Target): Let me find my knight. So the horse is a knight?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): That's the rook, that's the knight, that's the bishop.\nSpeaker B (grandfather): Let me find my knight. So the horse is a knight?",
+    "target": "Speaker A (grandson) (Target): Yeah, that's a knight, this is a bishop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): Let me find my knight. So the horse is a knight?\nSpeaker B (grandson): Yeah, that's a knight, this is a bishop.",
+    "target": "Speaker A (grandfather) (Target): Hold on, how do I know a bishop? It's got the round top?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): Yeah, that's a knight, this is a bishop.\nSpeaker B (grandfather): Hold on, how do I know a bishop? It's got the round top?",
+    "target": "Speaker A (grandson) (Target): Yeah, the bishop—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): Hold on, how do I know a bishop? It's got the round top?\nSpeaker B (grandson): Yeah, the bishop—",
+    "target": "Speaker A (grandfather) (Target): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Yeah, the bishop—\nSpeaker B (grandfather): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.",
+    "target": "Speaker A (grandson) (Target): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.\nSpeaker B (grandson): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.",
+    "target": "Speaker A (grandfather) (Target): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (grandson): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.\nSpeaker A (grandfather): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.",
+    "target": "Speaker A (grandfather) (Target): No, that's a pawn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandfather): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.\nSpeaker B (grandfather): No, that's a pawn.",
+    "target": "Speaker A (grandson) (Target): Oh. The bishop, this is the bishop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): No, that's a pawn.\nSpeaker B (grandson): Oh. The bishop, this is the bishop.",
+    "target": "Speaker A (grandfather) (Target): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Oh. The bishop, this is the bishop.\nSpeaker B (grandfather): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.",
+    "target": "Speaker A (grandson) (Target): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandfather): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.\nSpeaker A (grandson): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.",
+    "target": "Speaker A (grandson) (Target): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.\nSpeaker A (grandson): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.",
+    "target": "Speaker A (grandson) (Target): That's so nice. I'm not— okay, let's start again. What is this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandson): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.\nSpeaker A (grandson): That's so nice. I'm not— okay, let's start again. What is this?",
+    "target": "Speaker A (grandson) (Target): Rook. Rick. Rick. Knight. Knight.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): That's so nice. I'm not— okay, let's start again. What is this?\nSpeaker A (grandson): Rook. Rick. Rick. Knight. Knight.",
+    "target": "Speaker A (grandson) (Target): Then you need to have a bishop. The one with the mouth. There it is. A bishop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandson): Rook. Rick. Rick. Knight. Knight.\nSpeaker A (grandson): Then you need to have a bishop. The one with the mouth. There it is. A bishop.",
+    "target": "Speaker A (grandson) (Target): Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Then you need to have a bishop. The one with the mouth. There it is. A bishop.\nSpeaker A (grandson): Yes.",
+    "target": "Speaker A (grandson) (Target): Queen. Right. Queen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandson): Yes.\nSpeaker B (grandson): Queen. Right. Queen.",
+    "target": "Speaker A (grandfather) (Target): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): Queen. Right. Queen.\nSpeaker B (grandfather): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?",
+    "target": "Speaker A (grandson) (Target): Uh, those are the pawns. You put the pawns on the front.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandfather): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?\nSpeaker B (grandson): Uh, those are the pawns. You put the pawns on the front.",
+    "target": "Speaker A (grandfather) (Target): Oh, the pawn. Okay, you know where the pawns are.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Uh, those are the pawns. You put the pawns on the front.\nSpeaker B (grandfather): Oh, the pawn. Okay, you know where the pawns are.",
+    "target": "Speaker A (grandson) (Target): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandfather): Oh, the pawn. Okay, you know where the pawns are.\nSpeaker B (grandson): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.",
+    "target": "Speaker A (grandfather) (Target): Okay, I got to be careful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.\nSpeaker B (grandfather): Okay, I got to be careful.",
+    "target": "Speaker A (grandson) (Target): I know it is pretty hard.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandfather): Okay, I got to be careful.\nSpeaker B (grandson): I know it is pretty hard.",
+    "target": "Speaker A (grandfather) (Target): Okay, now I just go— I fill every square like that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): I know it is pretty hard.\nSpeaker B (grandfather): Okay, now I just go— I fill every square like that.",
+    "target": "Speaker A (grandson) (Target): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandfather): Okay, now I just go— I fill every square like that.\nSpeaker B (grandson): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.",
+    "target": "Speaker A (grandfather) (Target): And so, so this guy, how much can I move? Yeah, the paw.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.\nSpeaker B (grandfather): And so, so this guy, how much can I move? Yeah, the paw.",
+    "target": "Speaker A (grandson) (Target): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandfather): And so, so this guy, how much can I move? Yeah, the paw.\nSpeaker B (grandson): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.",
+    "target": "Speaker A (grandfather) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.\nSpeaker B (grandfather): Okay.",
+    "target": "Speaker A (grandson) (Target): Yeah, I put it all right there. I could kick you out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandfather): Okay.\nSpeaker B (grandson): Yeah, I put it all right there. I could kick you out.",
+    "target": "Speaker A (grandfather) (Target): Can you kick me at that angle or straight forward?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): Yeah, I put it all right there. I could kick you out.\nSpeaker B (grandfather): Can you kick me at that angle or straight forward?",
+    "target": "Speaker A (grandson) (Target): No, no, like, oh, you only can go either to take someone out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandfather): Can you kick me at that angle or straight forward?\nSpeaker B (grandson): No, no, like, oh, you only can go either to take someone out.",
+    "target": "Speaker A (grandfather) (Target): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): No, no, like, oh, you only can go either to take someone out.\nSpeaker B (grandfather): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.",
+    "target": "Speaker A (grandson) (Target): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandfather): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.\nSpeaker B (grandson): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.",
+    "target": "Speaker A (grandfather) (Target): Okay, but if this guy's here, you can't get him, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.\nSpeaker B (grandfather): Okay, but if this guy's here, you can't get him, right?",
+    "target": "Speaker A (grandson) (Target): Oh yeah, I can't kick him out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandfather): Okay, but if this guy's here, you can't get him, right?\nSpeaker B (grandson): Oh yeah, I can't kick him out.",
+    "target": "Speaker A (grandfather) (Target): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker B (grandson): Oh yeah, I can't kick him out.\nSpeaker A (grandfather): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.",
+    "target": "Speaker A (grandfather) (Target): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker B (grandfather): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.\nSpeaker B (grandfather): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?",
+    "target": "Speaker A (grandson) (Target): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?\nSpeaker B (grandson): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.",
+    "target": "Speaker A (grandfather) (Target): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.\nSpeaker B (grandfather): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.",
+    "target": "Speaker A (grandson) (Target): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.\nSpeaker B (grandson): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.",
+    "target": "Speaker A (grandfather) (Target): Angles?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandson): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.\nSpeaker B (grandfather): Angles?",
+    "target": "Speaker A (grandson) (Target): Yeah, but that guy can only go 2 times and then one more doesn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandfather): Angles?\nSpeaker B (grandson): Yeah, but that guy can only go 2 times and then one more doesn.",
+    "target": "Speaker A (grandfather) (Target): Oh, and he turns?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandson): Yeah, but that guy can only go 2 times and then one more doesn.\nSpeaker B (grandfather): Oh, and he turns?",
+    "target": "Speaker A (grandson) (Target): Yeah, he only could go like—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandfather): Oh, and he turns?\nSpeaker B (grandson): Yeah, he only could go like—",
+    "target": "Speaker A (grandfather) (Target): How does— what can this guy do?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandson): Yeah, he only could go like—\nSpeaker B (grandfather): How does— what can this guy do?",
+    "target": "Speaker A (grandson) (Target): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandfather): How does— what can this guy do?\nSpeaker B (grandson): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?",
+    "target": "Speaker A (grandfather) (Target): Yeah. And what is the goal? What am I trying to do?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandson): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?\nSpeaker B (grandfather): Yeah. And what is the goal? What am I trying to do?",
+    "target": "Speaker A (grandson) (Target): Oh, you're trying to win. I can't move that guy anywhere, you win.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandfather): Yeah. And what is the goal? What am I trying to do?\nSpeaker B (grandson): Oh, you're trying to win. I can't move that guy anywhere, you win.",
+    "target": "Speaker A (grandfather) (Target): Oh, like if you can't move him?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandson): Oh, you're trying to win. I can't move that guy anywhere, you win.\nSpeaker B (grandfather): Oh, like if you can't move him?",
+    "target": "Speaker A (grandson) (Target): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandfather): Oh, like if you can't move him?\nSpeaker B (grandson): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.",
+    "target": "Speaker A (grandfather) (Target): Okay, here I go. Um, and I could only go one square at a time?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandson): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.\nSpeaker B (grandfather): Okay, here I go. Um, and I could only go one square at a time?",
+    "target": "Speaker A (grandson) (Target): No, you, you could go two with the pawn if you want.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandfather): Okay, here I go. Um, and I could only go one square at a time?\nSpeaker B (grandson): No, you, you could go two with the pawn if you want.",
+    "target": "Speaker A (grandfather) (Target): I can go one, two, or just one? Yeah, but I can't go that way.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandson): No, you, you could go two with the pawn if you want.\nSpeaker B (grandfather): I can go one, two, or just one? Yeah, but I can't go that way.",
+    "target": "Speaker A (grandson) (Target): You only could do that way cuz it came from mine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandfather): I can go one, two, or just one? Yeah, but I can't go that way.\nSpeaker B (grandson): You only could do that way cuz it came from mine.",
+    "target": "Speaker A (grandfather) (Target): Can these guys go sideways? These guys? Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandson): You only could do that way cuz it came from mine.\nSpeaker B (grandfather): Can these guys go sideways? These guys? Okay.",
+    "target": "Speaker A (grandson) (Target): You can't move them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandfather): Can these guys go sideways? These guys? Okay.\nSpeaker B (grandson): You can't move them.",
+    "target": "Speaker A (grandfather) (Target): I can what?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandson): You can't move them.\nSpeaker B (grandfather): I can what?",
+    "target": "Speaker A (grandson) (Target): You can't move them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandfather): I can what?\nSpeaker B (grandson): You can't move them.",
+    "target": "Speaker A (grandfather) (Target): Can't I take your guy out?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandson): You can't move them.\nSpeaker B (grandfather): Can't I take your guy out?",
+    "target": "Speaker A (grandson) (Target): No, when they're like that you can't move them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandfather): Can't I take your guy out?\nSpeaker B (grandson): No, when they're like that you can't move them.",
+    "target": "Speaker A (grandfather) (Target): Oh, I can only— if he's here I could take him out?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandson): No, when they're like that you can't move them.\nSpeaker B (grandfather): Oh, I can only— if he's here I could take him out?",
+    "target": "Speaker A (grandson) (Target): Yeah, but I'm not. But the robot's here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandfather): Oh, I can only— if he's here I could take him out?\nSpeaker B (grandson): Yeah, but I'm not. But the robot's here.",
+    "target": "Speaker A (grandfather) (Target): So you can't move my guy either?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandson): Yeah, but I'm not. But the robot's here.\nSpeaker B (grandfather): So you can't move my guy either?",
+    "target": "Speaker A (grandson) (Target): Yep.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandfather): So you can't move my guy either?\nSpeaker B (grandson): Yep.",
+    "target": "Speaker A (grandfather) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandson): Yep.\nSpeaker B (grandfather): Okay.",
+    "target": "Speaker A (grandson) (Target): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker B (grandfather): Okay.\nSpeaker A (grandson): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.",
+    "target": "Speaker A (grandson) (Target): Whoa, what is that guy? You want me to go? I told you this one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker B (grandson): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.\nSpeaker B (grandson): Whoa, what is that guy? You want me to go? I told you this one.",
+    "target": "Speaker A (grandfather) (Target): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Whoa, what is that guy? You want me to go? I told you this one.\nSpeaker B (grandfather): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.",
+    "target": "Speaker A (grandson) (Target): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.\nSpeaker B (grandson): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.",
+    "target": "Speaker A (grandfather) (Target): Hold on. Okay, are you trying? Which— can this guy go front and back?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.\nSpeaker B (grandfather): Hold on. Okay, are you trying? Which— can this guy go front and back?",
+    "target": "Speaker A (grandson) (Target): He only could go right back. Make it go—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker B (grandfather): Hold on. Okay, are you trying? Which— can this guy go front and back?\nSpeaker A (grandson): He only could go right back. Make it go—",
+    "target": "Speaker A (grandson) (Target): which one did you like? I'm going to take this. Oh, we're not done?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker B (grandson): He only could go right back. Make it go—\nSpeaker B (grandson): which one did you like? I'm going to take this. Oh, we're not done?",
+    "target": "Speaker A (granddaughter) (Target): Hey, Granny!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker B (grandson): which one did you like? I'm going to take this. Oh, we're not done?\nSpeaker B (granddaughter): Hey, Granny!",
+    "target": "Speaker A (grandfather) (Target): Oh, it goes in there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker B (granddaughter): Hey, Granny!\nSpeaker B (grandfather): Oh, it goes in there.",
+    "target": "Speaker A (grandson) (Target): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker B (grandfather): Oh, it goes in there.\nSpeaker B (grandson): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?",
+    "target": "Speaker A (granddaughter) (Target): No. No. You only could—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?\nSpeaker B (granddaughter): No. No. You only could—",
+    "target": "Speaker A (grandson) (Target): I already went.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker B (granddaughter): No. No. You only could—\nSpeaker B (grandson): I already went.",
+    "target": "Speaker A (grandfather) (Target): Oh, 1 if you're going to take it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker B (grandson): I already went.\nSpeaker B (grandfather): Oh, 1 if you're going to take it.",
+    "target": "Speaker A (granddaughter) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandfather): Oh, 1 if you're going to take it.\nSpeaker B (granddaughter): Yeah.",
+    "target": "Speaker A (grandfather) (Target): 2 if you're going to go straight.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (granddaughter): Yeah.\nSpeaker B (grandfather): 2 if you're going to go straight.",
+    "target": "Speaker A (granddaughter) (Target): Yeah, but if you only went, like you already went, you only could go 1 step at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): 2 if you're going to go straight.\nSpeaker B (granddaughter): Yeah, but if you only went, like you already went, you only could go 1 step at a time.",
+    "target": "Speaker A (grandfather) (Target): And this guy, You can go straight or that way.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker B (granddaughter): Yeah, but if you only went, like you already went, you only could go 1 step at a time.\nSpeaker B (grandfather): And this guy, You can go straight or that way.",
+    "target": "Speaker A (grandmother) (Target): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): And this guy, You can go straight or that way.\nSpeaker B (grandmother): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.",
+    "target": "Speaker A (grandfather) (Target): Or back. This guy would go all the way to there?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandmother): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.\nSpeaker B (grandfather): Or back. This guy would go all the way to there?",
+    "target": "Speaker A (grandmother) (Target): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): Or back. This guy would go all the way to there?\nSpeaker B (grandmother): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.",
+    "target": "Speaker A (grandfather) (Target): Oh, the bishop?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker B (grandmother): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.\nSpeaker A (grandfather): Oh, the bishop?",
+    "target": "Speaker A (grandfather) (Target): Wow, that's—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker B (grandfather): Oh, the bishop?\nSpeaker B (grandfather): Wow, that's—",
+    "target": "Speaker A (grandson) (Target): but, but, but if you went right there, yeah, look what I can do. I know, they look weird.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandfather): Wow, that's—\nSpeaker B (grandson): but, but, but if you went right there, yeah, look what I can do. I know, they look weird.",
+    "target": "Speaker A (grandfather) (Target): You can do some stuff right there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandson): but, but, but if you went right there, yeah, look what I can do. I know, they look weird.\nSpeaker B (grandfather): You can do some stuff right there.",
+    "target": "Speaker A (grandson) (Target): Yeah, I can kick you out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandfather): You can do some stuff right there.\nSpeaker B (grandson): Yeah, I can kick you out.",
+    "target": "Speaker A (grandfather) (Target): I'm going to go—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandson): Yeah, I can kick you out.\nSpeaker B (grandfather): I'm going to go—",
+    "target": "Speaker A (grandson) (Target): yeah, you want to eat some of your— you only could go one step at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandfather): I'm going to go—\nSpeaker B (grandson): yeah, you want to eat some of your— you only could go one step at a time.",
+    "target": "Speaker A (grandfather) (Target): The queen—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 95,
+    "context": "Speaker A (grandson): yeah, you want to eat some of your— you only could go one step at a time.\nSpeaker B (grandfather): The queen—",
+    "target": "Speaker A (grandson) (Target): no, he could. The king could only go one step at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 96,
+    "context": "Speaker A (grandfather): The queen—\nSpeaker B (grandson): no, he could. The king could only go one step at a time.",
+    "target": "Speaker A (grandfather) (Target): Direction.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 97,
+    "context": "Speaker A (grandson): no, he could. The king could only go one step at a time.\nSpeaker B (grandfather): Direction.",
+    "target": "Speaker A (grandson) (Target): Stepping. No, you—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 98,
+    "context": "Speaker A (grandfather): Direction.\nSpeaker B (grandson): Stepping. No, you—",
+    "target": "Speaker A (grandfather) (Target): he could go that way.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 99,
+    "context": "Speaker A (grandson): Stepping. No, you—\nSpeaker B (grandfather): he could go that way.",
+    "target": "Speaker A (grandson) (Target): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 100,
+    "context": "Speaker A (grandfather): he could go that way.\nSpeaker B (grandson): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.",
+    "target": "Speaker A (grandfather) (Target): She could.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 101,
+    "context": "Speaker A (grandson): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.\nSpeaker B (grandfather): She could.",
+    "target": "Speaker A (grandson) (Target): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 102,
+    "context": "Speaker A (grandfather): She could.\nSpeaker B (grandson): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.",
+    "target": "Speaker A (grandfather) (Target): So the queen's got a lot of power. Okay, I'm going to go. This is scary.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 103,
+    "context": "Speaker A (grandson): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.\nSpeaker B (grandfather): So the queen's got a lot of power. Okay, I'm going to go. This is scary.",
+    "target": "Speaker A (grandson) (Target): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 104,
+    "context": "Speaker B (grandfather): So the queen's got a lot of power. Okay, I'm going to go. This is scary.\nSpeaker B (grandson): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.",
+    "target": "Speaker A (granddaughter) (Target): I know. Are you tricking me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 105,
+    "context": "Speaker B (grandson): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.\nSpeaker B (granddaughter): I know. Are you tricking me?",
+    "target": "Speaker A (grandfather) (Target): Oops.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 106,
+    "context": "Speaker B (granddaughter): I know. Are you tricking me?\nSpeaker B (grandfather): Oops.",
+    "target": "Speaker A (grandson) (Target): Oh, it says Felicia.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 107,
+    "context": "Speaker A (grandfather): Oops.\nSpeaker B (grandson): Oh, it says Felicia.",
+    "target": "Speaker A (grandfather) (Target): Oh, I thought he could only move one spot.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 108,
+    "context": "Speaker A (grandson): Oh, it says Felicia.\nSpeaker B (grandfather): Oh, I thought he could only move one spot.",
+    "target": "Speaker A (grandson) (Target): No, you can't. I already told you. Wait, where was he?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 109,
+    "context": "Speaker A (grandfather): Oh, I thought he could only move one spot.\nSpeaker B (grandson): No, you can't. I already told you. Wait, where was he?",
+    "target": "Speaker A (grandfather) (Target): Oh yeah, he wasn't over there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 110,
+    "context": "Speaker A (grandson): No, you can't. I already told you. Wait, where was he?\nSpeaker B (grandfather): Oh yeah, he wasn't over there.",
+    "target": "Speaker A (grandson) (Target): Probably right—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 111,
+    "context": "Speaker A (grandfather): Oh yeah, he wasn't over there.\nSpeaker B (grandson): Probably right—",
+    "target": "Speaker A (grandfather) (Target): maybe that— yeah, somewhere.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 112,
+    "context": "Speaker A (grandson): Probably right—\nSpeaker B (grandfather): maybe that— yeah, somewhere.",
+    "target": "Speaker A (grandson) (Target): Wait, no, I didn't move them. They're right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 113,
+    "context": "Speaker A (grandfather): maybe that— yeah, somewhere.\nSpeaker B (grandson): Wait, no, I didn't move them. They're right here.",
+    "target": "Speaker A (grandfather) (Target): So now this guy can take that guy out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 114,
+    "context": "Speaker A (grandson): Wait, no, I didn't move them. They're right here.\nSpeaker B (grandfather): So now this guy can take that guy out.",
+    "target": "Speaker A (grandson) (Target): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 115,
+    "context": "Speaker B (grandfather): So now this guy can take that guy out.\nSpeaker B (grandson): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.",
+    "target": "Speaker A (grandmother) (Target): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 116,
+    "context": "Speaker A (grandson): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.\nSpeaker B (grandmother): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.",
+    "target": "Speaker A (grandson) (Target): I'm going to go here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 117,
+    "context": "Speaker B (grandmother): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.\nSpeaker A (grandson): I'm going to go here.",
+    "target": "Speaker A (grandson) (Target): And you know what, eventually think that man can smell like you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 118,
+    "context": "Speaker B (grandson): I'm going to go here.\nSpeaker B (grandson): And you know what, eventually think that man can smell like you.",
+    "target": "Speaker A (grandfather) (Target): Right now, what, what did you just do?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 119,
+    "context": "Speaker A (grandson): And you know what, eventually think that man can smell like you.\nSpeaker B (grandfather): Right now, what, what did you just do?",
+    "target": "Speaker A (grandson) (Target): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 120,
+    "context": "Speaker A (grandfather): Right now, what, what did you just do?\nSpeaker B (grandson): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.",
+    "target": "Speaker A (grandfather) (Target): Can this guy go sideways?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 121,
+    "context": "Speaker A (grandson): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.\nSpeaker B (grandfather): Can this guy go sideways?",
+    "target": "Speaker A (grandson) (Target): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 122,
+    "context": "Speaker A (grandfather): Can this guy go sideways?\nSpeaker B (grandson): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.",
+    "target": "Speaker A (grandfather) (Target): This guy only goes which ways?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 123,
+    "context": "Speaker A (grandson): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.\nSpeaker B (grandfather): This guy only goes which ways?",
+    "target": "Speaker A (grandson) (Target): He only could go front, back, right, left.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 124,
+    "context": "Speaker A (grandfather): This guy only goes which ways?\nSpeaker B (grandson): He only could go front, back, right, left.",
+    "target": "Speaker A (grandfather) (Target): So you could take this guy out?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 125,
+    "context": "Speaker A (grandson): He only could go front, back, right, left.\nSpeaker B (grandfather): So you could take this guy out?",
+    "target": "Speaker A (grandson) (Target): Yeah, yeah. If you go right there, see what happens.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 126,
+    "context": "Speaker A (grandfather): So you could take this guy out?\nSpeaker B (grandson): Yeah, yeah. If you go right there, see what happens.",
+    "target": "Speaker A (grandfather) (Target): What?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 127,
+    "context": "Speaker A (grandson): Yeah, yeah. If you go right there, see what happens.\nSpeaker B (grandfather): What?",
+    "target": "Speaker A (grandson) (Target): Go right there, see what happens.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 128,
+    "context": "Speaker A (grandfather): What?\nSpeaker B (grandson): Go right there, see what happens.",
+    "target": "Speaker A (grandfather) (Target): No way, this guy here will go back and get him. Good job.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 129,
+    "context": "Speaker A (grandson): Go right there, see what happens.\nSpeaker B (grandfather): No way, this guy here will go back and get him. Good job.",
+    "target": "Speaker A (grandson) (Target): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 130,
+    "context": "Speaker A (grandfather): No way, this guy here will go back and get him. Good job.\nSpeaker B (grandson): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.",
+    "target": "Speaker A (grandfather) (Target): You're doing good, man.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 131,
+    "context": "Speaker A (grandson): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.\nSpeaker B (grandfather): You're doing good, man.",
+    "target": "Speaker A (grandson) (Target): There was one way you could switch them, but I don't know how.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 132,
+    "context": "Speaker A (grandfather): You're doing good, man.\nSpeaker B (grandson): There was one way you could switch them, but I don't know how.",
+    "target": "Speaker A (grandfather) (Target): I got to think for a second. This is hard.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 133,
+    "context": "Speaker A (grandson): There was one way you could switch them, but I don't know how.\nSpeaker B (grandfather): I got to think for a second. This is hard.",
+    "target": "Speaker A (grandson) (Target): I know, it's a great game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 134,
+    "context": "Speaker A (grandfather): I got to think for a second. This is hard.\nSpeaker B (grandson): I know, it's a great game.",
+    "target": "Speaker A (grandfather) (Target): It is a great game.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 135,
+    "context": "Speaker A (grandson): I know, it's a great game.\nSpeaker B (grandfather): It is a great game.",
+    "target": "Speaker A (grandson) (Target): I know, it's pretty much over. I don't care. Now this guy can do what?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 136,
+    "context": "Speaker A (grandfather): It is a great game.\nSpeaker B (grandson): I know, it's pretty much over. I don't care. Now this guy can do what?",
+    "target": "Speaker A (grandfather) (Target): I gotta get over to— He's got your mic.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 137,
+    "context": "Speaker B (grandson): I know, it's pretty much over. I don't care. Now this guy can do what?\nSpeaker B (grandfather): I gotta get over to— He's got your mic.",
+    "target": "Speaker A (granddaughter) (Target): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 138,
+    "context": "Speaker A (grandfather): I gotta get over to— He's got your mic.\nSpeaker B (granddaughter): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.",
+    "target": "Speaker A (grandfather) (Target): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 139,
+    "context": "Speaker B (granddaughter): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.\nSpeaker B (grandfather): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.",
+    "target": "Speaker A (grandson) (Target): Ooh, great move! It's your turn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 140,
+    "context": "Speaker A (grandfather): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.\nSpeaker B (grandson): Ooh, great move! It's your turn.",
+    "target": "Speaker A (grandfather) (Target): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 141,
+    "context": "Speaker A (grandson): Ooh, great move! It's your turn.\nSpeaker B (grandfather): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.",
+    "target": "Speaker A (grandson) (Target): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 142,
+    "context": "Speaker A (grandfather): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.\nSpeaker B (grandson): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!",
+    "target": "Speaker A (grandfather) (Target): I know, man, that's terrible.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 143,
+    "context": "Speaker A (grandson): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!\nSpeaker B (grandfather): I know, man, that's terrible.",
+    "target": "Speaker A (grandson) (Target): Well, if you move that guy, I could go take him out, then I win.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 144,
+    "context": "Speaker A (grandfather): I know, man, that's terrible.\nSpeaker B (grandson): Well, if you move that guy, I could go take him out, then I win.",
+    "target": "Speaker A (grandfather) (Target): If I move this guy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 145,
+    "context": "Speaker A (grandson): Well, if you move that guy, I could go take him out, then I win.\nSpeaker B (grandfather): If I move this guy?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 146,
+    "context": "Speaker A (grandfather): If I move this guy?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): But if I don't move him, if you take him out, then I'll take that out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 147,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): But if I don't move him, if you take him out, then I'll take that out.",
+    "target": "Speaker A (grandson) (Target): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 148,
+    "context": "Speaker A (grandfather): But if I don't move him, if you take him out, then I'll take that out.\nSpeaker B (grandson): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.",
+    "target": "Speaker A (grandfather) (Target): I know, I saw the video. It was cute.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 149,
+    "context": "Speaker B (grandson): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.\nSpeaker B (grandfather): I know, I saw the video. It was cute.",
+    "target": "Speaker A (grandmother) (Target): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 150,
+    "context": "Speaker A (grandfather): I know, I saw the video. It was cute.\nSpeaker B (grandmother): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.",
+    "target": "Speaker A (grandfather) (Target): Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 151,
+    "context": "Speaker B (grandmother): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.\nSpeaker B (grandfather): Yes.",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 152,
+    "context": "Speaker A (grandfather): Yes.\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Was he like the, the first movie? Did you see the first one where he was a tire guy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 153,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Was he like the, the first movie? Did you see the first one where he was a tire guy?",
+    "target": "Speaker A (grandson) (Target): What?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 154,
+    "context": "Speaker A (grandfather): Was he like the, the first movie? Did you see the first one where he was a tire guy?\nSpeaker B (grandson): What?",
+    "target": "Speaker A (grandfather) (Target): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 155,
+    "context": "Speaker A (grandson): What?\nSpeaker B (grandfather): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.",
+    "target": "Speaker A (grandson) (Target): How does he— no, no, I already told— she didn't know. I bet she won't.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 156,
+    "context": "Speaker A (grandfather): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.\nSpeaker B (grandson): How does he— no, no, I already told— she didn't know. I bet she won't.",
+    "target": "Speaker A (grandfather) (Target): As far as she wants?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 157,
+    "context": "Speaker A (grandson): How does he— no, no, I already told— she didn't know. I bet she won't.\nSpeaker B (grandfather): As far as she wants?",
+    "target": "Speaker A (grandson) (Target): Yeah, like right now if you take me out, you came out with that pawn right there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 158,
+    "context": "Speaker A (grandfather): As far as she wants?\nSpeaker B (grandson): Yeah, like right now if you take me out, you came out with that pawn right there.",
+    "target": "Speaker A (grandfather) (Target): Oh, and then you get her with yours?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 159,
+    "context": "Speaker A (grandson): Yeah, like right now if you take me out, you came out with that pawn right there.\nSpeaker B (grandfather): Oh, and then you get her with yours?",
+    "target": "Speaker A (grandson) (Target): No.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 160,
+    "context": "Speaker A (grandfather): Oh, and then you get her with yours?\nSpeaker B (grandson): No.",
+    "target": "Speaker A (grandfather) (Target): Oh, if I did this, then you would take yours and get my queen?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 161,
+    "context": "Speaker A (grandson): No.\nSpeaker B (grandfather): Oh, if I did this, then you would take yours and get my queen?",
+    "target": "Speaker A (grandson) (Target): No, he only could go one at a time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 162,
+    "context": "Speaker A (grandfather): Oh, if I did this, then you would take yours and get my queen?\nSpeaker B (grandson): No, he only could go one at a time.",
+    "target": "Speaker A (grandfather) (Target): Oh, that's the king?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 163,
+    "context": "Speaker A (grandson): No, he only could go one at a time.\nSpeaker B (grandfather): Oh, that's the king?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 164,
+    "context": "Speaker A (grandfather): Oh, that's the king?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Oh, that's the queen, and this is the queen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 165,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Oh, that's the queen, and this is the queen.",
+    "target": "Speaker A (grandson) (Target): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 166,
+    "context": "Speaker A (grandfather): Oh, that's the queen, and this is the queen.\nSpeaker B (grandson): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.",
+    "target": "Speaker A (grandfather) (Target): Okay, I see. That makes sense.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 167,
+    "context": "Speaker B (grandson): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.\nSpeaker A (grandfather): Okay, I see. That makes sense.",
+    "target": "Speaker A (grandfather) (Target): You can't go here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 168,
+    "context": "Speaker B (grandfather): Okay, I see. That makes sense.\nSpeaker B (grandfather): You can't go here.",
+    "target": "Speaker A (granddaughter) (Target): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 169,
+    "context": "Speaker A (grandfather): You can't go here.\nSpeaker B (granddaughter): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?",
+    "target": "Speaker A (grandfather) (Target): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 170,
+    "context": "Speaker B (granddaughter): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?\nSpeaker B (grandfather): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.",
+    "target": "Speaker A (grandmother) (Target): Who won? Grandpa, who won? Yes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 171,
+    "context": "Speaker B (grandfather): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.\nSpeaker B (grandmother): Who won? Grandpa, who won? Yes!",
+    "target": "Speaker A (grandson) (Target): Grandpa.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

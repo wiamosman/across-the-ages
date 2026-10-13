@@ -1,0 +1,1002 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 26,
+    "utterances": [
+        {
+            "text": "Hello, everybody. Welcome back to our channel. Today I'm with Nono and we're at my mom's house. My mom purchased a new house recently, and my grandfather. Actually. You found a crack in the foundation. Right. So today we're gonna fix the crack and we're gonna show you how my Nono does it.",
+            "golden": "greeting",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "The crack. See this here?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I want you to cut where the crack is. Can I sand it where the crack is?",
+            "golden": "command",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The speaker is"
+        },
+        {
+            "text": "That's what I'm doing.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer\n\nExplanation: The Target is"
+        },
+        {
+            "text": "Y. Take this here and just give a small little tap.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "The whole way.",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "No, no, Just a little bit.",
+            "golden": "disagreement",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, but the whole way down.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nExplanation: The speaker is"
+        },
+        {
+            "text": "Yeah, all the way down where the crack is.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nExplanation: The target utter"
+        },
+        {
+            "text": "It's chipping more off is what you want.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, that's what I want.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "You said gently.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (You said"
+        },
+        {
+            "text": "Gently. Yeah. Now scrape it. Take all the chips off. That's right. That's one. There's another crack over here.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Let me sand it first.",
+            "golden": "statement-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So I had to explain. So everybody knows. What steps did you do to fix this?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Remove the dirt with the sandpaper.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And make a little bit larger the crack. Make it a little larger.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (The speaker is giving"
+        },
+        {
+            "text": "Bigger, yeah.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Yeah."
+        },
+        {
+            "text": "And then we're gonna put silicone.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm not gonna use cement.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Some people use purging cement. Yeah, purging I don't like on the crack.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You know why it's not strong?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Because the purging, if the house shifts, it cracks. The silicone will never crack.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Right. A little bit loose here. I can see it. There you go.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "This is silicone.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Concrete sealant.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Concrete sealant.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Did you get a new dispenser, A new caulking gun?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No, that's Nick's. Mine, I don't know.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "response-answer\n\nExplanation: The"
+        },
+        {
+            "text": "My uncle's. I think yours is in my house still. No, no.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\nagreement\ndis"
+        },
+        {
+            "text": "Oh.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's why he gave me a caulking gun to do my basement.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "It's under years old.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "It is so old. You have to. It takes 20 minutes to get a dropout. So now he's using my uncle's. His son's caulking. This is much better.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I use that because you took mine.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yours just has to be thrown out. It's terrible.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, put a little bit oil there. Oil.",
+            "golden": "disagreement",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "It doesn't work anymore. The mechanism's broken.",
+            "golden": "disagreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The statement"
+        },
+        {
+            "text": "Bring to me.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "You gonna fix it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I'll fix it.",
+            "golden": "answer",
+            "predicted": "command",
+            "raw": "command\nagreement (assuming \"You gonna"
+        },
+        {
+            "text": "All right. Stay tuned. Next video. He's gonna fix it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Put a bit of this caulking inside of the crack. Put all the way. All the way.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Don't waste it.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (warning or advice)"
+        },
+        {
+            "text": "Here we go.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You gotta go here.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I know. I want you to.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "This is really thin.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah. I thought it'd be thicker than that.",
+            "golden": "agreement",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I thought so too, but so to do that.",
+            "golden": "agreement",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "What's that, Nona?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "This is cement. Barging cement. I put this there. You know why?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\nstatement-non-"
+        },
+        {
+            "text": "Why?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "This dries on the surface.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And when it's dry, you cannot take the cement out no more.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, no.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's stuck with. This is really, really watery. I never used it before. Put a little better there.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (describ"
+        },
+        {
+            "text": "Junior, how much you want?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Go ahead. More. Okay, go put a little bit on the crack.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\nExplanation: The target utter"
+        },
+        {
+            "text": "So you mixed it with the parsing cement.",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And you made it thicker.",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah. There, it's done.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Don't you have to take the dry stuff off or you wait till it dries?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Wait until it's dry. Now you can cover the rolls up.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Wait, you don't need it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The Target is"
+        },
+        {
+            "text": "No, we don't need no more. It's all done.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Did you think it went deeper than that? Is that why?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, I thought it was deeper, but it's not.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Which is good, right?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Very good.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "So not only the foundation, but we're also going to fix a gap that my nono doesn't like at the side of the house. And we're also going to fix a different crack in the driveway. Right, Right. So a couple different concrete jobs today. Let's get started here.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "See, the barging came off. See, I'm going to fix it. Okay, you got to wet the cement.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (describ"
+        },
+        {
+            "text": "Okay, explain why. Why am I wetting this right now?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "For the viewers, because the parging, all cement always sticks better if it's wet surface.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "So nono also found some broken parging here. So next we're going to fix this.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I want to make sure the parging sticks there. So I'm going to put a little glue. A little glue on it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Give me it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "See if you can do it.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "This is why the young guy's here.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I need a plier.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (This is incorrect."
+        },
+        {
+            "text": "You don't need a plier. Yeah, I go to the gym. This is why I go to the gym.",
+            "golden": "disagreement",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nExplanation"
+        },
+        {
+            "text": "Oh, good.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You know. You know how you say use the garden? This is why I go to the gym.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, good.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So this is concrete fortifier.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion. (Ex"
+        },
+        {
+            "text": "Yeah. I put this there.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And then I use a little bit mixed with the cement so it acts like a glue. Acts like a glue? Yeah, it's really strong. I don't want stu. He got enough on the brush.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (regarding"
+        },
+        {
+            "text": "Enough?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah. Do all of it now I need some water.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "The concrete master strikes again.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Julian, anybody can do this. You just gotta know what you need to do.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay, let me start it and then you do It.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Give me that. You do it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "You guys ready for him to yell at me? Watch. Ready.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nExplanation: The speaker is"
+        },
+        {
+            "text": "Put it on and push it in.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\nExplanation: The target utter"
+        },
+        {
+            "text": "Down, up or up? Down.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The Target is"
+        },
+        {
+            "text": "Up. Don't go on the aluminum.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "I'm gonna take it off after.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You gotta go almost flat.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, I was more in an angle, Right?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You gotta go flat. See, I can reach it.",
+            "golden": "answer",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "See, I didn't drop it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No, he did a better job than I did.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Almost flat. Because when you go flat, you leave more on.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The statement"
+        },
+        {
+            "text": "I see. Okay. Yeah, that's much better. So is it similar to fixing a plaster wall? No, no.",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "acknowledge, statement-non-opinion,"
+        },
+        {
+            "text": "Like a same thing. Jump. We gotta wait a little longer. This has gotta set. It's time. Now put a little texture to the. To the spot today. Now, the trouble is, this is good. See, that's the same color as this, but this dirt here.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Change the color.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (The speaker is express"
+        },
+        {
+            "text": "Change the color. Brown, Right.",
+            "golden": "answer",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "The texture looks good now, though.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, that's good enough. Because it's drying too fast. It's hot. Right. This is going to be next. I think we do this first.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-opinion\nacknow"
+        },
+        {
+            "text": "Let's do it. I found something. Little nail and nail.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "That's good to have a flat tire. Scrub. Take the dust out this rack here. I'll show you how to do it.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion (The speaker is express"
+        },
+        {
+            "text": "I think I got all the dust out.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Good. It's nice and clean. Now caulk it. Put one coat of caulking over it. Fill it up. Julian, you did not fill it up.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nExplanation: The speaker is"
+        },
+        {
+            "text": "I'll go back. It's okay. So you like this because it'll. If it shifts, it'll be able to.",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "It's flexible.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Flexible, Yeah.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I got some cement here, and I'm gonna put some chips. They use these chips for epoxy. For epoxy?",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Where'd you get that from? You got that from somebody, didn't you? Yeah, from. From. From my uncle's epoxy job. You took some?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nExplanation: The target utter"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "I knew you took some.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "They gave to me. I didn't take it. The cement will give the color of the cement. Right. And the chips look like a stone.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\nstatement-"
+        },
+        {
+            "text": "You mix both, right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "That blends in pretty good.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "How do you think of that idea?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I don't think. I. Just go ahead and do it. See, you don't see the crack. This is waterproof, right? The water will not go in the crack. And there's a better chance the frost will not lift it. But it's too wide. Too much water goes there.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Yeah, but it's slanted away, right?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (The speaker"
+        },
+        {
+            "text": "Yeah, but when it rains, the water goes in. You think for. Guaranteed. I don't want no water going on my foundation.",
+            "golden": "disagreement",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nExplanation"
+        },
+        {
+            "text": "So how much of the gap you want to seal?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "All of it. And then we do have the other way. Don't breathe the dust.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nEx"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Don't breathe. Do not breathe. Now breathe.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel\n\nExplanation: The target"
+        },
+        {
+            "text": "So now I'm shoving in this newspaper because we realize these holes are too deep.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "So.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, no. Said put papers in there, and we're gonna fill it with cement. This is very sketchy. DIY Tell the people why you don't like this gap.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "disagreement\n\nExplanation: The speaker"
+        },
+        {
+            "text": "Dirt goes on it.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Dirt? Yeah, leaves.",
+            "golden": "agreement",
+            "predicted": "others",
+            "raw": "others (mention of leaves is unrelated to"
+        },
+        {
+            "text": "Leaves and debris.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion."
+        },
+        {
+            "text": "Debris.",
+            "golden": "backchannel",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "And it's hard to clean.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "We don't like debris.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "No.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You also said water could get in, right?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion (assuming"
+        },
+        {
+            "text": "Well, yeah, when it rains. Yeah.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Teamwork, Nono.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agreement",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "And then you. You perfected it. Good job. Okay, so tasks are done.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-opinion\nstatement-"
+        },
+        {
+            "text": "All finished.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Fixed.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Fixed.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Thanks for watching, and we'll see you on the next video.",
+            "golden": "others",
+            "predicted": "acknowledge",
+            "raw": "acknowledgement\n\nExplanation: The"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Ciao. Bye for now.",
+            "golden": "others",
+            "predicted": "greeting",
+            "raw": "greeting\n\nExplanation: The target"
+        },
+        {
+            "text": "Bye. Bye, Pe.",
+            "golden": "others",
+            "predicted": "greeting",
+            "raw": "Bye (greeting) - This is a"
+        }
+    ]
+}

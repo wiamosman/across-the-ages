@@ -1,0 +1,663 @@
+{
+  "video_id": "audio05",
+  "duration": "0:08:02.470",
+  "title": "Cooking Okra Soup With My Grandma",
+  "utterances": [
+{
+"speaker": "granddaughter",
+"text": "Hi Grandpa! How have you been lately?",
+"intent": "greet",
+"dialogue_act": "greeting",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Good morning, my dear Nubuke! I'm doing well, thank you for asking. I woke up bright and early today, ready to spend some lovely time with you. As for cooking, I was thinking we could make your favorite dish today. How does that sound?",
+"intent": "greet",
+"dialogue_act": "greeting",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "That sounds wonderful, Grandma! I can't wait to cook together. What dish are we making today?",
+"intent": "ask for help",
+"dialogue_act": "question",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Oh, Nubuke, I'm so glad you're excited to learn! Okra soup is such a delightful dish, and I'm thrilled to share this cooking experience with you and everyone watching. As for your question, I think knowing how to cook is a wonderful skill. It brings people together and allows you to create something nourishing and special. But everyone has different interests, so it's perfectly fine if cooking isn't everyone's cup of tea.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "happy",
+"generation_gap_indicator": "ignored input"
+},
+{
+"speaker": "granddaughter",
+"text": "Wait, I didn't ask whether cooking is a good skill. I asked what dish we're making. You answered a question I didn't ask.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "ignored input"
+},
+{
+"speaker": "grandmother",
+"text": "I was expanding on your enthusiasm. You said 'I can't wait to cook together.' That invited a broader response.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "It invited an answer to 'what dish.' Not a lecture on cooking philosophy.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "ignored input"
+},
+{
+"speaker": "grandmother",
+"text": "It wasn't a lecture. It was context. I was setting the stage.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "The stage is set. I just need the dish name.",
+"intent": "ask for help",
+"dialogue_act": "command",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Okra soup. I said that in my second sentence.",
+"intent": "inform",
+"dialogue_act": "statement-non-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "You said it, but then you kept going. I stopped listening because you went off topic.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "ignored input"
+},
+{
+"speaker": "grandmother",
+"text": "You stopped listening? That's rude.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "perceived disrespect"
+},
+{
+"speaker": "granddaughter",
+"text": "It's not rude. It's self-preservation. When someone talks too long, I tune out.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Too long? I spoke for thirty seconds.",
+"intent": "oppose",
+"dialogue_act": "statement-non-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Thirty seconds of not answering the question feels like forever.",
+"intent": "complain",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "I did answer. Okra soup. Then I elaborated.",
+"intent": "inform",
+"dialogue_act": "statement-non-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Elaboration before confirmation is confusing. Say the answer, then pause.",
+"intent": "advise",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Pause? So you can interrupt me instead?",
+"intent": "asking for opinions",
+"dialogue_act": "question",
+"emotion": "frustrated",
+"generation_gap_indicator": "perceived disrespect"
+},
+{
+"speaker": "granddaughter",
+"text": "I wouldn't interrupt if you gave me a clear stopping point.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "My stopping point was after 'cup of tea.' That was the end.",
+"intent": "inform",
+"dialogue_act": "statement-non-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "But by then I had already tuned out. You lost me in the middle.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "ignored input"
+},
+{
+"speaker": "grandmother",
+"text": "So it's my fault you weren't paying attention?",
+"intent": "asking for opinions",
+"dialogue_act": "question",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "It's both our faults. You didn't read my need for brevity. I didn't track your long answer.",
+"intent": "acknowledge",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Brevity is not my strength. I like to explain.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Explain after the short answer. Not instead of it.",
+"intent": "advise",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Short answers feel incomplete to me.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Incomplete to you. Perfect to me.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Different needs.",
+"intent": "acknowledge",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Different needs that clash.",
+"intent": "emphasize",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Clashing needs in a kitchen. What a surprise.",
+"intent": "joke",
+"dialogue_act": "statement-opinion",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Okay. Okra soup. What do we need?",
+"intent": "ask for help",
+"dialogue_act": "question",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Finally, you're engaged. We need fresh okra, goat meat, palm oil, onions, peppers, and spices.",
+"intent": "inform",
+"dialogue_act": "answer",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Goat meat? I thought we were using chicken.",
+"intent": "doubt",
+"dialogue_act": "question",
+"emotion": "surprise",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "You assumed chicken. I said goat meat. You interrupted my list with your assumption.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "perceived disrespect"
+},
+{
+"speaker": "granddaughter",
+"text": "I didn't interrupt. I responded after you paused.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "I paused to breathe. Not to invite a menu change.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Your pause sounded like a stopping point.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Every pause is not a stopping point. Sometimes it's just breathing.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Then breathe quieter. Or say 'continuing.'",
+"intent": "advise",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "'Continuing.' Like a GPS.",
+"intent": "joke",
+"dialogue_act": "statement-opinion",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Yes. Like a GPS. Clear signals.",
+"intent": "agree",
+"dialogue_act": "agreement",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "I'm not a machine. I'm your grandmother.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Grandmothers can give clear signals too.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Grandmothers give love. Not traffic directions.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Love with clarity. Is that too much to ask?",
+"intent": "asking for opinions",
+"dialogue_act": "question",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "It feels like too much. Like I'm being graded.",
+"intent": "express emotions or attitudes",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "perceived disrespect"
+},
+{
+"speaker": "granddaughter",
+"text": "I'm not grading you. I'm trying to understand the recipe.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "The recipe is in my head. Not on paper.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Then speak it clearly. Step by step.",
+"intent": "advise",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Step by step. Like a robot.",
+"intent": "taunt",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Like a teacher. Teachers give steps.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "I'm not a teacher. I'm a cook.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Cooks teach. That's how recipes survive.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Recipes survive through doing. Not talking.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "granddaughter",
+"text": "But we're filming. Talking is necessary.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Filming complicates everything.",
+"intent": "complain",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "It doesn't have to. Just answer my questions directly.",
+"intent": "advise",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Direct answers feel cold.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Cold but clear. Warm but confusing is worse.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Worse to you. Better to me.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Then we're at an impasse.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "An impasse in the kitchen. With soup to make.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Let's make the soup. You lead. I'll follow silently.",
+"intent": "arrange",
+"dialogue_act": "command",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Silently? You won't ask questions?",
+"intent": "asking for opinions",
+"dialogue_act": "question",
+"emotion": "surprise",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "I'll ask when you're clearly done. Not during.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "During is when questions matter most.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "granddaughter",
+"text": "During is when they cause confusion.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Confusion for you. Clarity for me.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "How is a question during a step clear?",
+"intent": "asking for opinions",
+"dialogue_act": "question",
+"emotion": "frustrated",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "It prevents mistakes before they happen.",
+"intent": "explain",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "granddaughter",
+"text": "Preventing mistakes by causing interruptions. That's counterproductive.",
+"intent": "criticize",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "grandmother",
+"text": "Counterproductive to you. Productive to me.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "method divergence"
+},
+{
+"speaker": "granddaughter",
+"text": "Then we can't cook together effectively.",
+"intent": "conclude",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "We can. We just need to accept our differences.",
+"intent": "advise",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Accepting differences doesn't mean ignoring problems.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "frustrated",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Problems are in the eye of the beholder.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "I behold problems. You behold personality.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Personality is not a problem.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Unless it prevents understanding.",
+"intent": "oppose",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "grandmother",
+"text": "Understanding takes time. More than one soup session.",
+"intent": "inform",
+"dialogue_act": "statement-opinion",
+"emotion": "neutral",
+"generation_gap_indicator": "none"
+},
+{
+"speaker": "granddaughter",
+"text": "Then let's start with this soup. And hope for understanding by dessert.",
+"intent": "plan",
+"dialogue_act": "statement-opinion",
+"emotion": "happy",
+"generation_gap_indicator": "none"
+}
+],
+  "ablation_variant": "no_interruption",
+  "ablation_config": {
+    "use_intent": true,
+    "use_dialogue_act": true,
+    "use_emotion": true,
+    "use_interruption": false,
+    "use_gap": true
+  }
+}

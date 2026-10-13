@@ -1,0 +1,181 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 102,
+  "utterances": [
+    {
+      "text": "Hey Grandma, how's your day going? I'm setting up my live stream!",
+      "golden": "greet",
+      "predicted": "invite",
+      "raw": "invite\n\nUtterance: I"
+    },
+    {
+      "text": "I'm glad to hear that! What are you excited about with this streaming?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help or inform (depending"
+    },
+    {
+      "text": "I'm excited about the new video game I just got! I want to show people how to play it.",
+      "golden": "inform",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "Yeah, it's got amazing graphics and a great storyline. Do you want to see the setup sometime?",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "It's really cool, Grandma! I think you'd enjoy seeing the colors. Maybe we can stream together.",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, I see! So the red light is important to know if the broadcast is on?",
+      "golden": "confirm",
+      "predicted": "unknown",
+      "raw": "understand\n\nActually, I'"
+    },
+    {
+      "text": "Yeah, the red light shows when the stream is live. It's pretty handy!",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain\n\nUtterance: I"
+    },
+    {
+      "text": "Alright, I'm coming over. Let's see what you've got there for the show.",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Great! I'm sure you'll love it. Let's get the camera started!",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Yes, I can see the lens clearly now. What do you want to show me on the monitor?",
+      "golden": "asking for opinions",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "I wanted to show you how I talk to people in the chat. It's really fun and interactive!",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Oh, I see. So the people watching might not see me here in the room?",
+      "golden": "doubt",
+      "predicted": "emphasize",
+      "raw": "hide (or: emphasize, depending"
+    },
+    {
+      "text": "No, they won't see you unless you sit by me. Do you want to try saying hi?",
+      "golden": "explain",
+      "predicted": "prevent",
+      "raw": "prevent\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, that's great! I'm glad I can say hello to your friends.",
+      "golden": "acknowledge",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Actually, they can't see you yet because the camera is off. Want me to show you how to turn it on?",
+      "golden": "explain",
+      "predicted": "unknown",
+      "raw": "offer help\n\nUtterance:"
+    },
+    {
+      "text": "Oh, I understand now. So there's a little delay in what the audience is seeing?",
+      "golden": "doubt",
+      "predicted": "unknown",
+      "raw": "understand\n\nUtterance: I"
+    },
+    {
+      "text": "Yes, there's a small delay. They see what we do a few seconds later. Let me show you.",
+      "golden": "explain",
+      "predicted": "prevent",
+      "raw": "prevent"
+    },
+    {
+      "text": "Ah, I see. Thank you for explaining how the internet carries the video.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "You're welcome! If you want, we can try starting a short stream together now.",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Oh, I get it now. So I need to stay within the camera's view for them to see me during the live?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "understand\n\nExplanation: The"
+    },
+    {
+      "text": "Exactly! Just make sure you're in the camera's view, and you'll be part of the broadcast.",
+      "golden": "explain",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Oh, I see! So I just need to be mindful of where the camera is pointing. Thank you for helping me understand.",
+      "golden": "confirm",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "No problem! Let me know if you have any other questions about the streaming platform.",
+      "golden": "comfort",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, I didn't mean to sound worried. I just meant it's a bit strange to think about many people watching.",
+      "golden": "complain",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I understand, dear. It's just a new way to communicate for me to get used to.",
+      "golden": "acknowledge",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I get it, it can be a bit weird at first. But once you start chatting, it becomes second nature.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "If you ever feel uncomfortable, we can just turn the camera off and figure it out together.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I see, dear. It sounds like a lot of fun and a great way to connect with others. I'm glad you're sharing this with me.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort\n\nUtterance: I"
+    },
+    {
+      "text": "I'm really happy you're open to learning about streaming, Grandma. It's always more fun when we do it together.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort\n\nUtterance: I"
+    }
+  ]
+}

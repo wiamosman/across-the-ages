@@ -1,0 +1,538 @@
+{
+  "model_used": "Mistral-7B",
+  "file_index": 23,
+  "utterances": [
+    {
+      "text": "Hello dear, how have you been? It's always so nice to catch up with you.",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nContext: A conversation between two friends.",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, thank you. It's great to catch up with you too. How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nExplanation: The speaker is gre",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad to hear that! Have you been up to anything exciting lately?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "ask for information\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, I've been busy with my studies, but I did go to a fun concert last weekend! How about you, have you done anything exciting?",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nExplanation: The speaker is",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful! Is there anything in particular you'd like to share with me? I always love hearing about your adventures.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "ask for help\nor\ncomfort\n\nBased on the",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! Well, at the concert, I got to see one of my favorite bands live, and it was such an amazing experience. I also met some new friends there. What about you? Have you been working on any new knitting projects or maybe gardening?",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank, inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, that sounds lovely! Pumpkins are such a joy to grow, especially when they start turning orange. Are you planning to carve them for Halloween or maybe make some delicious pumpkin pie?",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "I haven't decided yet, but both carving and making pie sound like fun ideas! Maybe I could try both. Do you have any special pumpkin pie recipes you could share with me?",
+      "golden": "ask for help",
+      "predicted": "inform",
+      "raw": "ask for help, inform (regarding sharing pumpkin pie",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad to hear that, dear! Pumpkins can bring so much joy, especially during this time of year. Do you need any help or tips on how to make the most out of your pumpkin harvest?",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "It's wonderful that you love it! If you ever want to try a new recipe or need any gardening tips, just let me know. I'm always here to help!",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer help\n\nPrevious Utterance Context:\n-",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you so much, Grandma! I would love to try your pumpkin pie recipe. And if you have any tips on carving, that would be awesome too!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, how lovely! Knitting a scarf sounds like such a cozy project, especially as the weather gets cooler. What color are you using? I'd love to hear more about it.",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm using a deep burgundy color for the scarf. It's such a rich and warm color, perfect for fall! Do you have any favorite knitting patterns you think I should try?",
+      "golden": "inform",
+      "predicted": "advise",
+      "raw": "advise\n\nExplanation: The speaker is asking for",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful! Knitting can be so relaxing and rewarding. If you need any tips or patterns, I'd be happy to share some with you. What kind of yarn are you using?",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "offer help, advise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm using a soft wool blend yarn. It's really nice to work with and feels great against the skin. I'd love to see any patterns you recommend!",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nExplanation: The speaker is",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you're enjoying it, dear! Knitting can be such a wonderful way to express creativity. If you ever want to share your progress or need any advice, I'm here for you. How is the scarf coming along?",
+      "golden": "asking for opinions",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you, Grandma! The scarf is coming along nicely. I really appreciate your support and would love to show you my progress soon. Do you have a favorite pattern that you think would be fun to try next?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank, ask for help, inform",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad to hear you're making progress! If you ever feel like sharing a picture of your scarf, I'd love to see it. It's always exciting to see how a project comes together!",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'll definitely send you a picture soon, Grandma! It's so motivating to have your encouragement. Do you have any tips for adding a fringe to the scarf?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's such a wonderful story, dear! It's amazing how our fingers can remember things like that. I'm so proud of you for picking it back up again. If you ever want to learn new techniques or patterns, I'd be delighted to help. Do you have any new projects in mind after the scarf?",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise, advise, comfort, ask for help, emphasize",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It's wonderful to hear how your love for knitting has grown over the years. It's like riding a bike, isn't it? Once you learn, you never really forget. I'm curious to know what you plan to knit next. Maybe a hat or a cozy blanket?",
+      "golden": "praise",
+      "predicted": "plan",
+      "raw": "ask for opinions, plan",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you, Grandma! I was thinking of trying a hat next, actually. Your support means a lot to me. Do you have any favorite patterns or yarns you recommend for a beginner hat?",
+      "golden": "ask for help",
+      "predicted": "thank",
+      "raw": "thank, ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's perfectly okay, dear! Sometimes it's nice to just focus on one project at a time. If you ever feel inspired to try something new, I'm here to brainstorm ideas with you. How is your day going otherwise?",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! My day is going well, just a bit busy with work and all. I really appreciate your offer to help with brainstorming new ideas. Maybe we can chat more about it over the weekend?",
+      "golden": "arrange",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, it sounds like something might be bothering you. I'm here to listen if you want to share more about what's on your mind. Sometimes talking things through can help.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you, Grandma. It's just the usual work stress, but I really appreciate your offer to listen. It helps to know you're there for me. Maybe we can have a nice chat about it when things are less hectic?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, I see! Sometimes doing things in reverse can be a fun way to mix things up. If you ever need any help or just want to chat, I'm always here for you. Is there anything else you'd like to talk about or share?",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. I think a chat over the weekend would be perfect. Maybe we can also talk about your week? I'd love to hear how you've been doing.",
+      "golden": "arrange",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Alright, dear. If there's ever anything you want to talk about or need help with, just let me know. I'm always here for you. How about we plan to do something fun together soon?",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a great idea, Grandma! Maybe we can go for a walk in the park or try a new recipe together. Let me know what you'd prefer!",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear that! Maybe we can think of something special to do together. Do you have any ideas in mind, or would you like me to suggest a few options?",
+      "golden": "plan",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Take your time to think about it, dear. We can plan something that you'll enjoy. Whether it's a cozy day at home or an outing, I'm sure we'll have a wonderful time together. Just let me know when you're ready to decide.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Whenever you feel like sharing your thoughts or ideas, I'm here to listen. And remember, no rush at all. We can take our time to plan something that you'll truly enjoy. How about we start with something simple, like a movie night or baking together?",
+      "golden": "plan",
+      "predicted": "comfort",
+      "raw": "advise, comfort",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I love the idea of a movie night or baking together. Maybe we can bake some cookies and watch a classic film. What do you think?",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank, asking for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh my, it sounds like something caught your attention! Is there anything exciting happening, or did something surprise you? I'm curious to know what's on your mind.",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "ask for opinions\n\nExplanation: The speaker is",
+      "status": "WRONG"
+    },
+    {
+      "text": "I hope it's something good that surprised you! If you want to share, I'm all ears. And if it's something you'd like to keep to yourself, that's perfectly fine too. Just know I'm here for you, dear.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I see you're surprised, dear! If there's anything you'd like to talk about or share, I'm here to listen. Whether it's something exciting or just a little unexpected, I'm interested in hearing all about it.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is continuing the",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for being so supportive, Grandma! I was just thinking about how much fun we could have with our movie night and baking. Maybe we can make it a regular thing if it goes well!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, I see you're counting something! Is it part of a game or something you're working on? I'm curious to know more about it, if you'd like to share.",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Counting can be quite fun! Are you working on a project or just playing around with numbers? Whatever it is, I'm here to help if you need anything or just want to chat about it.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you're keeping track of something interesting! If you feel like sharing what those numbers mean, I'd love to hear about it. And if it's just a fun little thing you're doing, that's wonderful too!",
+      "golden": "care",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is inviting",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I'm just counting the number of steps I take each day. It's part of a fitness app challenge I'm doing. It's kind of fun to see how much I walk without even realizing it!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, Gilmore Girls! That's a lovely show. I remember watching it a while back. It's full of interesting characters and stories. Are you enjoying it? I'd love to hear what you think about it!",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "discuss, specifically asking for opinions about Gilmore Girls.",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It's wonderful to hear you're enjoying Gilmore Girls! It's such a charming show with lots of heartwarming moments. Do you have a favorite character or episode so far? I'm curious to hear your thoughts!",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Gilmore Girls has such a special place in many people's hearts. I remember how much I enjoyed the relationship between Lorelai and Rory. It's wonderful that you're watching it too! Is there a particular scene or storyline that has caught your attention?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad you're watching Gilmore Girls! It's such a delightful show. I remember how much I enjoyed the witty banter and the close-knit relationships. If you ever want to chat about the episodes or characters, I'm all ears!",
+      "golden": "comfort",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is extending an",
+      "status": "WRONG"
+    },
+    {
+      "text": "It's great to hear you're enjoying Gilmore Girls! It's such a delightful show with so many memorable moments. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is inviting",
+      "status": "WRONG"
+    },
+    {
+      "text": "It's wonderful that you're enjoying Gilmore Girls! I remember how much I loved the dynamic between Lorelai and Rory. If you have any favorite scenes or quotes, I'd love to hear about them. It's always fun to share thoughts on such a charming show!",
+      "golden": "asking for opinions",
+      "predicted": "introduce",
+      "raw": "discuss, introduce, or ask for opinions (discuss is",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you're really enjoying Gilmore Girls! It's such a lovely show with so many memorable moments. If you ever want to share your thoughts or favorite scenes, I'm here to listen. It's always fun to chat about shows we love!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm so glad you're enjoying Gilmore Girls! It's such a delightful show. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is inviting",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really love the witty banter between Lorelai and Rory. One of my favorite scenes is when they have their Friday night dinners with Emily. It's always so entertaining! Do you have a favorite character?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "discuss, inform (focusing on sharing favorite characters or scenes",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, I guess I got a bit carried away with my questions! I just love hearing about your thoughts on the show. If there's anything specific you'd like to share or talk about, I'm here to listen!",
+      "golden": "apologize",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "No worries, Grandma! I love talking about it with you. I think my favorite character might be Lorelai because she's so independent and funny. Who's yours?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "discuss, ask for opinions (discuss is not in the",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you enjoy hearing my thoughts! I really appreciate that. So, who's your favorite character in the show? I'm curious to know!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nExplanation: The speaker is",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you're enjoying our chat! Gilmore Girls is such a fun show to talk about. If there's anything else you'd like to discuss or share, I'm all ears. It's always nice to hear your thoughts!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort\n\nExplanation: The speaker is expressing",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It's lovely to see you enjoying our conversation! If you have any other shows or topics you're interested in, feel free to share. I'm always here to chat and learn about what you love!",
+      "golden": "comfort",
+      "predicted": "greet",
+      "raw": "greet\n\nExplanation: The speaker is wel",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really enjoying our conversation too! If you ever want to dive into another show or topic, just let me know. It's always a pleasure to hear what you're interested in!",
+      "golden": "comfort",
+      "predicted": "plan",
+      "raw": "compliment\n\nExplanation: The speaker is expressing",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you! I love chatting with you too. How about we talk about something new? Have you watched any good movies lately?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank, ask\n\nExplanation: The speaker is",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I'm sorry if I misunderstood! It seems like I might have lost track. Could you help me clarify what you meant by five and four? I'm here to listen and understand.",
+      "golden": "confirm",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, no worries! I think there might have been a mix-up. I was just asking if you've seen any good movies recently. I'd love to hear your recommendations!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you for clarifying, dear. I appreciate you helping me keep track. If there's anything else you'd like to discuss or if you have any questions, feel free to let me know!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Of course! I'm always happy to chat with you. So, have you seen any movies lately that you enjoyed? Or maybe there's something else you'd like to talk about?",
+      "golden": "asking for opinions",
+      "predicted": "invite",
+      "raw": "invite\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, it sounds like something might be bothering you. Is there anything specific that's making you feel frustrated? I'm here to listen and help if I can.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I'm not frustrated at all! I was just curious about your movie recommendations. But thank you for checking in, it means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I understand, dear. It sounds like something is uncomfortable for you. Is it something you're wearing or perhaps a situation you're in? Let me know if there's anything I can do to help or if you just need to talk about it.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you for being so caring, Grandma! I'm really okay, just interested in hearing about any good movies you've seen. I promise I'm all ears for your recommendations!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Ah, I see you're listing numbers. Are you working on something related to math or maybe a pattern? I'm curious to learn more about what you're doing!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I wasn't listing numbers, Grandma! I was just eager to hear about your movie picks. But I'd love to share what I'm working on if you're interested!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform\n\nPrevious Utterance Context:\n- Text",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It sounds like you're working with numbers. Are you trying to solve a problem or maybe playing a game? I'm interested in what you're doing and would love to hear more about it.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Actually, I'm not working with numbers at all, Grandma! I was just really excited to hear about your movie recommendations. But I can tell you about my project if you're curious. It's more about designing than numbers.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Hmm, it seems like you're sharing numbers with me. Are you working on a sequence or maybe counting something specific? I'm here to help if you need any assistance or just want to chat about what you're doing!",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "offer help\n\nPrevious Utterance Context:\n-",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I see where the confusion might be coming from! I'm actually working on a design project, not numbers. But I'd love to hear your thoughts on it or any movie recommendations you have!",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "invite\n\nExplanation: The speaker is inviting",
+      "status": "WRONG"
+    },
+    {
+      "text": "I see you've mentioned the number 4 a few times now. Is there a particular reason you're focusing on this number? Maybe it's part of a game or a puzzle you're working on? I'm here if you want to share more about it!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I think there might be a misunderstanding! I haven't been focusing on the number 4 at all. My project is more about creating visual designs. But I'm really interested in hearing your movie recommendations. What have you been watching lately?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nPrevious Utterance Context:",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear that! It sounds like you're on the right track. If you have any questions or need help, feel free to ask. I'm always here to support you!",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort\n\nPrevious Utterance Context:\n- Text",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you so much for your support, Grandma! It means a lot to me. I actually do have a question about color combinations. Do you have any favorite color pairings that you think work well together?",
+      "golden": "ask for help",
+      "predicted": "unknown",
+      "raw": "ask for opinions\n\nPrevious Utterance Context: (",
+      "status": "WRONG"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 38,
+    "utterances": [
+        {
+            "text": "I think I can reach the pedal.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: You"
+        },
+        {
+            "text": "Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+            "golden": "refuse",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: I"
+        },
+        {
+            "text": "And then between where I can touch that little arrow.",
+            "golden": "inform",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+            "golden": "criticize",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+            "golden": "oppose",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Fine. Turn?",
+            "golden": "agree",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+            "golden": "praise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Yes.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay, cool. Good job.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I"
+        }
+    ]
+}

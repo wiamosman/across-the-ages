@@ -1,0 +1,61 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 83,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That sounds productive! Are you trying to finish everything up quickly?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Exactly, I'm just trying to get through my assignments faster. It's a bit overwhelming sometimes.",
+      "golden": "inform",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "Ah, I see! It's like when I'm working on a sewing project. It's great to be efficient, but just be careful not to rush too much or the stitches might be uneven.",
+      "golden": "advise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That's a really good point, Grandpa. Quality matters in schoolwork too. Thanks for the advice!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I think so too! Taking your time can help you understand the material better, just like making sure a sewing needle is in good condition for the fabric.",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'll definitely keep that in mind while I finish my history essay. I appreciate your perspective!",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad we could chat about it. Finding a good rhythm for your work is a wonderful way to succeed.",
+      "golden": "comfort",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    }
+  ]
+}

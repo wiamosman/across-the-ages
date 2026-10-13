@@ -1,0 +1,199 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 80,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "That's good to hear! What did you do at school today?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It was mostly lectures, but I finished a big project I've been working on.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "You always work so hard. Is it the one about the history of horses?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Exactly, Grandma! I was talking about that history project, specifically the part about horses.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, dear, if you need help proofreading anything, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma. I'll let you know if I need a second pair of eyes.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to hear that, dear. Is there anything else special you want to share about your day?",
+      "golden": "question",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Well, I did get an A on my math test, which was pretty exciting!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, an A in math! That's wonderful! Was it a very difficult test?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "It was quite a challenge, but I studied really hard for it.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I see! You really earned that grade. Let's see if we can celebrate that for you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Would you like to go see the stables together later to celebrate?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Sure, I'd love to go see the horses with you later!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's lovely, dear. If you change your mind, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'll let you know if anything changes.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, sweetheart. If there's anything else you'd like to do, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I really appreciate how thoughtful you are, Grandma. Maybe we can also bake some cookies together later?",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, baking cookies sounds like a treat! Should we make the ones with the chess patterns?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a great idea! Chess cookies would be perfect for our afternoon.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, what are you showing me on your screen, dear?",
+      "golden": "question",
+      "predicted": "others",
+      "raw": "others"
+    },
+    {
+      "text": "I'm showing you the recipe for the cookies we can bake together. Do you want to take a look?",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I see! That's a very clear list of instructions, dear.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great! Let's start with gathering the ingredients. Do you have everything we need?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I should have it all. It reminds me of when I used to play chess with your grandpa while waiting for the oven.",
+      "golden": "statement-non-opinion",
+      "predicted": "others",
+      "raw": "others"
+    },
+    {
+      "text": "I love hearing those stories! Maybe we can play a match while our cookies are baking?",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'd like that. I'll even show you how to move the knight effectively; it's the piece that moves in an L-shape.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I'd love that! The knight is one of my favorite pieces because of its unique move.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, I'll take the white pieces then. Let's have a fun game!",
+      "golden": "agreement",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Great! I'll set up the board now. I'm excited to see how this match goes.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Okay, let's start. I'm looking forward to it!",
+      "golden": "command",
+      "predicted": "greeting",
+      "raw": "greeting"
+    }
+  ]
+}

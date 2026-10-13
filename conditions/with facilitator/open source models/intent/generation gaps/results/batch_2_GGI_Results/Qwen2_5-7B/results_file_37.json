@@ -1,0 +1,183 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 37,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (granddaughter): Hi Grandpa! My day was pretty good, thanks for asking. How about yours?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (granddaughter): Hi Grandpa! My day was pretty good, thanks for asking. How about yours?",
+      "target": "Target (grandfather): Oh no, that sounds serious. Do you need help getting it fixed?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (granddaughter): Hi Grandpa! My day was pretty good, thanks for asking. How about yours? | Speaker B (grandfather): Oh no, that sounds serious. Do you need help getting it fixed?",
+      "target": "Target (granddaughter): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!",
+      "gold_label": "ignored input",
+      "predicted_label": "ignored input",
+      "raw": "ignored input"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Oh no, that sounds serious. Do you need help getting it fixed? | Speaker B (granddaughter): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!",
+      "target": "Target (grandfather): It sounds like you're having a tough time with the car. Do you want me to come over and help?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (granddaughter): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help! | Speaker B (grandfather): It sounds like you're having a tough time with the car. Do you want me to come over and help?",
+      "target": "Target (granddaughter): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): It sounds like you're having a tough time with the car. Do you want me to come over and help? | Speaker B (granddaughter): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.",
+      "target": "Target (grandfather): I'm sorry if I made you feel that way. I just wanted to make sure you're safe.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (granddaughter): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help. | Speaker B (grandfather): I'm sorry if I made you feel that way. I just wanted to make sure you're safe.",
+      "target": "Target (granddaughter): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): I'm sorry if I made you feel that way. I just wanted to make sure you're safe. | Speaker B (granddaughter): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.",
+      "target": "Target (grandfather): Alright, I'll let you handle it. Just let me know if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (granddaughter): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it. | Speaker B (grandfather): Alright, I'll let you handle it. Just let me know if you need anything.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): Alright, I'll let you handle it. Just let me know if you need anything. | Speaker B (granddaughter): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!",
+      "target": "Target (grandfather): The gas pedal is on the right, just press it gently.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best! | Speaker B (grandfather): The gas pedal is on the right, just press it gently.",
+      "target": "Target (granddaughter): Got it, Grandpa! I'll be careful. Thanks for the tip!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): The gas pedal is on the right, just press it gently. | Speaker B (granddaughter): Got it, Grandpa! I'll be careful. Thanks for the tip!",
+      "target": "Target (grandfather): It's alright, everyone makes mistakes. Just take your time and try again.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (granddaughter): Got it, Grandpa! I'll be careful. Thanks for the tip! | Speaker B (grandfather): It's alright, everyone makes mistakes. Just take your time and try again.",
+      "target": "Target (granddaughter): Thanks, Grandpa. I really appreciate your patience with me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): It's alright, everyone makes mistakes. Just take your time and try again. | Speaker B (granddaughter): Thanks, Grandpa. I really appreciate your patience with me.",
+      "target": "Target (grandfather): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa. I really appreciate your patience with me. | Speaker B (grandfather): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.",
+      "target": "Target (granddaughter): I'll keep practicing, Grandpa. Thanks for being so supportive!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help. | Speaker B (granddaughter): I'll keep practicing, Grandpa. Thanks for being so supportive!",
+      "target": "Target (grandfather): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (granddaughter): I'll keep practicing, Grandpa. Thanks for being so supportive! | Speaker B (grandfather): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'll keep at it and hopefully get better soon.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time. | Speaker B (granddaughter): Thanks, Grandpa! I'll keep at it and hopefully get better soon.",
+      "target": "Target (grandfather): Haha, just like in the movies! You're doing great, keep it up.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll keep at it and hopefully get better soon. | Speaker B (grandfather): Haha, just like in the movies! You're doing great, keep it up.",
+      "target": "Target (granddaughter): Haha, thanks! I hope I can be as good as you one day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): Haha, just like in the movies! You're doing great, keep it up. | Speaker B (granddaughter): Haha, thanks! I hope I can be as good as you one day.",
+      "target": "Target (grandfather): Take a deep breath, you're doing fine. Just go slow and steady, and you'll get it right.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (granddaughter): Haha, thanks! I hope I can be as good as you one day. | Speaker B (grandfather): Take a deep breath, you're doing fine. Just go slow and steady, and you'll get it right.",
+      "target": "Target (granddaughter): Thanks for the encouragement, Grandpa. I'll keep practicing and take it slow.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

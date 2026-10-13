@@ -1,0 +1,73 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 61,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Ah, I see. Technology makes things so convenient these days, doesn't it?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it does make things easier, but sometimes it can be overwhelming with all the notifications and updates.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I understand, it's amazing how things have changed. I remember when we had to do everything manually.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's crazy to think about how much has changed. Sometimes I wonder how you managed without all this tech.",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds very efficient indeed. It's fascinating how technology can simplify everyday tasks.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's definitely made things more convenient, but sometimes I feel like I'm always connected and can't escape.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I get that. It's like we're always expected to be available, and it can be overwhelming sometimes.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Exactly, it's like there's no off switch. Do you ever feel like things were simpler back then?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's a great point. Every little bit helps when it comes to conserving resources.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

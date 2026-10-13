@@ -1,0 +1,1039 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 93,
+    "utterances": [
+        {
+            "text": "All right, show me how to play chess.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "That's the rook, that's the knight, that's the bishop.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Let me find my knight. So the horse is a knight?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, that's a knight, this is a bishop.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Hold on, how do I know a bishop? It's got the round top?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, the bishop—",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, that's a pawn.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh. The bishop, this is the bishop.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's so nice. I'm not— okay, let's start again. What is this?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Rook. Rick. Rick. Knight. Knight.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Then you need to have a bishop. The one with the mouth. There it is. A bishop.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Queen. Right. Queen.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Uh, those are the pawns. You put the pawns on the front.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Oh, the pawn. Okay, you know where the pawns are.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, I got to be careful.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I know it is pretty hard.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, now I just go— I fill every square like that.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And so, so this guy, how much can I move? Yeah, the paw.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I put it all right there. I could kick you out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Can you kick me at that angle or straight forward?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No, no, like, oh, you only can go either to take someone out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay, but if this guy's here, you can't get him, right?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh yeah, I can't kick him out.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.",
+            "golden": "statement-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Angles?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, but that guy can only go 2 times and then one more doesn.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, and he turns?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, he only could go like—",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "How does— what can this guy do?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah. And what is the goal? What am I trying to do?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Oh, you're trying to win. I can't move that guy anywhere, you win.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Oh, like if you can't move him?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay, here I go. Um, and I could only go one square at a time?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, you, you could go two with the pawn if you want.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I can go one, two, or just one? Yeah, but I can't go that way.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You only could do that way cuz it came from mine.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Can these guys go sideways? These guys? Okay.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can't move them.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I can what?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "You can't move them.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Can't I take your guy out?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, when they're like that you can't move them.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, I can only— if he's here I could take him out?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, but I'm not. But the robot's here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So you can't move my guy either?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yep.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Whoa, what is that guy? You want me to go? I told you this one.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Hold on. Okay, are you trying? Which— can this guy go front and back?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "He only could go right back. Make it go—",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "which one did you like? I'm going to take this. Oh, we're not done?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Hey, Granny!",
+            "golden": "greeting",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Oh, it goes in there.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No. No. You only could—",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I already went.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, 1 if you're going to take it.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "2 if you're going to go straight.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, but if you only went, like you already went, you only could go 1 step at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And this guy, You can go straight or that way.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Or back. This guy would go all the way to there?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, the bishop?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wow, that's—",
+            "golden": "backchannel",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "but, but, but if you went right there, yeah, look what I can do. I know, they look weird.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can do some stuff right there.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, I can kick you out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm going to go—",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "yeah, you want to eat some of your— you only could go one step at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "The queen—",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "no, he could. The king could only go one step at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Direction.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Stepping. No, you—",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "he could go that way.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "She could.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So the queen's got a lot of power. Okay, I'm going to go. This is scary.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I know. Are you tricking me?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oops.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, it says Felicia.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, I thought he could only move one spot.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, you can't. I already told you. Wait, where was he?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh yeah, he wasn't over there.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Probably right—",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "maybe that— yeah, somewhere.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wait, no, I didn't move them. They're right here.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So now this guy can take that guy out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm going to go here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And you know what, eventually think that man can smell like you.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Right now, what, what did you just do?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Can this guy go sideways?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "This guy only goes which ways?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "He only could go front, back, right, left.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "So you could take this guy out?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, yeah. If you go right there, see what happens.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Go right there, see what happens.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "No way, this guy here will go back and get him. Good job.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You're doing good, man.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "There was one way you could switch them, but I don't know how.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I got to think for a second. This is hard.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I know, it's a great game.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "It is a great game.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I know, it's pretty much over. I don't care. Now this guy can do what?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I gotta get over to— He's got your mic.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Ooh, great move! It's your turn.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I know, man, that's terrible.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, if you move that guy, I could go take him out, then I win.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "If I move this guy?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "But if I don't move him, if you take him out, then I'll take that out.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "I know, I saw the video. It was cute.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yes.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Was he like the, the first movie? Did you see the first one where he was a tire guy?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "What?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "How does he— no, no, I already told— she didn't know. I bet she won't.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "As far as she wants?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, like right now if you take me out, you came out with that pawn right there.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, and then you get her with yours?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, if I did this, then you would take yours and get my queen?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, he only could go one at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, that's the king?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, that's the queen, and this is the queen.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, I see. That makes sense.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You can't go here.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Who won? Grandpa, who won? Yes!",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Grandpa.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        }
+    ]
+}

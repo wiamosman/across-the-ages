@@ -1,0 +1,111 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 29,
+    "utterances": [
+        {
+            "text": "Let's see, because you want to be able to play this for her. Remember, yeah. OK, now we're going to sing out loud",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm not feeling",
+            "status": "WRONG"
+        },
+        {
+            "text": "C, C, C. G. A",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "The last utterance \"C, C, C. G",
+            "status": "WRONG"
+        },
+        {
+            "text": "G..",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "A,A, E,E,E",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge (This could also be interpretated as a confirmation or",
+            "status": "WRONG"
+        },
+        {
+            "text": "Comes down. D. D. D. Oh, which finger?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "C...",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "compress (this is not a valid intent from the given list",
+            "status": "WRONG"
+        },
+        {
+            "text": " C. Good job. Okay, now do it again. Keep going. The song's still on. ",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ohhh  C, C, C. G. C. Oh, Ummmm , A ,A ,C",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oop! Look at your note, Betty.  No. What is this?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "E?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, E. Good job.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I don't think",
+            "status": "CORRECT"
+        },
+        {
+            "text": "E. E. E. ",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "Which hand? Oh, which hand plays that?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ahhh this",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "emit: \"expressing emotion\" (this is not a",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yes.  Very good. Good job.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I don't think",
+            "status": "CORRECT"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 6,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Hi Grandpa! How have you been lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Hi Grandpa! How have you been lately?",
+            "target": "Target (grandmother): Oh, that sounds wonderful! I would love to learn how to make lawia with you. It's always nice to share recipes and cooking tips, especially ones that hold such special memories. Maybe we can cook it together sometime and you can show me all the steps your grandma taught you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Hi Grandpa! How have you been lately? | Speaker B (grandmother): Oh, that sounds wonderful! I would love to learn how to make lawia with you. It's always nice to share recipes and cooking tips, especially ones that hold such special memories. Maybe we can cook it together sometime and you can show me all the steps your grandma taught you.",
+            "target": "Target (granddaughter): That sounds like a great idea! I'd love to cook lawia with you and share those memories. How about we plan a day next week to do it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Oh, that sounds wonderful! I would love to learn how to make lawia with you. It's always nice to share recipes and cooking tips, especially ones that hold such special memories. Maybe we can cook it together sometime and you can show me all the steps your grandma taught you. | Speaker B (granddaughter): That sounds like a great idea! I'd love to cook lawia with you and share those memories. How about we plan a day next week to do it?",
+            "target": "Target (grandmother): Ah, squash is such a versatile ingredient! It must add a lovely texture and flavor to the stew. I'm curious, what other ingredients go into lawia? I'd love to hear more about it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): That sounds like a great idea! I'd love to cook lawia with you and share those memories. How about we plan a day next week to do it? | Speaker B (grandmother): Ah, squash is such a versatile ingredient! It must add a lovely texture and flavor to the stew. I'm curious, what other ingredients go into lawia? I'd love to hear more about it.",
+            "target": "Target (granddaughter): Sure, Grandpa! Besides squash, we usually add tomatoes, onions, garlic, and sometimes a bit of chili for some heat. It's really about balancing the flavors. Do you have any favorite ingredients you'd like to try adding?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Ah, squash is such a versatile ingredient! It must add a lovely texture and flavor to the stew. I'm curious, what other ingredients go into lawia? I'd love to hear more about it. | Speaker B (granddaughter): Sure, Grandpa! Besides squash, we usually add tomatoes, onions, garlic, and sometimes a bit of chili for some heat. It's really about balancing the flavors. Do you have any favorite ingredients you'd like to try adding?",
+            "target": "Target (grandmother): It seems like squash is a key ingredient in lawia! I'm really intrigued by how it complements the other flavors. If there's anything else you'd like to share about the recipe or the cooking process, I'm all ears. It's always fascinating to learn about different dishes and their origins.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Sure, Grandpa! Besides squash, we usually add tomatoes, onions, garlic, and sometimes a bit of chili for some heat. It's really about balancing the flavors. Do you have any favorite ingredients you'd like to try adding? | Speaker B (grandmother): It seems like squash is a key ingredient in lawia! I'm really intrigued by how it complements the other flavors. If there's anything else you'd like to share about the recipe or the cooking process, I'm all ears. It's always fascinating to learn about different dishes and their origins.",
+            "target": "Target (grandmother): Thank you for sharing that with me. It's wonderful to learn about the ingredients that make lawia so special. If you ever feel like cooking together, just let me know. I'd love to join you and learn more about this delicious stew!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

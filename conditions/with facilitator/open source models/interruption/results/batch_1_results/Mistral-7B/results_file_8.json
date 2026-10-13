@@ -1,0 +1,772 @@
+[
+  {
+    "index": 0,
+    "context": "CONVERSATION HISTORY: No prior context (Start of dialogue).",
+    "target": "Speaker A (grandmother) (Target): Hello, my dear! How have you been lately?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Hello, my dear! How have you been lately?\n- Emotion: happy\n- Intent: greet\n- Dialogue Act: greeting\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Hi Grandma! I've been doing well, just busy with school and everything. How about you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Hi Grandma! I've been doing well, just busy with school and everything. How about you?\n- Emotion: happy\n- Intent: greet\n- Dialogue Act: greeting\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, are you asking about the dinner? I made a lovely casserole with some fresh herbs and spices. Do you want the recipe?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, are you asking about the dinner? I made a lovely casserole with some fresh herbs and spices. Do you want the recipe?\n- Emotion: neutral\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds delicious, Grandma! I'd love to have the recipe. Maybe I can try making it this weekend.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds delicious, Grandma! I'd love to have the recipe. Maybe I can try making it this weekend.\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, dear, I think you might be talking about the dish from the other night. It was actually lamb, not goat. Sometimes the aroma can be quite similar, but I assure you it was lamb. Would you like to try cooking it together sometime?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: Since Speaker A is not interrupting"
+  },
+  {
+    "index": 5,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, dear, I think you might be talking about the dish from the other night. It was actually lamb, not goat. Sometimes the aroma can be quite similar, but I assure you it was lamb. Would you like to try cooking it together sometime?\n- Emotion: neutral\n- Intent: explain\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, my mistake! I would love to cook it together with you. It sounds like a fun way to spend time together and learn from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, my mistake! I would love to cook it together with you. It sounds like a fun way to spend time together and learn from you.\n- Emotion: happy\n- Intent: apologize\n- Dialogue Act: apology\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, are you asking if they have similar flavors? Lamb and goat can taste quite similar, but they each have their unique qualities. If you're curious, we could explore cooking both together and see what you think!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, are you asking if they have similar flavors? Lamb and goat can taste quite similar, but they each have their unique qualities. If you're curious, we could explore cooking both together and see what you think!\n- Emotion: neutral\n- Intent: explain\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds like a great idea! I'd love to try cooking both and compare. It will be a fun little experiment.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds like a great idea! I'd love to try cooking both and compare. It will be a fun little experiment.\n- Emotion: excited\n- Intent: agree\n- Dialogue Act: agreement\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That sounds like a wonderful idea, dear! Having cows and chickens can be quite rewarding, and you'll have fresh milk and eggs right at your fingertips. If you need any advice on starting a little farm, I'm here to help!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That sounds like a wonderful idea, dear! Having cows and chickens can be quite rewarding, and you'll have fresh milk and eggs right at your fingertips. If you need any advice on starting a little farm, I'm here to help!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I might take you up on that offer. It would be amazing to learn from your experience. Maybe we can start planning it soon?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I might take you up on that offer. It would be amazing to learn from your experience. Maybe we can start planning it soon?\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: acknowledge\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Well, dear, some people do raise cows and chickens for meat, but others keep them for their milk and eggs. It's really up to you and what you feel comfortable with. If you're thinking about starting a little farm, we can talk about the different options and what might work best for you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Well, dear, some people do raise cows and chickens for meat, but others keep them for their milk and eggs. It's really up to you and what you feel comfortable with. If you're thinking about starting a little farm, we can talk about the different options and what might work best for you.\n- Emotion: neutral\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That's really helpful, Grandma. I think I'd prefer to start with milk and eggs. It feels more manageable to begin with. Could you share some tips on how to get started?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That's really helpful, Grandma. I think I'd prefer to start with milk and eggs. It feels more manageable to begin with. Could you share some tips on how to get started?\n- Emotion: neutral\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, dear, selling them is certainly an option. Many people sell milk, eggs, or even the animals themselves to earn some income. It's a great way to make your farm sustainable. If you're interested, we can look into how you might start doing that when you're ready.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nAlthough the grandmother's response is not an inter"
+  },
+  {
+    "index": 13,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, dear, selling them is certainly an option. Many people sell milk, eggs, or even the animals themselves to earn some income. It's a great way to make your farm sustainable. If you're interested, we can look into how you might start doing that when you're ready.\n- Emotion: neutral\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds like a great idea, Grandma! I'd love to learn more about making the farm sustainable. Maybe we can set up a time to discuss it in detail?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds like a great idea, Grandma! I'd love to learn more about making the farm sustainable. Maybe we can set up a time to discuss it in detail?\n- Emotion: excited\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, I was just sharing some thoughts on how you could manage your farm. It's wonderful to see your interest in it, and I'm here to support you every step of the way. If you have any more questions or ideas, feel free to share them!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, I was just sharing some thoughts on how you could manage your farm. It's wonderful to see your interest in it, and I'm here to support you every step of the way. If you have any more questions or ideas, feel free to share them!\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you so much, Grandma! I really appreciate your support. Let's definitely set up a time to go over everything. Maybe this weekend?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you so much, Grandma! I really appreciate your support. Let's definitely set up a time to go over everything. Maybe this weekend?\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Absolutely, dear. It's important to cook meat thoroughly to ensure it's safe to eat. If you decide to raise animals for meat, I can share some tips on cooking and preparing it safely. Let me know if you'd like more information on that!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's response is not an"
+  },
+  {
+    "index": 17,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Absolutely, dear. It's important to cook meat thoroughly to ensure it's safe to eat. If you decide to raise animals for meat, I can share some tips on cooking and preparing it safely. Let me know if you'd like more information on that!\n- Emotion: neutral\n- Intent: advise\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds really helpful, Grandma! I'd love to hear your tips on cooking and preparing meat safely. Maybe we can include that in our weekend discussion?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds really helpful, Grandma! I'd love to hear your tips on cooking and preparing meat safely. Maybe we can include that in our weekend discussion?\n- Emotion: happy\n- Intent: agree\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, I see you're noticing the colors! Yes, I usually prefer green, but sometimes it's nice to switch things up a bit. Yellow can be quite cheerful, don't you think? Is there a color you like best?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, I see you're noticing the colors! Yes, I usually prefer green, but sometimes it's nice to switch things up a bit. Yellow can be quite cheerful, don't you think? Is there a color you like best?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I do love yellow! It's so bright and happy. But I think my favorite color is blue. It's just so calming and peaceful. What do you like most about green?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I do love yellow! It's so bright and happy. But I think my favorite color is blue. It's just so calming and peaceful. What do you like most about green?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you're okay with the change! Sometimes a little variety can brighten things up. If you ever want to try something new or need help with anything, just let me know. I'm always here for you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you're okay with the change! Sometimes a little variety can brighten things up. If you ever want to try something new or need help with anything, just let me know. I'm always here for you.\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I really appreciate that. It's nice to know I can always count on you. Maybe next time we can try a new recipe together? It could be fun to experiment with different flavors and colors in our dishes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I really appreciate that. It's nice to know I can always count on you. Maybe next time we can try a new recipe together? It could be fun to experiment with different flavors and colors in our dishes!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh my, it sounds like something really caught your attention! What do you find crazy about it? I'm curious to hear more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh my, it sounds like something really caught your attention! What do you find crazy about it? I'm curious to hear more.\n- Emotion: surprise\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I was just thinking about how many different ways we can use colors in cooking! Like how turmeric can make rice a beautiful yellow or how red cabbage can turn things purple. It's kind of crazy how nature gives us such vibrant options!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The previous turn context provided does not"
+  },
+  {
+    "index": 24,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I was just thinking about how many different ways we can use colors in cooking! Like how turmeric can make rice a beautiful yellow or how red cabbage can turn things purple. It's kind of crazy how nature gives us such vibrant options!\n- Emotion: excited\n- Intent: explain\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you agree! It's always interesting to hear your thoughts. If there's anything else you'd like to share or talk about, I'm all ears.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you agree! It's always interesting to hear your thoughts. If there's anything else you'd like to share or talk about, I'm all ears.\n- Emotion: happy\n- Intent: acknowledge\n- Dialogue Act: acknowledge\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I'm really enjoying our chats. Maybe we can try making a colorful dish together soon. Do you have any favorite recipes that use lots of colors?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I'm really enjoying our chats. Maybe we can try making a colorful dish together soon. Do you have any favorite recipes that use lots of colors?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It seems like you're agreeing with me, but I wonder if there's more you'd like to talk about. I'm always interested in hearing what's on your mind, dear.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It seems like you're agreeing with me, but I wonder if there's more you'd like to talk about. I'm always interested in hearing what's on your mind, dear.\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I love that you're always open to listening, Grandma! Besides cooking, I've been thinking about how colors affect our mood too. It's fascinating how they can influence how we feel. What do you think about that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I love that you're always open to listening, Grandma! Besides cooking, I've been thinking about how colors affect our mood too. It's fascinating how they can influence how we feel. What do you think about that?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that, sweetheart. If there's anything specific you'd like to discuss or share, feel free to let me know. I'm here to listen and chat whenever you need.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear that, sweetheart. If there's anything specific you'd like to discuss or share, feel free to let me know. I'm here to listen and chat whenever you need.\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! I really appreciate that. I was reading about how blue can be calming and red can be energizing. It's amazing how colors can have such an impact. Do you have a favorite color that makes you feel a certain way?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! I really appreciate that. I was reading about how blue can be calming and red can be energizing. It's amazing how colors can have such an impact. Do you have a favorite color that makes you feel a certain way?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, do I? That's interesting! I guess I do think a lot about time and how we spend it. Is there something specific about time that you find intriguing or maybe something else you'd like to discuss?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, do I? That's interesting! I guess I do think a lot about time and how we spend it. Is there something specific about time that you find intriguing or maybe something else you'd like to discuss?\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Time is such a fascinating topic! I often think about how quickly it passes and how important it is to make the most of every moment. Do you have any advice on how to cherish time better?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Time is such a fascinating topic! I often think about how quickly it passes and how important it is to make the most of every moment. Do you have any advice on how to cherish time better?\n- Emotion: neutral\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, that's wonderful to hear! Time is such a fascinating concept, isn't it? There's so much we can learn and explore about it. What makes it your favorite? I'm curious to know more about your thoughts.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's response is not an"
+  },
+  {
+    "index": 33,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, that's wonderful to hear! Time is such a fascinating concept, isn't it? There's so much we can learn and explore about it. What makes it your favorite? I'm curious to know more about your thoughts.\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I think what fascinates me most about time is how it feels different depending on what we're doing. Like, time flies when we're having fun, but it seems to drag when we're waiting for something. Do you ever feel that way too?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target was not interrupted during their"
+  },
+  {
+    "index": 34,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I think what fascinates me most about time is how it feels different depending on what we're doing. Like, time flies when we're having fun, but it seems to drag when we're waiting for something. Do you ever feel that way too?\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, the salad sounds like a refreshing choice for a side dish! Are you planning a meal or thinking about what to have for dinner? I'd love to hear more about your plans.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, the salad sounds like a refreshing choice for a side dish! Are you planning a meal or thinking about what to have for dinner? I'd love to hear more about your plans.\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I think there might have been a mix-up! I was talking about time, not salad. But now that you mention it, a salad does sound nice. Maybe I should plan a meal around it. Do you have any favorite salad recipes?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I think there might have been a mix-up! I was talking about time, not salad. But now that you mention it, a salad does sound nice. Maybe I should plan a meal around it. Do you have any favorite salad recipes?\n- Emotion: surprise\n- Intent: doubt\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, I'm glad to hear the rice was enjoyed! I can make some more if you'd like, or we can try something new together. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, I'm glad to hear the rice was enjoyed! I can make some more if you'd like, or we can try something new together. What do you think?\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds lovely, Grandma! I'd love to try something new with you. Maybe we can experiment with a new salad recipe together. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds lovely, Grandma! I'd love to try something new with you. Maybe we can experiment with a new salad recipe together. What do you think?\n- Emotion: happy\n- Intent: agree\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Great! I'll get started on making some more rice then. If there's anything else you'd like to add to the meal, just let me know. I'm always happy to cook together and try new things!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Great! I'll get started on making some more rice then. If there's anything else you'd like to add to the meal, just let me know. I'm always happy to cook together and try new things!\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! How about we add some grilled chicken to the salad? It could be a nice addition to the rice. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none"
+  },
+  {
+    "index": 40,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! How about we add some grilled chicken to the salad? It could be a nice addition to the rice. What do you think?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh dear, is there a strong smell bothering you? Maybe it's the spices or something else in the kitchen. Let me know if you need a break or some fresh air!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh dear, is there a strong smell bothering you? Maybe it's the spices or something else in the kitchen. Let me know if you need a break or some fresh air!\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, no worries, Grandma! I'm fine, just excited about our cooking plans. Grilled chicken sounds great, right? I can help with the spices if you want!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, no worries, Grandma! I'm fine, just excited about our cooking plans. Grilled chicken sounds great, right? I can help with the spices if you want!\n- Emotion: happy\n- Intent: agree\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm so glad you enjoy it! It's wonderful to have a versatile ingredient that can enhance so many dishes. If you have any favorites you'd like to try with it, just let me know. Cooking together is always a joy!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm so glad you enjoy it! It's wonderful to have a versatile ingredient that can enhance so many dishes. If you have any favorites you'd like to try with it, just let me know. Cooking together is always a joy!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Absolutely, Grandma! Cooking with you is the best. Maybe we can try adding some herbs like rosemary or thyme to the chicken for extra flavor. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Absolutely, Grandma! Cooking with you is the best. Maybe we can try adding some herbs like rosemary or thyme to the chicken for extra flavor. What do you think?\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, I see! It's wonderful that we both appreciate how versatile it is. Maybe next time we can experiment with different dishes together. What do you think about trying something new with it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, I see! It's wonderful that we both appreciate how versatile it is. Maybe next time we can experiment with different dishes together. What do you think about trying something new with it?\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds like a fantastic idea, Grandma! I'm always up for trying new recipes. How about we look up some interesting dishes online and pick one to try together?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds like a fantastic idea, Grandma! I'm always up for trying new recipes. How about we look up some interesting dishes online and pick one to try together?\n- Emotion: excited\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, exactly! You can let it cook for a while and then check it to see if it's done to your liking. Sometimes it helps to give it a little taste test. Do you want me to show you how to check it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, exactly! You can let it cook for a while and then check it to see if it's done to your liking. Sometimes it helps to give it a little taste test. Do you want me to show you how to check it?\n- Emotion: happy\n- Intent: confirm\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I'd love that, Grandma! Your tips are always so helpful. Let's do a taste test together, and you can show me your technique.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I'd love that, Grandma! Your tips are always so helpful. Let's do a taste test together, and you can show me your technique.\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: agreement\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, it's possible to overcook it, but don't worry! If you keep an eye on it and check it regularly, you'll be able to catch it before it goes too far. It's all about finding the right balance. Would you like some tips on how to tell when it's perfectly cooked?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, it's possible to overcook it, but don't worry! If you keep an eye on it and check it regularly, you'll be able to catch it before it goes too far. It's all about finding the right balance. Would you like some tips on how to tell when it's perfectly cooked?\n- Emotion: neutral\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Yes, please! I'd love to learn how to tell when it's perfectly cooked. Your advice always makes cooking so much easier and fun.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Yes, please! I'd love to learn how to tell when it's perfectly cooked. Your advice always makes cooking so much easier and fun.\n- Emotion: happy\n- Intent: agree\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, adding a can of water can help keep it moist and prevent it from drying out. It's a great way to ensure it cooks evenly. Would you like to try this method together next time?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: In this context, the grandmother is not"
+  },
+  {
+    "index": 51,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, adding a can of water can help keep it moist and prevent it from drying out. It's a great way to ensure it cooks evenly. Would you like to try this method together next time?\n- Emotion: neutral\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds like a great idea, Grandma! I'd love to try that method with you. Cooking with you is always so much fun and I learn a lot.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds like a great idea, Grandma! I'd love to try that method with you. Cooking with you is always so much fun and I learn a lot.\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: agreement\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Yes, it's usually a good idea to rinse the beans to remove any excess salt or preservatives. It can make a big difference in the taste. Would you like me to show you how to do it next time?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Yes, it's usually a good idea to rinse the beans to remove any excess salt or preservatives. It can make a big difference in the taste. Would you like me to show you how to do it next time?\n- Emotion: neutral\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Yes, please! I'd love to learn how to rinse them properly. Your tips always make a big difference in the taste. Thank you for offering to show me!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Yes, please! I'd love to learn how to rinse them properly. Your tips always make a big difference in the taste. Thank you for offering to show me!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh dear, that sounds like quite the adventure in the kitchen! Coconut milk can be tricky sometimes, especially when it separates like that. It's all part of the learning process, isn't it? I'm sure he had a good laugh about it afterwards. Cooking can be so much fun when we embrace the little surprises along the way!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nNote: The target's response does not interrupt the"
+  },
+  {
+    "index": 55,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh dear, that sounds like quite the adventure in the kitchen! Coconut milk can be tricky sometimes, especially when it separates like that. It's all part of the learning process, isn't it? I'm sure he had a good laugh about it afterwards. Cooking can be so much fun when we embrace the little surprises along the way!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Absolutely, Grandma! It's those little surprises that make cooking memorable and fun. I'm looking forward to our next cooking session together and learning more from you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Absolutely, Grandma! It's those little surprises that make cooking memorable and fun. I'm looking forward to our next cooking session together and learning more from you!\n- Emotion: excited\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you find it amusing too! Cooking is all about experimenting and having fun, even if things don't always go as planned. If you ever want to try making coconut milk rice together, I'd be happy to help. We can figure it out together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you find it amusing too! Cooking is all about experimenting and having fun, even if things don't always go as planned. If you ever want to try making coconut milk rice together, I'd be happy to help. We can figure it out together!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds wonderful, Grandma! I'd love to make coconut milk rice with you. It's always more fun cooking together, and I learn so much from you. When would be a good time for you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds wonderful, Grandma! I'd love to make coconut milk rice with you. It's always more fun cooking together, and I learn so much from you. When would be a good time for you?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Sage is such a wonderful herb! It adds a lovely flavor to dishes. It's great to see you experimenting with different ingredients. Do you have a favorite dish you like to add sage to?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Sage is such a wonderful herb! It adds a lovely flavor to dishes. It's great to see you experimenting with different ingredients. Do you have a favorite dish you like to add sage to?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I really enjoy adding sage to roasted vegetables, especially sweet potatoes. It gives them such a warm and earthy flavor. Do you have any favorite dishes with sage, Grandma?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's response is not an"
+  },
+  {
+    "index": 60,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I really enjoy adding sage to roasted vegetables, especially sweet potatoes. It gives them such a warm and earthy flavor. Do you have any favorite dishes with sage, Grandma?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're planning to make something delicious! Sage can really enhance a dish. If you need any tips or help, feel free to ask. I'm here to support your culinary adventures!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It sounds like you're planning to make something delicious! Sage can really enhance a dish. If you need any tips or help, feel free to ask. I'm here to support your culinary adventures!\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! I really appreciate your support. I'll definitely reach out if I need any tips. Maybe we can cook together soon and you can show me some of your favorite sage recipes?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! I really appreciate your support. I'll definitely reach out if I need any tips. Maybe we can cook together soon and you can show me some of your favorite sage recipes?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Washing rice is quite simple! I usually rinse it under cold water a few times until the water runs clear. This helps remove excess starch and makes the rice less sticky when cooked. Do you have any particular recipe in mind that you're planning to make?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: Since the target is not interrupting the"
+  },
+  {
+    "index": 63,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Washing rice is quite simple! I usually rinse it under cold water a few times until the water runs clear. This helps remove excess starch and makes the rice less sticky when cooked. Do you have any particular recipe in mind that you're planning to make?\n- Emotion: neutral\n- Intent: explain\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks for the tip on washing rice, Grandma! I was thinking of making a simple stir-fry with some veggies and chicken. Do you think sage would work well in that, or should I stick to more traditional spices?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks for the tip on washing rice, Grandma! I was thinking of making a simple stir-fry with some veggies and chicken. Do you think sage would work well in that, or should I stick to more traditional spices?\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's great to hear! I'm sure whatever you're planning will turn out delicious. If you need any more advice or want to share your recipe, I'm all ears!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's great to hear! I'm sure whatever you're planning will turn out delicious. If you need any more advice or want to share your recipe, I'm all ears!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I'll definitely let you know how it turns out. Maybe we can plan a day to cook together soon. I'd love to learn more from you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I'll definitely let you know how it turns out. Maybe we can plan a day to cook together soon. I'd love to learn more from you!\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're on the right track! Cooking can be such a rewarding experience. If you ever want to try something new or need a little inspiration, just let me know. I'm always happy to share ideas!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It sounds like you're on the right track! Cooking can be such a rewarding experience. If you ever want to try something new or need a little inspiration, just let me know. I'm always happy to share ideas!\n- Emotion: happy\n- Intent: advise\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! I really appreciate your support and advice. I'll definitely reach out if I need some new ideas or inspiration. Maybe next time we can try one of your favorite recipes together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! I really appreciate your support and advice. I'll definitely reach out if I need some new ideas or inspiration. Maybe next time we can try one of your favorite recipes together!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you're feeling confident about your cooking! Remember, the kitchen is a place for creativity and fun. If you ever want to chat about recipes or anything else, I'm here for you. Enjoy your cooking adventure!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you're feeling confident about your cooking! Remember, the kitchen is a place for creativity and fun. If you ever want to chat about recipes or anything else, I'm here for you. Enjoy your cooking adventure!\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I love that you see cooking as a creative adventure. I'll definitely keep that in mind and reach out if I need any tips or just want to chat. Maybe we can set a date soon for our cooking day!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I love that you see cooking as a creative adventure. I'll definitely keep that in mind and reach out if I need any tips or just want to chat. Maybe we can set a date soon for our cooking day!\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Not at all, dear! It's always good to ask questions and make sure you're comfortable with what you're doing. If you feel like something might be too much, you can always adjust it to suit your taste. Cooking is all about experimenting and finding what works best for you. Do you need any specific advice on what you're making?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Not at all, dear! It's always good to ask questions and make sure you're comfortable with what you're doing. If you feel like something might be too much, you can always adjust it to suit your taste. Cooking is all about experimenting and finding what works best for you. Do you need any specific advice on what you're making?\n- Emotion: neutral\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks for the encouragement, Grandma! I love the idea of experimenting in the kitchen. Right now, I'm thinking of trying a new pasta dish. Do you have any tips or a favorite recipe you'd recommend?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks for the encouragement, Grandma! I love the idea of experimenting in the kitchen. Right now, I'm thinking of trying a new pasta dish. Do you have any tips or a favorite recipe you'd recommend?\n- Emotion: happy\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that you're feeling confident about the amount! Trusting your instincts is a big part of cooking. If you ever feel unsure, just remember that it's all part of the learning process. I'm proud of you for taking the initiative!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear that you're feeling confident about the amount! Trusting your instincts is a big part of cooking. If you ever feel unsure, just remember that it's all part of the learning process. I'm proud of you for taking the initiative!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! Your support means a lot to me. I think I'll try making a creamy garlic pasta, but I'm not sure about the sauce consistency. Do you have any tips for getting it just right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! Your support means a lot to me. I think I'll try making a creamy garlic pasta, but I'm not sure about the sauce consistency. Do you have any tips for getting it just right?\n- Emotion: happy\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's wonderful to hear! It sounds like you've got everything under control. If you ever want to share how it turns out or need any more tips, I'm always here to listen and help. Enjoy your cooking, dear!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's wonderful to hear! It sounds like you've got everything under control. If you ever want to share how it turns out or need any more tips, I'm always here to listen and help. Enjoy your cooking, dear!\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I'll definitely let you know how it turns out. I really appreciate having you to turn to for advice. I'll keep you posted on my pasta adventure!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I'll definitely let you know how it turns out. I really appreciate having you to turn to for advice. I'll keep you posted on my pasta adventure!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, that's a shame, dear! It's always nice to capture those moments, but don't worry too much about it. The important thing is that you enjoyed the process and the meal. Maybe next time you can snap a few pictures to remember your creations. If you need help with taking photos or anything else, just let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

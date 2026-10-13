@@ -1,0 +1,175 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 59,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): G7. And then major. Show me again.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): G7. And then major. Show me again.",
+            "target": "Target (granddaughter): Then how do you do this one? How do you— oh my gosh, I don't think my hands are— oh my gosh, I don't know how you— you stretch your legs out, or stretch your fingers out like that. Is that right?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): G7. And then major. Show me again. | Speaker B (granddaughter): Then how do you do this one? How do you— oh my gosh, I don't think my hands are— oh my gosh, I don't know how you— you stretch your legs out, or stretch your fingers out like that. Is that right?",
+            "target": "Target (grandmother): Play C major.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Then how do you do this one? How do you— oh my gosh, I don't think my hands are— oh my gosh, I don't know how you— you stretch your legs out, or stretch your fingers out like that. Is that right? | Speaker B (grandmother): Play C major.",
+            "target": "Target (granddaughter): Diminish. Diminish 7th. Diminish.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Play C major. | Speaker B (granddaughter): Diminish. Diminish 7th. Diminish.",
+            "target": "Target (grandmother): C, E, G, A. Raise the 7th a half step. Okay, now you have to start 3, 2, minor 7th. —diminished. I think that's plenty of work. It goes on to augmented. If you do all of those, you can take any piece of paper like this and transpose it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Diminish. Diminish 7th. Diminish. | Speaker B (grandmother): C, E, G, A. Raise the 7th a half step. Okay, now you have to start 3, 2, minor 7th. —diminished. I think that's plenty of work. It goes on to augmented. If you do all of those, you can take any piece of paper like this and transpose it.",
+            "target": "Target (granddaughter): Okay. That's D. Is that D major?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): C, E, G, A. Raise the 7th a half step. Okay, now you have to start 3, 2, minor 7th. —diminished. I think that's plenty of work. It goes on to augmented. If you do all of those, you can take any piece of paper like this and transpose it. | Speaker B (granddaughter): Okay. That's D. Is that D major?",
+            "target": "Target (grandmother): We just won't get into that until you know those real well. I know you young girls prefer to just play whatever sounds 'pretty' without learning the math, but you can't skip the foundation.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Okay. That's D. Is that D major? | Speaker B (grandmother): We just won't get into that until you know those real well. I know you young girls prefer to just play whatever sounds 'pretty' without learning the math, but you can't skip the foundation.",
+            "target": "Target (granddaughter): Grandma, just because I like pop music doesn't mean I can't handle the theory. I'm actually trying to learn the transpositions properly.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): We just won't get into that until you know those real well. I know you young girls prefer to just play whatever sounds 'pretty' without learning the math, but you can't skip the foundation. | Speaker B (granddaughter): Grandma, just because I like pop music doesn't mean I can't handle the theory. I'm actually trying to learn the transpositions properly.",
+            "target": "Target (grandmother): Well, usually your generation just wants the shortcut. If you really want to learn, show me you can focus on the intervals. Okay. So you could almost say, well, D major is—see, I know right away what they are. That's the first, the third, and the fifth. And that's the seventh. So when you learn all of those, then we'll go to the others. Okay. But can you tell by the sound of it what it is? Uh-huh. Okay, give me— D major? Yes. D minor.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Grandma, just because I like pop music doesn't mean I can't handle the theory. I'm actually trying to learn the transpositions properly. | Speaker B (grandmother): Well, usually your generation just wants the shortcut. If you really want to learn, show me you can focus on the intervals. Okay. So you could almost say, well, D major is—see, I know right away what they are. That's the first, the third, and the fifth. And that's the seventh. So when you learn all of those, then we'll go to the others. Okay. But can you tell by the sound of it what it is? Uh-huh. Okay, give me— D major? Yes. D minor.",
+            "target": "Target (granddaughter): Wait, if it— okay, so this one lowered. So then if it's the same thing, then— okay. And then diminished would be—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Well, usually your generation just wants the shortcut. If you really want to learn, show me you can focus on the intervals. Okay. So you could almost say, well, D major is—see, I know right away what they are. That's the first, the third, and the fifth. And that's the seventh. So when you learn all of those, then we'll go to the others. Okay. But can you tell by the sound of it what it is? Uh-huh. Okay, give me— D major? Yes. D minor. | Speaker B (granddaughter): Wait, if it— okay, so this one lowered. So then if it's the same thing, then— okay. And then diminished would be—",
+            "target": "Target (grandmother): But you show me D minor. Okay, 'cause it is lowered half a step. So is that C, G, and D? This is D major and this is D minor. Major, minor, 7th.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Wait, if it— okay, so this one lowered. So then if it's the same thing, then— okay. And then diminished would be— | Speaker B (grandmother): But you show me D minor. Okay, 'cause it is lowered half a step. So is that C, G, and D? This is D major and this is D minor. Major, minor, 7th.",
+            "target": "Target (granddaughter): Okay, so this is minor. D major would be— is that it? Oh my gosh. Is that right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): But you show me D minor. Okay, 'cause it is lowered half a step. So is that C, G, and D? This is D major and this is D minor. Major, minor, 7th. | Speaker B (granddaughter): Okay, so this is minor. D major would be— is that it? Oh my gosh. Is that right?",
+            "target": "Target (grandmother): Add a D— I hope it does too. So we will count the sharp note first. Because this is the 7th note, and you lower the 7th a half step. This would have been a major, but it's sharp, so we had to lower it a half step.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Okay, so this is minor. D major would be— is that it? Oh my gosh. Is that right? | Speaker B (grandmother): Add a D— I hope it does too. So we will count the sharp note first. Because this is the 7th note, and you lower the 7th a half step. This would have been a major, but it's sharp, so we had to lower it a half step.",
+            "target": "Target (granddaughter): Okay, that's the chord. So this is major, this is minor, then— What should I do now? C7?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): Add a D— I hope it does too. So we will count the sharp note first. Because this is the 7th note, and you lower the 7th a half step. This would have been a major, but it's sharp, so we had to lower it a half step. | Speaker B (granddaughter): Okay, that's the chord. So this is major, this is minor, then— What should I do now? C7?",
+            "target": "Target (grandmother): Make the first major, then add the 7th.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Okay, that's the chord. So this is major, this is minor, then— What should I do now? C7? | Speaker B (grandmother): Make the first major, then add the 7th.",
+            "target": "Target (granddaughter): Is that right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Make the first major, then add the 7th. | Speaker B (granddaughter): Is that right?",
+            "target": "Target (grandmother): Yeah, so once you get all of those, you can put them in any key. If you're singing a song that isn't in your key, you transpose it. You just gotta keep the same order. F, what would it be? B-flat. B-flat would be E-flat or whatever. So if you write them down and put them in your 7ths. 1, 2, 3, 4, 5, 6.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Is that right? | Speaker B (grandmother): Yeah, so once you get all of those, you can put them in any key. If you're singing a song that isn't in your key, you transpose it. You just gotta keep the same order. F, what would it be? B-flat. B-flat would be E-flat or whatever. So if you write them down and put them in your 7ths. 1, 2, 3, 4, 5, 6.",
+            "target": "Target (granddaughter): I just have to remember my chords. So let's see, let's do all the chords. Give me a major chord. Okay, great. Okay, go to A now. A? Yay, I remember!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Yeah, so once you get all of those, you can put them in any key. If you're singing a song that isn't in your key, you transpose it. You just gotta keep the same order. F, what would it be? B-flat. B-flat would be E-flat or whatever. So if you write them down and put them in your 7ths. 1, 2, 3, 4, 5, 6. | Speaker B (granddaughter): I just have to remember my chords. So let's see, let's do all the chords. Give me a major chord. Okay, great. Okay, go to A now. A? Yay, I remember!",
+            "target": "Target (grandmother): That's A major. Take your 7th and lower it a half step.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): I just have to remember my chords. So let's see, let's do all the chords. Give me a major chord. Okay, great. Okay, go to A now. A? Yay, I remember! | Speaker B (grandmother): That's A major. Take your 7th and lower it a half step.",
+            "target": "Target (granddaughter): Wait, what was the 7th? Okay, so this, it's this. This? This? 1, 2, 3, 4, 5, 6, 7. Okay, so 7. And so 7 would be here. So lower it. Okay. Yeah, I got it. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): That's A major. Take your 7th and lower it a half step. | Speaker B (granddaughter): Wait, what was the 7th? Okay, so this, it's this. This? This? 1, 2, 3, 4, 5, 6, 7. Okay, so 7. And so 7 would be here. So lower it. Okay. Yeah, I got it. Okay.",
+            "target": "Target (grandmother): Keep the time either way it is. You still hold the rhythm. Great. Now you've got your A7. The important thing would be remembering what that has in the key, then lowering those first 3 half steps. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

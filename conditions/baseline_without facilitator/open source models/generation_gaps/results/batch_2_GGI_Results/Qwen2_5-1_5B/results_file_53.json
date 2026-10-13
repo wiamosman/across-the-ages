@@ -1,0 +1,119 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 53,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Can I please honk at the break?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Can I please honk at the break?",
+            "target": "Target (grandmother): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Can I please honk at the break? | Speaker B (grandmother): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine.",
+            "target": "Target (grandson): Thanks.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Okay, honk at the break. Drive, Austin. I don't want to make this too long. Put it in drive. Okay. There's a car coming, moving around. Just drive slow. Okay, you're fine. | Speaker B (grandson): Thanks.",
+            "target": "Target (grandmother): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Thanks. | Speaker B (grandmother): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas.",
+            "target": "Target (grandson): I'm giving it some gas.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Okay, you can make the turn. Make the turn, Austin. You have to give a little gas. | Speaker B (grandson): I'm giving it some gas.",
+            "target": "Target (grandmother): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): I'm giving it some gas. | Speaker B (grandmother): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin.",
+            "target": "Target (grandson): Don't freak out too much. You're acting like I'm trying to win a race or something.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Not too much. That's enough. That's enough. Austin, slow down. Slow down, Austin. | Speaker B (grandson): Don't freak out too much. You're acting like I'm trying to win a race or something.",
+            "target": "Target (grandmother): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Don't freak out too much. You're acting like I'm trying to win a race or something. | Speaker B (grandmother): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions.",
+            "target": "Target (grandson): I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): I am not 'freaking out.' I am trying to keep us alive. You think this is a game, and it’s very disrespectful when you roll your eyes at my instructions. | Speaker B (grandson): I wasn't rolling my eyes, I was just checking the mirrors! Relax.",
+            "target": "Target (grandmother): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): I wasn't rolling my eyes, I was just checking the mirrors! Relax. | Speaker B (grandmother): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes.",
+            "target": "Target (grandson): Why?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Don't tell me to relax while you're speeding! Okay, okay, Austin. Okay, stop. Put on the brakes now. Put on the brakes. | Speaker B (grandson): Why?",
+            "target": "Target (grandmother): Put on the brakes! Austin, put on the brakes.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Why? | Speaker B (grandmother): Put on the brakes! Austin, put on the brakes.",
+            "target": "Target (grandson): I'm making another joke.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Put on the brakes! Austin, put on the brakes. | Speaker B (grandson): I'm making another joke.",
+            "target": "Target (grandmother): Put on the brakes!",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        }
+    ]
+}

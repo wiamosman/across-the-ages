@@ -1,0 +1,139 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 17,
+    "utterances": [
+        {
+            "text": " hello everyone and today um my grandma is gonna um teach me how to make passion fruit",
+            "golden": "introduce",
+            "predicted": "greet",
+            "raw": "greet\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": " drink",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\nUtterance:  I'm really tired",
+            "status": "WRONG"
+        },
+        {
+            "text": " drink! one tablespoon ",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance:  I'm really grateful",
+            "status": "CORRECT"
+        },
+        {
+            "text": " basil seed",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\nUtterance:  I'm really looking",
+            "status": "WRONG"
+        },
+        {
+            "text": " basil seed",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\nUtterance:  I'm really looking",
+            "status": "WRONG"
+        },
+        {
+            "text": "okay put that in there",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "and pour it in here this is the basil seed one cup of passion fruit um chile oh my god",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": " little bit good ",
+            "golden": "advise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\n```python",
+            "status": "WRONG"
+        },
+        {
+            "text": "add some raw honey",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "raw honey",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really looking forward",
+            "status": "WRONG"
+        },
+        {
+            "text": " raw honey pour to taste pour to taste four cups of water okay .... My hands hurt ",
+            "golden": "complain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": " I can help you",
+            "golden": "care",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": " all and then you shake wait wait for the um basil to expand",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\nUtterance:  all and then",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Fill it up!",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Fill it up?! Ok",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Good! Now you taste it!",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Mmmmmm good!",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Mmmm good? how it taste ",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It taste sooo good! You guys should buy this today!",
+            "golden": "invite",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        }
+    ]
+}

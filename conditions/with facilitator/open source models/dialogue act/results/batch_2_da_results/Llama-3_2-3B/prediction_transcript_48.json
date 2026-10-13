@@ -1,0 +1,451 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 48,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! It was good, but I'm ready to get started on our piano lesson. Are you sitting comfortably?",
+      "golden": "question",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Yes, I'm quite comfortable, thank you! I've been looking forward to this all afternoon.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I've been reviewing the sheet music for the Renaissance piece we're working on. It's quite complex!",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "It certainly looks intimidating with all those notes! Did you manage to find a simpler fingering for that middle section?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I actually warmed up my fingers by playing some scales in the park earlier. It really helps with the flow.",
+      "golden": "answer",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "That sounds lovely. I'll have to remember to do my stretches too so I don't stiffen up.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Watching you master these chords is the most fun part of my day! Ready to try that melody line again?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm as ready as I'll ever be! Let's see if my old fingers remember where the G7 goes.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Definitely when we finally hit that perfect harmony together. It sounds so beautiful.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It really does feel like magic when it clicks. I'm trying to stay steady, but I get a little over-excited!",
+      "golden": "statement-opinion",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Don't worry about being perfectly still—just focus on keeping your wrists loose and relaxed.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Loose and relaxed, right. You make it look so effortless, dear.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "The secret is just keeping a steady tempo! I also loved how clear your C major chord sounded just now.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, did it? I've been practicing that one specifically while the kettle boils!",
+      "golden": "statement-non-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I enjoyed seeing how quickly you’re picking up the rhythm. It makes the teaching so rewarding.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's very kind of you to say. I did feel a bit more comfortable today. What else do you think I can improve on?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Your hand placement is much better! Next, let's try to keep your fingers curved like you're holding an orange.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Like holding an orange... that's a helpful image. I'll try to keep them from flattening out.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You can work on the transition between the G and D chords. Try to move your fingers as one unit.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a wonderful way to look at it. I'll keep focusing on the small victories. Thank you for being so encouraging!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're doing amazing! Every small victory leads to a beautiful performance.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I hope so! Your feedback means a lot to me. Is there anything else you think I should focus on?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Let's focus on the dynamics—try playing the first part softly, then building up the volume.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, that sounds like fun! I'm ready when you are.",
+      "golden": "agreement",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Great! Let's start from the beginning of the second bar. I'll count us in.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I'm not sure what a 4 tick-tock means, but I'm eager to learn!",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, I meant the metronome! It goes tick-tock to help us keep the 4/4 time signature.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, I'll focus on that rhythm. Thank you for guiding me!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Perfect. Just follow the notes on the second line and don't worry about speed yet.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. I'll try to keep my eyes on the page and not on my fingers. Thank you for your patience.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It takes time! To help with that, let's try a little trick to cover your hands while you play.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll give it a try with the towel. Thank you for the tip, dear.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly! If we put the towel over your hands, you'll have to trust your muscle memory.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Okay, let's see how this goes with the towel. I'm ready when you are!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm ready too. Focus on the feeling of the keys under your fingers. Go ahead!",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, here goes nothing! Let's see if my memory holds up.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "You've got this! Just keep the tempo steady in your head.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, that's wonderful! I actually managed to finish the phrase without peeking. Thank you for your help, dear.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You did it! You played the whole sequence without looking once. I'm so proud of you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm so pleased with how this turned out. It's a real breakthrough for me!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Your confidence is really growing. Shall we try a few bars of the new song now?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I didn't even realize I could do it! That's a lovely surprise. I'd be happy to try the new piece.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It's a huge milestone! It means you're really starting to 'feel' the music.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm really starting to enjoy the sensation of it. Thank you for being so patient with me.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "It’s my pleasure, Grandma. I love seeing you enjoy the piano as much as I do.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's so encouraging to hear! I'll keep practicing so I can keep up with you.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "And you are improving every single week! Now, did you get a chance to look at that song from last time?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, I did look at it. I think I have the first few measures down, though the transition is still a bit slow.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That's great! Before we start the next one, let's just check your posture one more time.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Good point. I tend to slouch when I'm concentrating. How is this?",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That looks better. Sitting up straight helps you reach the pedals more easily too.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see. Well, let's try that C chord again and see if the posture helps the tone.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Perfect. Hear how clear that sounds? Now transition smoothly to the next chord.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm trying! It's much clearer when I'm not hunched over the keys.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Keep that rhythm going—one, two, three, four... nice and steady.",
+      "golden": "command",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "One, two, and onto the A chord. This rhythm is quite catchy once you get it.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "You're doing great! You hit that A chord perfectly. Your finger strength is definitely increasing.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It does feel a bit easier to press the keys down today. I'll keep an eye on the music.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, keep your eyes on the notes and let your hands find their way. You're doing it!",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'll try to trust my hands more. It's a bit like learning to walk all over again!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "The pattern will become second nature soon. You've already got the first half down!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you, dear. Now, let's try the second line. I'll start from the G.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're very welcome. Take your time with the second line, it has a few tricky jumps.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see what you mean about the jump to the pinky. I'll take it slow.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "And you're a wonderful student! Your dedication is inspiring. How does your pinky feel on that G?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "A little clumsy, but I think it's getting the idea! I'm really enjoying this.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm so glad! Let's try to finish this song before we wrap up today's lesson.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Let's do it! I'll practice this piece over the week and hope to surprise you next time.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I love that idea! A little extra practice during the week will make a huge difference.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'll make sure to watch those half-notes too—I tend to let go of them too early.",
+      "golden": "agreement",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yes, holding the notes for their full value makes the music sound much richer.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It really does. Thank you for another wonderful lesson, dear. I'm looking forward to next week.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I can't wait to hear it! You're making fantastic progress, Grandma. See you next time!",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 99,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandson): Hey Grandpa, how have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandson): Hey Grandpa, how have you been?",
+      "target": "Target (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",
+      "gold_label": "digital disparity",
+      "predicted_label": "digital disparity",
+      "raw": "digital disparity"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandson): Hey Grandpa, how have you been? | Speaker B (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",
+      "target": "Target (grandson): I'm glad you're excited! Don't worry, I'll help you with anything you need.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try! | Speaker B (grandson): I'm glad you're excited! Don't worry, I'll help you with anything you need.",
+      "target": "Target (grandfather): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandson): I'm glad you're excited! Don't worry, I'll help you with anything you need. | Speaker B (grandfather): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it.",
+      "target": "Target (granddaughter): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandfather): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it. | Speaker B (granddaughter): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime!",
+      "target": "Target (grandfather): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (granddaughter): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime! | Speaker B (grandfather): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it.",
+      "target": "Target (grandson): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandfather): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it. | Speaker B (grandson): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together.",
+      "target": "Target (grandfather): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandson): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together. | Speaker B (grandfather): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort.",
+      "target": "Target (grandson): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandfather): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort. | Speaker B (grandson): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with.",
+      "target": "Target (grandfather): Absolutely, I love it! Thank you for making it so special for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with. | Speaker B (grandfather): Absolutely, I love it! Thank you for making it so special for me.",
+      "target": "Target (grandson): I'm so glad you feel that way, Grandpa! It means a lot to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandfather): Absolutely, I love it! Thank you for making it so special for me. | Speaker B (grandson): I'm so glad you feel that way, Grandpa! It means a lot to me.",
+      "target": "Target (grandmother): Oh, I see! Let me try pressing the button. Thank you for guiding me through this.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandson): I'm so glad you feel that way, Grandpa! It means a lot to me. | Speaker B (grandmother): Oh, I see! Let me try pressing the button. Thank you for guiding me through this.",
+      "target": "Target (grandfather): Thank you for helping us with this. It's quite exciting to learn something new!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): Oh, I see! Let me try pressing the button. Thank you for guiding me through this. | Speaker B (grandfather): Thank you for helping us with this. It's quite exciting to learn something new!",
+      "target": "Target (grandson): I'm really happy to help you both out. It's fun to see you getting the hang of it!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): Thank you for helping us with this. It's quite exciting to learn something new! | Speaker B (grandson): I'm really happy to help you both out. It's fun to see you getting the hang of it!",
+      "target": "Target (grandfather): Thank you for showing us how to do this. It's fascinating to see how online shopping works!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandson): I'm really happy to help you both out. It's fun to see you getting the hang of it! | Speaker B (grandfather): Thank you for showing us how to do this. It's fascinating to see how online shopping works!",
+      "target": "Target (granddaughter): I'm glad you're enjoying it! Let me know if you need any more help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Thank you for showing us how to do this. It's fascinating to see how online shopping works! | Speaker B (granddaughter): I'm glad you're enjoying it! Let me know if you need any more help.",
+      "target": "Target (grandfather): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (granddaughter): I'm glad you're enjoying it! Let me know if you need any more help. | Speaker B (grandfather): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand.",
+      "target": "Target (grandson): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand. | Speaker B (grandson): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know!",
+      "target": "Target (grandfather): Thank you for explaining that. It's quite amazing how convenient online shopping can be!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandson): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know! | Speaker B (grandfather): Thank you for explaining that. It's quite amazing how convenient online shopping can be!",
+      "target": "Target (grandson): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): Thank you for explaining that. It's quite amazing how convenient online shopping can be! | Speaker B (grandson): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask.",
+      "target": "Target (grandfather): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandson): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask. | Speaker B (grandfather): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate!",
+      "target": "Target (grandson): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandfather): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate! | Speaker B (grandson): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know.",
+      "target": "Target (grandfather): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandson): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know. | Speaker B (grandfather): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me.",
+      "target": "Target (grandson): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandfather): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me. | Speaker B (grandson): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask.",
+      "target": "Target (grandfather): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandson): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask. | Speaker B (grandfather): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years.",
+      "target": "Target (grandson): It's amazing, right? I'm always here to help you navigate through it all.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandfather): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years. | Speaker B (grandson): It's amazing, right? I'm always here to help you navigate through it all.",
+      "target": "Target (grandfather): Alright, I'm eager to learn more. What's the next part about?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandson): It's amazing, right? I'm always here to help you navigate through it all. | Speaker B (grandfather): Alright, I'm eager to learn more. What's the next part about?",
+      "target": "Target (grandson): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandfather): Alright, I'm eager to learn more. What's the next part about? | Speaker B (grandson): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events.",
+      "target": "Target (grandfather): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandson): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events. | Speaker B (grandfather): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help.",
+      "target": "Target (grandson): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandfather): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help. | Speaker B (grandson): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time.",
+      "target": "Target (grandfather): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandson): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time. | Speaker B (grandfather): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand.",
+      "target": "Target (grandson): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandfather): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand. | Speaker B (grandson): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help.",
+      "target": "Target (grandfather): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandson): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help. | Speaker B (grandfather): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out.",
+      "target": "Target (grandson): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandfather): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out. | Speaker B (grandson): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect.",
+      "target": "Target (grandfather): Ah, I understand. It's like having their address to send a letter. I'll try to remember that.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandson): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect. | Speaker B (grandfather): Ah, I understand. It's like having their address to send a letter. I'll try to remember that.",
+      "target": "Target (grandson): That's a great way to think about it, Grandpa! If you need any more tips, just ask.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandfather): Ah, I understand. It's like having their address to send a letter. I'll try to remember that. | Speaker B (grandson): That's a great way to think about it, Grandpa! If you need any more tips, just ask.",
+      "target": "Target (grandfather): Sure, let's give it a try. I'll type your email address and see how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandson): That's a great way to think about it, Grandpa! If you need any more tips, just ask. | Speaker B (grandfather): Sure, let's give it a try. I'll type your email address and see how it goes.",
+      "target": "Target (grandson): Great! Let me know if you run into any issues. I'm here to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandfather): Sure, let's give it a try. I'll type your email address and see how it goes. | Speaker B (grandson): Great! Let me know if you run into any issues. I'm here to help.",
+      "target": "Target (grandfather): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandson): Great! Let me know if you run into any issues. I'm here to help. | Speaker B (grandfather): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about.",
+      "target": "Target (grandson): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about. | Speaker B (grandson): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else.",
+      "target": "Target (grandfather): Haha, you're right, I should say grandchild. Thanks for the correction!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandson): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else. | Speaker B (grandfather): Haha, you're right, I should say grandchild. Thanks for the correction!",
+      "target": "Target (grandson): Haha, no worries! I'm always here to help out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): Haha, you're right, I should say grandchild. Thanks for the correction! | Speaker B (grandson): Haha, no worries! I'm always here to help out.",
+      "target": "Target (grandfather): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandson): Haha, no worries! I'm always here to help out. | Speaker B (grandfather): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you!",
+      "target": "Target (grandfather): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you! | Speaker B (grandfather): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel.",
+      "target": "Target (grandson): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandfather): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel. | Speaker B (grandson): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me.",
+      "target": "Target (grandfather): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me. | Speaker B (grandfather): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall!",
+      "target": "Target (grandson): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandfather): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall! | Speaker B (grandson): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes.",
+      "target": "Target (grandfather): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandson): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes. | Speaker B (grandfather): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel.",
+      "target": "Target (grandson): Thanks, Grandpa! I'll keep working hard and make you proud.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandfather): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel. | Speaker B (grandson): Thanks, Grandpa! I'll keep working hard and make you proud.",
+      "target": "Target (grandfather): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep working hard and make you proud. | Speaker B (grandfather): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques.",
+      "target": "Target (grandson): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandfather): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques. | Speaker B (grandson): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include?",
+      "target": "Target (grandfather): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandson): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include? | Speaker B (grandfather): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days.",
+      "target": "Target (grandson): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandfather): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days. | Speaker B (grandson): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video.",
+      "target": "Target (grandfather): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandson): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video. | Speaker B (grandfather): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in.",
+      "target": "Target (grandson): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandfather): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in. | Speaker B (grandson): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible.",
+      "target": "Target (grandfather): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandson): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible. | Speaker B (grandfather): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old.",
+      "target": "Target (grandmother): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandfather): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old. | Speaker B (grandmother): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together.",
+      "target": "Target (grandson): That sounds like a great idea! Let's find the video and enjoy it together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandmother): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together. | Speaker B (grandson): That sounds like a great idea! Let's find the video and enjoy it together.",
+      "target": "Target (grandfather): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandson): That sounds like a great idea! Let's find the video and enjoy it together. | Speaker B (grandfather): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family.",
+      "target": "Target (grandfather): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandfather): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family. | Speaker B (grandfather): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to.",
+      "target": "Target (grandmother): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandfather): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to. | Speaker B (grandmother): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one.",
+      "target": "Target (grandson): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandmother): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one. | Speaker B (grandson): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one.",
+      "target": "Target (grandmother): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandson): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one. | Speaker B (grandmother): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy.",
+      "target": "Target (grandfather): I'm glad we're all enjoying this together. It's moments like these that truly matter.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (grandmother): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy. | Speaker B (grandfather): I'm glad we're all enjoying this together. It's moments like these that truly matter.",
+      "target": "Target (grandfather): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandfather): I'm glad we're all enjoying this together. It's moments like these that truly matter. | Speaker B (grandfather): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us.",
+      "target": "Target (grandson): That sounds perfect! I can't wait to hear it and make more memories with you both.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (grandfather): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us. | Speaker B (grandson): That sounds perfect! I can't wait to hear it and make more memories with you both.",
+      "target": "Target (grandfather): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandson): That sounds perfect! I can't wait to hear it and make more memories with you both. | Speaker B (grandfather): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together.",
+      "target": "Target (grandson): I'm really glad I could help, Grandpa. It's always fun to learn new things together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (grandfather): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together. | Speaker B (grandson): I'm really glad I could help, Grandpa. It's always fun to learn new things together.",
+      "target": "Target (grandfather): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandson): I'm really glad I could help, Grandpa. It's always fun to learn new things together. | Speaker B (grandfather): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience.",
+      "target": "Target (grandson): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (grandfather): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience. | Speaker B (grandson): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon!",
+      "target": "Target (grandfather): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandson): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon! | Speaker B (grandfather): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities.",
+      "target": "Target (grandson): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 72,
+      "context": "Speaker A (grandfather): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities. | Speaker B (grandson): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it.",
+      "target": "Target (grandfather): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 73,
+      "context": "Speaker A (grandson): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it. | Speaker B (grandfather): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips.",
+      "target": "Target (grandson): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 74,
+      "context": "Speaker A (grandfather): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips. | Speaker B (grandson): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know!",
+      "target": "Target (grandfather): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 75,
+      "context": "Speaker A (grandson): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know! | Speaker B (grandfather): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around.",
+      "target": "Target (grandfather): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 76,
+      "context": "Speaker A (grandfather): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around. | Speaker B (grandfather): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information.",
+      "target": "Target (grandson): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 77,
+      "context": "Speaker A (grandfather): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information. | Speaker B (grandson): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online.",
+      "target": "Target (grandfather): Thank you for the warm welcome! I'm excited to be part of this community and look forward to learning more. Your guidance has been invaluable.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 78,
+      "context": "Speaker A (grandson): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online. | Speaker B (grandfather): Thank you for the warm welcome! I'm excited to be part of this community and look forward to learning more. Your guidance has been invaluable.",
+      "target": "Target (grandson): I'm really glad you're enjoying it! If you have any questions or need help with anything, just ask.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

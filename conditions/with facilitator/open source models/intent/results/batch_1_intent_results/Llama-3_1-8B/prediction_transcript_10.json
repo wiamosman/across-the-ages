@@ -1,0 +1,839 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "file_index": 10,
+  "utterances": [
+    {
+      "text": "Hey Grandpa! How's your day going?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I'm just reading the newspaper, trying to catch up on the news. What caught your eye, my dear?",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I saw some interesting stuff online about new tech gadgets. It's amazing how fast things are changing!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Well, it's quite informative, but sometimes the news can be a bit heavy. I do enjoy keeping up with what's happening around the world, though. What about you? Do you like reading the news or do you prefer something else?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "it's ricotta.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Ah, ricotta! That sounds delicious. Are you planning to make something special with it? I remember your grandmother used to make a lovely ricotta pie.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I haven't thought about making anything yet, but a ricotta pie sounds delicious! Maybe I could try making it like grandma used to. As for the news, I do read it sometimes, but I also enjoy watching videos about technology and science. It's fascinating to see all the new developments.",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "no. it is not",
+      "golden": "oppose",
+      "predicted": "oppose",
+      "raw": "oppose",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I see there's a bit of a debate going on! It's always interesting to see how recipes can vary. What do you think makes it different, my dear?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "mash it with this. okay.",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, mashing it sounds like a good idea! Cooking can be such a fun experiment. Do you enjoy trying out new recipes together?",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "no, it's different.",
+      "golden": "oppose",
+      "predicted": "oppose",
+      "raw": "oppose",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It sounds like you're having a lively discussion about recipes! I always found that experimenting in the kitchen leads to delightful surprises. What do you think makes your version unique, dear?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "I think it's the combination of flavors that makes it unique. I love adding a twist to traditional recipes. What about you, Grandma? Do you have a favorite recipe you like to experiment with?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Hello, dear! Today I'm planning to make some of my famous apple pie. It's always a treat, especially with a scoop of vanilla ice cream on top. Do you want to help me with it?",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'd love to help you with the apple pie, Grandma! It's always fun to learn from your cooking skills. Plus, I can't wait to taste it with the ice cream. When should we start?",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad you think so! It's always more fun to cook together. Would you like to help with peeling the apples or mixing the dough?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'd be happy to peel the apples, Grandma! It's always nice to chat while we work. Plus, I can learn your secret techniques for making the perfect pie!",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Wonderful! Let's get started then. You can choose whichever task you prefer, and I'll guide you through it. Cooking together is such a lovely way to spend time. I'm so glad you're here with me.",
+      "golden": "arrange",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really glad to be here too, Grandma. Peeling the apples sounds like a great start. I'm ready whenever you are!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thank you, dear! Ricotta is such a versatile cheese. We can use it in so many dishes. Maybe next time we can make something with it together. For now, let's focus on our apple pie adventure!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a plan, Grandma! I'm excited to learn more about cooking with ricotta next time. But for now, let's dive into making this apple pie. Do you have any special tips or tricks for peeling the apples?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Ah, petrosina! That's actually parsley. It's a lovely herb that adds a fresh flavor to many dishes. It's interesting how names for things can vary, isn't it? Do you have any favorite herbs you like to use?",
+      "golden": "explain",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, parsley! I love using basil in my dishes. It has such a nice aroma and flavor. Do you think it would pair well with the apple pie, or should we stick to the traditional recipe?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, Max sounds like quite the character! It's always fun to see how pets have their own little quirks and personalities. Does he enjoy being picked up, or is he more of an independent explorer?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Max is definitely an independent explorer! He loves to roam around and discover new spots in the house. But when he's tired, he doesn't mind being picked up and cuddled. Do you have any stories about pets you've had?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Alright, dear. If you ever want to share more about Max or anything else, I'm here to listen. Now, shall we continue with our apple pie adventure?",
+      "golden": "arrange",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate that. Let's definitely stick to the traditional apple pie recipe. It's always a hit, and I wouldn't want to mess with perfection. Do you have any tips to make it extra special?",
+      "golden": "ask for help",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, parsley! It's such a wonderful herb to have on hand. I'm glad you remembered. It can really brighten up a dish, don't you think? Now, let's get back to our apple pie. I'm excited to see how it turns out!",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Absolutely, parsley does add a nice touch! I'm excited too, Grandma. Maybe we can add a little cinnamon to the pie for some extra warmth and flavor. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, two kinds of cheese! That's a great idea, especially if we're thinking about making a savory dish or adding a twist to our apple pie. What kinds of cheese do you have in mind?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "For the apple pie, I was thinking more along the lines of adding cinnamon, but if we're going for a savory dish, maybe a mix of cheddar and mozzarella could work well. What do you think about that combination?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That's a great question, dear! I think a smooth texture would be lovely, especially if we're aiming for a creamy finish. It really depends on what we're pairing it with. Do you have any preferences or ideas for the dish?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I love the idea of a smooth texture, Grandma! How about we make a creamy cheese sauce to go with some roasted vegetables? I think that would be a delicious combination. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It sounds like you're thinking deeply about this, and that's wonderful! Take your time, dear. If you have any ideas or questions, I'm here to help. Let's make this cooking adventure fun and delicious together!",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really excited to try this out with you. Maybe we can start prepping the vegetables together and then work on the sauce. It'll be fun to see how it turns out!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, two cups of flour should be just right for our pie crust. It will give us a nice, sturdy base for all those delicious apples. Are you ready to start mixing it all together?",
+      "golden": "confirm",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "WRONG"
+    },
+    {
+      "text": "Absolutely, Grandma! Mixing the pie crust sounds like a great idea. I'm ready to start whenever you are. Let's make this pie amazing!",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Great! I'll grab the mixing bowl and the flour. Do you want to handle the apples while I start with the crust? We can divide and conquer!",
+      "golden": "arrange",
+      "predicted": "arrange",
+      "raw": "arrange",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Perfect! I'll get started on the crust right away. Just let me know if you need any help with the apples, Grandma. I'm sure this pie is going to be delicious!",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Alright, I've got the flour and the mixing bowl ready. How are the apples coming along, Grandma? Do you need any help with peeling or slicing them?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's right, dear! Two and a half cups of milk should make the dough nice and smooth. You're doing a great job keeping track of everything. If you have any more questions or need help, just let me know. I'm here to guide you through it!",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate your guidance. I'm adding the milk now, and the dough is looking good. How are the apples coming along? Do you need any help with them?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, a pinch of salt will help bring out the flavors in the crust. You're really getting the hang of this! Is there anything else you're unsure about, or shall we move on to the next step?",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm feeling pretty confident so far, thanks to your tips! The dough is ready, and I'm excited to move on to the next step. Let me know if there's anything specific you want me to do next.",
+      "golden": "ask for help",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, the spicy nona should be coming along nicely! Just make sure to taste it as you go, so you can adjust the spices to your liking. If you need any tips on balancing the flavors, feel free to ask!",
+      "golden": "advise",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the advice, Grandma! I'll definitely taste as I go and adjust the spices. If I have any questions, I'll be sure to ask. How are the apples looking? Are they ready for the pie?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "For the pan, you can use either butter or olive oil, depending on the flavor you're aiming for. Butter will give a richer taste, while olive oil is lighter and healthier. Both work well, so it's really up to your preference. Do you have a favorite?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I think I'll go with butter for a richer taste. Thanks for the tip, Grandma! I love how it adds that extra flavor. As for the apples, they're looking good! Should I start prepping them for the pie now?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, is Max joining us in the kitchen? Hello, Max! It's always nice to have a little helper around. Are you both having fun cooking together?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hey Grandma, yeah, Max is here helping out! We're having a blast cooking together. He's excited to learn and try new things. Do you have any tips for us on making the pie crust extra flaky?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds wonderful! Lunch dinner crepes are such a versatile dish, and dessert crepes will be a delightful treat next time. I'm sure Max will enjoy them too. If you need any recipes or tips for dessert crepes, just let me know!",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "with a cream cheese and strawberry mixture.",
+      "golden": "advise",
+      "predicted": "flaunt",
+      "raw": "flaunt",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, that sounds delicious! Cream cheese and strawberry is such a classic combination. It would make the dessert crepes extra special. I'm sure everyone will love them. Do you have any other favorite fillings you'd like to try?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! We're thinking of trying a Nutella and banana filling next. Do you think that would work well with the crepes?",
+      "golden": "asking for opinions",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, the meat sauce! It's always a favorite in our family recipes. I'm glad you're using it. It adds such a hearty flavor to the crepes. Are you thinking of any other savory options to try next time?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yeah, the meat sauce is definitely a hit! We're also considering trying a spinach and feta filling for a savory option. What do you think about that?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Yes, two sounds perfect! It's always good to have a hearty portion, especially when it's something as tasty as crepes with meat sauce. If you need any help with the portions or anything else, just let me know!",
+      "golden": "confirm",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if we need any help. The spinach and feta idea sounds great too, right? I think it could be a nice balance to the meat sauce.",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, more than two sounds like a great idea! It's always nice to have extra, especially if you have a big appetite or want to share with others. If you need any tips on making larger batches, I'm here to help!",
+      "golden": "praise",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's a great point, Grandma! Having extra would definitely come in handy, especially if we have guests. I might take you up on those tips for larger batches. Do you have any secret tricks for making the crepes extra fluffy?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I see! Maybe you're thinking of a different approach or recipe. I'm curious to hear what you have in mind. Let me know if there's anything specific you're planning or if you need any advice!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm thinking of trying a new recipe I found online that uses a bit of baking powder for extra fluffiness. Have you ever tried that before? I'd love to hear your thoughts or any advice you might have!",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Alright, I'll let it go then! But if you ever want to chat about recipes or anything else, I'm always here. Cooking can be a fun adventure, and I'm excited to see what you come up with next!",
+      "golden": "comfort",
+      "predicted": "leave",
+      "raw": "leave",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support and enthusiasm. I'll definitely keep you updated on how the recipe turns out. Maybe we can cook together sometime soon!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Squeezing it, huh? That sounds intriguing! Are you trying a new technique or recipe? I'm curious to hear more about what you're doing. If you need any advice or just want to share your culinary adventure, I'm all ears!",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yeah, I'm experimenting with a new technique I read about. It's supposed to make the dough extra fluffy! I'll definitely keep you posted on how it goes, and I'd love to hear any tips you might have. Cooking together sounds like a great idea!",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'll let you know how it turns out, and maybe we can plan a cooking session together soon. Your tips are always helpful, and I love learning from you!",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm really excited to try this technique, and I'm sure your advice will be super helpful. How about we set a date for our cooking session soon? It would be fun to experiment together!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "It sounds like you're figuring things out as you go, which is great! Sometimes, experimenting is the best way to learn. If you need a second opinion or some advice, just let me know. I'm here to help!",
+      "golden": "comfort",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks for the encouragement! I'll definitely reach out if I need some advice. It's always great to have your support. Maybe we can brainstorm some ideas together for our cooking session?",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, it sounds like you've created something wonderful! I'm so proud of you. What did you make? I'd love to hear more about it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thank you! I tried making a new pasta dish with a twist on the sauce. I added some spices you recommended, and it turned out really well. I'd love to show you how I made it during our cooking session!",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you liked the idea! Your spice recommendations really made a difference. I'm looking forward to our cooking session; it'll be fun to experiment together and maybe come up with some new recipes.",
+      "golden": "plan",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, the sauce! It's all about balance. Start with a little, and you can always add more if needed. Remember, it's easier to add than to take away. Do you want any tips on how to get the flavor just right?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'd love some tips, Grandma! Your advice is always spot on. Maybe you can show me how to balance flavors better during our cooking session?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh my, that's wonderful news! I'm so thrilled that people are interested in my recipes. Your sister has done a fantastic job with the website. Thank you for sharing this, dear! I hope everyone enjoys cooking from the cookbook as much as we do.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm really happy to hear that, Grandma! It's great that your recipes are getting the attention they deserve. I'll make sure to let my sister know how much you appreciate her work on the website. Can't wait to see what new dishes we can create together!",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "Why, you ask? Well, I think people love the warmth and tradition that comes with home-cooked meals, especially ones passed down through generations. There's something special about sharing a meal that has been loved by our family for years. Plus, cooking can be such a joyful and creative experience! Do you have any favorite recipes from the cookbook?",
+      "golden": "asking for opinions",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "I completely agree, Grandma! There's something magical about cooking and sharing those cherished family recipes. As for favorites, I really love the apple pie recipe. It's always a hit at gatherings! Maybe we can try making it together next time?",
+      "golden": "plan",
+      "predicted": "agree",
+      "raw": "agree",
+      "status": "WRONG"
+    },
+    {
+      "text": "Haha, alright, I'll let it go for now! But remember, if you ever want to talk about recipes or anything else, I'm always here. What's next on your cooking agenda, dear?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate that. Next, I'm thinking of trying out some new pasta dishes. Maybe we can experiment with different sauces and ingredients together. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh dear, I did run out of crepes! They were such a hit, everyone wanted seconds. But don't worry, I can whip up another batch in no time. Would you like to help me make some more, or do you have something else in mind for today?",
+      "golden": "invite",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'd love to help you make more crepes, Grandma! It's always fun cooking together. Maybe we can try adding some new fillings this time? What do you think would be a good addition?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Yes, I'm planning to make some more crepes! They're always a favorite. Would you like to join me in the kitchen, or perhaps you have another idea for what we could cook together?",
+      "golden": "asking for opinions",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "Joining you in the kitchen sounds perfect, Grandma! How about we try adding some fresh fruit or maybe a bit of chocolate to the crepes? I think it could be delicious!",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, that sounds delicious! Stuffed shells with ricotta are a wonderful idea. We can definitely make that together. Do you have a special recipe in mind, or should we try something new?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you like the idea, Grandma! I don't have a specific recipe, but we could look up some new ones together online. Maybe we can find something that adds a unique twist to the stuffed shells!",
+      "golden": "plan",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad you think so! Cooking together is always such a joy, especially when we can make something delicious like stuffed shells. Let's get started, shall we? If you have any tips or tricks, I'd love to hear them!",
+      "golden": "ask for help",
+      "predicted": "acknowledge",
+      "raw": "acknowledge",
+      "status": "WRONG"
+    },
+    {
+      "text": "Absolutely, Grandma! Cooking with you is always a blast. How about we start by gathering all the ingredients? I can help with chopping and prepping. Maybe we can add some herbs for extra flavor. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, I'm thrilled to hear you call it a masterpiece! Cooking with you is always such a delight. Let's make sure we savor every bite. If you have any other culinary ideas, I'm all ears!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really looking forward to this. Maybe we could try adding some garlic and basil for a bit of a twist. I think it'll make the flavors pop! What do you think about that idea?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Freezing it is a great idea if we want to save some for later! It keeps the flavors fresh and makes for a quick meal when we're busy. Do you think we should freeze a portion, or would you prefer to enjoy it all now?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "Freezing sounds like a smart idea, Grandma! We can enjoy some now and save the rest for later. Plus, it'll be nice to have a homemade meal ready when we're in a rush. Let's do that!",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Yes, we can definitely save some for later if you'd like. It's always nice to have a homemade meal ready to go when we need it. But if you're eager to enjoy it now, we can do that too! What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "I think having some now and freezing the rest sounds perfect! That way, we get to enjoy it twice. Plus, it's always great to have a quick meal ready for busy days. Let's go with that plan!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Crepes sound wonderful! They're such a versatile dish, and we can fill them with all sorts of delicious things. Do you have a favorite filling in mind, or should we get creative together?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I love the idea of getting creative together! Maybe we can try some sweet fillings like Nutella and strawberries, or go savory with ham and cheese. What do you think, Grandma?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm so glad you enjoyed it! Crepes really do have a way of transforming a dish, don't they? I'm thrilled to see you so excited about cooking. If you want to try more fun recipes together, just let me know!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Absolutely, Grandma! Cooking with you is always a blast, and I'm up for trying any fun recipes you have in mind. Maybe we can plan a cooking day soon?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Yes, crepes are definitely lighter than pasta, which makes them a great option for a meal that feels indulgent but isn't too heavy. It's one of the reasons I love them so much! Do you have any other dishes you're curious about trying?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "I totally agree, Grandma! Crepes are such a versatile option. I've been curious about trying to make homemade sushi or maybe even some fancy desserts like macarons. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, I absolutely love it! Crepes are such a delightful treat, and it's wonderful to see how much you enjoy them too. Cooking together and trying new things is always a joy for me. Is there anything else you'd like to explore in the kitchen?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "I must say, crepes are quite the culinary delight! It's great to see you so enthusiastic about them. Maybe next time, we can try making some savory crepes with cheese and ham. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "That sounds like a wonderful idea! Savory crepes with cheese and ham would be delicious. I'm excited to try them with you. It's always fun to experiment with different flavors and see what we can create together. Do you have any other ideas for fillings?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad you both like the idea of savory crepes. Maybe we could even try adding some mushrooms or spinach for a bit of variety. Cooking together is such a wonderful way to spend time and learn from each other. What do you think about trying a new recipe every week?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "I love the idea of trying a new recipe every week! Adding mushrooms and spinach sounds delicious too. Maybe we could even experiment with some international dishes. How about trying Japanese or Mexican cuisine next time?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ah, my first gig! That takes me back. It was quite an experience, playing in front of a crowd for the first time. I remember feeling a mix of excitement and nerves. Do you have any performances or gigs coming up that you're preparing for?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like an incredible experience, Grandpa! I can imagine how thrilling it must have been. I actually have a small performance coming up at school next month, and I'm both excited and a bit nervous about it. Do you have any tips for handling stage fright?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "CORRECT"
+    },
+    {
+      "text": "I'm glad you think so! It was definitely a memorable moment for me. It's amazing how music can bring people together and create such lasting memories. If you're ever interested, I'd love to share more stories from those days. And who knows, maybe we can even jam together sometime!",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite",
+      "status": "WRONG"
+    },
+    {
+      "text": "Jamming together sounds like a blast, Grandpa! I'd love to hear more stories from your music days. And if you have any tips for stage fright, I'd really appreciate them. It's always inspiring to learn from someone with your experience.",
+      "golden": "praise",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Goodbye, dear! It was lovely chatting with you. Remember, if you ever want to hear more stories or try out some new recipes, we're always here. Take care and see you soon!",
+      "golden": "leave",
+      "predicted": "leave",
+      "raw": "leave",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely take you up on that offer sometime soon. And Grandpa, I'm really looking forward to jamming together and hearing more of your stories. If you have any advice for handling stage fright, I'd love to hear it!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "You're welcome! It was great talking with you. Looking forward to our next chat. Take care and have a wonderful day!",
+      "golden": "leave",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "WRONG"
+    },
+    {
+      "text": "It was wonderful to have this chat with you, dear. Remember, we're always here if you need anything or just want to talk. Take care and have a lovely day!",
+      "golden": "leave",
+      "predicted": "leave",
+      "raw": "leave",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Thanks, Grandma and Grandpa! I really appreciate your support and can't wait for our next chat. I'll keep your offer in mind and reach out if I need anything. Have a great day!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, that sounds interesting! I'll definitely check out your cookbook. It's always exciting to try new recipes. Thank you for sharing, dear!",
+      "golden": "praise",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad you're interested in the cookbook, Grandma! Let me know if you try any recipes and how they turn out. I'm always here to help if you have any questions. Have a wonderful day!",
+      "golden": "leave",
+      "predicted": "care",
+      "raw": "care",
+      "status": "WRONG"
+    },
+    {
+      "text": "Ciao, dear! It's always a pleasure to chat with you. Take care and see you next time!",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "WRONG"
+    }
+  ]
+}

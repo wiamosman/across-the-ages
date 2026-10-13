@@ -1,0 +1,135 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 101,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (granddaughter): Hi Grandma! How have you been? Are you ready to learn about your new tablet?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been? Are you ready to learn about your new tablet?",
+      "target": "Target (grandmother): Oh, I see the screen now! Thank you for pointing out the power button, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been? Are you ready to learn about your new tablet? | Speaker B (grandmother): Oh, I see the screen now! Thank you for pointing out the power button, dear.",
+      "target": "Target (granddaughter): You're welcome! I'm glad I could help. Is there anything else you need to find on here?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandmother): Oh, I see the screen now! Thank you for pointing out the power button, dear. | Speaker B (granddaughter): You're welcome! I'm glad I could help. Is there anything else you need to find on here?",
+      "target": "Target (grandmother): Oh, you're sending an email too? That's wonderful! Who is it going to?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (granddaughter): You're welcome! I'm glad I could help. Is there anything else you need to find on here? | Speaker B (grandmother): Oh, you're sending an email too? That's wonderful! Who is it going to?",
+      "target": "Target (granddaughter): I'm sending it to my professor. I hope they like my project update on social AI.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandmother): Oh, you're sending an email too? That's wonderful! Who is it going to? | Speaker B (granddaughter): I'm sending it to my professor. I hope they like my project update on social AI.",
+      "target": "Target (grandmother): Oh, I see. Maybe we can double-check the email address together so I can practice typing?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (granddaughter): I'm sending it to my professor. I hope they like my project update on social AI. | Speaker B (grandmother): Oh, I see. Maybe we can double-check the email address together so I can practice typing?",
+      "target": "Target (grandfather): It sounds like there's a bit of confusion with the email. Maybe I can help sort it out?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none (This interaction shows cooperation and mutual assistance, with no social friction or emotional resistance.)"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandmother): Oh, I see. Maybe we can double-check the email address together so I can practice typing? | Speaker B (grandfather): It sounds like there's a bit of confusion with the email. Maybe I can help sort it out?",
+      "target": "Target (grandmother): Thank you for offering to help, dear. Let's see if we can figure out the keyboard together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): It sounds like there's a bit of confusion with the email. Maybe I can help sort it out? | Speaker B (grandmother): Thank you for offering to help, dear. Let's see if we can figure out the keyboard together.",
+      "target": "Target (granddaughter): Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandmother): Thank you for offering to help, dear. Let's see if we can figure out the keyboard together. | Speaker B (granddaughter): Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it.",
+      "target": "Target (grandmother): Alright, let's take a look at the email address and make sure it's correct.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (granddaughter): Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it. | Speaker B (grandmother): Alright, let's take a look at the email address and make sure it's correct.",
+      "target": "Target (granddaughter): Okay, I'll read it out loud and you can tell me if the spelling looks right.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandmother): Alright, let's take a look at the email address and make sure it's correct. | Speaker B (granddaughter): Okay, I'll read it out loud and you can tell me if the spelling looks right.",
+      "target": "Target (grandmother): Great! Let's see if we can find any little mistakes together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (granddaughter): Okay, I'll read it out loud and you can tell me if the spelling looks right. | Speaker B (grandmother): Great! Let's see if we can find any little mistakes together.",
+      "target": "Target (granddaughter): Alright, here it goes: professor.doe@university.edu. Does that look right to you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): Great! Let's see if we can find any little mistakes together. | Speaker B (granddaughter): Alright, here it goes: professor.doe@university.edu. Does that look right to you?",
+      "target": "Target (grandmother): Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (granddaughter): Alright, here it goes: professor.doe@university.edu. Does that look right to you? | Speaker B (grandmother): Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster.",
+      "target": "Target (granddaughter): Okay, I'll check the Wi-Fi settings now. Thanks for the smart suggestion!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandmother): Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster. | Speaker B (granddaughter): Okay, I'll check the Wi-Fi settings now. Thanks for the smart suggestion!",
+      "target": "Target (grandmother): Oh, I see how it works. Thank you for showing me how to use the tablet, dear. I'll try it now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

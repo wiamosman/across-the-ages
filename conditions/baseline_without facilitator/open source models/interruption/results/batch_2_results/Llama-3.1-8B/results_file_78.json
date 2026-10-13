@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Teaching my Persian grandpa English! How are you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Teaching my Persian grandpa English! How are you?",
+    "target": "Speaker A (grandfather) (Target): Very good, thank you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Teaching my Persian grandpa English! How are you?\nSpeaker B (grandfather): Very good, thank you.",
+    "target": "Speaker A (grandson) (Target): How was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Very good, thank you.\nSpeaker B (grandson): How was your day?",
+    "target": "Speaker A (grandfather) (Target): My name is—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): How was your day?\nSpeaker B (grandfather): My name is—",
+    "target": "Speaker A (grandson) (Target): No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): My name is—\nSpeaker B (grandson): No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!",
+    "target": "Speaker A (grandfather) (Target): Yes, yes. My name is Mehdi. It is good, yes?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!\nSpeaker B (grandfather): Yes, yes. My name is Mehdi. It is good, yes?",
+    "target": "Speaker A (grandson) (Target): Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Yes, yes. My name is Mehdi. It is good, yes?\nSpeaker B (grandson): Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.",
+    "target": "Speaker A (grandfather) (Target): first he said how was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.\nSpeaker B (grandfather): first he said how was your day?",
+    "target": "Speaker A (grandson) (Target): hhhhhhhh, old, old...",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): first he said how was your day?\nSpeaker B (grandson): hhhhhhhh, old, old...",
+    "target": "Speaker A (grandfather) (Target): first he said how was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): hhhhhhhh, old, old...\nSpeaker B (grandfather): first he said how was your day?",
+    "target": "Speaker A (grandson) (Target): hhhh ok this was difficult lets try other question! how was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): first he said how was your day?\nSpeaker B (grandson): hhhh ok this was difficult lets try other question! how was your day?",
+    "target": "Speaker A (grandfather) (Target): Good, good, good, good, very good, very good, very good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): hhhh ok this was difficult lets try other question! how was your day?\nSpeaker B (grandfather): Good, good, good, good, very good, very good, very good.",
+    "target": "Speaker A (grandson) (Target): What is your name?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Good, good, good, good, very good, very good, very good.\nSpeaker B (grandson): What is your name?",
+    "target": "Speaker A (grandfather) (Target): My name is Mehdi.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): What is your name?\nSpeaker B (grandfather): My name is Mehdi.",
+    "target": "Speaker A (grandson) (Target): Good job!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 37,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, thanks for asking. How about yours?",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Oh no, that sounds serious. Do you need help getting it fixed?",
+      "golden": "question",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!",
+      "golden": "statement-non-opinion",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "It sounds like you're having a tough time with the car. Do you want me to come over and help?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.",
+      "golden": "statement-non-opinion",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "I'm sorry if I made you feel that way. I just wanted to make sure you're safe.",
+      "golden": "apology",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll let you handle it. Just let me know if you need anything.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "The gas pedal is on the right, just press it gently.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Got it, Grandpa! I'll be careful. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's alright, everyone makes mistakes. Just take your time and try again.",
+      "golden": "statement-opinion",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "Thanks, Grandpa. I really appreciate your patience with me.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'll keep practicing, Grandpa. Thanks for being so supportive!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep at it and hopefully get better soon.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Haha, just like in the movies! You're doing great, keep it up.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, thanks! I hope I can be as good as you one day.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Take a deep breath, you're doing fine. Just go slow and steady, and you'll get it right.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandpa. I'll keep practicing and take it slow.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

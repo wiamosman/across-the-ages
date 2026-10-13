@@ -1,0 +1,255 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 43,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Where is it now?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This context lacks sufficient information to determine if there is any social friction or tension.)"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Where is it now?",
+            "target": "Target (grandmother): You said that you'd remember, so I didn't circle it, remember? That's the last one. And then we went to the Happy Half Note song and that one, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are working together to recall information and are in"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Where is it now? | Speaker B (grandmother): You said that you'd remember, so I didn't circle it, remember? That's the last one. And then we went to the Happy Half Note song and that one, right?",
+            "target": "Target (granddaughter): Uh-huh. That's the one. So since we did those, let me just hear it without the camera and then we'll go on.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): You said that you'd remember, so I didn't circle it, remember? That's the last one. And then we went to the Happy Half Note song and that one, right? | Speaker B (granddaughter): Uh-huh. That's the one. So since we did those, let me just hear it without the camera and then we'll go on.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Uh-huh. That's the one. So since we did those, let me just hear it without the camera and then we'll go on. | Speaker B (grandmother): Okay.",
+            "target": "Target (granddaughter): Oh, we did— did we do quarter rest? We did that week. So I'm getting confused because I'm teaching him too. Oh, we didn't do this. Okay. Okay. Lesson 2. What? We should be in Lesson 3 soon. Honestly, Grandma, I feel like I'm repeating myself constantly. I'm teaching a toddler who listens better than this. It’s like you aren’t even trying to remember.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (mild) - The granddaughter expresses frustration, but she doesn'"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Okay. | Speaker B (granddaughter): Oh, we did— did we do quarter rest? We did that week. So I'm getting confused because I'm teaching him too. Oh, we didn't do this. Okay. Okay. Lesson 2. What? We should be in Lesson 3 soon. Honestly, Grandma, I feel like I'm repeating myself constantly. I'm teaching a toddler who listens better than this. It’s like you aren’t even trying to remember.",
+            "target": "Target (grandmother): Well... I am trying. You don't have to be mean about it. I'm doing my best here.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Oh, we did— did we do quarter rest? We did that week. So I'm getting confused because I'm teaching him too. Oh, we didn't do this. Okay. Okay. Lesson 2. What? We should be in Lesson 3 soon. Honestly, Grandma, I feel like I'm repeating myself constantly. I'm teaching a toddler who listens better than this. It’s like you aren’t even trying to remember. | Speaker B (grandmother): Well... I am trying. You don't have to be mean about it. I'm doing my best here.",
+            "target": "Target (granddaughter): I'm just saying, we're way back here. Let me just review with you. Let's just do that one. See if you remember how to do that one. Okay. Let's get my fingers all fixed here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Well... I am trying. You don't have to be mean about it. I'm doing my best here. | Speaker B (granddaughter): I'm just saying, we're way back here. Let me just review with you. Let's just do that one. See if you remember how to do that one. Okay. Let's get my fingers all fixed here.",
+            "target": "Target (grandmother): Oh yeah, do I have to say tic-tac?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch (assuming \"tic-tac\" refers to a specific term or"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): I'm just saying, we're way back here. Let me just review with you. Let's just do that one. See if you remember how to do that one. Okay. Let's get my fingers all fixed here. | Speaker B (grandmother): Oh yeah, do I have to say tic-tac?",
+            "target": "Target (granddaughter): It's important. Tic-toc. Tic-toc. I'll say it for you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch (Note: \"tic-toc\" is likely a mistake for \""
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Oh yeah, do I have to say tic-tac? | Speaker B (granddaughter): It's important. Tic-toc. Tic-toc. I'll say it for you.",
+            "target": "Target (grandmother): Okay. Tic-toc, tic-toc, tic-toc, tic-toc. Tick-tock, tick-tock, tick-tock—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are in sync and playing a game together,"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): It's important. Tic-toc. Tic-toc. I'll say it for you. | Speaker B (grandmother): Okay. Tic-toc, tic-toc, tic-toc, tic-toc. Tick-tock, tick-tock, tick-tock—",
+            "target": "Target (granddaughter): That was perfect! With me counting? Can you do it at counting like that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Okay. Tic-toc, tic-toc, tic-toc, tic-toc. Tick-tock, tick-tock, tick-tock— | Speaker B (granddaughter): That was perfect! With me counting? Can you do it at counting like that?",
+            "target": "Target (grandmother): Well, I'll try... I—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\n(In this context, the granddaughter's request for her grandmother to count"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): That was perfect! With me counting? Can you do it at counting like that? | Speaker B (grandmother): Well, I'll try... I—",
+            "target": "Target (granddaughter): It's a good habit to be comfortable with countin'. Ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The grandd"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Well, I'll try... I— | Speaker B (granddaughter): It's a good habit to be comfortable with countin'. Ready?",
+            "target": "Target (grandmother): Uh-huh! Tick-tock, tick-tock...",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This interaction is playful and cooperative, with no signs of social friction or emotional"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): It's a good habit to be comfortable with countin'. Ready? | Speaker B (grandmother): Uh-huh! Tick-tock, tick-tock...",
+            "target": "Target (granddaughter): Wait— you sped up too much faster than the tick-tocks. That's good all right if that's the whole point of counting we keep it over on one okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Uh-huh! Tick-tock, tick-tock... | Speaker B (granddaughter): Wait— you sped up too much faster than the tick-tocks. That's good all right if that's the whole point of counting we keep it over on one okay.",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick- Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That's the whole point of counting is not to speed up and slow down within a song. Because then your rhythm isn't right. Okay. You understand? Mm-hmm. Okay. What do I do next?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (procedure for counting)"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): Wait— you sped up too much faster than the tick-tocks. That's good all right if that's the whole point of counting we keep it over on one okay. | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick- Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That's the whole point of counting is not to speed up and slow down within a song. Because then your rhythm isn't right. Okay. You understand? Mm-hmm. Okay. What do I do next?",
+            "target": "Target (granddaughter): Okay, so now, did we replace G yet? I thought we did. Maybe not. Yeah, that's 5. Yeah, we did that, right? Uh-huh. I think so. Here we go. You recognize that, right, Leah? Okay, let's go ahead and play that song. Do I sound like Grandma? I want to get in the vocal track. Okay, okay. Tick tock, tick tock, tick tock. Why are you looking at me?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick- Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That's the whole point of counting is not to speed up and slow down within a song. Because then your rhythm isn't right. Okay. You understand? Mm-hmm. Okay. What do I do next? | Speaker B (granddaughter): Okay, so now, did we replace G yet? I thought we did. Maybe not. Yeah, that's 5. Yeah, we did that, right? Uh-huh. I think so. Here we go. You recognize that, right, Leah? Okay, let's go ahead and play that song. Do I sound like Grandma? I want to get in the vocal track. Okay, okay. Tick tock, tick tock, tick tock. Why are you looking at me?",
+            "target": "Target (grandmother): Wait, wait! That's wrong— tick-tock-tick-tock... Tick-tock-tick-tock Do you know that heart?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "method divergence (or slang mismatch if \"heart\" refers to a musical term and not"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): Okay, so now, did we replace G yet? I thought we did. Maybe not. Yeah, that's 5. Yeah, we did that, right? Uh-huh. I think so. Here we go. You recognize that, right, Leah? Okay, let's go ahead and play that song. Do I sound like Grandma? I want to get in the vocal track. Okay, okay. Tick tock, tick tock, tick tock. Why are you looking at me? | Speaker B (grandmother): Wait, wait! That's wrong— tick-tock-tick-tock... Tick-tock-tick-tock Do you know that heart?",
+            "target": "Target (granddaughter): Yeah?! Even these songs aren't so good because they're too long for me as playing it. Wait Grandma hold out both arms straight away from him until after every note plays off camera please ladybug come around front hey sweetie Daddy needs help hitting something against daddy isn't Mommy coming home soon Grandfather has got work tonight Play again. You want me to do the tick-tocking? Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): Wait, wait! That's wrong— tick-tock-tick-tock... Tick-tock-tick-tock Do you know that heart? | Speaker B (granddaughter): Yeah?! Even these songs aren't so good because they're too long for me as playing it. Wait Grandma hold out both arms straight away from him until after every note plays off camera please ladybug come around front hey sweetie Daddy needs help hitting something against daddy isn't Mommy coming home soon Grandfather has got work tonight Play again. You want me to do the tick-tocking? Mm-hmm.",
+            "target": "Target (grandmother): So we'll go back over here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange appears to be a playful interaction between the grandmother and granddaughter, with"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): Yeah?! Even these songs aren't so good because they're too long for me as playing it. Wait Grandma hold out both arms straight away from him until after every note plays off camera please ladybug come around front hey sweetie Daddy needs help hitting something against daddy isn't Mommy coming home soon Grandfather has got work tonight Play again. You want me to do the tick-tocking? Mm-hmm. | Speaker B (grandmother): So we'll go back over here?",
+            "target": "Target (granddaughter): No, we'll continue. Okay. Quarter rest. I don't know, that's hard. It's not, it's a silent beat. So you still have to say tick-tock. You still have to say tick-tock. So if you play this C, say tick-tock, tick-tock, tick-tock, but let go because it's supposed to be silent, it's a rest. Tick-tock. Well, hold this first tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock. Right. Are we on? Okay. So, okay, I'm just gonna show the page really quick. When you play a rest, you have to let go completely and say tick-tock. So you're gonna hold tick-tock down for this note, let go for the rest for tick-tock, and then play the half note and say tick-tock, tick-tock. So let's do that again, Grandma. You're helping me teach everybody else, so do it right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This conversation shows a cooperative flow between the grandmother and granddaughter as they engage in"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): So we'll go back over here? | Speaker B (granddaughter): No, we'll continue. Okay. Quarter rest. I don't know, that's hard. It's not, it's a silent beat. So you still have to say tick-tock. You still have to say tick-tock. So if you play this C, say tick-tock, tick-tock, tick-tock, but let go because it's supposed to be silent, it's a rest. Tick-tock. Well, hold this first tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock. Right. Are we on? Okay. So, okay, I'm just gonna show the page really quick. When you play a rest, you have to let go completely and say tick-tock. So you're gonna hold tick-tock down for this note, let go for the rest for tick-tock, and then play the half note and say tick-tock, tick-tock. So let's do that again, Grandma. You're helping me teach everybody else, so do it right.",
+            "target": "Target (grandmother): Okay. Tick-tock, rest, Tick-tock, tick-tock, tick-tock. Right. Let's do it one more time. Tick-tock, tick-tock, tick-tock, tick-tock. That's perfect. That's perfect. That's the way to do it. You just let go and rest. You do it slower than I do it. I'm gonna start doing it. I'll do better when I do it slower. Count slower, right. You're playing a little bit too— so these two songs will give you a little bit of that rest practice. So let's try. Tick-tock, tick-tock. Let go of the tick-tock, of the rest. Start over. This is called Time to Rest. Tick-tock, tick-tock. Tick-tock, tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Got it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": ".\n\nAnalysis:\n\nThis conversation between a grandmother and her granddaughter shows a cooper"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): No, we'll continue. Okay. Quarter rest. I don't know, that's hard. It's not, it's a silent beat. So you still have to say tick-tock. You still have to say tick-tock. So if you play this C, say tick-tock, tick-tock, tick-tock, but let go because it's supposed to be silent, it's a rest. Tick-tock. Well, hold this first tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock. Right. Are we on? Okay. So, okay, I'm just gonna show the page really quick. When you play a rest, you have to let go completely and say tick-tock. So you're gonna hold tick-tock down for this note, let go for the rest for tick-tock, and then play the half note and say tick-tock, tick-tock. So let's do that again, Grandma. You're helping me teach everybody else, so do it right. | Speaker B (grandmother): Okay. Tick-tock, rest, Tick-tock, tick-tock, tick-tock. Right. Let's do it one more time. Tick-tock, tick-tock, tick-tock, tick-tock. That's perfect. That's perfect. That's the way to do it. You just let go and rest. You do it slower than I do it. I'm gonna start doing it. I'll do better when I do it slower. Count slower, right. You're playing a little bit too— so these two songs will give you a little bit of that rest practice. So let's try. Tick-tock, tick-tock. Let go of the tick-tock, of the rest. Start over. This is called Time to Rest. Tick-tock, tick-tock. Tick-tock, tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Got it?",
+            "target": "Target (grandmother): Yeah, slow, slow. I've been doing it faster. That's pretty slow. That's about the speed you want to be at. That's why you say the tick-tock so you can keep it slow. It slows you down when you say tick-tocks, but that's the whole point. You can speed up later when you're comfortable, but you still have to say tick-tock. Okay, so replacing 3 for E, we'll do this one last song for today. Okay. So now you have G, which is your 5th finger. And now you have—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "tock, tick-tock, tick-tock. That's good. That'"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): Okay. Tick-tock, rest, Tick-tock, tick-tock, tick-tock. Right. Let's do it one more time. Tick-tock, tick-tock, tick-tock, tick-tock. That's perfect. That's perfect. That's the way to do it. You just let go and rest. You do it slower than I do it. I'm gonna start doing it. I'll do better when I do it slower. Count slower, right. You're playing a little bit too— so these two songs will give you a little bit of that rest practice. So let's try. Tick-tock, tick-tock. Let go of the tick-tock, of the rest. Start over. This is called Time to Rest. Tick-tock, tick-tock. Tick-tock, tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Got it? | Speaker B (grandmother): Yeah, slow, slow. I've been doing it faster. That's pretty slow. That's about the speed you want to be at. That's why you say the tick-tock so you can keep it slow. It slows you down when you say tick-tocks, but that's the whole point. You can speed up later when you're comfortable, but you still have to say tick-tock. Okay, so replacing 3 for E, we'll do this one last song for today. Okay. So now you have G, which is your 5th finger. And now you have—",
+            "target": "Target (granddaughter): The third finger.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "F, E, D, C, B, A, G. That's the scale."
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): Yeah, slow, slow. I've been doing it faster. That's pretty slow. That's about the speed you want to be at. That's why you say the tick-tock so you can keep it slow. It slows you down when you say tick-tocks, but that's the whole point. You can speed up later when you're comfortable, but you still have to say tick-tock. Okay, so replacing 3 for E, we'll do this one last song for today. Okay. So now you have G, which is your 5th finger. And now you have— | Speaker B (granddaughter): The third finger.",
+            "target": "Target (grandmother): Third finger is going to be replaced with an E. And what I tell students sometimes, when sometimes you get confused, an E looks like it's a backwards 3. So you can remember it that way. Okay. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Okay, try not to treat the end of each line like a complete line. Try to think of this song that starts here— I'm sorry? And ends here. Sometimes it's easy to make a little pause at the end of the line because it feels like you're at the end of the line, but you're really not. You're not done until you work down there. Yeah, right. Okay. Okay, so your assignment this week will be just to practice on that, especially counting out loud and slower.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): The third finger. | Speaker B (grandmother): Third finger is going to be replaced with an E. And what I tell students sometimes, when sometimes you get confused, an E looks like it's a backwards 3. So you can remember it that way. Okay. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Okay, try not to treat the end of each line like a complete line. Try to think of this song that starts here— I'm sorry? And ends here. Sometimes it's easy to make a little pause at the end of the line because it feels like you're at the end of the line, but you're really not. You're not done until you work down there. Yeah, right. Okay. Okay, so your assignment this week will be just to practice on that, especially counting out loud and slower.",
+            "target": "Target (grandmother): Yeah, count out loud. And you like that when you say the tick-tock? You lift the key up or do you hold it down?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): Third finger is going to be replaced with an E. And what I tell students sometimes, when sometimes you get confused, an E looks like it's a backwards 3. So you can remember it that way. Okay. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Tick-tock, tick-tock Okay, try not to treat the end of each line like a complete line. Try to think of this song that starts here— I'm sorry? And ends here. Sometimes it's easy to make a little pause at the end of the line because it feels like you're at the end of the line, but you're really not. You're not done until you work down there. Yeah, right. Okay. Okay, so your assignment this week will be just to practice on that, especially counting out loud and slower. | Speaker B (grandmother): Yeah, count out loud. And you like that when you say the tick-tock? You lift the key up or do you hold it down?",
+            "target": "Target (granddaughter): You hold it down until you're done. While you're saying tick-tock, you hold it down. Right. Then you put it up and go to your next. Right. Okay. Right. Hold it down while you're saying the tick-tock. Exactly. And you did it right today. You did it right. Yeah. You don't want to say tick-tock. Yeah. You don't want to be saying tick-tock after you let go. Right. Unless it's a rest and you just say tick-tock without playing anything.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): Yeah, count out loud. And you like that when you say the tick-tock? You lift the key up or do you hold it down? | Speaker B (granddaughter): You hold it down until you're done. While you're saying tick-tock, you hold it down. Right. Then you put it up and go to your next. Right. Okay. Right. Hold it down while you're saying the tick-tock. Exactly. And you did it right today. You did it right. Yeah. You don't want to say tick-tock. Yeah. You don't want to be saying tick-tock after you let go. Right. Unless it's a rest and you just say tick-tock without playing anything.",
+            "target": "Target (grandmother): Yeah, rolls. Rolls are a little confusing.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance between the speakers."
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): You hold it down until you're done. While you're saying tick-tock, you hold it down. Right. Then you put it up and go to your next. Right. Okay. Right. Hold it down while you're saying the tick-tock. Exactly. And you did it right today. You did it right. Yeah. You don't want to say tick-tock. Yeah. You don't want to be saying tick-tock after you let go. Right. Unless it's a rest and you just say tick-tock without playing anything. | Speaker B (grandmother): Yeah, rolls. Rolls are a little confusing.",
+            "target": "Target (granddaughter): Well, that's what—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): Yeah, rolls. Rolls are a little confusing. | Speaker B (granddaughter): Well, that's what—",
+            "target": "Target (grandmother): That's what you need to practice.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "method divergence (or ignored input, depending on the tone and intent of the granddaughter'"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): Well, that's what— | Speaker B (grandmother): That's what you need to practice.",
+            "target": "Target (granddaughter): Right, because it makes rhythm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

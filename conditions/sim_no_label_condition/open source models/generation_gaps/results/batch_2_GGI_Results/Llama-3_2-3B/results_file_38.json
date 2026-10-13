@@ -1,0 +1,87 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 38,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): I think I can reach the pedal.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): I think I can reach the pedal.",
+            "target": "Target (grandfather): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): I think I can reach the pedal. | Speaker B (grandfather): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows.",
+            "target": "Target (granddaughter): And then between where I can touch that little arrow.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Yeah, I don't want you to do the pedals just yet. Gotta go over the arrows. | Speaker B (granddaughter): And then between where I can touch that little arrow.",
+            "target": "Target (grandfather): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): And then between where I can touch that little arrow. | Speaker B (grandfather): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer.",
+            "target": "Target (granddaughter): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): Wait, what are you doing with your hands? You have to keep them at ten and two, exactly like I showed you. That's the only safe way to steer. | Speaker B (granddaughter): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here.",
+            "target": "Target (grandfather): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Grandpa, nobody actually drives like that anymore, it's so stiff. I can turn it just fine with one hand down here. | Speaker B (grandfather): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn.",
+            "target": "Target (granddaughter): Fine. Turn?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): No, that's how accidents happen. You do it the proper way or we aren't moving. Now, turn. | Speaker B (granddaughter): Fine. Turn?",
+            "target": "Target (grandfather): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Fine. Turn? | Speaker B (grandfather): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking?",
+            "target": "Target (granddaughter): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): Turn. Good job. Start letting it all out. There you go. Good. Turn a little more. Turn a little more. Oh, you parking? | Speaker B (granddaughter): Yes.",
+            "target": "Target (grandfather): Okay, cool. Good job.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

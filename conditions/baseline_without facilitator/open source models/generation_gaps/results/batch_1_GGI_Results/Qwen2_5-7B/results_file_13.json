@@ -1,0 +1,90 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 13,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): kim, i think we should make a traditional passover breakfast or lunch dish. i even like it for dinner, called matzah brie. those who don't know, matzah is an unleavened bread, right? which we love. and you break up one piece of matzah into several smaller bite pieces. and then we put some hot water on it and let it just soak a minute so they get soft.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): kim, i think we should make a traditional passover breakfast or lunch dish. i even like it for dinner, called matzah brie. those who don't know, matzah is an unleavened bread, right? which we love. and you break up one piece of matzah into several smaller bite pieces. and then we put some hot water on it and let it just soak a minute so they get soft.",
+            "target": "Target (granddaughter): doing it",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): kim, i think we should make a traditional passover breakfast or lunch dish. i even like it for dinner, called matzah brie. those who don't know, matzah is an unleavened bread, right? which we love. and you break up one piece of matzah into several smaller bite pieces. and then we put some hot water on it and let it just soak a minute so they get soft. | Speaker B (granddaughter): doing it",
+            "target": "Target (grandmother): that's perfect. we scramble up two eggs. we'll crack them. crack them. you beat up the eggs and make it all, you know, fluffy. put a little salt in there while you're doing that. it's got the salt in there. i'm gonna use sea salt",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): doing it | Speaker B (grandmother): that's perfect. we scramble up two eggs. we'll crack them. crack them. you beat up the eggs and make it all, you know, fluffy. put a little salt in there while you're doing that. it's got the salt in there. i'm gonna use sea salt",
+            "target": "Target (grandmother): yes,everybody's worrying about different kinds of salts now",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): that's perfect. we scramble up two eggs. we'll crack them. crack them. you beat up the eggs and make it all, you know, fluffy. put a little salt in there while you're doing that. it's got the salt in there. i'm gonna use sea salt | Speaker B (grandmother): yes,everybody's worrying about different kinds of salts now",
+            "target": "Target (granddaughter): they are?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): yes,everybody's worrying about different kinds of salts now | Speaker B (granddaughter): they are?",
+            "target": "Target (grandmother): shake it up real good. so i'm gonna get rid of the extra water in the sink. keep stirring. make it fluffy. see, now the matzah's dry. and i think you can put the eggs.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): they are? | Speaker B (grandmother): shake it up real good. so i'm gonna get rid of the extra water in the sink. keep stirring. make it fluffy. see, now the matzah's dry. and i think you can put the eggs.",
+            "target": "Target (granddaughter): pour it?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): shake it up real good. so i'm gonna get rid of the extra water in the sink. keep stirring. make it fluffy. see, now the matzah's dry. and i think you can put the eggs. | Speaker B (granddaughter): pour it?",
+            "target": "Target (grandmother): yep, right on top. perfect.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): pour it? | Speaker B (grandmother): yep, right on top. perfect.",
+            "target": "Target (grandmother): and then mix that up. so then you have your whole thing. and it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. you don't like it too hard either. it's the easiest meal. a lot of people like jam on it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): yep, right on top. perfect. | Speaker B (grandmother): and then mix that up. so then you have your whole thing. and it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. you don't like it too hard either. it's the easiest meal. a lot of people like jam on it.",
+            "target": "Target (granddaughter): i do.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): and then mix that up. so then you have your whole thing. and it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. you don't like it too hard either. it's the easiest meal. a lot of people like jam on it. | Speaker B (granddaughter): i do.",
+            "target": "Target (grandmother): strawberry jam or fig jam or whatever. i like it just plain. perfect. okay,",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): i do. | Speaker B (grandmother): strawberry jam or fig jam or whatever. i like it just plain. perfect. okay,",
+            "target": "Target (granddaughter): good job.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

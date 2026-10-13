@@ -1,0 +1,583 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 96,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Hi, my name is Sarah Dietschy. I am currently in Weatherford, Texas. You've probably never heard of this place before, but Texas is my home. I was born and raised, and I guess I consider real home where all of your family is, and so I'm hanging out with some great people today, but I actually work and live in New York City. Welcome to New York! I've lived and worked here for over a year. I love the people, I love the tall buildings, I love the hustle, and the energy here is unmatched. I work and live 2,000 miles away from Texas, where I've lived for 28 years of my life. And I make video for a living. I am a YouTuber, a vlogger, some people you might say, but that's kind of hard to explain to your grandparents. It's kind of a hard concept to grasp. But now that I think of it, I also don't have a good idea what my grandpa does. So let's go back to Texas. Maybe I can learn about his job. He can learn about mine. What I'm saying is I'm gonna try to teach my grandpa, Daddy Bill, how to vlog. Dump trucks. Oh, okay. I see. Daddy Bill?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Hi, my name is Sarah Dietschy. I am currently in Weatherford, Texas. You've probably never heard of this place before, but Texas is my home. I was born and raised, and I guess I consider real home where all of your family is, and so I'm hanging out with some great people today, but I actually work and live in New York City. Welcome to New York! I've lived and worked here for over a year. I love the people, I love the tall buildings, I love the hustle, and the energy here is unmatched. I work and live 2,000 miles away from Texas, where I've lived for 28 years of my life. And I make video for a living. I am a YouTuber, a vlogger, some people you might say, but that's kind of hard to explain to your grandparents. It's kind of a hard concept to grasp. But now that I think of it, I also don't have a good idea what my grandpa does. So let's go back to Texas. Maybe I can learn about his job. He can learn about mine. What I'm saying is I'm gonna try to teach my grandpa, Daddy Bill, how to vlog. Dump trucks. Oh, okay. I see. Daddy Bill?",
+            "target": "Target (grandfather): Okay, so This is my new home. Look at all the bulldozers. There's a front end loader. There's a bulldozer. Yeah? I have a construction company, but I'm to the age now where I don't do much.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Hi, my name is Sarah Dietschy. I am currently in Weatherford, Texas. You've probably never heard of this place before, but Texas is my home. I was born and raised, and I guess I consider real home where all of your family is, and so I'm hanging out with some great people today, but I actually work and live in New York City. Welcome to New York! I've lived and worked here for over a year. I love the people, I love the tall buildings, I love the hustle, and the energy here is unmatched. I work and live 2,000 miles away from Texas, where I've lived for 28 years of my life. And I make video for a living. I am a YouTuber, a vlogger, some people you might say, but that's kind of hard to explain to your grandparents. It's kind of a hard concept to grasp. But now that I think of it, I also don't have a good idea what my grandpa does. So let's go back to Texas. Maybe I can learn about his job. He can learn about mine. What I'm saying is I'm gonna try to teach my grandpa, Daddy Bill, how to vlog. Dump trucks. Oh, okay. I see. Daddy Bill? | Speaker B (grandfather): Okay, so This is my new home. Look at all the bulldozers. There's a front end loader. There's a bulldozer. Yeah? I have a construction company, but I'm to the age now where I don't do much.",
+            "target": "Target (grandfather): Those are dump trucks. I was testing you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Okay, so This is my new home. Look at all the bulldozers. There's a front end loader. There's a bulldozer. Yeah? I have a construction company, but I'm to the age now where I don't do much. | Speaker B (grandfather): Those are dump trucks. I was testing you.",
+            "target": "Target (granddaughter): What do you do here? This is your office. You run a construction company.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Those are dump trucks. I was testing you. | Speaker B (granddaughter): What do you do here? This is your office. You run a construction company.",
+            "target": "Target (grandfather): Delegation?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): What do you do here? This is your office. You run a construction company. | Speaker B (grandfather): Delegation?",
+            "target": "Target (granddaughter): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Delegation? | Speaker B (granddaughter): Yeah.",
+            "target": "Target (grandfather): What's your day-to-day around here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Yeah. | Speaker B (grandfather): What's your day-to-day around here?",
+            "target": "Target (granddaughter): Baby girl, I do everything. Subdivisions and city streets and that kind of stuff. And Judd's got two big strong boys, and between the three of them they get a lot done.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): What's your day-to-day around here? | Speaker B (granddaughter): Baby girl, I do everything. Subdivisions and city streets and that kind of stuff. And Judd's got two big strong boys, and between the three of them they get a lot done.",
+            "target": "Target (grandfather): Because it's a family business. We got Uncle Judd, we got Jacob, got Judson. And me. And you used to have Pepaw. Pepaw started the business in 1938.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Baby girl, I do everything. Subdivisions and city streets and that kind of stuff. And Judd's got two big strong boys, and between the three of them they get a lot done. | Speaker B (grandfather): Because it's a family business. We got Uncle Judd, we got Jacob, got Judson. And me. And you used to have Pepaw. Pepaw started the business in 1938.",
+            "target": "Target (granddaughter): Wow. This is my vlogging camera. I have a challenge. I want to see If you can vlog.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Because it's a family business. We got Uncle Judd, we got Jacob, got Judson. And me. And you used to have Pepaw. Pepaw started the business in 1938. | Speaker B (granddaughter): Wow. This is my vlogging camera. I have a challenge. I want to see If you can vlog.",
+            "target": "Target (grandfather): If I can vlog?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Wow. This is my vlogging camera. I have a challenge. I want to see If you can vlog. | Speaker B (grandfather): If I can vlog?",
+            "target": "Target (granddaughter): If you can vlog. How do you feel about that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): If I can vlog? | Speaker B (granddaughter): If you can vlog. How do you feel about that?",
+            "target": "Target (grandfather): I don't know. You may have to explain to me what the word vlog means before I can vlog it.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): If you can vlog. How do you feel about that? | Speaker B (grandfather): I don't know. You may have to explain to me what the word vlog means before I can vlog it.",
+            "target": "Target (granddaughter): So vlog stands for video blog.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): I don't know. You may have to explain to me what the word vlog means before I can vlog it. | Speaker B (granddaughter): So vlog stands for video blog.",
+            "target": "Target (grandfather): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): So vlog stands for video blog. | Speaker B (grandfather): Yeah.",
+            "target": "Target (granddaughter): So it's making almost a diary of your day. So you film your day, you edit it into like a 10-minute video, and then you post it to the internet. For everyone to see.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Yeah. | Speaker B (granddaughter): So it's making almost a diary of your day. So you film your day, you edit it into like a 10-minute video, and then you post it to the internet. For everyone to see.",
+            "target": "Target (grandfather): Now why on earth would a stranger want to see a diary of me feeding cows or sitting in my office? A diary is supposed to be locked in a drawer, not put on a billboard for the whole world.",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): So it's making almost a diary of your day. So you film your day, you edit it into like a 10-minute video, and then you post it to the internet. For everyone to see. | Speaker B (grandfather): Now why on earth would a stranger want to see a diary of me feeding cows or sitting in my office? A diary is supposed to be locked in a drawer, not put on a billboard for the whole world.",
+            "target": "Target (granddaughter): It's not like that, Grandpa! People find it interesting and authentic. It's about building a community and sharing your perspective.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): Now why on earth would a stranger want to see a diary of me feeding cows or sitting in my office? A diary is supposed to be locked in a drawer, not put on a billboard for the whole world. | Speaker B (granddaughter): It's not like that, Grandpa! People find it interesting and authentic. It's about building a community and sharing your perspective.",
+            "target": "Target (grandfather): Building a community? We build roads and subdivisions. I don't see how talking to a piece of glass builds anything but a headache. It seems like a lot of fuss for no real work.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): It's not like that, Grandpa! People find it interesting and authentic. It's about building a community and sharing your perspective. | Speaker B (grandfather): Building a community? We build roads and subdivisions. I don't see how talking to a piece of glass builds anything but a headache. It seems like a lot of fuss for no real work.",
+            "target": "Target (granddaughter): I'm vlogging. I'm not sure what I'm vlogging.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Building a community? We build roads and subdivisions. I don't see how talking to a piece of glass builds anything but a headache. It seems like a lot of fuss for no real work. | Speaker B (granddaughter): I'm vlogging. I'm not sure what I'm vlogging.",
+            "target": "Target (grandfather): You're not afraid of cows, are you?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): I'm vlogging. I'm not sure what I'm vlogging. | Speaker B (grandfather): You're not afraid of cows, are you?",
+            "target": "Target (granddaughter): I am not afraid of cows.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): You're not afraid of cows, are you? | Speaker B (granddaughter): I am not afraid of cows.",
+            "target": "Target (grandfather): Good, then I'm gonna put you right in the middle of them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): I am not afraid of cows. | Speaker B (grandfather): Good, then I'm gonna put you right in the middle of them.",
+            "target": "Target (grandfather): I'm terrified.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): Good, then I'm gonna put you right in the middle of them. | Speaker B (grandfather): I'm terrified.",
+            "target": "Target (granddaughter): Well, then you got to be manning the camera. We are headed to the farm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandfather): I'm terrified. | Speaker B (granddaughter): Well, then you got to be manning the camera. We are headed to the farm.",
+            "target": "Target (grandfather): We're headed to the ranch.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (granddaughter): Well, then you got to be manning the camera. We are headed to the farm. | Speaker B (grandfather): We're headed to the ranch.",
+            "target": "Target (granddaughter): To the ranch. To the ranch. You got the cutest farm or ranch shoes on.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandfather): We're headed to the ranch. | Speaker B (granddaughter): To the ranch. To the ranch. You got the cutest farm or ranch shoes on.",
+            "target": "Target (grandfather): Yeah, hello.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): To the ranch. To the ranch. You got the cutest farm or ranch shoes on. | Speaker B (grandfather): Yeah, hello.",
+            "target": "Target (granddaughter): You got your Converse. I had to borrow Meemaw's shoes. MeeMaw?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandfather): Yeah, hello. | Speaker B (granddaughter): You got your Converse. I had to borrow Meemaw's shoes. MeeMaw?",
+            "target": "Target (grandfather): Yes, ma'am? Your sunglasses are amazing. Super fabulous.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): You got your Converse. I had to borrow Meemaw's shoes. MeeMaw? | Speaker B (grandfather): Yes, ma'am? Your sunglasses are amazing. Super fabulous.",
+            "target": "Target (grandfather): Oh, thank you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandfather): Yes, ma'am? Your sunglasses are amazing. Super fabulous. | Speaker B (grandfather): Oh, thank you.",
+            "target": "Target (grandfather): Jeannie, what's your sunglass game like? I think MeeMaw has you beat. Oh no! Is that how you spell steez?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): Oh, thank you. | Speaker B (grandfather): Jeannie, what's your sunglass game like? I think MeeMaw has you beat. Oh no! Is that how you spell steez?",
+            "target": "Target (grandfather): What in the world is a 'steez'? And why are we playing a game with sunglasses? We're going to feed cattle, not go to a carnival.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandfather): Jeannie, what's your sunglass game like? I think MeeMaw has you beat. Oh no! Is that how you spell steez? | Speaker B (grandfather): What in the world is a 'steez'? And why are we playing a game with sunglasses? We're going to feed cattle, not go to a carnival.",
+            "target": "Target (granddaughter): It just means she has style and ease! It's a compliment! Your 'game' just means your outfit is on point.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandfather): What in the world is a 'steez'? And why are we playing a game with sunglasses? We're going to feed cattle, not go to a carnival. | Speaker B (granddaughter): It just means she has style and ease! It's a compliment! Your 'game' just means your outfit is on point.",
+            "target": "Target (grandfather): On point? I'm standing in a pasture, Sarah. If you're going to use words, use the ones in the dictionary so I can keep up with what you're saying.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): It just means she has style and ease! It's a compliment! Your 'game' just means your outfit is on point. | Speaker B (grandfather): On point? I'm standing in a pasture, Sarah. If you're going to use words, use the ones in the dictionary so I can keep up with what you're saying.",
+            "target": "Target (granddaughter): Oh my gosh, you did not just ask me, is that how you spell steez? What are you posting? When your manicure matches Chicken Express. Oh my gosh. We have arrived at the ranch. It just rained, so good thing we got our farm shoes on.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandfather): On point? I'm standing in a pasture, Sarah. If you're going to use words, use the ones in the dictionary so I can keep up with what you're saying. | Speaker B (granddaughter): Oh my gosh, you did not just ask me, is that how you spell steez? What are you posting? When your manicure matches Chicken Express. Oh my gosh. We have arrived at the ranch. It just rained, so good thing we got our farm shoes on.",
+            "target": "Target (grandfather): Yeah, baby! Woo! We're coming slow because of the time of day it is.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (granddaughter): Oh my gosh, you did not just ask me, is that how you spell steez? What are you posting? When your manicure matches Chicken Express. Oh my gosh. We have arrived at the ranch. It just rained, so good thing we got our farm shoes on. | Speaker B (grandfather): Yeah, baby! Woo! We're coming slow because of the time of day it is.",
+            "target": "Target (granddaughter): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandfather): Yeah, baby! Woo! We're coming slow because of the time of day it is. | Speaker B (granddaughter): Yeah.",
+            "target": "Target (grandfather): Is this where we need to be?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): Yeah. | Speaker B (grandfather): Is this where we need to be?",
+            "target": "Target (granddaughter): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandfather): Is this where we need to be? | Speaker B (granddaughter): Yeah.",
+            "target": "Target (grandfather): They are here! Oh, come here, Ethan. Bottom of your boat. Come on, right behind me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (granddaughter): Yeah. | Speaker B (grandfather): They are here! Oh, come here, Ethan. Bottom of your boat. Come on, right behind me.",
+            "target": "Target (grandfather): I'm not gonna lie, I am a little bit terrified right now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandfather): They are here! Oh, come here, Ethan. Bottom of your boat. Come on, right behind me. | Speaker B (grandfather): I'm not gonna lie, I am a little bit terrified right now.",
+            "target": "Target (grandfather): Way too hot.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandfather): I'm not gonna lie, I am a little bit terrified right now. | Speaker B (grandfather): Way too hot.",
+            "target": "Target (grandfather): Oh my God.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandfather): Way too hot. | Speaker B (grandfather): Oh my God.",
+            "target": "Target (grandson): Gotta learn to be a cowgirl.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandfather): Oh my God. | Speaker B (grandson): Gotta learn to be a cowgirl.",
+            "target": "Target (grandfather): I am terrified right now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): Gotta learn to be a cowgirl. | Speaker B (grandfather): I am terrified right now.",
+            "target": "Target (granddaughter): I don't know if I was meant for this. I'm not gonna lie, there was a moment where all of them were staring at me and I was like, this is the end. I was like, this is how I'm gonna go.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandfather): I am terrified right now. | Speaker B (granddaughter): I don't know if I was meant for this. I'm not gonna lie, there was a moment where all of them were staring at me and I was like, this is the end. I was like, this is how I'm gonna go.",
+            "target": "Target (grandfather): You see these flowers right here, you go run, foot, foot, foot, foot.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): I don't know if I was meant for this. I'm not gonna lie, there was a moment where all of them were staring at me and I was like, this is the end. I was like, this is how I'm gonna go. | Speaker B (grandfather): You see these flowers right here, you go run, foot, foot, foot, foot.",
+            "target": "Target (granddaughter): Right, right, right. Daddy Bill, you were saying earlier, instructing us on how to count cows.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandfather): You see these flowers right here, you go run, foot, foot, foot, foot. | Speaker B (granddaughter): Right, right, right. Daddy Bill, you were saying earlier, instructing us on how to count cows.",
+            "target": "Target (grandfather): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (granddaughter): Right, right, right. Daddy Bill, you were saying earlier, instructing us on how to count cows. | Speaker B (grandfather): Yeah.",
+            "target": "Target (granddaughter): What's your advice on counting cows?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandfather): Yeah. | Speaker B (granddaughter): What's your advice on counting cows?",
+            "target": "Target (grandfather): I'd count their feet and divide by 4. You could count count their ears and divide by 2.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): What's your advice on counting cows? | Speaker B (grandfather): I'd count their feet and divide by 4. You could count count their ears and divide by 2.",
+            "target": "Target (granddaughter): This is your first experience with the vlogging camera, so just point it at the cows. You'll be able to see it on that screen. Yeah, it's already recording.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandfather): I'd count their feet and divide by 4. You could count count their ears and divide by 2. | Speaker B (granddaughter): This is your first experience with the vlogging camera, so just point it at the cows. You'll be able to see it on that screen. Yeah, it's already recording.",
+            "target": "Target (grandfather): Well, look here. That ain't gonna hurt you. There's a little red calf on a black cow. There's a little motley-faced calf. Several little baby ones here. Look at this one right here. 1, 2, 3, 4, 5.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): This is your first experience with the vlogging camera, so just point it at the cows. You'll be able to see it on that screen. Yeah, it's already recording. | Speaker B (grandfather): Well, look here. That ain't gonna hurt you. There's a little red calf on a black cow. There's a little motley-faced calf. Several little baby ones here. Look at this one right here. 1, 2, 3, 4, 5.",
+            "target": "Target (grandfather): All right, Daddy Bill, I have one more question.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandfather): Well, look here. That ain't gonna hurt you. There's a little red calf on a black cow. There's a little motley-faced calf. Several little baby ones here. Look at this one right here. 1, 2, 3, 4, 5. | Speaker B (grandfather): All right, Daddy Bill, I have one more question.",
+            "target": "Target (grandfather): All right, you got it. What is it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandfather): All right, Daddy Bill, I have one more question. | Speaker B (grandfather): All right, you got it. What is it?",
+            "target": "Target (granddaughter): All right. If you could hold the camera like this and just sum up, you know, lovely day on the ranch. So you think you can hold the camera? So yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandfather): All right, you got it. What is it? | Speaker B (granddaughter): All right. If you could hold the camera like this and just sum up, you know, lovely day on the ranch. So you think you can hold the camera? So yeah.",
+            "target": "Target (grandfather): Where are you going?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): All right. If you could hold the camera like this and just sum up, you know, lovely day on the ranch. So you think you can hold the camera? So yeah. | Speaker B (grandfather): Where are you going?",
+            "target": "Target (granddaughter): Oh, I'll be right here. You're just going to hold the camera.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandfather): Where are you going? | Speaker B (granddaughter): Oh, I'll be right here. You're just going to hold the camera.",
+            "target": "Target (grandfather): Well, we just got Got through feeding the cows and checking them all out. Everybody's good and everybody come up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (granddaughter): Oh, I'll be right here. You're just going to hold the camera. | Speaker B (grandfather): Well, we just got Got through feeding the cows and checking them all out. Everybody's good and everybody come up.",
+            "target": "Target (grandfather): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandfather): Well, we just got Got through feeding the cows and checking them all out. Everybody's good and everybody come up. | Speaker B (grandfather): Yeah.",
+            "target": "Target (grandfather): Explained to Sarah how to count cows and so we're in good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandfather): Yeah. | Speaker B (grandfather): Explained to Sarah how to count cows and so we're in good.",
+            "target": "Target (granddaughter): Yep, so now back to Weatherford.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandfather): Explained to Sarah how to count cows and so we're in good. | Speaker B (granddaughter): Yep, so now back to Weatherford.",
+            "target": "Target (grandfather): Back to Weatherford. Gotta go through Pooville and Peaster to get there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (granddaughter): Yep, so now back to Weatherford. | Speaker B (grandfather): Back to Weatherford. Gotta go through Pooville and Peaster to get there.",
+            "target": "Target (granddaughter): This lovely couple, my grandparents, have officially been married for 60 years. Congratulations.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandfather): Back to Weatherford. Gotta go through Pooville and Peaster to get there. | Speaker B (granddaughter): This lovely couple, my grandparents, have officially been married for 60 years. Congratulations.",
+            "target": "Target (grandfather): Thanks.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (granddaughter): This lovely couple, my grandparents, have officially been married for 60 years. Congratulations. | Speaker B (grandfather): Thanks.",
+            "target": "Target (granddaughter): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandfather): Thanks. | Speaker B (granddaughter): Yeah.",
+            "target": "Target (grandfather): What's the secret?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (granddaughter): Yeah. | Speaker B (grandfather): What's the secret?",
+            "target": "Target (granddaughter): Yeah, what's the secret, guys?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandfather): What's the secret? | Speaker B (granddaughter): Yeah, what's the secret, guys?",
+            "target": "Target (grandfather): Well, I tell you, it helps to be hard of hearing and you just say, \"Yes, ma'am,\" and \"No, ma'am.\" No, it's a two-way street. You have to give and take. Get lucky, you find the right one.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (granddaughter): Yeah, what's the secret, guys? | Speaker B (grandfather): Well, I tell you, it helps to be hard of hearing and you just say, \"Yes, ma'am,\" and \"No, ma'am.\" No, it's a two-way street. You have to give and take. Get lucky, you find the right one.",
+            "target": "Target (grandfather): That's right. Yep.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): Well, I tell you, it helps to be hard of hearing and you just say, \"Yes, ma'am,\" and \"No, ma'am.\" No, it's a two-way street. You have to give and take. Get lucky, you find the right one. | Speaker B (grandfather): That's right. Yep.",
+            "target": "Target (granddaughter): I think a lot of factors play into the word home. You can find a home inside of a person, inside of a city, your family, or a certain lifestyle. I think for me, at the center of it all, what makes a home really a home is the people. I've been lucky enough to find home in a few different places and sometimes I wish I could just put my family and all my friends into my pocket and just take them everywhere I go. But anyways, I hope you enjoyed this video and I'm thankful for my home from Texas to New York.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

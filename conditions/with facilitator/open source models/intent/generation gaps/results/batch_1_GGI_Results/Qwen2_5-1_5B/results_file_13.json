@@ -1,0 +1,90 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 13,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Hello, my dear! How have you been doing lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Hello, my dear! How have you been doing lately?",
+            "target": "Target (granddaughter): Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Hello, my dear! How have you been doing lately? | Speaker B (granddaughter): Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+            "target": "Target (grandmother): That's wonderful to hear! Is there anything exciting happening in your life right now?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Hi Grandma! I've been doing well, just busy with school and some projects. How about you? | Speaker B (grandmother): That's wonderful to hear! Is there anything exciting happening in your life right now?",
+            "target": "Target (grandmother): I'm glad to hear you're doing well! Is there anything you'd like to share or talk about?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): That's wonderful to hear! Is there anything exciting happening in your life right now? | Speaker B (grandmother): I'm glad to hear you're doing well! Is there anything you'd like to share or talk about?",
+            "target": "Target (granddaughter): Thanks, Grandma! Well, I've been working on a big project for school that's been really interesting. It's about renewable energy. How about you? Anything new or exciting?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): I'm glad to hear you're doing well! Is there anything you'd like to share or talk about? | Speaker B (granddaughter): Thanks, Grandma! Well, I've been working on a big project for school that's been really interesting. It's about renewable energy. How about you? Anything new or exciting?",
+            "target": "Target (grandmother): Oh, it seems like I might have misunderstood. Are you surprised by something specific happening in your life?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Thanks, Grandma! Well, I've been working on a big project for school that's been really interesting. It's about renewable energy. How about you? Anything new or exciting? | Speaker B (grandmother): Oh, it seems like I might have misunderstood. Are you surprised by something specific happening in your life?",
+            "target": "Target (granddaughter): Not really surprised, just really interested in how renewable energy can change the future. It's been fascinating to learn about. How about you, Grandma? Anything new happening with you?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Oh, it seems like I might have misunderstood. Are you surprised by something specific happening in your life? | Speaker B (granddaughter): Not really surprised, just really interested in how renewable energy can change the future. It's been fascinating to learn about. How about you, Grandma? Anything new happening with you?",
+            "target": "Target (grandmother): Hmm, I'm not quite sure what you mean by 'pour it', dear. Could you explain a bit more?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Not really surprised, just really interested in how renewable energy can change the future. It's been fascinating to learn about. How about you, Grandma? Anything new happening with you? | Speaker B (grandmother): Hmm, I'm not quite sure what you mean by 'pour it', dear. Could you explain a bit more?",
+            "target": "Target (grandmother): I might be a bit out of touch with the latest phrases. Are you talking about sharing something or expressing your feelings? I'd love to hear more!",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Hmm, I'm not quite sure what you mean by 'pour it', dear. Could you explain a bit more? | Speaker B (grandmother): I might be a bit out of touch with the latest phrases. Are you talking about sharing something or expressing your feelings? I'd love to hear more!",
+            "target": "Target (granddaughter): Oh, sorry for the confusion, Grandma! I meant to say I'm really interested in renewable energy and how it can impact our future. It's just something I've been reading about a lot lately. What about you? Have you been up to anything exciting?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): I might be a bit out of touch with the latest phrases. Are you talking about sharing something or expressing your feelings? I'd love to hear more! | Speaker B (granddaughter): Oh, sorry for the confusion, Grandma! I meant to say I'm really interested in renewable energy and how it can impact our future. It's just something I've been reading about a lot lately. What about you? Have you been up to anything exciting?",
+            "target": "Target (grandmother): That's wonderful to hear, dear! I'm here to listen if you want to share anything. What's been making you happy lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Oh, sorry for the confusion, Grandma! I meant to say I'm really interested in renewable energy and how it can impact our future. It's just something I've been reading about a lot lately. What about you? Have you been up to anything exciting? | Speaker B (grandmother): That's wonderful to hear, dear! I'm here to listen if you want to share anything. What's been making you happy lately?",
+            "target": "Target (granddaughter): Thanks, Grandma! Lately, I've been really enjoying my new hobby of painting. It's so relaxing and a great way to express myself. How about you? Have you picked up any new hobbies or interests?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

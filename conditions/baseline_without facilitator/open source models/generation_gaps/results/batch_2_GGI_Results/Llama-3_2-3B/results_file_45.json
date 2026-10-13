@@ -1,0 +1,263 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 45,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Okay, so Grandma, now we're going to put both hands on the piano at the same time like you are, and you're going to read what you've always read. We're at the page called Putting It All Together, and you'll see 2 measures, and the first measure is right hand. You see there's 4 C's that you've always played. That's the top, and then you're going to switch when you go down to the left hand. Okay, so let's start here with the right hand with the middle C. So C, C, C, C, then switch to the left hand. Oops. Right, right. It's just showing you how— what music looks like when it's there at the same time. So that wasn't hard, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Okay, so Grandma, now we're going to put both hands on the piano at the same time like you are, and you're going to read what you've always read. We're at the page called Putting It All Together, and you'll see 2 measures, and the first measure is right hand. You see there's 4 C's that you've always played. That's the top, and then you're going to switch when you go down to the left hand. Okay, so let's start here with the right hand with the middle C. So C, C, C, C, then switch to the left hand. Oops. Right, right. It's just showing you how— what music looks like when it's there at the same time. So that wasn't hard, right?",
+            "target": "Target (grandmother): No, I practiced that a lot.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Okay, so Grandma, now we're going to put both hands on the piano at the same time like you are, and you're going to read what you've always read. We're at the page called Putting It All Together, and you'll see 2 measures, and the first measure is right hand. You see there's 4 C's that you've always played. That's the top, and then you're going to switch when you go down to the left hand. Okay, so let's start here with the right hand with the middle C. So C, C, C, C, then switch to the left hand. Oops. Right, right. It's just showing you how— what music looks like when it's there at the same time. So that wasn't hard, right? | Speaker B (grandmother): No, I practiced that a lot.",
+            "target": "Target (granddaughter): Okay, this one this one is called playing with both hands.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): No, I practiced that a lot. | Speaker B (granddaughter): Okay, this one this one is called playing with both hands.",
+            "target": "Target (grandmother): Ooh, that's what scares me.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Okay, this one this one is called playing with both hands. | Speaker B (grandmother): Ooh, that's what scares me.",
+            "target": "Target (granddaughter): And it's not so bad when you see them on top of each other. You have the middle C and your C chord on top of each other. That means at the same time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Ooh, that's what scares me. | Speaker B (granddaughter): And it's not so bad when you see them on top of each other. You have the middle C and your C chord on top of each other. That means at the same time.",
+            "target": "Target (grandmother): I really struggle with that visually. Can I just write the letter names like 'C' and 'Chord' directly under the notes? It’s much safer for me to follow if I see the letters before I try to coordinate both hands.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): And it's not so bad when you see them on top of each other. You have the middle C and your C chord on top of each other. That means at the same time. | Speaker B (grandmother): I really struggle with that visually. Can I just write the letter names like 'C' and 'Chord' directly under the notes? It’s much safer for me to follow if I see the letters before I try to coordinate both hands.",
+            "target": "Target (granddaughter): No, Grandma, that's a crutch. If you keep writing the letters, you'll never actually learn to read the staff properly. We have to do it the standard way, even if it feels awkward.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): I really struggle with that visually. Can I just write the letter names like 'C' and 'Chord' directly under the notes? It’s much safer for me to follow if I see the letters before I try to coordinate both hands. | Speaker B (granddaughter): No, Grandma, that's a crutch. If you keep writing the letters, you'll never actually learn to read the staff properly. We have to do it the standard way, even if it feels awkward.",
+            "target": "Target (grandmother): But the letters work for me! Fine, show me again.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): No, Grandma, that's a crutch. If you keep writing the letters, you'll never actually learn to read the staff properly. We have to do it the standard way, even if it feels awkward. | Speaker B (grandmother): But the letters work for me! Fine, show me again.",
+            "target": "Target (granddaughter): Your middle C with your right hand and your—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): But the letters work for me! Fine, show me again. | Speaker B (granddaughter): Your middle C with your right hand and your—",
+            "target": "Target (grandmother): Over here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Your middle C with your right hand and your— | Speaker B (grandmother): Over here?",
+            "target": "Target (granddaughter): Chord, your C chord, the full C chord. No single notes with the left hand. You have 3 at the same time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Over here? | Speaker B (granddaughter): Chord, your C chord, the full C chord. No single notes with the left hand. You have 3 at the same time.",
+            "target": "Target (grandmother): Oh, okay. With the left hand?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Chord, your C chord, the full C chord. No single notes with the left hand. You have 3 at the same time. | Speaker B (grandmother): Oh, okay. With the left hand?",
+            "target": "Target (granddaughter): Mm-hmm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Oh, okay. With the left hand? | Speaker B (granddaughter): Mm-hmm.",
+            "target": "Target (grandmother): Okay, this is the one I have to play, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Mm-hmm. | Speaker B (grandmother): Okay, this is the one I have to play, right?",
+            "target": "Target (granddaughter): Right. Right, and you see on top of it, it's this. So again, that's gonna go down all at the same time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Okay, this is the one I have to play, right? | Speaker B (granddaughter): Right. Right, and you see on top of it, it's this. So again, that's gonna go down all at the same time.",
+            "target": "Target (grandmother): Does that go down all at one time?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): Right. Right, and you see on top of it, it's this. So again, that's gonna go down all at the same time. | Speaker B (grandmother): Does that go down all at one time?",
+            "target": "Target (granddaughter): Just like that. See, you're— so you know what you're looking at? Your right hand, right? And then down here is your left hand. Right, so they're stacked. So you did it at the same time. That's the first note. Consider that one beat. Then you go ahead and play the other note as is?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Does that go down all at one time? | Speaker B (granddaughter): Just like that. See, you're— so you know what you're looking at? Your right hand, right? And then down here is your left hand. Right, so they're stacked. So you did it at the same time. That's the first note. Consider that one beat. Then you go ahead and play the other note as is?",
+            "target": "Target (grandmother): As is. There's nothing—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): Just like that. See, you're— so you know what you're looking at? Your right hand, right? And then down here is your left hand. Right, so they're stacked. So you did it at the same time. That's the first note. Consider that one beat. Then you go ahead and play the other note as is? | Speaker B (grandmother): As is. There's nothing—",
+            "target": "Target (granddaughter): With this hand.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): As is. There's nothing— | Speaker B (granddaughter): With this hand.",
+            "target": "Target (grandmother): Right, because there's nothing under it. Okay, and here we go again. Right. And then— there you go. You're reading music, Grandma. You just read music.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): With this hand. | Speaker B (grandmother): Right, because there's nothing under it. Okay, and here we go again. Right. And then— there you go. You're reading music, Grandma. You just read music.",
+            "target": "Target (grandmother): That's good. I hope I can keep it up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): Right, because there's nothing under it. Okay, and here we go again. Right. And then— there you go. You're reading music, Grandma. You just read music. | Speaker B (grandmother): That's good. I hope I can keep it up.",
+            "target": "Target (granddaughter): We'll try it one more time. Okay. Let's see now. Just so you understand, when you see them on top of each other—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): That's good. I hope I can keep it up. | Speaker B (granddaughter): We'll try it one more time. Okay. Let's see now. Just so you understand, when you see them on top of each other—",
+            "target": "Target (grandmother): On top of each other, you start with this hand?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): We'll try it one more time. Okay. Let's see now. Just so you understand, when you see them on top of each other— | Speaker B (grandmother): On top of each other, you start with this hand?",
+            "target": "Target (granddaughter): Both hands. Both hands. At the same time. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): On top of each other, you start with this hand? | Speaker B (granddaughter): Both hands. Both hands. At the same time. Okay.",
+            "target": "Target (grandmother): Right. Good. Yay!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Both hands. Both hands. At the same time. Okay. | Speaker B (grandmother): Right. Good. Yay!",
+            "target": "Target (granddaughter): And the rest of the song is all assigned to you. Oh, I get 2 of those. I shouldn't have done that.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): Right. Good. Yay! | Speaker B (granddaughter): And the rest of the song is all assigned to you. Oh, I get 2 of those. I shouldn't have done that.",
+            "target": "Target (grandmother): I have to practice those so I don't get that other key in there. Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): And the rest of the song is all assigned to you. Oh, I get 2 of those. I shouldn't have done that. | Speaker B (grandmother): I have to practice those so I don't get that other key in there. Yes.",
+            "target": "Target (granddaughter): It'll come natural after a few times. It will. At first it might feel awkward, but it'll come.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): I have to practice those so I don't get that other key in there. Yes. | Speaker B (granddaughter): It'll come natural after a few times. It will. At first it might feel awkward, but it'll come.",
+            "target": "Target (grandmother): It'll come. Because I practice about 10 and 15 in the morning and then again in the afternoon.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): It'll come natural after a few times. It will. At first it might feel awkward, but it'll come. | Speaker B (grandmother): It'll come. Because I practice about 10 and 15 in the morning and then again in the afternoon.",
+            "target": "Target (granddaughter): That's a lot of practice. That's good. That's why you're progressing so well. Okay, so that's all for today. I'll give you some more assignments.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): It'll come. Because I practice about 10 and 15 in the morning and then again in the afternoon. | Speaker B (granddaughter): That's a lot of practice. That's good. That's why you're progressing so well. Okay, so that's all for today. I'll give you some more assignments.",
+            "target": "Target (grandmother): Okay. I go through 67.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): That's a lot of practice. That's good. That's why you're progressing so well. Okay, so that's all for today. I'll give you some more assignments. | Speaker B (grandmother): Okay. I go through 67.",
+            "target": "Target (granddaughter): Okay. 67.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

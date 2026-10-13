@@ -1,0 +1,118 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "file_index": 16,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): no lumps of flour. okay, got it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): no lumps of flour. okay, got it.",
+            "target": "Target (grandmother): scrape around your bowl.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): no lumps of flour. okay, got it. | Speaker B (grandmother): scrape around your bowl.",
+            "target": "Target (grandson): a bunch of lumps still.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): scrape around your bowl. | Speaker B (grandson): a bunch of lumps still.",
+            "target": "Target (grandmother): well, you have to keep beating.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): a bunch of lumps still. | Speaker B (grandmother): well, you have to keep beating.",
+            "target": "Target (grandson): you have to what?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): well, you have to keep beating. | Speaker B (grandson): you have to what?",
+            "target": "Target (grandmother): you want to beat better with that? here",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): you have to what? | Speaker B (grandmother): you want to beat better with that? here",
+            "target": "Target (grandson): no no no",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): you want to beat better with that? here | Speaker B (grandson): no no no",
+            "target": "Target (grandson): grandma said you have to keep beating. oh, this is great.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): no no no | Speaker B (grandson): grandma said you have to keep beating. oh, this is great.",
+            "target": "Target (grandmother): you can do that better.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): grandma said you have to keep beating. oh, this is great. | Speaker B (grandmother): you can do that better.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): you can do that better. | Speaker B (grandson): okay.",
+            "target": "Target (grandmother): here. you can do that better. come on.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandmother): here. you can do that better. come on.",
+            "target": "Target (grandson): no, no. i do not want to beat the dough. okay.",
+            "gold_label": "method divergence",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): here. you can do that better. come on. | Speaker B (grandson): no, no. i do not want to beat the dough. okay.",
+            "target": "Target (grandmother): so beat it as i told u like this !",
+            "gold_label": "method divergence",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): no, no. i do not want to beat the dough. okay. | Speaker B (grandmother): so beat it as i told u like this !",
+            "target": "Target (grandson): it's fun. making bread is fun.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): so beat it as i told u like this ! | Speaker B (grandson): it's fun. making bread is fun.",
+            "target": "Target (grandmother): thats great ,, now clean this ..",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): it's fun. making bread is fun. | Speaker B (grandmother): thats great ,, now clean this ..",
+            "target": "Target (grandson): you're beating some?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 67,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Yes, it sounds like the spark plug and filter might be the issue. Let's take a closer look at them.",
+      "golden": "statement-opinion",
+      "predicted": "command",
+      "raw": "command\n\nHistory:\nTurn: Hey Grand"
+    },
+    {
+      "text": "Alright, let's check them out together. I could use your expertise.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, these apps can be quite handy. Let me know if you need any help with it.",
+      "golden": "statement-opinion",
+      "predicted": "others",
+      "raw": "Others (assuming \"Ah\" is a fill"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely ask if I get stuck. These apps can be a bit confusing sometimes.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I see, technology has really advanced. Hopefully, the signal improves soon. Let me know if there's anything else I can do to help.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I appreciate it, Grandpa. I'll let you know if I need anything. Hopefully, the signal gets better soon.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\nacknowledgment\nstatement-"
+    },
+    {
+      "text": "Yes, those spark plugs can be tricky sometimes. If the app doesn't work, we can try checking it manually.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa. I'll give the app another try, and if it doesn't work, we can check it manually together.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I appreciate"
+    },
+    {
+      "text": "Yes, they can wear out faster than expected. It's always good to keep an eye on them. If you need help with anything, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Got it, Grandpa. I'll keep an eye on them and let you know if I need any help. Thanks again!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "By the way, Grandpa, do you think it's better to replace the spark plugs myself or should I take the car to a mechanic?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It sounds like you're dealing with a tricky situation. If you need any advice or assistance, I'm here to help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

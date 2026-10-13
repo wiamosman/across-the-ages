@@ -1,0 +1,1383 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 93,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): All right, show me how to play chess.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): All right, show me how to play chess.",
+            "target": "Target (grandson): That's the rook, that's the knight, that's the bishop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): All right, show me how to play chess. | Speaker B (grandson): That's the rook, that's the knight, that's the bishop.",
+            "target": "Target (grandfather): Let me find my knight. So the horse is a knight?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): That's the rook, that's the knight, that's the bishop. | Speaker B (grandfather): Let me find my knight. So the horse is a knight?",
+            "target": "Target (grandson): Yeah, that's a knight, this is a bishop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Let me find my knight. So the horse is a knight? | Speaker B (grandson): Yeah, that's a knight, this is a bishop.",
+            "target": "Target (grandfather): Hold on, how do I know a bishop? It's got the round top?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Yeah, that's a knight, this is a bishop. | Speaker B (grandfather): Hold on, how do I know a bishop? It's got the round top?",
+            "target": "Target (grandson): Yeah, the bishop—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Hold on, how do I know a bishop? It's got the round top? | Speaker B (grandson): Yeah, the bishop—",
+            "target": "Target (grandfather): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Yeah, the bishop— | Speaker B (grandfather): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours.",
+            "target": "Target (grandson): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): I’m surprised you even know these pieces. I figured your generation just played those loud games on the iPad where you don't have to think for more than two seconds. Chess might be too slow for an attention span like yours. | Speaker B (grandson): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day.",
+            "target": "Target (grandfather): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): That's not fair, Grandpa! I actually really like the strategy. I'm not just staring at a screen all day. | Speaker B (grandfather): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest.",
+            "target": "Target (grandfather): No, that's a pawn.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Well, we’ll see if you can handle a game that doesn't have flashing lights and sound effects. Go on then, show me the rest. | Speaker B (grandfather): No, that's a pawn.",
+            "target": "Target (grandson): Oh. The bishop, this is the bishop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): No, that's a pawn. | Speaker B (grandson): Oh. The bishop, this is the bishop.",
+            "target": "Target (grandfather): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Oh. The bishop, this is the bishop. | Speaker B (grandfather): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there.",
+            "target": "Target (grandson): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): Okay, this is the bishop. Oh, he's got a A knight's face shield or something on there. | Speaker B (grandson): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here.",
+            "target": "Target (grandson): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): No, he knows that. He just— he got some mouth right there. That's his mouth. It looks like a turtle. So now— no, I put the same things over here. | Speaker B (grandson): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse.",
+            "target": "Target (grandson): That's so nice. I'm not— okay, let's start again. What is this?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): Yeah, I see. I'm gonna just match what you did, right? And then I put a horse. | Speaker B (grandson): That's so nice. I'm not— okay, let's start again. What is this?",
+            "target": "Target (grandson): Rook. Rick. Rick. Knight. Knight.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): That's so nice. I'm not— okay, let's start again. What is this? | Speaker B (grandson): Rook. Rick. Rick. Knight. Knight.",
+            "target": "Target (grandson): Then you need to have a bishop. The one with the mouth. There it is. A bishop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): Rook. Rick. Rick. Knight. Knight. | Speaker B (grandson): Then you need to have a bishop. The one with the mouth. There it is. A bishop.",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Then you need to have a bishop. The one with the mouth. There it is. A bishop. | Speaker B (grandson): Yes.",
+            "target": "Target (grandson): Queen. Right. Queen.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandson): Queen. Right. Queen.",
+            "target": "Target (grandfather): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): Queen. Right. Queen. | Speaker B (grandfather): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy?",
+            "target": "Target (grandson): Uh, those are the pawns. You put the pawns on the front.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandfather): King. King. Bishop. Knight. And, uh, rook. Who goes first? Hey, why do you have an extra guy? | Speaker B (grandson): Uh, those are the pawns. You put the pawns on the front.",
+            "target": "Target (grandfather): Oh, the pawn. Okay, you know where the pawns are.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): Uh, those are the pawns. You put the pawns on the front. | Speaker B (grandfather): Oh, the pawn. Okay, you know where the pawns are.",
+            "target": "Target (grandson): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandfather): Oh, the pawn. Okay, you know where the pawns are. | Speaker B (grandson): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop.",
+            "target": "Target (grandfather): Okay, I got to be careful.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): Oh man, your socks, honey. Here. What? Oh, even— and thanks, Mila. That's, that's our bishop. | Speaker B (grandfather): Okay, I got to be careful.",
+            "target": "Target (grandson): I know it is pretty hard.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandfather): Okay, I got to be careful. | Speaker B (grandson): I know it is pretty hard.",
+            "target": "Target (grandfather): Okay, now I just go— I fill every square like that.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): I know it is pretty hard. | Speaker B (grandfather): Okay, now I just go— I fill every square like that.",
+            "target": "Target (grandson): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandfather): Okay, now I just go— I fill every square like that. | Speaker B (grandson): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time.",
+            "target": "Target (grandfather): And so, so this guy, how much can I move? Yeah, the paw.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): Yeah, if you're the white one, you could go first. And you're the white one. Like, like, I could go like 5, but if I'm still, you know, I could go back. Okay, so this one could only go 2, or you could go one time. After that, you're only gonna go one at a time. | Speaker B (grandfather): And so, so this guy, how much can I move? Yeah, the paw.",
+            "target": "Target (grandson): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandfather): And so, so this guy, how much can I move? Yeah, the paw. | Speaker B (grandson): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this.",
+            "target": "Target (grandfather): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): So you can go like 1, 2, or you only could go 1. And then you only— if you go 2 times, you just could go 1. And what— so what throws us out? Pretend you had all this. | Speaker B (grandfather): Okay.",
+            "target": "Target (grandson): Yeah, I put it all right there. I could kick you out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandfather): Okay. | Speaker B (grandson): Yeah, I put it all right there. I could kick you out.",
+            "target": "Target (grandfather): Can you kick me at that angle or straight forward?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): Yeah, I put it all right there. I could kick you out. | Speaker B (grandfather): Can you kick me at that angle or straight forward?",
+            "target": "Target (grandson): No, no, like, oh, you only can go either to take someone out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandfather): Can you kick me at that angle or straight forward? | Speaker B (grandson): No, no, like, oh, you only can go either to take someone out.",
+            "target": "Target (grandfather): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): No, no, like, oh, you only can go either to take someone out. | Speaker B (grandfather): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay.",
+            "target": "Target (grandson): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandfather): Oh, okay. So they move straight unless they're gonna kick somebody out? Yes. Okay. | Speaker B (grandson): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out.",
+            "target": "Target (grandfather): Okay, but if this guy's here, you can't get him, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandson): And this guy, let's pretend I didn't have— I could go like and kick him out all the way. Yeah, but then you could move yours and kick mine out. | Speaker B (grandfather): Okay, but if this guy's here, you can't get him, right?",
+            "target": "Target (grandson): Oh yeah, I can't kick him out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandfather): Okay, but if this guy's here, you can't get him, right? | Speaker B (grandson): Oh yeah, I can't kick him out.",
+            "target": "Target (grandfather): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandson): Oh yeah, I can't kick him out. | Speaker B (grandfather): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack.",
+            "target": "Target (grandfather): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandfather): And then if you kick him out, I can kick that one out. Okay. Now, if you just stay back there and don't move, are you just camping? You're totally nerfing your own attack. | Speaker B (grandfather): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods?",
+            "target": "Target (grandson): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandfather): What? Nerfing? Are you talking about those foam toys again? I'm trying to learn the King's move, why are you talking about camping in the woods? | Speaker B (grandson): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding.",
+            "target": "Target (grandfather): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandson): No, it's— never mind. I just mean you're being too defensive. It's like you're hiding. | Speaker B (grandfather): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please.",
+            "target": "Target (grandson): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandfather): I am being careful! I don't know what 'nerf' means in chess. Let’s just stick to the pieces, please. | Speaker B (grandson): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square.",
+            "target": "Target (grandfather): Angles?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandson): Oh, but if that's on the white square, it only could go white square. If the other one's on a black square, it only could go black square. | Speaker B (grandfather): Angles?",
+            "target": "Target (grandson): Yeah, but that guy can only go 2 times and then one more doesn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandfather): Angles? | Speaker B (grandson): Yeah, but that guy can only go 2 times and then one more doesn.",
+            "target": "Target (grandfather): Oh, and he turns?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandson): Yeah, but that guy can only go 2 times and then one more doesn. | Speaker B (grandfather): Oh, and he turns?",
+            "target": "Target (grandson): Yeah, he only could go like—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandfather): Oh, and he turns? | Speaker B (grandson): Yeah, he only could go like—",
+            "target": "Target (grandfather): How does— what can this guy do?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandson): Yeah, he only could go like— | Speaker B (grandfather): How does— what can this guy do?",
+            "target": "Target (grandson): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandfather): How does— what can this guy do? | Speaker B (grandson): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first?",
+            "target": "Target (grandfather): Yeah. And what is the goal? What am I trying to do?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandson): I already told you. That guy could do the same thing on that guy. Straight all the way. I go first? | Speaker B (grandfather): Yeah. And what is the goal? What am I trying to do?",
+            "target": "Target (grandson): Oh, you're trying to win. I can't move that guy anywhere, you win.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandfather): Yeah. And what is the goal? What am I trying to do? | Speaker B (grandson): Oh, you're trying to win. I can't move that guy anywhere, you win.",
+            "target": "Target (grandfather): Oh, like if you can't move him?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandson): Oh, you're trying to win. I can't move that guy anywhere, you win. | Speaker B (grandfather): Oh, like if you can't move him?",
+            "target": "Target (grandson): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandfather): Oh, like if you can't move him? | Speaker B (grandson): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win.",
+            "target": "Target (grandfather): Okay, here I go. Um, and I could only go one square at a time?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandson): Yeah, like if I could move them, like, like, yeah, but she is not jet. He's the only one who needs to get cooked out to win. | Speaker B (grandfather): Okay, here I go. Um, and I could only go one square at a time?",
+            "target": "Target (grandson): No, you, you could go two with the pawn if you want.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandfather): Okay, here I go. Um, and I could only go one square at a time? | Speaker B (grandson): No, you, you could go two with the pawn if you want.",
+            "target": "Target (grandfather): I can go one, two, or just one? Yeah, but I can't go that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandson): No, you, you could go two with the pawn if you want. | Speaker B (grandfather): I can go one, two, or just one? Yeah, but I can't go that way.",
+            "target": "Target (grandson): You only could do that way cuz it came from mine.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandfather): I can go one, two, or just one? Yeah, but I can't go that way. | Speaker B (grandson): You only could do that way cuz it came from mine.",
+            "target": "Target (grandfather): Can these guys go sideways? These guys? Okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandson): You only could do that way cuz it came from mine. | Speaker B (grandfather): Can these guys go sideways? These guys? Okay.",
+            "target": "Target (grandson): You can't move them.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandfather): Can these guys go sideways? These guys? Okay. | Speaker B (grandson): You can't move them.",
+            "target": "Target (grandfather): I can what?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandson): You can't move them. | Speaker B (grandfather): I can what?",
+            "target": "Target (grandson): You can't move them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandfather): I can what? | Speaker B (grandson): You can't move them.",
+            "target": "Target (grandfather): Can't I take your guy out?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandson): You can't move them. | Speaker B (grandfather): Can't I take your guy out?",
+            "target": "Target (grandson): No, when they're like that you can't move them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandfather): Can't I take your guy out? | Speaker B (grandson): No, when they're like that you can't move them.",
+            "target": "Target (grandfather): Oh, I can only— if he's here I could take him out?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandson): No, when they're like that you can't move them. | Speaker B (grandfather): Oh, I can only— if he's here I could take him out?",
+            "target": "Target (grandson): Yeah, but I'm not. But the robot's here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandfather): Oh, I can only— if he's here I could take him out? | Speaker B (grandson): Yeah, but I'm not. But the robot's here.",
+            "target": "Target (grandfather): So you can't move my guy either?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandson): Yeah, but I'm not. But the robot's here. | Speaker B (grandfather): So you can't move my guy either?",
+            "target": "Target (grandson): Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandfather): So you can't move my guy either? | Speaker B (grandson): Yep.",
+            "target": "Target (grandfather): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandson): Yep. | Speaker B (grandfather): Okay.",
+            "target": "Target (grandson): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandfather): Okay. | Speaker B (grandson): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that.",
+            "target": "Target (grandson): Whoa, what is that guy? You want me to go? I told you this one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandson): I can't move mine, you can't move yours. Well then. Yep. I don't have to film the retest, I just need to retest. Exactly, just decide which one you like the best, and then the ones that you like the best, just play them off against each other, see if there's one you like a little bit more. But I don't know if they allow us to walk with things all the time, but I do like that. | Speaker B (grandson): Whoa, what is that guy? You want me to go? I told you this one.",
+            "target": "Target (grandfather): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): Whoa, what is that guy? You want me to go? I told you this one. | Speaker B (grandfather): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can.",
+            "target": "Target (grandson): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): So you just— but how many? You can go one or all of them. So now can I take it out with this guy? Yeah, I can. | Speaker B (grandson): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy.",
+            "target": "Target (grandfather): Hold on. Okay, are you trying? Which— can this guy go front and back?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): Wow. Or you can take him out with that guy too. Take him out with that guy or that guy. | Speaker B (grandfather): Hold on. Okay, are you trying? Which— can this guy go front and back?",
+            "target": "Target (grandson): He only could go right back. Make it go—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandfather): Hold on. Okay, are you trying? Which— can this guy go front and back? | Speaker B (grandson): He only could go right back. Make it go—",
+            "target": "Target (grandson): which one did you like? I'm going to take this. Oh, we're not done?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): He only could go right back. Make it go— | Speaker B (grandson): which one did you like? I'm going to take this. Oh, we're not done?",
+            "target": "Target (granddaughter): Hey, Granny!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandson): which one did you like? I'm going to take this. Oh, we're not done? | Speaker B (granddaughter): Hey, Granny!",
+            "target": "Target (grandfather): Oh, it goes in there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (granddaughter): Hey, Granny! | Speaker B (grandfather): Oh, it goes in there.",
+            "target": "Target (grandson): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandfather): Oh, it goes in there. | Speaker B (grandson): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way?",
+            "target": "Target (granddaughter): No. No. You only could—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): Okay. Mm. This is getting tricky, man. I know. Good. She actually woke up like a normal. Wow. So these can move 2 spaces. Can it move 2 this way? | Speaker B (granddaughter): No. No. You only could—",
+            "target": "Target (grandson): I already went.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (granddaughter): No. No. You only could— | Speaker B (grandson): I already went.",
+            "target": "Target (grandfather): Oh, 1 if you're going to take it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): I already went. | Speaker B (grandfather): Oh, 1 if you're going to take it.",
+            "target": "Target (granddaughter): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandfather): Oh, 1 if you're going to take it. | Speaker B (granddaughter): Yeah.",
+            "target": "Target (grandfather): 2 if you're going to go straight.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (granddaughter): Yeah. | Speaker B (grandfather): 2 if you're going to go straight.",
+            "target": "Target (granddaughter): Yeah, but if you only went, like you already went, you only could go 1 step at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandfather): 2 if you're going to go straight. | Speaker B (granddaughter): Yeah, but if you only went, like you already went, you only could go 1 step at a time.",
+            "target": "Target (grandfather): And this guy, You can go straight or that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (granddaughter): Yeah, but if you only went, like you already went, you only could go 1 step at a time. | Speaker B (grandfather): And this guy, You can go straight or that way.",
+            "target": "Target (grandmother): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandfather): And this guy, You can go straight or that way. | Speaker B (grandmother): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out.",
+            "target": "Target (grandfather): Or back. This guy would go all the way to there?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandmother): Yeah, or I could go back. Oh, so if those guys weren't in the way, you could go and take them out. | Speaker B (grandfather): Or back. This guy would go all the way to there?",
+            "target": "Target (grandmother): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandfather): Or back. This guy would go all the way to there? | Speaker B (grandmother): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out.",
+            "target": "Target (grandfather): Oh, the bishop?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandmother): No, that's a checkup. Yeah, yeah. If they weren't in the way, you could take that guy out. | Speaker B (grandfather): Oh, the bishop?",
+            "target": "Target (grandfather): Wow, that's—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandfather): Oh, the bishop? | Speaker B (grandfather): Wow, that's—",
+            "target": "Target (grandson): but, but, but if you went right there, yeah, look what I can do. I know, they look weird.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandfather): Wow, that's— | Speaker B (grandson): but, but, but if you went right there, yeah, look what I can do. I know, they look weird.",
+            "target": "Target (grandfather): You can do some stuff right there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandson): but, but, but if you went right there, yeah, look what I can do. I know, they look weird. | Speaker B (grandfather): You can do some stuff right there.",
+            "target": "Target (grandson): Yeah, I can kick you out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandfather): You can do some stuff right there. | Speaker B (grandson): Yeah, I can kick you out.",
+            "target": "Target (grandfather): I'm going to go—",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandson): Yeah, I can kick you out. | Speaker B (grandfather): I'm going to go—",
+            "target": "Target (grandson): yeah, you want to eat some of your— you only could go one step at a time.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandfather): I'm going to go— | Speaker B (grandson): yeah, you want to eat some of your— you only could go one step at a time.",
+            "target": "Target (grandfather): The queen—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandson): yeah, you want to eat some of your— you only could go one step at a time. | Speaker B (grandfather): The queen—",
+            "target": "Target (grandson): no, he could. The king could only go one step at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandfather): The queen— | Speaker B (grandson): no, he could. The king could only go one step at a time.",
+            "target": "Target (grandfather): Direction.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 97,
+            "context": "Speaker A (grandson): no, he could. The king could only go one step at a time. | Speaker B (grandfather): Direction.",
+            "target": "Target (grandson): Stepping. No, you—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 98,
+            "context": "Speaker A (grandfather): Direction. | Speaker B (grandson): Stepping. No, you—",
+            "target": "Target (grandfather): he could go that way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 99,
+            "context": "Speaker A (grandson): Stepping. No, you— | Speaker B (grandfather): he could go that way.",
+            "target": "Target (grandson): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 100,
+            "context": "Speaker A (grandfather): he could go that way. | Speaker B (grandson): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more.",
+            "target": "Target (grandfather): She could.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 101,
+            "context": "Speaker A (grandson): He could go almost wherever he wants, but only one step at a time. Okay. And she could go wherever she wants, one square at a time or more. | Speaker B (grandfather): She could.",
+            "target": "Target (grandson): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 102,
+            "context": "Speaker A (grandfather): She could. | Speaker B (grandson): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6.",
+            "target": "Target (grandfather): So the queen's got a lot of power. Okay, I'm going to go. This is scary.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 103,
+            "context": "Speaker A (grandson): She couldn't even go one step at a time. Only that guy's the only one who needs to. I got 6. | Speaker B (grandfather): So the queen's got a lot of power. Okay, I'm going to go. This is scary.",
+            "target": "Target (grandson): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 104,
+            "context": "Speaker A (grandfather): So the queen's got a lot of power. Okay, I'm going to go. This is scary. | Speaker B (grandson): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that.",
+            "target": "Target (granddaughter): I know. Are you tricking me?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 105,
+            "context": "Speaker A (grandson): I know. Do you want some apples? Me or crumble or some crisp or something. Mila. Man, you're silly, Mila. You're silly. I'm kind of stuck here. I know. But there's— I don't have— You can't have like that. | Speaker B (granddaughter): I know. Are you tricking me?",
+            "target": "Target (grandfather): Oops.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 106,
+            "context": "Speaker A (granddaughter): I know. Are you tricking me? | Speaker B (grandfather): Oops.",
+            "target": "Target (grandson): Oh, it says Felicia.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 107,
+            "context": "Speaker A (grandfather): Oops. | Speaker B (grandson): Oh, it says Felicia.",
+            "target": "Target (grandfather): Oh, I thought he could only move one spot.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 108,
+            "context": "Speaker A (grandson): Oh, it says Felicia. | Speaker B (grandfather): Oh, I thought he could only move one spot.",
+            "target": "Target (grandson): No, you can't. I already told you. Wait, where was he?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 109,
+            "context": "Speaker A (grandfather): Oh, I thought he could only move one spot. | Speaker B (grandson): No, you can't. I already told you. Wait, where was he?",
+            "target": "Target (grandfather): Oh yeah, he wasn't over there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 110,
+            "context": "Speaker A (grandson): No, you can't. I already told you. Wait, where was he? | Speaker B (grandfather): Oh yeah, he wasn't over there.",
+            "target": "Target (grandson): Probably right—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 111,
+            "context": "Speaker A (grandfather): Oh yeah, he wasn't over there. | Speaker B (grandson): Probably right—",
+            "target": "Target (grandfather): maybe that— yeah, somewhere.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 112,
+            "context": "Speaker A (grandson): Probably right— | Speaker B (grandfather): maybe that— yeah, somewhere.",
+            "target": "Target (grandson): Wait, no, I didn't move them. They're right here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 113,
+            "context": "Speaker A (grandfather): maybe that— yeah, somewhere. | Speaker B (grandson): Wait, no, I didn't move them. They're right here.",
+            "target": "Target (grandfather): So now this guy can take that guy out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 114,
+            "context": "Speaker A (grandson): Wait, no, I didn't move them. They're right here. | Speaker B (grandfather): So now this guy can take that guy out.",
+            "target": "Target (grandson): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 115,
+            "context": "Speaker A (grandfather): So now this guy can take that guy out. | Speaker B (grandson): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out.",
+            "target": "Target (grandmother): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 116,
+            "context": "Speaker A (grandson): Oh yeah, yeah. I would buy the king though, because I like those better than the white syrup. I see one. I think I could take that guy out, but then this will take that out, and that will take that out. Keep taking each other out. | Speaker B (grandmother): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown.",
+            "target": "Target (grandson): I'm going to go here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 117,
+            "context": "Speaker A (grandmother): Is the Bravo Sierra the clearish one? Mm-hmm. This one's gelish too, it's brown. | Speaker B (grandson): I'm going to go here.",
+            "target": "Target (grandson): And you know what, eventually think that man can smell like you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 118,
+            "context": "Speaker A (grandson): I'm going to go here. | Speaker B (grandson): And you know what, eventually think that man can smell like you.",
+            "target": "Target (grandfather): Right now, what, what did you just do?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 119,
+            "context": "Speaker A (grandson): And you know what, eventually think that man can smell like you. | Speaker B (grandfather): Right now, what, what did you just do?",
+            "target": "Target (grandson): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 120,
+            "context": "Speaker A (grandfather): Right now, what, what did you just do? | Speaker B (grandson): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4.",
+            "target": "Target (grandfather): Can this guy go sideways?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 121,
+            "context": "Speaker A (grandson): That— you can do that too. Now open this space for me. Oh. I got 3 years up! It has to be of mine? Oh wait— nope. Mm-hmm. I've got 3 yours out, you have 3 of mine away now. 1, 2, 3, 4. I got 4 of yours out. See, look at it. 1, 2, 3, 4. | Speaker B (grandfather): Can this guy go sideways?",
+            "target": "Target (grandson): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 122,
+            "context": "Speaker A (grandfather): Can this guy go sideways? | Speaker B (grandson): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1.",
+            "target": "Target (grandfather): This guy only goes which ways?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 123,
+            "context": "Speaker A (grandson): No, I already told you, you can only go 1, 2, 1, or 1, 2, 1. | Speaker B (grandfather): This guy only goes which ways?",
+            "target": "Target (grandson): He only could go front, back, right, left.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 124,
+            "context": "Speaker A (grandfather): This guy only goes which ways? | Speaker B (grandson): He only could go front, back, right, left.",
+            "target": "Target (grandfather): So you could take this guy out?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 125,
+            "context": "Speaker A (grandson): He only could go front, back, right, left. | Speaker B (grandfather): So you could take this guy out?",
+            "target": "Target (grandson): Yeah, yeah. If you go right there, see what happens.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 126,
+            "context": "Speaker A (grandfather): So you could take this guy out? | Speaker B (grandson): Yeah, yeah. If you go right there, see what happens.",
+            "target": "Target (grandfather): What?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 127,
+            "context": "Speaker A (grandson): Yeah, yeah. If you go right there, see what happens. | Speaker B (grandfather): What?",
+            "target": "Target (grandson): Go right there, see what happens.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 128,
+            "context": "Speaker A (grandfather): What? | Speaker B (grandson): Go right there, see what happens.",
+            "target": "Target (grandfather): No way, this guy here will go back and get him. Good job.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 129,
+            "context": "Speaker A (grandson): Go right there, see what happens. | Speaker B (grandfather): No way, this guy here will go back and get him. Good job.",
+            "target": "Target (grandson): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 130,
+            "context": "Speaker A (grandfather): No way, this guy here will go back and get him. Good job. | Speaker B (grandson): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours.",
+            "target": "Target (grandfather): You're doing good, man.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 131,
+            "context": "Speaker A (grandson): No, it's not your turn yet. Now we're gonna pick this daddy roll you grab baby. You got 3 of mine, I got 4 of yours. | Speaker B (grandfather): You're doing good, man.",
+            "target": "Target (grandson): There was one way you could switch them, but I don't know how.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 132,
+            "context": "Speaker A (grandfather): You're doing good, man. | Speaker B (grandson): There was one way you could switch them, but I don't know how.",
+            "target": "Target (grandfather): I got to think for a second. This is hard.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 133,
+            "context": "Speaker A (grandson): There was one way you could switch them, but I don't know how. | Speaker B (grandfather): I got to think for a second. This is hard.",
+            "target": "Target (grandson): I know, it's a great game.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 134,
+            "context": "Speaker A (grandfather): I got to think for a second. This is hard. | Speaker B (grandson): I know, it's a great game.",
+            "target": "Target (grandfather): It is a great game.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 135,
+            "context": "Speaker A (grandson): I know, it's a great game. | Speaker B (grandfather): It is a great game.",
+            "target": "Target (grandson): I know, it's pretty much over. I don't care. Now this guy can do what?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 136,
+            "context": "Speaker A (grandfather): It is a great game. | Speaker B (grandson): I know, it's pretty much over. I don't care. Now this guy can do what?",
+            "target": "Target (grandfather): I gotta get over to— He's got your mic.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 137,
+            "context": "Speaker A (grandson): I know, it's pretty much over. I don't care. Now this guy can do what? | Speaker B (grandfather): I gotta get over to— He's got your mic.",
+            "target": "Target (granddaughter): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 138,
+            "context": "Speaker A (grandfather): I gotta get over to— He's got your mic. | Speaker B (granddaughter): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough.",
+            "target": "Target (grandfather): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 139,
+            "context": "Speaker A (granddaughter): Oh, he only could go— I go— he only could go in the black part. But if you stay right here— Yeah. But if you stay right there, they can't take you out, then they can't Fair enough. | Speaker B (grandfather): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out.",
+            "target": "Target (grandson): Ooh, great move! It's your turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 140,
+            "context": "Speaker A (grandfather): Yeah. If you go here and take him out, this team can take you out. Right now I'm going to take this one out. | Speaker B (grandson): Ooh, great move! It's your turn.",
+            "target": "Target (grandfather): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 141,
+            "context": "Speaker A (grandson): Ooh, great move! It's your turn. | Speaker B (grandfather): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused.",
+            "target": "Target (grandson): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 142,
+            "context": "Speaker A (grandfather): Did you do that? Yeah. Oh, okay. Um, man, I'm really confused. | Speaker B (grandson): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours!",
+            "target": "Target (grandfather): I know, man, that's terrible.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 143,
+            "context": "Speaker A (grandson): I know what to do. Oh yeah. Wait, you got 1, 2, 3, 4. You got 4 of mine out. I got 1, 2, 3, 4, 5. I took 5 of yours! | Speaker B (grandfather): I know, man, that's terrible.",
+            "target": "Target (grandson): Well, if you move that guy, I could go take him out, then I win.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 144,
+            "context": "Speaker A (grandfather): I know, man, that's terrible. | Speaker B (grandson): Well, if you move that guy, I could go take him out, then I win.",
+            "target": "Target (grandfather): If I move this guy?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 145,
+            "context": "Speaker A (grandson): Well, if you move that guy, I could go take him out, then I win. | Speaker B (grandfather): If I move this guy?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 146,
+            "context": "Speaker A (grandfather): If I move this guy? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): But if I don't move him, if you take him out, then I'll take that out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 147,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): But if I don't move him, if you take him out, then I'll take that out.",
+            "target": "Target (grandson): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 148,
+            "context": "Speaker A (grandfather): But if I don't move him, if you take him out, then I'll take that out. | Speaker B (grandson): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters.",
+            "target": "Target (grandfather): I know, I saw the video. It was cute.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 149,
+            "context": "Speaker A (grandson): Yeah, but if you move him, I could— but she I'll win. You know what? We went to a movie theater and we saw a new Ghostbusters. | Speaker B (grandfather): I know, I saw the video. It was cute.",
+            "target": "Target (grandmother): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 150,
+            "context": "Speaker A (grandfather): I know, I saw the video. It was cute. | Speaker B (grandmother): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast.",
+            "target": "Target (grandfather): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 151,
+            "context": "Speaker A (grandmother): No, did you see the little big puff marshmallow man? Yeah, like it broke out of the marshmallow bag. There were so much babies, right? They were melting each other in the fire and they went and that thing turned it on, then he just blast. | Speaker B (grandfather): Yes.",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 152,
+            "context": "Speaker A (grandfather): Yes. | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): Was he like the, the first movie? Did you see the first one where he was a tire guy?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 153,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): Was he like the, the first movie? Did you see the first one where he was a tire guy?",
+            "target": "Target (grandson): What?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 154,
+            "context": "Speaker A (grandfather): Was he like the, the first movie? Did you see the first one where he was a tire guy? | Speaker B (grandson): What?",
+            "target": "Target (grandfather): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 155,
+            "context": "Speaker A (grandson): What? | Speaker B (grandfather): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more.",
+            "target": "Target (grandson): How does he— no, no, I already told— she didn't know. I bet she won't.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 156,
+            "context": "Speaker A (grandfather): The first Ghostbusters, there was a guy that was— he was a bunch of tires. Or was he the marshmallow? Okay, let me ask you this. Um, this guy, how does this guy move? One more. | Speaker B (grandson): How does he— no, no, I already told— she didn't know. I bet she won't.",
+            "target": "Target (grandfather): As far as she wants?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 157,
+            "context": "Speaker A (grandson): How does he— no, no, I already told— she didn't know. I bet she won't. | Speaker B (grandfather): As far as she wants?",
+            "target": "Target (grandson): Yeah, like right now if you take me out, you came out with that pawn right there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 158,
+            "context": "Speaker A (grandfather): As far as she wants? | Speaker B (grandson): Yeah, like right now if you take me out, you came out with that pawn right there.",
+            "target": "Target (grandfather): Oh, and then you get her with yours?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 159,
+            "context": "Speaker A (grandson): Yeah, like right now if you take me out, you came out with that pawn right there. | Speaker B (grandfather): Oh, and then you get her with yours?",
+            "target": "Target (grandson): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 160,
+            "context": "Speaker A (grandfather): Oh, and then you get her with yours? | Speaker B (grandson): No.",
+            "target": "Target (grandfather): Oh, if I did this, then you would take yours and get my queen?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 161,
+            "context": "Speaker A (grandson): No. | Speaker B (grandfather): Oh, if I did this, then you would take yours and get my queen?",
+            "target": "Target (grandson): No, he only could go one at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 162,
+            "context": "Speaker A (grandfather): Oh, if I did this, then you would take yours and get my queen? | Speaker B (grandson): No, he only could go one at a time.",
+            "target": "Target (grandfather): Oh, that's the king?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 163,
+            "context": "Speaker A (grandson): No, he only could go one at a time. | Speaker B (grandfather): Oh, that's the king?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 164,
+            "context": "Speaker A (grandfather): Oh, that's the king? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): Oh, that's the queen, and this is the queen.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 165,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): Oh, that's the queen, and this is the queen.",
+            "target": "Target (grandson): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 166,
+            "context": "Speaker A (grandfather): Oh, that's the queen, and this is the queen. | Speaker B (grandson): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here.",
+            "target": "Target (grandfather): Okay, I see. That makes sense.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 167,
+            "context": "Speaker A (grandson): Yeah, the two didn't have the T on top. I got 6. You taught me. You taught me how to do it. Can I put you up? You went right here, and I put You can't go here. You were right here. | Speaker B (grandfather): Okay, I see. That makes sense.",
+            "target": "Target (grandfather): You can't go here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 168,
+            "context": "Speaker A (grandfather): Okay, I see. That makes sense. | Speaker B (grandfather): You can't go here.",
+            "target": "Target (granddaughter): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 169,
+            "context": "Speaker A (grandfather): You can't go here. | Speaker B (granddaughter): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win?",
+            "target": "Target (grandfather): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 170,
+            "context": "Speaker A (granddaughter): I was right here. I started right here and I can't go through 3 yards. Yeah. I wonder what game we could play. Oh, I did win? | Speaker B (grandfather): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know.",
+            "target": "Target (grandmother): Who won? Grandpa, who won? Yes!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 171,
+            "context": "Speaker A (grandfather): What did you just do? All right, that was fun. Okay, you want to play a different game? I don't know. | Speaker B (grandmother): Who won? Grandpa, who won? Yes!",
+            "target": "Target (grandson): Grandpa.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

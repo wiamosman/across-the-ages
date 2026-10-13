@@ -1,0 +1,577 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 66,
+    "utterances": [
+        {
+            "text": "Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Hey, you guys!",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Hi, fellas and girls, I'm driving! That's the way it goes.",
+            "golden": "greet",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "That's the way it goes, okay?",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "That car going fast. What are you doing? I drive nice and slow.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "She drives like a grandma.",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "How do you know about lighting?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "I went to art school for a year, Grandma, remember?",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Oh, isn't that awful?",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Turned up?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Turnt.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "I have no idea what that word is.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Turnt up, do it.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Oh, turn up. Yeah. Something to eat.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "I guess so.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.",
+            "golden": "advise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "What makes you think that I'm gonna know what it is?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "You're a smart woman, Grandma.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Oh yeah, smart.",
+            "golden": "acknowledge",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Netflix and chill.",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Nif— what? Oh, when I hang out with somebody you could get chilled?",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Kind of. It means like hooking up with somebody.",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Oh, hooking up with somebody.",
+            "golden": "acknowledge",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "What does it mean when someone spills the tea?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Did you hear this? He's making up stories.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Why are you trying to keep secrets from them?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Seriously. Did you hear that? Did you hear that?",
+            "golden": "acknowledge",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "No, don't listen to him.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "We'll be doing a boyfriend tag soon with him, don't worry.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Oh my Lord, oh Lord, don't listen to him.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "What does FOMO mean?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "FOMO? It sounds like hello! Hello! In a different language.",
+            "golden": "explain",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "You ain't gonna suffer.",
+            "golden": "oppose",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "What does stan mean?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "That guy's name is Stan. S-T-A-N, no?",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Nope. It means like a hardcore fan. What does sauced mean?",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "She has no idea.",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "No idea? I never heard of these words in my life.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "How about you tell me, what does \"idear\" mean?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Idear, idear.",
+            "golden": "acknowledge",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "What does \"idear\" mean? Tell the people, because everyone's been wondering.",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "And you're just like falling all over the place. Like how you were at your surprise party.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "I wasn't drunk at my—",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "You were sauced, Grandma. No, I was not! Yes, you were.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I couldn't dance if I was drunk.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I had to drive you home.",
+            "golden": "inform",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Oh no, no.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I literally drove you home.",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "I don't remember.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "forget"
+        },
+        {
+            "text": "See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I was not. I must have had 2 drinks.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "What does lit mean?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "You could be lidding something. You could be lidding candles.",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yeah, I would have been lit before.",
+            "golden": "agree",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "She's been lit.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Sure.",
+            "golden": "acknowledge",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "What does shook mean?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Shook? Is that shake somebody?",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "surprise"
+        },
+        {
+            "text": "Oh, why would they want to shake you?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "What does woke mean?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "It means when you're aware of something. Are you woke, Grandma?",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Kevin, I don't like these questions.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "What is a darty?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.",
+            "golden": "explain",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "You can get dirty at them.",
+            "golden": "inform",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Yeah, you could get dirty.",
+            "golden": "acknowledge",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "It's like a daytime party. So did you learn anything today, Grandma?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "No.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "You really didn't learn anything?",
+            "golden": "confirm",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "No, I didn't learn anything because I forgot those words already.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Grandma!",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "That's it. Are you kidding? I'm not gonna remember those words.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Thanks for watching. I don't know where he gets his ideas from.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "I’m tapping it, but nothing is ringing. This glass is just cold. Why can't things just have real buttons anymore?",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "It doesn't ring now! It's for later. Just... forget it, I'll set it for you. If you click it, you'll get notified when we upload a video. It's really easy. Peace out, take care, God bless.",
+            "golden": "inform",
+            "predicted": "leave",
+            "raw": "leave"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 34,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Hello there, my dear! How have you been doing lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Hello there, my dear! How have you been doing lately?",
+            "target": "Target (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Hello there, my dear! How have you been doing lately? | Speaker B (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you?",
+            "target": "Target (grandfather): Well, it sounds like something caught your attention! What's going on, my dear?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): Hi Grandpa! I've been doing well, just busy with school and some projects. How about you? | Speaker B (grandfather): Well, it sounds like something caught your attention! What's going on, my dear?",
+            "target": "Target (grandson): Yeah, I've been working on a science project that's pretty interesting. I'm trying to build a model of a solar system. It's a bit challenging but fun!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Well, it sounds like something caught your attention! What's going on, my dear? | Speaker B (grandson): Yeah, I've been working on a science project that's pretty interesting. I'm trying to build a model of a solar system. It's a bit challenging but fun!",
+            "target": "Target (grandfather): Oh dear, I'm sorry if I said something that upset you. I just wanted to check in and see how you're doing. Is there anything you'd like to talk about?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Yeah, I've been working on a science project that's pretty interesting. I'm trying to build a model of a solar system. It's a bit challenging but fun! | Speaker B (grandfather): Oh dear, I'm sorry if I said something that upset you. I just wanted to check in and see how you're doing. Is there anything you'd like to talk about?",
+            "target": "Target (grandson): No worries, Grandpa! You didn't upset me at all. I'm really glad you asked. It's nice to talk about what I'm working on. How have you been lately?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Oh dear, I'm sorry if I said something that upset you. I just wanted to check in and see how you're doing. Is there anything you'd like to talk about? | Speaker B (grandson): No worries, Grandpa! You didn't upset me at all. I'm really glad you asked. It's nice to talk about what I'm working on. How have you been lately?",
+            "target": "Target (grandfather): I'm glad to hear that, my dear. If there's anything on your mind or if you need help with something, I'm here for you. Just let me know!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): No worries, Grandpa! You didn't upset me at all. I'm really glad you asked. It's nice to talk about what I'm working on. How have you been lately? | Speaker B (grandfather): I'm glad to hear that, my dear. If there's anything on your mind or if you need help with something, I'm here for you. Just let me know!",
+            "target": "Target (grandson): Thanks, Grandpa! I really appreciate your support. Actually, if you have any tips on building models, I'd love to hear them. How did you spend your time when you were my age?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): I'm glad to hear that, my dear. If there's anything on your mind or if you need help with something, I'm here for you. Just let me know! | Speaker B (grandson): Thanks, Grandpa! I really appreciate your support. Actually, if you have any tips on building models, I'd love to hear them. How did you spend your time when you were my age?",
+            "target": "Target (grandfather): Alright, let's go through it step by step. What would you like to start with, my dear?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support. Actually, if you have any tips on building models, I'd love to hear them. How did you spend your time when you were my age? | Speaker B (grandfather): Alright, let's go through it step by step. What would you like to start with, my dear?",
+            "target": "Target (grandson): Thanks, Grandpa! I think starting with the basics would be great. Maybe you could share how you approached building models back in the day? I'm curious about any techniques you found useful.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Alright, let's go through it step by step. What would you like to start with, my dear? | Speaker B (grandson): Thanks, Grandpa! I think starting with the basics would be great. Maybe you could share how you approached building models back in the day? I'm curious about any techniques you found useful.",
+            "target": "Target (grandfather): I'm glad you're feeling joyful! Let's dive into whatever you need help with. Just let me know what you want to tackle first.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Thanks, Grandpa! I think starting with the basics would be great. Maybe you could share how you approached building models back in the day? I'm curious about any techniques you found useful. | Speaker B (grandfather): I'm glad you're feeling joyful! Let's dive into whatever you need help with. Just let me know what you want to tackle first.",
+            "target": "Target (grandson): Thanks, Grandpa! I really appreciate your willingness to help. Let's start with the basics of model building. What were some of the first steps you took when you began working on your projects?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        }
+    ]
+}

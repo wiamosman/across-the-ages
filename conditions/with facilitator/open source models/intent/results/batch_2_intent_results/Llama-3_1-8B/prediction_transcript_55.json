@@ -1,0 +1,181 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 55,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That's great to hear! How do you find driving it?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Driving is going well, but I'm still a bit nervous about parking.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm glad you're enjoying it. If you ever need any tips, just let me know.",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "Thanks, Grandpa! I might take you up on that offer soon.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I see. Well, I'm here if you need anything.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I appreciate it, Grandpa. I'll definitely ask if I need help.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, just let me know if you need anything or want to chat.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "Will do, Grandpa! Thanks again for being there for me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Yes, he's still here. Do you want to talk to him?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Sure, I'd love to talk to him!",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "You're welcome! Let me know if you need anything else.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll let you know if I need anything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad to help. If you ever need anything, just reach out.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "I really appreciate it, Grandpa. You're the best!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Great, I'm here if you need anything else.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer"
+    },
+    {
+      "text": "Thanks again, Grandpa. I'll definitely reach out if I need anything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Wow, it sounds like you've got quite a catch there! How many do you think there are?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "I'm not sure, but it looks like there are quite a few! Maybe around ten or so?",
+      "golden": "inform",
+      "predicted": "doubt",
+      "raw": "doubt"
+    },
+    {
+      "text": "That's impressive! Catching a needlefish is quite a feat, even if it got away. Keep up the great work!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll keep practicing and hopefully catch one next time.",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Fishing can be quite the adventure, can't it? I'm proud of you for trying your best.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it really is! Thanks for always supporting me, Grandpa.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm sorry if it seemed that way. I know you're working hard and I appreciate your effort.",
+      "golden": "apologize",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No worries, Grandpa. I know you mean well and I appreciate it.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "A big trout, that's fantastic! You're really making the most of this trip.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really enjoying it and learning a lot.",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Wow, five keepers! That's really impressive. You're doing an amazing job out there.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    }
+  ]
+}

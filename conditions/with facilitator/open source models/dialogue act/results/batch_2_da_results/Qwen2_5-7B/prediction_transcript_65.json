@@ -1,0 +1,121 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 65,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh dear, what happened?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, nothing bad happened, just a lot of assignments to finish. But I'm managing!",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I think it's in the sewing basket. Let me help you find it.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Hello there, I hope you're doing well. Do you need any help with the sewing?",
+      "golden": "question",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Thank you for offering to help. I think we can manage, but it's nice to know you're here.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm doing well, just busy with schoolwork. I appreciate the offer though!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh dear, what's wrong? Can I help with something?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, nothing's wrong, Grandma. Just a bit overwhelmed with all the assignments. Thanks for asking!",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "I'm glad you think so! It's always nice to see your work appreciated.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! It really means a lot to me. I'm trying my best to keep up with everything.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Ah, I see! Thank you for explaining that to me. I'm learning new things every day.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you're learning too, Grandma! It's fun to share things with you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, it looks perfectly straight to me. You've done a wonderful job!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you, Grandma! I'm really happy you think so. It makes all the effort worth it.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm so proud of you for paying attention to detail. It really shows in your work.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you're happy with it! Your hard work is paying off.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 21,
+    "utterances": [
+        {
+            "text": "I did it!! , Mom i just did it!!",
+            "golden": "flaunt",
+            "predicted": "unknown",
+            "raw": "announce (or brag, depending on the tone)",
+            "status": "WRONG"
+        },
+        {
+            "text": "You just did it!",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm (assuming the speaker is confirming that an action",
+            "status": "WRONG"
+        },
+        {
+            "text": "I Dont know how t o put the hole?!",
+            "golden": "ask for help",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "to open the hole,, put it back at your fingers first ..and then all you doing is knitting up",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ooooh ! i think i figure it out! this waaay!",
+            "golden": "acknowledge",
+            "predicted": "emphasize",
+            "raw": "emit: emphasize\n\nUtterance: Can you",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yup! if you keeping moving these fingures...",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeaaah! i just did it! i think..",
+            "golden": "flaunt",
+            "predicted": "acknowledge",
+            "raw": "confirm (or acknowledge, but confirm is more likely given the",
+            "status": "WRONG"
+        },
+        {
+            "text": "No loose your fingures... to watch where you working ",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn\n\nUtterance: I'll handle this",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Alright! okkk!",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "confirm / acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Correct ,, Put your fingers outside .. make aslide ",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "It is difficult to determine the exact intent without additional context.",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ohh",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": "just because u have small fingers ... but it can be done look at me  ",
+            "golden": "emphasize",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "Maybe we should do it together.",
+            "golden": "ask for help",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm not feeling",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ok see here,, swipe first make it with your 2 fingers like that ,, then you should move it up ...there you go!! see!!!! seems alittle! hard though",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Ohhhhh i did it idid it !!!cant believe it!!",
+            "golden": "flaunt",
+            "predicted": "flaunt",
+            "raw": "excitedly announce or boast (flaunt)",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Nice ! now you need to move it here and move your fingers to this side and start knitting ..",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Ok i know ",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": "u did good job look how small the left u have to do ,,move it farword and put your fingers between them , dont put it so close see...there you go,, why u want to learn croachet? ",
+            "golden": "asking for opinions",
+            "predicted": "advise",
+            "raw": "teach, advise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I just wanted to!",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now twist it in this way ",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Maybe we should do it together",
+            "golden": "ask for help",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: I'm here to",
+            "status": "WRONG"
+        },
+        {
+            "text": "But what are you going to do when I'm not here?",
+            "golden": "warn",
+            "predicted": "prevent",
+            "raw": "prevent\n\nUtterance: Can you help me find",
+            "status": "WRONG"
+        },
+        {
+            "text": "There you go ! go back and forth ..",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "emit: \"arrange\" (Note: Based on the",
+            "status": "WRONG"
+        },
+        {
+            "text": "Look at how long I went.",
+            "golden": "flaunt",
+            "predicted": "flaunt",
+            "raw": "boast (or flaunt)\n\nUtter",
+            "status": "CORRECT"
+        },
+        {
+            "text": "There you go!",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "Did I do worse on this one?",
+            "golden": "doubt",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me understand",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, well, you got. When it's not like that. Just take it back down. Start again.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent\n\nUtterance: I'd really appreciate",
+            "status": "WRONG"
+        },
+        {
+            "text": "Look! This is gonna be the final!",
+            "golden": "emphasize",
+            "predicted": "unknown",
+            "raw": "announce\n\nUtterance: Can you help me figure",
+            "status": "WRONG"
+        },
+        {
+            "text": "I love this lets do it together!",
+            "golden": "invite",
+            "predicted": "agree",
+            "raw": "agree\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let's do how much I tore out.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm not feeling",
+            "status": "WRONG"
+        },
+        {
+            "text": "grandma! Let's do it together. Let's do it together.",
+            "golden": "invite",
+            "predicted": "invite",
+            "raw": "invite\n\nUtterance: I'm not feeling",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Ohhh Nooooo",
+            "golden": "complain",
+            "predicted": "doubt",
+            "raw": "express disappointment or doubt\n\nUtterance: Can you",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now listen, you can't be like that!",
+            "golden": "warn",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "Practice makes perfect. and you are doing good",
+            "golden": "emphasize",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I don't want",
+            "status": "WRONG"
+        },
+        {
+            "text": "One is this pattern. You have to follow this.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I don't want",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh See grandma!!",
+            "golden": "acknowledge",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "yes good and you can learn my daughter! ",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree (assuming the speaker is agreeing with something said",
+            "status": "WRONG"
+        },
+        {
+            "text": "IOhhh so cute! But my blanket is even softer",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "I think this hole is too small. I think this hole is too small.",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "repeat\n\nUtterance: Can you help me understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "So what are you gonna do?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "There you go. Use your fingers. Right.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Can you help me with. That's a wrong sheet.",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I really wish I could do the cam one.",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "express regret, or longing (can be considered as a",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is a. That's an eight.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: I'm not feeling",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That was even tinier.",
+            "golden": "doubt",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: Can you help me",
+            "status": "WRONG"
+        },
+        {
+            "text": "Making those doll dresses.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\n\nUtterance: Can you help me with",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I think I'm doing something wrong here. Oh, no",
+            "golden": "doubt",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": " See, that's what I use on the edge.There's a G. A G is what I use a lot.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: Can you help",
+            "status": "WRONG"
+        },
+        {
+            "text": "The G1 is the biggest one of all. Right?",
+            "golden": "asking for opinions",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm here to",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is a G.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "It is unclear without additional context.\n\nUtter",
+            "status": "WRONG"
+        },
+        {
+            "text": "Mama Looke! Look how far we went!",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: Can you help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, you're doing good. It's pretty. Oh, yeah. Sure's a pretty color, isn't it? Yes ! I think you messed up my ball",
+            "golden": "praise",
+            "predicted": "taunt",
+            "raw": "acknowledge, taunt (last part)\n\nExplan",
+            "status": "WRONG"
+        }
+    ]
+}

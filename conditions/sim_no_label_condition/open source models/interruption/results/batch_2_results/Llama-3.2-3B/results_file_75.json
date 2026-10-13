@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): Lift it? Am I supposed to lift it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): Lift it? Am I supposed to lift it?",
+    "target": "Speaker A (grandmother) (Target): Mm-hmm.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): Lift it? Am I supposed to lift it?\nSpeaker B (grandmother): Mm-hmm.",
+    "target": "Speaker A (granddaughter) (Target): Can I use this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): Mm-hmm.\nSpeaker B (granddaughter): Can I use this?",
+    "target": "Speaker A (grandmother) (Target): Lift it first. Get your fabric under there. Make sure it's lined up with the tape.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): Can I use this?\nSpeaker B (grandmother): Lift it first. Get your fabric under there. Make sure it's lined up with the tape.",
+    "target": "Speaker A (granddaughter) (Target): Yep.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Lift it first. Get your fabric under there. Make sure it's lined up with the tape.\nSpeaker B (granddaughter): Yep.",
+    "target": "Speaker A (grandmother) (Target): Now put the needle down. You know, turn the needle.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): Yep.\nSpeaker B (grandmother): Now put the needle down. You know, turn the needle.",
+    "target": "Speaker A (granddaughter) (Target): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Now put the needle down. You know, turn the needle.\nSpeaker B (granddaughter): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?",
+    "target": "Speaker A (grandmother) (Target): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?\nSpeaker B (grandmother): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.",
+    "target": "Speaker A (granddaughter) (Target): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.\nSpeaker B (granddaughter): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.",
+    "target": "Speaker A (grandmother) (Target): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.\nSpeaker B (grandmother): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.",
+    "target": "Speaker A (granddaughter) (Target): Eh?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.\nSpeaker B (granddaughter): Eh?",
+    "target": "Speaker A (grandmother) (Target): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): Eh?\nSpeaker B (grandmother): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.",
+    "target": "Speaker A (granddaughter) (Target): Oh yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.\nSpeaker B (granddaughter): Oh yeah.",
+    "target": "Speaker A (grandmother) (Target): That's what you were wanting to do.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative agreement",
+    "raw_output": "Role: none\nType: cooperative agreement"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): Oh yeah.\nSpeaker B (grandmother): That's what you were wanting to do.",
+    "target": "Speaker A (granddaughter) (Target): Don't want to be famous.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): That's what you were wanting to do.\nSpeaker B (granddaughter): Don't want to be famous.",
+    "target": "Speaker A (grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

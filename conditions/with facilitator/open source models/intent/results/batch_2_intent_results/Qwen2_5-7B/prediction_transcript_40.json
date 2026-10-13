@@ -1,0 +1,199 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 40,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "I hope it was a good one. Anything interesting happen?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Not much, just the usual stuff. I did get an A on my math test though!",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "It sounds like you're not too excited about today. Anything you'd like to share?",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Oh, I'm actually really happy about the A! Just a bit tired from all the studying.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, if there's anything on your mind, I'm here to listen.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa. I appreciate it. Just trying to keep up with everything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh no, what did you miss? Maybe we can figure it out together.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I just feel like there's always something new to learn, and it gets overwhelming sometimes.",
+      "golden": "complain",
+      "predicted": "doubt",
+      "raw": "doubt"
+    },
+    {
+      "text": "I'm glad to hear that. If you need any help, just let me know.",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Thanks, Grandpa. I might take you up on that offer soon.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Ah, I see. Thanks for explaining that to me. I'll give it a try.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandpa. Let me know if you need any more help with it.",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Great, I'm glad it's working now. If you need anything else, just let me know.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Sure thing, Grandpa. I'm always here to help you out.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Don't worry, I can show you how to do a 3-point turn. It's easier than it seems.",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks, Grandpa! I'd love to learn that from you.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Good job backing out safely. If you ever need more practice, I'm here to help.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your help and guidance.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Off-roading, huh? That sounds like quite the adventure! I'm glad you're enjoying it.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "compliment"
+    },
+    {
+      "text": "Yeah, it's been a blast! Maybe you can join me sometime?",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Oh, I misunderstood. What did you mean by off-roading?",
+      "golden": "asking for opinions",
+      "predicted": "doubt",
+      "raw": "doubt"
+    },
+    {
+      "text": "Oh, it's when you drive on rough terrain, like dirt roads or trails. It's really fun!",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Let's take a left here, and I'll guide you through the tricky parts.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate the help. I'll follow your lead.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great, let's keep going. You're doing well.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "compliment"
+    },
+    {
+      "text": "Thanks, I'm really enjoying this drive with you.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Got it, I'll keep that in mind. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Let's head towards the path on the right. It should be easier to navigate.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Go right?",
+      "golden": "confirm",
+      "predicted": "unknown",
+      "raw": "ask_for_help"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 101,
+    "utterances": [
+        {
+            "text": "Down here if you want to send her some. Down where? Right there.",
+            "golden": "inform",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "That little thing? Yep, hit it. Oh.",
+            "golden": "confirm",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Oh! Yay! Sending an email to someone. To, um—",
+            "golden": "praise",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I"
+        },
+        {
+            "text": "'Cause my email changed.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "No, she just is using the wrong email.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Is that why I didn't get any messages?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "If it's new, it'll have that blue dot next to it.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "I'll hire you as my secretary. You want to be my secretary?",
+            "golden": "invite",
+            "predicted": "unknown",
+            "raw": "propose\n\nUtterance: I"
+        },
+        {
+            "text": "Sure.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Do you know how to do a group one?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Group text?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah, like you write it and it goes to 10 people.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+            "golden": "criticize",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "I'm trying, but the screen keeps changing every time I touch it, it makes me nervous I'll delete something.",
+            "golden": "explain",
+            "predicted": "warn",
+            "raw": "warn"
+        }
+    ]
+}

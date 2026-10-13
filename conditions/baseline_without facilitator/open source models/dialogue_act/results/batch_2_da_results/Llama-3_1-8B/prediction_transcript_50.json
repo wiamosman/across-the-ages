@@ -1,0 +1,121 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 50,
+    "utterances": [
+        {
+            "text": "Against the bone. See, just a little bit. Don't try cutting all the way in here. Just against the backbone, going against the backbone all the way down where the fin is.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "backchannel",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "You're on the other side of the fin. And just take the tip and follow the bone back all the way down, down here. See?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "On the side of the fin, and then when you get down here past that, go down through it. Okay?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wait, Grandma, stop. I saw a video where they start from the tail and zip it upward. It's supposed to be way faster and cleaner. Can we try it that way?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "The tail? No, that’s nonsense. You’ll hack the meat to pieces. We’ve always started at the head. Those videos don't know our fish.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "But it has millions of views! It looked so much easier than this.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, those millions of people aren't in this kitchen. Put that phone away and watch the backbone. Okay?",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm gonna go this way. Just take half and half. Cut through that. Then you start filleting it off. So you see all the meat?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "We're gonna see what's— we're gonna see what's in the stomach. Yeah, they don't have much blood.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And you just follow the knife against the bone. You see this? Yes. It looks easy. Just follow the bone. If you have a little skinny knife like this.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Ew! Yeah. I can touch it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "When you fillet them off. Okay, now you have to flip it. Because you're going the opposite way. You start with the head and then you start this way.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "It's really easy to cut now.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "See, I'm just using like the tip of it, you see?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm not going all the way through.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay, I'm amazing.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

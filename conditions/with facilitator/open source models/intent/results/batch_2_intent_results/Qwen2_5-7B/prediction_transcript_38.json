@@ -1,0 +1,67 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 38,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That's great! Just make sure you're comfortable and safe while driving.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely be careful. Do you have any tips for driving in the rain?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "It sounds like you're figuring it out. If you need any help, just let me know.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate it. I'll definitely reach out if I need anything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I understand, driving styles have changed over the years. Just make sure you're safe and comfortable with your method.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thanks for understanding, Grandpa. I'll make sure to stay safe and adapt as needed.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, let's give it a try and see how it feels.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds good, Grandpa! I'm ready to give it a shot.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm glad you're feeling confident. Let's make sure we're both comfortable with the way you're driving.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    }
+  ]
+}

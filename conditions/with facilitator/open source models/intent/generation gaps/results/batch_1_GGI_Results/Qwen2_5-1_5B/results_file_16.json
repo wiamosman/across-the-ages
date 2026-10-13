@@ -1,0 +1,118 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 16,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Hey Grandpa! How are you doing today?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Hey Grandpa! How are you doing today?",
+            "target": "Target (grandmother): That's right, dear. Stirring it well will make sure everything is smooth. You're doing great!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Hey Grandpa! How are you doing today? | Speaker B (grandmother): That's right, dear. Stirring it well will make sure everything is smooth. You're doing great!",
+            "target": "Target (grandson): Thanks, Grandma! I really appreciate your help with this. It's always fun cooking together.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): That's right, dear. Stirring it well will make sure everything is smooth. You're doing great! | Speaker B (grandson): Thanks, Grandma! I really appreciate your help with this. It's always fun cooking together.",
+            "target": "Target (grandmother): Oh, don't worry, dear. Sometimes it takes a little extra stirring or maybe a bit more liquid to get it just right. You could try adding a splash more milk or water and see if that helps. You're doing wonderfully, just keep at it!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Thanks, Grandma! I really appreciate your help with this. It's always fun cooking together. | Speaker B (grandmother): Oh, don't worry, dear. Sometimes it takes a little extra stirring or maybe a bit more liquid to get it just right. You could try adding a splash more milk or water and see if that helps. You're doing wonderfully, just keep at it!",
+            "target": "Target (grandson): Thanks for the advice, Grandma! I'll try adding a bit more milk and see how it turns out. It's great having you guide me through this.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Oh, don't worry, dear. Sometimes it takes a little extra stirring or maybe a bit more liquid to get it just right. You could try adding a splash more milk or water and see if that helps. You're doing wonderfully, just keep at it! | Speaker B (grandson): Thanks for the advice, Grandma! I'll try adding a bit more milk and see how it turns out. It's great having you guide me through this.",
+            "target": "Target (grandmother): Oh, I meant you might need to add a bit more milk or water to the mixture if it's too thick. Sometimes that helps to smooth out the lumps. Just add a little at a time and keep stirring. You'll get the hang of it!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): Thanks for the advice, Grandma! I'll try adding a bit more milk and see how it turns out. It's great having you guide me through this. | Speaker B (grandmother): Oh, I meant you might need to add a bit more milk or water to the mixture if it's too thick. Sometimes that helps to smooth out the lumps. Just add a little at a time and keep stirring. You'll get the hang of it!",
+            "target": "Target (grandson): Got it, Grandma! I'll add a little at a time and keep stirring. Thanks for the tip, I'm sure it'll turn out great with your guidance.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Oh, I meant you might need to add a bit more milk or water to the mixture if it's too thick. Sometimes that helps to smooth out the lumps. Just add a little at a time and keep stirring. You'll get the hang of it! | Speaker B (grandson): Got it, Grandma! I'll add a little at a time and keep stirring. Thanks for the tip, I'm sure it'll turn out great with your guidance.",
+            "target": "Target (grandson): I'm really grateful for your help, Grandma. It's nice to have someone with experience guiding me. I'll let you know how it turns out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Got it, Grandma! I'll add a little at a time and keep stirring. Thanks for the tip, I'm sure it'll turn out great with your guidance. | Speaker B (grandson): I'm really grateful for your help, Grandma. It's nice to have someone with experience guiding me. I'll let you know how it turns out!",
+            "target": "Target (grandmother): Haha, yes, sometimes you do have to keep beating it until it's just right! I'm glad you're finding the humor in it. Cooking can be a bit of an adventure, can't it? You're doing wonderfully, dear!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): I'm really grateful for your help, Grandma. It's nice to have someone with experience guiding me. I'll let you know how it turns out! | Speaker B (grandmother): Haha, yes, sometimes you do have to keep beating it until it's just right! I'm glad you're finding the humor in it. Cooking can be a bit of an adventure, can't it? You're doing wonderfully, dear!",
+            "target": "Target (grandson): Thanks, Grandma! Cooking really is an adventure, and I'm enjoying every bit of it. Your tips make it so much easier. I'll keep you posted on how it turns out!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Haha, yes, sometimes you do have to keep beating it until it's just right! I'm glad you're finding the humor in it. Cooking can be a bit of an adventure, can't it? You're doing wonderfully, dear! | Speaker B (grandson): Thanks, Grandma! Cooking really is an adventure, and I'm enjoying every bit of it. Your tips make it so much easier. I'll keep you posted on how it turns out!",
+            "target": "Target (grandmother): I'm glad to hear you're okay with it now. Cooking is all about experimenting and learning as you go. If you ever need more tips or just want to chat, I'm always here for you!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Thanks, Grandma! Cooking really is an adventure, and I'm enjoying every bit of it. Your tips make it so much easier. I'll keep you posted on how it turns out! | Speaker B (grandmother): I'm glad to hear you're okay with it now. Cooking is all about experimenting and learning as you go. If you ever need more tips or just want to chat, I'm always here for you!",
+            "target": "Target (grandson): Thanks, Grandma! I really appreciate your support and advice. It's comforting to know you're always there to help. I'll definitely reach out if I need more tips or just want to chat!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): I'm glad to hear you're okay with it now. Cooking is all about experimenting and learning as you go. If you ever need more tips or just want to chat, I'm always here for you! | Speaker B (grandson): Thanks, Grandma! I really appreciate your support and advice. It's comforting to know you're always there to help. I'll definitely reach out if I need more tips or just want to chat!",
+            "target": "Target (grandmother): I understand, dear. Sometimes it can be a bit tiring to beat the dough. Maybe you can try using a mixer if you have one, it might make things easier. But remember, it's okay to take breaks and do things at your own pace. Let me know if there's anything else you'd like to try or need help with!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): Thanks, Grandma! I really appreciate your support and advice. It's comforting to know you're always there to help. I'll definitely reach out if I need more tips or just want to chat! | Speaker B (grandmother): I understand, dear. Sometimes it can be a bit tiring to beat the dough. Maybe you can try using a mixer if you have one, it might make things easier. But remember, it's okay to take breaks and do things at your own pace. Let me know if there's anything else you'd like to try or need help with!",
+            "target": "Target (grandson): Thanks for the advice, Grandma! I actually don't have a mixer, but I'll keep that in mind for next time. I appreciate the reminder to take breaks and not rush things. Maybe I'll try making something simpler today and work my way up. Do you have any easy recipes you recommend?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): I understand, dear. Sometimes it can be a bit tiring to beat the dough. Maybe you can try using a mixer if you have one, it might make things easier. But remember, it's okay to take breaks and do things at your own pace. Let me know if there's anything else you'd like to try or need help with! | Speaker B (grandson): Thanks for the advice, Grandma! I actually don't have a mixer, but I'll keep that in mind for next time. I appreciate the reminder to take breaks and not rush things. Maybe I'll try making something simpler today and work my way up. Do you have any easy recipes you recommend?",
+            "target": "Target (grandmother): I'm so glad to hear you're enjoying it! Making bread can be such a rewarding experience, especially when you get to enjoy the delicious results. If you ever want to try new recipes or need any tips, I'm always here to help. Keep having fun with it, dear!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): Thanks for the advice, Grandma! I actually don't have a mixer, but I'll keep that in mind for next time. I appreciate the reminder to take breaks and not rush things. Maybe I'll try making something simpler today and work my way up. Do you have any easy recipes you recommend? | Speaker B (grandmother): I'm so glad to hear you're enjoying it! Making bread can be such a rewarding experience, especially when you get to enjoy the delicious results. If you ever want to try new recipes or need any tips, I'm always here to help. Keep having fun with it, dear!",
+            "target": "Target (grandson): Thanks, Grandma! Your enthusiasm is contagious. I think I'll start with something simple like cookies or muffins. Do you have a favorite recipe for those? I'd love to hear your suggestions!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

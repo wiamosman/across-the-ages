@@ -1,0 +1,91 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 77,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh, I see. Maybe we can find a longer one together?",
+      "golden": "suggest",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "That sounds great! I'd love to do that with you.",
+      "golden": "agree",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Oh, did you have something else in mind?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Not really, I just thought it would be nice to spend some time together.",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I didn't know there was an auto-thread button. That sounds convenient!",
+      "golden": "acknowledge",
+      "predicted": "introduce",
+      "raw": "introduce\n\nUtterance: I"
+    },
+    {
+      "text": "Yeah, it's super handy! I can show you how to use it if you'd like.",
+      "golden": "offer",
+      "predicted": "introduce",
+      "raw": "offer help (introduce and ask"
+    },
+    {
+      "text": "I understand, dear. Let's give it a try and see how it works.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Great! I'll walk you through it step by step.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thank you for setting it up, dear. I'm excited to see how it works!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! Let's start with the basics and go from there.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Let's start the machine and see how it performs. I'm curious to see it in action!",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Alright, let's get started! I'll show you how to turn it on first.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan\n\nUtterance: I"
+    },
+    {
+      "text": "It's wonderful to see you so enthusiastic about this, dear.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "compliment\n\nUtterance: I"
+    }
+  ]
+}

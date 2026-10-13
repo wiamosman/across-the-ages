@@ -1,0 +1,205 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 44,
+    "utterances": [
+        {
+            "text": "Okay, Grandma. Okay, last time we ended up with you playing both hands on the same song at the same time. Right. So it's been a couple weeks since I've seen you.",
+            "golden": "introduce",
+            "predicted": "care",
+            "raw": "care"
+        },
+        {
+            "text": "And I've been practicing without the tic-tocs because I can concentrate more on my fingers. Is that all right? Grandma!",
+            "golden": "ask for help",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Well, I think you've asked that before. And how do I answer that? It's better to count even if you're not counting correctly because you're developing a habit.",
+            "golden": "advise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Yes, that makes sense. I'm gonna try. Tomorrow I will practice with my TikToks. Okay?",
+            "golden": "agree",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "...Your what? Grandma, why are you going to practice with the video app? I just want you to count the beats.",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "The app? No, the tick-tocks! You know, the noises we make. I thought that's what the kids were calling it these days.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Oh! No, that's something completely different. Let's just stick to 'tick-tock' for the piano. Anyway, we're going to learn a new chord today, Grandma.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "teach"
+        },
+        {
+            "text": "Oh, we are?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Mm-hmm. With your left hand, this is an easier chord. It's called the G7 chord.",
+            "golden": "introduce",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "I was wondering what that was.",
+            "golden": "doubt",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "And it's only 2 fingers. Oh. These 2. Your thumb and your pointer finger.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Oh, really?",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes. It shows you right here on the page, and then this is what it looks like in—",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Oh, I came over here and I wondered what that was.",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Okay. And you'll see that it's 2 notes, and so those are your 2 fingers.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "And then this one over here would be what?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Not your right hand, this is just left hand.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Oh, well, you don't play the right hand with this one.",
+            "golden": "confirm",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "No, no, just the left hand. And so if you were to play this little exercise, you'll see it starts with your C chord, then it changes to your G7 chord, and then it ends with your C chord. So I'm going to go ahead and let's just play that, and then I'll give you a couple assignments.",
+            "golden": "plan",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "This is what I've been playing, right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Yes, C chord. That's the one you've been playing.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Okay, I have to get my fingers right again.",
+            "golden": "inform",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "And we're on the page called Counting Review. Middle finger. There you go. Tick-tock, tick-tock, tick-tock, tick-tock. Nope, this hand. G7.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "These two.",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Leave your thumb where it was. Don't move your hand. There, those two. Tick-tock, tick-tock, tick-tock, tick-tock. Next line.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "I have 3 of them. I go back to this?",
+            "golden": "ask for help",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Now you're here. Tick-tock, tick-tock, tick-tock, tick-tock. And the last measure changes to C chord.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Oh, that's all of them. All 3 fingers. Like this? No.",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "All 3 fingers. Just like you've been. There you go. You got it. Tick-tock, tick-tock, and tick-tock, tick-tock. Very good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Good.",
+            "golden": "acknowledge",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "And so that's it for today. I'll give you a couple more assignments, but for the camera, that's it for today.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "leave",
+            "raw": "leave"
+        }
+    ]
+}

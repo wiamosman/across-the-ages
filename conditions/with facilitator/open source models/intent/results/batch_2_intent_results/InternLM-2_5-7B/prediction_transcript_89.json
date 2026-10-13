@@ -1,0 +1,133 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 89,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh, is everything alright, dear? You look a little tired from all those books.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yeah, everything's fine. Just a lot of assignments to handle, but I'm managing.",
+      "golden": "inform",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I hope I'm not adding to your stress, dear. I just wanted to share some traditional dining etiquette with you.",
+      "golden": "explain",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh no, Grandma, you didn't upset me at all! I appreciate you teaching me these refined manners.",
+      "golden": "comfort",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I understand, dear. Everyone has their own way of doing things, but learning formal etiquette can be quite useful.",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Absolutely, Grandma. I love how we can talk things through and understand these social traditions better.",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Yes, dear, I was taught the proper way to use a fork and knife for formal dinners.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I get that, Grandma. It's interesting how these elegant habits were practiced back then.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's interesting how different habits form, isn't it? As long as we're enjoying our meal together, that's what matters most.",
+      "golden": "emphasize",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Exactly, Grandma! Sharing these lessons and moments is what counts.",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "I'm glad we can enjoy our time together, and you're learning so quickly how to handle the cutlery.",
+      "golden": "praise",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Yes, Grandma, these moments are precious. I'm so grateful for you showing me the right way.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "It's always a joy to spend time with you, dear. Let's make more memories together over dinner.",
+      "golden": "invite",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Absolutely, Grandma! I can't wait for our next practice session together.",
+      "golden": "agree",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "I'm looking forward to our next etiquette practice, whatever the occasion may be.",
+      "golden": "invite",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Maybe we can practice formal tea etiquette next time. What do you think?",
+      "golden": "invite",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "That's a lovely idea! Do you have any other ideas for what we could learn next time?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "How about we try a full three-course meal setup together?",
+      "golden": "invite",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Oh, that's a wonderful suggestion! I'd be delighted to set the table with you.",
+      "golden": "praise",
+      "predicted": "agree",
+      "raw": "agree"
+    }
+  ]
+}

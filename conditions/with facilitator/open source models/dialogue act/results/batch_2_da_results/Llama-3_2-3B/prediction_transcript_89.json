@@ -1,0 +1,133 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 89,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, is everything alright, dear? You look a little tired from all those books.",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, everything's fine. Just a lot of assignments to handle, but I'm managing.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I hope I'm not adding to your stress, dear. I just wanted to share some traditional dining etiquette with you.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh no, Grandma, you didn't upset me at all! I appreciate you teaching me these refined manners.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I understand, dear. Everyone has their own way of doing things, but learning formal etiquette can be quite useful.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Absolutely, Grandma. I love how we can talk things through and understand these social traditions better.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, dear, I was taught the proper way to use a fork and knife for formal dinners.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I get that, Grandma. It's interesting how these elegant habits were practiced back then.",
+      "golden": "acknowledge",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "It's interesting how different habits form, isn't it? As long as we're enjoying our meal together, that's what matters most.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Exactly, Grandma! Sharing these lessons and moments is what counts.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad we can enjoy our time together, and you're learning so quickly how to handle the cutlery.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, Grandma, these moments are precious. I'm so grateful for you showing me the right way.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It's always a joy to spend time with you, dear. Let's make more memories together over dinner.",
+      "golden": "statement-opinion",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Absolutely, Grandma! I can't wait for our next practice session together.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm looking forward to our next etiquette practice, whatever the occasion may be.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Maybe we can practice formal tea etiquette next time. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's a lovely idea! Do you have any other ideas for what we could learn next time?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "How about we try a full three-course meal setup together?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Oh, that's a wonderful suggestion! I'd be delighted to set the table with you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

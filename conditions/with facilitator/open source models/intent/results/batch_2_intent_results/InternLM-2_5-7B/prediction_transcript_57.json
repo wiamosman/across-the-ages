@@ -1,0 +1,121 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 57,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh, I see. Is there anything I can do to help with that?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandpa! I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "golden": "refuse",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's the spirit. Now, about that reel right there—could you explain how you've set it up?",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, sorry, Grandpa! I was actually thinking about the new project I'm working on for school. It's a bit confusing.",
+      "golden": "explain",
+      "predicted": "apologise",
+      "raw": "apologise"
+    },
+    {
+      "text": "Wow, that sounds complex! Did you manage to find a good research angle for it yet?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Yeah, I did! It's going well so far, but I might need some advice on the conclusion later.",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I'd be happy to help. While we think on that, do you want to try using some of these worms as bait?",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Sure! Balancing the project and fishing is a good way to clear my head. Thanks for the advice!",
+      "golden": "agree",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "I understand perfectly. Let's get started with the fishing then, and we can talk while we wait!",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Actually, could we talk a little more about my project first? It'll help me relax more while we're fishing.",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Alright, tell me all about it. We can prep the rods and have some fun together at the same time.",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Perfect. Can we discuss the structure before we cast the lines out?",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Of course. Go ahead, and let's see if we can catch some interesting ideas out here!",
+      "golden": "plan",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "I hope we catch a big one today! It's always exciting to see what the water has in store for us.",
+      "golden": "emphasize",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I remember catching a huge fish here once, it was quite the adventure!",
+      "golden": "inform",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Fishing is all about patience, but I promise it will be worth it when we catch something amazing!",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I think you'll enjoy it once we get into the rhythm of it. It's quite relaxing.",
+      "golden": "comfort",
+      "predicted": "explain",
+      "raw": "explain"
+    }
+  ]
+}

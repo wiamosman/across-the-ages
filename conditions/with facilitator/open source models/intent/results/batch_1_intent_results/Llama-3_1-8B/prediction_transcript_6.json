@@ -1,0 +1,55 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "file_index": 6,
+  "utterances": [
+    {
+      "text": "Hi Grandpa! How have you been lately?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, that sounds wonderful! I would love to learn how to make lawia with you. It's always nice to share recipes and cooking tips, especially ones that hold such special memories. Maybe we can cook it together sometime and you can show me all the steps your grandma taught you.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize",
+      "status": "WRONG"
+    },
+    {
+      "text": "That sounds like a great idea! I'd love to cook lawia with you and share those memories. How about we plan a day next week to do it?",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Ah, squash is such a versatile ingredient! It must add a lovely texture and flavor to the stew. I'm curious, what other ingredients go into lawia? I'd love to hear more about it.",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Sure, Grandpa! Besides squash, we usually add tomatoes, onions, garlic, and sometimes a bit of chili for some heat. It's really about balancing the flavors. Do you have any favorite ingredients you'd like to try adding?",
+      "golden": "explain",
+      "predicted": "unknown",
+      "raw": "ask for opinions",
+      "status": "WRONG"
+    },
+    {
+      "text": "It seems like squash is a key ingredient in lawia! I'm really intrigued by how it complements the other flavors. If there's anything else you'd like to share about the recipe or the cooking process, I'm all ears. It's always fascinating to learn about different dishes and their origins.",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thank you for sharing that with me. It's wonderful to learn about the ingredients that make lawia so special. If you ever feel like cooking together, just let me know. I'd love to join you and learn more about this delicious stew!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank",
+      "status": "CORRECT"
+    }
+  ]
+}

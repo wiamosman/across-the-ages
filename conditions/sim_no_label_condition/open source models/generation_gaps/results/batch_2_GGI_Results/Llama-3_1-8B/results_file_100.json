@@ -1,0 +1,2567 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 100,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Grandmother, you're quite good driving, innit? I might get you to work for me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Grandmother, you're quite good driving, innit? I might get you to work for me.",
+            "target": "Target (grandmother): Pass. Welcome guys to Passman. I've got a very special guest on today, it's my nana. Nana, thanks for coming on. She's my number one YouTube fan. All right guys, so I wanted to give my Nana had a lesson today because she was feeling a bit uncomfortable on carriageways, wasn't you?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Grandmother, you're quite good driving, innit? I might get you to work for me. | Speaker B (grandmother): Pass. Welcome guys to Passman. I've got a very special guest on today, it's my nana. Nana, thanks for coming on. She's my number one YouTube fan. All right guys, so I wanted to give my Nana had a lesson today because she was feeling a bit uncomfortable on carriageways, wasn't you?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Pass. Welcome guys to Passman. I've got a very special guest on today, it's my nana. Nana, thanks for coming on. She's my number one YouTube fan. All right guys, so I wanted to give my Nana had a lesson today because she was feeling a bit uncomfortable on carriageways, wasn't you? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Now, how long you been driving, Nana?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Now, how long you been driving, Nana?",
+            "target": "Target (grandmother): 50 years.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): Now, how long you been driving, Nana? | Speaker B (grandmother): 50 years.",
+            "target": "Target (grandson): 50 years, yeah? God, can you tell us about your driving test? What was your test like back then?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): 50 years. | Speaker B (grandson): 50 years, yeah? God, can you tell us about your driving test? What was your test like back then?",
+            "target": "Target (grandmother): It was okay, actually.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): 50 years, yeah? God, can you tell us about your driving test? What was your test like back then? | Speaker B (grandmother): It was okay, actually.",
+            "target": "Target (grandson): Yeah?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): It was okay, actually. | Speaker B (grandson): Yeah?",
+            "target": "Target (grandmother): Yeah, it wasn't bad.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Yeah? | Speaker B (grandmother): Yeah, it wasn't bad.",
+            "target": "Target (grandson): What was she even driving? Do you remember what car it was? Ford. Ford.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Yeah, it wasn't bad. | Speaker B (grandson): What was she even driving? Do you remember what car it was? Ford. Ford.",
+            "target": "Target (grandmother): Ford.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): What was she even driving? Do you remember what car it was? Ford. Ford. | Speaker B (grandmother): Ford.",
+            "target": "Target (grandson): Ford. Any idea what Ford it was?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Ford. | Speaker B (grandson): Ford. Any idea what Ford it was?",
+            "target": "Target (grandmother): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): Ford. Any idea what Ford it was? | Speaker B (grandmother): No.",
+            "target": "Target (grandson): Old school Ford, I guess.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): No. | Speaker B (grandson): Old school Ford, I guess.",
+            "target": "Target (grandmother): I can't remember. Probably Escort, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): Old school Ford, I guess. | Speaker B (grandmother): I can't remember. Probably Escort, yeah.",
+            "target": "Target (grandson): Ford Escort?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): I can't remember. Probably Escort, yeah. | Speaker B (grandson): Ford Escort?",
+            "target": "Target (grandmother): Yeah, reverse to go home.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): Ford Escort? | Speaker B (grandmother): Yeah, reverse to go home.",
+            "target": "Target (grandson): No, it's not reverse yet. Um, let me just ask you a few questions, Nana, quick. Yeah, so they didn't even have a theory test back then, did they? No, it was just a few questions.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Yeah, reverse to go home. | Speaker B (grandson): No, it's not reverse yet. Um, let me just ask you a few questions, Nana, quick. Yeah, so they didn't even have a theory test back then, did they? No, it was just a few questions.",
+            "target": "Target (grandmother): Yeah, that's right. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): No, it's not reverse yet. Um, let me just ask you a few questions, Nana, quick. Yeah, so they didn't even have a theory test back then, did they? No, it was just a few questions. | Speaker B (grandmother): Yeah, that's right. Yeah.",
+            "target": "Target (grandson): Um, did you pass first time?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): Yeah, that's right. Yeah. | Speaker B (grandson): Um, did you pass first time?",
+            "target": "Target (grandmother): No, second.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): Um, did you pass first time? | Speaker B (grandmother): No, second.",
+            "target": "Target (grandson): Second?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): No, second. | Speaker B (grandson): Second?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandson): Second? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What did they fail you for?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What did they fail you for?",
+            "target": "Target (grandmother): Emergency stop.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandson): What did they fail you for? | Speaker B (grandmother): Emergency stop.",
+            "target": "Target (grandson): What happened? Because they still do that in the test now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): Emergency stop. | Speaker B (grandson): What happened? Because they still do that in the test now.",
+            "target": "Target (grandmother): Are they today?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandson): What happened? Because they still do that in the test now. | Speaker B (grandmother): Are they today?",
+            "target": "Target (grandson): They do it still.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): Are they today? | Speaker B (grandson): They do it still.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandson): They do it still. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What happened, you didn't stop quick enough, or— Yeah, you didn't stop quick enough.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What happened, you didn't stop quick enough, or— Yeah, you didn't stop quick enough.",
+            "target": "Target (grandmother): Well, I thought I did, but he didn't.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandson): What happened, you didn't stop quick enough, or— Yeah, you didn't stop quick enough. | Speaker B (grandmother): Well, I thought I did, but he didn't.",
+            "target": "Target (grandson): He said it weren't quick enough, yeah?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): Well, I thought I did, but he didn't. | Speaker B (grandson): He said it weren't quick enough, yeah?",
+            "target": "Target (grandmother): That's right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandson): He said it weren't quick enough, yeah? | Speaker B (grandmother): That's right.",
+            "target": "Target (grandson): Okay. So no, no, look, I'm just gonna— look, you know how to drive. You've been driving longer than I've been born.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): That's right. | Speaker B (grandson): Okay. So no, no, look, I'm just gonna— look, you know how to drive. You've been driving longer than I've been born.",
+            "target": "Target (grandmother): Yeah, certainly.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandson): Okay. So no, no, look, I'm just gonna— look, you know how to drive. You've been driving longer than I've been born. | Speaker B (grandmother): Yeah, certainly.",
+            "target": "Target (grandson): Yeah, so I'm just gonna give you a little bit of confidence again.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): Yeah, certainly. | Speaker B (grandson): Yeah, so I'm just gonna give you a little bit of confidence again.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandson): Yeah, so I'm just gonna give you a little bit of confidence again. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): And then I'll just mention little things that's probably different to what you're used to anyway.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): And then I'll just mention little things that's probably different to what you're used to anyway.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandson): And then I'll just mention little things that's probably different to what you're used to anyway. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): So like, you just do you. You drive. I'm gonna do a little route into Welling where you go to your normal shops. Into like Morrison's and stuff. Okay. So once we've gone into there, get used to my car a little bit. You're the first one to drive my car, by the way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): So like, you just do you. You drive. I'm gonna do a little route into Welling where you go to your normal shops. Into like Morrison's and stuff. Okay. So once we've gone into there, get used to my car a little bit. You're the first one to drive my car, by the way.",
+            "target": "Target (grandmother): Oh, really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandson): So like, you just do you. You drive. I'm gonna do a little route into Welling where you go to your normal shops. Into like Morrison's and stuff. Okay. So once we've gone into there, get used to my car a little bit. You're the first one to drive my car, by the way. | Speaker B (grandmother): Oh, really?",
+            "target": "Target (grandson): Yeah, because I've only just got my pedals fit.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandmother): Oh, really? | Speaker B (grandson): Yeah, because I've only just got my pedals fit.",
+            "target": "Target (grandmother): Lucky me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandson): Yeah, because I've only just got my pedals fit. | Speaker B (grandmother): Lucky me.",
+            "target": "Target (grandson): Yeah. And then we're going to do some carriageways because you're a bit nervous to get on them now, aren't you?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandmother): Lucky me. | Speaker B (grandson): Yeah. And then we're going to do some carriageways because you're a bit nervous to get on them now, aren't you?",
+            "target": "Target (grandmother): Yeah, because of your dad. He wasn't well because of the pandemic. Didn't drive a couple of years and I just—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandson): Yeah. And then we're going to do some carriageways because you're a bit nervous to get on them now, aren't you? | Speaker B (grandmother): Yeah, because of your dad. He wasn't well because of the pandemic. Didn't drive a couple of years and I just—",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): Yeah, because of your dad. He wasn't well because of the pandemic. Didn't drive a couple of years and I just— | Speaker B (grandson): Yeah.",
+            "target": "Target (grandmother): That's what it is.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandmother): That's what it is.",
+            "target": "Target (grandson): I feel you. All right, Nané, come on then. You've got the best instructor here anyway.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandmother): That's what it is. | Speaker B (grandson): I feel you. All right, Nané, come on then. You've got the best instructor here anyway.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandson): I feel you. All right, Nané, come on then. You've got the best instructor here anyway. | Speaker B (grandmother): Okay.",
+            "target": "Target (grandson): So I'm just going to sit and watch you. You're not used to these handbrakes, are you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandmother): Okay. | Speaker B (grandson): So I'm just going to sit and watch you. You're not used to these handbrakes, are you?",
+            "target": "Target (grandmother): No.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandson): So I'm just going to sit and watch you. You're not used to these handbrakes, are you? | Speaker B (grandmother): No.",
+            "target": "Target (grandson): All right, so that's the water hold, Nané. I'll explain that to you later, yeah? But can you see your parking brakes on there, the P?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandmother): No. | Speaker B (grandson): All right, so that's the water hold, Nané. I'll explain that to you later, yeah? But can you see your parking brakes on there, the P?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandson): All right, so that's the water hold, Nané. I'll explain that to you later, yeah? But can you see your parking brakes on there, the P? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Yeah, so see this button?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Yeah, so see this button?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandson): Yeah, so see this button? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): You can pull it out or get a biting point and press the gas and watch what happens. Look, lift your clutch up and press the gas a little bit. See that? It gets rid of it anyway.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): You can pull it out or get a biting point and press the gas and watch what happens. Look, lift your clutch up and press the gas a little bit. See that? It gets rid of it anyway.",
+            "target": "Target (grandmother): I don't like it. Where is the lever? I want to feel the click so I know the car isn't going to roll back on us. This button feels like a toy.",
+            "gold_label": "digital disparity",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandson): You can pull it out or get a biting point and press the gas and watch what happens. Look, lift your clutch up and press the gas a little bit. See that? It gets rid of it anyway. | Speaker B (grandmother): I don't like it. Where is the lever? I want to feel the click so I know the car isn't going to roll back on us. This button feels like a toy.",
+            "target": "Target (grandson): It’s not a toy, Nana, it’s sensors. Look at her face, guys, she thinks the car is going to fly away! It’s just a digital switch.",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandmother): I don't like it. Where is the lever? I want to feel the click so I know the car isn't going to roll back on us. This button feels like a toy. | Speaker B (grandson): It’s not a toy, Nana, it’s sensors. Look at her face, guys, she thinks the car is going to fly away! It’s just a digital switch.",
+            "target": "Target (grandmother): Don't 'look at her face' me. I am sitting right here. I have driven half a million miles without a 'digital switch' and I never rolled into a ditch. You’re making me feel like a toddler in a high chair for your little show.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandson): It’s not a toy, Nana, it’s sensors. Look at her face, guys, she thinks the car is going to fly away! It’s just a digital switch. | Speaker B (grandmother): Don't 'look at her face' me. I am sitting right here. I have driven half a million miles without a 'digital switch' and I never rolled into a ditch. You’re making me feel like a toddler in a high chair for your little show.",
+            "target": "Target (grandmother): Okay. Yeah?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): Don't 'look at her face' me. I am sitting right here. I have driven half a million miles without a 'digital switch' and I never rolled into a ditch. You’re making me feel like a toddler in a high chair for your little show. | Speaker B (grandmother): Okay. Yeah?",
+            "target": "Target (grandson): All right.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): Okay. Yeah? | Speaker B (grandson): All right.",
+            "target": "Target (grandson): You had a Golf as well, didn't you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): All right. | Speaker B (grandson): You had a Golf as well, didn't you?",
+            "target": "Target (grandson): Yeah, I did.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandson): You had a Golf as well, didn't you? | Speaker B (grandson): Yeah, I did.",
+            "target": "Target (grandmother): I miss it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): Yeah, I did. | Speaker B (grandmother): I miss it.",
+            "target": "Target (grandson): There you go, you can drive this whenever you want now. Let's get some climb on. Are you hot? You cold? You're right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): I miss it. | Speaker B (grandson): There you go, you can drive this whenever you want now. Let's get some climb on. Are you hot? You cold? You're right.",
+            "target": "Target (grandmother): Yeah, I'm fine.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): There you go, you can drive this whenever you want now. Let's get some climb on. Are you hot? You cold? You're right. | Speaker B (grandmother): Yeah, I'm fine.",
+            "target": "Target (grandson): Okay. Oh no, I don't want no speeding today, Tom.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): Yeah, I'm fine. | Speaker B (grandson): Okay. Oh no, I don't want no speeding today, Tom.",
+            "target": "Target (grandmother): No speeding.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): Okay. Oh no, I don't want no speeding today, Tom. | Speaker B (grandmother): No speeding.",
+            "target": "Target (grandson): What's the speed limit on these roads? 30.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandmother): No speeding. | Speaker B (grandson): What's the speed limit on these roads? 30.",
+            "target": "Target (grandmother): 30?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): What's the speed limit on these roads? 30. | Speaker B (grandmother): 30?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandmother): 30? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandson): And you can see your speed out there, it tells you what gear you're in as well. Yeah, come on then. Do you remember, must have been 15 years ago, we had a bloody crash on this road, didn't we, when you were driving? 15 years ago?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandson): And you can see your speed out there, it tells you what gear you're in as well. Yeah, come on then. Do you remember, must have been 15 years ago, we had a bloody crash on this road, didn't we, when you were driving? 15 years ago?",
+            "target": "Target (grandmother): No, it's more than that. 25 years ago? Yeah, yeah, I remember sitting in the back. Yeah, I didn't even have a belt on, do you remember? I know, I flew into that seat, smashed my chin. I know, your airbag come out, didn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandson): And you can see your speed out there, it tells you what gear you're in as well. Yeah, come on then. Do you remember, must have been 15 years ago, we had a bloody crash on this road, didn't we, when you were driving? 15 years ago? | Speaker B (grandmother): No, it's more than that. 25 years ago? Yeah, yeah, I remember sitting in the back. Yeah, I didn't even have a belt on, do you remember? I know, I flew into that seat, smashed my chin. I know, your airbag come out, didn't it?",
+            "target": "Target (grandmother): Yeah, bloody hell, it was really scary.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandmother): No, it's more than that. 25 years ago? Yeah, yeah, I remember sitting in the back. Yeah, I didn't even have a belt on, do you remember? I know, I flew into that seat, smashed my chin. I know, your airbag come out, didn't it? | Speaker B (grandmother): Yeah, bloody hell, it was really scary.",
+            "target": "Target (grandson): Someone just pulled out on us, do you remember? Yeah, yeah, and it was in your Golf, wasn't it? Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandmother): Yeah, bloody hell, it was really scary. | Speaker B (grandson): Someone just pulled out on us, do you remember? Yeah, yeah, and it was in your Golf, wasn't it? Yep.",
+            "target": "Target (grandmother): Yeah, yeah, and it was brand new Golf as well, wasn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): Someone just pulled out on us, do you remember? Yeah, yeah, and it was in your Golf, wasn't it? Yep. | Speaker B (grandmother): Yeah, yeah, and it was brand new Golf as well, wasn't it?",
+            "target": "Target (grandson): Yeah, I remember it wasn't even fitted with ABS, was it? Back then ABS was like a special feature, wasn't it? Yeah. Nanny, look at all the cameras up there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandmother): Yeah, yeah, and it was brand new Golf as well, wasn't it? | Speaker B (grandson): Yeah, I remember it wasn't even fitted with ABS, was it? Back then ABS was like a special feature, wasn't it? Yeah. Nanny, look at all the cameras up there.",
+            "target": "Target (grandmother): Yeah, no.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): Yeah, I remember it wasn't even fitted with ABS, was it? Back then ABS was like a special feature, wasn't it? Yeah. Nanny, look at all the cameras up there. | Speaker B (grandmother): Yeah, no.",
+            "target": "Target (grandson): What are them cameras there for?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandmother): Yeah, no. | Speaker B (grandson): What are them cameras there for?",
+            "target": "Target (grandmother): Speeding.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): What are them cameras there for? | Speaker B (grandmother): Speeding.",
+            "target": "Target (grandson): It's this yellow box.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandmother): Speeding. | Speaker B (grandson): It's this yellow box.",
+            "target": "Target (grandmother): Oh, is it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandson): It's this yellow box. | Speaker B (grandmother): Oh, is it?",
+            "target": "Target (grandson): Yeah, so if anyone stops in that yellow box, they get— they get a ticket. £60. Yeah, right, then it's straight on. Yeah, yeah. When are you allowed to stop in a yellow box?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandmother): Oh, is it? | Speaker B (grandson): Yeah, so if anyone stops in that yellow box, they get— they get a ticket. £60. Yeah, right, then it's straight on. Yeah, yeah. When are you allowed to stop in a yellow box?",
+            "target": "Target (grandmother): When am I allowed?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): Yeah, so if anyone stops in that yellow box, they get— they get a ticket. £60. Yeah, right, then it's straight on. Yeah, yeah. When are you allowed to stop in a yellow box? | Speaker B (grandmother): When am I allowed?",
+            "target": "Target (grandson): Yeah, there's—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandmother): When am I allowed? | Speaker B (grandson): Yeah, there's—",
+            "target": "Target (grandmother): you're never allowed, are you?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): Yeah, there's— | Speaker B (grandmother): you're never allowed, are you?",
+            "target": "Target (grandson): Well, when you're turning right and the opening's clear, you can. So look, look at this moped. He's sitting in the box, see? Yeah, because he's turning right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandmother): you're never allowed, are you? | Speaker B (grandson): Well, when you're turning right and the opening's clear, you can. So look, look at this moped. He's sitting in the box, see? Yeah, because he's turning right.",
+            "target": "Target (grandmother): Oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): Well, when you're turning right and the opening's clear, you can. So look, look at this moped. He's sitting in the box, see? Yeah, because he's turning right. | Speaker B (grandmother): Oh, okay.",
+            "target": "Target (grandson): Yeah, no, when he's opening, it's clear he's going to turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandmother): Oh, okay. | Speaker B (grandson): Yeah, no, when he's opening, it's clear he's going to turn.",
+            "target": "Target (grandmother): All right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): Yeah, no, when he's opening, it's clear he's going to turn. | Speaker B (grandmother): All right.",
+            "target": "Target (grandson): Yeah, I'll let you learn some stuff with me now. Yeah, I know. We never hit the musical, did we?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandmother): All right. | Speaker B (grandson): Yeah, I'll let you learn some stuff with me now. Yeah, I know. We never hit the musical, did we?",
+            "target": "Target (grandson): Yeah. So these zebra crossings then, if anyone's ever approaching, we've got to stop for them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): Yeah, I'll let you learn some stuff with me now. Yeah, I know. We never hit the musical, did we? | Speaker B (grandson): Yeah. So these zebra crossings then, if anyone's ever approaching, we've got to stop for them.",
+            "target": "Target (grandmother): Yeah, yeah, of course.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandson): Yeah. So these zebra crossings then, if anyone's ever approaching, we've got to stop for them. | Speaker B (grandmother): Yeah, yeah, of course.",
+            "target": "Target (grandson): You're quite good driving in there. I might get you to work for me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandmother): Yeah, yeah, of course. | Speaker B (grandson): You're quite good driving in there. I might get you to work for me.",
+            "target": "Target (grandson): Pass.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandson): You're quite good driving in there. I might get you to work for me. | Speaker B (grandson): Pass.",
+            "target": "Target (grandson): You can be Pascal.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandson): Pass. | Speaker B (grandson): You can be Pascal.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 97,
+            "context": "Speaker A (grandson): You can be Pascal. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): So, Nana, you know when you keep popping it to neutral?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 98,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): So, Nana, you know when you keep popping it to neutral?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 99,
+            "context": "Speaker A (grandson): So, Nana, you know when you keep popping it to neutral? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): They call that coasting.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 100,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): They call that coasting.",
+            "target": "Target (grandmother): Coasting?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 101,
+            "context": "Speaker A (grandson): They call that coasting. | Speaker B (grandmother): Coasting?",
+            "target": "Target (grandson): Yeah. In the driving test, they want you to always be in gear.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 102,
+            "context": "Speaker A (grandmother): Coasting? | Speaker B (grandson): Yeah. In the driving test, they want you to always be in gear.",
+            "target": "Target (grandmother): I know, and they used to tell me off. Yeah, he says you're spoiling— you're damaging the car, damaging the engine.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 103,
+            "context": "Speaker A (grandson): Yeah. In the driving test, they want you to always be in gear. | Speaker B (grandmother): I know, and they used to tell me off. Yeah, he says you're spoiling— you're damaging the car, damaging the engine.",
+            "target": "Target (grandson): You know what, it doesn't damage it, but I think the reason they don't like you coasting is because it's no control. There's less control.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 104,
+            "context": "Speaker A (grandmother): I know, and they used to tell me off. Yeah, he says you're spoiling— you're damaging the car, damaging the engine. | Speaker B (grandson): You know what, it doesn't damage it, but I think the reason they don't like you coasting is because it's no control. There's less control.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 105,
+            "context": "Speaker A (grandson): You know what, it doesn't damage it, but I think the reason they don't like you coasting is because it's no control. There's less control. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): You know what, in traffic, I don't blame you. It's nice to just rest your foot for a minute, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 106,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): You know what, in traffic, I don't blame you. It's nice to just rest your foot for a minute, isn't it?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 107,
+            "context": "Speaker A (grandson): You know what, in traffic, I don't blame you. It's nice to just rest your foot for a minute, isn't it? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): If you was my student, I'd be telling you off now, but I'll let you off because you're my nana. Why? For coasting. Because they don't really like you doing that in the test.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 108,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): If you was my student, I'd be telling you off now, but I'll let you off because you're my nana. Why? For coasting. Because they don't really like you doing that in the test.",
+            "target": "Target (grandmother): Oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 109,
+            "context": "Speaker A (grandson): If you was my student, I'd be telling you off now, but I'll let you off because you're my nana. Why? For coasting. Because they don't really like you doing that in the test. | Speaker B (grandmother): Oh, okay.",
+            "target": "Target (grandson): It's not something that will fail you unless you keep on doing it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 110,
+            "context": "Speaker A (grandmother): Oh, okay. | Speaker B (grandson): It's not something that will fail you unless you keep on doing it.",
+            "target": "Target (grandmother): Okay, I'll leave it there then.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 111,
+            "context": "Speaker A (grandson): It's not something that will fail you unless you keep on doing it. | Speaker B (grandmother): Okay, I'll leave it there then.",
+            "target": "Target (grandson): No, you do you, it's fine. I've had someone fail for that, Nana, just because they kept on doing it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 112,
+            "context": "Speaker A (grandmother): Okay, I'll leave it there then. | Speaker B (grandson): No, you do you, it's fine. I've had someone fail for that, Nana, just because they kept on doing it.",
+            "target": "Target (grandmother): Really?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 113,
+            "context": "Speaker A (grandson): No, you do you, it's fine. I've had someone fail for that, Nana, just because they kept on doing it. | Speaker B (grandmother): Really?",
+            "target": "Target (grandson): It was only a little minor fault. Because do you know how many minors you're allowed in your test? How many minors? Like, like a small mistake, like 15 little mistakes.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 114,
+            "context": "Speaker A (grandmother): Really? | Speaker B (grandson): It was only a little minor fault. Because do you know how many minors you're allowed in your test? How many minors? Like, like a small mistake, like 15 little mistakes.",
+            "target": "Target (grandmother): Oh really?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 115,
+            "context": "Speaker A (grandson): It was only a little minor fault. Because do you know how many minors you're allowed in your test? How many minors? Like, like a small mistake, like 15 little mistakes. | Speaker B (grandmother): Oh really?",
+            "target": "Target (grandson): So you might stall, you might do a bit of coasting, you might forget a little mirror check. Yeah, you know, you might go a bit too slow, a bit too fast, like they're little minors.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 116,
+            "context": "Speaker A (grandmother): Oh really? | Speaker B (grandson): So you might stall, you might do a bit of coasting, you might forget a little mirror check. Yeah, you know, you might go a bit too slow, a bit too fast, like they're little minors.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 117,
+            "context": "Speaker A (grandson): So you might stall, you might do a bit of coasting, you might forget a little mirror check. Yeah, you know, you might go a bit too slow, a bit too fast, like they're little minors. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): But one dangerous fault is a fail. So the guy in this test, he'd done this over and over and over, and his little mind is— yeah, their mind is stacked up, and they failed him for it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 118,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): But one dangerous fault is a fail. So the guy in this test, he'd done this over and over and over, and his little mind is— yeah, their mind is stacked up, and they failed him for it.",
+            "target": "Target (grandmother): Oh my God.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 119,
+            "context": "Speaker A (grandson): But one dangerous fault is a fail. So the guy in this test, he'd done this over and over and over, and his little mind is— yeah, their mind is stacked up, and they failed him for it. | Speaker B (grandmother): Oh my God.",
+            "target": "Target (grandson): So they don't really like you coasting in the test, but we're not in a test today. Yeah, you can do what you want, you know.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 120,
+            "context": "Speaker A (grandmother): Oh my God. | Speaker B (grandson): So they don't really like you coasting in the test, but we're not in a test today. Yeah, you can do what you want, you know.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 121,
+            "context": "Speaker A (grandson): So they don't really like you coasting in the test, but we're not in a test today. Yeah, you can do what you want, you know. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What do you want to do, a forward or reverse bay park?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 122,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What do you want to do, a forward or reverse bay park?",
+            "target": "Target (grandmother): Uh, forward.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 123,
+            "context": "Speaker A (grandson): What do you want to do, a forward or reverse bay park? | Speaker B (grandmother): Uh, forward.",
+            "target": "Target (grandson): Go for it, anywhere you like.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 124,
+            "context": "Speaker A (grandmother): Uh, forward. | Speaker B (grandson): Go for it, anywhere you like.",
+            "target": "Target (grandmother): Wow, how was it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 125,
+            "context": "Speaker A (grandson): Go for it, anywhere you like. | Speaker B (grandmother): Wow, how was it?",
+            "target": "Target (grandson): That was brilliant. I couldn't have faulted that. All right, so then there— have you ever had a reverse camera?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 126,
+            "context": "Speaker A (grandmother): Wow, how was it? | Speaker B (grandson): That was brilliant. I couldn't have faulted that. All right, so then there— have you ever had a reverse camera?",
+            "target": "Target (grandmother): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 127,
+            "context": "Speaker A (grandson): That was brilliant. I couldn't have faulted that. All right, so then there— have you ever had a reverse camera? | Speaker B (grandmother): No.",
+            "target": "Target (grandson): So you're gonna press the stick down and then first gear.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 128,
+            "context": "Speaker A (grandmother): No. | Speaker B (grandson): So you're gonna press the stick down and then first gear.",
+            "target": "Target (grandmother): Same with mine.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 129,
+            "context": "Speaker A (grandson): So you're gonna press the stick down and then first gear. | Speaker B (grandmother): Same with mine.",
+            "target": "Target (grandson): Oh, nice. Okay, see it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 130,
+            "context": "Speaker A (grandmother): Same with mine. | Speaker B (grandson): Oh, nice. Okay, see it?",
+            "target": "Target (grandmother): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 131,
+            "context": "Speaker A (grandson): Oh, nice. Okay, see it? | Speaker B (grandmother): Oh yeah.",
+            "target": "Target (grandson): All right, so then check all your little blind spots as well. Look over your shoulders. Look. Yeah, that's it. That's how they want you to do it, okay? Now, who's got the priority with these guys? If they're trying to come around you, what would you do? Someone's trying to drive. Who do you think's got the priority if someone was coming?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 132,
+            "context": "Speaker A (grandmother): Oh yeah. | Speaker B (grandson): All right, so then check all your little blind spots as well. Look over your shoulders. Look. Yeah, that's it. That's how they want you to do it, okay? Now, who's got the priority with these guys? If they're trying to come around you, what would you do? Someone's trying to drive. Who do you think's got the priority if someone was coming?",
+            "target": "Target (grandmother): I have to stop, don't I?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 133,
+            "context": "Speaker A (grandson): All right, so then check all your little blind spots as well. Look over your shoulders. Look. Yeah, that's it. That's how they want you to do it, okay? Now, who's got the priority with these guys? If they're trying to come around you, what would you do? Someone's trying to drive. Who do you think's got the priority if someone was coming? | Speaker B (grandmother): I have to stop, don't I?",
+            "target": "Target (grandson): Yeah, you would have to, yeah. So keep an eye out. Seems right, doesn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 134,
+            "context": "Speaker A (grandmother): I have to stop, don't I? | Speaker B (grandson): Yeah, you would have to, yeah. So keep an eye out. Seems right, doesn't it?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 135,
+            "context": "Speaker A (grandson): Yeah, you would have to, yeah. So keep an eye out. Seems right, doesn't it? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Okay, turn anywhere you like, really. We can get out both sides. You've got your camera to help you as well, look.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 136,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Okay, turn anywhere you like, really. We can get out both sides. You've got your camera to help you as well, look.",
+            "target": "Target (grandmother): Well, I'm not used to them, am I?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 137,
+            "context": "Speaker A (grandson): Okay, turn anywhere you like, really. We can get out both sides. You've got your camera to help you as well, look. | Speaker B (grandmother): Well, I'm not used to them, am I?",
+            "target": "Target (grandson): Yeah, this is nice. And then round to the right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 138,
+            "context": "Speaker A (grandmother): Well, I'm not used to them, am I? | Speaker B (grandson): Yeah, this is nice. And then round to the right.",
+            "target": "Target (grandson): Yeah, okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 139,
+            "context": "Speaker A (grandson): Yeah, this is nice. And then round to the right. | Speaker B (grandson): Yeah, okay.",
+            "target": "Target (grandmother): Yeah, I don't have to signal here, do I?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 140,
+            "context": "Speaker A (grandson): Yeah, okay. | Speaker B (grandmother): Yeah, I don't have to signal here, do I?",
+            "target": "Target (grandson): No, you don't. Why don't you have to signal here? We're gonna go left now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 141,
+            "context": "Speaker A (grandmother): Yeah, I don't have to signal here, do I? | Speaker B (grandson): No, you don't. Why don't you have to signal here? We're gonna go left now.",
+            "target": "Target (grandmother): Yeah, I'm gonna go left.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 142,
+            "context": "Speaker A (grandson): No, you don't. Why don't you have to signal here? We're gonna go left now. | Speaker B (grandmother): Yeah, I'm gonna go left.",
+            "target": "Target (grandson): Yeah, why don't we have to signal there?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 143,
+            "context": "Speaker A (grandmother): Yeah, I'm gonna go left. | Speaker B (grandson): Yeah, why don't we have to signal there?",
+            "target": "Target (grandmother): Because there's one way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 144,
+            "context": "Speaker A (grandson): Yeah, why don't we have to signal there? | Speaker B (grandmother): Because there's one way.",
+            "target": "Target (grandson): Exactly. And years ago you you had to do left and right with your hand as well.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 145,
+            "context": "Speaker A (grandmother): Because there's one way. | Speaker B (grandson): Exactly. And years ago you you had to do left and right with your hand as well.",
+            "target": "Target (grandmother): Arm signals?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 146,
+            "context": "Speaker A (grandson): Exactly. And years ago you you had to do left and right with your hand as well. | Speaker B (grandmother): Arm signals?",
+            "target": "Target (grandmother): Yeah, because if you didn't, you didn't pass your test.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 147,
+            "context": "Speaker A (grandmother): Arm signals? | Speaker B (grandmother): Yeah, because if you didn't, you didn't pass your test.",
+            "target": "Target (grandson): Why did they do arm signals? Didn't they have lights on the cars?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 148,
+            "context": "Speaker A (grandmother): Yeah, because if you didn't, you didn't pass your test. | Speaker B (grandson): Why did they do arm signals? Didn't they have lights on the cars?",
+            "target": "Target (grandmother): Or— Yeah, they did. Just to reinforce.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 149,
+            "context": "Speaker A (grandson): Why did they do arm signals? Didn't they have lights on the cars? | Speaker B (grandmother): Or— Yeah, they did. Just to reinforce.",
+            "target": "Target (grandson): So, Nana, how would you do a left signal with your arm?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 150,
+            "context": "Speaker A (grandmother): Or— Yeah, they did. Just to reinforce. | Speaker B (grandson): So, Nana, how would you do a left signal with your arm?",
+            "target": "Target (grandmother): Just go like that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 151,
+            "context": "Speaker A (grandson): So, Nana, how would you do a left signal with your arm? | Speaker B (grandmother): Just go like that.",
+            "target": "Target (grandson): How are they going to see that behind?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 152,
+            "context": "Speaker A (grandmother): Just go like that. | Speaker B (grandson): How are they going to see that behind?",
+            "target": "Target (grandmother): Um, you go, uh, with this hand and you go—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 153,
+            "context": "Speaker A (grandson): How are they going to see that behind? | Speaker B (grandmother): Um, you go, uh, with this hand and you go—",
+            "target": "Target (grandson): Yeah, like that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 154,
+            "context": "Speaker A (grandmother): Um, you go, uh, with this hand and you go— | Speaker B (grandson): Yeah, like that.",
+            "target": "Target (grandmother): Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 155,
+            "context": "Speaker A (grandson): Yeah, like that. | Speaker B (grandmother): Yeah, yeah.",
+            "target": "Target (grandson): Well done. They are saying theory. Yeah. What's your arm signal if you was going to be slowing down? Do you remember that one?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 156,
+            "context": "Speaker A (grandmother): Yeah, yeah. | Speaker B (grandson): Well done. They are saying theory. Yeah. What's your arm signal if you was going to be slowing down? Do you remember that one?",
+            "target": "Target (grandmother): This, like this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 157,
+            "context": "Speaker A (grandson): Well done. They are saying theory. Yeah. What's your arm signal if you was going to be slowing down? Do you remember that one? | Speaker B (grandmother): This, like this.",
+            "target": "Target (grandson): Yeah, shunning it. And then right, just sticking your arm out, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 158,
+            "context": "Speaker A (grandmother): This, like this. | Speaker B (grandson): Yeah, shunning it. And then right, just sticking your arm out, isn't it?",
+            "target": "Target (grandson): Yep.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 159,
+            "context": "Speaker A (grandson): Yeah, shunning it. And then right, just sticking your arm out, isn't it? | Speaker B (grandson): Yep.",
+            "target": "Target (grandson): All right, then we're going to go to the carriageway soon. How are you feeling? Just thinking about it? Hmm, it's the thought that's worse than it is.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 160,
+            "context": "Speaker A (grandson): Yep. | Speaker B (grandson): All right, then we're going to go to the carriageway soon. How are you feeling? Just thinking about it? Hmm, it's the thought that's worse than it is.",
+            "target": "Target (grandmother): Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 161,
+            "context": "Speaker A (grandson): All right, then we're going to go to the carriageway soon. How are you feeling? Just thinking about it? Hmm, it's the thought that's worse than it is. | Speaker B (grandmother): Yeah, yeah.",
+            "target": "Target (grandson): But you know, once we're on it, we'll be— we'll be right. I'll demonstrate to you anyway.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 162,
+            "context": "Speaker A (grandmother): Yeah, yeah. | Speaker B (grandson): But you know, once we're on it, we'll be— we'll be right. I'll demonstrate to you anyway.",
+            "target": "Target (grandson): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 163,
+            "context": "Speaker A (grandson): But you know, once we're on it, we'll be— we'll be right. I'll demonstrate to you anyway. | Speaker B (grandson): Okay.",
+            "target": "Target (grandson): But if I met— if I just met you today for the first time and you got in my car, I'd say, \"Nene, you're ready for your driving test.\" Oh, really? Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 164,
+            "context": "Speaker A (grandson): Okay. | Speaker B (grandson): But if I met— if I just met you today for the first time and you got in my car, I'd say, \"Nene, you're ready for your driving test.\" Oh, really? Yeah.",
+            "target": "Target (grandmother): But I didn't pass it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 165,
+            "context": "Speaker A (grandson): But if I met— if I just met you today for the first time and you got in my car, I'd say, \"Nene, you're ready for your driving test.\" Oh, really? Yeah. | Speaker B (grandmother): But I didn't pass it.",
+            "target": "Target (grandson): You haven't passed my mock test.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 166,
+            "context": "Speaker A (grandmother): But I didn't pass it. | Speaker B (grandson): You haven't passed my mock test.",
+            "target": "Target (grandmother): Oh dear.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 167,
+            "context": "Speaker A (grandson): You haven't passed my mock test. | Speaker B (grandmother): Oh dear.",
+            "target": "Target (grandson): I'm strict on my mock tests.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 168,
+            "context": "Speaker A (grandmother): Oh dear. | Speaker B (grandson): I'm strict on my mock tests.",
+            "target": "Target (grandmother): Well, that's how it should be, innit?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 169,
+            "context": "Speaker A (grandson): I'm strict on my mock tests. | Speaker B (grandmother): Well, that's how it should be, innit?",
+            "target": "Target (grandson): Yeah, exactly. So when you go for your test, it feels easier too.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 170,
+            "context": "Speaker A (grandmother): Well, that's how it should be, innit? | Speaker B (grandson): Yeah, exactly. So when you go for your test, it feels easier too.",
+            "target": "Target (grandmother): Yeah. You know, I've got you now. I might feel confident.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 171,
+            "context": "Speaker A (grandson): Yeah, exactly. So when you go for your test, it feels easier too. | Speaker B (grandmother): Yeah. You know, I've got you now. I might feel confident.",
+            "target": "Target (grandson): Yeah, no, no, look, now that you're coming here, it's all muscle memory. It all comes back to you, doesn't it? Yeah, I know, because you love going up Bluewood, don't you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 172,
+            "context": "Speaker A (grandmother): Yeah. You know, I've got you now. I might feel confident. | Speaker B (grandson): Yeah, no, no, look, now that you're coming here, it's all muscle memory. It all comes back to you, doesn't it? Yeah, I know, because you love going up Bluewood, don't you?",
+            "target": "Target (grandmother): I used to love it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 173,
+            "context": "Speaker A (grandson): Yeah, no, no, look, now that you're coming here, it's all muscle memory. It all comes back to you, doesn't it? Yeah, I know, because you love going up Bluewood, don't you? | Speaker B (grandmother): I used to love it.",
+            "target": "Target (grandson): Yeah, so no, no, watch these white lines. Can you see the solid white lines?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 174,
+            "context": "Speaker A (grandmother): I used to love it. | Speaker B (grandson): Yeah, so no, no, watch these white lines. Can you see the solid white lines?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 175,
+            "context": "Speaker A (grandson): Yeah, so no, no, watch these white lines. Can you see the solid white lines? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): You can't cross them. So just speed up for now and just keep in this lane for a little bit, and then when you think it's safe— no rush, we've got, we've got a few miles to the exit anyway— but when you think it's safe, I want you to change over to that middle lane. Yeah. That's probably one of the scariest things on these carriageways, doing that, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 176,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): You can't cross them. So just speed up for now and just keep in this lane for a little bit, and then when you think it's safe— no rush, we've got, we've got a few miles to the exit anyway— but when you think it's safe, I want you to change over to that middle lane. Yeah. That's probably one of the scariest things on these carriageways, doing that, isn't it?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 177,
+            "context": "Speaker A (grandson): You can't cross them. So just speed up for now and just keep in this lane for a little bit, and then when you think it's safe— no rush, we've got, we've got a few miles to the exit anyway— but when you think it's safe, I want you to change over to that middle lane. Yeah. That's probably one of the scariest things on these carriageways, doing that, isn't it? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): And you checked your blind spot?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 178,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): And you checked your blind spot?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 179,
+            "context": "Speaker A (grandson): And you checked your blind spot? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What is the blind spot in there? What actually is it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 180,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What is the blind spot in there? What actually is it?",
+            "target": "Target (grandmother): I don't know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 181,
+            "context": "Speaker A (grandson): What is the blind spot in there? What actually is it? | Speaker B (grandmother): I don't know.",
+            "target": "Target (grandson): It's the area that your mirror can't see.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 182,
+            "context": "Speaker A (grandmother): I don't know. | Speaker B (grandson): It's the area that your mirror can't see.",
+            "target": "Target (grandmother): Oh really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 183,
+            "context": "Speaker A (grandson): It's the area that your mirror can't see. | Speaker B (grandmother): Oh really?",
+            "target": "Target (grandson): So that's why you checked your shoulder, didn't you? Because there's spots in your mirrors. And behind these pillars, these are blind spots.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 184,
+            "context": "Speaker A (grandmother): Oh really? | Speaker B (grandson): So that's why you checked your shoulder, didn't you? Because there's spots in your mirrors. And behind these pillars, these are blind spots.",
+            "target": "Target (grandmother): Oh, okay. Yeah, that's like the over overtaking the overtaking lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 185,
+            "context": "Speaker A (grandson): So that's why you checked your shoulder, didn't you? Because there's spots in your mirrors. And behind these pillars, these are blind spots. | Speaker B (grandmother): Oh, okay. Yeah, that's like the over overtaking the overtaking lane.",
+            "target": "Target (grandson): All right, get your gear up as well, more economical. You're in 4 now. No, so go to 5. Look at it, top right. Yeah, that's it. And it tells you what gear you're in. See, 5 now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 186,
+            "context": "Speaker A (grandmother): Oh, okay. Yeah, that's like the over overtaking the overtaking lane. | Speaker B (grandson): All right, get your gear up as well, more economical. You're in 4 now. No, so go to 5. Look at it, top right. Yeah, that's it. And it tells you what gear you're in. See, 5 now.",
+            "target": "Target (grandmother): All right. Yeah, no, I didn't know which way to put the 5.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 187,
+            "context": "Speaker A (grandson): All right, get your gear up as well, more economical. You're in 4 now. No, so go to 5. Look at it, top right. Yeah, that's it. And it tells you what gear you're in. See, 5 now. | Speaker B (grandmother): All right. Yeah, no, I didn't know which way to put the 5.",
+            "target": "Target (grandson): Same as your car.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 188,
+            "context": "Speaker A (grandmother): All right. Yeah, no, I didn't know which way to put the 5. | Speaker B (grandson): Same as your car.",
+            "target": "Target (grandmother): Yeah, there's cameras here as well.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 189,
+            "context": "Speaker A (grandson): Same as your car. | Speaker B (grandmother): Yeah, there's cameras here as well.",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 190,
+            "context": "Speaker A (grandmother): Yeah, there's cameras here as well. | Speaker B (grandson): Yeah.",
+            "target": "Target (grandmother): Yeah, how'd you feel, Nana?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 191,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandmother): Yeah, how'd you feel, Nana?",
+            "target": "Target (grandson): Look It's been years since you've been on there, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 192,
+            "context": "Speaker A (grandmother): Yeah, how'd you feel, Nana? | Speaker B (grandson): Look It's been years since you've been on there, isn't it?",
+            "target": "Target (grandmother): I know, I know. I'm all right driving here, you know, but when I get to come off the motorway— changing lane, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 193,
+            "context": "Speaker A (grandson): Look It's been years since you've been on there, isn't it? | Speaker B (grandmother): I know, I know. I'm all right driving here, you know, but when I get to come off the motorway— changing lane, yeah.",
+            "target": "Target (grandson): What is it that scares you coming off? Uh, if it's changing lane or slowing down? It's tricky. Just make sure you do it in good time. Yeah, don't leave it to the last second. Yeah, and remember these solid lines in there, look, so you can't change that lane when that's solid. Yeah, yeah, see when them lines are broken? Yeah, that's when you can change. Yes. And then what lane should we be in generally now if there's free?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 194,
+            "context": "Speaker A (grandmother): I know, I know. I'm all right driving here, you know, but when I get to come off the motorway— changing lane, yeah. | Speaker B (grandson): What is it that scares you coming off? Uh, if it's changing lane or slowing down? It's tricky. Just make sure you do it in good time. Yeah, don't leave it to the last second. Yeah, and remember these solid lines in there, look, so you can't change that lane when that's solid. Yeah, yeah, see when them lines are broken? Yeah, that's when you can change. Yes. And then what lane should we be in generally now if there's free?",
+            "target": "Target (grandmother): Middle. No, no, that one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 195,
+            "context": "Speaker A (grandson): What is it that scares you coming off? Uh, if it's changing lane or slowing down? It's tricky. Just make sure you do it in good time. Yeah, don't leave it to the last second. Yeah, and remember these solid lines in there, look, so you can't change that lane when that's solid. Yeah, yeah, see when them lines are broken? Yeah, that's when you can change. Yes. And then what lane should we be in generally now if there's free? | Speaker B (grandmother): Middle. No, no, that one.",
+            "target": "Target (grandson): Not the middle lane. What'd you call that lane?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 196,
+            "context": "Speaker A (grandmother): Middle. No, no, that one. | Speaker B (grandson): Not the middle lane. What'd you call that lane?",
+            "target": "Target (grandmother): That's the normal driving lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 197,
+            "context": "Speaker A (grandson): Not the middle lane. What'd you call that lane? | Speaker B (grandmother): That's the normal driving lane.",
+            "target": "Target (grandson): Oh, is it? No, no, no. Look, if we're overtaking, yeah, we can kind of progress in this lane. Yeah. So look, with this big lorry here, yeah, look, we can keep to 50. No, we're overtaking, so at the moment this would be fine in your test as well.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 198,
+            "context": "Speaker A (grandmother): That's the normal driving lane. | Speaker B (grandson): Oh, is it? No, no, no. Look, if we're overtaking, yeah, we can kind of progress in this lane. Yeah. So look, with this big lorry here, yeah, look, we can keep to 50. No, we're overtaking, so at the moment this would be fine in your test as well.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 199,
+            "context": "Speaker A (grandson): Oh, is it? No, no, no. Look, if we're overtaking, yeah, we can kind of progress in this lane. Yeah. So look, with this big lorry here, yeah, look, we can keep to 50. No, we're overtaking, so at the moment this would be fine in your test as well. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): But look, we're a little bit over the speed limit. Yeah, be careful.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 200,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): But look, we're a little bit over the speed limit. Yeah, be careful.",
+            "target": "Target (grandson): 53.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 201,
+            "context": "Speaker A (grandson): But look, we're a little bit over the speed limit. Yeah, be careful. | Speaker B (grandson): 53.",
+            "target": "Target (grandmother): What's the limit on here? It's 50 at the moment. Oh really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 202,
+            "context": "Speaker A (grandson): 53. | Speaker B (grandmother): What's the limit on here? It's 50 at the moment. Oh really?",
+            "target": "Target (grandson): Yeah, now the speed is going to change any second here. Yeah, so just keep in this lane for a sec because we're going to keep progressing. So then look, there's a white and black stripe there. Can you see that white with the black stripe? What does that mean?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 203,
+            "context": "Speaker A (grandmother): What's the limit on here? It's 50 at the moment. Oh really? | Speaker B (grandson): Yeah, now the speed is going to change any second here. Yeah, so just keep in this lane for a sec because we're going to keep progressing. So then look, there's a white and black stripe there. Can you see that white with the black stripe? What does that mean?",
+            "target": "Target (grandmother): I don't know.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 204,
+            "context": "Speaker A (grandson): Yeah, now the speed is going to change any second here. Yeah, so just keep in this lane for a sec because we're going to keep progressing. So then look, there's a white and black stripe there. Can you see that white with the black stripe? What does that mean? | Speaker B (grandmother): I don't know.",
+            "target": "Target (grandson): It means national speed limit. Oh, so what would the national speed limit be on this carriageway? Maximum of what?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 205,
+            "context": "Speaker A (grandmother): I don't know. | Speaker B (grandson): It means national speed limit. Oh, so what would the national speed limit be on this carriageway? Maximum of what?",
+            "target": "Target (grandmother): Maximum, it should be 70.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 206,
+            "context": "Speaker A (grandson): It means national speed limit. Oh, so what would the national speed limit be on this carriageway? Maximum of what? | Speaker B (grandmother): Maximum, it should be 70.",
+            "target": "Target (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 207,
+            "context": "Speaker A (grandmother): Maximum, it should be 70. | Speaker B (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 208,
+            "context": "Speaker A (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 209,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 210,
+            "context": "Speaker A (grandson): 70 now. Yeah, so let's speed up a little bit and then maybe should we overtake that lorry? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Yeah, so let's get in front of that lorry. Just keep an eye on your speed. As long as you don't go over the 70 mark, you're good. Because then loads of people, they middle lane hog. They just stay in the middle lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 211,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Yeah, so let's get in front of that lorry. Just keep an eye on your speed. As long as you don't go over the 70 mark, you're good. Because then loads of people, they middle lane hog. They just stay in the middle lane.",
+            "target": "Target (grandmother): No, no, I don.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 212,
+            "context": "Speaker A (grandson): Yeah, so let's get in front of that lorry. Just keep an eye on your speed. As long as you don't go over the 70 mark, you're good. Because then loads of people, they middle lane hog. They just stay in the middle lane. | Speaker B (grandmother): No, no, I don.",
+            "target": "Target (grandson): Yeah, so these are the lanes for overtaking.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 213,
+            "context": "Speaker A (grandmother): No, no, I don. | Speaker B (grandson): Yeah, so these are the lanes for overtaking.",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 214,
+            "context": "Speaker A (grandson): Yeah, so these are the lanes for overtaking. | Speaker B (grandson): Yeah.",
+            "target": "Target (grandson): All right, so what we'll do then, we'll get past that lorry, and just when it's safe, no rush, we'll just get back in gently. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 215,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandson): All right, so what we'll do then, we'll get past that lorry, and just when it's safe, no rush, we'll just get back in gently. Yeah.",
+            "target": "Target (grandmother): We shouldn't get in this lane because of that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 216,
+            "context": "Speaker A (grandson): All right, so what we'll do then, we'll get past that lorry, and just when it's safe, no rush, we'll just get back in gently. Yeah. | Speaker B (grandmother): We shouldn't get in this lane because of that.",
+            "target": "Target (grandson): I mean, look, it's pretty cool now after that. It's pretty clear. Yeah, normally if we're in this lane and people are trying to get in there, we just got to be nice to them, you know. Sometimes speed up and they can get behind. Sometimes we can slow down to let them in.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 217,
+            "context": "Speaker A (grandmother): We shouldn't get in this lane because of that. | Speaker B (grandson): I mean, look, it's pretty cool now after that. It's pretty clear. Yeah, normally if we're in this lane and people are trying to get in there, we just got to be nice to them, you know. Sometimes speed up and they can get behind. Sometimes we can slow down to let them in.",
+            "target": "Target (grandmother): Sometimes we— if it's clear, you go.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 218,
+            "context": "Speaker A (grandson): I mean, look, it's pretty cool now after that. It's pretty clear. Yeah, normally if we're in this lane and people are trying to get in there, we just got to be nice to them, you know. Sometimes speed up and they can get behind. Sometimes we can slow down to let them in. | Speaker B (grandmother): Sometimes we— if it's clear, you go.",
+            "target": "Target (grandson): Exactly. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 219,
+            "context": "Speaker A (grandmother): Sometimes we— if it's clear, you go. | Speaker B (grandson): Exactly. Yeah.",
+            "target": "Target (grandson): So no, no, if you're coming down here and you're feeling a bit nervous and you're coming to Bluewater, just, just stay in this lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 220,
+            "context": "Speaker A (grandson): Exactly. Yeah. | Speaker B (grandson): So no, no, if you're coming down here and you're feeling a bit nervous and you're coming to Bluewater, just, just stay in this lane.",
+            "target": "Target (grandmother): Yeah, you know, you don't want to be in the overtaking lanes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 221,
+            "context": "Speaker A (grandson): So no, no, if you're coming down here and you're feeling a bit nervous and you're coming to Bluewater, just, just stay in this lane. | Speaker B (grandmother): Yeah, you know, you don't want to be in the overtaking lanes.",
+            "target": "Target (grandson): Because look, it's chilly in this lane, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 222,
+            "context": "Speaker A (grandmother): Yeah, you know, you don't want to be in the overtaking lanes. | Speaker B (grandson): Because look, it's chilly in this lane, isn't it?",
+            "target": "Target (grandmother): Yeah. And they're not really even hitting 70 when it's like this. Exactly. I don't speed anyway. I don't like speeding.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 223,
+            "context": "Speaker A (grandson): Because look, it's chilly in this lane, isn't it? | Speaker B (grandmother): Yeah. And they're not really even hitting 70 when it's like this. Exactly. I don't speed anyway. I don't like speeding.",
+            "target": "Target (grandson): Yeah, good. That's when, that's when stuff gets dangerous, when people going too fast normally, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 224,
+            "context": "Speaker A (grandmother): Yeah. And they're not really even hitting 70 when it's like this. Exactly. I don't speed anyway. I don't like speeding. | Speaker B (grandson): Yeah, good. That's when, that's when stuff gets dangerous, when people going too fast normally, isn't it?",
+            "target": "Target (grandmother): Yeah. I used to drive to Midlands, you know. Yeah, what's that, 3 hours away, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 225,
+            "context": "Speaker A (grandson): Yeah, good. That's when, that's when stuff gets dangerous, when people going too fast normally, isn't it? | Speaker B (grandmother): Yeah. I used to drive to Midlands, you know. Yeah, what's that, 3 hours away, isn't it?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 226,
+            "context": "Speaker A (grandmother): Yeah. I used to drive to Midlands, you know. Yeah, what's that, 3 hours away, isn't it? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandmother): Yeah. And now probably I can do it, but—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 227,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandmother): Yeah. And now probably I can do it, but—",
+            "target": "Target (grandson): No, no, you feel fine. I'm sitting in the car, I feel, I feel safe. I feel like you're a confident driver.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 228,
+            "context": "Speaker A (grandmother): Yeah. And now probably I can do it, but— | Speaker B (grandson): No, no, you feel fine. I'm sitting in the car, I feel, I feel safe. I feel like you're a confident driver.",
+            "target": "Target (grandmother): Oh really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 229,
+            "context": "Speaker A (grandson): No, no, you feel fine. I'm sitting in the car, I feel, I feel safe. I feel like you're a confident driver. | Speaker B (grandmother): Oh really?",
+            "target": "Target (grandson): It's just, it's just the thought of it, getting on these carriageways, because I get people coming to me, they call me up like from online or whatever, but like, they've actually got licenses and they're scared to come on the carriageways. People book motorway lessons.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 230,
+            "context": "Speaker A (grandmother): Oh really? | Speaker B (grandson): It's just, it's just the thought of it, getting on these carriageways, because I get people coming to me, they call me up like from online or whatever, but like, they've actually got licenses and they're scared to come on the carriageways. People book motorway lessons.",
+            "target": "Target (grandmother): I know. Really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 231,
+            "context": "Speaker A (grandson): It's just, it's just the thought of it, getting on these carriageways, because I get people coming to me, they call me up like from online or whatever, but like, they've actually got licenses and they're scared to come on the carriageways. People book motorway lessons. | Speaker B (grandmother): I know. Really?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 232,
+            "context": "Speaker A (grandmother): I know. Really? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandson): So your payment for this lesson today, you're gonna cook me some banging Turkish food.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 233,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandson): So your payment for this lesson today, you're gonna cook me some banging Turkish food.",
+            "target": "Target (grandmother): I want to do bezel today with artichokes.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 234,
+            "context": "Speaker A (grandson): So your payment for this lesson today, you're gonna cook me some banging Turkish food. | Speaker B (grandmother): I want to do bezel today with artichokes.",
+            "target": "Target (grandson): Oh, lovely. Yeah, bezel is a peas dish, isn't it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 235,
+            "context": "Speaker A (grandmother): I want to do bezel today with artichokes. | Speaker B (grandson): Oh, lovely. Yeah, bezel is a peas dish, isn't it?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 236,
+            "context": "Speaker A (grandson): Oh, lovely. Yeah, bezel is a peas dish, isn't it? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Making my mouth already. I know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 237,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Making my mouth already. I know.",
+            "target": "Target (grandmother): Why?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 238,
+            "context": "Speaker A (grandson): Making my mouth already. I know. | Speaker B (grandmother): Why?",
+            "target": "Target (grandson): And then it's Nana is always the best cooks.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 239,
+            "context": "Speaker A (grandmother): Why? | Speaker B (grandson): And then it's Nana is always the best cooks.",
+            "target": "Target (grandmother): Oh, thank you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 240,
+            "context": "Speaker A (grandson): And then it's Nana is always the best cooks. | Speaker B (grandmother): Oh, thank you.",
+            "target": "Target (grandson): Why are they always the best cooks though? I guess it's the experience.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 241,
+            "context": "Speaker A (grandmother): Oh, thank you. | Speaker B (grandson): Why are they always the best cooks though? I guess it's the experience.",
+            "target": "Target (grandmother): Not always though, is it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 242,
+            "context": "Speaker A (grandson): Why are they always the best cooks though? I guess it's the experience. | Speaker B (grandmother): Not always though, is it?",
+            "target": "Target (grandson): No, you're right, it's not always. It's not always. My nana is the best cook.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 243,
+            "context": "Speaker A (grandmother): Not always though, is it? | Speaker B (grandson): No, you're right, it's not always. It's not always. My nana is the best cook.",
+            "target": "Target (grandmother): Thank God.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 244,
+            "context": "Speaker A (grandson): No, you're right, it's not always. It's not always. My nana is the best cook. | Speaker B (grandmother): Thank God.",
+            "target": "Target (grandson): All right, Nana, look, this one's coming off the Dartford Crossing.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 245,
+            "context": "Speaker A (grandmother): Thank God. | Speaker B (grandson): All right, Nana, look, this one's coming off the Dartford Crossing.",
+            "target": "Target (grandmother): Yeah, so we have to go to the other lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 246,
+            "context": "Speaker A (grandson): All right, Nana, look, this one's coming off the Dartford Crossing. | Speaker B (grandmother): Yeah, so we have to go to the other lane.",
+            "target": "Target (grandson): Well, we don. We don, because you know the road markings, Nana? Yeah. If we're in a slip road, meaning like it's going to exit— yeah, then see, see the markings next to you, they start going really small. They're really close together. And do you know what color them— do you know what color the little studs are? Look, they're white little studs now, aren't they? If they're green and close together, that means you're in the slip road.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 247,
+            "context": "Speaker A (grandmother): Yeah, so we have to go to the other lane. | Speaker B (grandson): Well, we don. We don, because you know the road markings, Nana? Yeah. If we're in a slip road, meaning like it's going to exit— yeah, then see, see the markings next to you, they start going really small. They're really close together. And do you know what color them— do you know what color the little studs are? Look, they're white little studs now, aren't they? If they're green and close together, that means you're in the slip road.",
+            "target": "Target (grandmother): Oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 248,
+            "context": "Speaker A (grandson): Well, we don. We don, because you know the road markings, Nana? Yeah. If we're in a slip road, meaning like it's going to exit— yeah, then see, see the markings next to you, they start going really small. They're really close together. And do you know what color them— do you know what color the little studs are? Look, they're white little studs now, aren't they? If they're green and close together, that means you're in the slip road. | Speaker B (grandmother): Oh, okay.",
+            "target": "Target (grandson): So at the moment, look, we're not in a slip road. And look, see the 3 stripes? The 3, 2, 1. Look, that's where the exits come in. But as you can see, look, I can go straight. We can go straight from this lane. So, Nana, you know that I was talking about them little markings really close and dotted? Yeah, look, here they are.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 249,
+            "context": "Speaker A (grandmother): Oh, okay. | Speaker B (grandson): So at the moment, look, we're not in a slip road. And look, see the 3 stripes? The 3, 2, 1. Look, that's where the exits come in. But as you can see, look, I can go straight. We can go straight from this lane. So, Nana, you know that I was talking about them little markings really close and dotted? Yeah, look, here they are.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 250,
+            "context": "Speaker A (grandson): So at the moment, look, we're not in a slip road. And look, see the 3 stripes? The 3, 2, 1. Look, that's where the exits come in. But as you can see, look, I can go straight. We can go straight from this lane. So, Nana, you know that I was talking about them little markings really close and dotted? Yeah, look, here they are. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): So look, if they're to your right, then you're in the slip road. But look, they're to our left now, so we're not in it. Yeah, so that's how we know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 251,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): So look, if they're to your right, then you're in the slip road. But look, they're to our left now, so we're not in it. Yeah, so that's how we know.",
+            "target": "Target (grandmother): Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 252,
+            "context": "Speaker A (grandson): So look, if they're to your right, then you're in the slip road. But look, they're to our left now, so we're not in it. Yeah, so that's how we know. | Speaker B (grandmother): Yeah, yeah.",
+            "target": "Target (grandson): Okay, look at the signs up there. Tell me when you can see the one for Bluewater.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 253,
+            "context": "Speaker A (grandmother): Yeah, yeah. | Speaker B (grandson): Okay, look at the signs up there. Tell me when you can see the one for Bluewater.",
+            "target": "Target (grandmother): Okay, nice.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 254,
+            "context": "Speaker A (grandson): Okay, look at the signs up there. Tell me when you can see the one for Bluewater. | Speaker B (grandmother): Okay, nice.",
+            "target": "Target (grandson): And the lines are broken, so we can cross it. Look on the floor— Bluewater.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 255,
+            "context": "Speaker A (grandmother): Okay, nice. | Speaker B (grandson): And the lines are broken, so we can cross it. Look on the floor— Bluewater.",
+            "target": "Target (grandmother): That's it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 256,
+            "context": "Speaker A (grandson): And the lines are broken, so we can cross it. Look on the floor— Bluewater. | Speaker B (grandmother): That's it.",
+            "target": "Target (grandson): So no, no, look, this is a great example of being in the slip road now. So look at the markings next to you. Can you see? Yeah, they're little green studs and they're really close together. See?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 257,
+            "context": "Speaker A (grandmother): That's it. | Speaker B (grandson): So no, no, look, this is a great example of being in the slip road now. So look at the markings next to you. Can you see? Yeah, they're little green studs and they're really close together. See?",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 258,
+            "context": "Speaker A (grandson): So no, no, look, this is a great example of being in the slip road now. So look at the markings next to you. Can you see? Yeah, they're little green studs and they're really close together. See? | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): So this is how you know you're in a slip road.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 259,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): So this is how you know you're in a slip road.",
+            "target": "Target (grandmother): Oh, okay. Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 260,
+            "context": "Speaker A (grandson): So this is how you know you're in a slip road. | Speaker B (grandmother): Oh, okay. Yeah, yeah.",
+            "target": "Target (grandson): Okay, look, this blue was there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 261,
+            "context": "Speaker A (grandmother): Oh, okay. Yeah, yeah. | Speaker B (grandson): Okay, look, this blue was there.",
+            "target": "Target (grandmother): Yeah. Have we got time to have a coffee in Marks?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 262,
+            "context": "Speaker A (grandson): Okay, look, this blue was there. | Speaker B (grandmother): Yeah. Have we got time to have a coffee in Marks?",
+            "target": "Target (grandson): I think we do. Yeah, we'll have a quick coffee. All right, you can— you know how to get to Marks, don't you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 263,
+            "context": "Speaker A (grandmother): Yeah. Have we got time to have a coffee in Marks? | Speaker B (grandson): I think we do. Yeah, we'll have a quick coffee. All right, you can— you know how to get to Marks, don't you?",
+            "target": "Target (grandmother): Yeah. All right, get us into Marks Spencer's then. Have you got your badge on you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 264,
+            "context": "Speaker A (grandson): I think we do. Yeah, we'll have a quick coffee. All right, you can— you know how to get to Marks, don't you? | Speaker B (grandmother): Yeah. All right, get us into Marks Spencer's then. Have you got your badge on you?",
+            "target": "Target (grandmother): Yeah. Um, what was gonna say? They changed the roads as well down here now, haven't they?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 265,
+            "context": "Speaker A (grandmother): Yeah. All right, get us into Marks Spencer's then. Have you got your badge on you? | Speaker B (grandmother): Yeah. Um, what was gonna say? They changed the roads as well down here now, haven't they?",
+            "target": "Target (grandson): Yeah, it has changed a little bit actually. They put a few new roundabouts in. I don't know if you noticed, my car actually keeps you off of the lines as well. If you notice, the wheels turns a little bit for you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 266,
+            "context": "Speaker A (grandmother): Yeah. Um, what was gonna say? They changed the roads as well down here now, haven't they? | Speaker B (grandson): Yeah, it has changed a little bit actually. They put a few new roundabouts in. I don't know if you noticed, my car actually keeps you off of the lines as well. If you notice, the wheels turns a little bit for you.",
+            "target": "Target (grandmother): The wheel is moving by itself? No, thank you. I do not want a car that thinks it is smarter than I am. If I want to move the wheel, I will move it. If the car starts fighting me, we are going to have a problem.",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 267,
+            "context": "Speaker A (grandson): Yeah, it has changed a little bit actually. They put a few new roundabouts in. I don't know if you noticed, my car actually keeps you off of the lines as well. If you notice, the wheels turns a little bit for you. | Speaker B (grandmother): The wheel is moving by itself? No, thank you. I do not want a car that thinks it is smarter than I am. If I want to move the wheel, I will move it. If the car starts fighting me, we are going to have a problem.",
+            "target": "Target (grandson): It’s lane-assist, Nana! It stops people from drifting. I bet my viewers would love to see you fight the steering wheel. It’s like wrestling a ghost, isn't it?",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 268,
+            "context": "Speaker A (grandmother): The wheel is moving by itself? No, thank you. I do not want a car that thinks it is smarter than I am. If I want to move the wheel, I will move it. If the car starts fighting me, we are going to have a problem. | Speaker B (grandson): It’s lane-assist, Nana! It stops people from drifting. I bet my viewers would love to see you fight the steering wheel. It’s like wrestling a ghost, isn't it?",
+            "target": "Target (grandmother): It’s not 'lane-assist,' it’s a nuisance. I don't need a ghost to drive me to Marks and Spencer's. And stop talking about your 'viewers' like I’m a science experiment. I’m your grandmother, not a viral video.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 269,
+            "context": "Speaker A (grandson): It’s lane-assist, Nana! It stops people from drifting. I bet my viewers would love to see you fight the steering wheel. It’s like wrestling a ghost, isn't it? | Speaker B (grandmother): It’s not 'lane-assist,' it’s a nuisance. I don't need a ghost to drive me to Marks and Spencer's. And stop talking about your 'viewers' like I’m a science experiment. I’m your grandmother, not a viral video.",
+            "target": "Target (grandmother): Oh really?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 270,
+            "context": "Speaker A (grandmother): It’s not 'lane-assist,' it’s a nuisance. I don't need a ghost to drive me to Marks and Spencer's. And stop talking about your 'viewers' like I’m a science experiment. I’m your grandmother, not a viral video. | Speaker B (grandmother): Oh really?",
+            "target": "Target (grandson): I didn't. It's got like a lane assist. It assists you to keep in your lanes, which is quite a nice thing.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 271,
+            "context": "Speaker A (grandmother): Oh really? | Speaker B (grandson): I didn't. It's got like a lane assist. It assists you to keep in your lanes, which is quite a nice thing.",
+            "target": "Target (grandmother): Yeah, but when you look ahead, you can't go wrong, can you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 272,
+            "context": "Speaker A (grandson): I didn't. It's got like a lane assist. It assists you to keep in your lanes, which is quite a nice thing. | Speaker B (grandmother): Yeah, but when you look ahead, you can't go wrong, can you?",
+            "target": "Target (grandson): Yeah, that's why I teach my guys actually. Is that what you learn? Yeah, look as far as you can see and your steering follows.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 273,
+            "context": "Speaker A (grandmother): Yeah, but when you look ahead, you can't go wrong, can you? | Speaker B (grandson): Yeah, that's why I teach my guys actually. Is that what you learn? Yeah, look as far as you can see and your steering follows.",
+            "target": "Target (grandmother): Yeah, he always used to say to me, you know, 50 years ago, and I'll never forget it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 274,
+            "context": "Speaker A (grandson): Yeah, that's why I teach my guys actually. Is that what you learn? Yeah, look as far as you can see and your steering follows. | Speaker B (grandmother): Yeah, he always used to say to me, you know, 50 years ago, and I'll never forget it.",
+            "target": "Target (grandson): Wow, what was your driving instructor like then, eh?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 275,
+            "context": "Speaker A (grandmother): Yeah, he always used to say to me, you know, 50 years ago, and I'll never forget it. | Speaker B (grandson): Wow, what was your driving instructor like then, eh?",
+            "target": "Target (grandmother): He was very good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 276,
+            "context": "Speaker A (grandson): Wow, what was your driving instructor like then, eh? | Speaker B (grandmother): He was very good.",
+            "target": "Target (grandson): Was he?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 277,
+            "context": "Speaker A (grandmother): He was very good. | Speaker B (grandson): Was he?",
+            "target": "Target (grandmother): Very patient as well. He was a young man, really, you know.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 278,
+            "context": "Speaker A (grandson): Was he? | Speaker B (grandmother): Very patient as well. He was a young man, really, you know.",
+            "target": "Target (grandson): Yeah, his name—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 279,
+            "context": "Speaker A (grandmother): Very patient as well. He was a young man, really, you know. | Speaker B (grandson): Yeah, his name—",
+            "target": "Target (grandmother): I remember his name as well. Malcolm. Malcolm.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 280,
+            "context": "Speaker A (grandson): Yeah, his name— | Speaker B (grandmother): I remember his name as well. Malcolm. Malcolm.",
+            "target": "Target (grandson): Wow. Your examiner or your teacher? My teacher. Your teacher.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 281,
+            "context": "Speaker A (grandmother): I remember his name as well. Malcolm. Malcolm. | Speaker B (grandson): Wow. Your examiner or your teacher? My teacher. Your teacher.",
+            "target": "Target (grandmother): He was really good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 282,
+            "context": "Speaker A (grandson): Wow. Your examiner or your teacher? My teacher. Your teacher. | Speaker B (grandmother): He was really good.",
+            "target": "Target (grandson): You know what, it's something about It's about your driving school teachers, isn't it? Then they're like, yeah, people just have that loyalty to them. It's like a barber. Yeah, a guy will never change his barber. If that barber changes area, that guy's going to that area to get his haircut. Yeah, yeah. Because I get some people in there, they come to me from other students, and their instructor like shouts at them and screams at them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 283,
+            "context": "Speaker A (grandmother): He was really good. | Speaker B (grandson): You know what, it's something about It's about your driving school teachers, isn't it? Then they're like, yeah, people just have that loyalty to them. It's like a barber. Yeah, a guy will never change his barber. If that barber changes area, that guy's going to that area to get his haircut. Yeah, yeah. Because I get some people in there, they come to me from other students, and their instructor like shouts at them and screams at them.",
+            "target": "Target (grandmother): And you see, that's what is wrong, isn't it? That's why I didn't let them teach me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 284,
+            "context": "Speaker A (grandson): You know what, it's something about It's about your driving school teachers, isn't it? Then they're like, yeah, people just have that loyalty to them. It's like a barber. Yeah, a guy will never change his barber. If that barber changes area, that guy's going to that area to get his haircut. Yeah, yeah. Because I get some people in there, they come to me from other students, and their instructor like shouts at them and screams at them. | Speaker B (grandmother): And you see, that's what is wrong, isn't it? That's why I didn't let them teach me.",
+            "target": "Target (grandson): Yeah, you know, it's hard to teach. It's hard teaching family. Go on, have a go. We'll tell you what gear you're in. Look, you're in 4, but you'll be all right in 4.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 285,
+            "context": "Speaker A (grandmother): And you see, that's what is wrong, isn't it? That's why I didn't let them teach me. | Speaker B (grandson): Yeah, you know, it's hard to teach. It's hard teaching family. Go on, have a go. We'll tell you what gear you're in. Look, you're in 4, but you'll be all right in 4.",
+            "target": "Target (grandson): Yeah, yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 286,
+            "context": "Speaker A (grandson): Yeah, you know, it's hard to teach. It's hard teaching family. Go on, have a go. We'll tell you what gear you're in. Look, you're in 4, but you'll be all right in 4. | Speaker B (grandson): Yeah, yeah, yeah.",
+            "target": "Target (grandson): Like, I asked them then, I say to them, who's your teacher? Who's shouting at you? And like, they, they don't want to say.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 287,
+            "context": "Speaker A (grandson): Yeah, yeah, yeah. | Speaker B (grandson): Like, I asked them then, I say to them, who's your teacher? Who's shouting at you? And like, they, they don't want to say.",
+            "target": "Target (grandmother): Oh, no, it's all right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 288,
+            "context": "Speaker A (grandson): Like, I asked them then, I say to them, who's your teacher? Who's shouting at you? And like, they, they don't want to say. | Speaker B (grandmother): Oh, no, it's all right.",
+            "target": "Target (grandson): Yeah, but you know what, I mean, not that I'm going to name and shame them, I just— exactly, they just got this thing for him, you know. I don't know why I touched your wheel then, and he's— you're all right. I went into learner mode there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 289,
+            "context": "Speaker A (grandmother): Oh, no, it's all right. | Speaker B (grandson): Yeah, but you know what, I mean, not that I'm going to name and shame them, I just— exactly, they just got this thing for him, you know. I don't know why I touched your wheel then, and he's— you're all right. I went into learner mode there.",
+            "target": "Target (grandmother): Oh, did you touch You just went a little bit close to the curb, but he was all right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 290,
+            "context": "Speaker A (grandson): Yeah, but you know what, I mean, not that I'm going to name and shame them, I just— exactly, they just got this thing for him, you know. I don't know why I touched your wheel then, and he's— you're all right. I went into learner mode there. | Speaker B (grandmother): Oh, did you touch You just went a little bit close to the curb, but he was all right.",
+            "target": "Target (grandson): All right, come back to 1 then. Let's start fresh. Yeah, go to 1. That's it, because you're stopped there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 291,
+            "context": "Speaker A (grandmother): Oh, did you touch You just went a little bit close to the curb, but he was all right. | Speaker B (grandson): All right, come back to 1 then. Let's start fresh. Yeah, go to 1. That's it, because you're stopped there.",
+            "target": "Target (grandson): Yeah, check.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 292,
+            "context": "Speaker A (grandson): All right, come back to 1 then. Let's start fresh. Yeah, go to 1. That's it, because you're stopped there. | Speaker B (grandson): Yeah, check.",
+            "target": "Target (grandson): You checking your mirrors out as well? Nice. You checked your mirror as well.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 293,
+            "context": "Speaker A (grandson): Yeah, check. | Speaker B (grandson): You checking your mirrors out as well? Nice. You checked your mirror as well.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 294,
+            "context": "Speaker A (grandson): You checking your mirrors out as well? Nice. You checked your mirror as well. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What 2 mirrors do we check if we're going left? And then do you remember? 1. 2. Yeah, in pairs.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 295,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What 2 mirrors do we check if we're going left? And then do you remember? 1. 2. Yeah, in pairs.",
+            "target": "Target (grandmother): Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 296,
+            "context": "Speaker A (grandson): What 2 mirrors do we check if we're going left? And then do you remember? 1. 2. Yeah, in pairs. | Speaker B (grandmother): Yeah, yeah.",
+            "target": "Target (grandson): All right, go and find a little spot somewhere. Oh, well done. Oh, look at that, perfect. Go and pop her straight in. Yes, sure. Nice.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 297,
+            "context": "Speaker A (grandmother): Yeah, yeah. | Speaker B (grandson): All right, go and find a little spot somewhere. Oh, well done. Oh, look at that, perfect. Go and pop her straight in. Yes, sure. Nice.",
+            "target": "Target (grandmother): Was it— it was a good day.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 298,
+            "context": "Speaker A (grandson): All right, go and find a little spot somewhere. Oh, well done. Oh, look at that, perfect. Go and pop her straight in. Yes, sure. Nice. | Speaker B (grandmother): Was it— it was a good day.",
+            "target": "Target (grandson): Yeah, it did. You're right, then. They were in.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 299,
+            "context": "Speaker A (grandmother): Was it— it was a good day. | Speaker B (grandson): Yeah, it did. You're right, then. They were in.",
+            "target": "Target (grandmother): Oh yeah, but it was too close.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 300,
+            "context": "Speaker A (grandson): Yeah, it did. You're right, then. They were in. | Speaker B (grandmother): Oh yeah, but it was too close.",
+            "target": "Target (grandson): Oh yeah, that's fine.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 301,
+            "context": "Speaker A (grandmother): Oh yeah, but it was too close. | Speaker B (grandson): Oh yeah, that's fine.",
+            "target": "Target (grandson): Nice.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 302,
+            "context": "Speaker A (grandson): Oh yeah, that's fine. | Speaker B (grandson): Nice.",
+            "target": "Target (grandson): And then engine off. So when we're on a dual carriageway—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 303,
+            "context": "Speaker A (grandson): Nice. | Speaker B (grandson): And then engine off. So when we're on a dual carriageway—",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 304,
+            "context": "Speaker A (grandson): And then engine off. So when we're on a dual carriageway— | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): What's the best lane to stay in normally?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 305,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): What's the best lane to stay in normally?",
+            "target": "Target (grandmother): The inner lane.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 306,
+            "context": "Speaker A (grandson): What's the best lane to stay in normally? | Speaker B (grandmother): The inner lane.",
+            "target": "Target (grandson): Yeah, so they're the overtaking lanes. How do you know when you're on a slip road? Uh, from the markings. Yeah, markings. Yeah, yeah, nice and close to the green. Green, yeah. You don't cross the white lines. You Yeah, yeah, you can actually get in trouble for doing that as well for police, see?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 307,
+            "context": "Speaker A (grandmother): The inner lane. | Speaker B (grandson): Yeah, so they're the overtaking lanes. How do you know when you're on a slip road? Uh, from the markings. Yeah, markings. Yeah, yeah, nice and close to the green. Green, yeah. You don't cross the white lines. You Yeah, yeah, you can actually get in trouble for doing that as well for police, see?",
+            "target": "Target (grandmother): Yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 308,
+            "context": "Speaker A (grandson): Yeah, so they're the overtaking lanes. How do you know when you're on a slip road? Uh, from the markings. Yeah, markings. Yeah, yeah, nice and close to the green. Green, yeah. You don't cross the white lines. You Yeah, yeah, you can actually get in trouble for doing that as well for police, see? | Speaker B (grandmother): Yeah, yeah.",
+            "target": "Target (grandson): Um, and then there was that stop sign in the Morrisons. There was that stop sign that would have failed your test, and then that traffic light, I think.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 309,
+            "context": "Speaker A (grandmother): Yeah, yeah. | Speaker B (grandson): Um, and then there was that stop sign in the Morrisons. There was that stop sign that would have failed your test, and then that traffic light, I think.",
+            "target": "Target (grandmother): Really?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 310,
+            "context": "Speaker A (grandson): Um, and then there was that stop sign in the Morrisons. There was that stop sign that would have failed your test, and then that traffic light, I think. | Speaker B (grandmother): Really?",
+            "target": "Target (grandson): Yeah, but apart from that, your driving was really nice.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 311,
+            "context": "Speaker A (grandmother): Really? | Speaker B (grandson): Yeah, but apart from that, your driving was really nice.",
+            "target": "Target (grandmother): Oh, good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 312,
+            "context": "Speaker A (grandson): Yeah, but apart from that, your driving was really nice. | Speaker B (grandmother): Oh, good.",
+            "target": "Target (grandson): So do you reckon you'd drive to Bloor on your own yet?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 313,
+            "context": "Speaker A (grandmother): Oh, good. | Speaker B (grandson): So do you reckon you'd drive to Bloor on your own yet?",
+            "target": "Target (grandmother): Maybe.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 314,
+            "context": "Speaker A (grandson): So do you reckon you'd drive to Bloor on your own yet? | Speaker B (grandmother): Maybe.",
+            "target": "Target (grandson): I'll have to give you one more lesson, maybe.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 315,
+            "context": "Speaker A (grandmother): Maybe. | Speaker B (grandson): I'll have to give you one more lesson, maybe.",
+            "target": "Target (grandmother): Yeah, maybe. Yeah, I think so. I don't think I've got Brazilian as payment for later.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 316,
+            "context": "Speaker A (grandson): I'll have to give you one more lesson, maybe. | Speaker B (grandmother): Yeah, maybe. Yeah, I think so. I don't think I've got Brazilian as payment for later.",
+            "target": "Target (grandmother): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 317,
+            "context": "Speaker A (grandmother): Yeah, maybe. Yeah, I think so. I don't think I've got Brazilian as payment for later. | Speaker B (grandmother): Yeah.",
+            "target": "Target (grandson): Thanks for coming on, I really appreciate Thank you for giving me a lesson. No problem. All right, tell them to press like and subscribe.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 318,
+            "context": "Speaker A (grandmother): Yeah. | Speaker B (grandson): Thanks for coming on, I really appreciate Thank you for giving me a lesson. No problem. All right, tell them to press like and subscribe.",
+            "target": "Target (grandmother): Press like, like, and subscribe, and subscribe.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 319,
+            "context": "Speaker A (grandson): Thanks for coming on, I really appreciate Thank you for giving me a lesson. No problem. All right, tell them to press like and subscribe. | Speaker B (grandmother): Press like, like, and subscribe, and subscribe.",
+            "target": "Target (grandson): That'll do. Thanks, guys. Bye. Bye. Bye.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 35,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): match cuts good on an angle. see, like that.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): match cuts good on an angle. see, like that.",
+            "target": "Target (grandson): wow!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): match cuts good on an angle. see, like that. | Speaker B (grandson): wow!",
+            "target": "Target (grandfather): that's the difference. but don't cut your foot. like, don't cut into your foot or anything.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): wow! | Speaker B (grandfather): that's the difference. but don't cut your foot. like, don't cut into your foot or anything.",
+            "target": "Target (grandson): yeah!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): that's the difference. but don't cut your foot. like, don't cut into your foot or anything. | Speaker B (grandson): yeah!",
+            "target": "Target (grandfather): yeah. open your mouth wider. yeah, it works if you. if you hang your tongue out like this. and thigh. eh? okay, well, hang your tongue out to the low side of your head.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): yeah! | Speaker B (grandfather): yeah. open your mouth wider. yeah, it works if you. if you hang your tongue out like this. and thigh. eh? okay, well, hang your tongue out to the low side of your head.",
+            "target": "Target (grandson): okkk",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): yeah. open your mouth wider. yeah, it works if you. if you hang your tongue out like this. and thigh. eh? okay, well, hang your tongue out to the low side of your head. | Speaker B (grandson): okkk",
+            "target": "Target (grandfather): yeah, right. perfect. that's good. nice, buddy. you're getting it. i think that ax is kind of meant for, like, cutting yourself a hot dog stick or doing stuff like that.that wood is petrified, isn't it? it's always hard to cut that type of wood.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): okkk | Speaker B (grandfather): yeah, right. perfect. that's good. nice, buddy. you're getting it. i think that ax is kind of meant for, like, cutting yourself a hot dog stick or doing stuff like that.that wood is petrified, isn't it? it's always hard to cut that type of wood.",
+            "target": "Target (grandson): ohh heres ...",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): yeah, right. perfect. that's good. nice, buddy. you're getting it. i think that ax is kind of meant for, like, cutting yourself a hot dog stick or doing stuff like that.that wood is petrified, isn't it? it's always hard to cut that type of wood. | Speaker B (grandson): ohh heres ...",
+            "target": "Target (grandfather): cutting the ground is good with an ax because that keeps it sharp.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): ohh heres ... | Speaker B (grandfather): cutting the ground is good with an ax because that keeps it sharp.",
+            "target": "Target (grandson): you see!!",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): cutting the ground is good with an ax because that keeps it sharp. | Speaker B (grandson): you see!!",
+            "target": "Target (grandfather): it's just going to dull this ax. doing that",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        }
+    ]
+}

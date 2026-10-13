@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation history does not provide enough context to determine if Speaker A is interrupting or being interrupted."
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?",
+    "target": "Speaker A (granddaughter) (Target): Like a long line? Yeah, that's called a chain. That's a single crochet.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker B (grandmother): Wrap it around again. Go through another one of these loops. Pull it out. Do it again. Just do a whole line of that. Can you do the first line? Like that? Like a long line?\nSpeaker B (granddaughter): Like a long line? Yeah, that's called a chain. That's a single crochet.",
+    "target": "Speaker A (grandfather) (Target): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's comment does not interrupt the conversation as he is not speaking while someone else is in the"
+  },
+  {
+    "index": 3,
+    "context": "Speaker B (granddaughter): Like a long line? Yeah, that's called a chain. That's a single crochet.\nSpeaker B (grandfather): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.",
+    "target": "Speaker A (grandmother) (Target): Okay. So let's— Make a long line like that. Wrap it around your fingers over here.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural continuation of the conversation, starting after the"
+  },
+  {
+    "index": 4,
+    "context": "Speaker B (grandfather): Probably what's left of the baseball bat, the one you were playing. He'd never had a proper chain.\nSpeaker B (grandmother): Okay. So let's— Make a long line like that. Wrap it around your fingers over here.",
+    "target": "Speaker A (granddaughter) (Target): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter starts speaking while her grandparents were discussing wr"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Okay. So let's— Make a long line like that. Wrap it around your fingers over here.\nSpeaker B (granddaughter): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.",
+    "target": "Speaker A (grandmother) (Target): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother is providing assistance to her granddaughter by helping her maintain the correct tension on her"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): Oh, that reminds me! I actually knitted a whole blanket with this thick blue yarn once. It took me three months and I had to use these massive needles that looked like drumsticks. Everyone in the dorm wanted one.\nSpeaker B (grandmother): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.",
+    "target": "Speaker A (granddaughter) (Target): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A interrupts Speaker B to ask a question related"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Honey, your yarn is falling off your hand. You aren't listening to the tension part. If you don't wrap it twice, the loops will just go limp. Here, let me grab your wrist— stop moving for a second.\nSpeaker B (granddaughter): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.",
+    "target": "Speaker A (grandmother) (Target): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandmother interrupts her granddaughter to provide advice on the"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Wait, I'm almost at the end of the row though! If I stop now, I'll lose my place in the story.\nSpeaker B (grandmother): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.",
+    "target": "Speaker A (granddaughter) (Target): Here. Here. So I do this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter interrupts her grandmother to provide a clarification"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): If you don't stop, you'll lose the whole blanket. Hold still. I'm re-wrapping this for you because you've let it go completely slack while you were talking about those drumsticks.\nSpeaker B (granddaughter): Here. Here. So I do this.",
+    "target": "Speaker A (grandmother) (Target): For 1 minute. I'm going to try something.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is not an interruption as she is giving instructions and waiting"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): Here. Here. So I do this.\nSpeaker B (grandmother): For 1 minute. I'm going to try something.",
+    "target": "Speaker A (granddaughter) (Target): I'm going to try something.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is not an interruption as she is simply acknowled"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): For 1 minute. I'm going to try something.\nSpeaker B (granddaughter): I'm going to try something.",
+    "target": "Speaker A (grandmother) (Target): You can just do it that way, huh?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): I'm going to try something.\nSpeaker B (grandmother): You can just do it that way, huh?",
+    "target": "Speaker A (granddaughter) (Target): I actually knitted a blanket like this once. It's really cool.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a relevant contribution to the conversation and does not"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): You can just do it that way, huh?\nSpeaker B (granddaughter): I actually knitted a blanket like this once. It's really cool.",
+    "target": "Speaker A (grandmother) (Target): And you turn to come back. Wrap it around your fingers. That keeps it tense. And you make one, and then you make one in the next one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother is providing instructions, and her utterance is a continuation of her previous"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): I actually knitted a blanket like this once. It's really cool.\nSpeaker B (grandmother): And you turn to come back. Wrap it around your fingers. That keeps it tense. And you make one, and then you make one in the next one.",
+    "target": "Speaker A (granddaughter) (Target): Make another one? I can't see them too well to go through there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's question does not interrupt the grandmother's instructions"
+  }
+]

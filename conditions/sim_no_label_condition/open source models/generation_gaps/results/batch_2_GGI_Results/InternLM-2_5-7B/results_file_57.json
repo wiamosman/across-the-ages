@@ -1,0 +1,159 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 57,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Yep, yep, drag in. Remember I told you, now, when you swing it, when you get out— oh, nope, nope, you don't want to throw the pole in the water. Oh no, you can do it now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Yep, yep, drag in. Remember I told you, now, when you swing it, when you get out— oh, nope, nope, you don't want to throw the pole in the water. Oh no, you can do it now.",
+            "target": "Target (granddaughter): There's no hook on it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Yep, yep, drag in. Remember I told you, now, when you swing it, when you get out— oh, nope, nope, you don't want to throw the pole in the water. Oh no, you can do it now. | Speaker B (granddaughter): There's no hook on it.",
+            "target": "Target (grandfather): It takes a little while.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): There's no hook on it. | Speaker B (grandfather): It takes a little while.",
+            "target": "Target (granddaughter): Think that thing right there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): It takes a little while. | Speaker B (granddaughter): Think that thing right there.",
+            "target": "Target (grandfather): I couldn't do this the first time. Did you catch a fish?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Think that thing right there. | Speaker B (grandfather): I couldn't do this the first time. Did you catch a fish?",
+            "target": "Target (granddaughter): I saw a fish under the water right by it!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): I couldn't do this the first time. Did you catch a fish? | Speaker B (granddaughter): I saw a fish under the water right by it!",
+            "target": "Target (grandfather): Really? How big?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): I saw a fish under the water right by it! | Speaker B (grandfather): Really? How big?",
+            "target": "Target (granddaughter): Good, medium size. Don't you need worms?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): Really? How big? | Speaker B (granddaughter): Good, medium size. Don't you need worms?",
+            "target": "Target (grandfather): No, we're just practicing casting today. See, now, now you— now watch this. Now watch with my hand. You see now I push the button and I'm going to do it in slow motion and show you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Good, medium size. Don't you need worms? | Speaker B (grandfather): No, we're just practicing casting today. See, now, now you— now watch this. Now watch with my hand. You see now I push the button and I'm going to do it in slow motion and show you.",
+            "target": "Target (granddaughter): Grandpa, everything you do is in slow motion. We’ve been 'practicing' for twenty minutes, can we just actually fish?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): No, we're just practicing casting today. See, now, now you— now watch this. Now watch with my hand. You see now I push the button and I'm going to do it in slow motion and show you. | Speaker B (granddaughter): Grandpa, everything you do is in slow motion. We’ve been 'practicing' for twenty minutes, can we just actually fish?",
+            "target": "Target (grandfather): That’s a bit uncalled for. I’m taking the time to teach you right so you don't lose a finger or a pole. Patience is part of fishing, even if you think I'm too slow.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Grandpa, everything you do is in slow motion. We’ve been 'practicing' for twenty minutes, can we just actually fish? | Speaker B (grandfather): That’s a bit uncalled for. I’m taking the time to teach you right so you don't lose a finger or a pole. Patience is part of fishing, even if you think I'm too slow.",
+            "target": "Target (granddaughter): I didn't mean it like that, I'm just bored of the 'button' talk.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): That’s a bit uncalled for. I’m taking the time to teach you right so you don't lose a finger or a pole. Patience is part of fishing, even if you think I'm too slow. | Speaker B (granddaughter): I didn't mean it like that, I'm just bored of the 'button' talk.",
+            "target": "Target (grandfather): Well, the 'button talk' is how you catch things. Now, as I was saying, you don't have to throw it real hard, you just got to get it out here and then go like this. You can do that. It's all when you let go of the— and you have your practice aim at it and then you'll get good at it. There you go. Good shot. Oh wow. There you go. It cast it out. It just didn't get the one. But that takes a little bit of practice. It's like a timing thing. Here's what I do. I go like this. Okay, push it down, hold it back, and go 1, 2, 3. Just like that. See where it went?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): I didn't mean it like that, I'm just bored of the 'button' talk. | Speaker B (grandfather): Well, the 'button talk' is how you catch things. Now, as I was saying, you don't have to throw it real hard, you just got to get it out here and then go like this. You can do that. It's all when you let go of the— and you have your practice aim at it and then you'll get good at it. There you go. Good shot. Oh wow. There you go. It cast it out. It just didn't get the one. But that takes a little bit of practice. It's like a timing thing. Here's what I do. I go like this. Okay, push it down, hold it back, and go 1, 2, 3. Just like that. See where it went?",
+            "target": "Target (granddaughter): Out in the water.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Well, the 'button talk' is how you catch things. Now, as I was saying, you don't have to throw it real hard, you just got to get it out here and then go like this. You can do that. It's all when you let go of the— and you have your practice aim at it and then you'll get good at it. There you go. Good shot. Oh wow. There you go. It cast it out. It just didn't get the one. But that takes a little bit of practice. It's like a timing thing. Here's what I do. I go like this. Okay, push it down, hold it back, and go 1, 2, 3. Just like that. See where it went? | Speaker B (granddaughter): Out in the water.",
+            "target": "Target (grandfather): If you do that, you catch fish most times. When you bite. Where's your pole?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Out in the water. | Speaker B (grandfather): If you do that, you catch fish most times. When you bite. Where's your pole?",
+            "target": "Target (grandfather): I can't walk because your fish broke. Oh, I lost a weight.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): If you do that, you catch fish most times. When you bite. Where's your pole? | Speaker B (grandfather): I can't walk because your fish broke. Oh, I lost a weight.",
+            "target": "Target (grandfather): It says it sleeps 6 comfortably.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): I can't walk because your fish broke. Oh, I lost a weight. | Speaker B (grandfather): It says it sleeps 6 comfortably.",
+            "target": "Target (grandfather): That's crazy because that's the— 6 foot? That's a 25-foot. You can keep the weight just hanging down. Let me reel it up. Let go of that one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): It says it sleeps 6 comfortably. | Speaker B (grandfather): That's crazy because that's the— 6 foot? That's a 25-foot. You can keep the weight just hanging down. Let me reel it up. Let go of that one.",
+            "target": "Target (grandfather): Let go and then I can reel it up. Let go of this. This right here. Gotta let go of that. Get it. Okay, now you can push it down and hold it and then swing it. Just do it gentle. Wait a minute, wait a minute, it wrapped around here. See, when you get ready to do that, it'll wrap around there if you're not— if you don't have something on here to— let go of the button. Okay, see, then you can rail it up when it clicks. Then— okay, now just do it nice and easy. Press the button down when you're swinging it. You got to let the button go then when you get out the end of your swing. Now is it catching or something? Sometimes it gets wrapped around. It's hard to see.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

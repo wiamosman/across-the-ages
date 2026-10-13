@@ -1,0 +1,97 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 78,
+    "utterances": [
+        {
+            "text": "Teaching my Persian grandpa English! How are you?",
+            "golden": "statement-non-opinion",
+            "predicted": "greeting",
+            "raw": "greeting\n\nHistory:\nTurn: Te"
+        },
+        {
+            "text": "Very good, thank you.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "How was your day?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "My name is—",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "Others (interruption)"
+        },
+        {
+            "text": "No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yes, yes. My name is Mehdi. It is good, yes?",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement\nstatement-opinion\nag"
+        },
+        {
+            "text": "Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement\n\nHistory:\nTurn:"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "hhhhhhhh, old, old...",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "question",
+            "predicted": "greeting",
+            "raw": "greeting (assuming the first turn is a"
+        },
+        {
+            "text": "hhhh ok this was difficult lets try other question! how was your day?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Good, good, good, good, very good, very good, very good.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "What is your name?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "My name is Mehdi.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Good job!",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement (or acknowledgment, depending on the"
+        }
+    ]
+}

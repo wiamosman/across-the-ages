@@ -1,0 +1,637 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 63,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "I hope it was a good one. Did anything exciting happen?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Not really, just the usual stuff. But I did get an A on my math test, so that was nice!",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "Oh, that's wonderful! Are you working on a project or something creative next?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Actually, I'm thinking about starting something soon. Maybe a painting or a digital art piece.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nanswer\nquestion"
+    },
+    {
+      "text": "That sounds lovely! I'd love to hear more about your ideas whenever you want to share.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks! I'll definitely let you know once I start. I'm still just gathering inspiration right now.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Actually,"
+    },
+    {
+      "text": "Whenever you're ready, I'm here to listen.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Is there anything specific you'd like to talk about regarding your project themes?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm still figuring it out, but I think it might be about sustainability. It would be fire! What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, I'm glad you think so! I'm not quite sure what 'fire' means in this context, but it sounds positive!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Haha, 'fire' just means it's really good or cool. I'm glad you like the idea!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Thank you for explaining that to me! I'm so happy to hear you think my interest is 'fire'!",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "I'm really glad you're into it! It's always fun to share these things with you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Oh, don't worry about it, dear. I'm learning new things every day!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's awesome! I'm always here to help you learn more cool stuff. But first, let's fix this shirt.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-non-opinion"
+    },
+    {
+      "text": "Well, we can start by breaking down the steps together. What part would you like to tackle first?",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Well,"
+    },
+    {
+      "text": "Let's start with the basics and then move on to the more advanced stuff. How does that sound?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! Let's start with the basics and work our way up. Shall we begin?",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Great!"
+    },
+    {
+      "text": "Sounds perfect! I'm excited to get started.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Of course, I'll make sure to remind you. Let's keep it simple and take it one step at a time.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks for being so supportive, Grandma. I really appreciate it.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks for"
+    },
+    {
+      "text": "Alright, let's get started with the first step. I'll guide you through it.",
+      "golden": "command",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great, I'm ready when you are!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, that's right. Two knots to start with. You're doing great!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I hope I can get the hang of this soon.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Great,"
+    },
+    {
+      "text": "Let's move on to the next step when you're ready. Just let me know.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'm ready for the next step!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "A big hole, you say? Let's make sure we handle it carefully. I'm here to help if you need.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: A big"
+    },
+    {
+      "text": "Thanks, Grandma. I'll try to be careful. Can you show me how to bridge it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: Thanks,"
+    },
+    {
+      "text": "Alright, let's tackle this big hole together. Just take your time and let me know if you need any help.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: A big"
+    },
+    {
+      "text": "Okay, I'll start slowly. Let me know if I'm doing it right.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing a wonderful job, dear. I'm so proud of you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'm glad you think so. I'll keep going.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That sounds like a creative plan! If you need any help with the knot, just let me know. I'm here to assist you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That sounds"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely ask if I get stuck.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I understand, dear. Just take your time and remember I'm here if you need any help.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I really appreciate your support, Grandma. It means a lot to me.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, that would be wonderful! If you could hold it steady, it would make things much easier for me.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Sure thing, Grandma! I'll hold it steady while you sew.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you, dear. Let's get started then!",
+      "golden": "greeting",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's do this together!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I see! It's funny how things like that happen sometimes. I'm glad you found a creative solution.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's always fun to come up with new ways to solve problems!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's the spirit, dear! I'm sure you'll do great.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you, dear. Let's see how it looks now.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sure, let's take a look together!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Hmm, maybe a little to the left, dear. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Hmm"
+    },
+    {
+      "text": "I think it looks good there, but moving it a bit could work too.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "Yes, that looks much better now. You're doing a wonderful job!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Hmm"
+    },
+    {
+      "text": "Thanks, Grandma! I'm glad you like it.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, don't worry about it, dear. We can always try again.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's give it another shot then!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Let's give it another try, shall we? I'm sure we'll get it right this time.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm sure we will, Grandma! Let's do this!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, that sounds exciting! What happened?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Well, I was just thinking about how we can make this work better. Maybe we can try a different approach?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, just like that! You're really getting the hang of it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really trying my best.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Hmm, let's see. Maybe try checking if everything is connected properly.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-non-opinion"
+    },
+    {
+      "text": "Alright, I'll double-check the connections. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand\nacknowledgment"
+    },
+    {
+      "text": "I'm glad we're figuring this out together. Let me know if you need more help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if I run into any more issues.",
+      "golden": "acknowledge",
+      "predicted": "others",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Oh, I see what you mean. Maybe it's just a different version or model than what I'm used to.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it could be. Technology changes so fast, it's hard to keep up sometimes and-",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nbackchannel\n(Note: The last"
+    },
+    {
+      "text": "TNNN, Oh, sorry dear, I didn't mean to interrupt. Please go on.",
+      "golden": "apology",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No worries, Grandma! I was just saying how fast technology changes.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, I think you might have missed both sides. Let's take another look together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Sure, let's go over it again. I might have missed something.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, I understand now. Let's see if we can find both together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: The cake"
+    },
+    {
+      "text": "Great! I'm sure we'll figure it out together. This project is GOAT!",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, I see! You're feeling like the greatest of all time, that's wonderful!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, exactly! I meant 'GOAT' as in 'Greatest of All Time', but I'm glad you got it!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "So, what do you want to do next? Maybe we can try that new recipe you mentioned after we finish sewing.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It sounds like you have a friendly interaction with him. Maybe he appreciates being called 'boss'.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, maybe! I just hope he doesn't think I'm being too casual.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "We could definitely go back and show more if there's time left. It sounds like a good plan.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Sounds good! Let's make sure we have all the ingredients first.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Haha"
+    },
+    {
+      "text": "Yes, it seems like you did get both sides. Well done!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks! I'm really excited to get started on this sewing project.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a wonderful skill to learn! Sewing can be very rewarding and useful.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I'm hoping to make some cool stuff. Do you have any tips for a beginner?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's great! Amazon has a lot of options for sewing supplies. Do you need any help getting started?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "I think I might need some help choosing the right fabric. There are so many options!",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nquestion\nanswer ("
+    },
+    {
+      "text": "Could you help me pick out some fabric? I'm not sure what would be best for a beginner project.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: Could you"
+    },
+    {
+      "text": "Oh dear, that sounds like quite a fashion statement! Maybe sewing some patches on will give them a new look.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds like a fun idea! I could definitely use some patches to make them look cooler.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Could you"
+    },
+    {
+      "text": "It looks like you're doing a great job! If you need any tips on sewing, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely ask if I get stuck.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I see, sometimes it's hard to let go of clothes we like. Maybe we can find a way to make them fit better or repurpose them into something new.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a great idea! Maybe we can turn them into something completely new together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "Yes, it looks like you've got it all patched up nicely! If you need any more help, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'll let you know if I need more help.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm looking forward to seeing it! I'm sure it will look wonderful.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I can't wait to show it to you once it's done!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's the spirit! Working together makes everything better.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Absolutely, Grandma! I'm really enjoying working on this project with you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, you're too kind! Let's get started then, shall we?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Sure thing, Grandma! I'm ready when you are.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yeah,Lets start and I must  admire your confidence in being yourself.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! That means a lot. Anyway, should we pull up that tutorial now?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, let's do it! You'll have to show me how to find it on that little screen of yours.",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand"
+    },
+    {
+      "text": "No problem at all, I'll walk you through the whole thing!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

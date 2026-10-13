@@ -1,0 +1,61 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 36,
+    "utterances": [
+        {
+            "text": "Watch the road. Watch the road.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Is not— is not going to yelling at us?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I don't know. First driving lesson you got. Pay attention. What would you do if a car came?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Ow.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "What would you do?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I'll stop. I think the sensor is beeping, should I—",
+            "golden": "answer",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "No... you're being totally mid right now, just let me drive.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Mid? What is a mid? Speak English and swipe the road!",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        }
+    ]
+}

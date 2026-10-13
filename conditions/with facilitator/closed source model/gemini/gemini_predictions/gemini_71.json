@@ -1,0 +1,942 @@
+[
+  {
+    "speaker": "grandson",
+    "text": "Hey Grandpa, how's your day going?",
+    "intent": "greet",
+    "dialogue_act": "greeting",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Hello there! I'm just relaxing and maybe I'll do some gardening later. How about you?",
+    "intent": "greet",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "I'm doing well, just finished some homework. Do you need any help with the gardening?",
+    "intent": "ask for help",
+    "dialogue_act": "question",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, I can fix it. I've been gardening for years, so I know a thing or two!",
+    "intent": "inform",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "That's great, Grandpa! Let me know if you change your mind and need a hand.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I appreciate your concern, but I've got it under control. It's good exercise for me!",
+    "intent": "refuse",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, Grandpa! Just let me know if you need anything. I'm here to help.",
+    "intent": "care",
+    "dialogue_act": "acknowledge",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, I'll show you how it's done. It's all about patience and knowing the plants.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sounds good, Grandpa! I'm excited to learn from you.",
+    "intent": "agree",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, right here. Let's start with this section and I'll guide you through the process.",
+    "intent": "arrange",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Great, I'm ready to get started. Just let me know what to do first.",
+    "intent": "agree",
+    "dialogue_act": "statement-opinion",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Great, now let's make sure the soil is well-prepared before planting.",
+    "intent": "advise",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, should I start by loosening the soil with the rake?",
+    "intent": "asking for opinions",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Ah, that's a good question. Let's take a closer look at it together.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Okay, let's do that. I'm eager to learn more about gardening from you.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, we'll need to remove that to ensure the plants have enough space to grow.",
+    "intent": "explain",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it, I'll start clearing this area then. Thanks for the guidance!",
+    "intent": "thank",
+    "dialogue_act": "answer",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandmother",
+    "text": "Oh, I love classic Italian! Are you planning to cook something special?",
+    "intent": "asking for opinions",
+    "dialogue_act": "question",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I think a classic Italian dish would be wonderful. Maybe some pasta?",
+    "intent": "suggest",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Pasta sounds great! I can make a simple tomato basil pasta if you'd like.",
+    "intent": "plan",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, let's get started on that pasta then!",
+    "intent": "plan",
+    "dialogue_act": "command",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Great! I'll start by boiling the pasta. Can you help me with chopping the basil?",
+    "intent": "ask for help",
+    "dialogue_act": "question",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, let's start by boiling the water for the pasta.",
+    "intent": "advise",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sure, I'll get the water boiling. Let me know if you need any help with the basil.",
+    "intent": "care",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Oh, did I do it the wrong way? Let's fix it together.",
+    "intent": "doubt",
+    "dialogue_act": "question",
+    "emotion": "frustrated",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "No worries, Grandpa! We can fix it together. I'll show you how I usually do it.",
+    "intent": "comfort",
+    "dialogue_act": "agreement",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I'm glad you figured it out. Let's see how it works.",
+    "intent": "acknowledge",
+    "dialogue_act": "acknowledge",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, let's give it a try! I'm sure it'll turn out great.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, let's get that pasta cooking now!",
+    "intent": "plan",
+    "dialogue_act": "command",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Great! I'll get the water boiling while you prepare the sauce.",
+    "intent": "arrange",
+    "dialogue_act": "command",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Ah, I see. Thanks for pointing that out. Let's keep going.",
+    "intent": "acknowledge",
+    "dialogue_act": "acknowledge",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "No problem! I'm excited to see how it turns out.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, let's focus on what we're doing here. We can figure it out together.",
+    "intent": "advise",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sounds good! I'll keep an eye on the water while you work on the sauce.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Let's take a closer look at the instructions. We can figure this out together.",
+    "intent": "advise",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sure thing, I'll grab the instructions. Let's make sure we don't miss anything.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, let's get that wire sorted out. We can do this together.",
+    "intent": "plan",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it! I'll start untangling the wire while you check the instructions.",
+    "intent": "arrange",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Let's take a closer look at these wires. We can figure out what they do together.",
+    "intent": "explain",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, I'm almost done untangling this. How's it going with the instructions?",
+    "intent": "asking for opinions",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, it looks pretty solid. We're making good progress here.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Great! Let's keep going and see if we can finish this up soon.",
+    "intent": "plan",
+    "dialogue_act": "statement-opinion",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "That's good to hear. Let's keep going and see what else we can accomplish.",
+    "intent": "encourage",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, let's tackle the next part. Do you need any help with the instructions?",
+    "intent": "ask for help",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, we can use the brush to paint the whole thing. It'll give it a nice finish.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sounds good! Do you think we should let it dry for a bit before adding another coat?",
+    "intent": "asking for opinions",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, a cloth would be helpful to clean up any excess paint.",
+    "intent": "advise",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, I'll grab a cloth. Do you want me to start cleaning up now?",
+    "intent": "ask for help",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Oh, I must have missed that. Let's double-check to make sure everything is clean.",
+    "intent": "doubt",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Okay, I'll double-check everything and start cleaning up.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "This tool helps us smooth out the surface after painting, making it look even better.",
+    "intent": "explain",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it, I'll make sure to use it after we're done painting.",
+    "intent": "agree",
+    "dialogue_act": "acknowledge",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "It's best to apply it while the paint is still wet. That way, it blends smoothly.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Oh, I didn't know that. Thanks for the tip!",
+    "intent": "thank",
+    "dialogue_act": "acknowledge",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",
+    "intent": "doubt",
+    "dialogue_act": "question",
+    "emotion": "neutral",
+    "generation_gap_indicator": "method divergence",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",
+    "intent": "explain",
+    "dialogue_act": "answer",
+    "emotion": "happy",
+    "generation_gap_indicator": "stereotyped expectation",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I appreciate you trying to explain. Let's make sure we have enough paint for the next coat.",
+    "intent": "acknowledge",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sure, I can check how much paint we have left.",
+    "intent": "agree",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Let's take a closer look at the plastic ones and see if we need more. It's important to have enough for a smooth finish.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Alright, I'll go check the paint and see if we need to get more.",
+    "intent": "plan",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Ah, the smell of wet cement does bring back memories. It's interesting how certain scents can evoke feelings and memories. Let's make sure we mix it well for a strong finish.",
+    "intent": "inform",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Yeah, it's amazing how smells can do that. I'll make sure to mix it thoroughly.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandmother",
+    "text": "Oh, I see you're working on something interesting. Yes, your grandfather did make that contraption. It's quite clever, isn't it?",
+    "intent": "inform",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, I did make that contraption. It's a handy tool for our project. Let's make sure we use it properly to avoid any mishaps.",
+    "intent": "inform",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it, I'll make sure to use it correctly. It's pretty cool how you came up with this.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "That's a clever use of technology. It's amazing how apps can help with tasks like this. Let me know if you need any help with the calibration.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks, Grandpa! I'll definitely ask if I run into any issues. It's great having your expertise around.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I understand, accuracy is important. Take your time with the sensors. Let me know if there's anything else I can assist with.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks for the advice, Grandpa. I'll make sure to double-check everything. It's reassuring to know you're here to help.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Cutting it with an axe might not be the best approach if we're trying to ensure it holds cement. Let's think about a more precise method to get the best results.",
+    "intent": "warn",
+    "dialogue_act": "command",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it, Grandpa. I'll look into a more precise tool for the job. Thanks for pointing that out.",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Alright, I'll leave it be. It's fascinating how these tools work, isn't it? Let me know if you need any assistance.",
+    "intent": "acknowledge",
+    "dialogue_act": "acknowledge",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Yeah, it's really interesting how much technology has advanced. I'll definitely let you know if I need help. Thanks for being there.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "If it's still a bit loose, you might want to tighten it just a little more, but be careful not to overdo it. Let me know if you need a hand.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks, Grandpa. I'll give it a try and let you know how it goes.",
+    "intent": "thank",
+    "dialogue_act": "acknowledge",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "To make it thicker, you might need to add more material or adjust the mixture. Sometimes a bit of trial and error helps. Let me know if you need any guidance.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Got it, I'll try adding more material and see if that works. Thanks for the advice!",
+    "intent": "agree",
+    "dialogue_act": "agreement",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, sometimes working from right to left can help ensure everything is aligned properly. If you need any help, just let me know.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks, Grandpa! I'll try working from right to left and see if it helps. I'll let you know how it goes.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "That's right, if there's no damage, you might not need to remove the face. But it's always good to check thoroughly to avoid any surprises later. Let me know if you need any help.",
+    "intent": "advise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks for the tips, Grandpa. I'll make sure to check everything thoroughly. I appreciate your help!",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I'm just checking to make sure everything is in place. Vaseline can help protect the wood, but it's not always necessary. Do you need any help with that?",
+    "intent": "inform",
+    "dialogue_act": "statement-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "I think I'm good for now, but I'll let you know if I run into any issues. Thanks for offering to help!",
+    "intent": "refuse",
+    "dialogue_act": "answer",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I'm glad it worked out well! Sometimes a little patience and persistence pay off. If you need any more advice, I'm here to help.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Thanks, Grandpa! I'll definitely keep that in mind. Your advice is always helpful.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "I'm mixing a bit of filler to make sure the surface is smooth and even. It's important to get the right consistency for a good finish. Let me know if you want to try it yourself.",
+    "intent": "explain",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "That sounds interesting! I might give it a try later. Thanks for the offer, Grandpa.",
+    "intent": "agree",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, I'm using a bit more glue to ensure everything holds together well. And yes, that's my homemade box. It's always satisfying to create something yourself. If you want to learn how to make one, I'd be happy to show you.",
+    "intent": "inform",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "I'd love to learn how to make one, Grandpa! It sounds like a fun project.",
+    "intent": "invite",
+    "dialogue_act": "agreement",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, it's all set now. Once it's dry, we'll match the paint color. I'm glad we could do this together. It's always rewarding to see the results of our hard work.",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "I'm really looking forward to seeing how it turns out. Thanks for doing this with me, Grandpa.",
+    "intent": "thank",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Yes, this is the first coat. We'll let it dry and then apply another one for a smooth finish. It's coming along nicely.",
+    "intent": "explain",
+    "dialogue_act": "statement-non-opinion",
+    "emotion": "neutral",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandson",
+    "text": "Sounds great! I can't wait to see the final result. Do you think we should add any special designs?",
+    "intent": "asking for opinions",
+    "dialogue_act": "question",
+    "emotion": "excited",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  },
+  {
+    "speaker": "grandfather",
+    "text": "Thank you for the kind words! I'm glad you believed in the process and that it turned out well. It's always a pleasure working on projects like this together. Looking forward to our next adventure!",
+    "intent": "praise",
+    "dialogue_act": "statement-opinion",
+    "emotion": "happy",
+    "generation_gap_indicator": "none",
+    "interruption_role": "none",
+    "interruption_type": "none"
+  }
+]

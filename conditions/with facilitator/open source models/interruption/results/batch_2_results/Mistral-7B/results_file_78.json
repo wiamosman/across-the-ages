@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how have you been?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how have you been?",
+    "target": "Speaker A (grandfather) (Target): I'm doing well, thank you! It's wonderful that you're teaching me English.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how have you been?\nSpeaker B (grandfather): I'm doing well, thank you! It's wonderful that you're teaching me English.",
+    "target": "Speaker A (grandson) (Target): I'm glad to help, Grandpa! It's fun for me too.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): I'm doing well, thank you! It's wonderful that you're teaching me English.\nSpeaker B (grandson): I'm glad to help, Grandpa! It's fun for me too.",
+    "target": "Speaker A (grandfather) (Target): My day was quite nice. I spent some time in the garden and enjoyed the sunshine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): I'm glad to help, Grandpa! It's fun for me too.\nSpeaker B (grandfather): My day was quite nice. I spent some time in the garden and enjoyed the sunshine.",
+    "target": "Speaker A (grandson) (Target): That sounds lovely! I wish I could have joined you in the garden earlier.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a backchannel and does not interrupt the"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): My day was quite nice. I spent some time in the garden and enjoyed the sunshine.\nSpeaker B (grandson): That sounds lovely! I wish I could have joined you in the garden earlier.",
+    "target": "Speaker A (grandfather) (Target): Oh, I'm sorry if I misunderstood your question. I thought we were still catching up on my day. Let's start the lesson, shall we?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather acknowledges the grandson's comment and then transitions into a different topic, but"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): That sounds lovely! I wish I could have joined you in the garden earlier.\nSpeaker B (grandfather): Oh, I'm sorry if I misunderstood your question. I thought we were still catching up on my day. Let's start the lesson, shall we?",
+    "target": "Speaker A (grandson) (Target): No worries, Grandpa! I was just saying it sounded nice. We can continue with the lesson whenever.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Oh, I'm sorry if I misunderstood your question. I thought we were still catching up on my day. Let's start the lesson, shall we?\nSpeaker B (grandson): No worries, Grandpa! I was just saying it sounded nice. We can continue with the lesson whenever.",
+    "target": "Speaker A (grandfather) (Target): Haha, it's good to see you laughing! I guess I got a bit ahead of myself. Let's try again when you're ready.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel, acknowledging the grandson's"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): No worries, Grandpa! I was just saying it sounded nice. We can continue with the lesson whenever.\nSpeaker B (grandfather): Haha, it's good to see you laughing! I guess I got a bit ahead of myself. Let's try again when you're ready.",
+    "target": "Speaker A (grandson) (Target): Sure thing, Grandpa! Let's practice some conversational phrases about your garden first.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Haha, it's good to see you laughing! I guess I got a bit ahead of myself. Let's try again when you're ready.\nSpeaker B (grandson): Sure thing, Grandpa! Let's practice some conversational phrases about your garden first.",
+    "target": "Speaker A (grandfather) (Target): Haha, yes, I might be getting older but I can still learn new phrases! What would you like to teach me first today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, acknowledging the grandson's"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Sure thing, Grandpa! Let's practice some conversational phrases about your garden first.\nSpeaker B (grandfather): Haha, yes, I might be getting older but I can still learn new phrases! What would you like to teach me first today?",
+    "target": "Speaker A (grandson) (Target): Haha, you're never too old to learn! How about we start with some phrases you can use on your phone?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as they"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Haha, yes, I might be getting older but I can still learn new phrases! What would you like to teach me first today?\nSpeaker B (grandson): Haha, you're never too old to learn! How about we start with some phrases you can use on your phone?",
+    "target": "Speaker A (grandfather) (Target): That's a good idea. My day was nice, but using the phone can be a struggle. I enjoyed the sunshine today, though.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural turn in the conversation, as he acknowledges his grandson'"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Haha, you're never too old to learn! How about we start with some phrases you can use on your phone?\nSpeaker B (grandfather): That's a good idea. My day was nice, but using the phone can be a struggle. I enjoyed the sunshine today, though.",
+    "target": "Speaker A (grandson) (Target): I'm glad you enjoyed it. So, about those English phrases for the phone, are you ready to become an expert?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's utterance is a backchannel response and does not interrupt the flow of"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): That's a good idea. My day was nice, but using the phone can be a struggle. I enjoyed the sunshine today, though.\nSpeaker B (grandson): I'm glad you enjoyed it. So, about those English phrases for the phone, are you ready to become an expert?",
+    "target": "Speaker A (grandfather) (Target): I certainly am! It's so nice to have these chats with you while I learn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a backchannel and agreement to the conversation topic change proposed by the"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): I'm glad you enjoyed it. So, about those English phrases for the phone, are you ready to become an expert?\nSpeaker B (grandfather): I certainly am! It's so nice to have these chats with you while I learn.",
+    "target": "Speaker A (grandson) (Target): It's great chatting with you too, Grandpa! So, are you ready to dive into some more English?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a friendly greeting and a question to start the"
+  }
+]

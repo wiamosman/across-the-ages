@@ -1,0 +1,279 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 27,
+    "utterances": [
+        {
+            "text": "Hello, everyone. Welcome to this segment of Live with Carlos. Today we're going to talk about the relationship between grandparents and grandchildren. In this case especially with me, my grandson John. He's 18 years old or will be in April. He's graduating from high school and going on with his life from there. We don't know where you're going to end up in the future, but I know it's going to be great. So talking about the generations that we have, his and mine, in coming together, the relationship is very important. Some grandparents do not have that close relationship with their grandchildren, either because they live far away or because they can't find something in common. Lucky for me, I have something in common with both of my grandchildren who are here today. For some people, the commonality is baseball or sports of some kind. One of my good friends, Carl, used to take his grandson hunting. But for me, my relationship with my grandchildren is ta da music. Music is very much part of my life and is very much part of their life, as you know or might not know. My granddaughter Alina is a singer and also plays the piano. And my grandson plays a hot guitar. Hello. Hey. What we want to do today is come up with a song. We're going to compose a song. We haven't practiced this at all. We had no idea if this is going to work, but we're going to try it. Simple chords, okay? C, D, a day, D, C, and that's it. But we're going to try this here because this is how we talk to each other is through music. Besides, he helped me with a lot of projects around here when he could pass the time. So, John, you want to say something about yourself, I'll put you on the spot.",
+            "golden": "introduce",
+            "predicted": "introduce",
+            "raw": "introduce\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I don't know.",
+            "golden": "doubt",
+            "predicted": "doubt",
+            "raw": "doubt\n\nUtterance: I",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You have a girlfriend?",
+            "golden": "joke",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, I don't.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Are you looking for one?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, I'm not.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "No!",
+            "golden": "doubt",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, he is.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```\nUtter",
+            "status": "CORRECT"
+        },
+        {
+            "text": "He's a hard worker.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "He's going to high school and also getting his first year of community college at the same time. He's working part time, so he has a full schedule. Plus he loves music. He has a band that they play. So here we go. Give me a chord. Okay.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Got this chord. What key do you want?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "It is. Is that right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yes.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "The last time.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "I.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help\n\n```python",
+            "status": "WRONG"
+        },
+        {
+            "text": "Had you in my arms, you were a little baby. The last time I held your hand, you were a toddler. The last time I took you for an ice cre, you were a preteen. But now that you are a young man, we're going out to eat. Yum, yum. This is your part yum, yum, yum, yum. So let's go and have a hamburger. Let's go and have some fries. Let's go and have a cold.",
+            "golden": "express emotions or attitudes",
+            "predicted": "care",
+            "raw": "care\n\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "I think this is great.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So I'm going to ask my son to finish the song.",
+            "golden": "plan",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Come on, hit us with a run.",
+            "golden": "invite",
+            "predicted": "taunt",
+            "raw": "taunt\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't know. When I was young, you were fools.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "And you always put me on the swing and go under.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "play\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "But I would say, papa pushed me.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Papa push me.",
+            "golden": "emphasize",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "That was always fun.",
+            "golden": "praise",
+            "predicted": "thank",
+            "raw": "thank\n\nUtterance: I can't",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's when you live in Birch Creek.",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Papa pushed me.",
+            "golden": "emphasize",
+            "predicted": "complain",
+            "raw": "complain\n\n```python\n# No",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "And the white rice. He loves white rice.",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "That song is called Papa Push Me.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really looking forward",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's it. As you can see, it was a silly song. We decided to name that song Papa Push Me. And if you missed it, in the words of the song, I used to put him in a swing, and then he would say, papa, push me, Papa push me. And that was my job, to push him so he could swing. But the important thing, it's not whether the song is beautiful or not or whether it makes the chart. No, the important thing is relationship between a grandparent and a grandchild. In this case, mine, with my grandson, John. Yep. And so what do you think, John?",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, I'm glad that I have this good relationship with you, that we can write spontaneous Papa Push Me style songs.",
+            "golden": "thank",
+            "predicted": "agree",
+            "raw": "agree\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Because, I mean, I don't want to say it's uncommon, but there is in some cases where people my age don't have relationships with their grandparents. Not gonna name names, but I have a grandparent that. I'm kidding. I'm kidding.",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Cut that out. But you probably know of some of your friends that don't have that.",
+            "golden": "advise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, that's true in some cases.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Like people.",
+            "golden": "emphasize",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Some kids don't even, like, know their grandparents.",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. All right, so remember, everyone, spend time with your grandchildren. Make time for them. Call them. Don't expect them to call you back. Send them a card. Just tell them that you're thinking about them. Or even a text. Send them a text saying, I was thinking about you. That's it. Okay? So until the next time, have a good time. La.",
+            "golden": "advise",
+            "predicted": "care",
+            "raw": "care\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        }
+    ]
+}

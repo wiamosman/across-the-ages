@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): My sweet 91-year-old great-grandma teaching me a song.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): My sweet 91-year-old great-grandma teaching me a song.",
+    "target": "Speaker A (grandmother) (Target): It's so beautiful. Chad looked it up and listened to it. You ready?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): My sweet 91-year-old great-grandma teaching me a song.\nSpeaker B (grandmother): It's so beautiful. Chad looked it up and listened to it. You ready?",
+    "target": "Speaker A (granddaughter) (Target): Oh wait, okay. Okay, let me try by myself.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): It's so beautiful. Chad looked it up and listened to it. You ready?\nSpeaker B (granddaughter): Oh wait, okay. Okay, let me try by myself.",
+    "target": "Speaker A (grandmother) (Target): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): Oh wait, okay. Okay, let me try by myself.\nSpeaker B (grandmother): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away!",
+    "target": "Speaker A (granddaughter) (Target): I was just adjusting my seat, Grandma. I'm actually really trying to learn this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): I know you kids today can't sit still for five minutes, but you have to focus. Your generation is always looking for the fast forward button, but music takes patience. Don't look away!\nSpeaker B (granddaughter): I was just adjusting my seat, Grandma. I'm actually really trying to learn this.",
+    "target": "Speaker A (grandmother) (Target): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): I was just adjusting my seat, Grandma. I'm actually really trying to learn this.\nSpeaker B (grandmother): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now!",
+    "target": "Speaker A (granddaughter) (Target): Wait, I messed it! My fingers are getting tired, can we just—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): That's great, you got that much. Yeah. And now pause like you got feeling. No, don't stop! Keep your hands on the keys. Do it again. Now!\nSpeaker B (granddaughter): Wait, I messed it! My fingers are getting tired, can we just—",
+    "target": "Speaker A (grandmother) (Target): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Wait, I messed it! My fingers are getting tired, can we just—\nSpeaker B (grandmother): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp.",
+    "target": "Speaker A (granddaughter) (Target): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): I said do it again. Don't argue with me, just play. Stop complaining about your fingers and hit the C-sharp.\nSpeaker B (granddaughter): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe.",
+    "target": "Speaker A (grandmother) (Target): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): I'm trying, but it feels like you aren't even listening when I say I need a second to breathe.\nSpeaker B (grandmother): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing.",
+    "target": "Speaker A (granddaughter) (Target): I'm so proud. That's so fun! I just want to keep playing this song.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): Oh, that'll be beautiful. Now when you hear it, it'll help you learn it. Just keep playing.\nSpeaker B (granddaughter): I'm so proud. That's so fun! I just want to keep playing this song.",
+    "target": "Speaker A (grandmother) (Target): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): I'm so proud. That's so fun! I just want to keep playing this song.\nSpeaker B (grandmother): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head.",
+    "target": "Speaker A (granddaughter) (Target): Oh, you— it goes so fast and it took like an hour to— I know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): I am too. That's a classical. That's classical music. You're doing so good! I'm so proud of you! Well, just keep doing it. Ain't no sense not getting it in your head.\nSpeaker B (granddaughter): Oh, you— it goes so fast and it took like an hour to— I know.",
+    "target": "Speaker A (grandmother) (Target): Isn't that a beautiful tune? I love",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

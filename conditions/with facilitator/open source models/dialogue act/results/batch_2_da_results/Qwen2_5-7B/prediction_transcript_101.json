@@ -1,0 +1,103 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 101,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been? Are you ready to learn about your new tablet?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, I see the screen now! Thank you for pointing out the power button, dear.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help. Is there anything else you need to find on here?",
+      "golden": "question",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Oh, you're sending an email too? That's wonderful! Who is it going to?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm sending it to my professor. I hope they like my project update on social AI.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, I see. Maybe we can double-check the email address together so I can practice typing?",
+      "golden": "statement-opinion",
+      "predicted": "others",
+      "raw": "proposal"
+    },
+    {
+      "text": "It sounds like there's a bit of confusion with the email. Maybe I can help sort it out?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you for offering to help, dear. Let's see if we can figure out the keyboard together.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it.",
+      "golden": "agreement",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Alright, let's take a look at the email address and make sure it's correct.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Okay, I'll read it out loud and you can tell me if the spelling looks right.",
+      "golden": "answer",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Great! Let's see if we can find any little mistakes together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Alright, here it goes: professor.doe@university.edu. Does that look right to you?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Okay, I'll check the Wi-Fi settings now. Thanks for the smart suggestion!",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see how it works. Thank you for showing me how to use the tablet, dear. I'll try it now.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

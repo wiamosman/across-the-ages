@@ -1,0 +1,199 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 40,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "I hope it was a good one. Anything interesting happen?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Not much, just the usual stuff. I did get an A on my math test though!",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "It sounds like you're not too excited about today. Anything you'd like to share?",
+      "golden": "question",
+      "predicted": "disagreement",
+      "raw": "disagreement"
+    },
+    {
+      "text": "Oh, I'm actually really happy about the A! Just a bit tired from all the studying.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Well, if there's anything on your mind, I'm here to listen.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa. I appreciate it. Just trying to keep up with everything.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks,"
+    },
+    {
+      "text": "Oh no, what did you miss? Maybe we can figure it out together.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Oh no"
+    },
+    {
+      "text": "I just feel like there's always something new to learn, and it gets overwhelming sometimes.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad to hear that. If you need any help, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa. I might take you up on that offer soon.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, I see. Thanks for explaining that to me. I'll give it a try.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandpa. Let me know if you need any more help with it.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Great, I'm glad it's working now. If you need anything else, just let me know.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Sure thing, Grandpa. I'm always here to help you out.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Don't worry, I can show you how to do a 3-point turn. It's easier than it seems.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Thanks, Grandpa! I'd love to learn that from you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Good job backing out safely. If you ever need more practice, I'm here to help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your help and guidance.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Off-roading, huh? That sounds like quite the adventure! I'm glad you're enjoying it.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it's been a blast! Maybe you can join me sometime?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Agreement"
+    },
+    {
+      "text": "Oh, I misunderstood. What did you mean by off-roading?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, it's when you drive on rough terrain, like dirt roads or trails. It's really fun!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Let's take a left here, and I'll guide you through the tricky parts.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate the help. I'll follow your lead.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great, let's keep going. You're doing well.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, I'm really enjoying this drive with you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Got it, I'll keep that in mind. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Let's head towards the path on the right. It should be easier to navigate.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Go right?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    }
+  ]
+}

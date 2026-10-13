@@ -1,0 +1,87 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 38,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (granddaughter): Hi Grandma! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been?",
+      "target": "Target (grandfather): That's great! Just make sure you're comfortable and safe while driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been? | Speaker B (grandfather): That's great! Just make sure you're comfortable and safe while driving.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'll definitely be careful. Do you have any tips for driving in the rain?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandfather): That's great! Just make sure you're comfortable and safe while driving. | Speaker B (granddaughter): Thanks, Grandpa! I'll definitely be careful. Do you have any tips for driving in the rain?",
+      "target": "Target (grandfather): It sounds like you're figuring it out. If you need any help, just let me know.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll definitely be careful. Do you have any tips for driving in the rain? | Speaker B (grandfather): It sounds like you're figuring it out. If you need any help, just let me know.",
+      "target": "Target (granddaughter): Thanks, Grandpa! I appreciate it. I'll definitely reach out if I need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandfather): It sounds like you're figuring it out. If you need any help, just let me know. | Speaker B (granddaughter): Thanks, Grandpa! I appreciate it. I'll definitely reach out if I need anything.",
+      "target": "Target (grandfather): I understand, driving styles have changed over the years. Just make sure you're safe and comfortable with your method.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I appreciate it. I'll definitely reach out if I need anything. | Speaker B (grandfather): I understand, driving styles have changed over the years. Just make sure you're safe and comfortable with your method.",
+      "target": "Target (granddaughter): Thanks for understanding, Grandpa. I'll make sure to stay safe and adapt as needed.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandfather): I understand, driving styles have changed over the years. Just make sure you're safe and comfortable with your method. | Speaker B (granddaughter): Thanks for understanding, Grandpa. I'll make sure to stay safe and adapt as needed.",
+      "target": "Target (grandfather): Alright, let's give it a try and see how it feels.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (granddaughter): Thanks for understanding, Grandpa. I'll make sure to stay safe and adapt as needed. | Speaker B (grandfather): Alright, let's give it a try and see how it feels.",
+      "target": "Target (granddaughter): Sounds good, Grandpa! I'm ready to give it a shot.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandfather): Alright, let's give it a try and see how it feels. | Speaker B (granddaughter): Sounds good, Grandpa! I'm ready to give it a shot.",
+      "target": "Target (grandfather): I'm glad you're feeling confident. Let's make sure we're both comfortable with the way you're driving.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    }
+  ]
+}

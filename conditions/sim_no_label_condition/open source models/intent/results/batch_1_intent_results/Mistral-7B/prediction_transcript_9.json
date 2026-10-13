@@ -1,0 +1,83 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 9,
+    "utterances": [
+        {
+            "text": " I cut it up in little strips and I salt it.",
+            "golden": "inform",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "Aha",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then I just flour it or mill it. Sometimes I put a little mill and flour together. I like a little bit of the mill. And I put salt in that ",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'd really appreciate",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Aha",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: Can you help me figure",
+            "status": "CORRECT"
+        },
+        {
+            "text": " and have it in a bowl that's got a lid on it to where you can...",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling really",
+            "status": "WRONG"
+        },
+        {
+            "text": " Shake it.",
+            "golden": "confirm",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm feeling down",
+            "status": "WRONG"
+        },
+        {
+            "text": "  Shake it.  I dump it upside down, up, up, up.",
+            "golden": "confirm",
+            "predicted": "joke",
+            "raw": "The intent is: joke. However, according to the strict",
+            "status": "WRONG"
+        },
+        {
+            "text": " It toss it. Yeah",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm (assuming the speaker is confirming the disposal",
+            "status": "WRONG"
+        },
+        {
+            "text": " until it's really good and then you put it in a heavy skillet, the one that you cook, I cook chicken in. And you have your bruce in there and get it real, don't have a lot of bruce now. Put it in there and you let it, I like to let it have a little brown. ",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'd really appreciate",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, I like the way you make it.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: Can you help me find",
+            "status": "CORRECT"
+        },
+        {
+            "text": " And then I dump it over and let it do on the other side.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm feeling really",
+            "status": "WRONG"
+        }
+    ]
+}

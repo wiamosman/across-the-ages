@@ -1,0 +1,589 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 79,
+    "utterances": [
+        {
+            "text": "Hey Nonno, what are you doing today? What is all this?",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Well, today I'm trying something I never done before. I'm gonna make wine from juice.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "The intent expressed in the dialogue utterance"
+        },
+        {
+            "text": "Okay, and so, and why are you trying the juice this year? Because it's easier?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.",
+            "golden": "explain",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "So this is just an experiment today.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Well, I'm gonna try it this way. See what happens.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "What different grape varieties did you buy?",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "ask for opinions"
+        },
+        {
+            "text": "Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Okay, let's see how you do it. Let's try it this way this year.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "Yeah, well, you got the most, so you gotta bring this downstairs.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.",
+            "golden": "criticize",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.",
+            "golden": "criticize",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "I can see. They call it balling? It's about 18°.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "It's about 17°. So because it's 17°, you have to add sugar?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "question\n\nUtterance: I"
+        },
+        {
+            "text": "I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "And why does the sugar content matter?",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "You should try the Zinfandel now.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Okay, I'll try the other pail just to see if it's the same. This is even less.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Even less?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?",
+            "golden": "explain",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "This is why you gotta make your own juice, see? Not good?",
+            "golden": "criticize",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "That means something goes on.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "So 22 grades?",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "asking for information"
+        },
+        {
+            "text": "It's in the middle, it's around 20.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "So it still needs a little bit of sugar though?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yes, it still needs a little bit of sugar.",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Isn't that strange how ours didn't need any when we did it ourselves? Yeah.",
+            "golden": "inform",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I"
+        },
+        {
+            "text": "You're putting the juice right in the sugar?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, I'm trying to melt.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Trying to melt the sugar?",
+            "golden": "confirm",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "I don't know, I just— I just tried.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "You did it in your head?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "And then you're gonna add the wine on top of that?",
+            "golden": "confirm",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So you're filling up these 4 damijjans, or 3?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Till it's full.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "But keep it below because of the fermentation, it's gonna overflow.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "So you can't let it get too high.",
+            "golden": "confirm",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "No, I gotta keep it below. I fill half of this dummy jar with the royal—",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Zinfandel.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "So we're mixing two varieties of grapes. Why?",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Experiment. So you're experimenting two things today. One, this new method of doing the wine.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "That's right.",
+            "golden": "acknowledge",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "And two, you're mixing two grape varieties.",
+            "golden": "inform",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help (or) inform ("
+        },
+        {
+            "text": "Right, we know. What it tastes like.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "understand, assume (based on context from"
+        },
+        {
+            "text": "May taste fantastic, I don't know.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Okay, so we're gonna find out.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Sediment.",
+            "golden": "inform",
+            "predicted": "doubt",
+            "raw": "doubt (assuming the speaker is express"
+        },
+        {
+            "text": "Sediment, because it clears it, right?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "It's good. It's very good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Good?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "question\n\nUtterance: Can"
+        },
+        {
+            "text": "It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—",
+            "golden": "praise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Okay. This is for Stephanie.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Yeah. So what's next on the menu?",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "I give this 10 out of 10. 10 out of 10 pizza.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform, thank"
+        },
+        {
+            "text": "I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Nonno's living his best life.",
+            "golden": "inform",
+            "predicted": "emphasize",
+            "raw": "Emphasize"
+        },
+        {
+            "text": "I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "So you basically sandwich it in cheese?",
+            "golden": "confirm",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "That's right.",
+            "golden": "acknowledge",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "But why did you taste it with the fork?",
+            "golden": "explain",
+            "predicted": "doubt",
+            "raw": "question\n\nUtterance: I"
+        },
+        {
+            "text": "Well, I wanted to see what kind of cheese it is.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "investigate\n\nUtterance: I"
+        },
+        {
+            "text": "Forget about it. What kind of cheese is it?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Forget about it. It's not very strong, but—",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Mom, how are you liking it?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank, birthday, greet (ass"
+        },
+        {
+            "text": "And how old are you today? See, these rice balls? They're the best I've ever had.",
+            "golden": "confirm",
+            "predicted": "praise",
+            "raw": "compliment\n\nUtterance: I"
+        },
+        {
+            "text": "You don't look a day over 40.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "compliment (or praise)\n\nUt"
+        },
+        {
+            "text": "Yeah, right. Chantani!",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Okay? Chantani!",
+            "golden": "inform",
+            "predicted": "emphasize",
+            "raw": "Emphasize."
+        },
+        {
+            "text": "Arriba Durkee!",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        }
+    ]
+}

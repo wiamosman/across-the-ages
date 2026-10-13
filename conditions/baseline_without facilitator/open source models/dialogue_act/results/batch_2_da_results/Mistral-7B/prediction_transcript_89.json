@@ -1,0 +1,133 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 89,
+    "utterances": [
+        {
+            "text": "Is there something wrong with your hand?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement (or acknowledge)\n\nExplanation"
+        },
+        {
+            "text": "Why are you turning your fork? It's all dangled. Honestly, the way you’re shoveling that in looks like you were raised in a barn, not in this family.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That's actually pretty mean, Grandma. It's just a fork, I'm not being 'uncivilized' just because I'm comfortable.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: That"
+        },
+        {
+            "text": "It’s about standards. But you kids don't care about dignity anymore. Now, turn it back. Use the tines to push, don't scoop like a child.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Why is your 'English way' the only right way? Scooping is way more efficient for peas. We’re just arguing over a procedure that doesn't change how the food tastes.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: Why"
+        },
+        {
+            "text": "Efficiency is for the kitchen; elegance is for the table. I won't have you eating like an American tourist at my Sunday dinner. We are stopping the meal until you hold it correctly.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Um, I don't know, it's just how I eat. This is how you eat?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: Why is"
+        },
+        {
+            "text": "Yeah. No, no, no, no. Okay, okay. Like this. I like this, the fork this way. Why would you eat with the fork this way?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: Dis"
+        },
+        {
+            "text": "I don't know, because it's curved up.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No. Okay, okay, no. Let me show you. Okay. This is the English way of eating. Okay. Like this. Like this. Cut it like this. And you eat it like this. Not like this.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "instruction\n\nHistory:\nTurn: I don"
+        },
+        {
+            "text": "Okay, okay, okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You want to try?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "yes",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Mm-hmm. That's good. Mm-hmm. And now— oh, jump, jump, jump! Jump! Bring the arm in a bit. Bring the arm in a bit. Let me show you again.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Let me show you again. Like this. I'm so stressed. Straight, just straight, straight down. Like that. Mm-hmm.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\nstatement-non-opinion"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Cut. Straight up. Right. There you go, you're British.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "I'm British now!",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You're British! Sort of one.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: You'"
+        }
+    ]
+}

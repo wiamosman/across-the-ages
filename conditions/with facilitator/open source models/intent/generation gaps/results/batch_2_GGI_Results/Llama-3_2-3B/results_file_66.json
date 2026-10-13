@@ -1,0 +1,767 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 66,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandson): Hey Grandma, how's your day going?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandson): Hey Grandma, how's your day going?",
+      "target": "Target (grandmother): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandson): Hey Grandma, how's your day going? | Speaker B (grandmother): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+      "target": "Target (grandson): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandmother): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy. | Speaker B (grandson): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+      "target": "Target (grandmother): I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandson): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference? | Speaker B (grandmother): I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+      "target": "Target (grandson): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandmother): I think so! It keeps the clothes fresh. It's good to see you joining me today. | Speaker B (grandson): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+      "target": "Target (grandmother): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandson): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy? | Speaker B (grandmother): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+      "target": "Target (grandson): I see, maybe I should try it your way sometime. Thanks for the tip!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandmother): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful. | Speaker B (grandson): I see, maybe I should try it your way sometime. Thanks for the tip!",
+      "target": "Target (grandmother): Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandson): I see, maybe I should try it your way sometime. Thanks for the tip! | Speaker B (grandmother): Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+      "target": "Target (grandson): That's a good approach, Grandma. I guess being careful is always better.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandmother): Well, I suppose that's true! I do like to take my time and be careful on the road too. | Speaker B (grandson): That's a good approach, Grandma. I guess being careful is always better.",
+      "target": "Target (grandmother): Alright, I'll park right over there. Let me know if this spot works for you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandson): That's a good approach, Grandma. I guess being careful is always better. | Speaker B (grandmother): Alright, I'll park right over there. Let me know if this spot works for you.",
+      "target": "Target (grandson): Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandmother): Alright, I'll park right over there. Let me know if this spot works for you. | Speaker B (grandson): Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+      "target": "Target (grandmother): Oh yes, I remember you mentioned coming here. How is your art going these days?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandson): Yeah, this spot looks perfect. Thanks for driving us here, Grandma! | Speaker B (grandmother): Oh yes, I remember you mentioned coming here. How is your art going these days?",
+      "target": "Target (grandson): It's going really well! I've been working on a new piece that I'm really excited about.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): Oh yes, I remember you mentioned coming here. How is your art going these days? | Speaker B (grandson): It's going really well! I've been working on a new piece that I'm really excited about.",
+      "target": "Target (grandmother): I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandson): It's going really well! I've been working on a new piece that I'm really excited about. | Speaker B (grandmother): I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+      "target": "Target (grandson): I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandmother): I can't wait to see it! I'm glad we're parked safely and can chat for a bit. | Speaker B (grandson): I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+      "target": "Target (grandmother): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandson): I know, Grandma. You're a great driver! I'm just glad we're here safely. | Speaker B (grandmother): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+      "target": "Target (grandson): Yeah, that's right! It means having a lot of fun and getting really excited.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandmother): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right? | Speaker B (grandson): Yeah, that's right! It means having a lot of fun and getting really excited.",
+      "target": "Target (grandmother): Ah, I see! Thanks for keeping me updated with the latest lingo.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandson): Yeah, that's right! It means having a lot of fun and getting really excited. | Speaker B (grandmother): Ah, I see! Thanks for keeping me updated with the latest lingo.",
+      "target": "Target (grandson): No problem, Grandma! I'm always here to help you with that.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandmother): Ah, I see! Thanks for keeping me updated with the latest lingo. | Speaker B (grandson): No problem, Grandma! I'm always here to help you with that.",
+      "target": "Target (grandmother): Oh, I might need a little more practice to use 'turnt up' just right!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm always here to help you with that. | Speaker B (grandmother): Oh, I might need a little more practice to use 'turnt up' just right!",
+      "target": "Target (grandson): Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandmother): Oh, I might need a little more practice to use 'turnt up' just right! | Speaker B (grandson): Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+      "target": "Target (grandmother): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandson): Haha, you'll get the hang of it in no time! Let me know if you want to practice more. | Speaker B (grandmother): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+      "target": "Target (grandson): Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandmother): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying. | Speaker B (grandson): Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+      "target": "Target (grandmother): Alright, I'm ready for the challenge! Let's see how well I can guess.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandson): Sure thing, Grandma! How about we start with 'lit'? It's a fun one! | Speaker B (grandmother): Alright, I'm ready for the challenge! Let's see how well I can guess.",
+      "target": "Target (grandson): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandmother): Alright, I'm ready for the challenge! Let's see how well I can guess. | Speaker B (grandson): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+      "target": "Target (grandmother): Thank you, dear! I'm ready to learn and have some fun with this.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandson): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence? | Speaker B (grandmother): Thank you, dear! I'm ready to learn and have some fun with this.",
+      "target": "Target (grandson): Great! How about you try using 'lit' in a sentence now?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandmother): Thank you, dear! I'm ready to learn and have some fun with this. | Speaker B (grandson): Great! How about you try using 'lit' in a sentence now?",
+      "target": "Target (grandmother): Oh, is it like when we say something is 'bright' or 'dazzling'?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandson): Great! How about you try using 'lit' in a sentence now? | Speaker B (grandmother): Oh, is it like when we say something is 'bright' or 'dazzling'?",
+      "target": "Target (grandson): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandmother): Oh, is it like when we say something is 'bright' or 'dazzling'? | Speaker B (grandson): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+      "target": "Target (grandmother): Ah, so like a party that is full of life! Thank you for explaining it to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandson): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot? | Speaker B (grandmother): Ah, so like a party that is full of life! Thank you for explaining it to me.",
+      "target": "Target (grandson): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandmother): Ah, so like a party that is full of life! Thank you for explaining it to me. | Speaker B (grandson): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+      "target": "Target (grandmother): How about, 'This dinner is lit!' Did I do it right?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandson): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again? | Speaker B (grandmother): How about, 'This dinner is lit!' Did I do it right?",
+      "target": "Target (grandson): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandmother): How about, 'This dinner is lit!' Did I do it right? | Speaker B (grandson): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+      "target": "Target (grandmother): Oh, that would be wonderful! It's nice to share these moments together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandson): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one? | Speaker B (grandmother): Oh, that would be wonderful! It's nice to share these moments together.",
+      "target": "Target (grandson): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandmother): Oh, that would be wonderful! It's nice to share these moments together. | Speaker B (grandson): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+      "target": "Target (grandmother): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandson): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to? | Speaker B (grandmother): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+      "target": "Target (grandson): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandmother): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone. | Speaker B (grandson): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+      "target": "Target (grandmother): I appreciate that, dear. Family is important, and I appreciate your care.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandson): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen. | Speaker B (grandmother): I appreciate that, dear. Family is important, and I appreciate your care.",
+      "target": "Target (grandson): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandmother): I appreciate that, dear. Family is important, and I appreciate your care. | Speaker B (grandson): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+      "target": "Target (grandmother): Oh, that sounds like fun! I'm looking forward to our next visit.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandson): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help. | Speaker B (grandmother): Oh, that sounds like fun! I'm looking forward to our next visit.",
+      "target": "Target (grandson): I'm glad you're excited, Grandma! We can plan something special together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandmother): Oh, that sounds like fun! I'm looking forward to our next visit. | Speaker B (grandson): I'm glad you're excited, Grandma! We can plan something special together.",
+      "target": "Target (grandmother): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandson): I'm glad you're excited, Grandma! We can plan something special together. | Speaker B (grandmother): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+      "target": "Target (grandson): Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandmother): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting. | Speaker B (grandson): Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+      "target": "Target (grandmother): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandson): Exactly! Thanks for explaining that, Grandma! You're really keeping up. | Speaker B (grandmother): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+      "target": "Target (grandson): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandmother): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you. | Speaker B (grandson): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+      "target": "Target (grandmother): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandson): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together! | Speaker B (grandmother): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+      "target": "Target (grandson): Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandmother): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone. | Speaker B (grandson): Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+      "target": "Target (grandmother): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandson): Thanks for explaining that too! I guess I'm a stan of my favorite band then. | Speaker B (grandmother): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+      "target": "Target (grandson): Got it, thanks for clearing that up! I learn something new every day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandmother): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it? | Speaker B (grandson): Got it, thanks for clearing that up! I learn something new every day.",
+      "target": "Target (grandmother): Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandson): Got it, thanks for clearing that up! I learn something new every day. | Speaker B (grandmother): Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+      "target": "Target (grandson): You're doing great, Grandma! It's fun sharing these things with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandmother): Well, I might not know all the latest slang, but I'm always happy to learn from you! | Speaker B (grandson): You're doing great, Grandma! It's fun sharing these things with you.",
+      "target": "Target (grandmother): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandson): You're doing great, Grandma! It's fun sharing these things with you. | Speaker B (grandmother): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+      "target": "Target (grandson): That's interesting! I love learning these little quirks of language.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandmother): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word. | Speaker B (grandson): That's interesting! I love learning these little quirks of language.",
+      "target": "Target (grandmother): I think it's lovely how language can have so many fun variations like 'idear'.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandson): That's interesting! I love learning these little quirks of language. | Speaker B (grandmother): I think it's lovely how language can have so many fun variations like 'idear'.",
+      "target": "Target (grandson): Got it, Grandma! It's always fun to learn something new from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandmother): I think it's lovely how language can have so many fun variations like 'idear'. | Speaker B (grandson): Got it, Grandma! It's always fun to learn something new from you.",
+      "target": "Target (grandmother): Oh, that was such a fun day! I was so happy to see everyone together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandson): Got it, Grandma! It's always fun to learn something new from you. | Speaker B (grandmother): Oh, that was such a fun day! I was so happy to see everyone together.",
+      "target": "Target (grandson): It really was a great day! I'm glad we could all be together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandmother): Oh, that was such a fun day! I was so happy to see everyone together. | Speaker B (grandson): It really was a great day! I'm glad we could all be together.",
+      "target": "Target (grandmother): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandson): It really was a great day! I'm glad we could all be together. | Speaker B (grandmother): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+      "target": "Target (grandson): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandmother): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party. | Speaker B (grandson): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+      "target": "Target (grandmother): Well, I appreciate you being there with me that day. It was a memorable party!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandson): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time. | Speaker B (grandmother): Well, I appreciate you being there with me that day. It was a memorable party!",
+      "target": "Target (grandson): I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandmother): Well, I appreciate you being there with me that day. It was a memorable party! | Speaker B (grandson): I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+      "target": "Target (grandmother): I know, and I'm grateful we could share it. It was a day to remember!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandson): I'm really glad you enjoyed it, Grandma. It was a special day for all of us. | Speaker B (grandmother): I know, and I'm grateful we could share it. It was a day to remember!",
+      "target": "Target (grandson): It really was! I'm always here to spend time with you, Grandma.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandmother): I know, and I'm grateful we could share it. It was a day to remember! | Speaker B (grandson): It really was! I'm always here to spend time with you, Grandma.",
+      "target": "Target (grandmother): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (grandson): It really was! I'm always here to spend time with you, Grandma. | Speaker B (grandmother): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+      "target": "Target (grandson): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandmother): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself. | Speaker B (grandson): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+      "target": "Target (grandmother): And 'lit' is when something is really exciting! I'm starting to remember these.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (grandson): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters. | Speaker B (grandmother): And 'lit' is when something is really exciting! I'm starting to remember these.",
+      "target": "Target (grandson): Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandmother): And 'lit' is when something is really exciting! I'm starting to remember these. | Speaker B (grandson): Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+      "target": "Target (grandmother): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (grandson): Exactly, Grandma! It's great that you're keeping up with the new lingo. | Speaker B (grandmother): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+      "target": "Target (grandson): Absolutely, Grandma! It's all about having fun and making memories.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandmother): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life. | Speaker B (grandson): Absolutely, Grandma! It's all about having fun and making memories.",
+      "target": "Target (grandmother): Well, I'm glad to hear you think so! It's so important to cherish these times.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (grandson): Absolutely, Grandma! It's all about having fun and making memories. | Speaker B (grandmother): Well, I'm glad to hear you think so! It's so important to cherish these times.",
+      "target": "Target (grandson): Yeah, and it's even better when we can share those moments together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandmother): Well, I'm glad to hear you think so! It's so important to cherish these times. | Speaker B (grandson): Yeah, and it's even better when we can share those moments together!",
+      "target": "Target (grandmother): And 'shook' means you're really surprised, right? Like if I won the lottery!",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 72,
+      "context": "Speaker A (grandson): Yeah, and it's even better when we can share those moments together! | Speaker B (grandmother): And 'shook' means you're really surprised, right? Like if I won the lottery!",
+      "target": "Target (grandson): Haha, yeah, exactly! It's cool that you're keeping up with them.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 73,
+      "context": "Speaker A (grandmother): And 'shook' means you're really surprised, right? Like if I won the lottery! | Speaker B (grandson): Haha, yeah, exactly! It's cool that you're keeping up with them.",
+      "target": "Target (grandmother): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 74,
+      "context": "Speaker A (grandson): Haha, yeah, exactly! It's cool that you're keeping up with them. | Speaker B (grandmother): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+      "target": "Target (grandson): Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 75,
+      "context": "Speaker A (grandmother): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise. | Speaker B (grandson): Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+      "target": "Target (grandmother): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 76,
+      "context": "Speaker A (grandson): Yeah, surprises can be really fun! I'm glad you like learning these new words. | Speaker B (grandmother): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+      "target": "Target (grandson): That's a great explanation, Grandma! It's important to stay informed.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 77,
+      "context": "Speaker A (grandmother): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world. | Speaker B (grandson): That's a great explanation, Grandma! It's important to stay informed.",
+      "target": "Target (grandmother): Well, I try to understand the important issues, dear. It's always good to keep learning.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 78,
+      "context": "Speaker A (grandson): That's a great explanation, Grandma! It's important to stay informed. | Speaker B (grandmother): Well, I try to understand the important issues, dear. It's always good to keep learning.",
+      "target": "Target (grandson): You're right, Grandma. It's amazing how much there is to learn every day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 79,
+      "context": "Speaker A (grandmother): Well, I try to understand the important issues, dear. It's always good to keep learning. | Speaker B (grandson): You're right, Grandma. It's amazing how much there is to learn every day.",
+      "target": "Target (grandmother): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 80,
+      "context": "Speaker A (grandson): You're right, Grandma. It's amazing how much there is to learn every day. | Speaker B (grandmother): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+      "target": "Target (grandson): Exactly! Thanks for explaining that, Grandma. You've got it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 81,
+      "context": "Speaker A (grandmother): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather. | Speaker B (grandson): Exactly! Thanks for explaining that, Grandma. You've got it.",
+      "target": "Target (grandmother): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 82,
+      "context": "Speaker A (grandson): Exactly! Thanks for explaining that, Grandma. You've got it. | Speaker B (grandmother): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+      "target": "Target (grandson): Thanks, Grandma! I'll make sure to have a good time and be careful.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 83,
+      "context": "Speaker A (grandmother): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters. | Speaker B (grandson): Thanks, Grandma! I'll make sure to have a good time and be careful.",
+      "target": "Target (grandmother): It's always interesting to learn these new things from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 84,
+      "context": "Speaker A (grandson): Thanks, Grandma! I'll make sure to have a good time and be careful. | Speaker B (grandmother): It's always interesting to learn these new things from you.",
+      "target": "Target (grandson): I'm glad you think so, Grandma! I love sharing things with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 85,
+      "context": "Speaker A (grandmother): It's always interesting to learn these new things from you. | Speaker B (grandson): I'm glad you think so, Grandma! I love sharing things with you.",
+      "target": "Target (grandmother): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 86,
+      "context": "Speaker A (grandson): I'm glad you think so, Grandma! I love sharing things with you. | Speaker B (grandmother): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+      "target": "Target (grandson): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 87,
+      "context": "Speaker A (grandmother): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang. | Speaker B (grandson): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+      "target": "Target (grandmother): Yes, dear? Is there anything else you want to teach me?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 88,
+      "context": "Speaker A (grandson): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma. | Speaker B (grandmother): Yes, dear? Is there anything else you want to teach me?",
+      "target": "Target (grandson): Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 89,
+      "context": "Speaker A (grandmother): Yes, dear? Is there anything else you want to teach me? | Speaker B (grandson): Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+      "target": "Target (grandmother): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 90,
+      "context": "Speaker A (grandson): Thanks for always being so open to learning, Grandma. It makes our talks so much fun! | Speaker B (grandmother): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+      "target": "Target (grandson): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 91,
+      "context": "Speaker A (grandmother): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted! | Speaker B (grandson): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+      "target": "Target (grandmother): It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 92,
+      "context": "Speaker A (grandson): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma! | Speaker B (grandmother): It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+      "target": "Target (grandson): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 93,
+      "context": "Speaker A (grandmother): It's nice to learn about your world. It helps us stay connected, even with all these changes. | Speaker B (grandson): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+      "target": "Target (grandmother): I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 94,
+      "context": "Speaker A (grandson): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together! | Speaker B (grandmother): I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+      "target": "Target (grandson): You're welcome, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

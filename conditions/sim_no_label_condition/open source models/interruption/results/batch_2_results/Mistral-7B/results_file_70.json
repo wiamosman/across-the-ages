@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): There you go. And then this one you have to go— that's where you're going to have to, because I have long hands. Then you can go like that, and then I go with my other hand because you're going to go down one, but you're going to skip that one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother is providing a detailed explanation without interruption, making it a natural flow."
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): There you go. And then this one you have to go— that's where you're going to have to, because I have long hands. Then you can go like that, and then I go with my other hand because you're going to go down one, but you're going to skip that one.",
+    "target": "Speaker A (grandson) (Target): Okay. Wait, Grandma, look at this app on my iPad. It says the finger positioning for this jazz chord is different. See the little blue dots on the screen?",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence to show"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): There you go. And then this one you have to go— that's where you're going to have to, because I have long hands. Then you can go like that, and then I go with my other hand because you're going to go down one, but you're going to skip that one.\nSpeaker B (grandson): Okay. Wait, Grandma, look at this app on my iPad. It says the finger positioning for this jazz chord is different. See the little blue dots on the screen?",
+    "target": "Speaker A (grandmother) (Target): Blue dots? I can't see anything with that glare, honey. And why are you looking at a piece of glass to learn music? Music is in the fingers and the ears, not in a television you hold in your lap.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandmother interrupts her grandson while he was explaining something about"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Okay. Wait, Grandma, look at this app on my iPad. It says the finger positioning for this jazz chord is different. See the little blue dots on the screen?\nSpeaker B (grandmother): Blue dots? I can't see anything with that glare, honey. And why are you looking at a piece of glass to learn music? Music is in the fingers and the ears, not in a television you hold in your lap.",
+    "target": "Speaker A (grandson) (Target): It’s not a TV! It’s a diagram. It shows exactly which notes to hit. Hold on, the screen timed out... let me put my passcode in. One second.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): Blue dots? I can't see anything with that glare, honey. And why are you looking at a piece of glass to learn music? Music is in the fingers and the ears, not in a television you hold in your lap.\nSpeaker B (grandson): It’s not a TV! It’s a diagram. It shows exactly which notes to hit. Hold on, the screen timed out... let me put my passcode in. One second.",
+    "target": "Speaker A (grandmother) (Target): We're sitting here waiting on a code while the piano is sitting right here ready to be played. Put that thing on the floor. I’m trying to show you the movement, not a picture of it. Let me know when you're finished with your gadget.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson while he is explaining what the"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): It’s not a TV! It’s a diagram. It shows exactly which notes to hit. Hold on, the screen timed out... let me put my passcode in. One second.\nSpeaker B (grandmother): We're sitting here waiting on a code while the piano is sitting right here ready to be played. Put that thing on the floor. I’m trying to show you the movement, not a picture of it. Let me know when you're finished with your gadget.",
+    "target": "Speaker A (grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a standard backchannel indicating he is listening and will comply with his grandmother"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): We're sitting here waiting on a code while the piano is sitting right here ready to be played. Put that thing on the floor. I’m trying to show you the movement, not a picture of it. Let me know when you're finished with your gadget.\nSpeaker B (grandson): Okay.",
+    "target": "Speaker A (grandmother) (Target): And then skip one. Okay, let's see if you can do it. You did it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's utterance \"And then skip one. Okay, let's"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Okay.\nSpeaker B (grandmother): And then skip one. Okay, let's see if you can do it. You did it!",
+    "target": "Speaker A (grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandmother): And then skip one. Okay, let's see if you can do it. You did it!\nSpeaker B (grandson): Okay.",
+    "target": "Speaker A (grandfather) (Target): No, this one will have to go here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural turn in the conversation, as he is providing"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): Okay.\nSpeaker B (grandfather): No, this one will have to go here.",
+    "target": "Speaker A (grandson) (Target): Okay, so you were here. Bzzz, bzzz, bzzz.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandfather): No, this one will have to go here.\nSpeaker B (grandson): Okay, so you were here. Bzzz, bzzz, bzzz.",
+    "target": "Speaker A (grandmother) (Target): No, no, no. Go back there and then you're going to go this way. Now come back up. There you go! This one only stays for a minute. Then you skip one and you just go down one here. Okay, let's try it. No, right here. The G and the F. You'll see. One goes here. Remember what we do? We're gonna switch. There you go!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a natural flow as she is providing instructions and clarifications without interrupting the"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandson): Okay, so you were here. Bzzz, bzzz, bzzz.\nSpeaker B (grandmother): No, no, no. Go back there and then you're going to go this way. Now come back up. There you go! This one only stays for a minute. Then you skip one and you just go down one here. Okay, let's try it. No, right here. The G and the F. You'll see. One goes here. Remember what we do? We're gonna switch. There you go!",
+    "target": "Speaker A (grandson) (Target): All right! Okay, you ready?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's \"All right!\" and \"Okay, you ready?\" are backchannel"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandmother): No, no, no. Go back there and then you're going to go this way. Now come back up. There you go! This one only stays for a minute. Then you skip one and you just go down one here. Okay, let's try it. No, right here. The G and the F. You'll see. One goes here. Remember what we do? We're gonna switch. There you go!\nSpeaker B (grandson): All right! Okay, you ready?",
+    "target": "Speaker A (grandmother) (Target): Come back up one at a time. That's right. Skip on the right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a continuation of her previous instructions, and she fin"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandson): All right! Okay, you ready?\nSpeaker B (grandmother): Come back up one at a time. That's right. Skip on the right.",
+    "target": "Speaker A (grandfather) (Target): There you go. Go ahead, you did it. You can just keep doing that forever.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker B (grandmother): Come back up one at a time. That's right. Skip on the right.\nSpeaker B (grandfather): There you go. Go ahead, you did it. You can just keep doing that forever.",
+    "target": "Speaker A (grandson) (Target): Just repeat it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"Just repeat it?\" is a response to the instructions"
+  },
+  {
+    "index": 15,
+    "context": "Speaker B (grandfather): There you go. Go ahead, you did it. You can just keep doing that forever.\nSpeaker B (grandson): Just repeat it?",
+    "target": "Speaker A (grandmother) (Target): Okay, Ruby, go on to the next one. Skip one here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is a standard backchannel, acknowledging the grandfather's statement and encouraging the"
+  }
+]

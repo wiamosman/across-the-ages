@@ -1,0 +1,135 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 101,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Down here if you want to send her some. Down where? Right there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (Assuming the context refers to a physical location and there is no social friction or emotional"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Down here if you want to send her some. Down where? Right there.",
+            "target": "Target (grandmother): That little thing? Yep, hit it. Oh.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Down here if you want to send her some. Down where? Right there. | Speaker B (grandmother): That little thing? Yep, hit it. Oh.",
+            "target": "Target (granddaughter): Oh! Yay! Sending an email to someone. To, um—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are working together to help the grandmother learn how"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): That little thing? Yep, hit it. Oh. | Speaker B (granddaughter): Oh! Yay! Sending an email to someone. To, um—",
+            "target": "Target (grandmother): 'Cause my email changed.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Oh! Yay! Sending an email to someone. To, um— | Speaker B (grandmother): 'Cause my email changed.",
+            "target": "Target (granddaughter): No, she just is using the wrong email.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input (or method divergence, depending on the tone and context)"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): 'Cause my email changed. | Speaker B (granddaughter): No, she just is using the wrong email.",
+            "target": "Target (grandmother): Is that why I didn't get any messages?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): No, she just is using the wrong email. | Speaker B (grandmother): Is that why I didn't get any messages?",
+            "target": "Target (grandfather): If it's new, it'll have that blue dot next to it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence\n\n(Note: In this context, the grandfather is trying to help resolve the"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Is that why I didn't get any messages? | Speaker B (grandfather): If it's new, it'll have that blue dot next to it.",
+            "target": "Target (grandmother): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): If it's new, it'll have that blue dot next to it. | Speaker B (grandmother): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): I'll hire you as my secretary. You want to be my secretary?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, the grandmother is jokingly offering her granddaughter a position"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): I'll hire you as my secretary. You want to be my secretary?",
+            "target": "Target (granddaughter): Sure.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): I'll hire you as my secretary. You want to be my secretary? | Speaker B (granddaughter): Sure.",
+            "target": "Target (grandmother): Do you know how to do a group one?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (assuming \"group one\" refers to a specific office task or procedure)"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Sure. | Speaker B (grandmother): Do you know how to do a group one?",
+            "target": "Target (granddaughter): Group text?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\n(Assuming the conversation continued smoothly and without any tension or emotional resistance)"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Do you know how to do a group one? | Speaker B (granddaughter): Group text?",
+            "target": "Target (grandmother): Yeah, like you write it and it goes to 10 people.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Group text? | Speaker B (grandmother): Yeah, like you write it and it goes to 10 people.",
+            "target": "Target (granddaughter): Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Yeah, like you write it and it goes to 10 people. | Speaker B (granddaughter): Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+            "target": "Target (grandmother): I'm trying, but the screen keeps changing every time I touch it, it makes me nervous I'll delete something.",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        }
+    ]
+}

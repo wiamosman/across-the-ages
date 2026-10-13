@@ -1,0 +1,90 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "file_index": 13,
+  "utterances": [
+    {
+      "text": "Hello, my dear! How have you been doing lately?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nUtterance: I'm",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+      "golden": "greet",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful to hear! Is there anything exciting happening in your life right now?",
+      "golden": "praise",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n```python",
+      "status": "WRONG"
+    },
+    {
+      "text": "I'm glad to hear you're doing well! Is there anything you'd like to share or talk about?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! Well, I've been working on a big project for school that's been really interesting. It's about renewable energy. How about you? Anything new or exciting?",
+      "golden": "inform",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nThe utterance is",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, it seems like I might have misunderstood. Are you surprised by something specific happening in your life?",
+      "golden": "confirm",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n```python",
+      "status": "WRONG"
+    },
+    {
+      "text": "Not really surprised, just really interested in how renewable energy can change the future. It's been fascinating to learn about. How about you, Grandma? Anything new happening with you?",
+      "golden": "explain",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\nThe utterance is",
+      "status": "WRONG"
+    },
+    {
+      "text": "Hmm, I'm not quite sure what you mean by 'pour it', dear. Could you explain a bit more?",
+      "golden": "doubt",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "I might be a bit out of touch with the latest phrases. Are you talking about sharing something or expressing your feelings? I'd love to hear more!",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n\nUtter",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Oh, sorry for the confusion, Grandma! I meant to say I'm really interested in renewable energy and how it can impact our future. It's just something I've been reading about a lot lately. What about you? Have you been up to anything exciting?",
+      "golden": "apologize",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions\n\n\nUtter",
+      "status": "WRONG"
+    },
+    {
+      "text": "That's wonderful to hear, dear! I'm here to listen if you want to share anything. What's been making you happy lately?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\n```python\n{",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! Lately, I've been really enjoying my new hobby of painting. It's so relaxing and a great way to express myself. How about you? Have you picked up any new hobbies or interests?",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank\n\n\nUtterance: I",
+      "status": "WRONG"
+    }
+  ]
+}

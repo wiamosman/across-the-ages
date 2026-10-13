@@ -1,0 +1,48 @@
+model,file_index,file_name,turn_index,text,gold_label,predicted_label,error_type
+InternLM-2_5-7B,2,results_file_2.json,25,,none,ignored input,none → ignored input
+InternLM-2_5-7B,2,results_file_2.json,75,,none,method divergence,none → method divergence
+InternLM-2_5-7B,2,results_file_2.json,77,,none,method divergence,none → method divergence
+InternLM-2_5-7B,2,results_file_2.json,100,,none,method divergence,none → method divergence
+InternLM-2_5-7B,3,results_file_3.json,26,,none,method divergence,none → method divergence
+InternLM-2_5-7B,4,results_file_4.json,73,,none,slang mismatch,none → slang mismatch
+InternLM-2_5-7B,4,results_file_4.json,80,,none,ignored input,none → ignored input
+InternLM-2_5-7B,4,results_file_4.json,120,,none,stereotyped expectation,none → stereotyped expectation
+InternLM-2_5-7B,4,results_file_4.json,148,,none,ignored input,none → ignored input
+InternLM-2_5-7B,6,results_file_6.json,3,,none,method divergence,none → method divergence
+InternLM-2_5-7B,7,results_file_7.json,49,,none,ignored input,none → ignored input
+InternLM-2_5-7B,7,results_file_7.json,65,,none,method divergence,none → method divergence
+InternLM-2_5-7B,9,results_file_9.json,4,,none,ignored input,none → ignored input
+InternLM-2_5-7B,10,results_file_10.json,7,,none,ignored input,none → ignored input
+InternLM-2_5-7B,11,results_file_11.json,15,,none,method divergence,none → method divergence
+InternLM-2_5-7B,11,results_file_11.json,26,,none,method divergence,none → method divergence
+InternLM-2_5-7B,12,results_file_12.json,16,,none,method divergence,none → method divergence
+InternLM-2_5-7B,13,results_file_13.json,5,,none,method divergence,none → method divergence
+InternLM-2_5-7B,14,results_file_14.json,32,,none,method divergence,none → method divergence
+InternLM-2_5-7B,14,results_file_14.json,33,,none,method divergence,none → method divergence
+InternLM-2_5-7B,15,results_file_15.json,20,,none,method divergence,none → method divergence
+InternLM-2_5-7B,15,results_file_15.json,28,,none,method divergence,none → method divergence
+InternLM-2_5-7B,18,results_file_18.json,7,,none,method divergence,none → method divergence
+InternLM-2_5-7B,19,results_file_19.json,63,,none,method divergence,none → method divergence
+InternLM-2_5-7B,22,results_file_22.json,3,,none,slang mismatch,none → slang mismatch
+InternLM-2_5-7B,22,results_file_22.json,4,,none,method divergence,none → method divergence
+InternLM-2_5-7B,22,results_file_22.json,7,,none,method divergence,none → method divergence
+InternLM-2_5-7B,22,results_file_22.json,8,,none,method divergence,none → method divergence
+InternLM-2_5-7B,30,results_file_30.json,2,,slang mismatch,method divergence,slang mismatch → method divergence
+InternLM-2_5-7B,30,results_file_30.json,3,,none,slang mismatch,none → slang mismatch
+InternLM-2_5-7B,30,results_file_30.json,10,,none,method divergence,none → method divergence
+InternLM-2_5-7B,30,results_file_30.json,14,,slang mismatch,none,slang mismatch → none
+InternLM-2_5-7B,56,results_file_56.json,4,"Target (grandfather): A Pop It Troll? I'm not sure what that is, but it sounds interesting!",slang mismatch,none,slang mismatch → none
+InternLM-2_5-7B,58,results_file_58.json,46,Target (granddaughter): I'm excited! Let's start with the rhythmic section.,none,method divergence,none → method divergence
+InternLM-2_5-7B,63,results_file_63.json,58,"Target (grandson): Well, I was just thinking about how we can make this work better. Maybe we can try a different approach?",none,method divergence,none → method divergence
+InternLM-2_5-7B,71,results_file_71.json,54,"Target (grandfather): Hmm, I'm not sure what you mean by 'Shee' and 'Literally'. Could you explain?",slang mismatch,none,slang mismatch → none
+InternLM-2_5-7B,71,results_file_71.json,55,"Target (grandson): Oh, sure! 'Shee' is just a fun way to express excitement or surprise, and 'literally' is often used to emphasize something, even if it's not meant to be taken literally.",slang mismatch,none,slang mismatch → none
+InternLM-2_5-7B,79,results_file_79.json,87,"Target (grandfather): Well, sometimes using a fork helps me get a better sense of the texture and flavors. It's just a habit I've picked up over the years.",method divergence,none,method divergence → none
+InternLM-2_5-7B,93,results_file_93.json,109,"Target (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be?",none,method divergence,none → method divergence
+InternLM-2_5-7B,93,results_file_93.json,110,"Target (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",none,method divergence,none → method divergence
+InternLM-2_5-7B,93,results_file_93.json,158,"Target (grandfather): Ah, I see. Are you talking about the plot now or a different strategy?",none,method divergence,none → method divergence
+InternLM-2_5-7B,93,results_file_93.json,159,"Target (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",none,method divergence,none → method divergence
+InternLM-2_5-7B,93,results_file_93.json,160,"Target (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast?",none,method divergence,none → method divergence
+InternLM-2_5-7B,98,results_file_98.json,13,"Target (grandfather): Yes, the rook moves in straight lines, but it can go as far as it wants in those directions, not just three spaces.",none,method divergence,none → method divergence
+InternLM-2_5-7B,99,results_file_99.json,1,"Target (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",digital disparity,none,digital disparity → none
+InternLM-2_5-7B,100,results_file_100.json,83,Target (grandfather): You should only stop in a yellow box if your exit is clear and you won't block the intersection. It's important to keep the traffic flowing smoothly.,none,method divergence,none → method divergence
+InternLM-2_5-7B,100,results_file_100.json,84,"Target (grandson): I see, but sometimes it feels like there are too many rules to remember. Do you think it's getting a bit too much?",none,method divergence,none → method divergence

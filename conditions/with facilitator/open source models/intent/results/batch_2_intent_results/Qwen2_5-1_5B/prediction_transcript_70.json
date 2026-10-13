@@ -1,0 +1,103 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 70,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "chat"
+    },
+    {
+      "text": "Oh, I see! Technology is amazing these days. Can you show me how it works?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I understand now. Thank you for explaining, dear. Technology can be a bit tricky for me sometimes.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "apologize, thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+      "golden": "comfort",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Would you mind showing me again how to use that app? I want to learn.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+      "golden": "invite",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "Oh, that buzzing sound is quite interesting! What does it mean?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Yes, I'm ready! Thank you for being so patient with me.",
+      "golden": "thank",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm happy to help out.",
+      "golden": "thank",
+      "predicted": "apologise",
+      "raw": "apologize"
+    },
+    {
+      "text": "Yes, please! I want to make sure I understand it correctly.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    }
+  ]
+}

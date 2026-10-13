@@ -1,0 +1,127 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 84,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here.",
+            "target": "Target (grandfather): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): My sister just got her concrete done in her backyard. I'm with my Italian grandfather today, and he's going to check it out and see what he thinks. So it starts here. | Speaker B (grandfather): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why?",
+            "target": "Target (grandson): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Okay, first I'm going to check this. Oh no, you didn't dig deep enough. Oh yeah, the right depth. You know why? | Speaker B (grandson): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look.",
+            "target": "Target (grandfather): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Wait, Nonno, stand back a bit, the lighting is better over there. Look at the camera and say that again about the digging! My followers will love the 'expert' look. | Speaker B (grandfather): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam.",
+            "target": "Target (grandson): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): I am not talking to a camera, I am talking to the ground! You aren't hearing me. If the control joint isn't deep enough, the concrete decides its own path and cracks where it wants. Put the phone down and look at this seam. | Speaker B (grandson): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos.",
+            "target": "Target (grandfather): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): Yeah, yeah, cracks, I got it. But look at how smooth the finish is! That's the part that looks good in photos. | Speaker B (grandfather): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground?",
+            "target": "Target (grandson): Why?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): Stop. We are stopping right here. I don't care about the 'photo.' We stall the walk until you tell me what is underneath. If they didn't pack the dirt, this whole thing is a waste of money. Did they use the machine to hit the ground? | Speaker B (grandson): Why?",
+            "target": "Target (grandfather): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Why? | Speaker B (grandfather): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good.",
+            "target": "Target (grandson): It's a lot of cement. Look at him checking all them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): Because if they didn't cut deep enough, it's like if they did not cut it, and then it would crack someplace else. Yeah, yeah, it's good. | Speaker B (grandson): It's a lot of cement. Look at him checking all them.",
+            "target": "Target (grandfather): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): It's a lot of cement. Look at him checking all them. | Speaker B (grandfather): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it?",
+            "target": "Target (grandson): Oh yeah, lots of times.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): Yeah, yeah. Well, I gotta say they made a good job. So the cuts are good. Did they excavate the— Yep. Did they compact it? | Speaker B (grandson): Oh yeah, lots of times.",
+            "target": "Target (grandfather): Lots of times? Yeah, because otherwise water gets in. And would lift it up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Oh yeah, lots of times. | Speaker B (grandfather): Lots of times? Yeah, because otherwise water gets in. And would lift it up.",
+            "target": "Target (grandson): Yep. Everything. They packed more and more.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): Lots of times? Yeah, because otherwise water gets in. And would lift it up. | Speaker B (grandson): Yep. Everything. They packed more and more.",
+            "target": "Target (grandfather): Did they put some stone on top of it? That's good. That's where it's supposed to be. They must be Italians. Who else would do a good job like this?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): Yep. Everything. They packed more and more. | Speaker B (grandfather): Did they put some stone on top of it? That's good. That's where it's supposed to be. They must be Italians. Who else would do a good job like this?",
+            "target": "Target (grandson): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

@@ -1,0 +1,343 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 97,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That sounds interesting! What are you putting together?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "I'm setting up our chess board! I wanted to show you some moves I learned.",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Oh, chess! Are you learning new strategies or just playing for fun?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "I'm learning a few new strategies, Grandma. I'm really focused on this right now.",
+      "golden": "explain",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Ah, I see! Do you enjoy playing chess?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "I do enjoy playing chess a lot, and right now I'm really into learning this lesson.",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Oh, the castles! Are you setting up the board for a game?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, I'm setting up the rooks—or castles—to show you how they move.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Yes, the pawns are important too! Are you planning to play a game soon?",
+      "golden": "asking for opinions",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Exactly, the pawns start it off! I'm focused on showing you the opening first.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That sounds interesting! Are you going to try playing with both sets?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I'm using both the white and black sets to demonstrate how the pieces interact.",
+      "golden": "explain",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "That sounds like a fun challenge! Let me know how it goes with the different set.",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "encourage"
+    },
+    {
+      "text": "I'll show you how the different sets move. Can we look at the board together?",
+      "golden": "ask for help",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I see! Are you showing me the pieces you like best?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "I'm showing you the Queen first since she's the strongest. Can we focus on her?",
+      "golden": "explain",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "I'm glad you have favorites! Do you think you'll win with them?",
+      "golden": "asking for opinions",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "The Queen is definitely my favorite move-maker. Let's stick to her moves for now.",
+      "golden": "explain",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "I see, those must be special to you! Do you have a strategy in mind for using them?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "I'm using a special strategy called the Sicilian Defense. Can we look at it, please?",
+      "golden": "explain",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "That's great! I'm sure you'll do well with your moves. Let me know if you need any advice.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Thanks, Grandma. I just need to focus on this lesson right now. I'll ask if I need help.",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I see what you mean! Maybe I should try that next time. Thank you for the tip!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you understand, Grandma. Let's focus on the chess lesson for now.",
+      "golden": "plan",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Ah, I understand now. I'll try to remember that for next time. Thanks for explaining it to me!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandma! I'm here if you need more help with the rules later.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Got it, dear. I'll make sure to follow your advice next time. You're really good at this!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I'm just trying my best. Let me know if you want to play together later.",
+      "golden": "invite",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thank you for being so patient with me. I really appreciate your help!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always happy to help you out with the game.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I see! You're explaining it so well. I think I'm getting the hang of it now.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to hear that, Grandma! If you have any more questions about the pieces, just let me know.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "That's wonderful! You must have learned a lot from the teacher. I'm so proud of you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. It means a lot to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No worries, dear. We all forget sometimes. Let's just enjoy the moment.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Absolutely, Grandma! I'm just happy we can learn this lesson together.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see! I'll make sure to watch where the knight moves then. Thank you for guiding me.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm always here to help you with anything related to chess.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Alright, I'll give it a try. Let's see if I remember the moves correctly.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "You've got this, Grandma! I'm sure you'll do great with your opening.",
+      "golden": "encourage",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I see! Let's take it one step at a time. I'm sure I'll get the hang of it soon.",
+      "golden": "plan",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, just take it slow and you'll master the knight's move in no time!",
+      "golden": "encourage",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh dear, I think you mean a knight, not a horse. It's easy to mix them up!",
+      "golden": "explain",
+      "predicted": "unknown",
+      "raw": "correct"
+    },
+    {
+      "text": "Oh, right! Thanks for pointing that out, Grandma. I'll remember it's a knight next time.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's continue. I'll try to remember the pieces better this time.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great! Let's see if we can get through this lesson without any more mix-ups.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I understand, dear. Let's try it your way and see how it goes.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Sounds good, Grandma! I'm sure we'll have fun learning either way.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Alright, sweetheart, I hear you. Let's do it your way for the lesson. I'm sure it will turn out great.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Hey Grandma, I'm sure we'll have a blast with this game! Let's get started.",
+      "golden": "greet",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's a good choice, dear. Let's see how it works out.",
+      "golden": "agree",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm excited to see how it turns out! Let's get started!",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, let's see how your move changes the game. I'm excited to see what happens next!",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "I'm going to make my move now. I hope it surprises you!",
+      "golden": "plan",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    }
+  ]
+}

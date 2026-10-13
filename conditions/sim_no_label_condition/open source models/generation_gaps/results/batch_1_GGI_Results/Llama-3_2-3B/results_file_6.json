@@ -1,0 +1,55 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 6,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): what's your favorite childhood meal? mine is lawia. it's this delicious stew filled with vegetables and actually some fruit. my grandma tells me it's the paranaque recipe, which is the city i was born and raised in. when i went back home, this is what i requested. i just really love it. i figured it would be a good idea to learn how to make it myself. so i asked my grandma, can you show me how to make it? and so she did. do you want to learn too?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): what's your favorite childhood meal? mine is lawia. it's this delicious stew filled with vegetables and actually some fruit. my grandma tells me it's the paranaque recipe, which is the city i was born and raised in. when i went back home, this is what i requested. i just really love it. i figured it would be a good idea to learn how to make it myself. so i asked my grandma, can you show me how to make it? and so she did. do you want to learn too?",
+            "target": "Target (grandmother): this is kutchay, which u mixed it with lauya. all i know is that this is what you used it for i dont know what else its used for . but this is called kutsal. its already soft. first, you boil the pork. add enough water to cover the pork. after that, when it's boiling, don't let it boil because the scum will come out. cover the scum and put it in a cup. then, let it simmer. while it's simmering, mix the pork so it will be cooked.after , following this, the saba banana, what you call this?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): what's your favorite childhood meal? mine is lawia. it's this delicious stew filled with vegetables and actually some fruit. my grandma tells me it's the paranaque recipe, which is the city i was born and raised in. when i went back home, this is what i requested. i just really love it. i figured it would be a good idea to learn how to make it myself. so i asked my grandma, can you show me how to make it? and so she did. do you want to learn too? | Speaker B (grandmother): this is kutchay, which u mixed it with lauya. all i know is that this is what you used it for i dont know what else its used for . but this is called kutsal. its already soft. first, you boil the pork. add enough water to cover the pork. after that, when it's boiling, don't let it boil because the scum will come out. cover the scum and put it in a cup. then, let it simmer. while it's simmering, mix the pork so it will be cooked.after , following this, the saba banana, what you call this?",
+            "target": "Target (granddaughter): squash",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): this is kutchay, which u mixed it with lauya. all i know is that this is what you used it for i dont know what else its used for . but this is called kutsal. its already soft. first, you boil the pork. add enough water to cover the pork. after that, when it's boiling, don't let it boil because the scum will come out. cover the scum and put it in a cup. then, let it simmer. while it's simmering, mix the pork so it will be cooked.after , following this, the saba banana, what you call this? | Speaker B (granddaughter): squash",
+            "target": "Target (grandmother): squash then after it cabbage and bok choy but let the,what is called?cook first saba banana and this thing ,what its called?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): squash | Speaker B (grandmother): squash then after it cabbage and bok choy but let the,what is called?cook first saba banana and this thing ,what its called?",
+            "target": "Target (granddaughter): squash",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): squash then after it cabbage and bok choy but let the,what is called?cook first saba banana and this thing ,what its called? | Speaker B (granddaughter): squash",
+            "target": "Target (grandmother): ok squash , cooking is no joke you need to look after it so that the seasoning and food is delicious",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): squash | Speaker B (grandmother): ok squash , cooking is no joke you need to look after it so that the seasoning and food is delicious",
+            "target": "Target (grandmother): you will buy 10 eggsplants, wash them clean, and boil them while boiling the pork. then, you can boil them separately in water. you can choose between the two, so that you don't have to worry about it. just add it to the tender pork. then, check if the eggplant is cooked. then, take it out from the boiling water. put it on a plate. when it's cold, peel it. after peeling, put it in a cup. don't add the stem. just the part of the eggplant,remove the skin put it in a cup use a fork to press it and cut it like this this is how it will look like cut some garlic maybe if you know how to cook you can estimate the amount of garlic salt. and vinegar. mix it well. while you're mixing it, let it absorb the seasonings. taste it. if it's not enough, for example, if it's not good, what's not enough? if it's not enough vinegar, add another spoon of vinegar. salt, add more. don't put too much because it might change the taste. that's it. this is the process. you see? without this, lauya is not delicious. this is really lauya sauce. there. oh, it fell. it fell. i think i'm going to go move back to the kitchen now.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        }
+    ]
+}

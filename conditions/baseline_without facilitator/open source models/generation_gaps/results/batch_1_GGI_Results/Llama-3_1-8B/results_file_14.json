@@ -1,0 +1,251 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "file_index": 14,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): you don't need the phone because you're going to need your hands here, cora.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): you don't need the phone because you're going to need your hands here, cora.",
+            "target": "Target (grandson): all right.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): you don't need the phone because you're going to need your hands here, cora. | Speaker B (grandson): all right.",
+            "target": "Target (grandson): what do i do?.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): all right. | Speaker B (grandson): what do i do?.",
+            "target": "Target (grandmother): i'm going to tell you in a minute. you're going to squeeze out the salt from the potatoes when i'm ready.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): what do i do?. | Speaker B (grandmother): i'm going to tell you in a minute. you're going to squeeze out the salt from the potatoes when i'm ready.",
+            "target": "Target (grandson): any particular technique with what you're doing here?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): i'm going to tell you in a minute. you're going to squeeze out the salt from the potatoes when i'm ready. | Speaker B (grandson): any particular technique with what you're doing here?",
+            "target": "Target (grandmother): no. just fast.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): any particular technique with what you're doing here? | Speaker B (grandmother): no. just fast.",
+            "target": "Target (grandson): fast.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): no. just fast. | Speaker B (grandson): fast.",
+            "target": "Target (grandmother): your grandmother's very fast. and i don't use a big knife.  because i'm afraid of them. i had one like that, i cut my finger, i gave it to your father. with each batch of potato, you put up a cut up onion, because the onion, the onion stops the potato from turning black, and you're cooking with it anyway. you're gonna take the potato and cut them in little chunkies.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): fast. | Speaker B (grandmother): your grandmother's very fast. and i don't use a big knife.  because i'm afraid of them. i had one like that, i cut my finger, i gave it to your father. with each batch of potato, you put up a cut up onion, because the onion, the onion stops the potato from turning black, and you're cooking with it anyway. you're gonna take the potato and cut them in little chunkies.",
+            "target": "Target (grandson): little chunkies , is that an official chef de cuisine term?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): your grandmother's very fast. and i don't use a big knife.  because i'm afraid of them. i had one like that, i cut my finger, i gave it to your father. with each batch of potato, you put up a cut up onion, because the onion, the onion stops the potato from turning black, and you're cooking with it anyway. you're gonna take the potato and cut them in little chunkies. | Speaker B (grandson): little chunkies , is that an official chef de cuisine term?",
+            "target": "Target (grandmother): and only use peanut oil, because it tastes like crap otherwise.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): little chunkies , is that an official chef de cuisine term? | Speaker B (grandmother): and only use peanut oil, because it tastes like crap otherwise.",
+            "target": "Target (grandson): hhhhhhhh",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): and only use peanut oil, because it tastes like crap otherwise. | Speaker B (grandson): hhhhhhhh",
+            "target": "Target (grandmother): the oil has to be hot or the potatoes will stick to the pan. all right, here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): hhhhhhhh | Speaker B (grandmother): the oil has to be hot or the potatoes will stick to the pan. all right, here.",
+            "target": "Target (grandson): i can do that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): the oil has to be hot or the potatoes will stick to the pan. all right, here. | Speaker B (grandson): i can do that.",
+            "target": "Target (grandmother): all right, you can do this, look.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): i can do that. | Speaker B (grandmother): all right, you can do this, look.",
+            "target": "Target (grandson): okay, yeah. i can",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): all right, you can do this, look. | Speaker B (grandson): okay, yeah. i can",
+            "target": "Target (grandmother): put in a couple of onion. put the potatoes in.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): okay, yeah. i can | Speaker B (grandmother): put in a couple of onion. put the potatoes in.",
+            "target": "Target (grandson): all right, here we go.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): put in a couple of onion. put the potatoes in. | Speaker B (grandson): all right, here we go.",
+            "target": "Target (grandmother): no, no, not the onion. peck it with your hand. i don't want it too mushy. and take out any big chunks that didn't grind. no, with the spoon!",
+            "gold_label": "method divergence",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): all right, here we go. | Speaker B (grandmother): no, no, not the onion. peck it with your hand. i don't want it too mushy. and take out any big chunks that didn't grind. no, with the spoon!",
+            "target": "Target (grandson): i didn't hear that instruction.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): no, no, not the onion. peck it with your hand. i don't want it too mushy. and take out any big chunks that didn't grind. no, with the spoon! | Speaker B (grandson): i didn't hear that instruction.",
+            "target": "Target (grandmother): because you weren't listening. do it over here so you don't have two seams dirty.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): i didn't hear that instruction. | Speaker B (grandmother): because you weren't listening. do it over here so you don't have two seams dirty.",
+            "target": "Target (grandson): a lot of rules in this kitchen.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): because you weren't listening. do it over here so you don't have two seams dirty. | Speaker B (grandson): a lot of rules in this kitchen.",
+            "target": "Target (grandmother): yeah ! you dont have to do it here!look!",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): a lot of rules in this kitchen. | Speaker B (grandmother): yeah ! you dont have to do it here!look!",
+            "target": "Target (grandson): now you have potato all over the kitchen and your plants.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): yeah ! you dont have to do it here!look! | Speaker B (grandson): now you have potato all over the kitchen and your plants.",
+            "target": "Target (grandmother): i didn't normally. there is jewish expression called shugadine have you heard of this expression?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): now you have potato all over the kitchen and your plants. | Speaker B (grandmother): i didn't normally. there is jewish expression called shugadine have you heard of this expression?",
+            "target": "Target (grandson): suger dine?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): i didn't normally. there is jewish expression called shugadine have you heard of this expression? | Speaker B (grandson): suger dine?",
+            "target": "Target (grandmother): shugadine i dont know how to spell just use your eyes and figure it out!",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): suger dine? | Speaker B (grandmother): shugadine i dont know how to spell just use your eyes and figure it out!",
+            "target": "Target (grandson): hhhhhha are you gonna show us how to do this?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): shugadine i dont know how to spell just use your eyes and figure it out! | Speaker B (grandson): hhhhhha are you gonna show us how to do this?",
+            "target": "Target (grandmother): yeah here you go! come in!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): hhhhhha are you gonna show us how to do this? | Speaker B (grandmother): yeah here you go! come in!",
+            "target": "Target (grandson): okay, yeah. i can",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): yeah here you go! come in! | Speaker B (grandson): okay, yeah. i can",
+            "target": "Target (grandmother): no measuring.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): okay, yeah. i can | Speaker B (grandmother): no measuring.",
+            "target": "Target (grandson): what's that?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): no measuring. | Speaker B (grandson): what's that?",
+            "target": "Target (grandmother): white pepper.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): what's that? | Speaker B (grandmother): white pepper.",
+            "target": "Target (grandson): not black pepper?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): white pepper. | Speaker B (grandson): not black pepper?",
+            "target": "Target (grandmother): never when you cook. only when you cook gourmet food. only white pepper. chinese people don't use it.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): not black pepper? | Speaker B (grandmother): never when you cook. only when you cook gourmet food. only white pepper. chinese people don't use it.",
+            "target": "Target (grandson): is that right ? this one handed technique!!",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        }
+    ]
+}

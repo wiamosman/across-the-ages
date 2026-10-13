@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): Down here if you want to send her some. Down where? Right there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): Down here if you want to send her some. Down where? Right there.",
+    "target": "Speaker A (grandmother) (Target): That little thing? Yep, hit it. Oh.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): Down here if you want to send her some. Down where? Right there.\nSpeaker B (grandmother): That little thing? Yep, hit it. Oh.",
+    "target": "Speaker A (granddaughter) (Target): Oh! Yay! Sending an email to someone. To, um—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): That little thing? Yep, hit it. Oh.\nSpeaker B (granddaughter): Oh! Yay! Sending an email to someone. To, um—",
+    "target": "Speaker A (grandmother) (Target): 'Cause my email changed.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): Oh! Yay! Sending an email to someone. To, um—\nSpeaker B (grandmother): 'Cause my email changed.",
+    "target": "Speaker A (granddaughter) (Target): No, she just is using the wrong email.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): 'Cause my email changed.\nSpeaker B (granddaughter): No, she just is using the wrong email.",
+    "target": "Speaker A (grandmother) (Target): Is that why I didn't get any messages?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (granddaughter): No, she just is using the wrong email.\nSpeaker B (grandmother): Is that why I didn't get any messages?",
+    "target": "Speaker A (grandfather) (Target): If it's new, it'll have that blue dot next to it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Is that why I didn't get any messages?\nSpeaker B (grandfather): If it's new, it'll have that blue dot next to it.",
+    "target": "Speaker A (grandmother) (Target): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandfather): If it's new, it'll have that blue dot next to it.\nSpeaker B (grandmother): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+    "target": "Speaker A (granddaughter) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.\nSpeaker B (granddaughter): Okay.",
+    "target": "Speaker A (grandmother) (Target): I'll hire you as my secretary. You want to be my secretary?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): Okay.\nSpeaker B (grandmother): I'll hire you as my secretary. You want to be my secretary?",
+    "target": "Speaker A (granddaughter) (Target): Sure.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): I'll hire you as my secretary. You want to be my secretary?\nSpeaker B (granddaughter): Sure.",
+    "target": "Speaker A (grandmother) (Target): Do you know how to do a group one?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): Sure.\nSpeaker B (grandmother): Do you know how to do a group one?",
+    "target": "Speaker A (granddaughter) (Target): Group text?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Do you know how to do a group one?\nSpeaker B (granddaughter): Group text?",
+    "target": "Speaker A (grandmother) (Target): Yeah, like you write it and it goes to 10 people.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): Group text?\nSpeaker B (grandmother): Yeah, like you write it and it goes to 10 people.",
+    "target": "Speaker A (granddaughter) (Target): Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): Yeah, like you write it and it goes to 10 people.\nSpeaker B (granddaughter): Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+    "target": "Speaker A (grandmother) (Target): I'm trying, but the screen keeps changing every time I touch it, it makes me nervous I'll delete something.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

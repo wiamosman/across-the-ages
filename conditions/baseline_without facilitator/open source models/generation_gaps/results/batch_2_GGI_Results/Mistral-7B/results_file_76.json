@@ -1,0 +1,111 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 76,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): I just moved to Nashville and look who came to visit me. She said that I'm going to starve to death down here if I don't learn how to cook. So today we're going to learn how to fix cornbread. What's the most important step?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\n(Assuming the conversation starts with the target's statement and not a previous context"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): I just moved to Nashville and look who came to visit me. She said that I'm going to starve to death down here if I don't learn how to cook. So today we're going to learn how to fix cornbread. What's the most important step?",
+            "target": "Target (grandmother): Follow the directions.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, the grandmother is providing advice and guidance, which is a cooperative"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): I just moved to Nashville and look who came to visit me. She said that I'm going to starve to death down here if I don't learn how to cook. So today we're going to learn how to fix cornbread. What's the most important step? | Speaker B (grandmother): Follow the directions.",
+            "target": "Target (grandson): The directions?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The grandson"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Follow the directions. | Speaker B (grandson): The directions?",
+            "target": "Target (grandmother): Yeah, you can read, can't you?",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): The directions? | Speaker B (grandmother): Yeah, you can read, can't you?",
+            "target": "Target (grandson): Well yeah, I can read, man. Got our egg and our milk. Let's take a big old sip of that egg, girl.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange is playful and does not indicate any social friction or emotional resistance.)"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Yeah, you can read, can't you? | Speaker B (grandson): Well yeah, I can read, man. Got our egg and our milk. Let's take a big old sip of that egg, girl.",
+            "target": "Target (grandmother): When you break an egg, if it's a farm fresh egg, you always want to break it in a cup because if you don't, it could be bad because hens don't know to get off of them. They think they're their babies. I got some. There's your pro chicken tip there, young man Roberts.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): Well yeah, I can read, man. Got our egg and our milk. Let's take a big old sip of that egg, girl. | Speaker B (grandmother): When you break an egg, if it's a farm fresh egg, you always want to break it in a cup because if you don't, it could be bad because hens don't know to get off of them. They think they're their babies. I got some. There's your pro chicken tip there, young man Roberts.",
+            "target": "Target (grandson): Now, wait a second. I saw this chef online say that the secret to the best Nashville cornbread is a big spoonful of white sugar in the batter. Let's get that in there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (or none, depending on the tone and attitude of the conversation)"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): When you break an egg, if it's a farm fresh egg, you always want to break it in a cup because if you don't, it could be bad because hens don't know to get off of them. They think they're their babies. I got some. There's your pro chicken tip there, young man Roberts. | Speaker B (grandson): Now, wait a second. I saw this chef online say that the secret to the best Nashville cornbread is a big spoonful of white sugar in the batter. Let's get that in there.",
+            "target": "Target (grandmother): Put that spoon down. We are not making cake, we are making cornbread. If you put sugar in that bowl, I am walking out of this kitchen right now and you can starve in peace.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Now, wait a second. I saw this chef online say that the secret to the best Nashville cornbread is a big spoonful of white sugar in the batter. Let's get that in there. | Speaker B (grandmother): Put that spoon down. We are not making cake, we are making cornbread. If you put sugar in that bowl, I am walking out of this kitchen right now and you can starve in peace.",
+            "target": "Target (grandson): But Grandma, it balances the salt! It's the new way of doing it for the vlog.",
+            "gold_label": "method divergence",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect / method divergence\n\nExplanation: In this context, the grandson"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Put that spoon down. We are not making cake, we are making cornbread. If you put sugar in that bowl, I am walking out of this kitchen right now and you can starve in peace. | Speaker B (grandson): But Grandma, it balances the salt! It's the new way of doing it for the vlog.",
+            "target": "Target (grandmother): I don't care about a 'vlog.' I care about your soul. We are going to sit here and stare at this batter until you realize that sugar has no business in a skillet. I'm waiting. You want to cook, or you want to play?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "method divergence and perceived disrespect (method divergence for the disagreement on adding sugar to cor"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): But Grandma, it balances the salt! It's the new way of doing it for the vlog. | Speaker B (grandmother): I don't care about a 'vlog.' I care about your soul. We are going to sit here and stare at this batter until you realize that sugar has no business in a skillet. I'm waiting. You want to cook, or you want to play?",
+            "target": "Target (grandson): All right, I got my batter in here. Now I'm going to put some pepper in here. What do you think? How do you think it's going to taste, man?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (This conversation shows a disagreement on the procedure for cooking, but it doesn'"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): I don't care about a 'vlog.' I care about your soul. We are going to sit here and stare at this batter until you realize that sugar has no business in a skillet. I'm waiting. You want to cook, or you want to play? | Speaker B (grandson): All right, I got my batter in here. Now I'm going to put some pepper in here. What do you think? How do you think it's going to taste, man?",
+            "target": "Target (grandmother): Mm, good. Okay. Mm, here, try that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The grandmother may"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): All right, I got my batter in here. Now I'm going to put some pepper in here. What do you think? How do you think it's going to taste, man? | Speaker B (grandmother): Mm, good. Okay. Mm, here, try that.",
+            "target": "Target (grandson): Oh, oh, that's good. I don't think I'm going to be starving now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+    "target": "Speaker A (grandfather) (Target): yes i see",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.\nSpeaker B (grandfather): yes i see",
+    "target": "Speaker A (grandson) (Target): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): yes i see\nSpeaker B (grandson): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+    "target": "Speaker A (grandfather) (Target): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.\nSpeaker B (grandfather): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+    "target": "Speaker A (grandson) (Target): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.\nSpeaker B (grandson): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+    "target": "Speaker A (grandfather) (Target): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.\nSpeaker B (grandfather): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+    "target": "Speaker A (grandson) (Target): Them spark plugs go out though.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.\nSpeaker B (grandson): Them spark plugs go out though.",
+    "target": "Speaker A (grandfather) (Target): Yeah,",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Them spark plugs go out though.\nSpeaker B (grandfather): Yeah,",
+    "target": "Speaker A (grandson) (Target): this thing went I ain't know they wear out bad.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Yeah,\nSpeaker B (grandson): this thing went I ain't know they wear out bad.",
+    "target": "Speaker A (grandfather) (Target): Yeah, sad",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): this thing went I ain't know they wear out bad.\nSpeaker B (grandfather): Yeah, sad",
+    "target": "Speaker A (grandson) (Target): They keep it from firing, right? yes , now i need to sit here .. alright!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker B (grandfather): Yeah, sad\nSpeaker A (grandson): They keep it from firing, right? yes , now i need to sit here .. alright!",
+    "target": "Speaker A (grandson) (Target): Ain't got nothing to fire on.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker B (grandson): They keep it from firing, right? yes , now i need to sit here .. alright!\nSpeaker B (grandson): Ain't got nothing to fire on.",
+    "target": "Speaker A (grandfather) (Target): it will be solved no worries!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

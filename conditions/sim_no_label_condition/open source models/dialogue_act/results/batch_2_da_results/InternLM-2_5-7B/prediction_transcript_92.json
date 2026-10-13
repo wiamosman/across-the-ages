@@ -1,0 +1,205 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 92,
+    "utterances": [
+        {
+            "text": "Let's go straight up. It's okay. This particular session allows F-bombs. Slide right up. The car's not starting.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Fuck! Sorry. Excuse my language. Whoa! Hansie. Yes, it is. The car's on. Hansie, shift the gears. I don't know how to do it.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Don't say that.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "It's freaking me out. I'm trying to find the bite point so I can just send it, you know? Like, clutch up and go.",
+            "golden": "statement-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Send what? Where are you sending it? And what is 'clutching up'? Speak English, Hansie. You're trying to drive a car, not launch a rocket.",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "It’s just how people talk about manual now! I saw this reel where you just pop the clutch and floor it to get moving quickly. It's way more efficient.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "No, that is the wrong way to do it. You don't 'pop' anything in my car. We are arguing over the procedure instead of driving. I’m telling you: slow release. Your 'modern' way is going to leave my transmission on the pavement.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Give me a break, it's just a different method! Everyone does it like that now.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Give yourself some gas, Hansie. You're not. I don't hear it revved up at all. Yes, I am. You're flooring it. You're in a world of— Release the left foot clutch.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I am. I'm flooring it. Oh.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah. Well, don't say things like that. Just say okay. Okay. Yeah.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "Okay, that would have been nice to know. Foot is all the way down.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You— if it was all the way down, you know what you would hear? You'd hear a— whoa! That's okay, that gives you an idea. First gear, straight up. No, not reverse. It doesn't go straight up. Oh, okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "It does go straight up. Fuck! That was good. That was good. Oh, oh. Fuck!",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Good. That's not so good. You are in gear.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Whoa. This is a nice view, but we could probably seek out something a little nicer. This is so hard.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "No, it's not so hard.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes, it is.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Now, Hans, now you're in neutral. Okay, ready? Yeah. Okay, now we're cooking. Foot on the accelerator. Put on the— I hate it! No, look at— Is that the way you address certain challenging aspects of your life?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "No!",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "After 10 minutes you said, you know, I hate it.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'm scared I'm gonna mess up your car.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, you're not. Hunty, there's no problem on the first gear.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "But do I accelerate right now? And then accelerate right away?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "No. Just go into first gear. Just go into first gear very slow. Put up the convertible.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "the view is soo good!",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You know what, we're not enjoying the niceties of this car until— We're comfortable.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I'm so hot. I'm baking in the sun.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Well then, you know what, start the car. Gives you an idea.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay. It's so bumpy. Why is it so bumpy?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Right now. You're not getting another treat besides side door —side window. Put on the clutch. Don't forget. Sure don't forget. No air phones allowed. You need to give it enough gas.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay! Okay, okay. Oh my God! I know. Yeah.",
+            "golden": "backchannel",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "So you just turned it off now. So are you doing some introspection?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

@@ -1,0 +1,1192 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandchild) (Target): Look at that. What are you doing Nono?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandchild): Look at that. What are you doing Nono?",
+    "target": "Speaker A (grandfather) (Target): I got to smash this. That's cottage cheese. But before I do, I have to taste it, see if it's fresh or not. Oooh",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandchild): Look at that. What are you doing Nono?\nSpeaker B (grandfather): I got to smash this. That's cottage cheese. But before I do, I have to taste it, see if it's fresh or not. Oooh",
+    "target": "Speaker A (grandchild) (Target): Is it good?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): I got to smash this. That's cottage cheese. But before I do, I have to taste it, see if it's fresh or not. Oooh\nSpeaker B (grandchild): Is it good?",
+    "target": "Speaker A (grandfather) (Target): What is it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker B (grandchild): Is it good?\nSpeaker B (grandfather): What is it?",
+    "target": "Speaker A (parent) (Target): It's ricotta.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): What is it?\nSpeaker B (parent): It's ricotta.",
+    "target": "Speaker A (grandfather) (Target): Well, ricotta, it's not the cheese.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (parent): It's ricotta.\nSpeaker B (grandfather): Well, ricotta, it's not the cheese.",
+    "target": "Speaker A (grandchild) (Target): It's very similar.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker B (grandfather): Well, ricotta, it's not the cheese.\nSpeaker B (grandchild): It's very similar.",
+    "target": "Speaker A (parent) (Target): No. it is not ",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandchild): It's very similar.\nSpeaker B (parent): No. it is not",
+    "target": "Speaker A (grandfather) (Target): Well, I learned something new.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (parent): No. it is not \nSpeaker B (grandfather): Well, I learned something new.",
+    "target": "Speaker A (parent) (Target): Mash it with this. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandfather): Well, I learned something new.\nSpeaker B (parent): Mash it with this. Okay.",
+    "target": "Speaker A (grandfather) (Target): Okay. Here. Ricotta, cottage cheese.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (parent): Mash it with this. Okay.\nSpeaker B (grandfather): Okay. Here. Ricotta, cottage cheese.",
+    "target": "Speaker A (parent) (Target): No, it's different.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker B (grandfather): Okay. Here. Ricotta, cottage cheese.\nSpeaker B (parent): No, it's different.",
+    "target": "Speaker A (grandmother) (Target): I didn't know that. I learned everything. Every, every day I learned something new.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (parent): No, it's different.\nSpeaker B (grandmother): I didn't know that. I learned everything. Every, every day I learned something new.",
+    "target": "Speaker A (grandchild) (Target): Hey, Nona, what are you making today?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandmother): I didn't know that. I learned everything. Every, every day I learned something new.\nSpeaker B (grandchild): Hey, Nona, what are you making today?",
+    "target": "Speaker A (grandmother) (Target): Grape with ricotta.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandchild): Hey, Nona, what are you making today?\nSpeaker B (grandmother): Grape with ricotta.",
+    "target": "Speaker A (grandchild) (Target): Oh, sounds good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandmother): Grape with ricotta.\nSpeaker B (grandchild): Oh, sounds good.",
+    "target": "Speaker A (grandmother) (Target): We're going to show you what we're going to put. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandchild): Oh, sounds good.\nSpeaker B (grandmother): We're going to show you what we're going to put. Okay.",
+    "target": "Speaker A (grandchild) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandmother): We're going to show you what we're going to put. Okay.\nSpeaker B (grandchild): Yeah.",
+    "target": "Speaker A (grandmother) (Target): Four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandchild): Yeah.\nSpeaker B (grandmother): Four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. Okay.",
+    "target": "Speaker A (grandchild) (Target): Here's the ricotta.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandmother): Four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. Okay.\nSpeaker B (grandchild): Here's the ricotta.",
+    "target": "Speaker A (grandmother) (Target): That's ricotta.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandchild): Here's the ricotta.\nSpeaker B (grandmother): That's ricotta.",
+    "target": "Speaker A (grandchild) (Target): So what's that, petrosina? Yep, she calls it petrosina.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandmother): That's ricotta.\nSpeaker B (grandchild): So what's that, petrosina? Yep, she calls it petrosina.",
+    "target": "Speaker A (grandmother) (Target): Petrosidola. I cannot pronounce it better than that. Oh, my God. Pretty soon I cannot speak English or Italian.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandchild): So what's that, petrosina? Yep, she calls it petrosina.\nSpeaker B (grandmother): Petrosidola. I cannot pronounce it better than that. Oh, my God. Pretty soon I cannot speak English or Italian.",
+    "target": "Speaker A (grandchild) (Target): Max, what are you doing? This is Max's comfortable stance when you pick him up. Max, what are you doing?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandmother): Petrosidola. I cannot pronounce it better than that. Oh, my God. Pretty soon I cannot speak English or Italian.\nSpeaker B (grandchild): Max, what are you doing? This is Max's comfortable stance when you pick him up. Max, what are you doing?",
+    "target": "Speaker A (grandmother) (Target): I'm just gonna put a bit salt.Okay ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandchild): Max, what are you doing? This is Max's comfortable stance when you pick him up. Max, what are you doing?\nSpeaker B (grandmother): I'm just gonna put a bit salt.Okay",
+    "target": "Speaker A (grandchild) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandmother): I'm just gonna put a bit salt.Okay \nSpeaker B (grandchild): Okay.",
+    "target": "Speaker A (grandmother) (Target): And a bit black peppers and...",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandchild): Okay.\nSpeaker B (grandmother): And a bit black peppers and...",
+    "target": "Speaker A (grandchild) (Target): Parsley.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandmother): And a bit black peppers and...\nSpeaker B (grandchild): Parsley.",
+    "target": "Speaker A (grandmother) (Target): Yeah. Okay, now I'm gonna put two eggs inside some parmesan cheese and I'm gonna put mozzarella.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandchild): Parsley.\nSpeaker B (grandmother): Yeah. Okay, now I'm gonna put two eggs inside some parmesan cheese and I'm gonna put mozzarella.",
+    "target": "Speaker A (grandchild) (Target): Two different kinds of cheeses?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandmother): Yeah. Okay, now I'm gonna put two eggs inside some parmesan cheese and I'm gonna put mozzarella.\nSpeaker B (grandchild): Two different kinds of cheeses?",
+    "target": "Speaker A (grandmother) (Target): Yeah, mozzarella and parmesan cheese. And I'm gonna mix it. I love the Romano cheese ricotto. Just make it soft.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandchild): Two different kinds of cheeses?\nSpeaker B (grandmother): Yeah, mozzarella and parmesan cheese. And I'm gonna mix it. I love the Romano cheese ricotto. Just make it soft.",
+    "target": "Speaker A (grandchild) (Target): How smooth do you want it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandmother): Yeah, mozzarella and parmesan cheese. And I'm gonna mix it. I love the Romano cheese ricotto. Just make it soft.\nSpeaker B (grandchild): How smooth do you want it?",
+    "target": "Speaker A (grandmother) (Target): Well, it looks pretty good to me. It can be a little bit hard because I put mozzarella on it. I'm making it better now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandchild): How smooth do you want it?\nSpeaker B (grandmother): Well, it looks pretty good to me. It can be a little bit hard because I put mozzarella on it. I'm making it better now.",
+    "target": "Speaker A (grandchild) (Target): Okay, Okay, I....",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandmother): Well, it looks pretty good to me. It can be a little bit hard because I put mozzarella on it. I'm making it better now.\nSpeaker B (grandchild): Okay, Okay, I....",
+    "target": "Speaker A (grandmother) (Target): Okay. I got two cup of flour. I call them flowers.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandchild): Okay, Okay, I....\nSpeaker B (grandmother): Okay. I got two cup of flour. I call them flowers.",
+    "target": "Speaker A (grandchild) (Target): Two cups of flours?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandmother): Okay. I got two cup of flour. I call them flowers.\nSpeaker B (grandchild): Two cups of flours?",
+    "target": "Speaker A (grandmother) (Target): Yeah. I got four eggs, two spoon of butter burro.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandchild): Two cups of flours?\nSpeaker B (grandmother): Yeah. I got four eggs, two spoon of butter burro.",
+    "target": "Speaker A (grandchild) (Target): Three tablespoons of butter.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker B (grandmother): Yeah. I got four eggs, two spoon of butter burro.\nSpeaker A (grandchild): Three tablespoons of butter.",
+    "target": "Speaker A (grandchild) (Target): Two tablespoons. This is not a true tablespoon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandchild): Three tablespoons of butter.\nSpeaker A (grandchild): Two tablespoons. This is not a true tablespoon.",
+    "target": "Speaker A (grandchild) (Target): How much milk, Nona?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandchild): Two tablespoons. This is not a true tablespoon.\nSpeaker A (grandchild): How much milk, Nona?",
+    "target": "Speaker A (grandchild) (Target): It was two and a half cups of milk.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker B (grandchild): How much milk, Nona?\nSpeaker B (grandchild): It was two and a half cups of milk.",
+    "target": "Speaker A (grandmother) (Target): Oh, my God. alot",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandchild): It was two and a half cups of milk.\nSpeaker B (grandmother): Oh, my God. alot",
+    "target": "Speaker A (grandchild) (Target): Pinch of salt.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandmother): Oh, my God. alot\nSpeaker B (grandchild): Pinch of salt.",
+    "target": "Speaker A (grandmother) (Target): I said I made them nice and smooth.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandchild): Pinch of salt.\nSpeaker B (grandmother): I said I made them nice and smooth.",
+    "target": "Speaker A (grandchild) (Target): How is the spicy Nona coming out?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandmother): I said I made them nice and smooth.\nSpeaker B (grandchild): How is the spicy Nona coming out?",
+    "target": "Speaker A (grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandchild): How is the spicy Nona coming out?\nSpeaker B (grandmother): Okay.",
+    "target": "Speaker A (grandchild) (Target): Do you have butter or olive oil in the pan?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandmother): Okay.\nSpeaker B (grandchild): Do you have butter or olive oil in the pan?",
+    "target": "Speaker A (grandmother) (Target): Butter. And I just use my hands to flip it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandchild): Do you have butter or olive oil in the pan?\nSpeaker B (grandmother): Butter. And I just use my hands to flip it.",
+    "target": "Speaker A (grandchild) (Target): Look at that. Oh, wow. Max, say hi to everybody.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandmother): Butter. And I just use my hands to flip it.\nSpeaker B (grandchild): Look at that. Oh, wow. Max, say hi to everybody.",
+    "target": "Speaker A (grandmother) (Target): My beautiful little puppy. Yes, you are. Yes, you are. Okay. You only want food for me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandchild): Look at that. Oh, wow. Max, say hi to everybody.\nSpeaker B (grandmother): My beautiful little puppy. Yes, you are. Yes, you are. Okay. You only want food for me?",
+    "target": "Speaker A (grandchild) (Target): Yep. He loves his food. So these are like lunch dinner crepes. Yeah. Next time we can make dessert crepes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandmother): My beautiful little puppy. Yes, you are. Yes, you are. Okay. You only want food for me?\nSpeaker B (grandchild): Yep. He loves his food. So these are like lunch dinner crepes. Yeah. Next time we can make dessert crepes.",
+    "target": "Speaker A (grandmother) (Target): Yeah, yeah. That's right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker B (grandchild): Yep. He loves his food. So these are like lunch dinner crepes. Yeah. Next time we can make dessert crepes.\nSpeaker B (grandmother): Yeah, yeah. That's right.",
+    "target": "Speaker A (parent) (Target): With a cream cheese and strawberry mixture.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandmother): Yeah, yeah. That's right.\nSpeaker B (parent): With a cream cheese and strawberry mixture.",
+    "target": "Speaker A (grandmother) (Target): I'm gonna put sauce in the pan. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker B (parent): With a cream cheese and strawberry mixture.\nSpeaker B (grandmother): I'm gonna put sauce in the pan. Okay.",
+    "target": "Speaker A (grandchild) (Target): That's your meat sauce.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandmother): I'm gonna put sauce in the pan. Okay.\nSpeaker B (grandchild): That's your meat sauce.",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandchild): That's your meat sauce.\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (grandchild) (Target): So two of these?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandmother): Yeah.\nSpeaker B (grandchild): So two of these?",
+    "target": "Speaker A (grandmother) (Target): Yep.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandchild): So two of these?\nSpeaker B (grandmother): Yep.",
+    "target": "Speaker A (grandchild) (Target): More than two.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandmother): Yep.\nSpeaker B (grandchild): More than two.",
+    "target": "Speaker A (grandmother) (Target): No No No No No No That's way, way too much.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandchild): More than two.\nSpeaker B (grandmother): No No No No No No That's way, way too much.",
+    "target": "Speaker A (grandchild) (Target): No, it's not.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandmother): No No No No No No That's way, way too much.\nSpeaker B (grandchild): No, it's not.",
+    "target": "Speaker A (grandmother) (Target): Oh, my God.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandchild): No, it's not.\nSpeaker B (grandmother): Oh, my God.",
+    "target": "Speaker A (grandchild) (Target): Forget about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandmother): Oh, my God.\nSpeaker B (grandchild): Forget about it.",
+    "target": "Speaker A (grandmother) (Target): Hhhhh Forget about it? Okay, then squeeze it. Squeeze on your end.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandchild): Forget about it.\nSpeaker B (grandmother): Hhhhh Forget about it? Okay, then squeeze it. Squeeze on your end.",
+    "target": "Speaker A (grandchild) (Target): I am squeezing it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandmother): Hhhhh Forget about it? Okay, then squeeze it. Squeeze on your end.\nSpeaker B (grandchild): I am squeezing it.",
+    "target": "Speaker A (grandmother) (Target): Okay. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandchild): I am squeezing it.\nSpeaker B (grandmother): Okay. Okay.",
+    "target": "Speaker A (grandchild) (Target): Is that too fat?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker B (grandmother): Okay. Okay.\nSpeaker A (grandchild): Is that too fat?",
+    "target": "Speaker A (grandchild) (Target): No. Is it going to fit the end there?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandchild): Is that too fat?\nSpeaker A (grandchild): No. Is it going to fit the end there?",
+    "target": "Speaker A (grandchild) (Target): Oh, yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker B (grandchild): No. Is it going to fit the end there?\nSpeaker B (grandchild): Oh, yeah.",
+    "target": "Speaker A (grandmother) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandchild): Oh, yeah.\nSpeaker B (grandmother): Okay.",
+    "target": "Speaker A (grandchild) (Target): Look at that. Beautiful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandmother): Okay.\nSpeaker B (grandchild): Look at that. Beautiful.",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandchild): Look at that. Beautiful.\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (grandchild) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker B (grandmother): Yeah.\nSpeaker A (grandchild): Okay.",
+    "target": "Speaker A (grandchild) (Target): How much sauce, Nona?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker B (grandchild): Okay.\nSpeaker B (grandchild): How much sauce, Nona?",
+    "target": "Speaker A (grandmother) (Target): Enough. Go between the first. Okay. Okay. Then you gotta put more here on the side here. Perfect. Okay. I'm gonna put some mozzarella. Okay. Put some mozzarella. And I'm going to put some parmesan cheese.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandchild): How much sauce, Nona?\nSpeaker B (grandmother): Enough. Go between the first. Okay. Okay. Then you gotta put more here on the side here. Perfect. Okay. I'm gonna put some mozzarella. Okay. Put some mozzarella. And I'm going to put some parmesan cheese.",
+    "target": "Speaker A (grandchild) (Target): Look at that. Just want to interrupt this program to show Nona's cookbook. You can purchase these at my sister Girl with the dog's website@girlwiththedogs.com they almost sold out. We only have a couple left, but we got more coming in, so go check it out. We have all Nona's recipes in here that you can follow along. You've been getting asked about this a lot, so we finally got one out. Go check it out. Back to the recipe.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandmother): Enough. Go between the first. Okay. Okay. Then you gotta put more here on the side here. Perfect. Okay. I'm gonna put some mozzarella. Okay. Put some mozzarella. And I'm going to put some parmesan cheese.\nSpeaker B (grandchild): Look at that. Just want to interrupt this program to show Nona's cookbook. You can purchase these at my sister Girl with the dog's website@girlwiththedogs.com they almost sold out. We only have a couple left, but we got more coming in, so go check it out. We have all Nona's recipes in here that you can follow along. You've been getting asked about this a lot, so we finally got one out. Go check it out. Back to the recipe.",
+    "target": "Speaker A (grandmother) (Target): Okay. You know what? That's not. That's not right. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandchild): Look at that. Just want to interrupt this program to show Nona's cookbook. You can purchase these at my sister Girl with the dog's website@girlwiththedogs.com they almost sold out. We only have a couple left, but we got more coming in, so go check it out. We have all Nona's recipes in here that you can follow along. You've been getting asked about this a lot, so we finally got one out. Go check it out. Back to the recipe.\nSpeaker B (grandmother): Okay. You know what? That's not. That's not right.",
+    "target": "Speaker A (grandchild) (Target): Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandmother): Okay. You know what? That's not. That's not right. \nSpeaker B (grandchild): Why?",
+    "target": "Speaker A (grandmother) (Target): Because it was too much.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (grandchild): Why?\nSpeaker B (grandmother): Because it was too much.",
+    "target": "Speaker A (grandchild) (Target): Forget about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (grandmother): Because it was too much.\nSpeaker B (grandchild): Forget about it.",
+    "target": "Speaker A (grandmother) (Target): I'm going to cook some shell. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandchild): Forget about it.\nSpeaker B (grandmother): I'm going to cook some shell. Okay.",
+    "target": "Speaker A (grandchild) (Target): So you ran out of crepes?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (grandmother): I'm going to cook some shell. Okay.\nSpeaker B (grandchild): So you ran out of crepes?",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandchild): So you ran out of crepes?\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (grandchild) (Target): So now you're gonna...",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandmother): Yeah.\nSpeaker B (grandchild): So now you're gonna...",
+    "target": "Speaker A (grandmother) (Target): I'm gonna. Yeah.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandchild): So now you're gonna...\nSpeaker B (grandmother): I'm gonna. Yeah.",
+    "target": "Speaker A (grandchild) (Target): Cook some shells and put the ricotta on that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandmother): I'm gonna. Yeah.\nSpeaker B (grandchild): Cook some shells and put the ricotta on that.",
+    "target": "Speaker A (grandmother) (Target): I. I love these. Then I'm gonna put some of these. Okay. I'm going to just let it boil. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandchild): Cook some shells and put the ricotta on that.\nSpeaker B (grandmother): I. I love these. Then I'm gonna put some of these. Okay. I'm going to just let it boil. Okay.",
+    "target": "Speaker A (grandchild) (Target): Wow, they're good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandmother): I. I love these. Then I'm gonna put some of these. Okay. I'm going to just let it boil. Okay.\nSpeaker B (grandchild): Wow, they're good.",
+    "target": "Speaker A (grandmother) (Target): This is gravy too, isn't it? No, no, I take it out. This is masterpiece. This is good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandchild): Wow, they're good.\nSpeaker B (grandmother): This is gravy too, isn't it? No, no, I take it out. This is masterpiece. This is good.",
+    "target": "Speaker A (grandchild) (Target): Masterpiece.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandmother): This is gravy too, isn't it? No, no, I take it out. This is masterpiece. This is good.\nSpeaker B (grandchild): Masterpiece.",
+    "target": "Speaker A (grandmother) (Target): It's good stuff. I had a leftover ricotta. I'm put them in the shelf. Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandchild): Masterpiece.\nSpeaker B (grandmother): It's good stuff. I had a leftover ricotta. I'm put them in the shelf. Okay.",
+    "target": "Speaker A (grandchild) (Target): And you're going to freeze it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandmother): It's good stuff. I had a leftover ricotta. I'm put them in the shelf. Okay.\nSpeaker B (grandchild): And you're going to freeze it?",
+    "target": "Speaker A (grandmother) (Target): Yep, I can freeze. I can cook it for tomorrow. Keep one in the fridge. It's okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandchild): And you're going to freeze it?\nSpeaker B (grandmother): Yep, I can freeze. I can cook it for tomorrow. Keep one in the fridge. It's okay.",
+    "target": "Speaker A (grandchild) (Target): You're saving this for later?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandmother): Yep, I can freeze. I can cook it for tomorrow. Keep one in the fridge. It's okay.\nSpeaker B (grandchild): You're saving this for later?",
+    "target": "Speaker A (grandmother) (Target): Yeah. Mix your ricotta and do the shell. It's just as good if you don't...",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 95,
+    "context": "Speaker A (grandchild): You're saving this for later?\nSpeaker B (grandmother): Yeah. Mix your ricotta and do the shell. It's just as good if you don't...",
+    "target": "Speaker A (grandchild) (Target): Want to do the crepes.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "none",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: none\nType: cooperative assistance"
+  },
+  {
+    "index": 96,
+    "context": "Speaker A (grandmother): Yeah. Mix your ricotta and do the shell. It's just as good if you don't...\nSpeaker B (grandchild): Want to do the crepes.",
+    "target": "Speaker A (grandmother) (Target): Yeah. Or do crepe like, you know, especially if you don't have a thigh.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 97,
+    "context": "Speaker A (grandchild): Want to do the crepes.\nSpeaker B (grandmother): Yeah. Or do crepe like, you know, especially if you don't have a thigh.",
+    "target": "Speaker A (grandchild) (Target): Look at that. That's absolutely insane. 15 out of 10. Holy geez. This is absolutely amazing. This is like manicotti without. But it was crepes instead of pasta, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 98,
+    "context": "Speaker A (grandmother): Yeah. Or do crepe like, you know, especially if you don't have a thigh.\nSpeaker B (grandchild): Look at that. That's absolutely insane. 15 out of 10. Holy geez. This is absolutely amazing. This is like manicotti without. But it was crepes instead of pasta, right?",
+    "target": "Speaker A (grandmother) (Target): It's the same thing. They're much lighter than manicotti.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 99,
+    "context": "Speaker A (grandchild): Look at that. That's absolutely insane. 15 out of 10. Holy geez. This is absolutely amazing. This is like manicotti without. But it was crepes instead of pasta, right?\nSpeaker B (grandmother): It's the same thing. They're much lighter than manicotti.",
+    "target": "Speaker A (grandchild) (Target): You know that it's lighter?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 100,
+    "context": "Speaker A (grandmother): It's the same thing. They're much lighter than manicotti.\nSpeaker B (grandchild): You know that it's lighter?",
+    "target": "Speaker A (grandmother) (Target): Yeah, yeah. they're lighter. They melt in your mouth.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 101,
+    "context": "Speaker A (grandchild): You know that it's lighter?\nSpeaker B (grandmother): Yeah, yeah. they're lighter. They melt in your mouth.",
+    "target": "Speaker A (grandchild) (Target): You like it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 102,
+    "context": "Speaker A (grandmother): Yeah, yeah. they're lighter. They melt in your mouth.\nSpeaker B (grandchild): You like it?",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 103,
+    "context": "Speaker B (grandchild): You like it?\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (grandfather) (Target): It's really, really good. Yeah, it's really nice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 104,
+    "context": "Speaker A (grandmother): Yeah.\nSpeaker B (grandfather): It's really, really good. Yeah, it's really nice.",
+    "target": "Speaker A (grandmother) (Target): It's nice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 105,
+    "context": "Speaker A (grandfather): It's really, really good. Yeah, it's really nice.\nSpeaker B (grandmother): It's nice.",
+    "target": "Speaker A (grandfather) (Target): It's nice. And I cannot describe how good it is. Stories from Non. You ask me when the first time I played music in Canada. It was 1957. I came over here in Canada in 1956. But in 1957 I had a couple friends. We went dancing every Saturday night and I made friends with the band playing music. Those days we had live music, we never had records. So I made friends with them and I said, in case you need an accordion player, I am available. And the piano player, she was the leader, an old Irish woman. She said, okay, we'll keep in mind. So one night I went there, the trumpet player was not there. So I asked, where is the trumpet player? I forgot his name now. She said, he's sick. I said, well, do you want me to go and get the accordion to replace him? She said, yeah, yeah, go, go. So I went get accordion. And because I can read music, I played with them all night through. Since then I played with them every job they had. That was my first job.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none"
+  },
+  {
+    "index": 106,
+    "context": "Speaker B (grandmother): It's nice.\nSpeaker B (grandfather): It's nice. And I cannot describe how good it is. Stories from Non. You ask me when the first time I played music in Canada. It was 1957. I came over here in Canada in 1956. But in 1957 I had a couple friends. We went dancing every Saturday night and I made friends with the band playing music. Those days we had live music, we never had records. So I made friends with them and I said, in case you need an accordion player, I am available. And the piano player, she was the leader, an old Irish woman. She said, okay, we'll keep in mind. So one night I went there, the trumpet player was not there. So I asked, where is the trumpet player? I forgot his name now. She said, he's sick. I said, well, do you want me to go and get the accordion to replace him? She said, yeah, yeah, go, go. So I went get accordion. And because I can read music, I played with them all night through. Since then I played with them every job they had. That was my first job.",
+    "target": "Speaker A (grandchild) (Target): Your first. Your first gig?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 107,
+    "context": "Speaker A (grandfather): It's nice. And I cannot describe how good it is. Stories from Non. You ask me when the first time I played music in Canada. It was 1957. I came over here in Canada in 1956. But in 1957 I had a couple friends. We went dancing every Saturday night and I made friends with the band playing music. Those days we had live music, we never had records. So I made friends with them and I said, in case you need an accordion player, I am available. And the piano player, she was the leader, an old Irish woman. She said, okay, we'll keep in mind. So one night I went there, the trumpet player was not there. So I asked, where is the trumpet player? I forgot his name now. She said, he's sick. I said, well, do you want me to go and get the accordion to replace him? She said, yeah, yeah, go, go. So I went get accordion. And because I can read music, I played with them all night through. Since then I played with them every job they had. That was my first job.\nSpeaker B (grandchild): Your first. Your first gig?",
+    "target": "Speaker A (grandfather) (Target): My first gig. And I played with them until I made my own band. Then I quit them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 108,
+    "context": "Speaker A (grandchild): Your first. Your first gig?\nSpeaker B (grandfather): My first gig. And I played with them until I made my own band. Then I quit them.",
+    "target": "Speaker A (grandchild) (Target): I never knew that. That's awesome.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 109,
+    "context": "Speaker A (grandfather): My first gig. And I played with them until I made my own band. Then I quit them.\nSpeaker B (grandchild): I never knew that. That's awesome.",
+    "target": "Speaker A (grandfather) (Target): Oh, yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 110,
+    "context": "Speaker A (grandchild): I never knew that. That's awesome.\nSpeaker B (grandfather): Oh, yeah.",
+    "target": "Speaker A (grandchild) (Target): Bye.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 111,
+    "context": "Speaker B (grandfather): Oh, yeah.\nSpeaker B (grandchild): Bye.",
+    "target": "Speaker A (grandmother) (Target): Bye. Bye.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 112,
+    "context": "Speaker A (grandchild): Bye.\nSpeaker B (grandmother): Bye. Bye.",
+    "target": "Speaker A (grandchild) (Target): Thanks for watching. We'll see you next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 113,
+    "context": "Speaker B (grandmother): Bye. Bye.\nSpeaker B (grandchild): Thanks for watching. We'll see you next time.",
+    "target": "Speaker A (grandfather) (Target): Next time. Don't forget to subscribe.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 114,
+    "context": "Speaker B (grandchild): Thanks for watching. We'll see you next time.\nSpeaker B (grandfather): Next time. Don't forget to subscribe.",
+    "target": "Speaker A (grandmother) (Target): Don't forget to click the like button.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: intervening speaker\nType: disruptive intervention"
+  },
+  {
+    "index": 115,
+    "context": "Speaker B (grandfather): Next time. Don't forget to subscribe.\nSpeaker B (grandmother): Don't forget to click the like button.",
+    "target": "Speaker A (grandchild) (Target): Yeah. And check out our cookbook@girlwiththedogs.com.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 116,
+    "context": "Speaker A (grandmother): Don't forget to click the like button.\nSpeaker B (grandchild): Yeah. And check out our cookbook@girlwiththedogs.com.",
+    "target": "Speaker A (grandmother) (Target): Thank you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 117,
+    "context": "Speaker A (grandchild): Yeah. And check out our cookbook@girlwiththedogs.com.\nSpeaker B (grandmother): Thank you.",
+    "target": "Speaker A (grandchild) (Target): Thank you. Ciao. Bye.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 118,
+    "context": "Speaker A (grandmother): Thank you.\nSpeaker B (grandchild): Thank you. Ciao. Bye.",
+    "target": "Speaker A (grandmother) (Target): Bye.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

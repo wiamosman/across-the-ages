@@ -1,0 +1,972 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Nonno, what are you doing today? What is all this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson is asking a question and initiating a new topic, which is not"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Nonno, what are you doing today? What is all this?",
+    "target": "Speaker A (grandfather) (Target): Well, today I'm trying something I never done before. I'm gonna make wine from juice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to a question and starts speaking after the previous speaker finished, so there is no inter"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Nonno, what are you doing today? What is all this?\nSpeaker B (grandfather): Well, today I'm trying something I never done before. I'm gonna make wine from juice.",
+    "target": "Speaker A (grandson) (Target): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Well, today I'm trying something I never done before. I'm gonna make wine from juice.\nSpeaker B (grandson): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.",
+    "target": "Speaker A (grandfather) (Target): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, acknowledging what"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Okay, yeah, last year when we crushed the grapes you said you wanted to try it this year.\nSpeaker B (grandfather): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.",
+    "target": "Speaker A (grandson) (Target): Okay, and so, and why are you trying the juice this year? Because it's easier?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson is asking a question to clarify the grandfather's intentions"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Yeah, I'm gonna try. I bought a very expensive juice. It's called Royal Zinfandel.\nSpeaker B (grandson): Okay, and so, and why are you trying the juice this year? Because it's easier?",
+    "target": "Speaker A (grandfather) (Target): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a continuation of his previous statement, providing more context and details about making"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): Okay, and so, and why are you trying the juice this year? Because it's easier?\nSpeaker B (grandfather): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.",
+    "target": "Speaker A (grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Well, it's very easy to do. Almost anybody can do it. It's easy. It's less work. The only thing is that when you make juice from wine, grapes, you know exactly what you're getting.\nSpeaker B (grandson): Okay.",
+    "target": "Speaker A (grandfather) (Target): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's utterance is a continuation of his previous statement, and there is no overlap or"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Okay.\nSpeaker B (grandfather): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.",
+    "target": "Speaker A (grandson) (Target): So this is just an experiment today.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a normal turn in the conversation, starting after the grandfather finished speaking."
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): This, they say it's Royal Zinfandel, but I don't know. I have to trust them. But with the grapes, you know exactly what you're getting.\nSpeaker B (grandson): So this is just an experiment today.",
+    "target": "Speaker A (grandfather) (Target): Well, I'm gonna try it this way. See what happens.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a continuation of his thought process, and it does not interrupt the flow"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): So this is just an experiment today.\nSpeaker B (grandfather): Well, I'm gonna try it this way. See what happens.",
+    "target": "Speaker A (grandson) (Target): What different grape varieties did you buy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a response to the grandfather's statement about trying"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Well, I'm gonna try it this way. See what happens.\nSpeaker B (grandson): What different grape varieties did you buy?",
+    "target": "Speaker A (grandfather) (Target): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson asks a question, so there is"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): What different grape varieties did you buy?\nSpeaker B (grandfather): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.",
+    "target": "Speaker A (grandson) (Target): Okay, let's see how you do it. Let's try it this way this year.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "cooperative agreement",
+    "pred_type": "none",
+    "raw_output": "Role: cooperative agreement\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): Well, I'm gonna try Royal Zinfandel and Cabernet Sauvignon. Mix both of them and see what happens.\nSpeaker B (grandson): Okay, let's see how you do it. Let's try it this way this year.",
+    "target": "Speaker A (grandfather) (Target): Yeah, well, you got the most, so you gotta bring this downstairs.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Okay, let's see how you do it. Let's try it this way this year.\nSpeaker B (grandfather): Yeah, well, you got the most, so you gotta bring this downstairs.",
+    "target": "Speaker A (grandson) (Target): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is responding to the conversation and not interrupting anyone. He is providing information about his plan"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): Yeah, well, you got the most, so you gotta bring this downstairs.\nSpeaker B (grandson): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.",
+    "target": "Speaker A (grandfather) (Target): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to the conversation and providing information about measuring the sugar content of the wine. He is"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): We're gonna bring them in the cantina? Okay. Yeah, they're pretty heavy. I could probably do 2, but Nono doesn't want me dropping his wine. He won't like that very much. I've been breaking a sweat doing all these. Geez, a lot of work for Nono's wine.\nSpeaker B (grandfather): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.",
+    "target": "Speaker A (grandson) (Target): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts the grandfather mid-sentence to offer"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandfather): Yeah. Okay, this is a gadget. I don't know the name of it, but this measures the sugar content. Now we're going to measure if it's above 22. It's good. If it's below, I gotta add sugar to it. So now, trouble is I cannot see too good.\nSpeaker B (grandson): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.",
+    "target": "Speaker A (grandfather) (Target): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: intervening speaker\nType: disruptive intervention\n\nExplanation: The grandfather interrupts the grandson mid-sentence to express"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Nonno, let me just scan the juice with this wine-maker app I downloaded. It uses the camera to analyze the density. It's way faster than that old glass tube.\nSpeaker B (grandfather): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.",
+    "target": "Speaker A (grandson) (Target): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson interrupts his grandfather mid-sentence to"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandfather): A camera? To see the sugar? No, no, no. This is science, not a video game. That phone doesn't know the juice. This 'old tube' has made wine for fifty years. Put that away.\nSpeaker B (grandson): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.",
+    "target": "Speaker A (grandfather) (Target): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a complete turn, and he finishes his thought before Speaker B"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): It's not a game, it's precision! You just said you can't see the lines on the tube anyway. The app reads it out in big numbers.\nSpeaker B (grandfather): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.",
+    "target": "Speaker A (grandson) (Target): I can see. They call it balling? It's about 18°.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson is responding to his grandfather's statement and providing information"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandfather): If I cannot see the tube, we wait until my eyes rest. I am not putting my Royal Zinfandel in the hands of a telephone. We stop now. We sit. We don't pour nothing until you respect the process. The wine needs patience, not 'apps'.\nSpeaker B (grandson): I can see. They call it balling? It's about 18°.",
+    "target": "Speaker A (grandfather) (Target): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandfather was in the middle of his explanation when the grand"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): I can see. They call it balling? It's about 18°.\nSpeaker B (grandfather): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.",
+    "target": "Speaker A (grandson) (Target): It's about 17°. So because it's 17°, you have to add sugar?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is not an interruption as he is asking a question related to the"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandfather): Yeah. Oh, not good. That's not 15°, Junior. What are you talking about? It's below 15°.\nSpeaker B (grandson): It's about 17°. So because it's 17°, you have to add sugar?",
+    "target": "Speaker A (grandfather) (Target): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather was responding to a question and finished his turn before the grandson asked another question. The"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): It's about 17°. So because it's 17°, you have to add sugar?\nSpeaker B (grandfather): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.",
+    "target": "Speaker A (grandson) (Target): And why does the sugar content matter?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is asking a question to clarify the reason behind adding sugar based on the temperature mentioned by"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandfather): I have to add sugar. I ask the guy there. He said it's 22, but it's not 22. It's only 17.\nSpeaker B (grandson): And why does the sugar content matter?",
+    "target": "Speaker A (grandfather) (Target): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A completes his thought without being interrupted by Speaker B. He answers"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): And why does the sugar content matter?\nSpeaker B (grandfather): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.",
+    "target": "Speaker A (grandson) (Target): You should try the Zinfandel now.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson's question \"And why does the sugar content matter?\" is"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandfather): You need the sugar to get the alcohol content. The lower the sugar, the less alcohol. And then if it's too low, this could become vinegar.\nSpeaker B (grandson): You should try the Zinfandel now.",
+    "target": "Speaker A (grandfather) (Target): Okay, I'll try the other pail just to see if it's the same. This is even less.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of his previous explanation and does not interrupt"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): You should try the Zinfandel now.\nSpeaker B (grandfather): Okay, I'll try the other pail just to see if it's the same. This is even less.",
+    "target": "Speaker A (grandson) (Target): Even less?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandfather): Okay, I'll try the other pail just to see if it's the same. This is even less.\nSpeaker B (grandson): Even less?",
+    "target": "Speaker A (grandfather) (Target): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson asks a question, so there is"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Even less?\nSpeaker B (grandfather): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?",
+    "target": "Speaker A (grandson) (Target): This is why you gotta make your own juice, see? Not good?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandfather): Yeah. See? This is less. Look, this is 15. I don't like this because the same grapes, the same juice, different reading. Why?\nSpeaker B (grandson): This is why you gotta make your own juice, see? Not good?",
+    "target": "Speaker A (grandfather) (Target): That means something goes on.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of the conversation, acknowledging what his"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): This is why you gotta make your own juice, see? Not good?\nSpeaker B (grandfather): That means something goes on.",
+    "target": "Speaker A (grandson) (Target): So 22 grades?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"So 22 grades?\" is a response to"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandfather): That means something goes on.\nSpeaker B (grandson): So 22 grades?",
+    "target": "Speaker A (grandfather) (Target): It's in the middle, it's around 20.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation as he is answering the"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): So 22 grades?\nSpeaker B (grandfather): It's in the middle, it's around 20.",
+    "target": "Speaker A (grandson) (Target): So it still needs a little bit of sugar though?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question about adding sugar does not interrupt the grandfather's response"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandfather): It's in the middle, it's around 20.\nSpeaker B (grandson): So it still needs a little bit of sugar though?",
+    "target": "Speaker A (grandfather) (Target): Yes, it still needs a little bit of sugar.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): So it still needs a little bit of sugar though?\nSpeaker B (grandfather): Yes, it still needs a little bit of sugar.",
+    "target": "Speaker A (grandson) (Target): Isn't that strange how ours didn't need any when we did it ourselves? Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's utterance is not an interruption as he is"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandfather): Yes, it still needs a little bit of sugar.\nSpeaker B (grandson): Isn't that strange how ours didn't need any when we did it ourselves? Yeah.",
+    "target": "Speaker A (grandfather) (Target): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is responding to the grandson's comment and providing additional information about the"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandson): Isn't that strange how ours didn't need any when we did it ourselves? Yeah.\nSpeaker B (grandfather): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.",
+    "target": "Speaker A (grandson) (Target): You're putting the juice right in the sugar?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson is asking a question to clarify the process, which is"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandfather): That was from the grapes. This is juice, who knows? Okay, well let's add sugar, see what happens. We gotta add the sugar now. Okay, what I got here is, that's 1 kilo and 3/4 for each damajans. So I'm gonna mix with the juice.\nSpeaker B (grandson): You're putting the juice right in the sugar?",
+    "target": "Speaker A (grandfather) (Target): Yeah, I'm trying to melt.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel, acknowledging the grandson's"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandson): You're putting the juice right in the sugar?\nSpeaker B (grandfather): Yeah, I'm trying to melt.",
+    "target": "Speaker A (grandson) (Target): Trying to melt the sugar?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandfather): Yeah, I'm trying to melt.\nSpeaker B (grandson): Trying to melt the sugar?",
+    "target": "Speaker A (grandfather) (Target): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought and answers the grandson's question before the grand"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandson): Trying to melt the sugar?\nSpeaker B (grandfather): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.",
+    "target": "Speaker A (grandson) (Target): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandfather): Yeah. As it ferments, it gets hot, right? And that melts the sugar, see? I'm just hoping that this is enough.\nSpeaker B (grandson): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?",
+    "target": "Speaker A (grandfather) (Target): I don't know, I just— I just tried.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a standard backchannel (\"I just--\") that doesn"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandson): Right. Interesting. So how do you know how much sugar to put in? How'd you calculate that?\nSpeaker B (grandfather): I don't know, I just— I just tried.",
+    "target": "Speaker A (grandson) (Target): You did it in your head?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandfather): I don't know, I just— I just tried.\nSpeaker B (grandson): You did it in your head?",
+    "target": "Speaker A (grandfather) (Target): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson asks a question, so there is"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): You did it in your head?\nSpeaker B (grandfather): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.",
+    "target": "Speaker A (grandson) (Target): And then you're gonna add the wine on top of that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson is asking a question and the flow of the conversation is natural."
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandfather): Yeah. I never done it before, so I don't know how much it needs. I'm figuring this should be enough. I'm gonna put 1 kilo and 3/4 sugar into each damijan.\nSpeaker B (grandson): And then you're gonna add the wine on top of that?",
+    "target": "Speaker A (grandfather) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): And then you're gonna add the wine on top of that?\nSpeaker B (grandfather): Yeah.",
+    "target": "Speaker A (grandson) (Target): So you're filling up these 4 damijjans, or 3?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a response to the grandfather's confirmation that they"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandfather): Yeah.\nSpeaker B (grandson): So you're filling up these 4 damijjans, or 3?",
+    "target": "Speaker A (grandfather) (Target): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is providing a detailed explanation in response to the grandson's question,"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): So you're filling up these 4 damijjans, or 3?\nSpeaker B (grandfather): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.",
+    "target": "Speaker A (grandson) (Target): Till it's full.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a simple statement that does not interrupt the flow of"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandfather): 3. Here I'm separating the juice because I want to make it less weight so it's not so heavy because we have to put in the damijan. Here I'm pouring into the damijan, which has the sugar already in it. This goes on top of the sugar. I'm pouring both juices together into the damijan.\nSpeaker B (grandson): Till it's full.",
+    "target": "Speaker A (grandfather) (Target): But keep it below because of the fermentation, it's gonna overflow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of his explanation and does not interrupt the"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): Till it's full.\nSpeaker B (grandfather): But keep it below because of the fermentation, it's gonna overflow.",
+    "target": "Speaker A (grandson) (Target): So you can't let it get too high.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandfather): But keep it below because of the fermentation, it's gonna overflow.\nSpeaker B (grandson): So you can't let it get too high.",
+    "target": "Speaker A (grandfather) (Target): No, I gotta keep it below. I fill half of this dummy jar with the royal—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A completes his thought without interruption from Speaker B."
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): So you can't let it get too high.\nSpeaker B (grandfather): No, I gotta keep it below. I fill half of this dummy jar with the royal—",
+    "target": "Speaker A (grandson) (Target): Zinfandel.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption as he is providing an answer"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandfather): No, I gotta keep it below. I fill half of this dummy jar with the royal—\nSpeaker B (grandson): Zinfandel.",
+    "target": "Speaker A (grandfather) (Target): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A (grandfather) was interrupted by Speaker B"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandson): Zinfandel.\nSpeaker B (grandfather): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.",
+    "target": "Speaker A (grandson) (Target): So we're mixing two varieties of grapes. Why?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a response to the grandfather's statement"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandfather): Zinfandel. Now I'm gonna put the other half with Cabernet Sauvignon.\nSpeaker B (grandson): So we're mixing two varieties of grapes. Why?",
+    "target": "Speaker A (grandfather) (Target): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson asks a question, so there is"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandson): So we're mixing two varieties of grapes. Why?\nSpeaker B (grandfather): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.",
+    "target": "Speaker A (grandson) (Target): Experiment. So you're experimenting two things today. One, this new method of doing the wine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson is asking a question and the grandfather is providing an explanation."
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandfather): Because the why is this. If you don't try, you'll never know. Maybe a better taste. Because I like to— experiment things. So I wanna see the taste of both together.\nSpeaker B (grandson): Experiment. So you're experimenting two things today. One, this new method of doing the wine.",
+    "target": "Speaker A (grandfather) (Target): That's right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandson): Experiment. So you're experimenting two things today. One, this new method of doing the wine.\nSpeaker B (grandfather): That's right.",
+    "target": "Speaker A (grandson) (Target): And two, you're mixing two grape varieties.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is providing information in a natural flow, responding to his grandfather's acknowledgment (\""
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandfather): That's right.\nSpeaker B (grandson): And two, you're mixing two grape varieties.",
+    "target": "Speaker A (grandfather) (Target): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandson): And two, you're mixing two grape varieties.\nSpeaker B (grandfather): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.",
+    "target": "Speaker A (grandson) (Target): Right, we know. What it tastes like.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandfather): That's right, because I know about the Zinfandel, right? But I want to know Cabernet Sauvignon mixed with Zinfandel.\nSpeaker B (grandson): Right, we know. What it tastes like.",
+    "target": "Speaker A (grandfather) (Target): May taste fantastic, I don't know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of the conversation, acknowledging the agreement"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandson): Right, we know. What it tastes like.\nSpeaker B (grandfather): May taste fantastic, I don't know.",
+    "target": "Speaker A (grandson) (Target): Okay, so we're gonna find out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, acknowledging"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandfather): May taste fantastic, I don't know.\nSpeaker B (grandson): Okay, so we're gonna find out.",
+    "target": "Speaker A (grandfather) (Target): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A (grandfather) provided a detailed explanation after Speaker B finished his question, allowing the"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): Okay, so we're gonna find out.\nSpeaker B (grandfather): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.",
+    "target": "Speaker A (grandson) (Target): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandfather): We're gonna find out. This is what they call fermentation lock. This locks the fermentation but allows the gas to escape through this gadget. The gas is gonna escape and you can see by the bubbles gonna come up. When the bubble come up, that's the gas escaping and the gas is gonna escape until the fermentation is over. Then I'm still gonna keep the fermentation lock until I rake it off next March or April.\nSpeaker B (grandson): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?",
+    "target": "Speaker A (grandfather) (Target): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing additional information related to the topic, agreeing with his grandson, and"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): Okay. Look at that bubbling. Right. Keeps it fresh. So now then, in a few months, in March, you're gonna put it into a different container, right?\nSpeaker B (grandfather): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.",
+    "target": "Speaker A (grandson) (Target): Sediment.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural part of the conversation as he is acknowled"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandfather): Yeah. Also, not just the gas goes up, but no bad odor will go in. Because the water seals it. Nothing can get in. Just comes out. In March or April, I'm gonna take it all off because there will be A little bit of mud on the bottom.\nSpeaker B (grandson): Sediment.",
+    "target": "Speaker A (grandfather) (Target): Sediment, because it clears it, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Sediment.\nSpeaker B (grandfather): Sediment, because it clears it, right?",
+    "target": "Speaker A (grandson) (Target): Right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): Sediment, because it clears it, right?\nSpeaker B (grandson): Right.",
+    "target": "Speaker A (grandfather) (Target): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a continuation of his previous statement, and he"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Right.\nSpeaker B (grandfather): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.",
+    "target": "Speaker A (grandson) (Target): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandfather): So in March, April, I'm going to rake it off to put it to another container. Oh yeah, those two.\nSpeaker B (grandson): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?",
+    "target": "Speaker A (grandfather) (Target): It's good. It's very good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): So putting it to another container is called rake it off? Yeah. Okay everybody, so today we're here at Napoli's Restaurant in Niagara Falls. We're here for my mom's birthday today. Very good. That's good. What do you think of the pizza, Nonno?\nSpeaker B (grandfather): It's good. It's very good.",
+    "target": "Speaker A (grandson) (Target): Good?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "backchannel (clarification request)",
+    "raw_output": "Role: none\nType: backchannel (clarification request)"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandfather): It's good. It's very good.\nSpeaker B (grandson): Good?",
+    "target": "Speaker A (grandfather) (Target): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing a detailed response to Speaker B's question about the food being good. He"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): Good?\nSpeaker B (grandfather): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.",
+    "target": "Speaker A (grandson) (Target): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 77,
+    "context": "Speaker B (grandfather): It's a nice thin, the way I like it. It's well cooked and the sauce is tomatoes, really good.\nSpeaker B (grandson): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—",
+    "target": "Speaker A (speaker c) (Target): Okay. This is for Stephanie.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The Target's utterance does not interrupt the conversation as it is a separate topic"
+  },
+  {
+    "index": 78,
+    "context": "Speaker B (grandson): Good? Nice. What do you give it out of 10? Uh, 8. That's pretty good. We made sure we took that one first before—\nSpeaker B (speaker c): Okay. This is for Stephanie.",
+    "target": "Speaker A (grandfather) (Target): Yeah. So what's next on the menu?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker B (speaker c): Okay. This is for Stephanie.\nSpeaker B (grandfather): Yeah. So what's next on the menu?",
+    "target": "Speaker A (grandson) (Target): I give this 10 out of 10. 10 out of 10 pizza.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is not an interruption as it comes after Speaker B finished his question"
+  },
+  {
+    "index": 80,
+    "context": "Speaker B (grandfather): Yeah. So what's next on the menu?\nSpeaker B (grandson): I give this 10 out of 10. 10 out of 10 pizza.",
+    "target": "Speaker A (speaker c) (Target): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A interrupts Speaker B to provide additional information related"
+  },
+  {
+    "index": 81,
+    "context": "Speaker B (grandson): I give this 10 out of 10. 10 out of 10 pizza.\nSpeaker B (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+    "target": "Speaker A (grandfather) (Target): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker B (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.\nSpeaker B (grandfather): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?",
+    "target": "Speaker A (grandson) (Target): Nonno's living his best life.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's comment does not interrupt the conversation flow. He is providing a backchannel response to"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): I don't know, but I assume an old lady, her name was Margherita, she made pizza and they called it Margherita's pizza. Is that right?\nSpeaker B (grandson): Nonno's living his best life.",
+    "target": "Speaker A (grandfather) (Target): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of his story, not an interruption"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): Nonno's living his best life.\nSpeaker B (grandfather): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.",
+    "target": "Speaker A (grandson) (Target): So you basically sandwich it in cheese?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): I put cheese here because when the gnocchi goes on it, the cheese goes underneath the gnocchi. And I put cheese on top, so I got cheese all over the gnocchi.\nSpeaker B (grandson): So you basically sandwich it in cheese?",
+    "target": "Speaker A (grandfather) (Target): That's right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): So you basically sandwich it in cheese?\nSpeaker B (grandfather): That's right.",
+    "target": "Speaker A (grandson) (Target): But why did you taste it with the fork?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the flow of the conversation as he is"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): That's right.\nSpeaker B (grandson): But why did you taste it with the fork?",
+    "target": "Speaker A (grandfather) (Target): Well, I wanted to see what kind of cheese it is.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): But why did you taste it with the fork?\nSpeaker B (grandfather): Well, I wanted to see what kind of cheese it is.",
+    "target": "Speaker A (grandson) (Target): Forget about it. What kind of cheese is it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts his grandfather by asking the same question but"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandfather): Well, I wanted to see what kind of cheese it is.\nSpeaker B (grandson): Forget about it. What kind of cheese is it?",
+    "target": "Speaker A (grandfather) (Target): Forget about it. It's not very strong, but—",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A was responding to Speaker B's question before being interrupted."
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): Forget about it. What kind of cheese is it?\nSpeaker B (grandfather): Forget about it. It's not very strong, but—",
+    "target": "Speaker A (grandson) (Target): Mom, how are you liking it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker B (grandfather): Forget about it. It's not very strong, but—\nSpeaker B (grandson): Mom, how are you liking it?",
+    "target": "Speaker A (speaker c) (Target): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The Target's utterance does not interrupt the conversation as it is a response to"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): Mom, how are you liking it?\nSpeaker B (speaker c): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!",
+    "target": "Speaker A (grandson) (Target): And how old are you today? See, these rice balls? They're the best I've ever had.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker B's response was not directed towards Speaker A, but rather a monologue about"
+  },
+  {
+    "index": 93,
+    "context": "Speaker B (speaker c): See these rice balls? They're the best I've ever had. How old? 60. And how old are you today? I'm old. I turned 60. Happy birthday, dear Areejah. Happy birthday to you. Happy birthday! Happy birthday, Louisie! Thank you for watching! Bye-bye!\nSpeaker B (grandson): And how old are you today? See, these rice balls? They're the best I've ever had.",
+    "target": "Speaker A (grandfather) (Target): You don't look a day over 40.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a standard backchannel, which does not interrupt the flow"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandson): And how old are you today? See, these rice balls? They're the best I've ever had.\nSpeaker B (grandfather): You don't look a day over 40.",
+    "target": "Speaker A (grandson) (Target): Yeah, right. Chantani!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 95,
+    "context": "Speaker A (grandfather): You don't look a day over 40.\nSpeaker B (grandson): Yeah, right. Chantani!",
+    "target": "Speaker A (grandfather) (Target): Okay? Chantani!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 96,
+    "context": "Speaker A (grandson): Yeah, right. Chantani!\nSpeaker B (grandfather): Okay? Chantani!",
+    "target": "Speaker A (grandson) (Target): Arriba Durkee!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's \"Arriba Durkee!\" is a response to his"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 53,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how's your day going?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh dear, I think you meant 'brake' instead of 'break'. It's important to use the right words, especially when driving.",
+      "golden": "statement-opinion",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "Oh, thanks for pointing that out! I'll be more careful with my words.",
+      "golden": "acknowledge",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "You're welcome, dear. Always happy to help you learn.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your help.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Be careful and make sure you're not speeding, dear.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I will, Grandma. Thanks for the reminder!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I trust you, dear, but I just want to make sure you're safe. It's my job to worry a little.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I know, Grandma. I promise I'll be careful. Love you!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, dear, I understand. Just keep focusing on the road and drive safely.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I will, Grandma. Thanks for always looking out for me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Because I care about you and want to make sure you're safe, dear.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I know, and I appreciate it. I'll call you once I get there safely.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see! Well, I'm glad you're keeping things light-hearted.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

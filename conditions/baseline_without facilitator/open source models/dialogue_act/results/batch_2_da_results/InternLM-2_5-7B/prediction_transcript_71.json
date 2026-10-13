@@ -1,0 +1,571 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 71,
+    "utterances": [
+        {
+            "text": "Hey, Nono, what are you doing today?",
+            "golden": "question",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Today I'm going to try to repair this windowsill.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You can fix that?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "OK, get off the ladder. I'll do that.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "It's got to be removed. You want to do it?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah. Show me how.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Here?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. Keep doing it. Okay, grab it now, it's gonna fall.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah, I'm gonna hold this. There. Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Use both hands. This is also—",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "What about this?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Does that have to be removed too?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, classic Italian.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You guys test how solid it is? Halfway.",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Grab it.",
+            "golden": "backchannel",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Starting here?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Let me see.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, I got it now. I know how to use this thing. You want to see what?",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh no, I wanna see— I wanna see the drill.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I just moved it. Put it on!",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I wanna see.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yeah. It's on right now. You had it on left.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, no, no, he's going left.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "No, I— never mind. He's going left. Never mind. That's enough.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "Get one wire, put in the hole. Look at him. Go ahead.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "What the heck? Now what? Put it in there? With the wire in there?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Yes, Julian.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "What is this? Look at this. What are these little things? Little wires?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay. Pretty solid, right?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's not bad.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, it feels about the same.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "With the brush? So we do what? Paint it, the whole thing?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "You want me to get a cloth?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, here. You do it like this. Take some off, okay? Then do like this.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Didn't I do that?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "And what does this do, Nono?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Well, it doesn't really matter. Not for me. Some people let it dry first.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And do you want to apply it while it's dry or wet? Doesn't matter?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "What's this? Yeah. Okay. How much you want? Shee. Literally.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh, I'm trying. Good, or one more? Right.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "These are all plastic. This one? What the heck is this? How much? Good? Or one more?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Of course he did.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "No, no, don't forget nothing. Can you make that square and flat? We need more sticks.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?",
+            "golden": "question",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "All along? From right to left? Inside? Um, quite a bit.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "So you're using more of that glue? Is that your homemade box?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, homemade box. Oh, this is about at least 30 years old.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "What's going on now, Nono? Yeah. This is the first coat, okay?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Just to lighten it up? Okay, so it's all done. You just gotta do one more coat of paint, match it, and it's done, right? I think you match the texture very, very good. For a first time you're doing it, I think it's incredible. Good job, Nono. See ya. We'll see you next time. Let us know if you believed in the process, because I didn't think it was going to work, and it turned out amazing. So he proved once again that he can do anything. Wow, right? Not a professional can fix anything.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        },
+        {
+            "text": "That's it. Could have been a little bit better, but— See you next time.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        }
+    ]
+}

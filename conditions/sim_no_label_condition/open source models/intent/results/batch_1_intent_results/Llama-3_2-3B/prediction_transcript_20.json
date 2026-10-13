@@ -1,0 +1,489 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 20,
+    "utterances": [
+        {
+            "text": "Oh, we are.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Well, I am.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, you look at it",
+            "golden": "joke",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'll say This is my grandma.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay, you gonna start? Okay, everybody, this is. This is my grandma. And she has agreed to start learning how to play the piano. She's never played before in her life. And how old are you, Grandma? If you want to say ",
+            "golden": "introduce",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "88.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": " She's 88. And we're going to let you join us on this piano lesson adventure, and we're going to come visit grandma every week and film our lessons. So we're going to go ahead and get started.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Do you want to say anything, Grandma?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": " No. hhhh",
+            "golden": "refuse",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "No? hhh , Okay. Okay. Okay. So have you seen my books before? Okay, this is my first book. And book one. And it starts out with just explaining about the piano. I'm just going to find a page here where it talks about the groups of two and three black keys. The piano is divided into white keys and black keys. That's obvious. But some people don't notice that the black keys are in groups of twos and threes.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I really didn't notice until you said that. That they're in threes and twos.",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Really? You didn't notice?",
+            "golden": "confirm",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, I hadn't really looked at it, but until you said it, I hadn't noticed.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, so that's how you're going to find your white keys. By finding a group of two or a group of three black keys. So now when you look at the piano, it's not so overwhelming because you know that I'm going to tell you that next to every group of two black keys is a white key called C. They're all Cs. They're all Cs. Next to all the groups of two black keys.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Even on this side? ",
+            "golden": "ask for help",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no, just on the left. Just on the left. So on the left of all the groups of two black keys is a C. Go ahead. Go ahead and find them.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, they're starting right here.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "The groups of two only. Not. Not next. Not the groups of three.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "I messed up on that one.",
+            "golden": "doubt",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, good. We should be looking at the camera, though.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "How can you look at the camera when you're looking at the keys?",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't know.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You can.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, well, that was okay. That was good, Grandma.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now, was that pictured? Did you picture that? Did you take a picture of that?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes, we're on camera.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, my goodness. You may want to throw the first ones away.",
+            "golden": "advise",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "Maybe I'll look at them. Okay. So we. We went through finding C already. Next to the two black keys.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Next to the two black keys.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right? Middle C. You've probably heard of. Heard that. You've heard of middle C. So it.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Would be between them. No, that's the middle.",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, middle C is the C closest to the middle of the piano. So it's still on the left of the two black keys.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "But middle C is the C closest to the middle. Can you. Can you see our face? Okay. Hopefully we're loud enough for the cameras picking us up. Okay, so middle C is the one closest to the middle. Okay, so you have several Cs, you have several Cs, but the middle one is closest to you.",
+            "golden": "explain",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, well, is there two of these? Just one.",
+            "golden": "doubt",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "There's one middle C. Just one middle C. Right. There's several Cs.",
+            "golden": "explain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I just found them after the two black ones.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right, right. Jay is over there dancing.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "And then. And then the middle C is here.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. Okay. And that's where you're going to start playing on middle C with your right hand. Oh, my right hand. With your right hand. So look at this page. It says finger numbers, and it numbers your fingers 1, 2, 3, 4, 5, starting with your thumb. Right. So if you put your thumb on C, all of your other fingers will naturally fall on a key. Don't skip any keys. Don't skip any keys. Right. So that's middle C position. All that.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Middle C position.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, now what you're going to do. Can you see this? When you see the C, you're going to play a C. So go ahead and play practice number one on page 18. And don't look at your fingers because they're in position. They're in position. And you're going to look here. Got it? Okay.",
+            "golden": "advise",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Is that middle C?",
+            "golden": "ask for help",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes. Oh, C. Don't look at your fingers, grandma. See? And then number two, finger three, four, five. Five. Five. Okay. And then now let's move to practice number two twice. See?",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "What's two?",
+            "golden": "ask for help",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Your second finger. Oh, three, four, five. Right. Okay. So these are your fingers, except for C is your. Is your number one finger. So we don't have a number one there. We just have a C. Got it. So this will be one of your practice pages for this week.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Can I practice?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes. I'm going to leave the keyboard. Here you are. Oh. Have fun. And I'm going to leave the book here, and I'll give you assignments.",
+            "golden": "arrange",
+            "predicted": "leave",
+            "raw": "leave",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay. So I don't have a pen with me, but I'm going to mark this page where you're going to practice. And you have to keep your eyes on the paper and not on your hands. Right.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "You have to get that feeling. Because it's hard to get that feeling.",
+            "golden": "complain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "When you're not used to it. Yeah. Is this seat okay for you? It's high enough?",
+            "golden": "asking for opinions",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay. So there's just, you know, now that you have that position, this page and this page, 19 and 20 are the same thing. And that's going to be the end of our lesson. But let's go through it right now. Up here, it says, eyes on music. Very important rule. So just so you keep that in mind while you're playing these. So go ahead and start here again with C2, 3, 4. Okay. Right. It feels a little awkward right now, but it'll feel smoother as you practice each day. Just go through it a couple times each day. Okay. Okay. Our last page for today is page 20.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's a little longer, and you start with three. I have to figure out my fingers there.",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Three.",
+            "golden": "acknowledge",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, three. Okay, I. I messed up. I'm going to start over.",
+            "golden": "explain",
+            "predicted": "apologise",
+            "raw": "apologise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Can I?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes, you can. 3. It's hard for me to figure out. Right. Second line, C.5. It's easy to know where 5 is, isn't it? Yeah. Okay, good. Last line. I have to count my fingers at first. You. At first? Yeah, at first. It takes a lot of thinking.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Figure out which finger is numbered?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. Your brain has to know which finger to move without looking at it. Yeah, you do. Okay, so when. After you've practiced it throughout the week, it should be. It should sound a little smoother. Like this.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'll show you.",
+            "golden": "arrange",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'll play page 23C. 3C. 3C. The next line, C. Hear how smooth that sounds? It doesn't have to be fast. It could stay slow. It's not very.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "You're used to your fingers being numbered. You know which number? Yes, that's. What could. I have to stop and think which is three and which is four. I know. Until I get.",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "But after a while, you won't have to think about it anymore. It'll just be natural. It isn't very pretty yet. The song isn't very pretty, but it still helps you get going. We're gonna get into pretty songs later. After you move your fingers a little bit better.",
+            "golden": "care",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "You have to learn your fingers. You know where they are. I have to stop. That's what I can do. I have to stop and think. I can't be smooth and go ahead and do it all at once because I'm thinking, where is that third finger?",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. Right. At first it's all thinking and rough, and then after the thinking goes away. Then it gets smooth. Yes. Okay, so let's say goodbye. This is the end of the first goodbye. The end of the first lesson. See you next time.",
+            "golden": "arrange",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "See you next time.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        }
+    ]
+}

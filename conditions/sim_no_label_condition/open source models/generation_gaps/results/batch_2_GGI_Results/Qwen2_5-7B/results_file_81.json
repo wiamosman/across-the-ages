@@ -1,0 +1,159 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 81,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Right?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Right? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): Well, here's what he gave me. Look at this. This is another teacher. Is that nice?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): Well, here's what he gave me. Look at this. This is another teacher. Is that nice?",
+            "target": "Target (grandson): yeah",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Well, here's what he gave me. Look at this. This is another teacher. Is that nice? | Speaker B (grandson): yeah",
+            "target": "Target (grandfather): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): yeah | Speaker B (grandfather): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with.",
+            "target": "Target (grandson): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with. | Speaker B (grandson): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes.",
+            "target": "Target (grandfather): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes. | Speaker B (grandfather): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen.",
+            "target": "Target (grandson): It’s just to save time, Grandpa. Some of these clusters are really dense.",
+            "gold_label": "method divergence",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen. | Speaker B (grandson): It’s just to save time, Grandpa. Some of these clusters are really dense.",
+            "target": "Target (grandfather): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): It’s just to save time, Grandpa. Some of these clusters are really dense. | Speaker B (grandfather): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting.",
+            "target": "Target (grandson): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting. | Speaker B (grandson): Oh yeah.",
+            "target": "Target (grandfather): These rich chords, look, with 9ths and 13ths and— right?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Oh yeah. | Speaker B (grandfather): These rich chords, look, with 9ths and 13ths and— right?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): These rich chords, look, with 9ths and 13ths and— right? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): And this is a gorgeous chord, you know, this is a wonderful way to begin.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): And this is a gorgeous chord, you know, this is a wonderful way to begin.",
+            "target": "Target (grandson): Oh yeah. Right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): And this is a gorgeous chord, you know, this is a wonderful way to begin. | Speaker B (grandson): Oh yeah. Right?",
+            "target": "Target (grandfather): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): Oh yeah. Right? | Speaker B (grandfather): Yeah.",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Yeah. | Speaker B (grandson): Yeah.",
+            "target": "Target (grandfather): This— listen to this. Isn't that gorgeous?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandfather): This— listen to this. Isn't that gorgeous?",
+            "target": "Target (grandson): Resolution. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): This— listen to this. Isn't that gorgeous? | Speaker B (grandson): Resolution. Yeah.",
+            "target": "Target (grandfather): And this is really just an E major, I think. Those are good notes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

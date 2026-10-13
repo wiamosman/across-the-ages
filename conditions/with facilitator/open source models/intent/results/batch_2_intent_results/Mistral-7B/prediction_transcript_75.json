@@ -1,0 +1,103 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 75,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Yes, dear, you need to lift it gently.",
+      "golden": "advise",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, I see! Thanks for the tip, Grandma. What are you up to today?",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\nask\n(Note: The"
+    },
+    {
+      "text": "Yes, you can use that. Just be careful with it.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandma! I'll be careful. Are you planning to do anything fun today?",
+      "golden": "thank",
+      "predicted": "arrange",
+      "raw": "arrange, thank"
+    },
+    {
+      "text": "Good job, dear. Let me know if you need any more help.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise\nsupport\n\nUtterance"
+    },
+    {
+      "text": "Thanks, Grandma! I might need your help later with my project. Are you free this afternoon?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Yes, moving the lamp might help with the lighting. Give it a try and see if it improves.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Okay, I'll try moving the lamp and fabric. Thanks for the tip, Grandma! I'll let you know how it goes.",
+      "golden": "agree",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Oh, I meant the lamp, dear. But if moving the fabric helps, you can try that too.",
+      "golden": "explain",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I see! I'll move the lamp then. Thanks for clarifying, Grandma!",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "I was suggesting to move the lamp for better lighting, but if you think adjusting the fabric will help, go ahead and try it.",
+      "golden": "explain",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Got it, I'll move the lamp and see how it works. Thanks again for the advice!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "I'm glad you figured it out. Let me know if you need any more suggestions.",
+      "golden": "praise",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandma! I'll definitely let you know if I need more help.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "That's perfectly fine, dear. It's important to do what makes you happy.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    }
+  ]
+}

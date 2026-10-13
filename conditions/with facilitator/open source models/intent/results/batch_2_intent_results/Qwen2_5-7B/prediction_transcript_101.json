@@ -1,0 +1,103 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 101,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been? Are you ready to learn about your new tablet?",
+      "golden": "greet",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "Oh, I see the screen now! Thank you for pointing out the power button, dear.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help. Is there anything else you need to find on here?",
+      "golden": "care",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, you're sending an email too? That's wonderful! Who is it going to?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "I'm sending it to my professor. I hope they like my project update on social AI.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Oh, I see. Maybe we can double-check the email address together so I can practice typing?",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "It sounds like there's a bit of confusion with the email. Maybe I can help sort it out?",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "offer help"
+    },
+    {
+      "text": "Thank you for offering to help, dear. Let's see if we can figure out the keyboard together.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Thanks, I appreciate the help. Let's make sure the recipient info is correct before I send it.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, let's take a look at the email address and make sure it's correct.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Okay, I'll read it out loud and you can tell me if the spelling looks right.",
+      "golden": "acknowledge",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Great! Let's see if we can find any little mistakes together.",
+      "golden": "care",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Alright, here it goes: professor.doe@university.edu. Does that look right to you?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "Yes, let's check the Wi-Fi connection settings as well. It might help the send go faster.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Okay, I'll check the Wi-Fi settings now. Thanks for the smart suggestion!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh, I see how it works. Thank you for showing me how to use the tablet, dear. I'll try it now.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    }
+  ]
+}

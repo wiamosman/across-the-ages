@@ -1,0 +1,135 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 70,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandmother): Hello dear, how was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandmother): Hello dear, how was your day?",
+      "target": "Target (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork and some tech stuff.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandmother): Hello dear, how was your day? | Speaker B (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork and some tech stuff.",
+      "target": "Target (grandmother): Oh, I see! Technology is amazing these days. Can you show me how it works?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hi Grandma! My day was pretty good, just busy with schoolwork and some tech stuff. | Speaker B (grandmother): Oh, I see! Technology is amazing these days. Can you show me how it works?",
+      "target": "Target (grandson): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandmother): Oh, I see! Technology is amazing these days. Can you show me how it works? | Speaker B (grandson): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first?",
+      "target": "Target (grandmother): Thank you dear for your help. Technology can be a bit tricky for me sometimes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): Sure, Grandma! I'd be happy to help you with that. What do you want to learn about first? | Speaker B (grandmother): Thank you dear for your help. Technology can be a bit tricky for me sometimes.",
+      "target": "Target (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandmother): Thank you dear for your help. Technology can be a bit tricky for me sometimes. | Speaker B (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions.",
+      "target": "Target (grandmother): Would you mind showing me again how to use that app? I want to learn.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): No problem, Grandma! I'm always here to help you with tech stuff. Just let me know if you have any other questions. | Speaker B (grandmother): Would you mind showing me again how to use that app? I want to learn.",
+      "target": "Target (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandmother): Would you mind showing me again how to use that app? I want to learn. | Speaker B (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with?",
+      "target": "Target (grandfather): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): Of course, Grandma! Let's go over it step by step. Which part do you want to start with? | Speaker B (grandfather): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using?",
+      "target": "Target (grandson): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): Hello there! I heard you were showing Grandma some cool stuff on your iPad. What app are you using? | Speaker B (grandson): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us?",
+      "target": "Target (grandmother): Oh, that buzzing sound is quite interesting! What does it mean?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandson): Hey Grandpa! We're using this app to help Grandma with her photos. Do you want to join us? | Speaker B (grandmother): Oh, that buzzing sound is quite interesting! What does it mean?",
+      "target": "Target (grandson): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandmother): Oh, that buzzing sound is quite interesting! What does it mean? | Speaker B (grandson): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention.",
+      "target": "Target (grandmother): Yes, I'm ready! Thank you for being so patient with me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandson): Oh, that's just a notification sound from the app. It lets us know when something is updated or needs attention. | Speaker B (grandmother): Yes, I'm ready! Thank you for being so patient with me.",
+      "target": "Target (grandfather): It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandmother): Yes, I'm ready! Thank you for being so patient with me. | Speaker B (grandfather): It's great to see you helping Grandma with the app. You're doing a wonderful job!",
+      "target": "Target (grandson): Thanks, Grandpa! I'm happy to help out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandfather): It's great to see you helping Grandma with the app. You're doing a wonderful job! | Speaker B (grandson): Thanks, Grandpa! I'm happy to help out.",
+      "target": "Target (grandmother): Yes, please! I want to make sure I understand it correctly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

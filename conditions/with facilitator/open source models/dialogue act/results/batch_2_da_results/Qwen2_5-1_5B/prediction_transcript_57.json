@@ -1,0 +1,121 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 57,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see. Is there anything I can do to help with that?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I think I'm managing okay for now, but I'll let you know if I need anything.",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's the spirit. Now, about that reel right there—could you explain how you've set it up?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, sorry, Grandpa! I was actually thinking about the new project I'm working on for school. It's a bit confusing.",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Wow, that sounds complex! Did you manage to find a good research angle for it yet?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yeah, I did! It's going well so far, but I might need some advice on the conclusion later.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'd be happy to help. While we think on that, do you want to try using some of these worms as bait?",
+      "golden": "question",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Sure! Balancing the project and fishing is a good way to clear my head. Thanks for the advice!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand perfectly. Let's get started with the fishing then, and we can talk while we wait!",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Actually, could we talk a little more about my project first? It'll help me relax more while we're fishing.",
+      "golden": "request",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, tell me all about it. We can prep the rods and have some fun together at the same time.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Perfect. Can we discuss the structure before we cast the lines out?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Of course. Go ahead, and let's see if we can catch some interesting ideas out here!",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I hope we catch a big one today! It's always exciting to see what the water has in store for us.",
+      "golden": "statement-opinion",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "I remember catching a huge fish here once, it was quite the adventure!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Fishing is all about patience, but I promise it will be worth it when we catch something amazing!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I think you'll enjoy it once we get into the rhythm of it. It's quite relaxing.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

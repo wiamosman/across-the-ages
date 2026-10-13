@@ -1,0 +1,1637 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 1,
+    "utterances": [
+        {
+            "text": " Hello, welcome back to Bake It With Grandma",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "CORRECT"
+        },
+        {
+            "text": " Where we are all about baking.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": " With love",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank",
+            "status": "WRONG"
+        },
+        {
+            "text": "With love. I added that. he's like, with flour.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yes.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": " OK, so as I said in our introductory before doing this, I just wanted to get some things prepared so you're not having to wait while we're doing all of that.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " There will be bloopers, but the bloopers will probably be out before the video.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "True.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "  Yes. So just post the bloopers.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": " So, We're going to use box cake, as I said previously, because ..",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "bloopers",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " it was a very last minute. Cake.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Cake. Once your phone's done charging, I can taking it out so we can show them what we're doing.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'm going to. So what we're going to do is use red velvet, and I only have one. Red velvet to the color. So we are going to substitute the white cake",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "substitute",
+            "status": "WRONG"
+        },
+        {
+            "text": " Red velvet's a good color.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": " So we are going to substitute the white cake and add them together. But to get red velvet, you're going to add some...",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": " Red, white, and blue. Maca.",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Cocoa powder. And red dye. Which...",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Is it red 40?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": " This is red 40, which soon will be illegal, so I will have to replace all of my red dye.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "What... What?",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yep, We're going to add...I'm going to bring this over here. So, didn't mean to cover your face.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "And also no singing. grandma!",
+            "golden": "advise",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "No singing?!",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yeah",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Well, nobody wants to hear me sing anyway.",
+            "golden": "complain",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " I know.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Here is the red velvet.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "You should be on Nailed It, man.",
+            "golden": "taunt",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Then, white cake. Yes, but Nailed It are people that can't bake. I, you know,",
+            "golden": "oppose",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " My point still stands, though.",
+            "golden": "emphasize",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "mmmmm The love. Do you feel the love? ",
+            "golden": "criticize",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That was a joke, by the way. He actually said, but Grandma, you ruined my joke.  ok, Because he's really not mean. Do you see how the camera's going back and forth? Yeah. It's going crazy. Okay. I bought,",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "oh, wait, wait, wait. We, we, we bought new mics. So, oh, and a 360 camera. And that's why the camera's going insane.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "It goes to me and then it goes to him. Iup of sugar",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": " I'm prettier.though",
+            "golden": "flaunt",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "CORRECT"
+        },
+        {
+            "text": "He is prettier because he looks like me anyway, two cups. So when you do a box cake, the doctor that you want to do a cup of flour, a cup of sugar, a cup of sour cream, extra vanilla or other flavor, and then three eggs. I always add an extra egg. I'm only going to add one extra egg instead of two. But there's two cups of sugar and two cups of flour.",
+            "golden": "flaunt",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's seven eggs. Right. You said four.",
+            "golden": "doubt",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": " No, it's three on the box, and then you add an extra egg. But I'm not going to add two extra eggs.So pour that in there. Tell them what you're pouring in there.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Pour this in here?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yep",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " In here? Yeah. Okay. So this is sugar. She won't let me eat it. She's very mean. And flour. ",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "And flour. Two cups each.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So do I just dump the whole thing in there? ",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": " Just dump it all. There you go. So these eggs are fresh, washed. the ones that we're using. From my chicken. ",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "18 of them today. That's the highest she's ever gotten.",
+            "golden": "inform",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Most of them are babies. Well, except for 18.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": " A lot of them were in just one single coop.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And I have 57 chickens. 55 are hens. Yes, I might have a slight problem. OK, I'm going to add.",
+            "golden": "emphasize",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": " I can hear them",
+            "golden": "complain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Two cups of sour cream. Add the sour cream? ",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, I wasn't ready. Oh, I'm still not ready. No, I'm still,  okay, I'm ready.",
+            "golden": "complain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Our audience is waiting. Would you like some help?",
+            "golden": "advise",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": " I mean, of our 21 viewers.",
+            "golden": "taunt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Hey, we had like 1,800 on our short. That was pretty good. Our first video.",
+            "golden": "praise",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "That was pretty good. I've been maintaining a couple thousand views every video, which I'm happy about. ",
+            "golden": "flaunt",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "WRONG"
+        },
+        {
+            "text": " He has his own YouTube channel, and we may have said the name of it. ",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": " I don't think we did, because I didn't want to say it. ",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Why?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": " Cuz I don't show my face on my BS video",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " Well, you've shown your face on this one, so what's the name of your other one?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": " hmh",
+            "golden": "refuse",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " It's a Yorkie. Oh, not a Yorkie. hhhhhhhhhh, That should be part of bloopers. A corgi.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "  oh no, I can make it a blooper. I can! I know how. Hey, Lake. Hey.",
+            "golden": "joke",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Then we have two cups of milk with a little bit of lemon, and the lemon helps with the acidity that you need in red velvet. Get my arm jiggles. Then we add The cocoa powder is brown. Then some red dye, D40.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "  D40? It's red 40, not D40.",
+            "golden": "confirm",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": " Well, red, oh yeah, not D40, but red 40. D40 is actually a camera, a Nikon camera. Okay, so before we add the eggs, because we're going to add the eggs one at a time when we turn on the mixer. And I guess I don't need all, didn't need all the, aren't these cute? These are so cute.I ordered these off Amazon and they are,Nancy Green. That's what these are. Aren't those cute? ",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " bloopers,They're not green.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": " Well, no, that's the name of the brand.",
+            "golden": "explain",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": " Then the brand's lying to you.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Super cute. There's like six different colors. I am obsessed with these. because then you're making people wait. But it gets my voice better.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " Just like your chickens. ",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yes, I am obsessed with my chickens. So Matthew, I'm going to have you turn this a little bit. You have to quit taking that off because then you're making people wait.  Why don't you just stand up and do it? ",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "But it gets my voice better. How do I do this?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "CORRECT"
+        },
+        {
+            "text": " Okay, so you're gonna hold the handle. Oh, okay. Hold, and then you're just gonna bring it down. All you really wanna do is we wanna mix the flour and the sugar so that when we put it on the mix on the stand. This looks pink, not red. Well, that's because it's red velvet. It will be. Nope, you would do it. We just want to mix it in a little bit so that when we put it on the stand mixer,  it's not going to go everywhere because it'll go poof.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Has it done that to you? ",
+            "golden": "confirm",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": " Yes. Multiple times. Mostly with buttercream because there's so much in buttercream. ",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Are we using buttercream? ",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": " No. We're using, um, we're doing cream cheese frosting tomorrow. Okay. So what we're going to do, just to kind of take that off. Cause we want all of this in here.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": " We think our next one's going to be a lava cake, but a lot of stuff has been coming up and that it forces us to do other stuff than lava cake.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "  Like grandma starting a new job. Yes. I'm a nurse and I do a lot of this for fun. I actually have an in-home bakery, my own little ",
+            "golden": "inform",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "Did you just smack your Mic? ",
+            "golden": "doubt",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " No, this is my glasses! I have a in-home bakery, but I have a separate kitchen that my husband built for me, which is amazing. That's why it's all pink and still, here's the camera. It's still a work in progress.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " Isn't the whole thing supposed to be pink?  ",
+            "golden": "confirm",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Not the whole thing. Pink, white, and gray, and gold, because I've Paris helped, I am obsessed with Paris Hilton. Let me show you. ",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "   And you said I was wasting time",
+            "golden": "taunt",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Paris Hilton. Pink, isn't that adorable? I'm so in love with it.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": " Do you think you need to get in the view? Yeah. Told you I'm prettier.",
+            "golden": "flaunt",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "  Paris Hilton. Isn't this just cute? And actually the knives are amazing. I would love to say that my husband was jealous, but he kind of made fun of me and laughed at my knives because he works for a company called Washington Beef where they supply amazing meat. ",
+            "golden": "flaunt",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "CORRECT"
+        },
+        {
+            "text": " She's lucky I haven't made fun of her.",
+            "golden": "taunt",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And they use very, very sharp knives to cut up meat.",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "How did he cut himself?",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": " I'm sure he's been there for 40 years. So just celebrated his 40th year. Oh. Yeah. Exciting. Indeed. So what we're doing now, we're going to put this up there. We're going to add this there. Bring it down. Matthew, turn it on number two, please. ",
+            "golden": "plan",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Like that? OK. I can hold it. Just take it off the charger for a second. Oh! Can you see it? Mm-hmm. Yeah. It looks a lot more red now. ",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": " Still a little bit thick.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "criticise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Do we want thick or thin?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Thick. Okay, so now... Go ahead and have that there. Now, he is going to attempt to crack some eggs. We'll use the pretty blue, since that's one of your favorite colors.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Me?",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Red is your favorite color?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask for opinions",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, it's black and white.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, but you like red and blue too.",
+            "golden": "oppose",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "She knows nothing about me.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's not true. I've bought many of sheets for him.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'm gonna put this in my pocket.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "We need to focus on this.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "So it's gonna get flour on it. I don't trust it.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "So eggs are my chickens",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "hair for my grandma.",
+            "golden": "joke",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, Most of the time when I'm baking. Not most. Every time when I'm baking my hair is up. But this is for my son, so it's for family. It's okay. Okay, so Matthew is going to attempt to crack an egg. Have you cracked an egg before?",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. That's why I have paper towel there.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Long time ago.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. Crack hard. Oh, okay.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Then like, like that. Oh, I got some shell and I got some on me.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "So when you do that, you take this and that's on me.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "You should show the camera.",
+            "golden": "advise",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, here.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm not very skilled at cracking eggs. You should do it. No, show the camera. What about that one?",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, that's part of the egg. That's not an eggshell. Oh, okay.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't know how I managed to get it on me.",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Wrong way?",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, you just gotta turn it, turn it with your hand.",
+            "golden": "advise",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, it's pictures. Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Gotta like lean it down.",
+            "golden": "advise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Like that? No, not to me, to. To the, to the. This? Yeah, yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "All right, that's good. Now there you go. And just separate. Good job. Now put it on the paper.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "The way it separates is satisfying. So three or four.",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "We're gonna do all of those. Oh, let me knock. You needed help. Much better.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh. Oh. Is that good enough?",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yep. You're afraid of it getting on you again, huh?",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Nope. What are they? It's just little egg stuff. Oh, no. Oh",
+            "golden": "doubt",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "it's okay. Hurry. Good job.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Is that good enough?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Good. Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "The way I like cracked is like. Oh, oh, oh. Okay, hold on.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Grab the camera.",
+            "golden": "arrange",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, no.",
+            "golden": "doubt",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "You hear the. The elevator music to this.",
+            "golden": "joke",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "grandma Save the day. Yes. Okay, technical difficulties.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "We gotta love them now.",
+            "golden": "advise",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "I need to wash my hands.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "We're going to do one egg at a time.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "What's in here? What is this? We are back from the technical difficulties. And now I'm going to pour the stuff the eggs into the mixer. She is having technical difficulties, I think. Do I just pour them all in? Okay, so she said one at a time.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Boom.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay, I think that's good. And then boom. And then. Oh, no, that was not in the mid. Oh, no. Oh, there it goes.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " Get it?",
+            "golden": "confirm",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Only one of them was gone. Weird. Okay, that worked out well. I thought I was going to spill them all over. I did not. Luckily. Good job. Are we doing square round? We are charging it. All right, we're done. That's bloopers.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Very much so.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That has made it to the blooper show.",
+            "golden": "joke",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "When do we stop? Oh, oh, oh, oh, oh.",
+            "golden": "asking for opinions",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, that's. That's going to be really loud.",
+            "golden": "warn",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "That sounded satisfying. Wait, no, no, no, no, no. I want to put it close to the mic and you crunch it.",
+            "golden": "arrange",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "All right, go ahead.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm behind you. Asmr.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "We never knew you can make ASMR with egg. Broken eggs.",
+            "golden": "joke",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's how they did Jurassic park with a baby dinosaur being born. Now we're going to use the goop. Goop is flour, oil, and Crisco that I use to line.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "She can't even finish her sentences. Oh, never mind.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "So that they don't stick to it.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ring three. Oh, it looks disgusting.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's why it's called poop. So when you do a cake, you always put oil. Not oil, but Crisco, and then flour, and you rub it in so that it doesn't stick to the pan.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Ooh.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's what I'm doing.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Am I allowed to eat that?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, it's got raw egg in it.",
+            "golden": "refuse",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Would that make me sick?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "It can.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "What would it give me?",
+            "golden": "asking for opinions",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Salmonella poisoning, which would mean a trip to the ER. But Krishana's working tonight, so, you know, you can see Krishana quick.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "My death might. Doesn't hurt anyone.",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, wouldn't even die. Well, I mean, I guess you could.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "CORRECT"
+        },
+        {
+            "text": "She'd rather. She'd rather sacrifice me to see her friend.",
+            "golden": "taunt",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No, that's. That's not what I said. I taste better all the time, but I know that my eggs are good, so they're very fresh, but no, you cannot taste it. I thought they're fresh. They are, but I'm not going to risk you getting sick, so you risk yourself getting sick. Yeah, me.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's just me.",
+            "golden": "emphasize",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, put that on pause.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "pause",
+            "status": "WRONG"
+        },
+        {
+            "text": "All right, we will be right back. Three, two, one.",
+            "golden": "leave",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "And we're back. We're gonna put liners on the bottom.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "What for?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "That helps them from not to stick as well. Plus, you also can see what side you're going to use for the layers of the cake.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Also, don't forget to comment what kind of cakes. Oh, I just turned my mic off, I think.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, it's on.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay, never mind. Okay, don't forget to comment what kind of cakes you want us to do. Because who knows? We might do it because. Yeah, why not?",
+            "golden": "advise",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "So maybe the next cake we do should be the dice cake. We'll do the lava cake.",
+            "golden": "plan",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's what I was just gonna think. That's what I was just thinking.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "CORRECT"
+        },
+        {
+            "text": "We can do the dice dice cake next Saturday. We can do a lava or the dice cake. Because I leave it is going crazy out of town. Stand closer to me. There we go. Okay, now hand me a spatula, please.",
+            "golden": "plan",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Anyone? Yeah, either you get small one.",
+            "golden": "confirm",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "So do you want to pour this or do you want me to pour it? Looks kind of heavy.",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'll show you pouring it.",
+            "golden": "plan",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Come here, come here. Oh. So it's like a thick red consistency, which is what you want. If you're doing red, this is what it should look like.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Red velvet.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Red velvet.",
+            "golden": "agree",
+            "predicted": "flaunt",
+            "raw": "flaunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "But that's okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "A little dog red. That's not okay.",
+            "golden": "joke",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "We might have enough actually to do. Normally I would weigh each pan.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "But it's okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "We're not going to do that tonight because it's getting late. And the sooner we get these in the oven, the better.",
+            "golden": "explain",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Also, the sooner this video comes out.",
+            "golden": "emphasize",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "The reason I usually weigh the cakes, you want them about the same size. So that it. When the.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "He's not buying it though, is he?",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, you're paying for it.",
+            "golden": "joke",
+            "predicted": "refuse",
+            "raw": "refuse",
+            "status": "WRONG"
+        },
+        {
+            "text": "What? With what money?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wave child labor.",
+            "golden": "joke",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "She's kidnapped me. I'm actually her grandson.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, so we're gonna do a little bit more. We have enough to do four layers, which means I have to take out some. Some goop cake. Goop. Five minutes.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "How do you make it?",
+            "golden": "ask for help",
+            "predicted": "unknown",
+            "raw": "ask",
+            "status": "WRONG"
+        },
+        {
+            "text": "Flour, oil, vegetable oil, and Crisco.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "What's Crisco?",
+            "golden": "ask for help",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Crisco is fat lard.",
+            "golden": "explain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Then I'm gonna get one more liner. Sorry if I hurt your ears.",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's some bad ASMR for you.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. Liner.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, what was that? from what?",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Gloss. Okay, One more. Okay, so I hope I got that.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Because I put my mic up close, so I hope I got it. I probably didn't. You, like, smack it?",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "Smack it down. Smack. You or smack.",
+            "golden": "warn",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "I mean, you already do both anyway.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, please. Yes. You're so abused.",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Totally.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't think you've ever been spanked.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, I have. Have you?",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. I hope I got those hands. I hope I didn't get those sounds. Of course, you had to get decked out with the pink scissors.",
+            "golden": "doubt",
+            "predicted": "taunt",
+            "raw": "taunt",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's the Paris Hilton ones. Okay, so I'm gonna stick these in the oven.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Is that where we end it? And here is all the stuff. And here's where we're gonna end it. So we will see you in part two. Have a good day.",
+            "golden": "leave",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Have a good day.",
+            "golden": "greet",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Bye.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave",
+            "status": "CORRECT"
+        }
+    ]
+}

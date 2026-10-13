@@ -1,0 +1,69 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 22,
+    "utterances": [
+        {
+            "text": " Okay. Push this through the window. And then what?",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Off jumps Jack!",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke",
+            "status": "WRONG"
+        },
+        {
+            "text": "Off jumps Jack! Okay  try it again. Try it again.Through the front door. You want to do around the back?  ",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": " You did it ! and then push this up and then do it this way and then do Off jumps Jack! Nice job!!",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise",
+            "status": "CORRECT"
+        },
+        {
+            "text": " We're knitting!!",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "excite",
+            "status": "WRONG"
+        },
+        {
+            "text": " Who's the Little girl? ",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "meee!",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "  You got it.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        }
+    ]
+}

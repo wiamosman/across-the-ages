@@ -1,0 +1,343 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 97,
+    "utterances": [
+        {
+            "text": "Tell me what you're doing.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I am doing— I am putting all these together.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "What game is it?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Chess.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "And where does— which one is the king and which one is the queen?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "This is the queen and this is the king.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "What are these on each end?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Castles.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Oh, okay. And who are these guys all in a row?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Pawns. Pawns?",
+            "golden": "answer",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: Castles"
+        },
+        {
+            "text": "Pawns. Uh-huh. So you have in this game the Conquistadors versus the Mayans.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "Yeah, and there's 2 sets and each joins. So this one is a normal one and the other one is different.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay. It's normal?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, this one is normal. The other one different.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: It'"
+        },
+        {
+            "text": "Okay. Who makes the first move?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Um, these.",
+            "golden": "answer",
+            "predicted": "others",
+            "raw": "others\n\nHistory:\nTurn: Um,"
+        },
+        {
+            "text": "Okay, do you want to go first?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "All right.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "These.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Okay, sounds good.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, I can move that.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And go twice. All right, my turn.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\ncommand\nacknowledge"
+        },
+        {
+            "text": "Oh, I was gonna say you should have moved that here. Whatever you think. So space it like this.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: And go"
+        },
+        {
+            "text": "You want me to move that guy there? All right. Space it out?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\nHistory:\nTurn: And go"
+        },
+        {
+            "text": "You move all the way to here. Or this one should move all the way to here. So these move twice.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\nHistory:\nTurn: You move"
+        },
+        {
+            "text": "All right, I'll watch you. And then you— Okay, on the first move.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes, and then it moves one.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "After the first move, only once.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: All right"
+        },
+        {
+            "text": "Yeah. On the second move.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay. Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And let me show you how these guys go. 1, 2. This could go this one or two. Or when there's someone here or here, it can talk to each one.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay. Okay. Okay. I see. How old are you? 5. Oh, you're very good at the game of chess.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\nbackchannel\nquestion\nagreement"
+        },
+        {
+            "text": "Thank you. My dad teach me.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-non-opinion"
+        },
+        {
+            "text": "Oh, he's a good teacher. Okay, so let's move something else. I'm going to move out my— it's your— I, I thought you just went. All right, who went first? You went, then I went, now it's my turn.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement, statement-non-opinion,"
+        },
+        {
+            "text": "Hold on, so you say I went fast and then you went, right? See, it's my time. Oh my goodness. Oh, I am forgetting. Sorry about the video, guys. Sorry about the video, guys.",
+            "golden": "apology",
+            "predicted": "apology",
+            "raw": "apology\nothers\nagreement\nquestion"
+        },
+        {
+            "text": "Why are you talking to the phone instead of me? I'm sitting right here, honey. We don't need 'video guys' to play a game of chess.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's for my channel, Grandma! We have to act like we're teaching the subscribers. You have to look at the lens, not the board.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nHistory:"
+        },
+        {
+            "text": "I can't see the strategy if I'm looking at a camera lens. It feels very silly to pretend we have an audience when it's just us in the living room.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Learn to how play chess. Now your turn.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay, learn how to play chess. Okay, your turn. All right, I'm gonna go here.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement\ncommand\nstatement-non-opin"
+        },
+        {
+            "text": "Yes, now we're getting— You can't move because I am flying.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I can't go in front. Okay, I'm going to try taking out my bishop. 1, 2—",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "That's not a bishop, Dad, it's a horse.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "All right, my knight. I mean, I mean my knight, my horse. Yeah, I'm taking him out. Okay, thanks for correcting me.",
+            "golden": "acknowledge",
+            "predicted": "agreement",
+            "raw": "agreement\nacknowledgement\ncorrection"
+        },
+        {
+            "text": "Come on.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "Others (backchannel) - The speaker may be"
+        },
+        {
+            "text": "Well, wait a minute, that's my knight.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, Daddy said you can't just go through, guys. I said this moves 2 times, then over.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "But that's what I'm saying, dear. The knight is the only piece that can jump over others. I played this with your grandfather for years, I promise that's how it works.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "No, you're not listening! My way is how we're doing it for the video. You have to move it around the other pieces, not over them. Just do it my way.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, with the only the The knight can go through them. Only the knight can. Right, right. And the knight can jump over someone. That's the only guy who can jump.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I think this one.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You don't think so?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, okay. Now I'm gonna move my next pawn here.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nOr:\n\nagreement ("
+        },
+        {
+            "text": "Yeah, I know so. All right, so I went from 1 to 1. All right. Now it's your turn. Okay. Wow. All right, I'm gonna turn this off so I can think about how to play, okay?",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement, statement-non-opinion,"
+        },
+        {
+            "text": "Okay, goodbye guys!",
+            "golden": "others",
+            "predicted": "agreement",
+            "raw": "agreement (or acknowledgement, depending on the"
+        }
+    ]
+}

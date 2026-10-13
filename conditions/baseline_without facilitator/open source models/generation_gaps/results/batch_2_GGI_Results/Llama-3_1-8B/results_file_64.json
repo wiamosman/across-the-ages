@@ -1,0 +1,535 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 64,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Me and my grandma are about to sew. My grandma is teaching me how to sew. This is like our second lesson. We recorded the first lesson, but all the footage got deleted, so we're trying again. And I kind of quit because it was a lot, but we're gonna try again, and we're just gonna try again. So, are you excited, Grandma?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Me and my grandma are about to sew. My grandma is teaching me how to sew. This is like our second lesson. We recorded the first lesson, but all the footage got deleted, so we're trying again. And I kind of quit because it was a lot, but we're gonna try again, and we're just gonna try again. So, are you excited, Grandma?",
+            "target": "Target (grandmother): Good idea. So your first thing is to Get your machine set up and thread your bobbin.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Me and my grandma are about to sew. My grandma is teaching me how to sew. This is like our second lesson. We recorded the first lesson, but all the footage got deleted, so we're trying again. And I kind of quit because it was a lot, but we're gonna try again, and we're just gonna try again. So, are you excited, Grandma? | Speaker B (grandmother): Good idea. So your first thing is to Get your machine set up and thread your bobbin.",
+            "target": "Target (granddaughter): Okay, what is going on? Okay, so this is already—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Good idea. So your first thing is to Get your machine set up and thread your bobbin. | Speaker B (granddaughter): Okay, what is going on? Okay, so this is already—",
+            "target": "Target (grandmother): what you gotta— you gotta get plugged in.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Okay, what is going on? Okay, so this is already— | Speaker B (grandmother): what you gotta— you gotta get plugged in.",
+            "target": "Target (granddaughter): Okay, but something's going on.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): what you gotta— you gotta get plugged in. | Speaker B (granddaughter): Okay, but something's going on.",
+            "target": "Target (grandmother): That's the plug over there.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Okay, but something's going on. | Speaker B (grandmother): That's the plug over there.",
+            "target": "Target (granddaughter): Okay, but something's going on. There is string everywhere coming from here. Wait, Grandma, let me pull up that TikTok I saved. There’s a specific way to untangle this using a needle threader tool I saw online.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): That's the plug over there. | Speaker B (granddaughter): Okay, but something's going on. There is string everywhere coming from here. Wait, Grandma, let me pull up that TikTok I saved. There’s a specific way to untangle this using a needle threader tool I saw online.",
+            "target": "Target (grandmother): A what-tok? Joy, put that phone away. You don't need a video to tell you how to clear a bird's nest. You use your hands and your eyes, not a screen. All that scrolling is why you're so nervous.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Okay, but something's going on. There is string everywhere coming from here. Wait, Grandma, let me pull up that TikTok I saved. There’s a specific way to untangle this using a needle threader tool I saw online. | Speaker B (grandmother): A what-tok? Joy, put that phone away. You don't need a video to tell you how to clear a bird's nest. You use your hands and your eyes, not a screen. All that scrolling is why you're so nervous.",
+            "target": "Target (granddaughter): It's not just scrolling! It’s a tutorial. It shows a close-up that’s way clearer than just looking at the manual.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): A what-tok? Joy, put that phone away. You don't need a video to tell you how to clear a bird's nest. You use your hands and your eyes, not a screen. All that scrolling is why you're so nervous. | Speaker B (granddaughter): It's not just scrolling! It’s a tutorial. It shows a close-up that’s way clearer than just looking at the manual.",
+            "target": "Target (grandmother): The manual is right there in your head if you'd just listen! Now, stop looking for 'hacks' and look at the thread. So you gotta take that bobbin out because you finished. Get your own bobbin.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): It's not just scrolling! It’s a tutorial. It shows a close-up that’s way clearer than just looking at the manual. | Speaker B (grandmother): The manual is right there in your head if you'd just listen! Now, stop looking for 'hacks' and look at the thread. So you gotta take that bobbin out because you finished. Get your own bobbin.",
+            "target": "Target (granddaughter): Okay, how do I take this off? It's on now. I don't remember what I'm doing. I'll put this on here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): The manual is right there in your head if you'd just listen! Now, stop looking for 'hacks' and look at the thread. So you gotta take that bobbin out because you finished. Get your own bobbin. | Speaker B (granddaughter): Okay, how do I take this off? It's on now. I don't remember what I'm doing. I'll put this on here.",
+            "target": "Target (grandmother): Mhm. Thank you, hospital.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): Okay, how do I take this off? It's on now. I don't remember what I'm doing. I'll put this on here. | Speaker B (grandmother): Mhm. Thank you, hospital.",
+            "target": "Target (granddaughter): Yeah, you got to put on there first and then put it in here. You got to put it through here first and then put it on here.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Mhm. Thank you, hospital. | Speaker B (granddaughter): Yeah, you got to put on there first and then put it in here. You got to put it through here first and then put it on here.",
+            "target": "Target (grandmother): Okay, you put it through that little hole and you have a piece out where you going to hold on to it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Yeah, you got to put on there first and then put it in here. You got to put it through here first and then put it on here. | Speaker B (grandmother): Okay, you put it through that little hole and you have a piece out where you going to hold on to it.",
+            "target": "Target (granddaughter): Yeah, I think— okay, I have it, but does it go under? Like, am I supposed to—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Okay, you put it through that little hole and you have a piece out where you going to hold on to it. | Speaker B (granddaughter): Yeah, I think— okay, I have it, but does it go under? Like, am I supposed to—",
+            "target": "Target (grandmother): on top.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): Yeah, I think— okay, I have it, but does it go under? Like, am I supposed to— | Speaker B (grandmother): on top.",
+            "target": "Target (granddaughter): So can I just flip it over like that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): on top. | Speaker B (granddaughter): So can I just flip it over like that?",
+            "target": "Target (grandmother): Uh-huh. Okay, there it is. Did you push it over there to the side on the white button? Uh-huh. Hold that piece right there, cuz you going to have to cut it off.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): So can I just flip it over like that? | Speaker B (grandmother): Uh-huh. Okay, there it is. Did you push it over there to the side on the white button? Uh-huh. Hold that piece right there, cuz you going to have to cut it off.",
+            "target": "Target (granddaughter): I think I messed up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): Uh-huh. Okay, there it is. Did you push it over there to the side on the white button? Uh-huh. Hold that piece right there, cuz you going to have to cut it off. | Speaker B (granddaughter): I think I messed up.",
+            "target": "Target (grandmother): The scissors is over there behind you, right there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): I think I messed up. | Speaker B (grandmother): The scissors is over there behind you, right there.",
+            "target": "Target (granddaughter): I think I'm doing this wrong.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): The scissors is over there behind you, right there. | Speaker B (granddaughter): I think I'm doing this wrong.",
+            "target": "Target (grandmother): Huh?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): I think I'm doing this wrong. | Speaker B (grandmother): Huh?",
+            "target": "Target (granddaughter): I said I think I'm doing this wrong.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): Huh? | Speaker B (granddaughter): I said I think I'm doing this wrong.",
+            "target": "Target (grandmother): You put it on?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (granddaughter): I said I think I'm doing this wrong. | Speaker B (grandmother): You put it on?",
+            "target": "Target (granddaughter): Yeah, but I still think I'm doing it wrong because it was going the wrong way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): You put it on? | Speaker B (granddaughter): Yeah, but I still think I'm doing it wrong because it was going the wrong way.",
+            "target": "Target (grandmother): Hm?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (granddaughter): Yeah, but I still think I'm doing it wrong because it was going the wrong way. | Speaker B (grandmother): Hm?",
+            "target": "Target (granddaughter): It was going the wrong way when I had it on.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): Hm? | Speaker B (granddaughter): It was going the wrong way when I had it on.",
+            "target": "Target (grandmother): Well, turn it over the other way then. I like this, and let it diffuse.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): It was going the wrong way when I had it on. | Speaker B (grandmother): Well, turn it over the other way then. I like this, and let it diffuse.",
+            "target": "Target (granddaughter): I still have it. Grandma, no, hold on. I'm going to try one more time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): Well, turn it over the other way then. I like this, and let it diffuse. | Speaker B (granddaughter): I still have it. Grandma, no, hold on. I'm going to try one more time.",
+            "target": "Target (grandmother): Let me see, Joy.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): I still have it. Grandma, no, hold on. I'm going to try one more time. | Speaker B (grandmother): Let me see, Joy.",
+            "target": "Target (granddaughter): Wait, hold on. I'mma try one more time because I'm nervous.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): Let me see, Joy. | Speaker B (granddaughter): Wait, hold on. I'mma try one more time because I'm nervous.",
+            "target": "Target (grandmother): Don't you dare mess up that tuna in the hair.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (granddaughter): Wait, hold on. I'mma try one more time because I'm nervous. | Speaker B (grandmother): Don't you dare mess up that tuna in the hair.",
+            "target": "Target (granddaughter): But still, like, I don't know what's going on. Like, okay, now do you see how it's in there? Is this right?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): Don't you dare mess up that tuna in the hair. | Speaker B (granddaughter): But still, like, I don't know what's going on. Like, okay, now do you see how it's in there? Is this right?",
+            "target": "Target (grandmother): Now go ahead and mash it. Mash it. Now this boy stop. You can cut this off right here. Get your scissors and cut this piece off now because you got to start so cut it off. Okay? Now imagine that you could just use this to guide— And I'll mash it. I think he scared of the machine pedal!",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (granddaughter): But still, like, I don't know what's going on. Like, okay, now do you see how it's in there? Is this right? | Speaker B (grandmother): Now go ahead and mash it. Mash it. Now this boy stop. You can cut this off right here. Get your scissors and cut this piece off now because you got to start so cut it off. Okay? Now imagine that you could just use this to guide— And I'll mash it. I think he scared of the machine pedal!",
+            "target": "Target (granddaughter): Mhm. I am! Master Troy. I am, Grandma.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): Now go ahead and mash it. Mash it. Now this boy stop. You can cut this off right here. Get your scissors and cut this piece off now because you got to start so cut it off. Okay? Now imagine that you could just use this to guide— And I'll mash it. I think he scared of the machine pedal! | Speaker B (granddaughter): Mhm. I am! Master Troy. I am, Grandma.",
+            "target": "Target (grandmother): Okay, you can stop it. That'll be enough for you to put. Now take it off.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (granddaughter): Mhm. I am! Master Troy. I am, Grandma. | Speaker B (grandmother): Okay, you can stop it. That'll be enough for you to put. Now take it off.",
+            "target": "Target (granddaughter): I put it in like this?",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): Okay, you can stop it. That'll be enough for you to put. Now take it off. | Speaker B (granddaughter): I put it in like this?",
+            "target": "Target (grandmother): Mhm. You can thread the machine. Take it down under, bring it back up over. Back down around that little wire, and then you rent the 3-inch needle. Why are you scared of the pedal? What are you so afraid of?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (granddaughter): I put it in like this? | Speaker B (grandmother): Mhm. You can thread the machine. Take it down under, bring it back up over. Back down around that little wire, and then you rent the 3-inch needle. Why are you scared of the pedal? What are you so afraid of?",
+            "target": "Target (granddaughter): Because we have to start slow. We have to start slow.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandmother): Mhm. You can thread the machine. Take it down under, bring it back up over. Back down around that little wire, and then you rent the 3-inch needle. Why are you scared of the pedal? What are you so afraid of? | Speaker B (granddaughter): Because we have to start slow. We have to start slow.",
+            "target": "Target (grandmother): How slow do you have to be?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (granddaughter): Because we have to start slow. We have to start slow. | Speaker B (grandmother): How slow do you have to be?",
+            "target": "Target (granddaughter): Um, as slow as I need to be. Okay, are we done?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): How slow do you have to be? | Speaker B (granddaughter): Um, as slow as I need to be. Okay, are we done?",
+            "target": "Target (grandmother): Okay, yep.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (granddaughter): Um, as slow as I need to be. Okay, are we done? | Speaker B (grandmother): Okay, yep.",
+            "target": "Target (granddaughter): I can put this back on?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): Okay, yep. | Speaker B (granddaughter): I can put this back on?",
+            "target": "Target (grandmother): Hold your needle thread there. You got to bring that bobbin thread back up through that little hole. Oh, you can leave that on if you want to.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (granddaughter): I can put this back on? | Speaker B (grandmother): Hold your needle thread there. You got to bring that bobbin thread back up through that little hole. Oh, you can leave that on if you want to.",
+            "target": "Target (granddaughter): This hole?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): Hold your needle thread there. You got to bring that bobbin thread back up through that little hole. Oh, you can leave that on if you want to. | Speaker B (granddaughter): This hole?",
+            "target": "Target (grandmother): Did you thread it? Okay, now you got to catch that thread to come up through there. Pass the plate, Sean.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (granddaughter): This hole? | Speaker B (grandmother): Did you thread it? Okay, now you got to catch that thread to come up through there. Pass the plate, Sean.",
+            "target": "Target (granddaughter): Production team. No, pass it to your fiancé.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): Did you thread it? Okay, now you got to catch that thread to come up through there. Pass the plate, Sean. | Speaker B (granddaughter): Production team. No, pass it to your fiancé.",
+            "target": "Target (grandmother): Oh my— Let's go with hide and go seek. I'm trying to sew a star.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): Production team. No, pass it to your fiancé. | Speaker B (grandmother): Oh my— Let's go with hide and go seek. I'm trying to sew a star.",
+            "target": "Target (granddaughter): I messed up already.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): Oh my— Let's go with hide and go seek. I'm trying to sew a star. | Speaker B (granddaughter): I messed up already.",
+            "target": "Target (grandmother): That's a star.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (granddaughter): I messed up already. | Speaker B (grandmother): That's a star.",
+            "target": "Target (granddaughter): Never mind. I'm gonna try it freehand one more time though.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): That's a star. | Speaker B (granddaughter): Never mind. I'm gonna try it freehand one more time though.",
+            "target": "Target (grandmother): Okay. Okay. I did a crown instead. But at least I got this. Do you want to chalk?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): Never mind. I'm gonna try it freehand one more time though. | Speaker B (grandmother): Okay. Okay. I did a crown instead. But at least I got this. Do you want to chalk?",
+            "target": "Target (granddaughter): The point? Sorry! I just sewed a star. Yeah. Now we're going to try a circle. It's complete! Come on, triangle.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): Okay. Okay. I did a crown instead. But at least I got this. Do you want to chalk? | Speaker B (granddaughter): The point? Sorry! I just sewed a star. Yeah. Now we're going to try a circle. It's complete! Come on, triangle.",
+            "target": "Target (grandmother): I think that's— This is great.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): The point? Sorry! I just sewed a star. Yeah. Now we're going to try a circle. It's complete! Come on, triangle. | Speaker B (grandmother): I think that's— This is great.",
+            "target": "Target (granddaughter): This is great.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): I think that's— This is great. | Speaker B (granddaughter): This is great.",
+            "target": "Target (grandmother): You're not— I mean, not telling me to I'm attempting to thread the bobbin again.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (granddaughter): This is great. | Speaker B (grandmother): You're not— I mean, not telling me to I'm attempting to thread the bobbin again.",
+            "target": "Target (granddaughter): I threaded the bobbin. Yes, I threaded the bobbin all by myself. Okay, I think I did it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): You're not— I mean, not telling me to I'm attempting to thread the bobbin again. | Speaker B (granddaughter): I threaded the bobbin. Yes, I threaded the bobbin all by myself. Okay, I think I did it.",
+            "target": "Target (granddaughter): I think I did it. Grandpa, I'm about to be sewing you some hoochie dresses.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): I threaded the bobbin. Yes, I threaded the bobbin all by myself. Okay, I think I did it. | Speaker B (granddaughter): I think I did it. Grandpa, I'm about to be sewing you some hoochie dresses.",
+            "target": "Target (grandmother): Your main thing, Troy, is that you don't need to be afraid of the foot pedal because you act like you driving a car and you scared to take off.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (granddaughter): I think I did it. Grandpa, I'm about to be sewing you some hoochie dresses. | Speaker B (grandmother): Your main thing, Troy, is that you don't need to be afraid of the foot pedal because you act like you driving a car and you scared to take off.",
+            "target": "Target (granddaughter): Yes, and I like to go slow. That's how I drive too.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): Your main thing, Troy, is that you don't need to be afraid of the foot pedal because you act like you driving a car and you scared to take off. | Speaker B (granddaughter): Yes, and I like to go slow. That's how I drive too.",
+            "target": "Target (grandmother): Okay, that's the side. Can they see it on that side? Which side they can see it better? This side.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (granddaughter): Yes, and I like to go slow. That's how I drive too. | Speaker B (grandmother): Okay, that's the side. Can they see it on that side? Which side they can see it better? This side.",
+            "target": "Target (granddaughter): These are my shapes for today. I did a circle, a triangle, a star, and square.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandmother): Okay, that's the side. Can they see it on that side? Which side they can see it better? This side. | Speaker B (granddaughter): These are my shapes for today. I did a circle, a triangle, a star, and square.",
+            "target": "Target (grandmother): So Troy's next lesson is going to be reading patterns and how to put the material onto the pattern. Okay. So what's her first— her first project going to be is drawstring pant lounge pants, and she going to make it out of this material.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (granddaughter): These are my shapes for today. I did a circle, a triangle, a star, and square. | Speaker B (grandmother): So Troy's next lesson is going to be reading patterns and how to put the material onto the pattern. Okay. So what's her first— her first project going to be is drawstring pant lounge pants, and she going to make it out of this material.",
+            "target": "Target (granddaughter): Mhm. Oh wow, I'm really proud of myself and my little shapes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): So Troy's next lesson is going to be reading patterns and how to put the material onto the pattern. Okay. So what's her first— her first project going to be is drawstring pant lounge pants, and she going to make it out of this material. | Speaker B (granddaughter): Mhm. Oh wow, I'm really proud of myself and my little shapes.",
+            "target": "Target (grandmother): Oh, you are?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (granddaughter): Mhm. Oh wow, I'm really proud of myself and my little shapes. | Speaker B (grandmother): Oh, you are?",
+            "target": "Target (granddaughter): Yes, I really am, because I was scared of it last time, the machine, but now I'm on to shapes. Wow, thanks for the lesson, Grandma.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

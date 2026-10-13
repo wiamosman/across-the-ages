@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—",
+    "target": "Speaker A (granddaughter) (Target): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—\nSpeaker B (granddaughter): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.",
+    "target": "Speaker A (grandmother) (Target): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.\nSpeaker B (grandmother): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?",
+    "target": "Speaker A (granddaughter) (Target): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?\nSpeaker B (granddaughter): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.",
+    "target": "Speaker A (grandmother) (Target): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupted speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupted speaker\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker B (granddaughter): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.\nSpeaker A (grandmother): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.",
+    "target": "Speaker A (grandmother) (Target): Okay, can adjust the seat. All right, here's my helping hand. Are you ready?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (grandmother): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.\nSpeaker B (grandmother): Okay, can adjust the seat. All right, here's my helping hand. Are you ready?",
+    "target": "Speaker A (granddaughter) (Target): Oh, that's my boyfriend's hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Okay, can adjust the seat. All right, here's my helping hand. Are you ready?\nSpeaker B (granddaughter): Oh, that's my boyfriend's hand.",
+    "target": "Speaker A (grandmother) (Target): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): Oh, that's my boyfriend's hand.\nSpeaker B (grandmother): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.",
+    "target": "Speaker A (granddaughter) (Target): It's off the brake.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.\nSpeaker B (granddaughter): It's off the brake.",
+    "target": "Speaker A (grandmother) (Target): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): It's off the brake.\nSpeaker B (grandmother): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.",
+    "target": "Speaker A (granddaughter) (Target): Did I do it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.\nSpeaker B (granddaughter): Did I do it?",
+    "target": "Speaker A (grandmother) (Target): Yeah, so far. Slow, slow, slow. Okay, that's good. Now go left. No, wait, hold it. Put the brake on. Don't get on the grass. Okay, very good. See? And now put your right turn signal on and go this way. Don't hit the curb over there. Very good. Stay straight. Very nice. Okay, very good. Good job.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

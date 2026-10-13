@@ -1,0 +1,199 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 40,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet\n\nUtterance:"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet\nor\ncomfort ("
+    },
+    {
+      "text": "I hope it was a good one. Anything interesting happen?",
+      "golden": "asking for opinions",
+      "predicted": "inform",
+      "raw": "ask for information\n\nUtterance"
+    },
+    {
+      "text": "Not much, just the usual stuff. I did get an A on my math test though!",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "announce (or brag, but since"
+    },
+    {
+      "text": "It sounds like you're not too excited about today. Anything you'd like to share?",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I'm actually really happy about the A! Just a bit tired from all the studying.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "Emphasize\n\nUtterance"
+    },
+    {
+      "text": "Well, if there's anything on your mind, I'm here to listen.",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa. I appreciate it. Just trying to keep up with everything.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Oh no, what did you miss? Maybe we can figure it out together.",
+      "golden": "ask for help",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "I just feel like there's always something new to learn, and it gets overwhelming sometimes.",
+      "golden": "complain",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm glad to hear that. If you need any help, just let me know.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandpa. I might take you up on that offer soon.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Ah, I see. Thanks for explaining that to me. I'll give it a try.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank\narrange\nasking for"
+    },
+    {
+      "text": "No problem, Grandpa. Let me know if you need any more help with it.",
+      "golden": "care",
+      "predicted": "unknown",
+      "raw": "offer help\n\nUtterance:"
+    },
+    {
+      "text": "Great, I'm glad it's working now. If you need anything else, just let me know.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Sure thing, Grandpa. I'm always here to help you out.",
+      "golden": "care",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Don't worry, I can show you how to do a 3-point turn. It's easier than it seems.",
+      "golden": "advise",
+      "predicted": "unknown",
+      "raw": "teach\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandpa! I'd love to learn that from you.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Good job backing out safely. If you ever need more practice, I'm here to help.",
+      "golden": "praise",
+      "predicted": "arrange",
+      "raw": "arrange (for help) or thank ("
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your help and guidance.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Off-roading, huh? That sounds like quite the adventure! I'm glad you're enjoying it.",
+      "golden": "acknowledge",
+      "predicted": "unknown",
+      "raw": "embrace (note: \"embrace\""
+    },
+    {
+      "text": "Yeah, it's been a blast! Maybe you can join me sometime?",
+      "golden": "invite",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "Oh, I misunderstood. What did you mean by off-roading?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help\n\nUtterance"
+    },
+    {
+      "text": "Oh, it's when you drive on rough terrain, like dirt roads or trails. It's really fun!",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Let's take a left here, and I'll guide you through the tricky parts.",
+      "golden": "advise",
+      "predicted": "arrange",
+      "raw": "arrange\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate the help. I'll follow your lead.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great, let's keep going. You're doing well.",
+      "golden": "praise",
+      "predicted": "unknown",
+      "raw": "encourage\n\nUtterance: I"
+    },
+    {
+      "text": "Thanks, I'm really enjoying this drive with you.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Ah, I see. Well, grass can be tricky too. Just take it slow and steady. does it..",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Got it, I'll keep that in mind. Thanks for the tip!",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank\n\nUtterance: I"
+    },
+    {
+      "text": "Let's head towards the path on the right. It should be easier to navigate.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Go right?",
+      "golden": "confirm",
+      "predicted": "prevent",
+      "raw": "prevent (assuming the speaker is trying"
+    }
+  ]
+}

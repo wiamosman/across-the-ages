@@ -1,0 +1,952 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how have you been?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how have you been?",
+    "target": "Speaker A (grandfather) (Target): Hello there! I'm just organizing some old photos. Would you like to join me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how have you been?\nSpeaker B (grandfather): Hello there! I'm just organizing some old photos. Would you like to join me?",
+    "target": "Speaker A (grandson) (Target): Sure, I'd love to help you with that!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Hello there! I'm just organizing some old photos. Would you like to join me?\nSpeaker B (grandson): Sure, I'd love to help you with that!",
+    "target": "Speaker A (grandfather) (Target): Ah yes, I remember that! It was such a fun time. Maybe we can plan to do it again soon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Sure, I'd love to help you with that!\nSpeaker B (grandfather): Ah yes, I remember that! It was such a fun time. Maybe we can plan to do it again soon.",
+    "target": "Speaker A (grandson) (Target): That sounds like a great idea! Let me know when you're free to do it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Ah yes, I remember that! It was such a fun time. Maybe we can plan to do it again soon.\nSpeaker B (grandson): That sounds like a great idea! Let me know when you're free to do it.",
+    "target": "Speaker A (grandfather) (Target): Well, I thought it might be interesting to try something new and see how it turns out. Plus, it's a bit less work than crushing grapes!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): That sounds like a great idea! Let me know when you're free to do it.\nSpeaker B (grandfather): Well, I thought it might be interesting to try something new and see how it turns out. Plus, it's a bit less work than crushing grapes!",
+    "target": "Speaker A (grandson) (Target): Trying something new sounds exciting! I'm all for it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Well, I thought it might be interesting to try something new and see how it turns out. Plus, it's a bit less work than crushing grapes!\nSpeaker B (grandson): Trying something new sounds exciting! I'm all for it.",
+    "target": "Speaker A (grandfather) (Target): I'm glad you're interested in trying new things with me. It's always nice to have company.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Trying something new sounds exciting! I'm all for it.\nSpeaker B (grandfather): I'm glad you're interested in trying new things with me. It's always nice to have company.",
+    "target": "Speaker A (grandson) (Target): I'm really looking forward to it. Let me know when you want to start!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): I'm glad you're interested in trying new things with me. It's always nice to have company.\nSpeaker B (grandson): I'm really looking forward to it. Let me know when you want to start!",
+    "target": "Speaker A (grandfather) (Target): Yes, just an experiment to see how it goes. I'm excited to try it with you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): I'm really looking forward to it. Let me know when you want to start!\nSpeaker B (grandfather): Yes, just an experiment to see how it goes. I'm excited to try it with you!",
+    "target": "Speaker A (grandson) (Target): Great! Maybe we can start this weekend?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Yes, just an experiment to see how it goes. I'm excited to try it with you!\nSpeaker B (grandson): Great! Maybe we can start this weekend?",
+    "target": "Speaker A (grandfather) (Target): I picked up a few different varieties like Merlot and Cabernet Sauvignon. I thought it would be fun to see how each one turns out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Great! Maybe we can start this weekend?\nSpeaker B (grandfather): I picked up a few different varieties like Merlot and Cabernet Sauvignon. I thought it would be fun to see how each one turns out.",
+    "target": "Speaker A (grandson) (Target): That sounds awesome! I can't wait to see how they turn out. Do you need any help with the preparations?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): I picked up a few different varieties like Merlot and Cabernet Sauvignon. I thought it would be fun to see how each one turns out.\nSpeaker B (grandson): That sounds awesome! I can't wait to see how they turn out. Do you need any help with the preparations?",
+    "target": "Speaker A (grandfather) (Target): Great! I'm glad you're on board with trying it this way. Let's get started and see what we can create together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): That sounds awesome! I can't wait to see how they turn out. Do you need any help with the preparations?\nSpeaker B (grandfather): Great! I'm glad you're on board with trying it this way. Let's get started and see what we can create together.",
+    "target": "Speaker A (grandson) (Target): I'm really looking forward to it! Let me know if there's anything specific you need me to bring or do.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): Great! I'm glad you're on board with trying it this way. Let's get started and see what we can create together.\nSpeaker B (grandson): I'm really looking forward to it! Let me know if there's anything specific you need me to bring or do.",
+    "target": "Speaker A (grandfather) (Target): I appreciate your hard work, and don't worry, we'll take it slow. It's important to handle them carefully.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): I'm really looking forward to it! Let me know if there's anything specific you need me to bring or do.\nSpeaker B (grandfather): I appreciate your hard work, and don't worry, we'll take it slow. It's important to handle them carefully.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll be careful. I'm sure we'll make something amazing together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandfather): I appreciate your hard work, and don't worry, we'll take it slow. It's important to handle them carefully.\nSpeaker B (grandson): Thanks, Grandpa! I'll be careful. I'm sure we'll make something amazing together.",
+    "target": "Speaker A (grandfather) (Target): Oh, that's interesting! I guess technology has really changed the way we do things. Let's give it a try and see how it works.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll be careful. I'm sure we'll make something amazing together.\nSpeaker B (grandfather): Oh, that's interesting! I guess technology has really changed the way we do things. Let's give it a try and see how it works.",
+    "target": "Speaker A (grandson) (Target): Yeah, technology is pretty amazing! I'm excited to show you how it works.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandfather): Oh, that's interesting! I guess technology has really changed the way we do things. Let's give it a try and see how it works.\nSpeaker B (grandson): Yeah, technology is pretty amazing! I'm excited to show you how it works.",
+    "target": "Speaker A (grandfather) (Target): I understand, precision is important. Let's use the app and see how it goes. I'm curious to see the results.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): Yeah, technology is pretty amazing! I'm excited to show you how it works.\nSpeaker B (grandfather): I understand, precision is important. Let's use the app and see how it goes. I'm curious to see the results.",
+    "target": "Speaker A (grandson) (Target): Great! I'm sure you'll get the hang of it quickly. Let's start with something simple.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandfather): I understand, precision is important. Let's use the app and see how it goes. I'm curious to see the results.\nSpeaker B (grandson): Great! I'm sure you'll get the hang of it quickly. Let's start with something simple.",
+    "target": "Speaker A (grandfather) (Target): Balling, huh? That's a new term for me. I'm glad the app is working well. Let's keep going and see what else we can learn.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Great! I'm sure you'll get the hang of it quickly. Let's start with something simple.\nSpeaker B (grandfather): Balling, huh? That's a new term for me. I'm glad the app is working well. Let's keep going and see what else we can learn.",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, 'balling' just means doing really well or being successful. I'm glad you're enjoying this!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandfather): Balling, huh? That's a new term for me. I'm glad the app is working well. Let's keep going and see what else we can learn.\nSpeaker B (grandson): Haha, yeah, 'balling' just means doing really well or being successful. I'm glad you're enjoying this!",
+    "target": "Speaker A (grandfather) (Target): Yes, adding sugar can help balance the sweetness. Let's measure carefully and adjust as needed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): Haha, yeah, 'balling' just means doing really well or being successful. I'm glad you're enjoying this!\nSpeaker B (grandfather): Yes, adding sugar can help balance the sweetness. Let's measure carefully and adjust as needed.",
+    "target": "Speaker A (grandson) (Target): Got it, let's make sure we get the right amount. Do you want me to help with the measuring?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandfather): Yes, adding sugar can help balance the sweetness. Let's measure carefully and adjust as needed.\nSpeaker B (grandson): Got it, let's make sure we get the right amount. Do you want me to help with the measuring?",
+    "target": "Speaker A (grandfather) (Target): The sugar content affects the taste and fermentation process. It helps achieve the right balance and flavor in what we're making.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): Got it, let's make sure we get the right amount. Do you want me to help with the measuring?\nSpeaker B (grandfather): The sugar content affects the taste and fermentation process. It helps achieve the right balance and flavor in what we're making.",
+    "target": "Speaker A (grandson) (Target): That's interesting! I didn't know sugar played such a big role. Thanks for explaining that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandfather): The sugar content affects the taste and fermentation process. It helps achieve the right balance and flavor in what we're making.\nSpeaker B (grandson): That's interesting! I didn't know sugar played such a big role. Thanks for explaining that.",
+    "target": "Speaker A (grandfather) (Target): Ah, Zinfandel! That's a great choice. Let's give it a try and see how it compares.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): That's interesting! I didn't know sugar played such a big role. Thanks for explaining that.\nSpeaker B (grandfather): Ah, Zinfandel! That's a great choice. Let's give it a try and see how it compares.",
+    "target": "Speaker A (grandson) (Target): Sounds good! I'm excited to see how it turns out. Do you need any more help with the process?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandfather): Ah, Zinfandel! That's a great choice. Let's give it a try and see how it compares.\nSpeaker B (grandson): Sounds good! I'm excited to see how it turns out. Do you need any more help with the process?",
+    "target": "Speaker A (grandfather) (Target): Yes, sometimes less sugar can be better, depending on the taste you're aiming for. Let's experiment a bit and see what works best.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Sounds good! I'm excited to see how it turns out. Do you need any more help with the process?\nSpeaker B (grandfather): Yes, sometimes less sugar can be better, depending on the taste you're aiming for. Let's experiment a bit and see what works best.",
+    "target": "Speaker A (grandson) (Target): Alright, let's try using less sugar then. I'm curious to see how it changes the flavor.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandfather): Yes, sometimes less sugar can be better, depending on the taste you're aiming for. Let's experiment a bit and see what works best.\nSpeaker B (grandson): Alright, let's try using less sugar then. I'm curious to see how it changes the flavor.",
+    "target": "Speaker A (grandfather) (Target): Making your own juice can be a fun and rewarding experience. It allows you to control the ingredients and create flavors you enjoy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): Alright, let's try using less sugar then. I'm curious to see how it changes the flavor.\nSpeaker B (grandfather): Making your own juice can be a fun and rewarding experience. It allows you to control the ingredients and create flavors you enjoy.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's great to have control over what goes into it. Plus, it's healthier this way!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandfather): Making your own juice can be a fun and rewarding experience. It allows you to control the ingredients and create flavors you enjoy.\nSpeaker B (grandson): Yeah, it's great to have control over what goes into it. Plus, it's healthier this way!",
+    "target": "Speaker A (grandfather) (Target): Yes, 22 degrees is a good starting point for the sugar content. It should give us a nice balance.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): Yeah, it's great to have control over what goes into it. Plus, it's healthier this way!\nSpeaker B (grandfather): Yes, 22 degrees is a good starting point for the sugar content. It should give us a nice balance.",
+    "target": "Speaker A (grandson) (Target): Sounds good! Let's give it a try and see how it turns out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandfather): Yes, 22 degrees is a good starting point for the sugar content. It should give us a nice balance.\nSpeaker B (grandson): Sounds good! Let's give it a try and see how it turns out.",
+    "target": "Speaker A (grandfather) (Target): Yes, a little bit of sugar can enhance the flavor, but let's keep it balanced so it's not too sweet.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): Sounds good! Let's give it a try and see how it turns out.\nSpeaker B (grandfather): Yes, a little bit of sugar can enhance the flavor, but let's keep it balanced so it's not too sweet.",
+    "target": "Speaker A (grandson) (Target): Absolutely, keeping it balanced is key. I'm excited to see how it enhances the flavor!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandfather): Yes, a little bit of sugar can enhance the flavor, but let's keep it balanced so it's not too sweet.\nSpeaker B (grandson): Absolutely, keeping it balanced is key. I'm excited to see how it enhances the flavor!",
+    "target": "Speaker A (grandfather) (Target): It's interesting how different methods can lead to different results. Maybe the fruits we used were naturally sweeter.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandson): Absolutely, keeping it balanced is key. I'm excited to see how it enhances the flavor!\nSpeaker B (grandfather): It's interesting how different methods can lead to different results. Maybe the fruits we used were naturally sweeter.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's fascinating how the natural sweetness can vary. Maybe next time we can try a different type of fruit to see how it changes the taste.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandfather): It's interesting how different methods can lead to different results. Maybe the fruits we used were naturally sweeter.\nSpeaker B (grandson): Yeah, it's fascinating how the natural sweetness can vary. Maybe next time we can try a different type of fruit to see how it changes the taste.",
+    "target": "Speaker A (grandfather) (Target): No, we usually mix the sugar into the juice gradually, not directly. It helps to taste as you go to get the right balance.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandson): Yeah, it's fascinating how the natural sweetness can vary. Maybe next time we can try a different type of fruit to see how it changes the taste.\nSpeaker B (grandfather): No, we usually mix the sugar into the juice gradually, not directly. It helps to taste as you go to get the right balance.",
+    "target": "Speaker A (grandson) (Target): Oh, I see! That makes sense. I'll try to remember that for next time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandfather): No, we usually mix the sugar into the juice gradually, not directly. It helps to taste as you go to get the right balance.\nSpeaker B (grandson): Oh, I see! That makes sense. I'll try to remember that for next time.",
+    "target": "Speaker A (grandfather) (Target): Yes, we want the sugar to dissolve completely for a smooth texture. Stirring helps with that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandson): Oh, I see! That makes sense. I'll try to remember that for next time.\nSpeaker B (grandfather): Yes, we want the sugar to dissolve completely for a smooth texture. Stirring helps with that.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll make sure to stir it well next time. Thanks for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandfather): Yes, we want the sugar to dissolve completely for a smooth texture. Stirring helps with that.\nSpeaker B (grandson): Got it, I'll make sure to stir it well next time. Thanks for the tip!",
+    "target": "Speaker A (grandfather) (Target): It's more of a taste test than a calculation. I start with a small amount and adjust based on how sweet the fruit is. Experience helps too.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandson): Got it, I'll make sure to stir it well next time. Thanks for the tip!\nSpeaker B (grandfather): It's more of a taste test than a calculation. I start with a small amount and adjust based on how sweet the fruit is. Experience helps too.",
+    "target": "Speaker A (grandson) (Target): That makes sense, I'll try to get a feel for it with practice. Thanks for sharing your experience!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandfather): It's more of a taste test than a calculation. I start with a small amount and adjust based on how sweet the fruit is. Experience helps too.\nSpeaker B (grandson): That makes sense, I'll try to get a feel for it with practice. Thanks for sharing your experience!",
+    "target": "Speaker A (grandfather) (Target): Yes, it's all about trusting your taste buds and experience. Over time, you get a feel for it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): That makes sense, I'll try to get a feel for it with practice. Thanks for sharing your experience!\nSpeaker B (grandfather): Yes, it's all about trusting your taste buds and experience. Over time, you get a feel for it.",
+    "target": "Speaker A (grandson) (Target): I'll keep practicing and hopefully get as good as you someday!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandfather): Yes, it's all about trusting your taste buds and experience. Over time, you get a feel for it.\nSpeaker B (grandson): I'll keep practicing and hopefully get as good as you someday!",
+    "target": "Speaker A (grandfather) (Target): Yes, once the sugar is dissolved and the juice is balanced, we can add the wine. It complements the flavors nicely.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): I'll keep practicing and hopefully get as good as you someday!\nSpeaker B (grandfather): Yes, once the sugar is dissolved and the juice is balanced, we can add the wine. It complements the flavors nicely.",
+    "target": "Speaker A (grandson) (Target): Got it! I'll make sure to pay attention to those details. Thanks again for the tips!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandfather): Yes, once the sugar is dissolved and the juice is balanced, we can add the wine. It complements the flavors nicely.\nSpeaker B (grandson): Got it! I'll make sure to pay attention to those details. Thanks again for the tips!",
+    "target": "Speaker A (grandfather) (Target): We'll be filling up 3 damijjans this time. The fourth one is for a different batch.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): Got it! I'll make sure to pay attention to those details. Thanks again for the tips!\nSpeaker B (grandfather): We'll be filling up 3 damijjans this time. The fourth one is for a different batch.",
+    "target": "Speaker A (grandson) (Target): Alright, I'll help with filling them up. Let me know if there's anything else you need.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandfather): We'll be filling up 3 damijjans this time. The fourth one is for a different batch.\nSpeaker B (grandson): Alright, I'll help with filling them up. Let me know if there's anything else you need.",
+    "target": "Speaker A (grandfather) (Target): Yes, we'll fill them up to the brim. It's important to leave just a little space for expansion.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): Alright, I'll help with filling them up. Let me know if there's anything else you need.\nSpeaker B (grandfather): Yes, we'll fill them up to the brim. It's important to leave just a little space for expansion.",
+    "target": "Speaker A (grandson) (Target): Got it, I'll make sure to leave a little space. Thanks for the reminder!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandfather): Yes, we'll fill them up to the brim. It's important to leave just a little space for expansion.\nSpeaker B (grandson): Got it, I'll make sure to leave a little space. Thanks for the reminder!",
+    "target": "Speaker A (grandfather) (Target): Exactly, you want to leave a little room for the wine to breathe and expand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "cooperative agreement",
+    "raw_output": "Role: none\nType: cooperative agreement"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): Got it, I'll make sure to leave a little space. Thanks for the reminder!\nSpeaker B (grandfather): Exactly, you want to leave a little room for the wine to breathe and expand.",
+    "target": "Speaker A (grandson) (Target): Makes sense, I'll be careful with that. Anything else I should know?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandfather): Exactly, you want to leave a little room for the wine to breathe and expand.\nSpeaker B (grandson): Makes sense, I'll be careful with that. Anything else I should know?",
+    "target": "Speaker A (grandfather) (Target): Ah, Zinfandel is a great choice. It has a nice balance of fruitiness and spice.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandson): Makes sense, I'll be careful with that. Anything else I should know?\nSpeaker B (grandfather): Ah, Zinfandel is a great choice. It has a nice balance of fruitiness and spice.",
+    "target": "Speaker A (grandson) (Target): Thanks, I'm really looking forward to trying it out. Do you have any tips on how to serve it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandfather): Ah, Zinfandel is a great choice. It has a nice balance of fruitiness and spice.\nSpeaker B (grandson): Thanks, I'm really looking forward to trying it out. Do you have any tips on how to serve it?",
+    "target": "Speaker A (grandfather) (Target): Mixing two varieties can enhance the complexity and depth of the wine's flavor profile. It allows us to balance different characteristics like acidity and sweetness.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandson): Thanks, I'm really looking forward to trying it out. Do you have any tips on how to serve it?\nSpeaker B (grandfather): Mixing two varieties can enhance the complexity and depth of the wine's flavor profile. It allows us to balance different characteristics like acidity and sweetness.",
+    "target": "Speaker A (grandson) (Target): That sounds interesting! I'll definitely try mixing them. Do you have a favorite combination?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandfather): Mixing two varieties can enhance the complexity and depth of the wine's flavor profile. It allows us to balance different characteristics like acidity and sweetness.\nSpeaker B (grandson): That sounds interesting! I'll definitely try mixing them. Do you have a favorite combination?",
+    "target": "Speaker A (grandfather) (Target): Yes, experimenting with new methods can lead to exciting discoveries. It's all about finding the right balance and learning from the process.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandson): That sounds interesting! I'll definitely try mixing them. Do you have a favorite combination?\nSpeaker B (grandfather): Yes, experimenting with new methods can lead to exciting discoveries. It's all about finding the right balance and learning from the process.",
+    "target": "Speaker A (grandson) (Target): Thanks for the advice! I'll give it a try and let you know how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandfather): Yes, experimenting with new methods can lead to exciting discoveries. It's all about finding the right balance and learning from the process.\nSpeaker B (grandson): Thanks for the advice! I'll give it a try and let you know how it goes.",
+    "target": "Speaker A (grandfather) (Target): That's right, mixing grape varieties can create a unique blend that might surprise us with its flavor. It's all part of the fun of winemaking.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandson): Thanks for the advice! I'll give it a try and let you know how it goes.\nSpeaker B (grandfather): That's right, mixing grape varieties can create a unique blend that might surprise us with its flavor. It's all part of the fun of winemaking.",
+    "target": "Speaker A (grandson) (Target): I'm really looking forward to trying it out. Do you have any tips on what to avoid when mixing?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandfather): That's right, mixing grape varieties can create a unique blend that might surprise us with its flavor. It's all part of the fun of winemaking.\nSpeaker B (grandson): I'm really looking forward to trying it out. Do you have any tips on what to avoid when mixing?",
+    "target": "Speaker A (grandfather) (Target): Well, I'm eager to see how it turns out. The anticipation is part of the excitement!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandson): I'm really looking forward to trying it out. Do you have any tips on what to avoid when mixing?\nSpeaker B (grandfather): Well, I'm eager to see how it turns out. The anticipation is part of the excitement!",
+    "target": "Speaker A (grandson) (Target): I'm excited too! I'll make sure to take notes and share the results with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandfather): Well, I'm eager to see how it turns out. The anticipation is part of the excitement!\nSpeaker B (grandson): I'm excited too! I'll make sure to take notes and share the results with you.",
+    "target": "Speaker A (grandfather) (Target): Yes, let's give it a try and see what flavors we've created. It's always a pleasure to share this experience with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): I'm excited too! I'll make sure to take notes and share the results with you.\nSpeaker B (grandfather): Yes, let's give it a try and see what flavors we've created. It's always a pleasure to share this experience with you.",
+    "target": "Speaker A (grandson) (Target): I'm glad we can do this together. It's always fun experimenting with you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandfather): Yes, let's give it a try and see what flavors we've created. It's always a pleasure to share this experience with you.\nSpeaker B (grandson): I'm glad we can do this together. It's always fun experimenting with you!",
+    "target": "Speaker A (grandfather) (Target): Yes, that's correct. In March, we'll transfer it to a different container to help it mature and develop its flavors further.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): I'm glad we can do this together. It's always fun experimenting with you!\nSpeaker B (grandfather): Yes, that's correct. In March, we'll transfer it to a different container to help it mature and develop its flavors further.",
+    "target": "Speaker A (grandson) (Target): That sounds like a great plan! I can't wait to see how it turns out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandfather): Yes, that's correct. In March, we'll transfer it to a different container to help it mature and develop its flavors further.\nSpeaker B (grandson): That sounds like a great plan! I can't wait to see how it turns out.",
+    "target": "Speaker A (grandfather) (Target): Yes, the sediment will settle at the bottom, and we'll separate it to ensure the wine is clear and smooth. It's an important step in the process.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): That sounds like a great plan! I can't wait to see how it turns out.\nSpeaker B (grandfather): Yes, the sediment will settle at the bottom, and we'll separate it to ensure the wine is clear and smooth. It's an important step in the process.",
+    "target": "Speaker A (grandson) (Target): Got it! I'm learning so much from you. Thanks for sharing your knowledge.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandfather): Yes, the sediment will settle at the bottom, and we'll separate it to ensure the wine is clear and smooth. It's an important step in the process.\nSpeaker B (grandson): Got it! I'm learning so much from you. Thanks for sharing your knowledge.",
+    "target": "Speaker A (grandfather) (Target): It's fascinating how each step contributes to the final taste. I'm glad we're doing this together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Got it! I'm learning so much from you. Thanks for sharing your knowledge.\nSpeaker B (grandfather): It's fascinating how each step contributes to the final taste. I'm glad we're doing this together.",
+    "target": "Speaker A (grandson) (Target): I'm really enjoying this too. It's amazing to see how everything comes together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandfather): It's fascinating how each step contributes to the final taste. I'm glad we're doing this together.\nSpeaker B (grandson): I'm really enjoying this too. It's amazing to see how everything comes together.",
+    "target": "Speaker A (grandfather) (Target): Ah, Napoli's! It's a lovely place for a celebration. The pizza here is quite delicious, don't you think? I'm glad we're all together for your mom's birthday.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): I'm really enjoying this too. It's amazing to see how everything comes together.\nSpeaker B (grandfather): Ah, Napoli's! It's a lovely place for a celebration. The pizza here is quite delicious, don't you think? I'm glad we're all together for your mom's birthday.",
+    "target": "Speaker A (grandson) (Target): Yeah, the pizza is amazing! I'm so glad we could all be here to celebrate together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandfather): Ah, Napoli's! It's a lovely place for a celebration. The pizza here is quite delicious, don't you think? I'm glad we're all together for your mom's birthday.\nSpeaker B (grandson): Yeah, the pizza is amazing! I'm so glad we could all be here to celebrate together.",
+    "target": "Speaker A (grandfather) (Target): Yes, the pizza is very good. It's always a treat to enjoy a meal together as a family.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): Yeah, the pizza is amazing! I'm so glad we could all be here to celebrate together.\nSpeaker B (grandfather): Yes, the pizza is very good. It's always a treat to enjoy a meal together as a family.",
+    "target": "Speaker A (grandson) (Target): It's moments like these that make me appreciate our family even more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker B (grandfather): Yes, the pizza is very good. It's always a treat to enjoy a meal together as a family.\nSpeaker B (grandson): It's moments like these that make me appreciate our family even more.",
+    "target": "Speaker A (speaker c) (Target): Okay. This is for Stephanie.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker B (grandson): It's moments like these that make me appreciate our family even more.\nSpeaker B (speaker c): Okay. This is for Stephanie.",
+    "target": "Speaker A (grandfather) (Target): Stephanie will love it, I'm sure. It's wonderful to see everyone enjoying themselves.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker B (speaker c): Okay. This is for Stephanie.\nSpeaker B (grandfather): Stephanie will love it, I'm sure. It's wonderful to see everyone enjoying themselves.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's great to see everyone having a good time. Family gatherings are the best.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker B (grandfather): Stephanie will love it, I'm sure. It's wonderful to see everyone enjoying themselves.\nSpeaker B (grandson): Yeah, it's great to see everyone having a good time. Family gatherings are the best.",
+    "target": "Speaker A (speaker c) (Target): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker B (grandson): Yeah, it's great to see everyone having a good time. Family gatherings are the best.\nSpeaker B (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.",
+    "target": "Speaker A (grandfather) (Target): Ah, yes, the story of pizza Margherita is quite fascinating. It's amazing how food can carry such history and tradition. I'm glad we're enjoying it together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker B (speaker c): No, no, do you know where the name like pizza margherita, do you know where it comes from? I believe you are right, but that old lady, I think it was royalty. That's what he says. I believe it was Queen or Princess Margherita. It was in honor of the Queen of Italy. In honor of Margherita of Savoy. Savoy. You go to the grocery store and you buy meat. It's not the same as when you go to the butcher. Thanks.\nSpeaker B (grandfather): Ah, yes, the story of pizza Margherita is quite fascinating. It's amazing how food can carry such history and tradition. I'm glad we're enjoying it together.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's cool how food has such a rich history. Makes eating it even more enjoyable.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandfather): Ah, yes, the story of pizza Margherita is quite fascinating. It's amazing how food can carry such history and tradition. I'm glad we're enjoying it together.\nSpeaker B (grandson): Yeah, it's cool how food has such a rich history. Makes eating it even more enjoyable.",
+    "target": "Speaker A (grandfather) (Target): It's true, I'm enjoying every moment with all of you. Family time is the best time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): Yeah, it's cool how food has such a rich history. Makes eating it even more enjoyable.\nSpeaker B (grandfather): It's true, I'm enjoying every moment with all of you. Family time is the best time.",
+    "target": "Speaker A (grandson) (Target): Yeah, spending time with family is really special. I'm glad we can share these moments together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandfather): It's true, I'm enjoying every moment with all of you. Family time is the best time.\nSpeaker B (grandson): Yeah, spending time with family is really special. I'm glad we can share these moments together.",
+    "target": "Speaker A (grandfather) (Target): Yes, that's right! You layer the cheese on top and let it melt beautifully. It's all about getting that perfect blend of flavors.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): Yeah, spending time with family is really special. I'm glad we can share these moments together.\nSpeaker B (grandfather): Yes, that's right! You layer the cheese on top and let it melt beautifully. It's all about getting that perfect blend of flavors.",
+    "target": "Speaker A (grandson) (Target): That sounds delicious! I can't wait to try it out myself.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandfather): Yes, that's right! You layer the cheese on top and let it melt beautifully. It's all about getting that perfect blend of flavors.\nSpeaker B (grandson): That sounds delicious! I can't wait to try it out myself.",
+    "target": "Speaker A (grandfather) (Target): Well, sometimes using a fork helps me get a better sense of the texture and flavors. It's just a habit I've picked up over the years.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): That sounds delicious! I can't wait to try it out myself.\nSpeaker B (grandfather): Well, sometimes using a fork helps me get a better sense of the texture and flavors. It's just a habit I've picked up over the years.",
+    "target": "Speaker A (grandson) (Target): That's interesting! I might try that next time. Thanks for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandfather): Well, sometimes using a fork helps me get a better sense of the texture and flavors. It's just a habit I've picked up over the years.\nSpeaker B (grandson): That's interesting! I might try that next time. Thanks for the tip!",
+    "target": "Speaker A (grandfather) (Target): Ah, it's mozzarella, the classic choice for a Margherita pizza. It melts perfectly and complements the other ingredients.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): That's interesting! I might try that next time. Thanks for the tip!\nSpeaker B (grandfather): Ah, it's mozzarella, the classic choice for a Margherita pizza. It melts perfectly and complements the other ingredients.",
+    "target": "Speaker A (grandson) (Target): Mozzarella is definitely a great choice! I love how it melts so smoothly.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandfather): Ah, it's mozzarella, the classic choice for a Margherita pizza. It melts perfectly and complements the other ingredients.\nSpeaker B (grandson): Mozzarella is definitely a great choice! I love how it melts so smoothly.",
+    "target": "Speaker A (grandfather) (Target): I'm 75 today, and still enjoying every bite of these delicious rice balls!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): Mozzarella is definitely a great choice! I love how it melts so smoothly.\nSpeaker B (grandfather): I'm 75 today, and still enjoying every bite of these delicious rice balls!",
+    "target": "Speaker A (grandson) (Target): Wow, 75 and still going strong! Those rice balls must be really special. I'm glad you're enjoying them!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandfather): I'm 75 today, and still enjoying every bite of these delicious rice balls!\nSpeaker B (grandson): Wow, 75 and still going strong! Those rice balls must be really special. I'm glad you're enjoying them!",
+    "target": "Speaker A (grandfather) (Target): Thank you! It's been a wonderful day with all of you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandson): Wow, 75 and still going strong! Those rice balls must be really special. I'm glad you're enjoying them!\nSpeaker B (grandfather): Thank you! It's been a wonderful day with all of you.",
+    "target": "Speaker A (grandson) (Target): I'm so glad you're having a great day, Grandpa! You deserve all the happiness in the world.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

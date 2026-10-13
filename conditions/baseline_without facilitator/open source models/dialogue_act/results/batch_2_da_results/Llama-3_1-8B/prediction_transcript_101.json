@@ -1,0 +1,103 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 101,
+    "utterances": [
+        {
+            "text": "Down here if you want to send her some. Down where? Right there.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That little thing? Yep, hit it. Oh.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh! Yay! Sending an email to someone. To, um—",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "'Cause my email changed.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, she just is using the wrong email.",
+            "golden": "disagreement",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Is that why I didn't get any messages?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "If it's new, it'll have that blue dot next to it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+            "golden": "acknowledge",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'll hire you as my secretary. You want to be my secretary?",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Sure.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Do you know how to do a group one?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Group text?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, like you write it and it goes to 10 people.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm trying, but the screen keeps changing every time I touch it, it makes me nervous I'll delete something.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

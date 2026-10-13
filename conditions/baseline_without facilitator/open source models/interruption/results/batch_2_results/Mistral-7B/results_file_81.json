@@ -1,0 +1,192 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Right?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Right?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Well, here's what he gave me. Look at this. This is another teacher. Is that nice?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, both speakers are cooperating and agreeing with each other. The"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Well, here's what he gave me. Look at this. This is another teacher. Is that nice?",
+    "target": "Speaker A (grandson) (Target): yeah",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): Well, here's what he gave me. Look at this. This is another teacher. Is that nice?\nSpeaker B (grandson): yeah",
+    "target": "Speaker A (grandfather) (Target): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a continuation of his previous statement, and there is no overlap or inter"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): yeah\nSpeaker B (grandfather): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with.",
+    "target": "Speaker A (grandson) (Target): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): Anyhow, yeah, so he has chords like this where it comes in like here, and this is what he's come up with.\nSpeaker B (grandson): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes.",
+    "target": "Speaker A (grandfather) (Target): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: intervening speaker\nType: disruptive intervention\n\nExplanation: The grandfather interrupts the grandson to express his disagreement with"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Wait, let me pull up that chord analyzer app. If I just take a photo of the page, it’ll tell us exactly what the voicings are so we don't have to hunt for the notes.\nSpeaker B (grandfather): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen.",
+    "target": "Speaker A (grandson) (Target): It’s just to save time, Grandpa. Some of these clusters are really dense.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a justification for using the chord analy"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): An analyzer? No, no, we aren't doing engineering here, we're playing music. If you let a machine tell you the notes, your ears stay lazy. I don't want to see that screen.\nSpeaker B (grandson): It’s just to save time, Grandpa. Some of these clusters are really dense.",
+    "target": "Speaker A (grandfather) (Target): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis analysis is based on the following reasoning:\n\n1. The Target's utterance is"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): It’s just to save time, Grandpa. Some of these clusters are really dense.\nSpeaker B (grandfather): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting.",
+    "target": "Speaker A (grandson) (Target): Oh yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandfather): Then we take the time. I'm stopping right here. I’m not playing another note until you put that phone in your pocket. We’ll sit in silence until your ears are ready to actually work. I'm waiting.\nSpeaker B (grandson): Oh yeah.",
+    "target": "Speaker A (grandfather) (Target): These rich chords, look, with 9ths and 13ths and— right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's interjection \"right?\" is a backchannel response acknowledging Speaker B"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandson): Oh yeah.\nSpeaker B (grandfather): These rich chords, look, with 9ths and 13ths and— right?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandfather): These rich chords, look, with 9ths and 13ths and— right?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): And this is a gorgeous chord, you know, this is a wonderful way to begin.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a natural response to his grandson's agreement"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): And this is a gorgeous chord, you know, this is a wonderful way to begin.",
+    "target": "Speaker A (grandson) (Target): Oh yeah. Right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandfather): And this is a gorgeous chord, you know, this is a wonderful way to begin.\nSpeaker B (grandson): Oh yeah. Right?",
+    "target": "Speaker A (grandfather) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandson): Oh yeah. Right?\nSpeaker B (grandfather): Yeah.",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandfather): Yeah.\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): This— listen to this. Isn't that gorgeous?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): This— listen to this. Isn't that gorgeous?",
+    "target": "Speaker A (grandson) (Target): Resolution. Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response \"Resolution. Yeah.\" is a backchannel,"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandfather): This— listen to this. Isn't that gorgeous?\nSpeaker B (grandson): Resolution. Yeah.",
+    "target": "Speaker A (grandfather) (Target): And this is really just an E major, I think. Those are good notes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought and provides a response to the grandson's agreement"
+  }
+]

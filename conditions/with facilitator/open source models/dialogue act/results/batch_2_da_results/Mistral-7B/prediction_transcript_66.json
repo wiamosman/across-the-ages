@@ -1,0 +1,577 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 66,
+  "utterances": [
+    {
+      "text": "Hey Grandma, how's your day going?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+      "golden": "greeting",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nagreement"
+    },
+    {
+      "text": "Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I see, maybe I should try it your way sometime. Thanks for the tip!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a good approach, Grandma. I guess being careful is always better.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll park right over there. Let me know if this spot works for you.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "Oh yes, I remember you mentioned coming here. How is your art going these days?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It's going really well! I've been working on a new piece that I'm really excited about.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-non-opinion"
+    },
+    {
+      "text": "I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, that's right! It means having a lot of fun and getting really excited.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Ah, I see! Thanks for keeping me updated with the latest lingo.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem, Grandma! I'm always here to help you with that.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I might need a little more practice to use 'turnt up' just right!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: No problem"
+    },
+    {
+      "text": "Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+      "golden": "request",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Sure thing"
+    },
+    {
+      "text": "Alright, I'm ready for the challenge! Let's see how well I can guess.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you, dear! I'm ready to learn and have some fun with this.",
+      "golden": "acknowledge",
+      "predicted": "others",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Great! How about you try using 'lit' in a sentence now?",
+      "golden": "command",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, is it like when we say something is 'bright' or 'dazzling'?",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: Oh,"
+    },
+    {
+      "text": "Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Agreement"
+    },
+    {
+      "text": "Ah, so like a party that is full of life! Thank you for explaining it to me.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Turn on"
+    },
+    {
+      "text": "No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Not quite"
+    },
+    {
+      "text": "How about, 'This dinner is lit!' Did I do it right?",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: How about"
+    },
+    {
+      "text": "Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, that would be wonderful! It's nice to share these moments together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: How about"
+    },
+    {
+      "text": "Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nquestion"
+    },
+    {
+      "text": "I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I appreciate that, dear. Family is important, and I appreciate your care.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, that sounds like fun! I'm looking forward to our next visit.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad you're excited, Grandma! We can plan something special together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I get"
+    },
+    {
+      "text": "Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+      "golden": "statement-opinion",
+      "predicted": "apology",
+      "raw": "apology\n\nHistory:\nTurn: I"
+    },
+    {
+      "text": "I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\napology\ncommand\nacknowledge"
+    },
+    {
+      "text": "Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+      "golden": "answer",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+      "golden": "answer",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: And '"
+    },
+    {
+      "text": "Got it, thanks for clearing that up! I learn something new every day.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're doing great, Grandma! It's fun sharing these things with you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: You'"
+    },
+    {
+      "text": "Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's interesting! I love learning these little quirks of language.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I think it's lovely how language can have so many fun variations like 'idear'.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Got it, Grandma! It's always fun to learn something new from you.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, that was such a fun day! I was so happy to see everyone together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It really was a great day! I'm glad we could all be together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: It really"
+    },
+    {
+      "text": "Well, I appreciate you being there with me that day. It was a memorable party!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I know, and I'm grateful we could share it. It was a day to remember!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It really was! I'm always here to spend time with you, Grandma.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: It really"
+    },
+    {
+      "text": "And 'lit' is when something is really exciting! I'm starting to remember these.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandma! It's all about having fun and making memories.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Well, I'm glad to hear you think so! It's so important to cherish these times.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yeah, and it's even better when we can share those moments together!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "And 'shook' means you're really surprised, right? Like if I won the lottery!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, yeah, exactly! It's cool that you're keeping up with them.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: And '"
+    },
+    {
+      "text": "Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a great explanation, Grandma! It's important to stay informed.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Well, I try to understand the important issues, dear. It's always good to keep learning.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're right, Grandma. It's amazing how much there is to learn every day.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Exactly! Thanks for explaining that, Grandma. You've got it.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I'll make sure to have a good time and be careful.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It's always interesting to learn these new things from you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad you think so, Grandma! I love sharing things with you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: It'"
+    },
+    {
+      "text": "I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Yes, dear? Is there anything else you want to teach me?",
+      "golden": "acknowledge",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks for"
+    },
+    {
+      "text": "It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

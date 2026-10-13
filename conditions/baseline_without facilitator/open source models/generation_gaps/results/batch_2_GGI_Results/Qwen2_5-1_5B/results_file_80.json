@@ -1,0 +1,263 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 80,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): This piece right here, Cairo, this one, this is called a rook. Say rook.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): This piece right here, Cairo, this one, this is called a rook. Say rook.",
+            "target": "Target (grandson): this one ?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): This piece right here, Cairo, this one, this is called a rook. Say rook. | Speaker B (grandson): this one ?",
+            "target": "Target (grandmother): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): this one ? | Speaker B (grandmother): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.",
+            "target": "Target (grandson): is it a horse?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight. | Speaker B (grandson): is it a horse?",
+            "target": "Target (grandmother): It's a horse too, but it's called a knight.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): is it a horse? | Speaker B (grandmother): It's a horse too, but it's called a knight.",
+            "target": "Target (grandson): Okay,",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): It's a horse too, but it's called a knight. | Speaker B (grandson): Okay,",
+            "target": "Target (grandmother): now put it back down on the board where you got it from. All right, you ready to begin?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Okay, | Speaker B (grandmother): now put it back down on the board where you got it from. All right, you ready to begin?",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): now put it back down on the board where you got it from. All right, you ready to begin? | Speaker B (grandson): Yes.",
+            "target": "Target (grandmother): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandmother): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—",
+            "target": "Target (grandson): I want the black one.",
+            "gold_label": "ignored input",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only— | Speaker B (grandson): I want the black one.",
+            "target": "Target (grandmother): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.",
+            "gold_label": "ignored input",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): I want the black one. | Speaker B (grandmother): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.",
+            "target": "Target (grandson): The black ones look cooler. Can I have the black horse instead? I'm going to take it.",
+            "gold_label": "ignored input",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal. | Speaker B (grandson): The black ones look cooler. Can I have the black horse instead? I'm going to take it.",
+            "target": "Target (grandmother): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.",
+            "gold_label": "ignored input",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): The black ones look cooler. Can I have the black horse instead? I'm going to take it. | Speaker B (grandmother): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.",
+            "target": "Target (grandmother): You want to do the black one? You don't want to do the white one?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned. | Speaker B (grandmother): You want to do the black one? You don't want to do the white one?",
+            "target": "Target (grandson): No.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): You want to do the black one? You don't want to do the white one? | Speaker B (grandson): No.",
+            "target": "Target (grandmother): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): No. | Speaker B (grandmother): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?",
+            "target": "Target (grandson): Yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro? | Speaker B (grandson): Yeah.",
+            "target": "Target (grandmother): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Yeah. | Speaker B (grandmother): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.",
+            "target": "Target (grandson): It's 2 knights.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight. | Speaker B (grandson): It's 2 knights.",
+            "target": "Target (grandmother): I have 4 knights all together.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): It's 2 knights. | Speaker B (grandmother): I have 4 knights all together.",
+            "target": "Target (grandson): Look, look.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): I have 4 knights all together. | Speaker B (grandson): Look, look.",
+            "target": "Target (grandmother): Yeah, yeah, this. Yeah, right here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): Look, look. | Speaker B (grandmother): Yeah, yeah, this. Yeah, right here.",
+            "target": "Target (grandson): Yeah, and right here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): Yeah, yeah, this. Yeah, right here. | Speaker B (grandson): Yeah, and right here.",
+            "target": "Target (grandmother): Okay, I have 4 of them.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): Yeah, and right here. | Speaker B (grandmother): Okay, I have 4 of them.",
+            "target": "Target (grandson): It was here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): Okay, I have 4 of them. | Speaker B (grandson): It was here.",
+            "target": "Target (grandmother): What? 2 of them belong to me and 2 of them belong to you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): It was here. | Speaker B (grandmother): What? 2 of them belong to me and 2 of them belong to you.",
+            "target": "Target (grandson): Wait, wait, what the half a horse?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): What? 2 of them belong to me and 2 of them belong to you. | Speaker B (grandson): Wait, wait, what the half a horse?",
+            "target": "Target (grandmother): I had a horse. Oh, can I have my horse back?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): Wait, wait, what the half a horse? | Speaker B (grandmother): I had a horse. Oh, can I have my horse back?",
+            "target": "Target (grandson): You take white.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): I had a horse. Oh, can I have my horse back? | Speaker B (grandson): You take white.",
+            "target": "Target (grandmother): Right, put it back where you got it from. There you go, right there. Put my other knight back here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): You take white. | Speaker B (grandmother): Right, put it back where you got it from. There you go, right there. Put my other knight back here.",
+            "target": "Target (grandson): Right here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): Right, put it back where you got it from. There you go, right there. Put my other knight back here. | Speaker B (grandson): Right here.",
+            "target": "Target (grandmother): No, that's not where you got it from. Right, right here. Right there. Thank you, thank you very much. Okay, thank you. Now",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

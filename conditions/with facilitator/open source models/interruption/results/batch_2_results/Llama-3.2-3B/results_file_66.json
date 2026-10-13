@@ -1,0 +1,952 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandma, how's your day going?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandma, how's your day going?",
+    "target": "Speaker A (grandmother) (Target): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandma, how's your day going?\nSpeaker B (grandmother): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+    "target": "Speaker A (grandson) (Target): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.\nSpeaker B (grandson): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+    "target": "Speaker A (grandmother) (Target): I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?\nSpeaker B (grandmother): I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): I think so! It keeps the clothes fresh. It's good to see you joining me today.\nSpeaker B (grandson): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+    "target": "Speaker A (grandmother) (Target): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?\nSpeaker B (grandmother): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+    "target": "Speaker A (grandson) (Target): I see, maybe I should try it your way sometime. Thanks for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.\nSpeaker B (grandson): I see, maybe I should try it your way sometime. Thanks for the tip!",
+    "target": "Speaker A (grandmother) (Target): Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): I see, maybe I should try it your way sometime. Thanks for the tip!\nSpeaker B (grandmother): Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+    "target": "Speaker A (grandson) (Target): That's a good approach, Grandma. I guess being careful is always better.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): Well, I suppose that's true! I do like to take my time and be careful on the road too.\nSpeaker B (grandson): That's a good approach, Grandma. I guess being careful is always better.",
+    "target": "Speaker A (grandmother) (Target): Alright, I'll park right over there. Let me know if this spot works for you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): That's a good approach, Grandma. I guess being careful is always better.\nSpeaker B (grandmother): Alright, I'll park right over there. Let me know if this spot works for you.",
+    "target": "Speaker A (grandson) (Target): Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): Alright, I'll park right over there. Let me know if this spot works for you.\nSpeaker B (grandson): Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+    "target": "Speaker A (grandmother) (Target): Oh yes, I remember you mentioned coming here. How is your art going these days?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Yeah, this spot looks perfect. Thanks for driving us here, Grandma!\nSpeaker B (grandmother): Oh yes, I remember you mentioned coming here. How is your art going these days?",
+    "target": "Speaker A (grandson) (Target): It's going really well! I've been working on a new piece that I'm really excited about.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Oh yes, I remember you mentioned coming here. How is your art going these days?\nSpeaker B (grandson): It's going really well! I've been working on a new piece that I'm really excited about.",
+    "target": "Speaker A (grandmother) (Target): I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): It's going really well! I've been working on a new piece that I'm really excited about.\nSpeaker B (grandmother): I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+    "target": "Speaker A (grandson) (Target): I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): I can't wait to see it! I'm glad we're parked safely and can chat for a bit.\nSpeaker B (grandson): I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+    "target": "Speaker A (grandmother) (Target): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): I know, Grandma. You're a great driver! I'm just glad we're here safely.\nSpeaker B (grandmother): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+    "target": "Speaker A (grandson) (Target): Yeah, that's right! It means having a lot of fun and getting really excited.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?\nSpeaker B (grandson): Yeah, that's right! It means having a lot of fun and getting really excited.",
+    "target": "Speaker A (grandmother) (Target): Ah, I see! Thanks for keeping me updated with the latest lingo.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Yeah, that's right! It means having a lot of fun and getting really excited.\nSpeaker B (grandmother): Ah, I see! Thanks for keeping me updated with the latest lingo.",
+    "target": "Speaker A (grandson) (Target): No problem, Grandma! I'm always here to help you with that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): Ah, I see! Thanks for keeping me updated with the latest lingo.\nSpeaker B (grandson): No problem, Grandma! I'm always here to help you with that.",
+    "target": "Speaker A (grandmother) (Target): Oh, I might need a little more practice to use 'turnt up' just right!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): No problem, Grandma! I'm always here to help you with that.\nSpeaker B (grandmother): Oh, I might need a little more practice to use 'turnt up' just right!",
+    "target": "Speaker A (grandson) (Target): Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): Oh, I might need a little more practice to use 'turnt up' just right!\nSpeaker B (grandson): Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+    "target": "Speaker A (grandmother) (Target): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Haha, you'll get the hang of it in no time! Let me know if you want to practice more.\nSpeaker B (grandmother): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+    "target": "Speaker A (grandson) (Target): Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.\nSpeaker B (grandson): Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+    "target": "Speaker A (grandmother) (Target): Alright, I'm ready for the challenge! Let's see how well I can guess.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): Sure thing, Grandma! How about we start with 'lit'? It's a fun one!\nSpeaker B (grandmother): Alright, I'm ready for the challenge! Let's see how well I can guess.",
+    "target": "Speaker A (grandson) (Target): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): Alright, I'm ready for the challenge! Let's see how well I can guess.\nSpeaker B (grandson): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+    "target": "Speaker A (grandmother) (Target): Thank you, dear! I'm ready to learn and have some fun with this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?\nSpeaker B (grandmother): Thank you, dear! I'm ready to learn and have some fun with this.",
+    "target": "Speaker A (grandson) (Target): Great! How about you try using 'lit' in a sentence now?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): Thank you, dear! I'm ready to learn and have some fun with this.\nSpeaker B (grandson): Great! How about you try using 'lit' in a sentence now?",
+    "target": "Speaker A (grandmother) (Target): Oh, is it like when we say something is 'bright' or 'dazzling'?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): Great! How about you try using 'lit' in a sentence now?\nSpeaker B (grandmother): Oh, is it like when we say something is 'bright' or 'dazzling'?",
+    "target": "Speaker A (grandson) (Target): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): Oh, is it like when we say something is 'bright' or 'dazzling'?\nSpeaker B (grandson): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+    "target": "Speaker A (grandmother) (Target): Ah, so like a party that is full of life! Thank you for explaining it to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?\nSpeaker B (grandmother): Ah, so like a party that is full of life! Thank you for explaining it to me.",
+    "target": "Speaker A (grandson) (Target): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Ah, so like a party that is full of life! Thank you for explaining it to me.\nSpeaker B (grandson): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+    "target": "Speaker A (grandmother) (Target): How about, 'This dinner is lit!' Did I do it right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?\nSpeaker B (grandmother): How about, 'This dinner is lit!' Did I do it right?",
+    "target": "Speaker A (grandson) (Target): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandmother): How about, 'This dinner is lit!' Did I do it right?\nSpeaker B (grandson): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+    "target": "Speaker A (grandmother) (Target): Oh, that would be wonderful! It's nice to share these moments together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?\nSpeaker B (grandmother): Oh, that would be wonderful! It's nice to share these moments together.",
+    "target": "Speaker A (grandson) (Target): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandmother): Oh, that would be wonderful! It's nice to share these moments together.\nSpeaker B (grandson): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+    "target": "Speaker A (grandmother) (Target): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?\nSpeaker B (grandmother): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+    "target": "Speaker A (grandson) (Target): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandmother): I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.\nSpeaker B (grandson): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+    "target": "Speaker A (grandmother) (Target): I appreciate that, dear. Family is important, and I appreciate your care.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandson): I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.\nSpeaker B (grandmother): I appreciate that, dear. Family is important, and I appreciate your care.",
+    "target": "Speaker A (grandson) (Target): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandmother): I appreciate that, dear. Family is important, and I appreciate your care.\nSpeaker B (grandson): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+    "target": "Speaker A (grandmother) (Target): Oh, that sounds like fun! I'm looking forward to our next visit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandson): I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.\nSpeaker B (grandmother): Oh, that sounds like fun! I'm looking forward to our next visit.",
+    "target": "Speaker A (grandson) (Target): I'm glad you're excited, Grandma! We can plan something special together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandmother): Oh, that sounds like fun! I'm looking forward to our next visit.\nSpeaker B (grandson): I'm glad you're excited, Grandma! We can plan something special together.",
+    "target": "Speaker A (grandmother) (Target): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandson): I'm glad you're excited, Grandma! We can plan something special together.\nSpeaker B (grandmother): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+    "target": "Speaker A (grandson) (Target): Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandmother): Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.\nSpeaker B (grandson): Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+    "target": "Speaker A (grandmother) (Target): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandson): Exactly! Thanks for explaining that, Grandma! You're really keeping up.\nSpeaker B (grandmother): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+    "target": "Speaker A (grandson) (Target): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandmother): I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.\nSpeaker B (grandson): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+    "target": "Speaker A (grandmother) (Target): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!\nSpeaker B (grandmother): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+    "target": "Speaker A (grandson) (Target): Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandmother): Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.\nSpeaker B (grandson): Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+    "target": "Speaker A (grandmother) (Target): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): Thanks for explaining that too! I guess I'm a stan of my favorite band then.\nSpeaker B (grandmother): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+    "target": "Speaker A (grandson) (Target): Got it, thanks for clearing that up! I learn something new every day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandmother): And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?\nSpeaker B (grandson): Got it, thanks for clearing that up! I learn something new every day.",
+    "target": "Speaker A (grandmother) (Target): Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): Got it, thanks for clearing that up! I learn something new every day.\nSpeaker B (grandmother): Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+    "target": "Speaker A (grandson) (Target): You're doing great, Grandma! It's fun sharing these things with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandmother): Well, I might not know all the latest slang, but I'm always happy to learn from you!\nSpeaker B (grandson): You're doing great, Grandma! It's fun sharing these things with you.",
+    "target": "Speaker A (grandmother) (Target): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): You're doing great, Grandma! It's fun sharing these things with you.\nSpeaker B (grandmother): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+    "target": "Speaker A (grandson) (Target): That's interesting! I love learning these little quirks of language.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandmother): Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.\nSpeaker B (grandson): That's interesting! I love learning these little quirks of language.",
+    "target": "Speaker A (grandmother) (Target): I think it's lovely how language can have so many fun variations like 'idear'.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): That's interesting! I love learning these little quirks of language.\nSpeaker B (grandmother): I think it's lovely how language can have so many fun variations like 'idear'.",
+    "target": "Speaker A (grandson) (Target): Got it, Grandma! It's always fun to learn something new from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandmother): I think it's lovely how language can have so many fun variations like 'idear'.\nSpeaker B (grandson): Got it, Grandma! It's always fun to learn something new from you.",
+    "target": "Speaker A (grandmother) (Target): Oh, that was such a fun day! I was so happy to see everyone together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandson): Got it, Grandma! It's always fun to learn something new from you.\nSpeaker B (grandmother): Oh, that was such a fun day! I was so happy to see everyone together.",
+    "target": "Speaker A (grandson) (Target): It really was a great day! I'm glad we could all be together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandmother): Oh, that was such a fun day! I was so happy to see everyone together.\nSpeaker B (grandson): It really was a great day! I'm glad we could all be together.",
+    "target": "Speaker A (grandmother) (Target): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandson): It really was a great day! I'm glad we could all be together.\nSpeaker B (grandmother): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+    "target": "Speaker A (grandson) (Target): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandmother): I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.\nSpeaker B (grandson): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+    "target": "Speaker A (grandmother) (Target): Well, I appreciate you being there with me that day. It was a memorable party!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandson): Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.\nSpeaker B (grandmother): Well, I appreciate you being there with me that day. It was a memorable party!",
+    "target": "Speaker A (grandson) (Target): I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandmother): Well, I appreciate you being there with me that day. It was a memorable party!\nSpeaker B (grandson): I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+    "target": "Speaker A (grandmother) (Target): I know, and I'm grateful we could share it. It was a day to remember!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandson): I'm really glad you enjoyed it, Grandma. It was a special day for all of us.\nSpeaker B (grandmother): I know, and I'm grateful we could share it. It was a day to remember!",
+    "target": "Speaker A (grandson) (Target): It really was! I'm always here to spend time with you, Grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandmother): I know, and I'm grateful we could share it. It was a day to remember!\nSpeaker B (grandson): It really was! I'm always here to spend time with you, Grandma.",
+    "target": "Speaker A (grandmother) (Target): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandson): It really was! I'm always here to spend time with you, Grandma.\nSpeaker B (grandmother): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandmother): Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.\nSpeaker B (grandson): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+    "target": "Speaker A (grandmother) (Target): And 'lit' is when something is really exciting! I'm starting to remember these.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.\nSpeaker B (grandmother): And 'lit' is when something is really exciting! I'm starting to remember these.",
+    "target": "Speaker A (grandson) (Target): Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandmother): And 'lit' is when something is really exciting! I'm starting to remember these.\nSpeaker B (grandson): Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+    "target": "Speaker A (grandmother) (Target): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): Exactly, Grandma! It's great that you're keeping up with the new lingo.\nSpeaker B (grandmother): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+    "target": "Speaker A (grandson) (Target): Absolutely, Grandma! It's all about having fun and making memories.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandmother): Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.\nSpeaker B (grandson): Absolutely, Grandma! It's all about having fun and making memories.",
+    "target": "Speaker A (grandmother) (Target): Well, I'm glad to hear you think so! It's so important to cherish these times.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): Absolutely, Grandma! It's all about having fun and making memories.\nSpeaker B (grandmother): Well, I'm glad to hear you think so! It's so important to cherish these times.",
+    "target": "Speaker A (grandson) (Target): Yeah, and it's even better when we can share those moments together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandmother): Well, I'm glad to hear you think so! It's so important to cherish these times.\nSpeaker B (grandson): Yeah, and it's even better when we can share those moments together!",
+    "target": "Speaker A (grandmother) (Target): And 'shook' means you're really surprised, right? Like if I won the lottery!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): Yeah, and it's even better when we can share those moments together!\nSpeaker B (grandmother): And 'shook' means you're really surprised, right? Like if I won the lottery!",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, exactly! It's cool that you're keeping up with them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandmother): And 'shook' means you're really surprised, right? Like if I won the lottery!\nSpeaker B (grandson): Haha, yeah, exactly! It's cool that you're keeping up with them.",
+    "target": "Speaker A (grandmother) (Target): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): Haha, yeah, exactly! It's cool that you're keeping up with them.\nSpeaker B (grandmother): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+    "target": "Speaker A (grandson) (Target): Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandmother): Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.\nSpeaker B (grandson): Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+    "target": "Speaker A (grandmother) (Target): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): Yeah, surprises can be really fun! I'm glad you like learning these new words.\nSpeaker B (grandmother): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+    "target": "Speaker A (grandson) (Target): That's a great explanation, Grandma! It's important to stay informed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandmother): Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.\nSpeaker B (grandson): That's a great explanation, Grandma! It's important to stay informed.",
+    "target": "Speaker A (grandmother) (Target): Well, I try to understand the important issues, dear. It's always good to keep learning.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): That's a great explanation, Grandma! It's important to stay informed.\nSpeaker B (grandmother): Well, I try to understand the important issues, dear. It's always good to keep learning.",
+    "target": "Speaker A (grandson) (Target): You're right, Grandma. It's amazing how much there is to learn every day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (grandmother): Well, I try to understand the important issues, dear. It's always good to keep learning.\nSpeaker B (grandson): You're right, Grandma. It's amazing how much there is to learn every day.",
+    "target": "Speaker A (grandmother) (Target): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (grandson): You're right, Grandma. It's amazing how much there is to learn every day.\nSpeaker B (grandmother): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+    "target": "Speaker A (grandson) (Target): Exactly! Thanks for explaining that, Grandma. You've got it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandmother): And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.\nSpeaker B (grandson): Exactly! Thanks for explaining that, Grandma. You've got it.",
+    "target": "Speaker A (grandmother) (Target): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (grandson): Exactly! Thanks for explaining that, Grandma. You've got it.\nSpeaker B (grandmother): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandma! I'll make sure to have a good time and be careful.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandmother): I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.\nSpeaker B (grandson): Thanks, Grandma! I'll make sure to have a good time and be careful.",
+    "target": "Speaker A (grandmother) (Target): It's always interesting to learn these new things from you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): Thanks, Grandma! I'll make sure to have a good time and be careful.\nSpeaker B (grandmother): It's always interesting to learn these new things from you.",
+    "target": "Speaker A (grandson) (Target): I'm glad you think so, Grandma! I love sharing things with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandmother): It's always interesting to learn these new things from you.\nSpeaker B (grandson): I'm glad you think so, Grandma! I love sharing things with you.",
+    "target": "Speaker A (grandmother) (Target): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): I'm glad you think so, Grandma! I love sharing things with you.\nSpeaker B (grandmother): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandmother): I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.\nSpeaker B (grandson): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+    "target": "Speaker A (grandmother) (Target): Yes, dear? Is there anything else you want to teach me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.\nSpeaker B (grandmother): Yes, dear? Is there anything else you want to teach me?",
+    "target": "Speaker A (grandson) (Target): Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandmother): Yes, dear? Is there anything else you want to teach me?\nSpeaker B (grandson): Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+    "target": "Speaker A (grandmother) (Target): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): Thanks for always being so open to learning, Grandma. It makes our talks so much fun!\nSpeaker B (grandmother): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+    "target": "Speaker A (grandson) (Target): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandmother): Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!\nSpeaker B (grandson): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+    "target": "Speaker A (grandmother) (Target): It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!\nSpeaker B (grandmother): It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+    "target": "Speaker A (grandson) (Target): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandmother): It's nice to learn about your world. It helps us stay connected, even with all these changes.\nSpeaker B (grandson): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+    "target": "Speaker A (grandmother) (Target): I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandson): No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!\nSpeaker B (grandmother): I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+    "target": "Speaker A (grandson) (Target): You're welcome, Grandma! I'm glad I could help. Let me know if you need anything else.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

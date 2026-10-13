@@ -1,0 +1,199 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 80,
+    "utterances": [
+        {
+            "text": "This piece right here, Cairo, this one, this is called a rook. Say rook.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "this one ?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "is it a horse?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "ask"
+        },
+        {
+            "text": "It's a horse too, but it's called a knight.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Okay,",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "now put it back down on the board where you got it from. All right, you ready to begin?",
+            "golden": "confirm",
+            "predicted": "agree",
+            "raw": "agree"
+        },
+        {
+            "text": "Yes.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "I want the black one.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.",
+            "golden": "criticize",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "The black ones look cooler. Can I have the black horse instead? I'm going to take it.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "You want to do the black one? You don't want to do the white one?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "No.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "It's 2 knights.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "I have 4 knights all together.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "Look, look.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Yeah, yeah, this. Yeah, right here.",
+            "golden": "acknowledge",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Yeah, and right here.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Okay, I have 4 of them.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "count"
+        },
+        {
+            "text": "It was here.",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        },
+        {
+            "text": "What? 2 of them belong to me and 2 of them belong to you.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Wait, wait, what the half a horse?",
+            "golden": "confirm",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "I had a horse. Oh, can I have my horse back?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "return"
+        },
+        {
+            "text": "You take white.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "take"
+        },
+        {
+            "text": "Right, put it back where you got it from. There you go, right there. Put my other knight back here.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "return"
+        },
+        {
+            "text": "Right here.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "No, that's not where you got it from. Right, right here. Right there. Thank you, thank you very much. Okay, thank you. Now",
+            "golden": "inform",
+            "predicted": "thank",
+            "raw": "thank"
+        }
+    ]
+}

@@ -1,0 +1,511 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 52,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How was your day?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How was your day?",
+      "target": "Target (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How was your day? | Speaker B (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork.",
+      "target": "Target (grandfather): Yes, I'm ready! What do you have planned for us today?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hey Grandpa! My day was pretty good, just busy with schoolwork. | Speaker B (grandfather): Yes, I'm ready! What do you have planned for us today?",
+      "target": "Target (grandson): I was thinking we could go for a walk in the park and maybe grab some ice cream after. What do you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): Yes, I'm ready! What do you have planned for us today? | Speaker B (grandson): I was thinking we could go for a walk in the park and maybe grab some ice cream after. What do you think?",
+      "target": "Target (grandfather): Great! I'm looking forward to it. What should we do first?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): I was thinking we could go for a walk in the park and maybe grab some ice cream after. What do you think? | Speaker B (grandfather): Great! I'm looking forward to it. What should we do first?",
+      "target": "Target (grandson): Let's start with the walk, and then we can get ice cream. Sound good?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Great! I'm looking forward to it. What should we do first? | Speaker B (grandson): Let's start with the walk, and then we can get ice cream. Sound good?",
+      "target": "Target (grandfather): You're welcome! So, what's the plan for today?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): Let's start with the walk, and then we can get ice cream. Sound good? | Speaker B (grandfather): You're welcome! So, what's the plan for today?",
+      "target": "Target (grandson): I thought we could start with a walk in the park and then grab some ice cream. Does that sound good to you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): You're welcome! So, what's the plan for today? | Speaker B (grandson): I thought we could start with a walk in the park and then grab some ice cream. Does that sound good to you?",
+      "target": "Target (grandfather): Alright, let's get started then! I'm excited to see what you have in mind.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): I thought we could start with a walk in the park and then grab some ice cream. Does that sound good to you? | Speaker B (grandfather): Alright, let's get started then! I'm excited to see what you have in mind.",
+      "target": "Target (grandson): Great! Let's head out and enjoy the day.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): Alright, let's get started then! I'm excited to see what you have in mind. | Speaker B (grandson): Great! Let's head out and enjoy the day.",
+      "target": "Target (grandfather): Alright, I'm turning it carefully. Thanks for the guidance! I'm keeping an eye on the ditches.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandson): Great! Let's head out and enjoy the day. | Speaker B (grandfather): Alright, I'm turning it carefully. Thanks for the guidance! I'm keeping an eye on the ditches.",
+      "target": "Target (grandson): No problem! Just let me know if you need any more help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandfather): Alright, I'm turning it carefully. Thanks for the guidance! I'm keeping an eye on the ditches. | Speaker B (grandson): No problem! Just let me know if you need any more help.",
+      "target": "Target (grandfather): Got it, I'm turning it all the way now. Thanks for the help!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandson): No problem! Just let me know if you need any more help. | Speaker B (grandfather): Got it, I'm turning it all the way now. Thanks for the help!",
+      "target": "Target (grandson): You're doing great! Let's keep going and enjoy the drive.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandfather): Got it, I'm turning it all the way now. Thanks for the help! | Speaker B (grandson): You're doing great! Let's keep going and enjoy the drive.",
+      "target": "Target (grandfather): Yes, this way looks good. Let's keep going!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandson): You're doing great! Let's keep going and enjoy the drive. | Speaker B (grandfather): Yes, this way looks good. Let's keep going!",
+      "target": "Target (grandson): I'm glad you're enjoying the drive. It's a nice day for it!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandfather): Yes, this way looks good. Let's keep going! | Speaker B (grandson): I'm glad you're enjoying the drive. It's a nice day for it!",
+      "target": "Target (grandfather): Alright, we're doing great! Just let me know if there's anything else I should watch out for.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandson): I'm glad you're enjoying the drive. It's a nice day for it! | Speaker B (grandfather): Alright, we're doing great! Just let me know if there's anything else I should watch out for.",
+      "target": "Target (grandson): Sure thing, I'll keep an eye out for any signs or changes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandfather): Alright, we're doing great! Just let me know if there's anything else I should watch out for. | Speaker B (grandson): Sure thing, I'll keep an eye out for any signs or changes.",
+      "target": "Target (grandfather): Thanks for the guidance, I'm giving it a little gas now. We're moving smoothly!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandson): Sure thing, I'll keep an eye out for any signs or changes. | Speaker B (grandfather): Thanks for the guidance, I'm giving it a little gas now. We're moving smoothly!",
+      "target": "Target (grandson): Great! Just keep an eye on the speed limit signs, and we'll be all set.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandfather): Thanks for the guidance, I'm giving it a little gas now. We're moving smoothly! | Speaker B (grandson): Great! Just keep an eye on the speed limit signs, and we'll be all set.",
+      "target": "Target (grandfather): We're doing well, just let me know if there's anything else I should adjust.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandson): Great! Just keep an eye on the speed limit signs, and we'll be all set. | Speaker B (grandfather): We're doing well, just let me know if there's anything else I should adjust.",
+      "target": "Target (grandson): You're doing great! Just keep a steady pace and we'll be fine.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandfather): We're doing well, just let me know if there's anything else I should adjust. | Speaker B (grandson): You're doing great! Just keep a steady pace and we'll be fine.",
+      "target": "Target (grandfather): Great teamwork! I'm glad we're making progress together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandson): You're doing great! Just keep a steady pace and we'll be fine. | Speaker B (grandfather): Great teamwork! I'm glad we're making progress together.",
+      "target": "Target (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to spend time together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandfather): Great teamwork! I'm glad we're making progress together. | Speaker B (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to spend time together.",
+      "target": "Target (grandfather): I'm really enjoying this, it's nice to work together like this.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandson): I'm really enjoying this drive with you, Grandpa. It's nice to spend time together. | Speaker B (grandfather): I'm really enjoying this, it's nice to work together like this.",
+      "target": "Target (grandson): Yeah, it's been a great day. We should do this more often!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandfather): I'm really enjoying this, it's nice to work together like this. | Speaker B (grandson): Yeah, it's been a great day. We should do this more often!",
+      "target": "Target (grandfather): Yes, turn this way now. You're doing great!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandson): Yeah, it's been a great day. We should do this more often! | Speaker B (grandfather): Yes, turn this way now. You're doing great!",
+      "target": "Target (grandson): Thanks, Grandpa! I'm glad you think so. I really appreciate your guidance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandfather): Yes, turn this way now. You're doing great! | Speaker B (grandson): Thanks, Grandpa! I'm glad you think so. I really appreciate your guidance.",
+      "target": "Target (grandfather): Turn this way now, you're doing great!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm glad you think so. I really appreciate your guidance. | Speaker B (grandfather): Turn this way now, you're doing great!",
+      "target": "Target (grandson): Got it, Grandpa! I'm turning now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandfather): Turn this way now, you're doing great! | Speaker B (grandson): Got it, Grandpa! I'm turning now.",
+      "target": "Target (grandfather): I'm proud of how well you're handling this. Keep it up!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandson): Got it, Grandpa! I'm turning now. | Speaker B (grandfather): I'm proud of how well you're handling this. Keep it up!",
+      "target": "Target (grandson): Thanks, Grandpa! That means a lot to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandfather): I'm proud of how well you're handling this. Keep it up! | Speaker B (grandson): Thanks, Grandpa! That means a lot to me.",
+      "target": "Target (grandfather): That's perfect, you've done a great job. Let's move on to the next step.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandson): Thanks, Grandpa! That means a lot to me. | Speaker B (grandfather): That's perfect, you've done a great job. Let's move on to the next step.",
+      "target": "Target (grandson): Alright, I'm ready for the next step. What should I do?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandfather): That's perfect, you've done a great job. Let's move on to the next step. | Speaker B (grandson): Alright, I'm ready for the next step. What should I do?",
+      "target": "Target (grandfather): Great job! Now, let's try adjusting the angle slightly to the left.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandson): Alright, I'm ready for the next step. What should I do? | Speaker B (grandfather): Great job! Now, let's try adjusting the angle slightly to the left.",
+      "target": "Target (grandson): Okay, I'll adjust it to the left. Does this look better?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandfather): Great job! Now, let's try adjusting the angle slightly to the left. | Speaker B (grandson): Okay, I'll adjust it to the left. Does this look better?",
+      "target": "Target (grandfather): That's okay, you're doing well. Just take your time and adjust slowly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandson): Okay, I'll adjust it to the left. Does this look better? | Speaker B (grandfather): That's okay, you're doing well. Just take your time and adjust slowly.",
+      "target": "Target (grandson): Thanks, I'll keep adjusting it slowly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandfather): That's okay, you're doing well. Just take your time and adjust slowly. | Speaker B (grandson): Thanks, I'll keep adjusting it slowly.",
+      "target": "Target (grandfather): I'm sorry if I came across as yelling. I just want to help you succeed.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandson): Thanks, I'll keep adjusting it slowly. | Speaker B (grandfather): I'm sorry if I came across as yelling. I just want to help you succeed.",
+      "target": "Target (grandson): No worries, Grandpa. I know you're just trying to help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): I'm sorry if I came across as yelling. I just want to help you succeed. | Speaker B (grandson): No worries, Grandpa. I know you're just trying to help.",
+      "target": "Target (grandfather): Yes, that's the right direction. You're doing great, just keep going slowly.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandson): No worries, Grandpa. I know you're just trying to help. | Speaker B (grandfather): Yes, that's the right direction. You're doing great, just keep going slowly.",
+      "target": "Target (grandson): Thanks, Grandpa. I'll keep at it and let you know if I need more help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): Yes, that's the right direction. You're doing great, just keep going slowly. | Speaker B (grandson): Thanks, Grandpa. I'll keep at it and let you know if I need more help.",
+      "target": "Target (grandfather): Yes, you're doing it perfectly. Just keep steady and you'll be on the road in no time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandson): Thanks, Grandpa. I'll keep at it and let you know if I need more help. | Speaker B (grandfather): Yes, you're doing it perfectly. Just keep steady and you'll be on the road in no time.",
+      "target": "Target (grandson): Thanks for the encouragement, Grandpa. It really helps me feel more confident.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): Yes, you're doing it perfectly. Just keep steady and you'll be on the road in no time. | Speaker B (grandson): Thanks for the encouragement, Grandpa. It really helps me feel more confident.",
+      "target": "Target (grandfather): Yes, that's correct. You're getting the hang of it, just keep practicing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandson): Thanks for the encouragement, Grandpa. It really helps me feel more confident. | Speaker B (grandfather): Yes, that's correct. You're getting the hang of it, just keep practicing.",
+      "target": "Target (grandson): I will, Grandpa. Thanks for always being there for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandfather): Yes, that's correct. You're getting the hang of it, just keep practicing. | Speaker B (grandson): I will, Grandpa. Thanks for always being there for me.",
+      "target": "Target (grandfather): Yes, all the way. You're doing really well, just stay focused.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandson): I will, Grandpa. Thanks for always being there for me. | Speaker B (grandfather): Yes, all the way. You're doing really well, just stay focused.",
+      "target": "Target (grandson): I'll definitely keep that in mind, Grandpa. Your advice always means a lot to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandfather): Yes, all the way. You're doing really well, just stay focused. | Speaker B (grandson): I'll definitely keep that in mind, Grandpa. Your advice always means a lot to me.",
+      "target": "Target (grandfather): Great job! You're really getting the hang of this. Keep it up!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandson): I'll definitely keep that in mind, Grandpa. Your advice always means a lot to me. | Speaker B (grandfather): Great job! You're really getting the hang of this. Keep it up!",
+      "target": "Target (grandson): Thanks, Grandpa! I'll keep pushing forward.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandfather): Great job! You're really getting the hang of this. Keep it up! | Speaker B (grandson): Thanks, Grandpa! I'll keep pushing forward.",
+      "target": "Target (grandfather): I'm proud of you for sticking with it. You're doing fantastic!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep pushing forward. | Speaker B (grandfather): I'm proud of you for sticking with it. You're doing fantastic!",
+      "target": "Target (grandson): Thanks, Grandpa! Your support really motivates me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandfather): I'm proud of you for sticking with it. You're doing fantastic! | Speaker B (grandson): Thanks, Grandpa! Your support really motivates me.",
+      "target": "Target (grandfather): Yes, that's the right direction. You're doing great, just keep going.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandson): Thanks, Grandpa! Your support really motivates me. | Speaker B (grandfather): Yes, that's the right direction. You're doing great, just keep going.",
+      "target": "Target (grandson): I really appreciate it, Grandpa. I'll make sure to keep up the hard work.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandfather): Yes, that's the right direction. You're doing great, just keep going. | Speaker B (grandson): I really appreciate it, Grandpa. I'll make sure to keep up the hard work.",
+      "target": "Target (grandfather): Absolutely, you're ready. Just take your time and stay calm.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandson): I really appreciate it, Grandpa. I'll make sure to keep up the hard work. | Speaker B (grandfather): Absolutely, you're ready. Just take your time and stay calm.",
+      "target": "Target (grandson): Thanks, Grandpa. I'll remember to stay calm and focused.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandfather): Absolutely, you're ready. Just take your time and stay calm. | Speaker B (grandson): Thanks, Grandpa. I'll remember to stay calm and focused.",
+      "target": "Target (grandfather): Of course not, you're doing wonderfully. I'm here to help you along the way.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandson): Thanks, Grandpa. I'll remember to stay calm and focused. | Speaker B (grandfather): Of course not, you're doing wonderfully. I'm here to help you along the way.",
+      "target": "Target (grandson): I feel so much better knowing you're here to support me. It means a lot.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandfather): Of course not, you're doing wonderfully. I'm here to help you along the way. | Speaker B (grandson): I feel so much better knowing you're here to support me. It means a lot.",
+      "target": "Target (grandfather): I'm glad you're enjoying it. It's important to have fun while learning.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandson): I feel so much better knowing you're here to support me. It means a lot. | Speaker B (grandfather): I'm glad you're enjoying it. It's important to have fun while learning.",
+      "target": "Target (grandson): Thanks, Grandpa. I'm really enjoying learning with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandfather): I'm glad you're enjoying it. It's important to have fun while learning. | Speaker B (grandson): Thanks, Grandpa. I'm really enjoying learning with you.",
+      "target": "Target (grandfather): Alright, let's go that way. You're leading the way now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandson): Thanks, Grandpa. I'm really enjoying learning with you. | Speaker B (grandfather): Alright, let's go that way. You're leading the way now.",
+      "target": "Target (grandson): Okay, I'll do my best to lead us in the right direction!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandfather): Alright, let's go that way. You're leading the way now. | Speaker B (grandson): Okay, I'll do my best to lead us in the right direction!",
+      "target": "Target (grandfather): Yes, right here is perfect. Let's go ahead.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

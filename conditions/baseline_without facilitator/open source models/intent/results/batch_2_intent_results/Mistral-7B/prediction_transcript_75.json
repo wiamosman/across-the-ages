@@ -1,0 +1,103 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 75,
+    "utterances": [
+        {
+            "text": "Lift it? Am I supposed to lift it?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Can I use this?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Lift it first. Get your fabric under there. Make sure it's lined up with the tape.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Yep.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Now put the needle down. You know, turn the needle.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Wait, let me just check the framing of the camera. I think the lighting is hitting the thread wrong. Do you think I should move the lamp?",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance"
+        },
+        {
+            "text": "The needle, honey. Turn the wheel to put the needle down into the fabric first. Don't worry about the lamp.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Right, the lamp... wait, did you say move the fabric? I'm trying to see if the colors pop on the screen.",
+            "golden": "confirm",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "I'm stopping right here. I'm not saying it a third time while you're staring at that screen. We are stalled until you look at the presser foot and do what I said with the needle. The sewing machine doesn't care about your lighting.",
+            "golden": "criticize",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Eh?",
+            "golden": "confirm",
+            "predicted": "doubt",
+            "raw": "doubt"
+        },
+        {
+            "text": "Mm-hmm. No, towards you. Keep turning it. Keep turning. There you go. Now you can take your pin out.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's what you were wanting to do.",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Don't want to be famous.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

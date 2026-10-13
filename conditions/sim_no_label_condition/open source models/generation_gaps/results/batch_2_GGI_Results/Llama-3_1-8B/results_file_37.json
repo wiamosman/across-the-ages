@@ -1,0 +1,183 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 37,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): What's that? Foot on the brake. Okay, foot on the brake and put it on D, on drive. Go ahead.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): What's that? Foot on the brake. Okay, foot on the brake and put it on D, on drive. Go ahead.",
+            "target": "Target (granddaughter): With the brakes down?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): What's that? Foot on the brake. Okay, foot on the brake and put it on D, on drive. Go ahead. | Speaker B (granddaughter): With the brakes down?",
+            "target": "Target (grandfather): With the brakes on. Hold the brake down. Hold the brake down. Just make sure you put the brake. Okay, let it go.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): With the brakes down? | Speaker B (grandfather): With the brakes on. Hold the brake down. Hold the brake down. Just make sure you put the brake. Okay, let it go.",
+            "target": "Target (granddaughter): There we go. Wait, I can't see. I'm going so slow.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): With the brakes on. Hold the brake down. Hold the brake down. Just make sure you put the brake. Okay, let it go. | Speaker B (granddaughter): There we go. Wait, I can't see. I'm going so slow.",
+            "target": "Target (grandfather): Now listen, baby, I'm going to explain this very simply for you. This big circle in front of you is a steering wheel. You use your hands to turn it left or right. Do you understand 'left' and 'right', or should I point?",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): There we go. Wait, I can't see. I'm going so slow. | Speaker B (grandfather): Now listen, baby, I'm going to explain this very simply for you. This big circle in front of you is a steering wheel. You use your hands to turn it left or right. Do you understand 'left' and 'right', or should I point?",
+            "target": "Target (granddaughter): Grandpa, I know what a steering wheel is and I know my lefts and rights. You don't have to talk to me like I'm five.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Now listen, baby, I'm going to explain this very simply for you. This big circle in front of you is a steering wheel. You use your hands to turn it left or right. Do you understand 'left' and 'right', or should I point? | Speaker B (granddaughter): Grandpa, I know what a steering wheel is and I know my lefts and rights. You don't have to talk to me like I'm five.",
+            "target": "Target (grandfather): I'm just making sure! My granddaughter is driving my car. Go ahead, go that way. That's fine. Yeah, now go that way.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Grandpa, I know what a steering wheel is and I know my lefts and rights. You don't have to talk to me like I'm five. | Speaker B (grandfather): I'm just making sure! My granddaughter is driving my car. Go ahead, go that way. That's fine. Yeah, now go that way.",
+            "target": "Target (granddaughter): Turn.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): I'm just making sure! My granddaughter is driving my car. Go ahead, go that way. That's fine. Yeah, now go that way. | Speaker B (granddaughter): Turn.",
+            "target": "Target (grandfather): Yeah, there you go. Stay on that side. Keep on going around. Just keep on driving, baby. There you go. You could hit the gas if you want.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Turn. | Speaker B (grandfather): Yeah, there you go. Stay on that side. Keep on going around. Just keep on driving, baby. There you go. You could hit the gas if you want.",
+            "target": "Target (granddaughter): Where's the gas?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Yeah, there you go. Stay on that side. Keep on going around. Just keep on driving, baby. There you go. You could hit the gas if you want. | Speaker B (granddaughter): Where's the gas?",
+            "target": "Target (grandfather): That one, but be careful. Slow down, baby, slow down. Now I want you to go that way. Make a left, go left.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Where's the gas? | Speaker B (grandfather): That one, but be careful. Slow down, baby, slow down. Now I want you to go that way. Make a left, go left.",
+            "target": "Target (granddaughter): Okay, okay. Oh, I hit the wrong one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): That one, but be careful. Slow down, baby, slow down. Now I want you to go that way. Make a left, go left. | Speaker B (granddaughter): Okay, okay. Oh, I hit the wrong one.",
+            "target": "Target (grandfather): Yes, easy on it. Suave. All right, now put it in reverse. Put on the R. Press the brake. Turn the wheel all around.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Okay, okay. Oh, I hit the wrong one. | Speaker B (grandfather): Yes, easy on it. Suave. All right, now put it in reverse. Put on the R. Press the brake. Turn the wheel all around.",
+            "target": "Target (granddaughter): All the way around.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): Yes, easy on it. Suave. All right, now put it in reverse. Put on the R. Press the brake. Turn the wheel all around. | Speaker B (granddaughter): All the way around.",
+            "target": "Target (grandfather): Now go slow. Turn the wheel and go slow. You're doing it. Okay, stop. Move the wheel the other way. All the way. Yes. Now put it on drive. Keep your feet on the brake. Now drive slowly. Go that way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): All the way around. | Speaker B (grandfather): Now go slow. Turn the wheel and go slow. You're doing it. Okay, stop. Move the wheel the other way. All the way. Yes. Now put it on drive. Keep your feet on the brake. Now drive slowly. Go that way.",
+            "target": "Target (granddaughter): There you go. Oh, that's how far it goes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Now go slow. Turn the wheel and go slow. You're doing it. Okay, stop. Move the wheel the other way. All the way. Yes. Now put it on drive. Keep your feet on the brake. Now drive slowly. Go that way. | Speaker B (granddaughter): There you go. Oh, that's how far it goes.",
+            "target": "Target (grandfather): Go straight. Follow the yellow road.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): There you go. Oh, that's how far it goes. | Speaker B (grandfather): Go straight. Follow the yellow road.",
+            "target": "Target (granddaughter): Ok, iam i just Follow the yellow road.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): Go straight. Follow the yellow road. | Speaker B (granddaughter): Ok, iam i just Follow the yellow road.",
+            "target": "Target (grandfather): You are doing good. You got it, baby. Just go around that way. Keep on going straight. Straighten the wheel. And you're gonna park right in there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Ok, iam i just Follow the yellow road. | Speaker B (grandfather): You are doing good. You got it, baby. Just go around that way. Keep on going straight. Straighten the wheel. And you're gonna park right in there.",
+            "target": "Target (granddaughter): Oh gosh, I'm not gonna park good. Slowly. Are we good? Okay, okay, go away.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): You are doing good. You got it, baby. Just go around that way. Keep on going straight. Straighten the wheel. And you're gonna park right in there. | Speaker B (granddaughter): Oh gosh, I'm not gonna park good. Slowly. Are we good? Okay, okay, go away.",
+            "target": "Target (grandfather): Oh, turn it all the way around. You're doing good. That's fine. Keep on going. Okay, all right, stop it. Put it on park. You are awesome.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): Oh gosh, I'm not gonna park good. Slowly. Are we good? Okay, okay, go away. | Speaker B (grandfather): Oh, turn it all the way around. You're doing good. That's fine. Keep on going. Okay, all right, stop it. Put it on park. You are awesome.",
+            "target": "Target (granddaughter): Yes!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

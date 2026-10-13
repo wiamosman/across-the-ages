@@ -1,0 +1,496 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 19,
+    "utterances": [
+        {
+            "text": "Okay, Grandma, now we're. Okay, Grandma. Now we're in lesson two. So just a few basic things about what music looks like on page that called the staff and the clef. The staff is what music is written on. Those are the lines and spaces. Five lines, four spaces. You don't have to remember that right now. But just so you know that the staff is where music is written on.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Ok,This is a clef?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\n```python\n{",
+            "status": "WRONG"
+        },
+        {
+            "text": "And that's a clef. That's the right hand clef or called the G clef. That tells you to use your right hand. Yes. And note. Some people don't know this, but there are specific names for parts of the note. The round part, the circle is the note.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Head.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "asking for help\nUtterance: I can",
+            "status": "WRONG"
+        },
+        {
+            "text": "Head. It matches it. And the little line is a stem, just like on a flower.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Note head with a stem.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Note head and stem. And note heads will come black or white, or some of them will come without a stem. And you will learn that as we go.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```\nUtter",
+            "status": "CORRECT"
+        },
+        {
+            "text": "When you're looking at notes on the staff, sometimes they're written inside the space in between the lines or on the line where the line goes right through it. And if anyone's following along on the video, they can look on their page called notes on the staff, and they'll see what we're talking about. Okay. Our first real note. Okay. We were looking at just the letter C. To play C. This is what middle C really looks like. It's hanging below the staff. This tells you your right hand. So let's go ahead and play the middle C just like you have been. Right hand. Oh, right hand.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So this is your right hand clef or your G clef. And that's what it looks like. So now you're going to play a song, and every time you see the middle C, you'll play C. Instead of having a letter, you'll have the note and all the numbers are the same. You just match it up with your finger. First.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Start with C. Oh, you start with.",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "C. And try not to look at your fingers.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "I know, but I have to get started here.",
+            "golden": "doubt",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. To get started.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Next line. Good.",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, Now I want to ask you a question. When you're playing your songs, you'll notice that there is. Right now you don't have rhythm. No, you just. You're just playing as fast or as slow, as much time in between as you want to.",
+            "golden": "asking for opinions",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Now we're going to fix that. We're going to learn rhythm. And rhythm is how long you're Supposed to hold a note down before you let go and go to the next note.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's what creates rhythm. Okay. So I've come up with a way to help keep the rhythm even by saying tick tock.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right. Tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "That keeps a nice rhythm. So you don't. So you have it evenly spaced. So this TikTok song, every time you play something, you're going to say tick tock with it. Tick tock is going to represent one beat. And it says up here, do not count in your head. Count out loud. So let's try. I'll have you try and then I'll show you how it'll sound when it's smooth.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, I'm playing with the right hand. Yes. Everything is right.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. This week will still be left. Right hand.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now, what did you tell me?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is C. This, this symbol there.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Middle. That's C. Middle C. Okay. Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```python\n# No",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'll say it with you.",
+            "golden": "care",
+            "predicted": "agree",
+            "raw": "agree\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Say tick tock for just one note. Oh, like this.",
+            "golden": "explain",
+            "predicted": "joke",
+            "raw": "joke\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh. Tick tock goes with one note. Right?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Both of them. Okay.",
+            "golden": "explain",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Sorry about that.",
+            "golden": "apologize",
+            "predicted": "apologise",
+            "raw": "apologise\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "So. So you're going to be playing slower. Yeah. Okay.",
+            "golden": "advise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Tick tock, tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Second line. Try not to pause. Try to keep them talk.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Hold the four down until you say completely.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Say, tick tock, tick tock, tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Last line.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help\nUtterance: I can't",
+            "status": "WRONG"
+        },
+        {
+            "text": "Tick tock, tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "See, now you're more evenly spaced. Your time in between is evenly spaced. One more time, grandma, and that'll be the end of today's lesson rule. I'll have you practice saying tick tock with these. The rest of those two with these two pages.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay. Tick tock, tick tock, tick tick tock, tick tock, tick tock. Tick tock, tick tock, tick tick tock. Tickets. Tick tock, tick tock, tick tock. Tick tock. Tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. Good job. Now what you're going to watch out for is you're not gonna. You try not to pause in between your tiktoks.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise\nUtterance: I'm really sorry",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It'll be ready to go right to the next one.",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Exactly. And don't speed up your tiktoks. Don't say, okay. You have a rhythm of tick tock.",
+            "golden": "advise",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Tick tock, tick tock, tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "You don't want to go tick tick.",
+            "golden": "warn",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You don't want to say tick tock.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Tick tock. Tick tock.",
+            "golden": "acknowledge",
+            "predicted": "joke",
+            "raw": "joke\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "You don't want to.",
+            "golden": "prevent",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "You don't want to practice next week on that?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, Grandma, I think you did good today.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "complai\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, Good job.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So you learned what middle C looks like, and you. And you've learned how to.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Middle C is down here.",
+            "golden": "acknowledge",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, middle C is.",
+            "golden": "doubt",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, no, that's the one. I know where it is.",
+            "golden": "criticize",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm sorry. I said that wrong. You. You already know where middle C is. Now you know what it looks like.",
+            "golden": "apologize",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, that's what it looks like.",
+            "golden": "acknowledge",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So you can create. You're creating rhythm with tick tock. You know what middle C looks like on paper. And I gave you in a little assignment for your left hand. We'll go over that again. Oh, yeah.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I'll have to know what I do.",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Again with my left.",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "But all this is in the right hand.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So that will come easy with the practice. Yes, because I'm used to using this hand where I'm not with this hand.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. You did good.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "You're next, Jay.",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        }
+    ]
+}

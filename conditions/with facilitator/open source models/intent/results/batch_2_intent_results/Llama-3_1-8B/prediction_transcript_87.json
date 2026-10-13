@@ -1,0 +1,97 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 87,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Ah, I see. Since you're here, I wanted to show you how to hold the crochet hook properly.",
+      "golden": "introduce",
+      "predicted": "unknown",
+      "raw": "teach"
+    },
+    {
+      "text": "I'm glad you're learning new things. Crocheting can be so relaxing once you get the rhythm.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I haven't tried crocheting yet, but it sounds fun. Maybe you can teach me the basic stitches now?",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "That sounds wonderful! I'm so proud of you for wanting to start a project. I'd love to help you with it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I'd love to start a small scarf. Maybe we can have a little crafting session together this afternoon?",
+      "golden": "invite",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I'd love that. Just let me know when you've picked out your favorite yarn color.",
+      "golden": "arrange",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Great! I'll let you know once I find that soft blue yarn. I'm really excited to learn this from you!",
+      "golden": "inform",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Oh, look at your first few stitches, you're doing it perfectly! Keep going, dear.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! Your support means a lot to me. I can't wait to show you when I finish the first row.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, I'm excited to see how the pattern comes together!",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I'm sure you'll love it! I'll keep you updated on my progress as I go.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That's wonderful! I bet your first piece will turn out beautifully. You have such a natural talent for handiwork.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thank you! I've learned from the best. I'll show you the progress again soon so you can check my tension.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

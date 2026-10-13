@@ -1,0 +1,95 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 86,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): North and south off of 323, then you go down.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): North and south off of 323, then you go down.",
+            "target": "Target (granddaughter): They gave me the address though, because I'm definitely gonna have—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): North and south off of 323, then you go down. | Speaker B (granddaughter): They gave me the address though, because I'm definitely gonna have—",
+            "target": "Target (grandmother): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): They gave me the address though, because I'm definitely gonna have— | Speaker B (grandmother): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l",
+            "target": "Target (granddaughter): like a little loop?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Shallow Road. Shallow Road is— Brookshire's is on the corner of Shallow. You'll turn left off of Broadway onto Reek Road. And then you kind of have to make a little— l | Speaker B (granddaughter): like a little loop?",
+            "target": "Target (grandmother): yes!",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): like a little loop? | Speaker B (grandmother): yes!",
+            "target": "Target (granddaughter): My GPS will probably take me right there because I'll definitely have to use my map.",
+            "gold_label": "method divergence",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): yes! | Speaker B (granddaughter): My GPS will probably take me right there because I'll definitely have to use my map.",
+            "target": "Target (grandmother): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway?",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): My GPS will probably take me right there because I'll definitely have to use my map. | Speaker B (grandmother): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway?",
+            "target": "Target (granddaughter): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line.",
+            "gold_label": "method divergence",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): Your GPS? Why do you need a machine to tell you how to get to Tyler? I'm telling you exactly where the Brookshire's is. If the battery dies, you're just going to sit in the middle of Broadway? | Speaker B (granddaughter): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line.",
+            "target": "Target (grandmother): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): It’s just easier, Grandma. I don’t have to memorize every turn, I just follow the blue line. | Speaker B (grandmother): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting.",
+            "target": "Target (grandmother): And the way this is taking you is the way I go to Tyler if I don't have to go to Shannon's side.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): I’m not saying another word then. We’re at a full stop until you put that phone down and tell me what road the grocery store is on. If you aren't going to listen to the path, I'm not going to waste my breath giving it. I'm waiting. | Speaker B (grandmother): And the way this is taking you is the way I go to Tyler if I don't have to go to Shannon's side.",
+            "target": "Target (granddaughter): Yeah. It'll take you to Grand Saline. You'll get off of Highway 80.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        }
+    ]
+}

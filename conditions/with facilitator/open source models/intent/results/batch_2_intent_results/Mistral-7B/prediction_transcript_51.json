@@ -1,0 +1,85 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 51,
+  "utterances": [
+    {
+      "text": "Hello there! How have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! I've been good, just busy with school and stuff. How about you?",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet\ncomplain (implied"
+    },
+    {
+      "text": "Yes, I'd love to hear more about what's been going on with you.",
+      "golden": "ask for help",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Sure, I've been working on a big project for school. It's been a bit stressful but also exciting!",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Oh, I see! It looks like agame, it sounds like you're having fun!",
+      "golden": "criticize",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Haha, no, it's not a game. It's a school project, but I'm glad you think it sounds fun!",
+      "golden": "explain",
+      "predicted": "joke",
+      "raw": "joke\n\nUtterance: I"
+    },
+    {
+      "text": "No worries at all! I'm just glad we cleared that up. So, what else is new with you?",
+      "golden": "acknowledge",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Well, I've also started learning to play the guitar. It's been a fun challenge!",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "share (in this context, \"sh"
+    },
+    {
+      "text": "I'm glad you're okay. Have you been up to anything exciting lately?",
+      "golden": "care",
+      "predicted": "comfort",
+      "raw": "comfort\n\nUtterance: I"
+    },
+    {
+      "text": "Yeah, actually! I went to a concert last weekend, and it was amazing!",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "share (in this context, \"act"
+    },
+    {
+      "text": "I see you're keeping it simple today. Anything you'd like to share or talk about?",
+      "golden": "ask for help",
+      "predicted": "invite",
+      "raw": "invite\n\nUtterance: I"
+    },
+    {
+      "text": "Well, I've been thinking about starting a band with some friends. What do you think?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Yes, really! I'm always interested in hearing what's going on with you.",
+      "golden": "emphasize",
+      "predicted": "unknown",
+      "raw": "communicate: This intent category is not listed"
+    }
+  ]
+}

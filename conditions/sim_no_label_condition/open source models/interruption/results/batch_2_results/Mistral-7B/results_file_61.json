@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Julian, how do you shower?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: No interruptions or overlap occurred in the provided conversation history.)"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Julian, how do you shower?",
+    "target": "Speaker A (grandson) (Target): What does that mean? I usually just check the app to see if the temp is right, go in, and then I shut it off when the timer pings and I exit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural flow as he is answering the grandfather'"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Julian, how do you shower?\nSpeaker B (grandson): What does that mean? I usually just check the app to see if the temp is right, go in, and then I shut it off when the timer pings and I exit.",
+    "target": "Speaker A (grandfather) (Target): An app? For a shower? Why on earth do you need a telephone to get wet, Julian? In my day, you used your hand to feel the water, not a computer screen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather interrupts the grandson mid-sentence to challenge"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): What does that mean? I usually just check the app to see if the temp is right, go in, and then I shut it off when the timer pings and I exit.\nSpeaker B (grandfather): An app? For a shower? Why on earth do you need a telephone to get wet, Julian? In my day, you used your hand to feel the water, not a computer screen.",
+    "target": "Speaker A (grandson) (Target): It’s just a smart home thing, Grandpa. It saves me from standing there waiting. It’s more efficient.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption as he is providing"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): An app? For a shower? Why on earth do you need a telephone to get wet, Julian? In my day, you used your hand to feel the water, not a computer screen.\nSpeaker B (grandson): It’s just a smart home thing, Grandpa. It saves me from standing there waiting. It’s more efficient.",
+    "target": "Speaker A (grandfather) (Target): It’s not efficient, it’s lazy! You're letting a machine tell you when you're clean. Now listen to me. What step do you take to take a shower?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is not an interruption as he is asking a question and"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): It’s just a smart home thing, Grandpa. It saves me from standing there waiting. It’s more efficient.\nSpeaker B (grandfather): It’s not efficient, it’s lazy! You're letting a machine tell you when you're clean. Now listen to me. What step do you take to take a shower?",
+    "target": "Speaker A (grandson) (Target): I turn the water on, and once it gets warm, I go in.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): It’s not efficient, it’s lazy! You're letting a machine tell you when you're clean. Now listen to me. What step do you take to take a shower?\nSpeaker B (grandson): I turn the water on, and once it gets warm, I go in.",
+    "target": "Speaker A (grandfather) (Target): Okay, you don't have the right answer. I'm going to tell you the right answer. You go in, open a little bit hot water, and then open the cold water if it's separate so you don't burn yourself, and then You wet your body and then close the water and you soap. Soap your body, open the water again, rinse it, and then close the water again. That's the way to take a shower. Not the way you do. You go there, open full blast, you keep soaping, the water keeps running. That's a waste of water. You save at least half the amount of water.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is interrupting the conversation to provide instructions on how to take a shower,"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): I turn the water on, and once it gets warm, I go in.\nSpeaker B (grandfather): Okay, you don't have the right answer. I'm going to tell you the right answer. You go in, open a little bit hot water, and then open the cold water if it's separate so you don't burn yourself, and then You wet your body and then close the water and you soap. Soap your body, open the water again, rinse it, and then close the water again. That's the way to take a shower. Not the way you do. You go there, open full blast, you keep soaping, the water keeps running. That's a waste of water. You save at least half the amount of water.",
+    "target": "Speaker A (grandson) (Target): And what's the point of all that? To save the water?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"And what's the point of all"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandfather): Okay, you don't have the right answer. I'm going to tell you the right answer. You go in, open a little bit hot water, and then open the cold water if it's separate so you don't burn yourself, and then You wet your body and then close the water and you soap. Soap your body, open the water again, rinse it, and then close the water again. That's the way to take a shower. Not the way you do. You go there, open full blast, you keep soaping, the water keeps running. That's a waste of water. You save at least half the amount of water.\nSpeaker B (grandson): And what's the point of all that? To save the water?",
+    "target": "Speaker A (granddaughter) (Target): The point is that that's right. If everybody saves 10 gallons, at the end of the month it's millions of gallons.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe granddaughter's response is not an interruption as she is agreeing with her"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): And what's the point of all that? To save the water?\nSpeaker B (granddaughter): The point is that that's right. If everybody saves 10 gallons, at the end of the month it's millions of gallons.",
+    "target": "Speaker A (grandson) (Target): OH OK!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (granddaughter): The point is that that's right. If everybody saves 10 gallons, at the end of the month it's millions of gallons.\nSpeaker B (grandson): OH OK!",
+    "target": "Speaker A (grandfather) (Target): But the trouble, you guys, you're not used to save. You're used to spend. That's the problem. And that's how you take a shower. Not by wasting water.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, as he is addressing the topic that"
+  }
+]

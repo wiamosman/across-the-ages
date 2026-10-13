@@ -1,0 +1,792 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Hey Grandpa, how have you been?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Hey Grandpa, how have you been?",
+    "target": "Speaker A (grandfather) (Target): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a complete answer to the grandson's question and does not interrupt the"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Hey Grandpa, how have you been?\nSpeaker B (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!",
+    "target": "Speaker A (grandson) (Target): I'm glad you're excited! Don't worry, I'll help you with anything you need.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Well, I'm a bit nervous but also quite excited to see what this computer business is all about. Thank you for setting this up for me, I'm ready to give it a try!\nSpeaker B (grandson): I'm glad you're excited! Don't worry, I'll help you with anything you need.",
+    "target": "Speaker A (grandfather) (Target): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, acknowledging the grandson's"
+  },
+  {
+    "index": 4,
+    "context": "Speaker B (grandson): I'm glad you're excited! Don't worry, I'll help you with anything you need.\nSpeaker B (grandfather): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it.",
+    "target": "Speaker A (granddaughter) (Target): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): Wow, it's quite impressive! Thank you for putting this together for me. I'm eager to learn how to use it.\nSpeaker B (granddaughter): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime!",
+    "target": "Speaker A (grandfather) (Target): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (granddaughter): Hi Grandpa! I'm so happy to see you excited about learning new things. If you have any questions, feel free to ask me anytime!\nSpeaker B (grandfather): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it.",
+    "target": "Speaker A (grandson) (Target): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel, acknowledging his"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): Yes, I do! It's quite a marvel. I'm looking forward to learning how to use it.\nSpeaker B (grandson): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together.",
+    "target": "Speaker A (grandfather) (Target): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is not an interruption as he is expressing gratitude towards"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): I'm really glad you're eager to learn, Grandpa! Let's set up a time to go through everything together.\nSpeaker B (grandfather): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlap. Both speakers are having a natural flow of conversation"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): You did a wonderful job, it looks fantastic! I'm really grateful for all your effort.\nSpeaker B (grandson): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with.",
+    "target": "Speaker A (grandfather) (Target): Absolutely, I love it! Thank you for making it so special for me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm really happy you liked it. Let me know if there's anything else you need help with.\nSpeaker B (grandfather): Absolutely, I love it! Thank you for making it so special for me.",
+    "target": "Speaker A (grandson) (Target): I'm so glad you feel that way, Grandpa! It means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker B (grandfather): Absolutely, I love it! Thank you for making it so special for me.\nSpeaker B (grandson): I'm so glad you feel that way, Grandpa! It means a lot to me.",
+    "target": "Speaker A (grandmother) (Target): Oh, I see! Let me try pressing the button. Thank you for guiding me through this.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker B (grandson): I'm so glad you feel that way, Grandpa! It means a lot to me.\nSpeaker B (grandmother): Oh, I see! Let me try pressing the button. Thank you for guiding me through this.",
+    "target": "Speaker A (grandfather) (Target): Thank you for helping us with this. It's quite exciting to learn something new!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation, as he is express"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandmother): Oh, I see! Let me try pressing the button. Thank you for guiding me through this.\nSpeaker B (grandfather): Thank you for helping us with this. It's quite exciting to learn something new!",
+    "target": "Speaker A (grandson) (Target): I'm really happy to help you both out. It's fun to see you getting the hang of it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandfather): Thank you for helping us with this. It's quite exciting to learn something new!\nSpeaker B (grandson): I'm really happy to help you both out. It's fun to see you getting the hang of it!",
+    "target": "Speaker A (grandfather) (Target): Thank you for showing us how to do this. It's fascinating to see how online shopping works!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a complete turn, and there is no overlap or inter"
+  },
+  {
+    "index": 15,
+    "context": "Speaker B (grandson): I'm really happy to help you both out. It's fun to see you getting the hang of it!\nSpeaker B (grandfather): Thank you for showing us how to do this. It's fascinating to see how online shopping works!",
+    "target": "Speaker A (granddaughter) (Target): I'm glad you're enjoying it! Let me know if you need any more help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural backchannel, acknowledging her family"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandfather): Thank you for showing us how to do this. It's fascinating to see how online shopping works!\nSpeaker B (granddaughter): I'm glad you're enjoying it! Let me know if you need any more help.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel, which is a common way to show"
+  },
+  {
+    "index": 17,
+    "context": "Speaker B (granddaughter): I'm glad you're enjoying it! Let me know if you need any more help.\nSpeaker B (grandfather): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandfather): Ah, I see! It's interesting how they use familiar terms to make it easier for us to understand.\nSpeaker B (grandson): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know!",
+    "target": "Speaker A (grandfather) (Target): Thank you for explaining that. It's quite amazing how convenient online shopping can be!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural turn in the conversation, as he acknowledges"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandson): Yeah, it's designed to be user-friendly. If you ever want to try something new online, just let me know!\nSpeaker B (grandfather): Thank you for explaining that. It's quite amazing how convenient online shopping can be!",
+    "target": "Speaker A (grandson) (Target): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel and agreement with his"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandfather): Thank you for explaining that. It's quite amazing how convenient online shopping can be!\nSpeaker B (grandson): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask.",
+    "target": "Speaker A (grandfather) (Target): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a complete turn, and there is no overlap or interruption detected in the"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandson): I'm glad you find it convenient! If you have any questions or need help with anything else, just ask.\nSpeaker B (grandfather): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate!",
+    "target": "Speaker A (grandson) (Target): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, acknowledging"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandfather): Thank you for the overview. It's quite helpful to understand these basics. Email sounds like a convenient way to communicate!\nSpeaker B (grandson): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know.",
+    "target": "Speaker A (grandfather) (Target): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, acknowledging the grandson's"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandson): I'm really happy to hear that! If you ever want to try sending an email or need help with anything else, just let me know.\nSpeaker B (grandfather): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me.",
+    "target": "Speaker A (grandson) (Target): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation,"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandfather): That's incredible! Instant communication sounds very efficient. Thank you for explaining this to me.\nSpeaker B (grandson): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask.",
+    "target": "Speaker A (grandfather) (Target): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandson): I'm glad you find it efficient! If you ever want to explore more features or have any questions, feel free to ask.\nSpeaker B (grandfather): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years.",
+    "target": "Speaker A (grandson) (Target): It's amazing, right? I'm always here to help you navigate through it all.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandfather): I appreciate you sharing all this with me. It's fascinating how technology has evolved over the years.\nSpeaker B (grandson): It's amazing, right? I'm always here to help you navigate through it all.",
+    "target": "Speaker A (grandfather) (Target): Alright, I'm eager to learn more. What's the next part about?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's question is a response to the grandson's statement and does not interrupt the flow"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandson): It's amazing, right? I'm always here to help you navigate through it all.\nSpeaker B (grandfather): Alright, I'm eager to learn more. What's the next part about?",
+    "target": "Speaker A (grandson) (Target): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandfather): Alright, I'm eager to learn more. What's the next part about?\nSpeaker B (grandson): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events.",
+    "target": "Speaker A (grandfather) (Target): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a standard backchannel, acknowledging the grandson's explanation and express"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandson): Let's dive into how to use the calendar feature. It's really handy for keeping track of appointments and events.\nSpeaker B (grandfather): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help.",
+    "target": "Speaker A (grandson) (Target): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandfather): Thank you for setting this up for me. It seems like a lot to take in, but I'm sure I'll get the hang of it with your help.\nSpeaker B (grandson): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time.",
+    "target": "Speaker A (grandfather) (Target): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandson): No worries, Grandpa! Let's take it step by step. You'll be a pro in no time.\nSpeaker B (grandfather): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand.",
+    "target": "Speaker A (grandson) (Target): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandfather): Ah, I see. It's like writing a letter but on the computer. Thank you for explaining it in a way I can understand.\nSpeaker B (grandson): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help.",
+    "target": "Speaker A (grandfather) (Target): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandson): Exactly, Grandpa! And if you ever get stuck, just let me know. I'm here to help.\nSpeaker B (grandfather): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out.",
+    "target": "Speaker A (grandson) (Target): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandfather): I appreciate the analogy. It makes it easier for me to grasp. I'm looking forward to trying it out.\nSpeaker B (grandson): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect.",
+    "target": "Speaker A (grandfather) (Target): Ah, I understand. It's like having their address to send a letter. I'll try to remember that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a standard backchannel, acknowledging understanding and expressing"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandson): I'm glad it helped, Grandpa! You'll get the hang of it in no time. Just remember, practice makes perfect.\nSpeaker B (grandfather): Ah, I understand. It's like having their address to send a letter. I'll try to remember that.",
+    "target": "Speaker A (grandson) (Target): That's a great way to think about it, Grandpa! If you need any more tips, just ask.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a backchannel and agreement to the conversation, allowing the grandfather"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandfather): Ah, I understand. It's like having their address to send a letter. I'll try to remember that.\nSpeaker B (grandson): That's a great way to think about it, Grandpa! If you need any more tips, just ask.",
+    "target": "Speaker A (grandfather) (Target): Sure, let's give it a try. I'll type your email address and see how it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandson): That's a great way to think about it, Grandpa! If you need any more tips, just ask.\nSpeaker B (grandfather): Sure, let's give it a try. I'll type your email address and see how it goes.",
+    "target": "Speaker A (grandson) (Target): Great! Let me know if you run into any issues. I'm here to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel, acknowledging his availability to"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandfather): Sure, let's give it a try. I'll type your email address and see how it goes.\nSpeaker B (grandson): Great! Let me know if you run into any issues. I'm here to help.",
+    "target": "Speaker A (grandfather) (Target): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandson): Great! Let me know if you run into any issues. I'm here to help.\nSpeaker B (grandfather): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about.",
+    "target": "Speaker A (grandson) (Target): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): Thank you for the tips, Kyle. I'll make sure to include a subject line so you know what the email is about.\nSpeaker B (grandson): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else.",
+    "target": "Speaker A (grandfather) (Target): Haha, you're right, I should say grandchild. Thanks for the correction!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): No problem, Grandpa! I'm glad to help. Just let me know if you need anything else.\nSpeaker B (grandfather): Haha, you're right, I should say grandchild. Thanks for the correction!",
+    "target": "Speaker A (grandson) (Target): Haha, no worries! I'm always here to help out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): Haha, you're right, I should say grandchild. Thanks for the correction!\nSpeaker B (grandson): Haha, no worries! I'm always here to help out.",
+    "target": "Speaker A (grandfather) (Target): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A (grandfather) is responding to Speaker B"
+  },
+  {
+    "index": 43,
+    "context": "Speaker B (grandson): Haha, no worries! I'm always here to help out.\nSpeaker A (grandfather): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you!",
+    "target": "Speaker A (grandfather) (Target): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural part of the conversation, as he is acknowled"
+  },
+  {
+    "index": 44,
+    "context": "Speaker B (grandfather): I see, Kyle. It's great that you're making it fun for your viewers. I'm learning a lot from you!\nSpeaker B (grandfather): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandfather): I'm glad to be part of your video, Kyle. It's wonderful to see you so passionate about your channel.\nSpeaker B (grandson): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me.",
+    "target": "Speaker A (grandfather) (Target): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's comment is a response to the conversation and does not interrupt the flow"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'm really glad you're enjoying it. Your support means a lot to me.\nSpeaker B (grandfather): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall!",
+    "target": "Speaker A (grandson) (Target): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel, acknowledging his grandfather'"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandfather): To capitalize, you can hold down the shift key while typing the letter. It's like making the letter stand tall!\nSpeaker B (grandson): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes.",
+    "target": "Speaker A (grandfather) (Target): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): Haha, thanks for the tip, Grandpa! I guess I take these things for granted sometimes.\nSpeaker B (grandfather): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel.",
+    "target": "Speaker A (grandson) (Target): Thanks, Grandpa! I'll keep working hard and make you proud.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandfather): Exactly, Kyle! You're getting the hang of it. Keep up the great work with your channel.\nSpeaker B (grandson): Thanks, Grandpa! I'll keep working hard and make you proud.",
+    "target": "Speaker A (grandfather) (Target): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A completes his thought before Speaker B responds"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep working hard and make you proud.\nSpeaker B (grandfather): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques.",
+    "target": "Speaker A (grandson) (Target): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandfather): Well, Kyle, I'd love to see a video about how to grow a garden. It's always been a hobby of mine, and I'm curious about new techniques.\nSpeaker B (grandson): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include?",
+    "target": "Speaker A (grandfather) (Target): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): That's a great idea, Grandpa! I can definitely make a video on that. Do you have any specific techniques you'd like me to include?\nSpeaker B (grandfather): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days.",
+    "target": "Speaker A (grandson) (Target): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel and does not interrupt the flow"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandfather): That's great, Kyle. I'm looking forward to exploring those gardening videos. It's amazing how much information is available online these days.\nSpeaker B (grandson): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video.",
+    "target": "Speaker A (grandfather) (Target): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is not an interruption as he waits for his turn"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): Yeah, it's really cool how much you can learn online. I'll make sure to include some of the latest techniques in the video.\nSpeaker B (grandfather): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in.",
+    "target": "Speaker A (grandson) (Target): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption since he is agree"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandfather): Monkeys sure are entertaining! But I think I'll stick to gardening videos for now. It's fascinating how the internet can predict what we're interested in.\nSpeaker B (grandson): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible.",
+    "target": "Speaker A (grandfather) (Target): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, starting after Spe"
+  },
+  {
+    "index": 56,
+    "context": "Speaker B (grandson): Haha, yeah, the internet really knows us well! I'll focus on making the gardening video as interesting as possible.\nSpeaker B (grandfather): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old.",
+    "target": "Speaker A (grandmother) (Target): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "Speaker B (grandfather): A song I enjoy? Well, I have always been fond of 'What a Wonderful World' by Louis Armstrong. It's a classic that never gets old.\nSpeaker B (grandmother): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together.",
+    "target": "Speaker A (grandson) (Target): That sounds like a great idea! Let's find the video and enjoy it together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker B (grandmother): Oh, I love 'What a Wonderful World' too! It's such a beautiful song. Maybe we can find a video of it on YouTube and listen together.\nSpeaker B (grandson): That sounds like a great idea! Let's find the video and enjoy it together.",
+    "target": "Speaker A (grandfather) (Target): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker B (grandson): That sounds like a great idea! Let's find the video and enjoy it together.\nSpeaker A (grandfather): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family.",
+    "target": "Speaker A (grandfather) (Target): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, acknowledging Spe"
+  },
+  {
+    "index": 60,
+    "context": "Speaker B (grandfather): Alright, let's search for 'What a Wonderful World' and enjoy it together. It's always nice to share music with family.\nSpeaker B (grandfather): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to.",
+    "target": "Speaker A (grandmother) (Target): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker B (grandfather): It's wonderful to have these moments together, sharing music and laughter. Let's enjoy the song and maybe find some more classics to listen to.\nSpeaker B (grandmother): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one.",
+    "target": "Speaker A (grandson) (Target): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandmother): That sounds like a lovely plan. I'm so glad we can enjoy these moments together. Let's see what other songs we can find after this one.\nSpeaker B (grandson): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one.",
+    "target": "Speaker A (grandmother) (Target): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 63,
+    "context": "Speaker B (grandson): I'm really enjoying this time with you both. Let's definitely find more songs to listen to after this one.\nSpeaker B (grandmother): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy.",
+    "target": "Speaker A (grandfather) (Target): I'm glad we're all enjoying this together. It's moments like these that truly matter.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "Speaker B (grandmother): I'm really looking forward to listening to 'What a Wonderful World' with you both. It's moments like these that make me so happy.\nSpeaker A (grandfather): I'm glad we're all enjoying this together. It's moments like these that truly matter.",
+    "target": "Speaker A (grandfather) (Target): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, as he agrees"
+  },
+  {
+    "index": 65,
+    "context": "Speaker B (grandfather): I'm glad we're all enjoying this together. It's moments like these that truly matter.\nSpeaker B (grandfather): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us.",
+    "target": "Speaker A (grandson) (Target): That sounds perfect! I can't wait to hear it and make more memories with you both.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandfather): Let's go ahead and play the song now. I'm sure it will bring back wonderful memories for all of us.\nSpeaker B (grandson): That sounds perfect! I can't wait to hear it and make more memories with you both.",
+    "target": "Speaker A (grandfather) (Target): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a natural continuation of the conversation, acknowledging the excitement and learning experience"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandson): That sounds perfect! I can't wait to hear it and make more memories with you both.\nSpeaker B (grandfather): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together.",
+    "target": "Speaker A (grandson) (Target): I'm really glad I could help, Grandpa. It's always fun to learn new things together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a natural backchannel and agreement with his grandfather's statement"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandfather): I think it was quite an adventure! I'm glad you were there to guide me through it. It's amazing how much we can learn together.\nSpeaker B (grandson): I'm really glad I could help, Grandpa. It's always fun to learn new things together.",
+    "target": "Speaker A (grandfather) (Target): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandson): I'm really glad I could help, Grandpa. It's always fun to learn new things together.\nSpeaker B (grandfather): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience.",
+    "target": "Speaker A (grandson) (Target): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or turn-taking issues. Both speakers are having a"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandfather): Yes, I really enjoyed it. Thank you for helping me out today. It's been a wonderful experience.\nSpeaker B (grandson): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon!",
+    "target": "Speaker A (grandfather) (Target): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandson): I'm so happy we got to spend this time together, Grandpa. Let's do it again soon!\nSpeaker B (grandfather): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities.",
+    "target": "Speaker A (grandson) (Target): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural backchannel and agreement to the"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandfather): I think the part where you showed me how to navigate the software was the most interesting. It felt like opening a new world of possibilities.\nSpeaker B (grandson): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it.",
+    "target": "Speaker A (grandfather) (Target): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a continuation of his previous statement, which was not"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandson): I'm glad you found it interesting, Grandpa! Technology can be really exciting once you get the hang of it.\nSpeaker B (grandfather): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips.",
+    "target": "Speaker A (grandson) (Target): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandfather): Yes, I found YouTube quite fascinating. It's incredible how much content is available at our fingertips.\nSpeaker B (grandson): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know!",
+    "target": "Speaker A (grandfather) (Target): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "Speaker B (grandson): It's amazing, right? There's so much to learn and explore. If you ever need help finding something, just let me know!\nSpeaker A (grandfather): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around.",
+    "target": "Speaker A (grandfather) (Target): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe conversation flow is natural, as both speakers are taking turns and not interrupting each other. Grandfather"
+  },
+  {
+    "index": 76,
+    "context": "Speaker B (grandfather): Absolutely, it's a whole new way to explore and learn. I'm grateful for your patience in showing me around.\nSpeaker B (grandfather): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information.",
+    "target": "Speaker A (grandson) (Target): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandfather): I must say, it's quite impressive how technology has evolved. I remember when we had to rely on books and libraries for information.\nSpeaker B (grandson): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online.",
+    "target": "Speaker A (grandfather) (Target): Thank you for the warm welcome! I'm excited to be part of this community and look forward to learning more. Your guidance has been invaluable.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a standard backchannel and does not interrupt the flow of the conversation."
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): It's really cool how things have changed. If you ever want to dive into something specific, just let me know and I can help you find it online.\nSpeaker B (grandfather): Thank you for the warm welcome! I'm excited to be part of this community and look forward to learning more. Your guidance has been invaluable.",
+    "target": "Speaker A (grandson) (Target): I'm really glad you're enjoying it! If you have any questions or need help with anything, just ask.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlaps. Both speakers are having a natural flow of"
+  }
+]

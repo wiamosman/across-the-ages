@@ -1,0 +1,91 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 77,
+    "utterances": [
+        {
+            "text": "This one's too short though.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "All right, pull it out like this. While I'm going like this, pull it out.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Wait, wait, wait.",
+            "golden": "command",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Now. Okay, there you go. Now pull. All right, put it to the back. It's not too short if you put it to the back.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Can't I just hit the 'auto-thread' button? It'll pull the tension for me without us doing this tug-of-war.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That button doesn't have the sense in its fingers that you do. If you don't feel the thread, you don't know if it's caught. We aren't moving a millimeter until you do it by hand.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It’s a five-thousand dollar machine, Grandma. I think it knows what it’s doing better than my fingers.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I’m taking my foot off the power. We'll just sit here then. You can stare at your 'smart' machine all day, but it won't sew a stitch until you show me you can pull that thread manually. I've got all afternoon.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay, let's get you ready. All right. I think that's about good. There. Okay, it's all set.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Go slow with the presser foot, okay? You're so too fast. Go slow, okay? And you can stop in between it, like you can stop it and jog it back if you need to. That way. Okay, you're doing good, baby. Now hold this in while you sew. Now hold on to the material too. Let go, let go. Now go to— all right. You got it?",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Mm-hmm.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, now lift up on the presser foot, and then we'll do like this to let it out. Okay? All right, now you cut it. Hey, you did good, baby!",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yay!",
+            "golden": "statement-non-opinion",
+            "predicted": "greeting",
+            "raw": "greeting"
+        },
+        {
+            "text": "Boo!",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        }
+    ]
+}

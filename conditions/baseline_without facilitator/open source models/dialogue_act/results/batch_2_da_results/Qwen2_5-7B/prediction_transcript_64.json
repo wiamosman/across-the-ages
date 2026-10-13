@@ -1,0 +1,403 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 64,
+    "utterances": [
+        {
+            "text": "Me and my grandma are about to sew. My grandma is teaching me how to sew. This is like our second lesson. We recorded the first lesson, but all the footage got deleted, so we're trying again. And I kind of quit because it was a lot, but we're gonna try again, and we're just gonna try again. So, are you excited, Grandma?",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Good idea. So your first thing is to Get your machine set up and thread your bobbin.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay, what is going on? Okay, so this is already—",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "what you gotta— you gotta get plugged in.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, but something's going on.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "That's the plug over there.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, but something's going on. There is string everywhere coming from here. Wait, Grandma, let me pull up that TikTok I saved. There’s a specific way to untangle this using a needle threader tool I saw online.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "A what-tok? Joy, put that phone away. You don't need a video to tell you how to clear a bird's nest. You use your hands and your eyes, not a screen. All that scrolling is why you're so nervous.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's not just scrolling! It’s a tutorial. It shows a close-up that’s way clearer than just looking at the manual.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "The manual is right there in your head if you'd just listen! Now, stop looking for 'hacks' and look at the thread. So you gotta take that bobbin out because you finished. Get your own bobbin.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay, how do I take this off? It's on now. I don't remember what I'm doing. I'll put this on here.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Mhm. Thank you, hospital.",
+            "golden": "backchannel",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Yeah, you got to put on there first and then put it in here. You got to put it through here first and then put it on here.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, you put it through that little hole and you have a piece out where you going to hold on to it.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah, I think— okay, I have it, but does it go under? Like, am I supposed to—",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "on top.",
+            "golden": "answer",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "So can I just flip it over like that?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Uh-huh. Okay, there it is. Did you push it over there to the side on the white button? Uh-huh. Hold that piece right there, cuz you going to have to cut it off.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I think I messed up.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "The scissors is over there behind you, right there.",
+            "golden": "statement-non-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I think I'm doing this wrong.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Huh?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "I said I think I'm doing this wrong.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "You put it on?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, but I still think I'm doing it wrong because it was going the wrong way.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Hm?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "It was going the wrong way when I had it on.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Well, turn it over the other way then. I like this, and let it diffuse.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I still have it. Grandma, no, hold on. I'm going to try one more time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Let me see, Joy.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Wait, hold on. I'mma try one more time because I'm nervous.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Don't you dare mess up that tuna in the hair.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "But still, like, I don't know what's going on. Like, okay, now do you see how it's in there? Is this right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Now go ahead and mash it. Mash it. Now this boy stop. You can cut this off right here. Get your scissors and cut this piece off now because you got to start so cut it off. Okay? Now imagine that you could just use this to guide— And I'll mash it. I think he scared of the machine pedal!",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Mhm. I am! Master Troy. I am, Grandma.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, you can stop it. That'll be enough for you to put. Now take it off.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I put it in like this?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Mhm. You can thread the machine. Take it down under, bring it back up over. Back down around that little wire, and then you rent the 3-inch needle. Why are you scared of the pedal? What are you so afraid of?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Because we have to start slow. We have to start slow.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "How slow do you have to be?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Um, as slow as I need to be. Okay, are we done?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, yep.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I can put this back on?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Hold your needle thread there. You got to bring that bobbin thread back up through that little hole. Oh, you can leave that on if you want to.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "This hole?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Did you thread it? Okay, now you got to catch that thread to come up through there. Pass the plate, Sean.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Production team. No, pass it to your fiancé.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Oh my— Let's go with hide and go seek. I'm trying to sew a star.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I messed up already.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "That's a star.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Never mind. I'm gonna try it freehand one more time though.",
+            "golden": "statement-non-opinion",
+            "predicted": "apology",
+            "raw": "apology"
+        },
+        {
+            "text": "Okay. Okay. I did a crown instead. But at least I got this. Do you want to chalk?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "The point? Sorry! I just sewed a star. Yeah. Now we're going to try a circle. It's complete! Come on, triangle.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I think that's— This is great.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "This is great.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "You're not— I mean, not telling me to I'm attempting to thread the bobbin again.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I threaded the bobbin. Yes, I threaded the bobbin all by myself. Okay, I think I did it.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I think I did it. Grandpa, I'm about to be sewing you some hoochie dresses.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Your main thing, Troy, is that you don't need to be afraid of the foot pedal because you act like you driving a car and you scared to take off.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yes, and I like to go slow. That's how I drive too.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay, that's the side. Can they see it on that side? Which side they can see it better? This side.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "These are my shapes for today. I did a circle, a triangle, a star, and square.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "So Troy's next lesson is going to be reading patterns and how to put the material onto the pattern. Okay. So what's her first— her first project going to be is drawstring pant lounge pants, and she going to make it out of this material.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Mhm. Oh wow, I'm really proud of myself and my little shapes.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Oh, you are?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, I really am, because I was scared of it last time, the machine, but now I'm on to shapes. Wow, thanks for the lesson, Grandma.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 12,
+    "utterances": [
+        {
+            "text": " Kim, today, since it's almost Friday this week, I think I should teach you how to make potato pancakes, which is- Let's do it.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\ngreeting"
+        },
+        {
+            "text": "Grandma's cooking workshop.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": " Okay, here we go. These we'll put in the blender, just like this. Let's do a couple, and always do it on a cutting board, so it doesn't slip. No, you're supposed to saw it, not open it up like torture it. Very good. Now, we're gonna take a little bit of onion, just a regular onion, okay? So we won't cry too much. ",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I don't know if I'm crying because I didn't get a text back from the guy, like, or if the onion's just-",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": "I think it's probably more of the guy.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": "And we're gonna crack an egg. We have farm fresh eggs out here. Okay. ",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I think they're from Fresh Direct.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": " Oh, they are? I think so. You're blowing my whole image.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        },
+        {
+            "text": " put the oil on, sweetheart. The vegetable oil at hot temperature. It's usually a half a potato a person. ",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": "Maybe Poppy would like a whole potato per person.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Probably, probably. All right, let's put a little bit of flour in so it binds the potato and the egg.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": " Looks so appetizing.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": " I think I could've used a little more salt, Kim. Kim, you can see if the oil is hot by just putting the potato in. Nope, it's not sizzling yet. All right, here goes the second potato. Kim, it's ready to turn them over. Kim, I think they're really done. ",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": " Looks good to me.",
+            "golden": "agreement",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": " And some people eat this with sour cream. Other people eat it straight. Some people put applesauce on it. I've even seen this served with caviar. I mean, that's a bit extreme",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": " But if I have my choice, I'll have caviar",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nThis utterance"
+        },
+        {
+            "text": " Just make sure the excess oil is off",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": " Okay, putting some sour cream on.",
+            "golden": "acknowledge",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        },
+        {
+            "text": "Let's toast each other. Cheers.",
+            "golden": "greeting",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": " Thanks for teaching me.",
+            "golden": "others",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        },
+        {
+            "text": "Mm, delicious.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nThis"
+        }
+    ]
+}

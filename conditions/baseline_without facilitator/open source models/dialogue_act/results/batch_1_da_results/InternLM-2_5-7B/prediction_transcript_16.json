@@ -1,0 +1,102 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 16,
+    "utterances": [
+        {
+            "text": "No lumps of flour. Okay, got it.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        },
+        {
+            "text": "Scrape around your bowl.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\n```"
+        },
+        {
+            "text": "A bunch of lumps still.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Well, you have to keep beating.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\n```"
+        },
+        {
+            "text": "You have to what?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question\n\n```python\n{"
+        },
+        {
+            "text": "You want to beat better with that? Here",
+            "golden": "question",
+            "predicted": "command",
+            "raw": "command\n\n\nuser\nHistory"
+        },
+        {
+            "text": "No no no",
+            "golden": "disagreement",
+            "predicted": "agreement",
+            "raw": "disagreement\n\n\nuser"
+        },
+        {
+            "text": "Grandma said you have to keep beating. Oh, this is great.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nExplanation:"
+        },
+        {
+            "text": "You can do that better.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nuser"
+        },
+        {
+            "text": "Here. You can do that better. Come on.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\n\nuser"
+        },
+        {
+            "text": "No, no. I do not want to beat the dough. Okay.",
+            "golden": "disagreement",
+            "predicted": "agreement",
+            "raw": "disagreement\n\ndisagreement"
+        },
+        {
+            "text": "so beat it as i told u Like this !",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\n\nuser\nHistory"
+        },
+        {
+            "text": "It's fun. Making bread is fun.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\n\nuser"
+        },
+        {
+            "text": "Thats great ,, now clean this ..",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command\n\n\nuser\nHistory"
+        },
+        {
+            "text": "You're beating some?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        }
+    ]
+}

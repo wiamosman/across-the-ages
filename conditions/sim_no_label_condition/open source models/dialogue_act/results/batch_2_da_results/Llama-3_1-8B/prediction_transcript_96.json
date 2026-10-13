@@ -1,0 +1,439 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 96,
+    "utterances": [
+        {
+            "text": "Hi, my name is Sarah Dietschy. I am currently in Weatherford, Texas. You've probably never heard of this place before, but Texas is my home. I was born and raised, and I guess I consider real home where all of your family is, and so I'm hanging out with some great people today, but I actually work and live in New York City. Welcome to New York! I've lived and worked here for over a year. I love the people, I love the tall buildings, I love the hustle, and the energy here is unmatched. I work and live 2,000 miles away from Texas, where I've lived for 28 years of my life. And I make video for a living. I am a YouTuber, a vlogger, some people you might say, but that's kind of hard to explain to your grandparents. It's kind of a hard concept to grasp. But now that I think of it, I also don't have a good idea what my grandpa does. So let's go back to Texas. Maybe I can learn about his job. He can learn about mine. What I'm saying is I'm gonna try to teach my grandpa, Daddy Bill, how to vlog. Dump trucks. Oh, okay. I see. Daddy Bill?",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, so This is my new home. Look at all the bulldozers. There's a front end loader. There's a bulldozer. Yeah? I have a construction company, but I'm to the age now where I don't do much.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Those are dump trucks. I was testing you.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What do you do here? This is your office. You run a construction company.",
+            "golden": "question",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Delegation?",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's your day-to-day around here?",
+            "golden": "question",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Baby girl, I do everything. Subdivisions and city streets and that kind of stuff. And Judd's got two big strong boys, and between the three of them they get a lot done.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Because it's a family business. We got Uncle Judd, we got Jacob, got Judson. And me. And you used to have Pepaw. Pepaw started the business in 1938.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Wow. This is my vlogging camera. I have a challenge. I want to see If you can vlog.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "If I can vlog?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "If you can vlog. How do you feel about that?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I don't know. You may have to explain to me what the word vlog means before I can vlog it.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So vlog stands for video blog.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "So it's making almost a diary of your day. So you film your day, you edit it into like a 10-minute video, and then you post it to the internet. For everyone to see.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Now why on earth would a stranger want to see a diary of me feeding cows or sitting in my office? A diary is supposed to be locked in a drawer, not put on a billboard for the whole world.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's not like that, Grandpa! People find it interesting and authentic. It's about building a community and sharing your perspective.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Building a community? We build roads and subdivisions. I don't see how talking to a piece of glass builds anything but a headache. It seems like a lot of fuss for no real work.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm vlogging. I'm not sure what I'm vlogging.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You're not afraid of cows, are you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I am not afraid of cows.",
+            "golden": "answer",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Good, then I'm gonna put you right in the middle of them.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I'm terrified.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Well, then you got to be manning the camera. We are headed to the farm.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "We're headed to the ranch.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "To the ranch. To the ranch. You got the cutest farm or ranch shoes on.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah, hello.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You got your Converse. I had to borrow Meemaw's shoes. MeeMaw?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yes, ma'am? Your sunglasses are amazing. Super fabulous.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Oh, thank you.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Jeannie, what's your sunglass game like? I think MeeMaw has you beat. Oh no! Is that how you spell steez?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "What in the world is a 'steez'? And why are we playing a game with sunglasses? We're going to feed cattle, not go to a carnival.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It just means she has style and ease! It's a compliment! Your 'game' just means your outfit is on point.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "On point? I'm standing in a pasture, Sarah. If you're going to use words, use the ones in the dictionary so I can keep up with what you're saying.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh my gosh, you did not just ask me, is that how you spell steez? What are you posting? When your manicure matches Chicken Express. Oh my gosh. We have arrived at the ranch. It just rained, so good thing we got our farm shoes on.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Yeah, baby! Woo! We're coming slow because of the time of day it is.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Is this where we need to be?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "They are here! Oh, come here, Ethan. Bottom of your boat. Come on, right behind me.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "I'm not gonna lie, I am a little bit terrified right now.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Way too hot.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh my God.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Gotta learn to be a cowgirl.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "I am terrified right now.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "I don't know if I was meant for this. I'm not gonna lie, there was a moment where all of them were staring at me and I was like, this is the end. I was like, this is how I'm gonna go.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "You see these flowers right here, you go run, foot, foot, foot, foot.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right, right, right. Daddy Bill, you were saying earlier, instructing us on how to count cows.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's your advice on counting cows?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "I'd count their feet and divide by 4. You could count count their ears and divide by 2.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "This is your first experience with the vlogging camera, so just point it at the cows. You'll be able to see it on that screen. Yeah, it's already recording.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Well, look here. That ain't gonna hurt you. There's a little red calf on a black cow. There's a little motley-faced calf. Several little baby ones here. Look at this one right here. 1, 2, 3, 4, 5.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "All right, Daddy Bill, I have one more question.",
+            "golden": "statement-non-opinion",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "All right, you got it. What is it?",
+            "golden": "question",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "All right. If you could hold the camera like this and just sum up, you know, lovely day on the ranch. So you think you can hold the camera? So yeah.",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Where are you going?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Oh, I'll be right here. You're just going to hold the camera.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well, we just got Got through feeding the cows and checking them all out. Everybody's good and everybody come up.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Explained to Sarah how to count cows and so we're in good.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yep, so now back to Weatherford.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Back to Weatherford. Gotta go through Pooville and Peaster to get there.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "This lovely couple, my grandparents, have officially been married for 60 years. Congratulations.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Thanks.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "What's the secret?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah, what's the secret, guys?",
+            "golden": "question",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Well, I tell you, it helps to be hard of hearing and you just say, \"Yes, ma'am,\" and \"No, ma'am.\" No, it's a two-way street. You have to give and take. Get lucky, you find the right one.",
+            "golden": "answer",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "That's right. Yep.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "I think a lot of factors play into the word home. You can find a home inside of a person, inside of a city, your family, or a certain lifestyle. I think for me, at the center of it all, what makes a home really a home is the people. I've been lucky enough to find home in a few different places and sometimes I wish I could just put my family and all my friends into my pocket and just take them everywhere I go. But anyways, I hope you enjoyed this video and I'm thankful for my home from Texas to New York.",
+            "golden": "statement-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

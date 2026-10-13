@@ -1,0 +1,335 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 73,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (granddaughter): Hi Grandma! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been?",
+      "target": "Target (grandmother): That sounds like a wonderful project, dear! I'm so proud of you for taking on something creative like this. How is it coming along?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (granddaughter): Hi Grandma! How have you been? | Speaker B (grandmother): That sounds like a wonderful project, dear! I'm so proud of you for taking on something creative like this. How is it coming along?",
+      "target": "Target (granddaughter): Thanks, Grandma! It's going well, but I'm a bit stuck on the design part. Do you have any advice?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandmother): That sounds like a wonderful project, dear! I'm so proud of you for taking on something creative like this. How is it coming along? | Speaker B (granddaughter): Thanks, Grandma! It's going well, but I'm a bit stuck on the design part. Do you have any advice?",
+      "target": "Target (grandmother): Oh my, that does sound like a lot of work! But I know you can handle it. If you need any help or advice, just let me know, okay?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! It's going well, but I'm a bit stuck on the design part. Do you have any advice? | Speaker B (grandmother): Oh my, that does sound like a lot of work! But I know you can handle it. If you need any help or advice, just let me know, okay?",
+      "target": "Target (granddaughter): Thanks, Grandma! I really appreciate your support. I might take you up on that offer soon.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandmother): Oh my, that does sound like a lot of work! But I know you can handle it. If you need any help or advice, just let me know, okay? | Speaker B (granddaughter): Thanks, Grandma! I really appreciate your support. I might take you up on that offer soon.",
+      "target": "Target (grandmother): Oh, I was just talking about the light in your sewing room. Is it bright enough for you to work comfortably?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate your support. I might take you up on that offer soon. | Speaker B (grandmother): Oh, I was just talking about the light in your sewing room. Is it bright enough for you to work comfortably?",
+      "target": "Target (granddaughter): Oh, the light is fine, Grandma. Thanks for checking! I might need to adjust it a bit, but it's not a big deal.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandmother): Oh, I was just talking about the light in your sewing room. Is it bright enough for you to work comfortably? | Speaker B (granddaughter): Oh, the light is fine, Grandma. Thanks for checking! I might need to adjust it a bit, but it's not a big deal.",
+      "target": "Target (grandmother): Yes, dear, you can start laying down the fabric. Make sure everything is aligned properly before you begin sewing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (granddaughter): Oh, the light is fine, Grandma. Thanks for checking! I might need to adjust it a bit, but it's not a big deal. | Speaker B (grandmother): Yes, dear, you can start laying down the fabric. Make sure everything is aligned properly before you begin sewing.",
+      "target": "Target (granddaughter): Got it, Grandma! I'll make sure everything is perfectly aligned before I start.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandmother): Yes, dear, you can start laying down the fabric. Make sure everything is aligned properly before you begin sewing. | Speaker B (granddaughter): Got it, Grandma! I'll make sure everything is perfectly aligned before I start.",
+      "target": "Target (grandmother): That's wonderful, dear! I'm sure the kitties will love watching you work. Just take your time and enjoy the process.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (granddaughter): Got it, Grandma! I'll make sure everything is perfectly aligned before I start. | Speaker B (grandmother): That's wonderful, dear! I'm sure the kitties will love watching you work. Just take your time and enjoy the process.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'll definitely enjoy it. The kitties are already curious about what I'm doing.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandmother): That's wonderful, dear! I'm sure the kitties will love watching you work. Just take your time and enjoy the process. | Speaker B (granddaughter): Thanks, Grandma! I'll definitely enjoy it. The kitties are already curious about what I'm doing.",
+      "target": "Target (grandmother): Oh dear, don't worry. Just take a deep breath and try to adjust the fabric on your lap. You'll get the hang of it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I'll definitely enjoy it. The kitties are already curious about what I'm doing. | Speaker B (grandmother): Oh dear, don't worry. Just take a deep breath and try to adjust the fabric on your lap. You'll get the hang of it.",
+      "target": "Target (granddaughter): Thanks for the tip, Grandma! I'll try that and see if it helps.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): Oh dear, don't worry. Just take a deep breath and try to adjust the fabric on your lap. You'll get the hang of it. | Speaker B (granddaughter): Thanks for the tip, Grandma! I'll try that and see if it helps.",
+      "target": "Target (grandmother): It sounds like you're doing great, dear. Just keep practicing and you'll get better at it. Remember, it's all about enjoying the process.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (granddaughter): Thanks for the tip, Grandma! I'll try that and see if it helps. | Speaker B (grandmother): It sounds like you're doing great, dear. Just keep practicing and you'll get better at it. Remember, it's all about enjoying the process.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'm really enjoying learning this with your help. It's fun to see the progress.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandmother): It sounds like you're doing great, dear. Just keep practicing and you'll get better at it. Remember, it's all about enjoying the process. | Speaker B (granddaughter): Thanks, Grandma! I'm really enjoying learning this with your help. It's fun to see the progress.",
+      "target": "Target (grandmother): I'm so glad to hear you're excited, dear. February will be here before you know it, and I'm sure everyone will love what you're making. Just keep enjoying yourself.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I'm really enjoying learning this with your help. It's fun to see the progress. | Speaker B (grandmother): I'm so glad to hear you're excited, dear. February will be here before you know it, and I'm sure everyone will love what you're making. Just keep enjoying yourself.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'm really looking forward to February. I hope everyone likes what I'm making.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandmother): I'm so glad to hear you're excited, dear. February will be here before you know it, and I'm sure everyone will love what you're making. Just keep enjoying yourself. | Speaker B (granddaughter): Thanks, Grandma! I'm really looking forward to February. I hope everyone likes what I'm making.",
+      "target": "Target (grandmother): It sounds like you're really focused, dear. Just take it one step at a time and remember to breathe. You're doing wonderfully.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I'm really looking forward to February. I hope everyone likes what I'm making. | Speaker B (grandmother): It sounds like you're really focused, dear. Just take it one step at a time and remember to breathe. You're doing wonderfully.",
+      "target": "Target (granddaughter): Thanks for the encouragement, Grandma! I'll definitely keep that in mind and try to stay calm.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandmother): It sounds like you're really focused, dear. Just take it one step at a time and remember to breathe. You're doing wonderfully. | Speaker B (granddaughter): Thanks for the encouragement, Grandma! I'll definitely keep that in mind and try to stay calm.",
+      "target": "Target (grandmother): You're doing great, dear. Sometimes things take a little extra effort, but that's all part of the learning process. Keep it up!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (granddaughter): Thanks for the encouragement, Grandma! I'll definitely keep that in mind and try to stay calm. | Speaker B (grandmother): You're doing great, dear. Sometimes things take a little extra effort, but that's all part of the learning process. Keep it up!",
+      "target": "Target (granddaughter): Thanks, Grandma! Your support means a lot to me. I'll keep pushing through and make sure it's something special.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandmother): You're doing great, dear. Sometimes things take a little extra effort, but that's all part of the learning process. Keep it up! | Speaker B (granddaughter): Thanks, Grandma! Your support means a lot to me. I'll keep pushing through and make sure it's something special.",
+      "target": "Target (grandmother): It sounds like you're figuring it out, dear. Just take your time and you'll get everything sorted. I'm here if you need any help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! Your support means a lot to me. I'll keep pushing through and make sure it's something special. | Speaker B (grandmother): It sounds like you're figuring it out, dear. Just take your time and you'll get everything sorted. I'm here if you need any help.",
+      "target": "Target (granddaughter): Thanks, Grandma! I really appreciate your offer to help. I'll definitely reach out if I need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandmother): It sounds like you're figuring it out, dear. Just take your time and you'll get everything sorted. I'm here if you need any help. | Speaker B (granddaughter): Thanks, Grandma! I really appreciate your offer to help. I'll definitely reach out if I need anything.",
+      "target": "Target (grandmother): That's wonderful, dear! You're making great progress. Just keep going at your own pace, and you'll finish the other side in no time. I'm so proud of you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I really appreciate your offer to help. I'll definitely reach out if I need anything. | Speaker B (grandmother): That's wonderful, dear! You're making great progress. Just keep going at your own pace, and you'll finish the other side in no time. I'm so proud of you!",
+      "target": "Target (granddaughter): Thanks, Grandma! Your encouragement really boosts my confidence. I'll keep you updated on my progress.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandmother): That's wonderful, dear! You're making great progress. Just keep going at your own pace, and you'll finish the other side in no time. I'm so proud of you! | Speaker B (granddaughter): Thanks, Grandma! Your encouragement really boosts my confidence. I'll keep you updated on my progress.",
+      "target": "Target (grandmother): That's the spirit, dear! Everyone makes little mistakes, and it's all part of the process. You're doing a fantastic job, and I'm here cheering you on!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! Your encouragement really boosts my confidence. I'll keep you updated on my progress. | Speaker B (grandmother): That's the spirit, dear! Everyone makes little mistakes, and it's all part of the process. You're doing a fantastic job, and I'm here cheering you on!",
+      "target": "Target (granddaughter): Thanks, Grandma! Your support means the world to me. I'll make sure to keep pushing forward.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandmother): That's the spirit, dear! Everyone makes little mistakes, and it's all part of the process. You're doing a fantastic job, and I'm here cheering you on! | Speaker B (granddaughter): Thanks, Grandma! Your support means the world to me. I'll make sure to keep pushing forward.",
+      "target": "Target (grandmother): Oh dear, getting pricked by a pin can be quite painful! Make sure to be careful, and if you need to take a break, that's perfectly fine. You're doing wonderfully, and I'm here if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! Your support means the world to me. I'll make sure to keep pushing forward. | Speaker B (grandmother): Oh dear, getting pricked by a pin can be quite painful! Make sure to be careful, and if you need to take a break, that's perfectly fine. You're doing wonderfully, and I'm here if you need anything.",
+      "target": "Target (granddaughter): Thanks for the advice, Grandma! I'll definitely take a break if I need to. Your support really helps me stay motivated.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandmother): Oh dear, getting pricked by a pin can be quite painful! Make sure to be careful, and if you need to take a break, that's perfectly fine. You're doing wonderfully, and I'm here if you need anything. | Speaker B (granddaughter): Thanks for the advice, Grandma! I'll definitely take a break if I need to. Your support really helps me stay motivated.",
+      "target": "Target (grandmother): It sounds like you're really getting the hang of it, dear! Just keep steady and you'll have it all done in no time. I'm so proud of how you're handling everything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (granddaughter): Thanks for the advice, Grandma! I'll definitely take a break if I need to. Your support really helps me stay motivated. | Speaker B (grandmother): It sounds like you're really getting the hang of it, dear! Just keep steady and you'll have it all done in no time. I'm so proud of how you're handling everything.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'm really trying my best and your encouragement makes a big difference.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandmother): It sounds like you're really getting the hang of it, dear! Just keep steady and you'll have it all done in no time. I'm so proud of how you're handling everything. | Speaker B (granddaughter): Thanks, Grandma! I'm really trying my best and your encouragement makes a big difference.",
+      "target": "Target (grandmother): Oh, that sounds like an interesting technique! Just be careful with the fabric so it doesn't get caught. I'm sure you'll master it in no time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I'm really trying my best and your encouragement makes a big difference. | Speaker B (grandmother): Oh, that sounds like an interesting technique! Just be careful with the fabric so it doesn't get caught. I'm sure you'll master it in no time.",
+      "target": "Target (granddaughter): Thanks for the tip, Grandma! I'll be extra careful with the fabric. I really appreciate your guidance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandmother): Oh, that sounds like an interesting technique! Just be careful with the fabric so it doesn't get caught. I'm sure you'll master it in no time. | Speaker B (granddaughter): Thanks for the tip, Grandma! I'll be extra careful with the fabric. I really appreciate your guidance.",
+      "target": "Target (grandmother): I understand, dear. It does sound exciting to watch! Just make sure you're comfortable with the technique and that it's safe for the fabric. I'm sure you'll find the right balance.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (granddaughter): Thanks for the tip, Grandma! I'll be extra careful with the fabric. I really appreciate your guidance. | Speaker B (grandmother): I understand, dear. It does sound exciting to watch! Just make sure you're comfortable with the technique and that it's safe for the fabric. I'm sure you'll find the right balance.",
+      "target": "Target (granddaughter): I'll definitely keep that in mind, Grandma. Thanks for always being there to help me out!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandmother): I understand, dear. It does sound exciting to watch! Just make sure you're comfortable with the technique and that it's safe for the fabric. I'm sure you'll find the right balance. | Speaker B (granddaughter): I'll definitely keep that in mind, Grandma. Thanks for always being there to help me out!",
+      "target": "Target (grandmother): Oh dear, it sounds like the machine might be having a little trouble. Sometimes it helps to check if the needle is in place or if the thread is tangled. Let me know if you need a hand.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (granddaughter): I'll definitely keep that in mind, Grandma. Thanks for always being there to help me out! | Speaker B (grandmother): Oh dear, it sounds like the machine might be having a little trouble. Sometimes it helps to check if the needle is in place or if the thread is tangled. Let me know if you need a hand.",
+      "target": "Target (granddaughter): Thanks, Grandma! I'll check the needle and thread. I might need your help if I can't figure it out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandmother): Oh dear, it sounds like the machine might be having a little trouble. Sometimes it helps to check if the needle is in place or if the thread is tangled. Let me know if you need a hand. | Speaker B (granddaughter): Thanks, Grandma! I'll check the needle and thread. I might need your help if I can't figure it out.",
+      "target": "Target (grandmother): It sounds like you're really getting into the groove of things! Pockets are so handy, aren't they? Just keep doing what you're doing, dear. I'm here if you need anything.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (granddaughter): Thanks, Grandma! I'll check the needle and thread. I might need your help if I can't figure it out. | Speaker B (grandmother): It sounds like you're really getting into the groove of things! Pockets are so handy, aren't they? Just keep doing what you're doing, dear. I'm here if you need anything.",
+      "target": "Target (granddaughter): Yeah, pockets are super useful! I'm really enjoying this project. Thanks for your support, Grandma!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "cooperative flow"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandmother): It sounds like you're really getting into the groove of things! Pockets are so handy, aren't they? Just keep doing what you're doing, dear. I'm here if you need anything. | Speaker B (granddaughter): Yeah, pockets are super useful! I'm really enjoying this project. Thanks for your support, Grandma!",
+      "target": "Target (grandmother): Oh, if it feels dangerous, it's important to stop and check everything carefully. Safety first, dear. Let me know if you need any help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (granddaughter): Yeah, pockets are super useful! I'm really enjoying this project. Thanks for your support, Grandma! | Speaker B (grandmother): Oh, if it feels dangerous, it's important to stop and check everything carefully. Safety first, dear. Let me know if you need any help.",
+      "target": "Target (granddaughter): Thanks for the advice, Grandma! I'll make sure to be careful and let you know if I need help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Is that your pumpkin light that broke?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Is that your pumpkin light that broke?",
+    "target": "Speaker A (grandson) (Target): Mm-hmm.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Is that your pumpkin light that broke?\nSpeaker B (grandson): Mm-hmm.",
+    "target": "Speaker A (grandmother) (Target): Okay, let's see how we can fix it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Mm-hmm.\nSpeaker B (grandmother): Okay, let's see how we can fix it.",
+    "target": "Speaker A (grandson) (Target): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): Okay, let's see how we can fix it.\nSpeaker B (grandson): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.",
+    "target": "Speaker A (grandmother) (Target): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): Grandfmather, show me how to fix it. Wait, let me turn on my phone's light and put it inside first to see if the plastic is too thick for the bulb.\nSpeaker B (grandmother): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.",
+    "target": "Speaker A (grandson) (Target): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): Put that gadget away, Silas. That blue light is blinding me, and it won't tell us if the actual switch is broken. We need to look at the wires, not take a picture of them.\nSpeaker B (grandson): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.",
+    "target": "Speaker A (grandmother) (Target): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker B (grandson): I'm just checking the luminosity! If I can't see the glow through the orange, we might need a stronger LED anyway.\nSpeaker A (grandmother): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.",
+    "target": "Speaker A (grandmother) (Target): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (grandmother): We’ll see the glow when we fix the battery contact. Now, set that phone down on the table so I can see what I'm doing with these pliers. I'm waiting.\nSpeaker B (grandmother): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.",
+    "target": "Speaker A (grandson) (Target): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): You should probably take it out because you gotta push it really hard, remember? Yeah. I'll hold it in my hand.\nSpeaker B (grandson): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.",
+    "target": "Speaker A (grandmother) (Target): Really hard. Let's see. Let's put it in your pumpkin and see what it looks like. Just set it in this part.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): hhhhh ok Do it like this. Make your hand as flat like this and put it right there on your hand.\nSpeaker B (grandmother): Really hard. Let's see. Let's put it in your pumpkin and see what it looks like. Just set it in this part.",
+    "target": "Speaker A (grandson) (Target): Time to hook it up!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

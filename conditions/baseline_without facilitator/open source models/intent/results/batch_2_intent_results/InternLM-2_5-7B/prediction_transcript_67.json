@@ -1,0 +1,85 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 67,
+    "utterances": [
+        {
+            "text": "It ain't firing probably because of that spark plug, ain't it? And then that filter, that filter was so nasty.",
+            "golden": "confirm",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "yes i see",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Them spark plugs go out though. Hold on, let me open this app— it's supposed to overlay the schematics so I can see if the gap is right.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "What in the world are you doing with that telephone? You're waving it around like a magic wand. Just look at the plug with your eyes, boy.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "It's AR, Grandpa! It scans the part and tells me the exact model number. My signal is just buffering right now... come on, load up.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "We're sitting here wasting daylight waiting on a 'load.' I already told you it's fouled. We don't need a satellite to tell us what a wire brush can fix.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Them spark plugs go out though.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Yeah,",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "this thing went I ain't know they wear out bad.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Yeah, sad",
+            "golden": "acknowledge",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "They keep it from firing, right? yes , now i need to sit here .. alright!",
+            "golden": "confirm",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Ain't got nothing to fire on.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "it will be solved no worries!",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

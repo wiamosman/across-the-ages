@@ -1,0 +1,1620 @@
+{
+  "model_used": "Mistral-7B",
+  "file_index": 24,
+  "utterances": [
+    {
+      "text": "Hey Grandpa! How have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Ah, thank you for coming to help, my dear! We need to wrap the fig tree to protect it from the cold. I'll show you how I usually do it. It's a bit of an old-fashioned method, but it works well. Let's get started!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion (describ"
+    },
+    {
+      "text": "Sure thing, Grandpa! I'm excited to learn your method. It sounds like a great way to keep the tree safe. Let's get started!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "Alright, let's gather the materials first. We'll need some burlap and twine. I remember when I first learned to do this from my father. It's a nice way to keep the tradition alive, don't you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! It's really special to learn something that's been passed down through the family. I'll grab the burlap and twine. Anything else we need?",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\nanswer\n(Note: The first label"
+    },
+    {
+      "text": "Yes, exactly! The winters here can be quite harsh, and the fig tree needs a little extra care to survive the cold months. It's important to protect it so we can enjoy its fruits next year. Have you ever done something like this before?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I haven't done anything quite like this before, but I'm eager to learn! It sounds like a rewarding process, especially knowing it helps the tree thrive. Let's make sure we do it right!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (expressing eag"
+    },
+    {
+      "text": "That's right, my dear. Without protection, the cold could be too much for it. But with a little effort, we can keep it safe. It's like giving the tree a warm coat for the winter. Let's get started, shall we?",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm ready to give our fig tree its winter coat. It's amazing how a little care can make such a big difference. Let's get started!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Well, right now, I'm just making sure we have everything we need. Once we have the burlap and twine ready, we'll start by wrapping the base of the tree. It's important to cover it well to keep the frost out. I'm glad you're interested in learning this; it's a useful skill to have, especially in our climate. Let's make sure we do it right so we can show others how it's done!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds like a plan, Grandpa! I'll grab the burlap and twine. It's great to learn these things from you. I bet once we get the hang of it, it'll be easy to show others how to do it too!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! Let's get started then. I'll show you how to wrap the base first, and then we can work our way up. It's a bit like tucking the tree in for a long winter nap. If you have any questions while we're doing this, feel free to ask!",
+      "golden": "command",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll make sure to pay close attention while you show me how to wrap the base. It's like giving the tree a cozy blanket for winter. If I have any questions, I'll definitely ask. Let's get started!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, exactly! You're doing a great job. Bending it gently helps to ensure it doesn't break under the weight of the snow. Keep going, and let me know if you need any help.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandpa! I'm really enjoying this. It's nice to know we're helping the tree stay safe during winter. I'll keep bending it gently and let you know if I need any assistance.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's the spirit! A little more bending should do the trick. You're really getting the hang of this. It's wonderful to see you taking such an active role. If you keep this up, you'll be teaching others in no time!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Wow, Grandpa, that's a big compliment! I hope I can teach others someday, just like you're teaching me now. It's really fun working together and learning from you. Let's finish wrapping this tree!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Ah, you noticed! Yes, I made that contraption myself. It's a little trick I picked up over the years. Sometimes, you just have to get creative with what you have on hand. If you need any help with it, just let me know.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion (describ"
+    },
+    {
+      "text": "That's really impressive, Grandpa! I love how you always find creative solutions. I'll definitely ask if I need help. It's great learning these tricks from you. Let's keep going and see what else we can come up with!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Oh, that little gadget doesn't really have a fancy name. I just call it my 'tree helper.' It's something I put together to make the job a bit easier. Would you like to try using it?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "Sure, Grandpa! I'd love to give the 'tree helper' a try. It sounds like a neat tool, and I'm curious to see how it works. Thanks for sharing your tricks with me!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, using a hose can be quite handy for certain tasks, especially if you're trying to water a large area or clean something off. It's always interesting to see the different tools people use for similar jobs. Do you think a hose could be useful for what we're doing here?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's a great idea, Grandpa! I think using a hose could definitely help us cover more ground quickly. Maybe we can try it out and see how it works with the 'tree helper.' What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "You might be right about that. Sometimes, the tools we think will work just don't have the strength we need. It's all about finding the right tool for the job, isn't it? Maybe we can think of another way to tackle this together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Absolutely, Grandpa! It's all about experimenting and finding what works best. Maybe we can brainstorm some other tools or methods together. I'm sure we'll come up with something effective!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "That sounds like a wise approach. Taking it slow can help us avoid mistakes and make sure everything is done right. I'm here to help if you need me. Let's enjoy the process together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support and guidance. Let's take our time and enjoy figuring this out together. Maybe we can start by listing some ideas and see which ones we like best.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "I understand your frustration. Sometimes, even our best efforts don't work out as planned. It's all part of learning and experimenting. Let's take a break and think about other options. Maybe we can brainstorm some new ideas together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The speaker acknowled"
+    },
+    {
+      "text": "You're right, Grandpa. Taking a break sounds like a good idea. It might help us clear our minds and come up with fresh ideas. How about we grab a cup of tea and then start brainstorming?",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, the chain! Yes, I often use a sturdy chain for tasks that require more strength and durability. It might be a bit old-fashioned, but it's reliable. Would you like to give it a try and see if it works better for what we're doing?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Sure, Grandpa! I'm open to trying out the chain. Sometimes the old ways can surprise us with how effective they are. Let's see if it does the trick for our project.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you think so. Let's give it a shot and see how it works out. If you need any help setting it up, just let me know. It's always nice to try something different and see how it turns out.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate your help. Let's set it up together. I'm curious to see how this chain works for our project. It's always fun to learn something new from you.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "I'm glad to hear it's working better! If you're asking about the chain, it's a simple tool but very effective. Sometimes the old ways have their charm and practicality. Is there anything else you'd like to know or try?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I agree, Grandpa. The old ways definitely have their charm. I'd love to learn more about how you used this chain in the past. Maybe you have some tips or tricks that could make it even more effective for our project?",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, it's perfectly okay. The chain is strong and safe to use. If you have any concerns, we can go over it together to make sure everything is secure. I'm here to help you with anything you need.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "Thanks for reassuring me, Grandpa. I'd love to go over it together and learn more about how you used it in the past. Your experience is really valuable to me.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, those are just some wires I'm using for a different project. They're quite handy for connecting things or providing power. If you're interested, I can show you how they work and what they're used for. It's always fun to learn about these little tools!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds interesting, Grandpa! I'd love to see how those wires work and learn more about your project. It's always fascinating to see how different tools can be used in creative ways.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Haha, yes, I did! You know me, always tinkering with something. If you're curious about any of these projects, feel free to ask. It's always nice to share what I'm working on.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (agreeing and"
+    },
+    {
+      "text": "I'd love to hear more about your projects, Grandpa! What are you currently working on? Maybe I can help out or learn something new.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, not quite cable TV! These wires are more for small electronics and projects around the house. But if you're interested in how cable TV works, I can explain that too. It's fascinating how signals travel through cables to bring us all those channels.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (explaining a belief"
+    },
+    {
+      "text": "That sounds really cool, Grandpa! I'd love to learn about both your electronics projects and how cable TV works. Maybe we can start with the electronics and then move on to the TV signals. I'm sure there's a lot I can learn from you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, I do keep some of these wires handy for tying things up or securing them. They're quite versatile! If you ever need to use some for your own projects, just let me know. I'm always here to help out.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely keep that in mind. Maybe we can start with a small electronics project together, and you can show me how these wires come in handy. I'm excited to learn from you!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's right! They're really handy for all sorts of little tasks around the house. If you ever want to try using them for something, just let me know. We can work on a project together!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds like a great idea, Grandpa! How about we set a date for our first project session? Maybe this weekend? I'm really looking forward to it!",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Exactly! Those wires are quite strong and durable, which makes them perfect for tying things securely. It's amazing how something so simple can be so useful, isn't it? If you ever want to learn more about how to use them or any other tools, just let me know. I'd love to share what I know with you.",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I definitely want to learn more, Grandpa! How about we start with those wires and then maybe you can show me some other tools you find useful? I'm sure there's a lot I can learn from you.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Haha, don't worry, I won't be throwing out any cables anytime soon! You never know when they might come in handy. It's always good to have a few tricks up your sleeve for those unexpected moments. If you ever want to learn more about what else we can do with them, just let me know!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That's great to hear, Grandpa! I'm really eager to learn all those tricks you have up your sleeve. How about we start with the cables this weekend? We can set up a time that works for both of us.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Alright then! Let's see what we can come up with. Maybe we can start by organizing some of these cables and see what projects we can do with them. It's always fun to get creative together!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds like a lot of fun, Grandpa! I'm looking forward to getting creative with you. How about Saturday afternoon? Does that work for you?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, you noticed! Yes, there are just a few figs left. They're delicious, aren't they? Feel free to have one if you'd like. It's always nice to enjoy the fruits of the season while they last.",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I love figs. I'll definitely have one. So, Saturday afternoon works for you then? I'm really looking forward to our creative session!",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I see you're quite fond of them! It's great to enjoy the simple pleasures, isn't it? If you want, we can plan to plant more fig trees next season. It could be a fun project for us to work on together.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds like a fantastic idea, Grandpa! I'd love to help plant more fig trees. It would be a great project for us. So, are we all set for Saturday afternoon then?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Oh, you've discovered something interesting with the speaker wire? I'd love to hear more about it! It's amazing how many uses we can find for things around the house. What did you manage to do with it?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Oh, I was just experimenting with it to improve the sound quality on my speakers. It's fascinating how a simple tweak can make such a difference! I'll show you on Saturday when we meet. By the way, are we still good for Saturday afternoon?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nanswer (to the"
+    },
+    {
+      "text": "It sounds like you're really impressed! I'm glad you're finding it exciting. Maybe you can show me what you've done with the speaker wire? I'd love to see your creativity in action.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'll bring the speaker wire setup on Saturday and show you how it works. It's really cool how a small change can make a big difference. Looking forward to our fig tree project too!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nstatement-"
+    },
+    {
+      "text": "Oh, that's very kind of you to say! I appreciate it. It's always nice to hear such warm words from you. Is there something specific you were thinking about when you said that?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "I just meant that I'm really looking forward to spending time with you and working on the fig tree project together. It's always fun to learn from you and share what I've been up to. Plus, I think you'll enjoy seeing the speaker wire setup in action!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, we do have quite a few fig trees, don't we? They certainly keep us busy! It's nice to have a variety of them around. Do you have a favorite among them, or is there something else you'd like to try planting together?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I think the fig trees are great, but maybe we could try planting some herbs or vegetables next. It could be fun to have a little kitchen garden. What do you think, Grandpa?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, I see what you're asking. Yes, we usually only bend the branches of this particular fig tree to help it grow in a certain direction. The others are left to grow naturally. It's a bit like guiding them to reach their full potential. Would you like to help with that sometime?",
+      "golden": "question",
+      "predicted": "answer",
+      "raw": "answer\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds really interesting, Grandpa! I'd love to help with guiding the fig tree branches. It sounds like a great way to learn more about gardening. Maybe after that, we can plan out the kitchen garden together. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "No, not all of them. Just the one we talked about earlier. The others grow naturally without any bending. It's interesting how each tree has its own way of growing, isn't it?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion (regarding"
+    },
+    {
+      "text": "That's fascinating, Grandpa! It's amazing how nature works in different ways. I'm really looking forward to learning more about the fig trees and how we can guide them. After that, maybe we can brainstorm some ideas for the kitchen garden. It would be fun to plan it out together!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thank you! I do try to keep going and stay active. It's important to keep moving and enjoying life, no matter what age you are. I'm glad you find it unbelievable in a good way! Is there anything you'd like to learn or do together that keeps us both on our toes?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I think it would be great to learn more about how to maintain the garden and maybe even try out some new recipes with the produce we grow. We could also explore some local hiking trails to keep active. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That's an interesting thought! A greenhouse could indeed help control the environment and might reduce the need for bending the branches. It would allow us to manage the conditions more precisely, like temperature and humidity, which can influence how the trees grow. Have you ever thought about setting up a greenhouse, or is there something else you'd like to explore?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "A greenhouse sounds like a fantastic idea, Grandpa! It would be a great project for us to work on together, and it could really enhance our gardening efforts. Plus, it would be fun to experiment with growing different plants. I'm definitely up for exploring that option. Maybe we can start researching some designs and materials?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's a creative idea! Using a tarp could certainly help control the environment to some extent, much like a greenhouse. It might not be as effective in managing all the conditions, but it could be a simpler solution. It's great to see you thinking outside the box! Do you have any other ideas for gardening or projects we could try together?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm glad you liked the idea. Maybe we could also try vertical gardening to save space and grow more varieties. It could be a fun way to mix things up. What do you think about that?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm glad you're on board with these ideas! If you have any specific projects or experiments in mind, I'd love to hear them. It's always exciting to try new things together and learn from each other. What do you say?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Absolutely, Grandpa! How about we try creating a small herb garden indoors? It could be a great way to have fresh herbs for cooking, and we can experiment with different types. Plus, it would be fun to see how they grow in different conditions. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's a good point! Large trees can be quite challenging to manage. Sometimes, it requires special techniques or equipment to ensure they're properly cared for. For instance, using ladders or even hiring professionals for pruning might be necessary. It's all about finding the right balance between what we can do ourselves and when to seek help. Have you ever seen how professionals manage big trees?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I haven't seen professionals manage big trees up close, but it sounds fascinating! Maybe we could watch some videos together to learn more about the techniques they use. It could give us some ideas for our own gardening projects. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I understand what you mean. It can feel a bit disheartening to prune a tree after it's put so much effort into growing. But sometimes, trimming branches can actually help the tree grow stronger and healthier in the long run. It's a bit like giving it a haircut to keep it looking and feeling its best. Have you ever thought about how we can balance caring for the tree while also letting it grow naturally?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "That's a great analogy, Grandpa! I hadn't thought about it like giving a tree a haircut before. Balancing care and natural growth sounds like a good approach. Maybe we can start with some smaller plants and work our way up to bigger ones as we learn more. I'm excited to try this out with you!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Yes, I did cut that branch. Sometimes it feels like a tough decision, but it's often necessary for the tree's health and growth. It's all part of taking care of it and ensuring it thrives. If you're interested, I can show you how to do it safely and explain why it's important. Would you like to learn more about tree care?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I'd love to learn more about tree care, Grandpa! It sounds like there's a lot to know, and I'm eager to understand how to do it safely and effectively. Maybe we can start this weekend? I really appreciate you sharing your knowledge with me.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I see, you've moved on from that. It's great to see how your thoughts evolve and grow, just like the trees we care for. If you ever have more questions or want to discuss something else, I'm always here to chat. Is there anything else on your mind today?",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate that. Actually, I was wondering if you could tell me more about the types of trees you have in your garden. I've always been curious about them and would love to learn more.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Alright, I'm glad to hear that. If there's anything specific you'd like to talk about or any questions you have, feel free to share. I'm always here to listen and help out where I can.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks for being so supportive, Grandpa! I'm really interested in learning about the different types of trees you have. Maybe we can start with the ones that are easiest to care for? I'm excited to learn from you.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Sometimes it can feel like others aren't listening, but it's important to keep expressing your thoughts and feelings. You never know when your words might make a difference. If you ever feel like you need support or advice on how to communicate better, I'm here to help. Is there a specific situation you're thinking about?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa. I appreciate your advice. I'm not thinking of a specific situation right now, but I'll definitely keep that in mind. For now, I'm really eager to learn about your garden. What types of trees do you find the most rewarding to care for?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "That's perfectly okay. Sometimes just knowing someone is there to listen can be comforting. If you ever change your mind or just want to chat about anything, I'm always here. How about we take a walk outside and enjoy the fresh air?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\noffer\n(Note: I added"
+    },
+    {
+      "text": "That sounds like a great idea, Grandpa! I'd love to take a walk and learn more about your garden. It's always nice to spend time with you and hear your stories.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you liked the metaphor. It's true, sometimes metaphors can be tricky to understand, but they can also help us see things from a different perspective. If there's anything else you'd like to explore or talk about, feel free to share. I'm here to listen and learn from you too.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa. I really appreciate how open you are to listening and sharing. I'd love to hear more about your experiences with gardening. What do you find most rewarding about it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, you know me well! I do love using a handsaw for some of my projects. It's a bit old-fashioned, but I find it quite satisfying. Do you want to join me and maybe learn a thing or two about it?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I'd love to join you, Grandpa! Learning to use a handsaw sounds interesting, and I'm sure it'll be fun to work on a project together. What kind of project are you thinking of?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Oh, I promise I'll make sure you get a sharp one this time! I wouldn't want you to miss out on the fun of using a proper tool. It's all about learning and enjoying the process together. So, what do you say, shall we give it a try?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds great, Grandpa! I'm definitely up for it. I can't wait to learn from you and see what we can create together. When do you want to start?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I remember that day! I didn't realize the saw was dull, and I'm sorry if it made things difficult for you. Next time, I'll make sure both saws are sharp so we can have a fair go at it. It's important to me that you enjoy these activities as much as I do. How about we plan another session soon?",
+      "golden": "question",
+      "predicted": "apology",
+      "raw": "apology\nstatement-non-opinion"
+    },
+    {
+      "text": "No worries, Grandpa! I appreciate you looking out for me. I'm really looking forward to our next session. How about this weekend? I think it'll be a great way to spend some time together.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nanswer\nstatement-opinion"
+    },
+    {
+      "text": "That would be wonderful! I appreciate your offer to help. It's always great to work together and share the experience. Let me know when you're ready, and we can make sure everything is set up properly this time.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Awesome, Grandpa! I'll check my schedule and confirm with you by tomorrow. I'm sure we'll have a great time working together again. Thanks for always making these activities so enjoyable!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Haha, it seems like I've surprised you! I'm glad to hear that. It's always nice when things work out unexpectedly well. I'm looking forward to our next project together. Let me know if there's anything specific you'd like to try or learn!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You always manage to surprise me with your enthusiasm, Grandpa! I'll think about what new things we can try and let you know. Maybe we can learn something new together!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds like a great plan! I'm glad you're eager to continue. Just let me know when you'd like to get started, and I'll make sure everything is ready for us. It's always a pleasure working with you.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll check my schedule and let you know a good time for us to start. I'm really looking forward to it. Maybe we can try something tech-related this time, like a new gadget or app?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's a great question! It depends on what you're planting. If it's a seed from a tree, then yes, it could grow into a tree with the right care and conditions. If it's just a piece of wood, it won't grow. But if you're interested in planting, I can help you learn more about it!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks for the explanation, Grandpa! I appreciate your offer to help me learn more about planting. Maybe we can combine our interests and try a tech-related gardening project, like using an app to track plant growth?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Ah, that's a very insightful question! The difference lies in the fact that seeds contain the potential for life. They have all the necessary components to grow into a new plant or tree, given the right conditions like soil, water, and sunlight. On the other hand, a piece of wood is part of a tree that's already grown and doesn't have the ability to sprout new life. If you're curious, we can explore more about how seeds work and maybe even try planting some together!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds fascinating, Grandpa! I'd love to learn more about seeds and planting with you. Maybe we can use a gardening app to help us keep track of our progress and see how technology can enhance our gardening experience. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad you're interested! Planting and watching things grow can be really rewarding. If you'd like, we can pick out some seeds together and start a little garden. It's a fun way to learn about nature and see the results of your care and effort. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds amazing, Grandpa! I'd love to start a garden with you. Maybe we can try using a gardening app to keep track of our progress and see how technology can enhance our experience. I'm excited to learn from you and see how our garden grows!",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, we'll cover everything you need to know about planting and growing. I'll be here to guide you through each step, and we can make sure you feel confident in what we're doing. It's all about learning and having fun together!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (Grandpa is"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really looking forward to this. Maybe we can start by picking out some seeds this weekend? It'll be great to learn from your experience and see how we can blend it with some new tech ideas. Let me know what works for you!",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I understand it might seem a bit overwhelming at first, but trust me, once we get started, you'll see how simple and enjoyable it can be. We can take it one step at a time, and I'll be right there with you. How about we start with something easy, like planting some flowers or herbs?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds perfect, Grandpa! Starting with flowers or herbs is a great idea. I'm sure with your guidance, it'll be a fun and rewarding experience. I'm eager to learn and see how we can incorporate some tech to make it even more interesting. Let's pick a day this weekend to get started!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Haha, you're right! This shovel has been through quite a lot over the years. It's got character, doesn't it? Sometimes tools like this have stories to tell. But if it's too worn out, we can definitely look into getting a new one or maybe even try fixing it up together. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I love the idea of fixing it up together! It would be cool to hear the stories behind it while we work on it. Plus, it'll be a fun project for us to tackle. Maybe we can add some modern touches to it as well. What do you think about that?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's very thoughtful of you! I appreciate the offer. A new shovel would certainly be handy, but remember, it's not just about the tools, it's about the fun and learning we have together. If you want to get a new one, let's make it a part of our gardening adventure. Thank you for thinking of me!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "You're welcome, Grandpa! I'm really looking forward to our gardening adventure and learning from you. Let's make it a memorable experience, whether it's with the old shovel or a new one. How about we start planning what we want to plant this weekend?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you got a better shovel! It sounds like we're all set to start our gardening adventure now. Let's make the most of it and have some fun together. I'm looking forward to seeing what we can grow!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Awesome, Grandpa! I'm excited to get started. Maybe we can plant some tomatoes and herbs, so we can use them for cooking later. What do you think about that idea?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, well, a little sweat never hurt anyone, right? It's all part of the fun and the reward of seeing our hard work pay off. I'm glad you're enjoying this, and I'm sure we'll have a great time together. Let's keep going and see what we can achieve!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm ready to put in the effort and enjoy the process. Maybe we can start by picking out some seeds and planning the layout of our garden. Do you have any tips or tricks from your experience that could help us?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, you noticed! That's the smell of the fresh herbs we planted last time. They're really coming along nicely, aren't they? It's amazing how much aroma they can bring to the garden. Would you like to try using some in our next meal?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds fantastic, Grandpa! I'd love to use the herbs in our next meal. Maybe we can make a fresh salad or a pasta dish with them. What do you think would be a good recipe to try?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm glad you can smell it! Fresh herbs really do add a wonderful touch to the garden. Maybe we can pick some and use them for cooking later. It's always nice to enjoy the fruits of our labor, don't you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I love the idea of enjoying the fruits of our labor. Maybe we can make a herb-infused olive oil or a homemade pesto. What do you think about that?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you think so! It's amazing how something so simple can bring such joy. Maybe we can experiment with different herbs and see how they change the flavor of our dishes. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds like a great idea, Grandpa! Experimenting with different herbs could really spice things up. How about we start with basil and rosemary? They could be a great combo for a pasta dish!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Absolutely, herbs are a wonderful way to boost both flavor and health. It's great that you're interested in how they can benefit us. Maybe we can look up some recipes together that use these herbs. Would you like to do that?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'd love to do that, Grandpa! Looking up recipes together sounds like a fun way to spend some time. Plus, I'm sure we'll find some delicious dishes to try out. Let's get started!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Haha, you got me there! I guess I've always been more focused on feeling good and staying healthy than on looks. But you're right, the gym is great for both. Maybe we can balance the herbs and the gym to keep both our health and looks in check. What do you say?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds like a perfect plan, Grandpa! Balancing herbs and gym time could be a great way to stay healthy and feel good. I'm all in for it. Maybe we can set up a schedule that includes both cooking and workout sessions. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you think so! It's always important to find a balance that works for us. Whether it's herbs or the gym, as long as we're taking care of ourselves, that's what truly matters. Do you have any favorite herbs or exercises you like to do?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I do have some favorites! For herbs, I really like using basil and rosemary—they add such great flavor to dishes. As for exercises, I enjoy running and doing some weight training. Maybe we can incorporate these into our plan!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That's great to hear! Maybe next time we get together, you can show me some of your favorite exercises or share a recipe with your favorite herbs. I'd love to learn from you!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'd love to do that, Grandpa! How about we plan a day next week where we can cook together and then head to the gym? It'll be a fun way to spend time and learn from each other. Let me know what day works best for you!",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nquestion\nstatement-opinion"
+    },
+    {
+      "text": "That sounds like a wonderful plan for spring! I'm looking forward to it. Let me know if there's anything specific you'd like to prepare or focus on when the time comes. It's always exciting to have something to look forward to together!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I'm glad you're excited, Grandpa! How about we make a fresh basil pesto together? It's simple and delicious. As for the gym, we can focus on some basic weight training exercises. I'll make sure to bring everything we need. Can't wait!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nquestion\nstatement-opinion"
+    },
+    {
+      "text": "I'm glad to hear that! It's always nice when things come together easily. If you need any help or ideas as we get closer to spring, just let me know. I'm here to support you in any way I can.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support. I'll definitely reach out if I need any advice or ideas. Let's keep this plan in mind and I'll check in with you as we get closer to spring. Looking forward to it!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "That sounds like a great plan! I'm really excited to see how it all comes together. If you need any tips or advice as you go along, feel free to ask. I'm always here to help out!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! Your advice is always so helpful. I'll definitely keep that in mind as we start planning everything. It's great to have your support. Can't wait to get started!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It sounds like you're making great progress! If you're looking for the next step, perhaps you could consider how to secure the tree in its new position or think about how to nurture it as it grows. I'm sure you'll come up with a fantastic plan!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's a great idea, Grandpa! I'll definitely think about how to secure the tree and nurture it as it grows. Your advice is always spot on. Thanks for being such a great support!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you're on board with the idea! If you have any questions or need further guidance, feel free to ask. I'm here to help you every step of the way.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate that. I'll definitely reach out if I need any help or advice along the way. It's great to know I have your support!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "I'm glad to see you're moving forward so smoothly. If there's anything specific you'd like to discuss or need help with, just let me know. I'm always here to lend a hand!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I feel really lucky to have you as my guide. I'll definitely keep you updated on how things are going with the tree. Maybe we can work on it together sometime?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "It sounds like you're really focused on getting things done. If you need any help or run into any challenges, don't hesitate to reach out. I'm here to support you!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! Your support means a lot to me. I'm sure I'll have some questions as I go along, and it's great to know I can count on you. Let's definitely plan a day to work on the tree together soon!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Ah, I see what you're getting at. It's important to make sure the ladder is secure and not causing any damage. If you're worried about it being too heavy, maybe we can find a lighter alternative or adjust how it's positioned. What do you think?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's a great idea, Grandpa! Maybe we can look into some lighter options together. I appreciate your advice on this, and I'm sure we'll figure out the best way to handle it. Let's plan a day soon to go over everything!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "It sounds like you're surprised by the suggestion. If you think there's a better way to handle it, I'm open to hearing your ideas. We can work together to find the best solution.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm not surprised at all, Grandpa! I really value your input and think working together will be the best approach. Maybe we can research some options online and see what works best for us. I'm sure we'll find a great solution together!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, keeping the snow from going in sounds like a smart plan. It's always good to think ahead and prevent any issues before they arise. If you need any help with that, just let me know. I'm here to assist!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate your willingness to help. Maybe we can set aside some time this weekend to brainstorm and start looking into options. I think it'll be fun to tackle this together!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "Haha, yes, my plastic solutions have become quite the legend, haven't they? It's amazing how something so simple can be so effective. If you ever want to learn more tricks like that, I'm always happy to share my secrets!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, your tricks are legendary, Grandpa! I'd love to learn more of your secrets. Maybe we can have a little workshop this weekend while we brainstorm solutions. It sounds like a fun way to spend time together!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Haha, it seems like my reputation precedes me! I'm glad to hear that my little tricks have made an impression. If you have any other projects or ideas you'd like to tackle, I'd love to hear about them and see how we can make them happen together.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, Grandpa! I've been thinking about a few projects we could work on, and I'd love to get your input. Maybe we can start with something simple and build up from there. Your experience will be invaluable!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That sounds like a great idea! Tools can really make a difference in getting things done efficiently. If you need any tips on using it or want to share how it works, I'm all ears. It's always exciting to see new methods in action.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely take you up on that offer. Maybe we can start with a small project this weekend and see how it goes. I'm sure your tips will be super helpful!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, pushing it down sounds like a practical approach. It's always good to use tools to make tasks easier. If you need any advice on how to use it effectively, feel free to ask. I'm here to help!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks for the offer, Grandpa! I'll definitely ask for your advice when we start. I'm really looking forward to learning from you and seeing how we can make things easier with the right tools.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Haha, it sounds like you're having fun with it! Sometimes, the best way to understand something is to get right inside it, metaphorically speaking. If you're curious about how it works or need any help figuring it out, just let me know. I'm always here to lend a hand!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I really appreciate that, Grandpa! I'll definitely take you up on your offer if I get stuck or need some guidance. It's great to know I have your support as I dive into this project. I'm sure it'll be a fun learning experience!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, more of those, you say? It sounds like you're thinking ahead, which is always a smart move. If there's anything specific you have in mind or need help with, just let me know. I'm here to support your ideas and help you make them happen!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (Grandpa is"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm still brainstorming some ideas, but I'll definitely reach out when I have something concrete. It's awesome to have your support and experience backing me up!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Haha, trying it for free sounds like a great deal! It's always fun to experiment and see what works best without any cost. If you have any other clever ideas or need some advice, feel free to share. I'm here to enjoy the journey with you!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'll make sure to keep you in the loop as I come up with more ideas. It's great to have someone to bounce ideas off of and get advice from. Thanks for being there for me!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad to hear that! It sounds like things are going well. If you have any more thoughts or ideas you'd like to explore, I'm here to listen and help out. It's always nice to see you enjoying yourself!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nEmotion: happy\nIntent: none"
+    },
+    {
+      "text": "Thanks, Grandpa! Your support means a lot to me. I'm really enjoying the process and it's great to know you're there to help. I'll definitely keep you updated as things progress!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Well, I do enjoy spending time with you and hearing about your adventures! It's always interesting to see what you're up to and offer a bit of wisdom when I can. Is there something specific you're curious about?",
+      "golden": "question",
+      "predicted": "greeting",
+      "raw": "greeting\n\nExplanation: The target"
+    },
+    {
+      "text": "I really appreciate that, Grandpa! I'm currently exploring some new ideas for a project, and I'd love to hear your thoughts on it. Your wisdom always gives me a fresh perspective.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledgment",
+      "raw": "acknowledgment\n\nExplanation: The"
+    },
+    {
+      "text": "Haha, cutting a garden hose in half sounds like an interesting project! I suppose it could be useful for some creative gardening or DIY tasks. What made you think of that? I'm curious to hear more!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Well, I was thinking about how to make watering plants more efficient, and I thought splitting the hose might help cover more area at once. Do you think that's a good idea, or should I try something else?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Oh, that sounds like quite the shopping list! Are you planning a new project or adventure with these materials? I'm intrigued to see what you've got in mind. Let me know if you need any help or advice along the way!",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm planning a little DIY project to improve our garden's watering system. I might need some advice on the best way to connect the hoses. Do you have any tips or tricks from your gardening days?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad to hear you're working on something exciting! If you want to share more about your project or need a hand, I'm here for you. It's always fun to see what you come up with!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (encouragement)"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate your support. I'll definitely keep you in the loop as the project progresses. Maybe we can work on it together this weekend?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I appreciate you keeping me in the loop. If you ever need to brainstorm ideas or just want to chat about your plans, I'm always here to lend an ear. It's wonderful seeing your creativity at work!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (acknowledg"
+    },
+    {
+      "text": "Thanks, Grandpa! Your encouragement means a lot to me. I'll definitely take you up on that offer to brainstorm ideas. Maybe we can start by looking at the layout of the garden and see how we can optimize the watering system?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I'm glad you're feeling comfortable with your plans. If there's anything specific you'd like to discuss or need help with, don't hesitate to let me know. I'm always here to support you!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I feel really lucky to have your support. How about we start by sketching out some ideas for the garden layout this weekend? I think your experience will be really helpful!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, sealing it for the winter sounds like a smart move! It's important to protect your projects from the elements. If you need any tips or tools to help with the sealing, feel free to ask. I'm happy to assist!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That's a great idea, Grandpa! I'll definitely ask for your advice on the best materials and techniques for sealing. Maybe we can go through some options together this weekend?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Who's Maxwell? Is he helping you with your project? It sounds like you have a good team going!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Maxwell is a friend from school who's really into gardening too. He's been giving me some ideas and helping out with the heavy lifting. It's great to have him on board!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, calling Max over again! Is he a friend helping out or perhaps your pet? Either way, it's great to have company while working on projects!",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Maxwell is definitely a friend, Grandpa! He's been a huge help with the project, and it's always fun to work together. Maybe you can meet him sometime when we work on the garden.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, that's adorable! It sounds like Max found a cozy spot. I bet he looks cute as a button in Nona's sweater. It's moments like these that make projects even more special. How's everything else going with your plans?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Everything's going pretty well, Grandpa! We're making good progress with the garden, and I'm learning a lot from both Maxwell and you. It's really rewarding to see things come together. Do you have any other tips or ideas for us?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I see, just one single there. It's nice to have a little companion around, isn't it? Is there anything else you'd like to share about your project or Max's adventures?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, having Max around is great! He's always full of energy and keeps things lively. As for the project, we're thinking of adding some new plants to the garden. Do you have any favorites that you think would fit well?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nquestion"
+    },
+    {
+      "text": "Alright, sounds like you've got everything under control. If you need any help or just want to chat more about Max or your project, I'm here. Enjoy your time with him!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support. I'll definitely let you know if we need any advice or just want to share more about our progress. It's always nice to hear your thoughts!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "Yes, that's a good plan. It's always wise to prepare for the colder weather. Do you have everything you need to keep warm, or is there anything I can help with?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa! I think we're all set for the colder weather, but I'll definitely reach out if we need anything. It's always comforting to know you're there to help!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Ah, I see! You've got a good strategy for those fig trees. It's impressive how you're taking care of them. If you ever need tips or want to share more about your gardening adventures, I'm all ears!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really glad you think so. I'll definitely keep you updated on how the fig trees are doing. It's always great to share these experiences with you!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to hear that you're feeling confident about your plans. If you ever need any advice or just want to chat about anything else, I'm always here for you. How's everything else going for you these days?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! Everything's going pretty well. I've been busy with work and some new projects, but I'm managing. How about you? Anything exciting happening on your end?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thank you for sharing that with me! It's wonderful to learn how Nono takes care of the fig trees. If there's anything else you'd like to teach me or discuss, I'm always eager to hear more. How are your other projects coming along?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I'm glad you're interested, Grandpa! My other projects are coming along well, though they keep me pretty busy. I'm working on a couple of things related to tech, which can be challenging but rewarding. If you're ever curious about any of it, I'd love to share more with you!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I'm glad to hear that you're acknowledging all this. It's always fascinating to learn new things from you. If there's anything else you'd like to share or if you need help with anything, just let me know. I'm here for you.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support. If you're interested, I could show you some of the tech projects I'm working on. It might be fun to explore them together!",
+      "golden": "statement-non-opinion",
+      "predicted": "invitation",
+      "raw": "invitation\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Absolutely, figs are delicious! Covering them properly ensures they survive the winter and thrive. If you have any tips or suggestions on how to do it best, I'd love to hear them. It's always great to learn from your experiences!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Sure thing, Grandpa! I can definitely share some tips on how to cover figs for winter. It's all about making sure they're insulated properly. We could even try doing it together sometime if you're up for it!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, bending the fig tree is part of the process to protect it during the winter. It's a technique that Nono has perfected over the years. If you have any other ideas or if you'd like to help out, I'd be delighted to have your input!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (Nono's"
+    },
+    {
+      "text": "That sounds like a great idea, Grandpa! I'd love to learn Nono's technique and maybe add some of my own ideas. We could make it a fun project together. Let me know when you're planning to do it, and I'll be there to help!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "The mesh is here to protect the fig trees from harsh weather and pests. It's a method Nono uses to ensure they stay healthy and produce delicious figs. If you have any thoughts on how we might improve this setup, I'd love to hear them!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks for explaining that, Grandpa! I think using mesh is a smart way to keep the figs safe. Maybe we could also try adding some mulch around the base to help insulate the roots. What do you think about that idea?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Haha, that's the spirit! Figs are too delicious to worry about such things. And you're right, I've never seen a wasp in my figs either. It's great to enjoy them without any fuss. Do you have a favorite way to eat them?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "I love eating figs fresh, just as they are! But sometimes I like to mix them into a salad or even bake them into a tart. How about you, Grandpa? Do you have a favorite recipe or way to enjoy them?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's the right attitude! Figs are truly a treat, and it's wonderful that you enjoy them so much. Have you ever tried them with a bit of cheese or honey? It's a delightful combination!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds delicious, Grandpa! I haven't tried figs with cheese or honey yet, but I'll definitely give it a shot next time. Thanks for the suggestion!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nacknow"
+    },
+    {
+      "text": "Absolutely, Nono loved his figs! They were a staple in his diet back in Italy. As for the next step, we need to make sure the fig trees are securely covered for the winter. If you're up for it, we could start by checking the mesh and making sure everything is in place. What do you think?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (about Nono'"
+    },
+    {
+      "text": "I'd love to help with that, Grandpa! It sounds like a great way to spend some time together and make sure the fig trees are ready for winter. When would you like to start?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Ah, the Italian cane! It's a sturdy tool, perfect for helping us with the fig trees. Let's grab it and make sure everything is set for the winter. It's always good to have a little piece of Italy with us while we work. Are you ready to get started?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nagreement\nquestion"
+    },
+    {
+      "text": "I'm ready, Grandpa! Let's grab the cane and get started on those fig trees. It'll be nice to have a bit of Italy with us while we work.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, you could say that! The Italian cane is quite similar to bamboo in terms of its sturdiness and versatility. It's been used for generations in Italy for various purposes, just like bamboo in other parts of the world. It's great to see you interested in these traditional tools. Shall we give it a try with the fig trees?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm really curious to see how the Italian cane works with the fig trees. Let's give it a go and see how it compares to bamboo. I'm sure it'll be a great experience!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Well, the Italian cane is quite versatile! Traditionally, it's used for supporting plants, like our fig trees, and sometimes even for crafting furniture or tools. It's a bit of old-world ingenuity that still serves us well today. Would you like to see how we can use it to help the fig trees?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds fascinating, Grandpa! I'd love to learn how to use the Italian cane to support the fig trees. It's amazing how these traditional methods are still so effective. Let's get started!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, it's quite a handy tool! From supporting plants to crafting, it really does have a wide range of uses. It's amazing how something so simple can be so effective. Let's see how it works with the fig trees, shall we?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm eager to see the Italian cane in action with the fig trees. It's great to learn from your experience and see these traditional methods in practice. Let's dive in!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's right! It's a bit like having a Swiss Army knife, but for gardening and crafting. It's always been a reliable companion in our work. Now, let's see how it can help us with the fig trees today. I'm sure you'll find it interesting!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I can't wait to see it in action, Grandpa! It's like discovering a new tool that has been around forever. I'm sure there's a lot I can learn from you today. Let's get started with those fig trees!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Exactly! You can cut them to the size you need and use them to tie things up securely. It's a simple yet effective method. Would you like to try cutting one and see how it works?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Sure, Grandpa! I'd love to give it a try. It sounds like a really handy tool. Could you show me the best way to cut it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, drying them out makes them even more durable and easier to work with. Once they're dried, they become quite sturdy and can last a long time. Would you like to learn how to dry them properly?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'd love to learn how to dry them properly. It sounds like an important step to make them last longer. What's the first thing we need to do?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, the middle part is quite strong, especially after it's dried. It's one of the reasons why it's so useful for tying things securely. Would you like to give it a try and see how strong it feels?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Sure, Grandpa! I'd love to give it a try and see how strong it feels. It sounds really interesting. What's the best way to test its strength?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "That's right! I grow them because they're incredibly versatile and useful for various tasks around the garden and home. Plus, they have a certain charm and tradition that I enjoy. It's nice to pass on these little tricks to you. Would you like to learn more about other uses?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Absolutely, Grandpa! I'm really curious to learn about the different ways we can use them. What other tricks do you have up your sleeve?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! Let's get started. I'll show you the best way to cut them so they're ready for drying. It's a fun process, and you'll see how useful they can be. If you have any questions along the way, feel free to ask!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\nagreement\ncommand"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm excited to learn how to cut and dry them properly. Do you have any tips for making sure they dry well?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "You're right! They do have a tropical look to them, don't they? It's one of the things I love about growing them. They bring a bit of exotic beauty to the garden. I'm glad you appreciate it too. Let's continue with the cutting, and you'll see how their strength matches their beauty.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Absolutely, Grandpa! I love how they add a touch of the tropics to the garden. I'm ready to see how strong they are when we cut them. Do you have any favorite ways to use them once they're dried?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, once it's dried properly, it can last quite a long time, sometimes even up to five years or more if stored well. It's quite amazing how durable they are. Do you want to know the best way to store them?",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "Wow, that's impressive! I'd love to know the best way to store them so they last as long as possible. What do you recommend?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, three years is a good estimate for how long they can last when dried and stored properly. It's fascinating how nature provides us with such durable materials. If you're interested, I can show you some tips on how to store them to maximize their lifespan.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "That sounds great, Grandpa! I'd love to learn your tips for storing them. It's amazing how nature provides us with such long-lasting materials. Let's make sure we do it right!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Haha, that's an interesting thought! While these don't have any liquid inside like coconuts, they certainly have their own unique uses. It's always fun to imagine what it would be like if they did, though! If you have any other creative ideas or questions, feel free to share them.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "Haha, imagining them with liquid inside is pretty funny! I guess nature has its own way of keeping things interesting. I'd love to hear more about their unique uses. What other creative ideas do you have in mind?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "It sounds like you're doing a great job with the leaves and the finish pile. I can see you're being careful with the wire thing, which is important. Let me know if you need any help or advice. I'm here to assist!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I appreciate your support and guidance. I'll definitely reach out if I need help. Do you have any specific tips or tricks for handling the wire? I want to make sure I'm doing it right.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, that's right! As they dry, they do turn hard and yellow, which is a sign that they're ready for use or storage. It's quite a transformation, isn't it? If you have any questions about what to do next, feel free to ask!",
+      "golden": "question",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nEx"
+    },
+    {
+      "text": "That's fascinating, Grandpa! It's amazing how nature works. I'll definitely keep an eye on them as they dry. Do you have any tips on the best way to store them once they're ready?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's a good idea! Placing them in between can help with the drying process and ensure they are stored properly. You're really getting the hang of this! If you need any more tips or guidance, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I feel more confident now with your advice. I'll make sure to follow your tips closely. If I run into any issues, I'll definitely reach out to you. It's always great to learn from your experience!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly, letting it dry out there is a smart move. You're doing a great job managing this process. If you have any other ideas or need a hand, I'm always here to help.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I really appreciate your support, Grandpa! It's reassuring to know you're always there to lend a hand. I'll keep you updated on how everything goes. Maybe next time we can try a new project together?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Yes, 'a tutti finito' means 'all finished' in Italian, and it sounds like you've completed the task perfectly! Well done! If there's anything else you'd like to do or discuss, I'm here for you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion (agreement implied)"
+    },
+    {
+      "text": "Thanks for the encouragement, Grandpa! I didn't know that phrase in Italian, that's really cool. I might need your help with some Italian phrases if we ever travel there together. Let's definitely plan another project soon!",
+      "golden": "statement-opinion",
+      "predicted": "question",
+      "raw": "agreement, question, statement-opinion,"
+    },
+    {
+      "text": "Yes, that's ready to go! You've done a great job getting everything prepared. If you have any more tasks or questions, feel free to ask. I'm always here to help!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! Your support means a lot. If I come across any more tasks or need advice, I'll definitely reach out. Maybe we can brainstorm ideas for our next project soon?",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "I understand, sometimes tasks can become more challenging as you progress. But remember, every challenge is an opportunity to learn and grow. If you need any advice or just want to talk it through, I'm here for you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your perspective. It's reassuring to know I can count on you for advice and support. Let's definitely chat soon about our next project. Maybe we can explore something new and exciting!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Yes, that's right! You can use it for preparing steak or other meats. It's a great technique to get the best flavor and texture. If you're interested, I can share some tips or recipes with you.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nExplanation"
+    },
+    {
+      "text": "That sounds awesome, Grandpa! I'd love to learn some of your cooking tips and recipes. Maybe we can try cooking together sometime soon? It would be fun to learn from you.",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    },
+    {
+      "text": "Goodbye, my dear! Take care and remember I'm always here if you need anything. Have a great day!",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting\n\nExplanation: The target"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely keep that in mind. Looking forward to our cooking session and learning from you. Have a wonderful day!",
+      "golden": "greeting",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Looking forward to it! Have a wonderful time until then, and don't hesitate to reach out if you need anything. Bye for now!",
+      "golden": "greeting",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely reach out if I need anything. Can't wait for our cooking session. Take care and talk to you soon!",
+      "golden": "greeting",
+      "predicted": "acknowledge",
+      "raw": "acknowledgement\n\nExplanation: The"
+    },
+    {
+      "text": "Yes, the backyard is mostly ready for winter. I'm hopeful that the fig tree will survive and thrive. It's always exciting to see how our plants do each year. If you want to help with any last-minute preparations, just let me know!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "That's great to hear, Grandpa! I'd love to help out with the backyard preparations. Just let me know when you need me, and I'll be there. It's always fun to learn more about gardening from you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nExplanation: The target utter"
+    }
+  ]
+}

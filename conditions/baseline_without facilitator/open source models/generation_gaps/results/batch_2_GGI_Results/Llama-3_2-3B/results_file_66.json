@@ -1,0 +1,767 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 66,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?",
+            "gold_label": "method divergence",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?",
+            "target": "Target (grandmother): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.",
+            "gold_label": "method divergence",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside? | Speaker B (grandmother): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.",
+            "target": "Target (grandson): Hey, you guys!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again. | Speaker B (grandson): Hey, you guys!",
+            "target": "Target (grandmother): Hi, fellas and girls, I'm driving! That's the way it goes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): Hey, you guys! | Speaker B (grandmother): Hi, fellas and girls, I'm driving! That's the way it goes.",
+            "target": "Target (grandson): That's the way it goes, okay?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): Hi, fellas and girls, I'm driving! That's the way it goes. | Speaker B (grandson): That's the way it goes, okay?",
+            "target": "Target (grandmother): That car going fast. What are you doing? I drive nice and slow.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): That's the way it goes, okay? | Speaker B (grandmother): That car going fast. What are you doing? I drive nice and slow.",
+            "target": "Target (grandson): She drives like a grandma.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): That car going fast. What are you doing? I drive nice and slow. | Speaker B (grandson): She drives like a grandma.",
+            "target": "Target (grandmother): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): She drives like a grandma. | Speaker B (grandmother): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.",
+            "target": "Target (grandson): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school. | Speaker B (grandson): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.",
+            "target": "Target (grandmother): How do you know about lighting?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting. | Speaker B (grandmother): How do you know about lighting?",
+            "target": "Target (grandson): I went to art school for a year, Grandma, remember?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): How do you know about lighting? | Speaker B (grandson): I went to art school for a year, Grandma, remember?",
+            "target": "Target (grandmother): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): I went to art school for a year, Grandma, remember? | Speaker B (grandmother): Oh yeah.",
+            "target": "Target (grandson): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): Oh yeah. | Speaker B (grandson): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.",
+            "target": "Target (grandmother): Oh, isn't that awful?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around. | Speaker B (grandmother): Oh, isn't that awful?",
+            "target": "Target (grandson): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): Oh, isn't that awful? | Speaker B (grandson): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?",
+            "target": "Target (grandmother): Turned up?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up? | Speaker B (grandmother): Turned up?",
+            "target": "Target (grandson): Turnt.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Turned up? | Speaker B (grandson): Turnt.",
+            "target": "Target (grandmother): I have no idea what that word is.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Turnt. | Speaker B (grandmother): I have no idea what that word is.",
+            "target": "Target (grandson): Turnt up, do it.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): I have no idea what that word is. | Speaker B (grandson): Turnt up, do it.",
+            "target": "Target (grandmother): Oh, turn up. Yeah. Something to eat.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): Turnt up, do it. | Speaker B (grandmother): Oh, turn up. Yeah. Something to eat.",
+            "target": "Target (grandson): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): Oh, turn up. Yeah. Something to eat. | Speaker B (grandson): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?",
+            "target": "Target (grandmother): I guess so.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that? | Speaker B (grandmother): I guess so.",
+            "target": "Target (grandson): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): I guess so. | Speaker B (grandson): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.",
+            "target": "Target (grandmother): What makes you think that I'm gonna know what it is?",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think. | Speaker B (grandmother): What makes you think that I'm gonna know what it is?",
+            "target": "Target (grandson): You're a smart woman, Grandma.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): What makes you think that I'm gonna know what it is? | Speaker B (grandson): You're a smart woman, Grandma.",
+            "target": "Target (grandmother): Oh yeah, smart.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): You're a smart woman, Grandma. | Speaker B (grandmother): Oh yeah, smart.",
+            "target": "Target (grandson): Netflix and chill.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): Oh yeah, smart. | Speaker B (grandson): Netflix and chill.",
+            "target": "Target (grandmother): Nif— what? Oh, when I hang out with somebody you could get chilled?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): Netflix and chill. | Speaker B (grandmother): Nif— what? Oh, when I hang out with somebody you could get chilled?",
+            "target": "Target (grandson): Kind of. It means like hooking up with somebody.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): Nif— what? Oh, when I hang out with somebody you could get chilled? | Speaker B (grandson): Kind of. It means like hooking up with somebody.",
+            "target": "Target (grandmother): Oh, hooking up with somebody.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): Kind of. It means like hooking up with somebody. | Speaker B (grandmother): Oh, hooking up with somebody.",
+            "target": "Target (grandson): What does it mean when someone spills the tea?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): Oh, hooking up with somebody. | Speaker B (grandson): What does it mean when someone spills the tea?",
+            "target": "Target (grandmother): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): What does it mean when someone spills the tea? | Speaker B (grandmother): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"",
+            "target": "Target (grandson): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\" | Speaker B (grandson): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.",
+            "target": "Target (grandmother): Did you hear this? He's making up stories.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him. | Speaker B (grandmother): Did you hear this? He's making up stories.",
+            "target": "Target (grandson): Why are you trying to keep secrets from them?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): Did you hear this? He's making up stories. | Speaker B (grandson): Why are you trying to keep secrets from them?",
+            "target": "Target (grandmother): Seriously. Did you hear that? Did you hear that?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandson): Why are you trying to keep secrets from them? | Speaker B (grandmother): Seriously. Did you hear that? Did you hear that?",
+            "target": "Target (grandson): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): Seriously. Did you hear that? Did you hear that? | Speaker B (grandson): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.",
+            "target": "Target (grandmother): No, don't listen to him.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandson): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so. | Speaker B (grandmother): No, don't listen to him.",
+            "target": "Target (grandson): We'll be doing a boyfriend tag soon with him, don't worry.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandmother): No, don't listen to him. | Speaker B (grandson): We'll be doing a boyfriend tag soon with him, don't worry.",
+            "target": "Target (grandmother): Oh my Lord, oh Lord, don't listen to him.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandson): We'll be doing a boyfriend tag soon with him, don't worry. | Speaker B (grandmother): Oh my Lord, oh Lord, don't listen to him.",
+            "target": "Target (grandson): What does FOMO mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): Oh my Lord, oh Lord, don't listen to him. | Speaker B (grandson): What does FOMO mean?",
+            "target": "Target (grandmother): FOMO? It sounds like hello! Hello! In a different language.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandson): What does FOMO mean? | Speaker B (grandmother): FOMO? It sounds like hello! Hello! In a different language.",
+            "target": "Target (grandson): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): FOMO? It sounds like hello! Hello! In a different language. | Speaker B (grandson): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.",
+            "target": "Target (grandmother): You ain't gonna suffer.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandson): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much. | Speaker B (grandmother): You ain't gonna suffer.",
+            "target": "Target (grandson): What does stan mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): You ain't gonna suffer. | Speaker B (grandson): What does stan mean?",
+            "target": "Target (grandmother): That guy's name is Stan. S-T-A-N, no?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): What does stan mean? | Speaker B (grandmother): That guy's name is Stan. S-T-A-N, no?",
+            "target": "Target (grandson): Nope. It means like a hardcore fan. What does sauced mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): That guy's name is Stan. S-T-A-N, no? | Speaker B (grandson): Nope. It means like a hardcore fan. What does sauced mean?",
+            "target": "Target (grandmother): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandson): Nope. It means like a hardcore fan. What does sauced mean? | Speaker B (grandmother): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.",
+            "target": "Target (grandson): She has no idea.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea. | Speaker B (grandson): She has no idea.",
+            "target": "Target (grandmother): No idea? I never heard of these words in my life.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandson): She has no idea. | Speaker B (grandmother): No idea? I never heard of these words in my life.",
+            "target": "Target (grandson): How about you tell me, what does \"idear\" mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): No idea? I never heard of these words in my life. | Speaker B (grandson): How about you tell me, what does \"idear\" mean?",
+            "target": "Target (grandmother): Idear, idear.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandson): How about you tell me, what does \"idear\" mean? | Speaker B (grandmother): Idear, idear.",
+            "target": "Target (grandson): What does \"idear\" mean? Tell the people, because everyone's been wondering.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): Idear, idear. | Speaker B (grandson): What does \"idear\" mean? Tell the people, because everyone's been wondering.",
+            "target": "Target (grandmother): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandson): What does \"idear\" mean? Tell the people, because everyone's been wondering. | Speaker B (grandmother): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.",
+            "target": "Target (grandson): And you're just like falling all over the place. Like how you were at your surprise party.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk. | Speaker B (grandson): And you're just like falling all over the place. Like how you were at your surprise party.",
+            "target": "Target (grandmother): I wasn't drunk at my—",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandson): And you're just like falling all over the place. Like how you were at your surprise party. | Speaker B (grandmother): I wasn't drunk at my—",
+            "target": "Target (grandson): You were sauced, Grandma. No, I was not! Yes, you were.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): I wasn't drunk at my— | Speaker B (grandson): You were sauced, Grandma. No, I was not! Yes, you were.",
+            "target": "Target (grandmother): I couldn't dance if I was drunk.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandson): You were sauced, Grandma. No, I was not! Yes, you were. | Speaker B (grandmother): I couldn't dance if I was drunk.",
+            "target": "Target (grandson): I had to drive you home.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): I couldn't dance if I was drunk. | Speaker B (grandson): I had to drive you home.",
+            "target": "Target (grandmother): Oh no, no.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandson): I had to drive you home. | Speaker B (grandmother): Oh no, no.",
+            "target": "Target (grandson): I literally drove you home.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): Oh no, no. | Speaker B (grandson): I literally drove you home.",
+            "target": "Target (grandmother): I don't remember.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): I literally drove you home. | Speaker B (grandmother): I don't remember.",
+            "target": "Target (grandson): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandmother): I don't remember. | Speaker B (grandson): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.",
+            "target": "Target (grandmother): I was not. I must have had 2 drinks.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced. | Speaker B (grandmother): I was not. I must have had 2 drinks.",
+            "target": "Target (grandson): What does lit mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): I was not. I must have had 2 drinks. | Speaker B (grandson): What does lit mean?",
+            "target": "Target (grandmother): You could be lidding something. You could be lidding candles.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): What does lit mean? | Speaker B (grandmother): You could be lidding something. You could be lidding candles.",
+            "target": "Target (grandson): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): You could be lidding something. You could be lidding candles. | Speaker B (grandson): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?",
+            "target": "Target (grandmother): Yeah, I would have been lit before.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before? | Speaker B (grandmother): Yeah, I would have been lit before.",
+            "target": "Target (grandson): She's been lit.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandmother): Yeah, I would have been lit before. | Speaker B (grandson): She's been lit.",
+            "target": "Target (grandmother): Sure.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): She's been lit. | Speaker B (grandmother): Sure.",
+            "target": "Target (grandson): What does shook mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandmother): Sure. | Speaker B (grandson): What does shook mean?",
+            "target": "Target (grandmother): Shook? Is that shake somebody?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): What does shook mean? | Speaker B (grandmother): Shook? Is that shake somebody?",
+            "target": "Target (grandson): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandmother): Shook? Is that shake somebody? | Speaker B (grandson): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?",
+            "target": "Target (grandmother): Oh, why would they want to shake you?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know? | Speaker B (grandmother): Oh, why would they want to shake you?",
+            "target": "Target (grandson): What does woke mean?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandmother): Oh, why would they want to shake you? | Speaker B (grandson): What does woke mean?",
+            "target": "Target (grandmother): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): What does woke mean? | Speaker B (grandmother): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.",
+            "target": "Target (grandson): It means when you're aware of something. Are you woke, Grandma?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandmother): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it. | Speaker B (grandson): It means when you're aware of something. Are you woke, Grandma?",
+            "target": "Target (grandmother): Kevin, I don't like these questions.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): It means when you're aware of something. Are you woke, Grandma? | Speaker B (grandmother): Kevin, I don't like these questions.",
+            "target": "Target (grandson): What is a darty?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandmother): Kevin, I don't like these questions. | Speaker B (grandson): What is a darty?",
+            "target": "Target (grandmother): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): What is a darty? | Speaker B (grandmother): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.",
+            "target": "Target (grandson): You can get dirty at them.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandmother): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty. | Speaker B (grandson): You can get dirty at them.",
+            "target": "Target (grandmother): Yeah, you could get dirty.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandson): You can get dirty at them. | Speaker B (grandmother): Yeah, you could get dirty.",
+            "target": "Target (grandson): It's like a daytime party. So did you learn anything today, Grandma?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandmother): Yeah, you could get dirty. | Speaker B (grandson): It's like a daytime party. So did you learn anything today, Grandma?",
+            "target": "Target (grandmother): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): It's like a daytime party. So did you learn anything today, Grandma? | Speaker B (grandmother): No.",
+            "target": "Target (grandson): You really didn't learn anything?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandmother): No. | Speaker B (grandson): You really didn't learn anything?",
+            "target": "Target (grandmother): No, I didn't learn anything because I forgot those words already.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): You really didn't learn anything? | Speaker B (grandmother): No, I didn't learn anything because I forgot those words already.",
+            "target": "Target (grandson): Grandma!",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandmother): No, I didn't learn anything because I forgot those words already. | Speaker B (grandson): Grandma!",
+            "target": "Target (grandmother): That's it. Are you kidding? I'm not gonna remember those words.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): Grandma! | Speaker B (grandmother): That's it. Are you kidding? I'm not gonna remember those words.",
+            "target": "Target (grandson): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandmother): That's it. Are you kidding? I'm not gonna remember those words. | Speaker B (grandson): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.",
+            "target": "Target (grandmother): Thanks for watching. I don't know where he gets his ideas from.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare. | Speaker B (grandmother): Thanks for watching. I don't know where he gets his ideas from.",
+            "target": "Target (grandson): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandmother): Thanks for watching. I don't know where he gets his ideas from. | Speaker B (grandson): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.",
+            "target": "Target (grandmother): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there. | Speaker B (grandmother): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?",
+            "target": "Target (grandson): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandmother): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door? | Speaker B (grandson): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.",
+            "target": "Target (grandmother): I’m tapping it, but nothing is ringing. This glass is just cold. Why can't things just have real buttons anymore?",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandson): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post. | Speaker B (grandmother): I’m tapping it, but nothing is ringing. This glass is just cold. Why can't things just have real buttons anymore?",
+            "target": "Target (grandson): It doesn't ring now! It's for later. Just... forget it, I'll set it for you. If you click it, you'll get notified when we upload a video. It's really easy. Peace out, take care, God bless.",
+            "gold_label": "digital disparity",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        }
+    ]
+}

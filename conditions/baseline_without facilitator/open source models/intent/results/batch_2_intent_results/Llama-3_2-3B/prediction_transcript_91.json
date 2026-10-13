@@ -1,0 +1,199 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 91,
+    "utterances": [
+        {
+            "text": "You need to cut your nails.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Shut up, I don't know how to do everything else with my damn nails.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "You going to take forever texting and calling. I can't sit and show you all the time. I bought you a phone before, you don't know how to use it.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Wait, I am trying to understand the 'swipe' motion you mentioned. Does it start from the bottom edge or the middle?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Just do it! It's not that hard, you're just overthinking it because you're scared of the screen. My hands just do it naturally, I don't know why you're struggling with a basic gesture.",
+            "golden": "criticize",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Stop yelling and listen! I'm telling you my finger doesn't register because of the nail. Don't tell me I'm scared when the machine is the one not working.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "I'm not yelling, I'm just telling you the right way. Now swipe up. No, faster. Do it again. Just follow my hand and stop pausing.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "I was going to ask about the icons, but you just keep barking 'swipe' at me. I feel like I can't even touch the thing without you snapping. I’m putting this down until you let me speak a full sentence.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I did buy you an iPhone, you ain't know how to use it.",
+            "golden": "inform",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "This ain't no iPhone.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "I know, it's Android. I don't like them.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "All I need is a phone.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "ask"
+        },
+        {
+            "text": "Let me cut your nails. So you can use the phone correctly Hey, do what you do. Do how you tap, tap the phone.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Tap it where? Tap it.",
+            "golden": "confirm",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Go up like I told you.",
+            "golden": "explain",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "All right. Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Now press a button.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "ask"
+        },
+        {
+            "text": "A button down here?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah. Look how you got to do it. You should be able to do it with your hand. You got to do this.",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Everybody I haven't seen— well, I keep a pencil with me then, man.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "You could What? Look how long it's taking you.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "But that ain't said no 4-4.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "What is this, the clear? Cut your nails, man.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Hey, this your mother. Call me. I just text that.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Now you try to text something. Text. I want to see you text. Say, Mom, right there. Just hit the button.",
+            "golden": "explain",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "This button? Yep.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No, these letters. Send the letters. Yeah, text. I want to see you text him",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "H. How you spell hey? Hey .",
+            "golden": "confirm",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "H-A. How you spell it? H-A. Hey is H-E-Y. It ain't H-E-Y. Hey is H-A. No, it's not, Grandma. That's ha. Ha! He— What? Hey, that's not hey. He—",
+            "golden": "explain",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Hey, hey, hey, hey, hey, hey!",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "It's H-E-Y.",
+            "golden": "explain",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "Hey! No, hey is H-A-Y. All right, I'm gonna let you be the— The E is silent. That's the way you saying it. Hey! H-A-Y.",
+            "golden": "oppose",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        }
+    ]
+}

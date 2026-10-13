@@ -1,0 +1,133 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 89,
+    "utterances": [
+        {
+            "text": "Is there something wrong with your hand?",
+            "golden": "criticize",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "No.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Why are you turning your fork? It's all dangled. Honestly, the way you’re shoveling that in looks like you were raised in a barn, not in this family.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "That's actually pretty mean, Grandma. It's just a fork, I'm not being 'uncivilized' just because I'm comfortable.",
+            "golden": "oppose",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "It’s about standards. But you kids don't care about dignity anymore. Now, turn it back. Use the tines to push, don't scoop like a child.",
+            "golden": "criticize",
+            "predicted": "criticize",
+            "raw": "criticize"
+        },
+        {
+            "text": "Why is your 'English way' the only right way? Scooping is way more efficient for peas. We’re just arguing over a procedure that doesn't change how the food tastes.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Efficiency is for the kitchen; elegance is for the table. I won't have you eating like an American tourist at my Sunday dinner. We are stopping the meal until you hold it correctly.",
+            "golden": "criticize",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Um, I don't know, it's just how I eat. This is how you eat?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Yeah. No, no, no, no. Okay, okay. Like this. I like this, the fork this way. Why would you eat with the fork this way?",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "I don't know, because it's curved up.",
+            "golden": "explain",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "No. Okay, okay, no. Let me show you. Okay. This is the English way of eating. Okay. Like this. Like this. Cut it like this. And you eat it like this. Not like this.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "teach"
+        },
+        {
+            "text": "Okay, okay, okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You want to try?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "yes",
+            "golden": "acknowledge",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Mm-hmm. That's good. Mm-hmm. And now— oh, jump, jump, jump! Jump! Bring the arm in a bit. Bring the arm in a bit. Let me show you again.",
+            "golden": "explain",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Let me show you again. Like this. I'm so stressed. Straight, just straight, straight down. Like that. Mm-hmm.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Cut. Straight up. Right. There you go, you're British.",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "I'm British now!",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "You're British! Sort of one.",
+            "golden": "praise",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

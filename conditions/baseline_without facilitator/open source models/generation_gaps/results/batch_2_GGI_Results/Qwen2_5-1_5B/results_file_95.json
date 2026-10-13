@@ -1,0 +1,599 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 95,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): He's live! Hi! Okay, so touch it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): He's live! Hi! Okay, so touch it.",
+            "target": "Target (grandfather): Wait, it's loading.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): He's live! Hi! Okay, so touch it. | Speaker B (grandfather): Wait, it's loading.",
+            "target": "Target (granddaughter): Wait, it's coming. It's loading. It's going to load. It has to go somewhere and back. There he is! How beautiful! He's live!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Wait, it's loading. | Speaker B (granddaughter): Wait, it's coming. It's loading. It's going to load. It has to go somewhere and back. There he is! How beautiful! He's live!",
+            "target": "Target (granddaughter): Look at him! How you doing, dude? How you been? Long time no see. Yeah. Oh wait, there you are. Hi from Santa Barbara. So there's people—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Wait, it's coming. It's loading. It's going to load. It has to go somewhere and back. There he is! How beautiful! He's live! | Speaker B (granddaughter): Look at him! How you doing, dude? How you been? Long time no see. Yeah. Oh wait, there you are. Hi from Santa Barbara. So there's people—",
+            "target": "Target (granddaughter): You can type on there. There's people— If you wanted to say hi, you could type on there. You could like say, \"Hi, Manny,\" or anything you want.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Look at him! How you doing, dude? How you been? Long time no see. Yeah. Oh wait, there you are. Hi from Santa Barbara. So there's people— | Speaker B (granddaughter): You can type on there. There's people— If you wanted to say hi, you could type on there. You could like say, \"Hi, Manny,\" or anything you want.",
+            "target": "Target (granddaughter): Grandfather, say hi to everybody. I don't want to say it in front of you. Say hi, Periscope. I'm the brown guy.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): You can type on there. There's people— If you wanted to say hi, you could type on there. You could like say, \"Hi, Manny,\" or anything you want. | Speaker B (granddaughter): Grandfather, say hi to everybody. I don't want to say it in front of you. Say hi, Periscope. I'm the brown guy.",
+            "target": "Target (grandfather): I'm getting behind the camera. We're broadcasting right now.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Grandfather, say hi to everybody. I don't want to say it in front of you. Say hi, Periscope. I'm the brown guy. | Speaker B (grandfather): I'm getting behind the camera. We're broadcasting right now.",
+            "target": "Target (granddaughter): There's people in here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): I'm getting behind the camera. We're broadcasting right now. | Speaker B (granddaughter): There's people in here.",
+            "target": "Target (grandfather): Hi everyone.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): There's people in here. | Speaker B (grandfather): Hi everyone.",
+            "target": "Target (granddaughter): We're teaching grandfather how to use Periscope. Yeah, he can travel the world without leaving his couch.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Hi everyone. | Speaker B (granddaughter): We're teaching grandfather how to use Periscope. Yeah, he can travel the world without leaving his couch.",
+            "target": "Target (grandfather): He's gonna follow us to the beach.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): We're teaching grandfather how to use Periscope. Yeah, he can travel the world without leaving his couch. | Speaker B (grandfather): He's gonna follow us to the beach.",
+            "target": "Target (granddaughter): Hey grandfather.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): He's gonna follow us to the beach. | Speaker B (granddaughter): Hey grandfather.",
+            "target": "Target (granddaughter): Join.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Hey grandfather. | Speaker B (granddaughter): Join.",
+            "target": "Target (grandfather): Yeah, other people are— look. grandfather, say hi to everybody. Say hi everyone over here. Say hi to the camera here. Hey, how are you guys doing?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Join. | Speaker B (grandfather): Yeah, other people are— look. grandfather, say hi to everybody. Say hi everyone over here. Say hi to the camera here. Hey, how are you guys doing?",
+            "target": "Target (grandfather): We're having a great Sunday. Saturday.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): Yeah, other people are— look. grandfather, say hi to everybody. Say hi everyone over here. Say hi to the camera here. Hey, how are you guys doing? | Speaker B (grandfather): We're having a great Sunday. Saturday.",
+            "target": "Target (granddaughter): Saturday. Whatever day, it's great. We have somebody watching from Greensville, South Carolina.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): We're having a great Sunday. Saturday. | Speaker B (granddaughter): Saturday. Whatever day, it's great. We have somebody watching from Greensville, South Carolina.",
+            "target": "Target (grandfather): So you can see all these people saying hi. We have somebody watching from Greensville, South Carolina. All the way from Carolina.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Saturday. Whatever day, it's great. We have somebody watching from Greensville, South Carolina. | Speaker B (grandfather): So you can see all these people saying hi. We have somebody watching from Greensville, South Carolina. All the way from Carolina.",
+            "target": "Target (granddaughter): How y'all doing? Everyone's saying hi, grandfather. How y'all doing back there? Somebody says hi from San Francisco. Oh, how's the Bay today? Hi, Johnny D. Hi, Nana. Yeah, yeah, yeah. Can you see them there? Yeah, we just say noisy. Hey, you got someone from Turkey too.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): So you can see all these people saying hi. We have somebody watching from Greensville, South Carolina. All the way from Carolina. | Speaker B (granddaughter): How y'all doing? Everyone's saying hi, grandfather. How y'all doing back there? Somebody says hi from San Francisco. Oh, how's the Bay today? Hi, Johnny D. Hi, Nana. Yeah, yeah, yeah. Can you see them there? Yeah, we just say noisy. Hey, you got someone from Turkey too.",
+            "target": "Target (grandfather): Grandfather, you're so high tech.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): How y'all doing? Everyone's saying hi, grandfather. How y'all doing back there? Somebody says hi from San Francisco. Oh, how's the Bay today? Hi, Johnny D. Hi, Nana. Yeah, yeah, yeah. Can you see them there? Yeah, we just say noisy. Hey, you got someone from Turkey too. | Speaker B (grandfather): Grandfather, you're so high tech.",
+            "target": "Target (granddaughter): Yeah, grandfather's so high-tech. He got Periscope and he got Snapchat.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Grandfather, you're so high tech. | Speaker B (granddaughter): Yeah, grandfather's so high-tech. He got Periscope and he got Snapchat.",
+            "target": "Target (grandfather): Don't call me 'high-tech' like I'm a child learning to tie my shoes. I ran a business for forty years, I think I can handle a telephone without being patronized.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): Yeah, grandfather's so high-tech. He got Periscope and he got Snapchat. | Speaker B (grandfather): Don't call me 'high-tech' like I'm a child learning to tie my shoes. I ran a business for forty years, I think I can handle a telephone without being patronized.",
+            "target": "Target (granddaughter): I'm just complimenting you! Why are you getting so sensitive? It's just cool that you're doing this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): Don't call me 'high-tech' like I'm a child learning to tie my shoes. I ran a business for forty years, I think I can handle a telephone without being patronized. | Speaker B (granddaughter): I'm just complimenting you! Why are you getting so sensitive? It's just cool that you're doing this.",
+            "target": "Target (grandfather): It's not 'cool,' it's just a tool. You're talking about me to these strangers like I'm a trained parrot.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): I'm just complimenting you! Why are you getting so sensitive? It's just cool that you're doing this. | Speaker B (grandfather): It's not 'cool,' it's just a tool. You're talking about me to these strangers like I'm a trained parrot.",
+            "target": "Target (granddaughter): Fine, forget it. Look, more people are joining. Look at the screen!",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): It's not 'cool,' it's just a tool. You're talking about me to these strangers like I'm a trained parrot. | Speaker B (granddaughter): Fine, forget it. Look, more people are joining. Look at the screen!",
+            "target": "Target (grandfather): Everything is moving too fast. The words are flying up and these bubbles keep popping. I can't read a single name before it disappears. This is just a mess of colors, how do you focus on anything?",
+            "gold_label": "digital disparity",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Fine, forget it. Look, more people are joining. Look at the screen! | Speaker B (grandfather): Everything is moving too fast. The words are flying up and these bubbles keep popping. I can't read a single name before it disappears. This is just a mess of colors, how do you focus on anything?",
+            "target": "Target (granddaughter): What's going on up there? What about this Alaska thing? Woo! Yeah, grandfather's!",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): Everything is moving too fast. The words are flying up and these bubbles keep popping. I can't read a single name before it disappears. This is just a mess of colors, how do you focus on anything? | Speaker B (granddaughter): What's going on up there? What about this Alaska thing? Woo! Yeah, grandfather's!",
+            "target": "Target (grandfather): You know what? Hearts, people!",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): What's going on up there? What about this Alaska thing? Woo! Yeah, grandfather's! | Speaker B (grandfather): You know what? Hearts, people!",
+            "target": "Target (granddaughter): Give grandfather some hearts! Give grandfather some hearts. He needs some hearts.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandfather): You know what? Hearts, people! | Speaker B (granddaughter): Give grandfather some hearts! Give grandfather some hearts. He needs some hearts.",
+            "target": "Target (grandfather): If you tap this, it makes hearts.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): Give grandfather some hearts! Give grandfather some hearts. He needs some hearts. | Speaker B (grandfather): If you tap this, it makes hearts.",
+            "target": "Target (grandfather): Oh, he's got a heart flutter.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandfather): If you tap this, it makes hearts. | Speaker B (grandfather): Oh, he's got a heart flutter.",
+            "target": "Target (grandfather): Look at, we're watching it on like 3 screens. How did you do this? Tap it. Did it go away? No. Now other people are tapping on it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandfather): Oh, he's got a heart flutter. | Speaker B (grandfather): Look at, we're watching it on like 3 screens. How did you do this? Tap it. Did it go away? No. Now other people are tapping on it.",
+            "target": "Target (granddaughter): Oh yeah, I see. So they can do it. Get on Meerkat, grandfather. Yeah, we'll get him on Meerkat next. He got Snapchat and he got Periscope today.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): Look at, we're watching it on like 3 screens. How did you do this? Tap it. Did it go away? No. Now other people are tapping on it. | Speaker B (granddaughter): Oh yeah, I see. So they can do it. Get on Meerkat, grandfather. Yeah, we'll get him on Meerkat next. He got Snapchat and he got Periscope today.",
+            "target": "Target (grandfather): Yeah. Oh, look, it's 60-year-old Nana here.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (granddaughter): Oh yeah, I see. So they can do it. Get on Meerkat, grandfather. Yeah, we'll get him on Meerkat next. He got Snapchat and he got Periscope today. | Speaker B (grandfather): Yeah. Oh, look, it's 60-year-old Nana here.",
+            "target": "Target (granddaughter): Hey, Megan loves grandfather. Oh, never too old.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandfather): Yeah. Oh, look, it's 60-year-old Nana here. | Speaker B (granddaughter): Hey, Megan loves grandfather. Oh, never too old.",
+            "target": "Target (grandfather): It's true. Good work, Nana.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): Hey, Megan loves grandfather. Oh, never too old. | Speaker B (grandfather): It's true. Good work, Nana.",
+            "target": "Target (granddaughter): Hey grandfather, people are saying you're cute. Don't make him blush.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandfather): It's true. Good work, Nana. | Speaker B (granddaughter): Hey grandfather, people are saying you're cute. Don't make him blush.",
+            "target": "Target (grandfather): They don't know me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (granddaughter): Hey grandfather, people are saying you're cute. Don't make him blush. | Speaker B (grandfather): They don't know me.",
+            "target": "Target (granddaughter): He's a handsome looking guy, isn't he? He's the nicest grandfather.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandfather): They don't know me. | Speaker B (granddaughter): He's a handsome looking guy, isn't he? He's the nicest grandfather.",
+            "target": "Target (grandfather): Yeah, I'm great.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): He's a handsome looking guy, isn't he? He's the nicest grandfather. | Speaker B (grandfather): Yeah, I'm great.",
+            "target": "Target (grandfather): I'm great.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandfather): Yeah, I'm great. | Speaker B (grandfather): I'm great.",
+            "target": "Target (grandfather): I got all my teeth.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandfather): I'm great. | Speaker B (grandfather): I got all my teeth.",
+            "target": "Target (granddaughter): He had one of his teeth pulled the other day.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandfather): I got all my teeth. | Speaker B (granddaughter): He had one of his teeth pulled the other day.",
+            "target": "Target (grandfather): Oh, that's great.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (granddaughter): He had one of his teeth pulled the other day. | Speaker B (grandfather): Oh, that's great.",
+            "target": "Target (grandfather): Megan Morris, I don't know who that is.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandfather): Oh, that's great. | Speaker B (grandfather): Megan Morris, I don't know who that is.",
+            "target": "Target (grandfather): Well dressed.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandfather): Megan Morris, I don't know who that is. | Speaker B (grandfather): Well dressed.",
+            "target": "Target (grandfather): He's well dressed.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandfather): Well dressed. | Speaker B (grandfather): He's well dressed.",
+            "target": "Target (granddaughter): He's a dapper dude.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandfather): He's well dressed. | Speaker B (granddaughter): He's a dapper dude.",
+            "target": "Target (grandfather): So true.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): He's a dapper dude. | Speaker B (grandfather): So true.",
+            "target": "Target (grandfather): Hello, Virginia. That's it. He likes your swag comment. Yeah, great weather, great weather. Where are you? grandfather. Oh yeah, yeah, I got good jeans. That's great. That's granddaughter number 1 next to me. How many grandkids do you have now? I have 14 grandchildren now. Babe, they're saying that you're pretty. Oh, stop it. That's my wife right there. She's beautiful. She's a gorgeous lady. Scanning rain buckets here. I asked him what it was. Hi, Toronto. Because it's so cold. Oh, poor kids in Connecticut. All right, it's sunny in the desert.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandfather): So true. | Speaker B (grandfather): Hello, Virginia. That's it. He likes your swag comment. Yeah, great weather, great weather. Where are you? grandfather. Oh yeah, yeah, I got good jeans. That's great. That's granddaughter number 1 next to me. How many grandkids do you have now? I have 14 grandchildren now. Babe, they're saying that you're pretty. Oh, stop it. That's my wife right there. She's beautiful. She's a gorgeous lady. Scanning rain buckets here. I asked him what it was. Hi, Toronto. Because it's so cold. Oh, poor kids in Connecticut. All right, it's sunny in the desert.",
+            "target": "Target (grandfather): Isn't that amazing? Look, 43 people are watching.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandfather): Hello, Virginia. That's it. He likes your swag comment. Yeah, great weather, great weather. Where are you? grandfather. Oh yeah, yeah, I got good jeans. That's great. That's granddaughter number 1 next to me. How many grandkids do you have now? I have 14 grandchildren now. Babe, they're saying that you're pretty. Oh, stop it. That's my wife right there. She's beautiful. She's a gorgeous lady. Scanning rain buckets here. I asked him what it was. Hi, Toronto. Because it's so cold. Oh, poor kids in Connecticut. All right, it's sunny in the desert. | Speaker B (grandfather): Isn't that amazing? Look, 43 people are watching.",
+            "target": "Target (granddaughter): Yeah, so he's right in the desert. So grandfather got Snapchat today, he got Periscope. What is he missing? Yeah, where else are you at? Periscope. What is he missing? Oh, nice view, huh? Why is that Chevy truck here? What year? '74. It's a '74. That's my father's. That's my son-in-law's.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandfather): Isn't that amazing? Look, 43 people are watching. | Speaker B (granddaughter): Yeah, so he's right in the desert. So grandfather got Snapchat today, he got Periscope. What is he missing? Yeah, where else are you at? Periscope. What is he missing? Oh, nice view, huh? Why is that Chevy truck here? What year? '74. It's a '74. That's my father's. That's my son-in-law's.",
+            "target": "Target (grandfather): grandfather, what personality traits would you like to pass on to younger generations, and which one's winning?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): Yeah, so he's right in the desert. So grandfather got Snapchat today, he got Periscope. What is he missing? Yeah, where else are you at? Periscope. What is he missing? Oh, nice view, huh? Why is that Chevy truck here? What year? '74. It's a '74. That's my father's. That's my son-in-law's. | Speaker B (grandfather): grandfather, what personality traits would you like to pass on to younger generations, and which one's winning?",
+            "target": "Target (granddaughter): grandfather, what personality traits would you like to pass on to future generations? Friendliness. What's the key to living a happy life? Future generations. Talking to everybody you can.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandfather): grandfather, what personality traits would you like to pass on to younger generations, and which one's winning? | Speaker B (granddaughter): grandfather, what personality traits would you like to pass on to future generations? Friendliness. What's the key to living a happy life? Future generations. Talking to everybody you can.",
+            "target": "Target (grandfather): Living a happy life. That's true. Future generations. Talking to everybody you can. 43 at once, preferably.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): grandfather, what personality traits would you like to pass on to future generations? Friendliness. What's the key to living a happy life? Future generations. Talking to everybody you can. | Speaker B (grandfather): Living a happy life. That's true. Future generations. Talking to everybody you can. 43 at once, preferably.",
+            "target": "Target (granddaughter): Yes, 43 at once. All of you at once. 78.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandfather): Living a happy life. That's true. Future generations. Talking to everybody you can. 43 at once, preferably. | Speaker B (granddaughter): Yes, 43 at once. All of you at once. 78.",
+            "target": "Target (grandfather): All of you at once. Now you can talk to everyone in the world.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (granddaughter): Yes, 43 at once. All of you at once. 78. | Speaker B (grandfather): All of you at once. Now you can talk to everyone in the world.",
+            "target": "Target (granddaughter): grandfather, how old are you? He's 78, going on 25. How old are you?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandfather): All of you at once. Now you can talk to everyone in the world. | Speaker B (granddaughter): grandfather, how old are you? He's 78, going on 25. How old are you?",
+            "target": "Target (grandfather): 78. And someone said they weren't talking about me being sexy, they were talking about you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): grandfather, how old are you? He's 78, going on 25. How old are you? | Speaker B (grandfather): 78. And someone said they weren't talking about me being sexy, they were talking about you.",
+            "target": "Target (granddaughter): Yeah, grandfather is a good-looking dude. Whoa, grandfather, someone's—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandfather): 78. And someone said they weren't talking about me being sexy, they were talking about you. | Speaker B (granddaughter): Yeah, grandfather is a good-looking dude. Whoa, grandfather, someone's—",
+            "target": "Target (grandfather): there's some hearts, there's some hearts for you.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (granddaughter): Yeah, grandfather is a good-looking dude. Whoa, grandfather, someone's— | Speaker B (grandfather): there's some hearts, there's some hearts for you.",
+            "target": "Target (granddaughter): Here, wave at the camera, grandfather. Hey, we're gonna teach grandfather some other platforms. Yeah, thanks. We'll come on later on.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandfather): there's some hearts, there's some hearts for you. | Speaker B (granddaughter): Here, wave at the camera, grandfather. Hey, we're gonna teach grandfather some other platforms. Yeah, thanks. We'll come on later on.",
+            "target": "Target (grandfather): Follow us.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (granddaughter): Here, wave at the camera, grandfather. Hey, we're gonna teach grandfather some other platforms. Yeah, thanks. We'll come on later on. | Speaker B (grandfather): Follow us.",
+            "target": "Target (granddaughter): We're gonna teach grandfather some other platforms.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandfather): Follow us. | Speaker B (granddaughter): We're gonna teach grandfather some other platforms.",
+            "target": "Target (grandfather): Wild Stallion.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (granddaughter): We're gonna teach grandfather some other platforms. | Speaker B (grandfather): Wild Stallion.",
+            "target": "Target (granddaughter): Oh God, we're gonna give him Instagram next.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandfather): Wild Stallion. | Speaker B (granddaughter): Oh God, we're gonna give him Instagram next.",
+            "target": "Target (grandfather): Nope. Later, dude. No, you guys are fun.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (granddaughter): Oh God, we're gonna give him Instagram next. | Speaker B (grandfather): Nope. Later, dude. No, you guys are fun.",
+            "target": "Target (granddaughter): Oh, grandfather's a single dude. He's available. Is that grandfather's wife?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandfather): Nope. Later, dude. No, you guys are fun. | Speaker B (granddaughter): Oh, grandfather's a single dude. He's available. Is that grandfather's wife?",
+            "target": "Target (grandfather): Hey, hey, something like that. Granddaughter, grandfather.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (granddaughter): Oh, grandfather's a single dude. He's available. Is that grandfather's wife? | Speaker B (grandfather): Hey, hey, something like that. Granddaughter, grandfather.",
+            "target": "Target (granddaughter): Yeah, are we late? Something like that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandfather): Hey, hey, something like that. Granddaughter, grandfather. | Speaker B (granddaughter): Yeah, are we late? Something like that.",
+            "target": "Target (grandfather): Granddaughter, grandfather.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (granddaughter): Yeah, are we late? Something like that. | Speaker B (grandfather): Granddaughter, grandfather.",
+            "target": "Target (granddaughter): All right everyone, thank you for joining us. Hi from London, bye Shelly. Katie baby.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): Granddaughter, grandfather. | Speaker B (granddaughter): All right everyone, thank you for joining us. Hi from London, bye Shelly. Katie baby.",
+            "target": "Target (grandfather): Thank you for joining us. Have a good day. Later, haters. Oh yeah, grandfather's a good-looking dude. He keeps healthy. Brazil. Oh yeah, grandfather's a good-looking dude. Yeah, we'll show more of grandfather later on. Okay. All right, have a great day, everybody. Say bye to everyone, grandfather.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (granddaughter): All right everyone, thank you for joining us. Hi from London, bye Shelly. Katie baby. | Speaker B (grandfather): Thank you for joining us. Have a good day. Later, haters. Oh yeah, grandfather's a good-looking dude. He keeps healthy. Brazil. Oh yeah, grandfather's a good-looking dude. Yeah, we'll show more of grandfather later on. Okay. All right, have a great day, everybody. Say bye to everyone, grandfather.",
+            "target": "Target (granddaughter): Bye, world.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandfather): Thank you for joining us. Have a good day. Later, haters. Oh yeah, grandfather's a good-looking dude. He keeps healthy. Brazil. Oh yeah, grandfather's a good-looking dude. Yeah, we'll show more of grandfather later on. Okay. All right, have a great day, everybody. Say bye to everyone, grandfather. | Speaker B (granddaughter): Bye, world.",
+            "target": "Target (granddaughter): Bye, world. Chat me back. Love you guys.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

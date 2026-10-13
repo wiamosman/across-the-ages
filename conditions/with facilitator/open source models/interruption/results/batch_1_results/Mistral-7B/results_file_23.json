@@ -1,0 +1,762 @@
+[
+  {
+    "index": 0,
+    "context": "CONVERSATION HISTORY: No prior context (Start of dialogue).",
+    "target": "Speaker A (grandmother) (Target): Hello dear, how have you been? It's always so nice to catch up with you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Hello dear, how have you been? It's always so nice to catch up with you.\n- Emotion: joy\n- Intent: greet\n- Dialogue Act: greeting\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Hi Grandma! I've been doing well, thank you. It's great to catch up with you too. How have you been?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Hi Grandma! I've been doing well, thank you. It's great to catch up with you too. How have you been?\n- Emotion: happy\n- Intent: greet\n- Dialogue Act: greeting\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that! Have you been up to anything exciting lately?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear that! Have you been up to anything exciting lately?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Well, I've been busy with my studies, but I did go to a fun concert last weekend! How about you, have you done anything exciting?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Well, I've been busy with my studies, but I did go to a fun concert last weekend! How about you, have you done anything exciting?\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's wonderful! Is there anything in particular you'd like to share with me? I always love hearing about your adventures.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's wonderful! Is there anything in particular you'd like to share with me? I always love hearing about your adventures.\n- Emotion: joy\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! Well, at the concert, I got to see one of my favorite bands live, and it was such an amazing experience. I also met some new friends there. What about you? Have you been working on any new knitting projects or maybe gardening?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! Well, at the concert, I got to see one of my favorite bands live, and it was such an amazing experience. I also met some new friends there. What about you? Have you been working on any new knitting projects or maybe gardening?\n- Emotion: excited\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, that sounds lovely! Pumpkins are such a joy to grow, especially when they start turning orange. Are you planning to carve them for Halloween or maybe make some delicious pumpkin pie?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, that sounds lovely! Pumpkins are such a joy to grow, especially when they start turning orange. Are you planning to carve them for Halloween or maybe make some delicious pumpkin pie?\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I haven't decided yet, but both carving and making pie sound like fun ideas! Maybe I could try both. Do you have any special pumpkin pie recipes you could share with me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I haven't decided yet, but both carving and making pie sound like fun ideas! Maybe I could try both. Do you have any special pumpkin pie recipes you could share with me?\n- Emotion: happy\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm so glad to hear that, dear! Pumpkins can bring so much joy, especially during this time of year. Do you need any help or tips on how to make the most out of your pumpkin harvest?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm so glad to hear that, dear! Pumpkins can bring so much joy, especially during this time of year. Do you need any help or tips on how to make the most out of your pumpkin harvest?\n- Emotion: joy\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's wonderful that you love it! If you ever want to try a new recipe or need any gardening tips, just let me know. I'm always here to help!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none"
+  },
+  {
+    "index": 10,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's wonderful that you love it! If you ever want to try a new recipe or need any gardening tips, just let me know. I'm always here to help!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you so much, Grandma! I would love to try your pumpkin pie recipe. And if you have any tips on carving, that would be awesome too!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you so much, Grandma! I would love to try your pumpkin pie recipe. And if you have any tips on carving, that would be awesome too!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: acknowledge\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, how lovely! Knitting a scarf sounds like such a cozy project, especially as the weather gets cooler. What color are you using? I'd love to hear more about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, how lovely! Knitting a scarf sounds like such a cozy project, especially as the weather gets cooler. What color are you using? I'd love to hear more about it.\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I'm using a deep burgundy color for the scarf. It's such a rich and warm color, perfect for fall! Do you have any favorite knitting patterns you think I should try?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I'm using a deep burgundy color for the scarf. It's such a rich and warm color, perfect for fall! Do you have any favorite knitting patterns you think I should try?\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's wonderful! Knitting can be so relaxing and rewarding. If you need any tips or patterns, I'd be happy to share some with you. What kind of yarn are you using?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's wonderful! Knitting can be so relaxing and rewarding. If you need any tips or patterns, I'd be happy to share some with you. What kind of yarn are you using?\n- Emotion: happy\n- Intent: advise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I'm using a soft wool blend yarn. It's really nice to work with and feels great against the skin. I'd love to see any patterns you recommend!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I'm using a soft wool blend yarn. It's really nice to work with and feels great against the skin. I'd love to see any patterns you recommend!\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you're enjoying it, dear! Knitting can be such a wonderful way to express creativity. If you ever want to share your progress or need any advice, I'm here for you. How is the scarf coming along?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you're enjoying it, dear! Knitting can be such a wonderful way to express creativity. If you ever want to share your progress or need any advice, I'm here for you. How is the scarf coming along?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! The scarf is coming along nicely. I really appreciate your support and would love to show you my progress soon. Do you have a favorite pattern that you think would be fun to try next?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! The scarf is coming along nicely. I really appreciate your support and would love to show you my progress soon. Do you have a favorite pattern that you think would be fun to try next?\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear you're making progress! If you ever feel like sharing a picture of your scarf, I'd love to see it. It's always exciting to see how a project comes together!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear you're making progress! If you ever feel like sharing a picture of your scarf, I'd love to see it. It's always exciting to see how a project comes together!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I'll definitely send you a picture soon, Grandma! It's so motivating to have your encouragement. Do you have any tips for adding a fringe to the scarf?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I'll definitely send you a picture soon, Grandma! It's so motivating to have your encouragement. Do you have any tips for adding a fringe to the scarf?\n- Emotion: happy\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's such a wonderful story, dear! It's amazing how our fingers can remember things like that. I'm so proud of you for picking it back up again. If you ever want to learn new techniques or patterns, I'd be delighted to help. Do you have any new projects in mind after the scarf?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's response is not an"
+  },
+  {
+    "index": 20,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's such a wonderful story, dear! It's amazing how our fingers can remember things like that. I'm so proud of you for picking it back up again. If you ever want to learn new techniques or patterns, I'd be delighted to help. Do you have any new projects in mind after the scarf?\n- Emotion: joy\n- Intent: praise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's wonderful to hear how your love for knitting has grown over the years. It's like riding a bike, isn't it? Once you learn, you never really forget. I'm curious to know what you plan to knit next. Maybe a hat or a cozy blanket?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's wonderful to hear how your love for knitting has grown over the years. It's like riding a bike, isn't it? Once you learn, you never really forget. I'm curious to know what you plan to knit next. Maybe a hat or a cozy blanket?\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma! I was thinking of trying a hat next, actually. Your support means a lot to me. Do you have any favorite patterns or yarns you recommend for a beginner hat?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target was not interrupted in the"
+  },
+  {
+    "index": 22,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma! I was thinking of trying a hat next, actually. Your support means a lot to me. Do you have any favorite patterns or yarns you recommend for a beginner hat?\n- Emotion: happy\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): That's perfectly okay, dear! Sometimes it's nice to just focus on one project at a time. If you ever feel inspired to try something new, I'm here to brainstorm ideas with you. How is your day going otherwise?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: That's perfectly okay, dear! Sometimes it's nice to just focus on one project at a time. If you ever feel inspired to try something new, I'm here to brainstorm ideas with you. How is your day going otherwise?\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! My day is going well, just a bit busy with work and all. I really appreciate your offer to help with brainstorming new ideas. Maybe we can chat more about it over the weekend?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! My day is going well, just a bit busy with work and all. I really appreciate your offer to help with brainstorming new ideas. Maybe we can chat more about it over the weekend?\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh dear, it sounds like something might be bothering you. I'm here to listen if you want to share more about what's on your mind. Sometimes talking things through can help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh dear, it sounds like something might be bothering you. I'm here to listen if you want to share more about what's on your mind. Sometimes talking things through can help.\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you, Grandma. It's just the usual work stress, but I really appreciate your offer to listen. It helps to know you're there for me. Maybe we can have a nice chat about it when things are less hectic?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you, Grandma. It's just the usual work stress, but I really appreciate your offer to listen. It helps to know you're there for me. Maybe we can have a nice chat about it when things are less hectic?\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, I see! Sometimes doing things in reverse can be a fun way to mix things up. If you ever need any help or just want to chat, I'm always here for you. Is there anything else you'd like to talk about or share?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, I see! Sometimes doing things in reverse can be a fun way to mix things up. If you ever need any help or just want to chat, I'm always here for you. Is there anything else you'd like to talk about or share?\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I really appreciate your support. I think a chat over the weekend would be perfect. Maybe we can also talk about your week? I'd love to hear how you've been doing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I really appreciate your support. I think a chat over the weekend would be perfect. Maybe we can also talk about your week? I'd love to hear how you've been doing.\n- Emotion: happy\n- Intent: arrange\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Alright, dear. If there's ever anything you want to talk about or need help with, just let me know. I'm always here for you. How about we plan to do something fun together soon?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Alright, dear. If there's ever anything you want to talk about or need help with, just let me know. I'm always here for you. How about we plan to do something fun together soon?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): That sounds like a great idea, Grandma! Maybe we can go for a walk in the park or try a new recipe together. Let me know what you'd prefer!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: That sounds like a great idea, Grandma! Maybe we can go for a walk in the park or try a new recipe together. Let me know what you'd prefer!\n- Emotion: excited\n- Intent: plan\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that! Maybe we can think of something special to do together. Do you have any ideas in mind, or would you like me to suggest a few options?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's turn does not involve"
+  },
+  {
+    "index": 31,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear that! Maybe we can think of something special to do together. Do you have any ideas in mind, or would you like me to suggest a few options?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Take your time to think about it, dear. We can plan something that you'll enjoy. Whether it's a cozy day at home or an outing, I'm sure we'll have a wonderful time together. Just let me know when you're ready to decide.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Take your time to think about it, dear. We can plan something that you'll enjoy. Whether it's a cozy day at home or an outing, I'm sure we'll have a wonderful time together. Just let me know when you're ready to decide.\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Whenever you feel like sharing your thoughts or ideas, I'm here to listen. And remember, no rush at all. We can take our time to plan something that you'll truly enjoy. How about we start with something simple, like a movie night or baking together?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's turn is a response"
+  },
+  {
+    "index": 33,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Whenever you feel like sharing your thoughts or ideas, I'm here to listen. And remember, no rush at all. We can take our time to plan something that you'll truly enjoy. How about we start with something simple, like a movie night or baking together?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I love the idea of a movie night or baking together. Maybe we can bake some cookies and watch a classic film. What do you think?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I love the idea of a movie night or baking together. Maybe we can bake some cookies and watch a classic film. What do you think?\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh my, it sounds like something caught your attention! Is there anything exciting happening, or did something surprise you? I'm curious to know what's on your mind.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 35,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh my, it sounds like something caught your attention! Is there anything exciting happening, or did something surprise you? I'm curious to know what's on your mind.\n- Emotion: surprise\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I hope it's something good that surprised you! If you want to share, I'm all ears. And if it's something you'd like to keep to yourself, that's perfectly fine too. Just know I'm here for you, dear.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I hope it's something good that surprised you! If you want to share, I'm all ears. And if it's something you'd like to keep to yourself, that's perfectly fine too. Just know I'm here for you, dear.\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I see you're surprised, dear! If there's anything you'd like to talk about or share, I'm here to listen. Whether it's something exciting or just a little unexpected, I'm interested in hearing all about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 37,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I see you're surprised, dear! If there's anything you'd like to talk about or share, I'm here to listen. Whether it's something exciting or just a little unexpected, I'm interested in hearing all about it.\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks for being so supportive, Grandma! I was just thinking about how much fun we could have with our movie night and baking. Maybe we can make it a regular thing if it goes well!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 38,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks for being so supportive, Grandma! I was just thinking about how much fun we could have with our movie night and baking. Maybe we can make it a regular thing if it goes well!\n- Emotion: happy\n- Intent: plan\n- Dialogue Act: statement-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, I see you're counting something! Is it part of a game or something you're working on? I'm curious to know more about it, if you'd like to share.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 39,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, I see you're counting something! Is it part of a game or something you're working on? I'm curious to know more about it, if you'd like to share.\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Counting can be quite fun! Are you working on a project or just playing around with numbers? Whatever it is, I'm here to help if you need anything or just want to chat about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's response is not an"
+  },
+  {
+    "index": 40,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Counting can be quite fun! Are you working on a project or just playing around with numbers? Whatever it is, I'm here to help if you need anything or just want to chat about it.\n- Emotion: happy\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're keeping track of something interesting! If you feel like sharing what those numbers mean, I'd love to hear about it. And if it's just a fun little thing you're doing, that's wonderful too!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 41,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It sounds like you're keeping track of something interesting! If you feel like sharing what those numbers mean, I'd love to hear about it. And if it's just a fun little thing you're doing, that's wonderful too!\n- Emotion: happy\n- Intent: care\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I'm just counting the number of steps I take each day. It's part of a fitness app challenge I'm doing. It's kind of fun to see how much I walk without even realizing it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 42,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I'm just counting the number of steps I take each day. It's part of a fitness app challenge I'm doing. It's kind of fun to see how much I walk without even realizing it!\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, Gilmore Girls! That's a lovely show. I remember watching it a while back. It's full of interesting characters and stories. Are you enjoying it? I'd love to hear what you think about it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's utterance does not"
+  },
+  {
+    "index": 43,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, Gilmore Girls! That's a lovely show. I remember watching it a while back. It's full of interesting characters and stories. Are you enjoying it? I'd love to hear what you think about it!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's wonderful to hear you're enjoying Gilmore Girls! It's such a charming show with lots of heartwarming moments. Do you have a favorite character or episode so far? I'm curious to hear your thoughts!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: Since Speaker A is the grandmother and"
+  },
+  {
+    "index": 44,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's wonderful to hear you're enjoying Gilmore Girls! It's such a charming show with lots of heartwarming moments. Do you have a favorite character or episode so far? I'm curious to hear your thoughts!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Gilmore Girls has such a special place in many people's hearts. I remember how much I enjoyed the relationship between Lorelai and Rory. It's wonderful that you're watching it too! Is there a particular scene or storyline that has caught your attention?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 45,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Gilmore Girls has such a special place in many people's hearts. I remember how much I enjoyed the relationship between Lorelai and Rory. It's wonderful that you're watching it too! Is there a particular scene or storyline that has caught your attention?\n- Emotion: joy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm so glad you're watching Gilmore Girls! It's such a delightful show. I remember how much I enjoyed the witty banter and the close-knit relationships. If you ever want to chat about the episodes or characters, I'm all ears!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm so glad you're watching Gilmore Girls! It's such a delightful show. I remember how much I enjoyed the witty banter and the close-knit relationships. If you ever want to chat about the episodes or characters, I'm all ears!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's great to hear you're enjoying Gilmore Girls! It's such a delightful show with so many memorable moments. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 47,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's great to hear you're enjoying Gilmore Girls! It's such a delightful show with so many memorable moments. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's wonderful that you're enjoying Gilmore Girls! I remember how much I loved the dynamic between Lorelai and Rory. If you have any favorite scenes or quotes, I'd love to hear about them. It's always fun to share thoughts on such a charming show!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 48,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's wonderful that you're enjoying Gilmore Girls! I remember how much I loved the dynamic between Lorelai and Rory. If you have any favorite scenes or quotes, I'd love to hear about them. It's always fun to share thoughts on such a charming show!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're really enjoying Gilmore Girls! It's such a lovely show with so many memorable moments. If you ever want to share your thoughts or favorite scenes, I'm here to listen. It's always fun to chat about shows we love!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(This turn is a cooperative agreement as it shows"
+  },
+  {
+    "index": 49,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It sounds like you're really enjoying Gilmore Girls! It's such a lovely show with so many memorable moments. If you ever want to share your thoughts or favorite scenes, I'm here to listen. It's always fun to chat about shows we love!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm so glad you're enjoying Gilmore Girls! It's such a delightful show. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 50,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm so glad you're enjoying Gilmore Girls! It's such a delightful show. If you ever want to chat about the episodes or characters, I'm all ears! Do you have any favorite scenes or quotes that stand out to you?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandma! I really love the witty banter between Lorelai and Rory. One of my favorite scenes is when they have their Friday night dinners with Emily. It's always so entertaining! Do you have a favorite character?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 51,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thanks, Grandma! I really love the witty banter between Lorelai and Rory. One of my favorite scenes is when they have their Friday night dinners with Emily. It's always so entertaining! Do you have a favorite character?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh dear, I guess I got a bit carried away with my questions! I just love hearing about your thoughts on the show. If there's anything specific you'd like to share or talk about, I'm here to listen!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 52,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh dear, I guess I got a bit carried away with my questions! I just love hearing about your thoughts on the show. If there's anything specific you'd like to share or talk about, I'm here to listen!\n- Emotion: neutral\n- Intent: apologize\n- Dialogue Act: apology\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): No worries, Grandma! I love talking about it with you. I think my favorite character might be Lorelai because she's so independent and funny. Who's yours?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 53,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: No worries, Grandma! I love talking about it with you. I think my favorite character might be Lorelai because she's so independent and funny. Who's yours?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): I'm glad you enjoy hearing my thoughts! I really appreciate that. So, who's your favorite character in the show? I'm curious to know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: I'm glad you enjoy hearing my thoughts! I really appreciate that. So, who's your favorite character in the show? I'm curious to know!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad you're enjoying our chat! Gilmore Girls is such a fun show to talk about. If there's anything else you'd like to discuss or share, I'm all ears. It's always nice to hear your thoughts!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 55,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad you're enjoying our chat! Gilmore Girls is such a fun show to talk about. If there's anything else you'd like to discuss or share, I'm all ears. It's always nice to hear your thoughts!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It's lovely to see you enjoying our conversation! If you have any other shows or topics you're interested in, feel free to share. I'm always here to chat and learn about what you love!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 56,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It's lovely to see you enjoying our conversation! If you have any other shows or topics you're interested in, feel free to share. I'm always here to chat and learn about what you love!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm really enjoying our conversation too! If you ever want to dive into another show or topic, just let me know. It's always a pleasure to hear what you're interested in!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 57,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm really enjoying our conversation too! If you ever want to dive into another show or topic, just let me know. It's always a pleasure to hear what you're interested in!\n- Emotion: happy\n- Intent: comfort\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you! I love chatting with you too. How about we talk about something new? Have you watched any good movies lately?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you! I love chatting with you too. How about we talk about something new? Have you watched any good movies lately?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh, I'm sorry if I misunderstood! It seems like I might have lost track. Could you help me clarify what you meant by five and four? I'm here to listen and understand.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh, I'm sorry if I misunderstood! It seems like I might have lost track. Could you help me clarify what you meant by five and four? I'm here to listen and understand.\n- Emotion: frustrated\n- Intent: confirm\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, no worries! I think there might have been a mix-up. I was just asking if you've seen any good movies recently. I'd love to hear your recommendations!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, no worries! I think there might have been a mix-up. I was just asking if you've seen any good movies recently. I'd love to hear your recommendations!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Thank you for clarifying, dear. I appreciate you helping me keep track. If there's anything else you'd like to discuss or if you have any questions, feel free to let me know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Thank you for clarifying, dear. I appreciate you helping me keep track. If there's anything else you'd like to discuss or if you have any questions, feel free to let me know!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: acknowledge\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Of course! I'm always happy to chat with you. So, have you seen any movies lately that you enjoyed? Or maybe there's something else you'd like to talk about?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 62,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Of course! I'm always happy to chat with you. So, have you seen any movies lately that you enjoyed? Or maybe there's something else you'd like to talk about?\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Oh dear, it sounds like something might be bothering you. Is there anything specific that's making you feel frustrated? I'm here to listen and help if I can.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's response is not an interruption as"
+  },
+  {
+    "index": 63,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Oh dear, it sounds like something might be bothering you. Is there anything specific that's making you feel frustrated? I'm here to listen and help if I can.\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I'm not frustrated at all! I was just curious about your movie recommendations. But thank you for checking in, it means a lot to me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 64,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I'm not frustrated at all! I was just curious about your movie recommendations. But thank you for checking in, it means a lot to me.\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I understand, dear. It sounds like something is uncomfortable for you. Is it something you're wearing or perhaps a situation you're in? Let me know if there's anything I can do to help or if you just need to talk about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandmother's turn is not an intervention as she"
+  },
+  {
+    "index": 65,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I understand, dear. It sounds like something is uncomfortable for you. Is it something you're wearing or perhaps a situation you're in? Let me know if there's anything I can do to help or if you just need to talk about it.\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you for being so caring, Grandma! I'm really okay, just interested in hearing about any good movies you've seen. I promise I'm all ears for your recommendations!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 66,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Thank you for being so caring, Grandma! I'm really okay, just interested in hearing about any good movies you've seen. I promise I'm all ears for your recommendations!\n- Emotion: happy\n- Intent: thank\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Ah, I see you're listing numbers. Are you working on something related to math or maybe a pattern? I'm curious to learn more about what you're doing!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 67,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Ah, I see you're listing numbers. Are you working on something related to math or maybe a pattern? I'm curious to learn more about what you're doing!\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I wasn't listing numbers, Grandma! I was just eager to hear about your movie picks. But I'd love to share what I'm working on if you're interested!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I wasn't listing numbers, Grandma! I was just eager to hear about your movie picks. But I'd love to share what I'm working on if you're interested!\n- Emotion: happy\n- Intent: inform\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): It sounds like you're working with numbers. Are you trying to solve a problem or maybe playing a game? I'm interested in what you're doing and would love to hear more about it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: The target's utterance does not"
+  },
+  {
+    "index": 69,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: It sounds like you're working with numbers. Are you trying to solve a problem or maybe playing a game? I'm interested in what you're doing and would love to hear more about it.\n- Emotion: neutral\n- Intent: care\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Actually, I'm not working with numbers at all, Grandma! I was just really excited to hear about your movie recommendations. But I can tell you about my project if you're curious. It's more about designing than numbers.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Actually, I'm not working with numbers at all, Grandma! I was just really excited to hear about your movie recommendations. But I can tell you about my project if you're curious. It's more about designing than numbers.\n- Emotion: happy\n- Intent: explain\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): Hmm, it seems like you're sharing numbers with me. Are you working on a sequence or maybe counting something specific? I'm here to help if you need any assistance or just want to chat about what you're doing!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 71,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: Hmm, it seems like you're sharing numbers with me. Are you working on a sequence or maybe counting something specific? I'm here to help if you need any assistance or just want to chat about what you're doing!\n- Emotion: neutral\n- Intent: ask for help\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I see where the confusion might be coming from! I'm actually working on a design project, not numbers. But I'd love to hear your thoughts on it or any movie recommendations you have!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 72,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I see where the confusion might be coming from! I'm actually working on a design project, not numbers. But I'd love to hear your thoughts on it or any movie recommendations you have!\n- Emotion: happy\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I see you've mentioned the number 4 a few times now. Is there a particular reason you're focusing on this number? Maybe it's part of a game or a puzzle you're working on? I'm here if you want to share more about it!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 73,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I see you've mentioned the number 4 a few times now. Is there a particular reason you're focusing on this number? Maybe it's part of a game or a puzzle you're working on? I'm here if you want to share more about it!\n- Emotion: neutral\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Oh, I think there might be a misunderstanding! I haven't been focusing on the number 4 at all. My project is more about creating visual designs. But I'm really interested in hearing your movie recommendations. What have you been watching lately?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 74,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: granddaughter\n- Text: Oh, I think there might be a misunderstanding! I haven't been focusing on the number 4 at all. My project is more about creating visual designs. But I'm really interested in hearing your movie recommendations. What have you been watching lately?\n- Emotion: frustrated\n- Intent: asking for opinions\n- Dialogue Act: question\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (grandmother) (Target): I'm glad to hear that! It sounds like you're on the right track. If you have any questions or need help, feel free to ask. I'm always here to support you!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 75,
+    "context": "PREVIOUS TURN CONTEXT:\n- Speaker: grandmother\n- Text: I'm glad to hear that! It sounds like you're on the right track. If you have any questions or need help, feel free to ask. I'm always here to support you!\n- Emotion: happy\n- Intent: praise\n- Dialogue Act: statement-non-opinion\n- Generation Gap: none\n- Interruption Role: none\n- Interruption Type: none",
+    "target": "Speaker A (granddaughter) (Target): Thank you so much for your support, Grandma! It means a lot to me. I actually do have a question about color combinations. Do you have any favorite color pairings that you think work well together?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

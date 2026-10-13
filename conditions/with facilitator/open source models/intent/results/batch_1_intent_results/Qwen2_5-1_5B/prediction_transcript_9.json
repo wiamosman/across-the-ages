@@ -1,0 +1,83 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "file_index": 9,
+  "utterances": [
+    {
+      "text": "Hello, my dear! How have you been lately?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet",
+      "status": "CORRECT"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+      "golden": "greet",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Is there anything exciting happening in your life these days? I'd love to hear all about it!",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Well, I've been working on a really cool science project about renewable energy. It's been a lot of fun and I'm learning so much! What about you, Grandma? Any new hobbies or projects?",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "It sounds like you might be a bit busy or distracted. If there's anything you'd like to share or talk about, I'm here to listen whenever you're ready.",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I appreciate that. I'm really excited about this project, and it's been keeping me on my toes. How about you? Have you picked up any new hobbies or projects lately?",
+      "golden": "thank",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Alright, dear. If you need a moment, that's perfectly fine. I'm here whenever you want to chat more. Just let me know!",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your patience. I'm actually not too busy to chat right now. I was just curious about what you've been up to lately. Anything new or interesting?",
+      "golden": "thank",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I see, dear. It sounds like you might be using some new expressions I'm not familiar with. If you want to share more about what you mean, I'm all ears!",
+      "golden": "doubt",
+      "predicted": "explain",
+      "raw": "explain",
+      "status": "WRONG"
+    },
+    {
+      "text": "Oh, sorry if I used any confusing expressions, Grandma! I just meant to ask if you've been up to anything new or fun recently. I'd love to hear about it!",
+      "golden": "apologize",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    },
+    {
+      "text": "I hope that clears things up! So, have you been working on any new projects or hobbies? I'd love to hear all about them.",
+      "golden": "explain",
+      "predicted": "ask for help",
+      "raw": "ask for help",
+      "status": "WRONG"
+    }
+  ]
+}

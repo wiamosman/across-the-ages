@@ -1,0 +1,183 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "file_index": 39,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Look at that grin. That grin, that looked like a— he grinned like a shit-eating possum. That's what he did. Possums like that shit. How's a shit-eating possum grin? Show me, show me. Slow down a little bit. The boy's driving, that's what he's doing. He's this— grandpa's teaching the boy to drive. That's right, nobody else would. That's what he told me, said nobody loves him but Grandpa.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Look at that grin. That grin, that looked like a— he grinned like a shit-eating possum. That's what he did. Possums like that shit. How's a shit-eating possum grin? Show me, show me. Slow down a little bit. The boy's driving, that's what he's doing. He's this— grandpa's teaching the boy to drive. That's right, nobody else would. That's what he told me, said nobody loves him but Grandpa.",
+            "target": "Target (grandson): No, that because I don't get my driving permit yet.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Look at that grin. That grin, that looked like a— he grinned like a shit-eating possum. That's what he did. Possums like that shit. How's a shit-eating possum grin? Show me, show me. Slow down a little bit. The boy's driving, that's what he's doing. He's this— grandpa's teaching the boy to drive. That's right, nobody else would. That's what he told me, said nobody loves him but Grandpa. | Speaker B (grandson): No, that because I don't get my driving permit yet.",
+            "target": "Target (grandfather): The problem with you kids today is you've got no patience for the rules. You all think you can just hop in a seat and go without learning the basics first. Always in a rush, just like the rest of your generation.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): No, that because I don't get my driving permit yet. | Speaker B (grandfather): The problem with you kids today is you've got no patience for the rules. You all think you can just hop in a seat and go without learning the basics first. Always in a rush, just like the rest of your generation.",
+            "target": "Target (grandson): That's not fair, Papa. I’m literally sitting here trying to learn from you right now. You don't have to group me in with 'everyone else' just because I'm young.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): The problem with you kids today is you've got no patience for the rules. You all think you can just hop in a seat and go without learning the basics first. Always in a rush, just like the rest of your generation. | Speaker B (grandson): That's not fair, Papa. I’m literally sitting here trying to learn from you right now. You don't have to group me in with 'everyone else' just because I'm young.",
+            "target": "Target (grandfather): Of course. Make this right-hand turn up here. Hope he does it, we don't die. That's what I'm concerned about. Look, there's Lance's restaurant, Rock-a-Land, right there. Make that turn. Come on, make a turn, make the turn, make the turn, make the turn. There you go, buddy. Straighten it out. There you go. Hey, he did good. Smile. Yeah, that stuff's good. Easy. Slow down on this curb. You'll slide off here. Slow down, please. Slow down. Okay, he did it without me doing all that. There we go.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): That's not fair, Papa. I’m literally sitting here trying to learn from you right now. You don't have to group me in with 'everyone else' just because I'm young. | Speaker B (grandfather): Of course. Make this right-hand turn up here. Hope he does it, we don't die. That's what I'm concerned about. Look, there's Lance's restaurant, Rock-a-Land, right there. Make that turn. Come on, make a turn, make the turn, make the turn, make the turn. There you go, buddy. Straighten it out. There you go. Hey, he did good. Smile. Yeah, that stuff's good. Easy. Slow down on this curb. You'll slide off here. Slow down, please. Slow down. Okay, he did it without me doing all that. There we go.",
+            "target": "Target (grandson): Am I scaring you, Papa?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Of course. Make this right-hand turn up here. Hope he does it, we don't die. That's what I'm concerned about. Look, there's Lance's restaurant, Rock-a-Land, right there. Make that turn. Come on, make a turn, make the turn, make the turn, make the turn. There you go, buddy. Straighten it out. There you go. Hey, he did good. Smile. Yeah, that stuff's good. Easy. Slow down on this curb. You'll slide off here. Slow down, please. Slow down. Okay, he did it without me doing all that. There we go. | Speaker B (grandson): Am I scaring you, Papa?",
+            "target": "Target (grandfather): Huh?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): Am I scaring you, Papa? | Speaker B (grandfather): Huh?",
+            "target": "Target (grandson): Am I scaring you?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): Huh? | Speaker B (grandson): Am I scaring you?",
+            "target": "Target (grandfather): A little bit, this way. All right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): Am I scaring you? | Speaker B (grandfather): A little bit, this way. All right.",
+            "target": "Target (grandson): Not doing too bad for my first time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): A little bit, this way. All right. | Speaker B (grandson): Not doing too bad for my first time.",
+            "target": "Target (grandfather): Your first time?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): Not doing too bad for my first time. | Speaker B (grandfather): Your first time?",
+            "target": "Target (grandson): One of them.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): Your first time? | Speaker B (grandson): One of them.",
+            "target": "Target (grandfather): One of your first? Either your first or it's not. First time driving this long, right? What else have you drove?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): One of them. | Speaker B (grandfather): One of your first? Either your first or it's not. First time driving this long, right? What else have you drove?",
+            "target": "Target (grandson): Truck and my friend Robbie's truck.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): One of your first? Either your first or it's not. First time driving this long, right? What else have you drove? | Speaker B (grandson): Truck and my friend Robbie's truck.",
+            "target": "Target (grandfather): A what?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): Truck and my friend Robbie's truck. | Speaker B (grandfather): A what?",
+            "target": "Target (grandson): My friend Robbie's truck.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): A what? | Speaker B (grandson): My friend Robbie's truck.",
+            "target": "Target (grandfather): Your friend Robbie's truck?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): My friend Robbie's truck. | Speaker B (grandfather): Your friend Robbie's truck?",
+            "target": "Target (grandson): My other friend, JJ's.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): Your friend Robbie's truck? | Speaker B (grandson): My other friend, JJ's.",
+            "target": "Target (grandfather): Easy, it's a little hard hitting those bumps with this priceless truck. Easy on the bumps. You all right? They don't show much mercy. Smile. Come on, you little possum, you. Yeah, now don't you put this in the ditch. A little bit that way and swing in.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): My other friend, JJ's. | Speaker B (grandfather): Easy, it's a little hard hitting those bumps with this priceless truck. Easy on the bumps. You all right? They don't show much mercy. Smile. Come on, you little possum, you. Yeah, now don't you put this in the ditch. A little bit that way and swing in.",
+            "target": "Target (grandson): Here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Easy, it's a little hard hitting those bumps with this priceless truck. Easy on the bumps. You all right? They don't show much mercy. Smile. Come on, you little possum, you. Yeah, now don't you put this in the ditch. A little bit that way and swing in. | Speaker B (grandson): Here?",
+            "target": "Target (grandfather): Yes, please. Park. Yeah, hit the brake. You're not— you got to pull that thing. You can't go too fast into that. Well, we made it, folks. We're live. We're live here in Cooksville, Oklahoma. We're still living. Still with the living. That's just uh, park it right here. I'll finish it. Okay. Huh? You go where? Turn! Stop, stop, stop! You okay?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): Here? | Speaker B (grandfather): Yes, please. Park. Yeah, hit the brake. You're not— you got to pull that thing. You can't go too fast into that. Well, we made it, folks. We're live. We're live here in Cooksville, Oklahoma. We're still living. Still with the living. That's just uh, park it right here. I'll finish it. Okay. Huh? You go where? Turn! Stop, stop, stop! You okay?",
+            "target": "Target (grandson): Sorry about that. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        }
+    ]
+}

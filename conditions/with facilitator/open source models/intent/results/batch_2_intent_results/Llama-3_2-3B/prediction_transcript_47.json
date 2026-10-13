@@ -1,0 +1,271 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 47,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I did play it. It's such a beautiful piece, don't you think?",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, it's really lovely! I wish I could play like you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "compliment"
+    },
+    {
+      "text": "Alright, I'll keep that in mind. It's always a bit tricky to adjust, but I'll give it my best shot.",
+      "golden": "acknowledge",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Thanks, Grandma! I know you'll do great. Let me know if you need any help.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thank you for explaining, dear. I'll focus on keeping the 'tick-tocks' even as I play.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm sure you'll master it in no time.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, dear, that would be helpful. Let's try it together.",
+      "golden": "confirm",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Great! I'm excited to help you with it. Let's start whenever you're ready.",
+      "golden": "arrange",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Tick-tock, tick-tock, I'm getting the hang of it! Thank you for your patience, dear.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad to hear that! You're doing amazing, keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, I see! I'll try to slow it down a bit. Thank you for pointing that out.",
+      "golden": "advise",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem at all! I'm here to help whenever you need.",
+      "golden": "acknowledge",
+      "predicted": "unknown",
+      "raw": "help"
+    },
+    {
+      "text": "Oh, did you need to get something? Let me know if you need any help.",
+      "golden": "ask for help",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma! I'm all set for now, but I'll definitely ask if I need anything.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, if you change your mind, I'm here to help. Just let me know.",
+      "golden": "advise",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate it. You're the best!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Alright, dear, I'll keep going. Let me know if I'm doing it right.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing great, Grandma! If you need any help, just ask.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "You're doing great with your rhythm! Let me know if you want to try something different.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I'm having so much fun with this.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, I see! So I should keep the tempo consistent throughout the song?",
+      "golden": "asking for opinions",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, keeping the tempo consistent is important. It helps the song flow better.",
+      "golden": "inform",
+      "predicted": "agree",
+      "raw": "agree"
+    },
+    {
+      "text": "Thank you for explaining that to me. I'll try to keep the tempo consistent and balance the notes as you said.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help. Let me know if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, I'll give it another try and count faster this time. Let's see how it goes!",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sounds great! I'm sure you'll do amazing. Just keep practicing and you'll get the hang of it.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, that makes perfect sense. Thank you for being so patient and explaining it to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome! I'm always here to help you out. Let me know if you have any more questions.",
+      "golden": "acknowledge",
+      "predicted": "unknown",
+      "raw": "help"
+    },
+    {
+      "text": "That's a great idea! I'll try saying the letter names while playing. Thank you for the tip!",
+      "golden": "plan",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you found it helpful! Let me know how it goes when you try it out.",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Alright, I'll focus on keeping the speed consistent and saying the letter names. Thank you for guiding me through this!",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing great! Keep it up and let me know if you need any more help.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Alright, I'll try to keep it slower and focus on playing the C chord with my left hand. Thank you for showing me how to do it!",
+      "golden": "plan",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm here if you need any more tips or have questions.",
+      "golden": "acknowledge",
+      "predicted": "unknown",
+      "raw": "help"
+    },
+    {
+      "text": "Thank you for explaining the C chord to me. I'll practice recognizing the notes and counting the tick-tocks as you suggested.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad to hear that! Keep practicing and you'll get even better.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Alright, let's give it a try. I'll focus on playing the C chord as you instructed.",
+      "golden": "plan",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Great! I'm sure you'll do amazing. Let me know if you need any more help.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Tick-tock, tick-tock, I'm getting the hang of it!",
+      "golden": "inform",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "That's awesome! You're really getting it. Keep going!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thank you, dear! I'm so glad I got it right. I'll keep practicing counting out loud.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "You're doing great! I'm here if you need anything else.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    }
+  ]
+}

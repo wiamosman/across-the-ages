@@ -1,0 +1,258 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 11,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): this is my grandma. she's a great cook. i'm a terrible cook and i thought i'd start a series where she teaches me and you guys to cook our favorite comfort meals. she says it's easy.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): this is my grandma. she's a great cook. i'm a terrible cook and i thought i'd start a series where she teaches me and you guys to cook our favorite comfort meals. she says it's easy.",
+            "target": "Target (grandmother): it is very easy. just you have to have lots of love in your pot first. and the way i cook is so easy. you don't need to shopping lots. you can use a can. and making kormi sabzi for you today. i love all you guys and i make it for you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): this is my grandma. she's a great cook. i'm a terrible cook and i thought i'd start a series where she teaches me and you guys to cook our favorite comfort meals. she says it's easy. | Speaker B (grandmother): it is very easy. just you have to have lots of love in your pot first. and the way i cook is so easy. you don't need to shopping lots. you can use a can. and making kormi sabzi for you today. i love all you guys and i make it for you.",
+            "target": "Target (granddaughter): let's try. let's try.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): it is very easy. just you have to have lots of love in your pot first. and the way i cook is so easy. you don't need to shopping lots. you can use a can. and making kormi sabzi for you today. i love all you guys and i make it for you. | Speaker B (granddaughter): let's try. let's try.",
+            "target": "Target (grandmother): we put the oil in the pot, an onion. you chop it, put it in the pot, stir it and leave it to fry onion.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): let's try. let's try. | Speaker B (grandmother): we put the oil in the pot, an onion. you chop it, put it in the pot, stir it and leave it to fry onion.",
+            "target": "Target (granddaughter): so far so easy. i'm a chef now, guys. i'm ready to be wiped up. my boyfriend's the one who cooks.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): we put the oil in the pot, an onion. you chop it, put it in the pot, stir it and leave it to fry onion. | Speaker B (granddaughter): so far so easy. i'm a chef now, guys. i'm ready to be wiped up. my boyfriend's the one who cooks.",
+            "target": "Target (grandmother): and add some turmeric and salt.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): so far so easy. i'm a chef now, guys. i'm ready to be wiped up. my boyfriend's the one who cooks. | Speaker B (grandmother): and add some turmeric and salt.",
+            "target": "Target (granddaughter): okay, so this is the meat we're using. this is lamb meat. you can also use beef if you're not into lamb meat. yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): and add some turmeric and salt. | Speaker B (granddaughter): okay, so this is the meat we're using. this is lamb meat. you can also use beef if you're not into lamb meat. yes.",
+            "target": "Target (grandmother): oh, okay. don't be scared",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): okay, so this is the meat we're using. this is lamb meat. you can also use beef if you're not into lamb meat. yes. | Speaker B (grandmother): oh, okay. don't be scared",
+            "target": "Target (granddaughter): i'm always scared it's gonna splash me.how did you learn how to cook?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): oh, okay. don't be scared | Speaker B (granddaughter): i'm always scared it's gonna splash me.how did you learn how to cook?",
+            "target": "Target (grandmother): my mom teach me like the way i teach you and i teach you all. i was 15, finished my 15. i got married. i was so doing lots of mistake. just still i'm a good woman.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): i'm always scared it's gonna splash me.how did you learn how to cook? | Speaker B (grandmother): my mom teach me like the way i teach you and i teach you all. i was 15, finished my 15. i got married. i was so doing lots of mistake. just still i'm a good woman.",
+            "target": "Target (granddaughter): this is the meat cooking. honestly, pretty simple. we're just throwing everything in the pot.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): my mom teach me like the way i teach you and i teach you all. i was 15, finished my 15. i got married. i was so doing lots of mistake. just still i'm a good woman. | Speaker B (granddaughter): this is the meat cooking. honestly, pretty simple. we're just throwing everything in the pot.",
+            "target": "Target (grandmother): and clean up all your mess. because after that it gets crazy when the meat little bit fry with onion, the juice of the meat stay inside. that's why they make your food tasty. this is the can of the herbs. and now what you are doing, adding the herbs.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): this is the meat cooking. honestly, pretty simple. we're just throwing everything in the pot. | Speaker B (grandmother): and clean up all your mess. because after that it gets crazy when the meat little bit fry with onion, the juice of the meat stay inside. that's why they make your food tasty. this is the can of the herbs. and now what you are doing, adding the herbs.",
+            "target": "Target (granddaughter): so far it's been really easy because it's been three ingredients. these are red kidney beans.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): and clean up all your mess. because after that it gets crazy when the meat little bit fry with onion, the juice of the meat stay inside. that's why they make your food tasty. this is the can of the herbs. and now what you are doing, adding the herbs. | Speaker B (granddaughter): so far it's been really easy because it's been three ingredients. these are red kidney beans.",
+            "target": "Target (grandmother): look with the water",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): so far it's been really easy because it's been three ingredients. these are red kidney beans. | Speaker B (grandmother): look with the water",
+            "target": "Target (granddaughter): this is low key canned meal. but it's healthy.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): look with the water | Speaker B (granddaughter): this is low key canned meal. but it's healthy.",
+            "target": "Target (grandmother): so this food is lots of protein. your boyfriend gonna love it. you bring it on high medium. it looks like that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): this is low key canned meal. but it's healthy. | Speaker B (grandmother): so this food is lots of protein. your boyfriend gonna love it. you bring it on high medium. it looks like that.",
+            "target": "Target (granddaughter): so these are the little dried lemons that you're gonna add into it. and it's gonna make it super sour.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): so this food is lots of protein. your boyfriend gonna love it. you bring it on high medium. it looks like that. | Speaker B (granddaughter): so these are the little dried lemons that you're gonna add into it. and it's gonna make it super sour.",
+            "target": "Target (grandmother): add in everything in your stew. throw this water.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): so these are the little dried lemons that you're gonna add into it. and it's gonna make it super sour. | Speaker B (grandmother): add in everything in your stew. throw this water.",
+            "target": "Target (granddaughter): how much like a bowl of water?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): add in everything in your stew. throw this water. | Speaker B (granddaughter): how much like a bowl of water?",
+            "target": "Target (grandmother): when you stirring your stew, you have to be feel it and give it some love to rick steve. it's so lovely.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): how much like a bowl of water? | Speaker B (grandmother): when you stirring your stew, you have to be feel it and give it some love to rick steve. it's so lovely.",
+            "target": "Target (grandmother): sorry, my english is not good. just i try to. you understand.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): when you stirring your stew, you have to be feel it and give it some love to rick steve. it's so lovely. | Speaker B (grandmother): sorry, my english is not good. just i try to. you understand.",
+            "target": "Target (granddaughter): is this a pressure cooker?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): sorry, my english is not good. just i try to. you understand. | Speaker B (granddaughter): is this a pressure cooker?",
+            "target": "Target (grandmother): yes. you can do it in regular and low, medium. and at least one and a half hours has to be cooked. now we need to have a rice because you guys all the time on diet. yeah, i know you. one cup for two people.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): is this a pressure cooker? | Speaker B (grandmother): yes. you can do it in regular and low, medium. and at least one and a half hours has to be cooked. now we need to have a rice because you guys all the time on diet. yeah, i know you. one cup for two people.",
+            "target": "Target (granddaughter): see how the water is cloudy? you want to get rid of that, right? so look, you put your finger in.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): yes. you can do it in regular and low, medium. and at least one and a half hours has to be cooked. now we need to have a rice because you guys all the time on diet. yeah, i know you. one cup for two people. | Speaker B (granddaughter): see how the water is cloudy? you want to get rid of that, right? so look, you put your finger in.",
+            "target": "Target (grandmother): don't, you didn't wash your hand!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): see how the water is cloudy? you want to get rid of that, right? so look, you put your finger in. | Speaker B (grandmother): don't, you didn't wash your hand!",
+            "target": "Target (granddaughter): you put the finger in and it's to the second line.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): don't, you didn't wash your hand! | Speaker B (granddaughter): you put the finger in and it's to the second line.",
+            "target": "Target (granddaughter): holy no, it's nothing.grandma",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): you put the finger in and it's to the second line. | Speaker B (granddaughter): holy no, it's nothing.grandma",
+            "target": "Target (granddaughter): one more.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): holy no, it's nothing.grandma | Speaker B (granddaughter): one more.",
+            "target": "Target (grandmother): this is it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): one more. | Speaker B (grandmother): this is it.",
+            "target": "Target (granddaughter): salt. kind of a lot of salt. cuz you always need more than you think.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): this is it. | Speaker B (granddaughter): salt. kind of a lot of salt. cuz you always need more than you think.",
+            "target": "Target (grandmother): it's going to go to rice cooker. turn it on.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): salt. kind of a lot of salt. cuz you always need more than you think. | Speaker B (grandmother): it's going to go to rice cooker. turn it on.",
+            "target": "Target (granddaughter): now we wait until our meal is ready.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): it's going to go to rice cooker. turn it on. | Speaker B (granddaughter): now we wait until our meal is ready.",
+            "target": "Target (grandmother): is boiling now. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (granddaughter): now we wait until our meal is ready. | Speaker B (grandmother): is boiling now. okay.",
+            "target": "Target (granddaughter): so it's been about an hour and a half and it's finished. let me show you the rice. perfect. they're like sitting up kind of. my grandpa's dying to eat it. okay. i just filmed myself having the first bite. that's why it's all messed up. but it was kind of completely blurry. but it is so freaking bomb. so hot that i'm like burning my mouth to eat it.but that's how good it is. trust me with some yogurt. good ass meal.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): is boiling now. okay. | Speaker B (granddaughter): so it's been about an hour and a half and it's finished. let me show you the rice. perfect. they're like sitting up kind of. my grandpa's dying to eat it. okay. i just filmed myself having the first bite. that's why it's all messed up. but it was kind of completely blurry. but it is so freaking bomb. so hot that i'm like burning my mouth to eat it.but that's how good it is. trust me with some yogurt. good ass meal.",
+            "target": "Target (granddaughter): how is it grandma?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): so it's been about an hour and a half and it's finished. let me show you the rice. perfect. they're like sitting up kind of. my grandpa's dying to eat it. okay. i just filmed myself having the first bite. that's why it's all messed up. but it was kind of completely blurry. but it is so freaking bomb. so hot that i'm like burning my mouth to eat it.but that's how good it is. trust me with some yogurt. good ass meal. | Speaker B (granddaughter): how is it grandma?",
+            "target": "Target (grandmother): very good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

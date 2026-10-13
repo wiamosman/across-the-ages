@@ -1,0 +1,216 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "file_index": 14,
+  "utterances": [
+    {
+      "text": "Hello, my dear! How have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! I've been doing well, just busy with school and some projects. How about you?",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "That's great to hear! Is there anything new or exciting happening with you lately?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh dear, is there something specific you're needing help with? I'm here to listen and offer any advice I can.",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thanks, Grandma! I'm just juggling a lot right now, but your offer means a lot to me. I might take you up on that advice soon!",
+      "golden": "statement-non-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Well, when it comes to offering advice or listening, I always try to be patient and understanding. It's important to really hear what the other person is saying and offer support based on their needs. Is there something specific you're curious about?",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I appreciate that, Grandma. I'm actually trying to figure out how to balance my work and personal life better. Do you have any tips on managing stress?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I see, dear. Sometimes things do move quickly, don't they? If there's anything specific you're dealing with, I'm here to help you slow down and think it through.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma. I guess I'm just feeling overwhelmed with deadlines and trying to keep up with everything. Maybe I need to learn how to prioritize better. Do you have any advice on how to start?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, you made me chuckle! 'Little chunkies' might not be an official term, but it sure sounds like a fun way to describe something. I love your creativity!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, I'm glad you liked that, Grandma! I guess breaking things into 'little chunkies' might be a good way to tackle tasks. Do you think setting small goals could help with prioritizing?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm glad you're enjoying our chat! Is there anything else you'd like to talk about or ask me? I'm here for you.",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate that. Actually, I was thinking about how you used to manage your time when you were working. Did you have any tricks or methods that helped you stay organized?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "That's wonderful to hear! I'm always here to support you, whether it's sharing stories or just having a good laugh together. Is there anything specific you'd like to dive into today?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I really enjoy hearing your stories, Grandma! How about sharing one of your favorite memories from when you were working? I'd love to hear about any challenges you faced and how you overcame them.",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's great, dear! I'm glad you're open to chatting more. If there's anything on your mind or something fun you'd like to share, I'm all ears.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I was actually curious about how you stayed organized at work. Did you have any specific routines or tools that helped you manage your tasks?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I'm excited to hear what you have to share! Go ahead, dear, I'm listening.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate how supportive you are. Well, I've been trying to balance my studies and hobbies, and sometimes it feels overwhelming. Do you have any advice on managing time effectively?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh dear, I'm sorry if I wasn't clear. Can you tell me what instruction you missed? I'm here to help and make sure everything is clear for you.",
+      "golden": "apology",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "No worries, Grandma! I was just curious about any tips you might have for managing time effectively. Maybe some routines or habits you found helpful?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I understand, dear. It can feel like there are a lot of rules, but they're just there to keep things running smoothly and safely. If you ever feel overwhelmed, just let me know, and we can go through them together.",
+      "golden": "statement-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Thanks for understanding, Grandma. It's comforting to know you're here to help. I guess sometimes I just need to take a step back and prioritize what's most important. Do you have any routines that helped you stay organized?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh my, it sounds like we've had a bit of a potato explosion! Let's clean it up together, shall we? It's always more fun to tidy up with some company.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, a potato explosion sounds like quite the adventure! I'm definitely up for some teamwork to clean it up. Maybe we can chat about your organizing tips while we tidy?",
+      "golden": "agreement",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh dear, I'm not quite sure what 'suger dine' means. Could you explain it to me, or maybe use a different word? I'm eager to understand and keep up with you!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, sorry about that! 'Suger dine' is just a typo, I meant 'super dine'. It's just a fun way to say having dinner together. Let's focus on cleaning up first, and then we can have a nice meal together!",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Of course, dear! I'd be delighted to show you how to do it. Let's gather around and I'll walk you through the steps. It's always fun to learn something new together!",
+      "golden": "agreement",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "That sounds perfect! I'm excited to learn from you and spend some quality time together. Let's make this cleanup a fun little project!",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's wonderful to hear! I'm so glad you're willing to give it a try. Let's make it a fun learning experience together. If you have any questions along the way, just let me know!",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thank you! I'm sure I'll have a few questions as we go along, but I'm really looking forward to it. Let's get started!",
+      "golden": "statement-non-opinion",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Oh, are you asking about something specific? If you point it out, I'll be happy to explain it to you. I'm here to help with anything you're curious about!",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I was actually wondering about the best way to sort through these old photos. Do you have any tips or a method you prefer?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I see! No, it's not black pepper. We're using a different spice for this recipe. Let me show you what it is and how it adds flavor to the dish. It's always exciting to try new ingredients!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That sounds interesting! I'm curious to learn more about this spice and how it changes the flavor. Can you tell me more about it?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    }
+  ]
+}

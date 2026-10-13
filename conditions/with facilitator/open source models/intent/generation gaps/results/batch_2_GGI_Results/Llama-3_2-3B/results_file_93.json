@@ -1,0 +1,1383 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 93,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandfather): Hello there! How have you been?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandfather): Hello there! How have you been?",
+      "target": "Target (grandson): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandfather): Hello there! How have you been? | Speaker B (grandson): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you?",
+      "target": "Target (grandfather): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandson): Hey Grandpa! I've been doing well, just busy with school and stuff. How about you? | Speaker B (grandfather): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess?",
+      "target": "Target (grandson): Yeah, I really enjoy it! It's challenging but fun. Do you play often?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandfather): I'm doing well. I see you're setting up the board to explain the pieces. Do you enjoy playing chess? | Speaker B (grandson): Yeah, I really enjoy it! It's challenging but fun. Do you play often?",
+      "target": "Target (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandson): Yeah, I really enjoy it! It's challenging but fun. Do you play often? | Speaker B (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently?",
+      "target": "Target (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandfather): Chess is a great game for strategy and thinking ahead. Have you played any interesting matches recently? | Speaker B (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so-",
+      "target": "Target (grandfather): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandson): Yeah, I played a really intense match last week. I almost lost, but managed to turn it around at the last minute! so- | Speaker B (grandfather): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop.",
+      "target": "Target (grandson): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandfather): Sorry, I didn't mean to interrupt your story. Please go on about how you used the bishop. | Speaker B (grandson): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win.",
+      "target": "Target (grandfather): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandson): No worries, Grandpa! I was just saying how I used the bishop to control the center and it really helped me win. | Speaker B (grandfather): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind.",
+      "target": "Target (grandfather): Do you have a favorite chess piece or strategy that you like to use?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandfather): I understand, and I'm glad to hear you enjoy the strategy in chess. It's a wonderful way to challenge your mind. | Speaker B (grandfather): Do you have a favorite chess piece or strategy that you like to use?",
+      "target": "Target (grandson): I really like using the knight for its unique movement. It can be quite tricky for the opponent!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandfather): Do you have a favorite chess piece or strategy that you like to use? | Speaker B (grandson): I really like using the knight for its unique movement. It can be quite tricky for the opponent!",
+      "target": "Target (grandfather): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandson): I really like using the knight for its unique movement. It can be quite tricky for the opponent! | Speaker B (grandfather): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game.",
+      "target": "Target (grandson): Yeah, the bishop is great too! I love how it can control long diagonals.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandfather): Ah, the knight is great, and the bishop is also powerful with its diagonal moves. It can really change the game. | Speaker B (grandson): Yeah, the bishop is great too! I love how it can control long diagonals.",
+      "target": "Target (grandson): Do you have a favorite opening move? I've been trying to learn more about them.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 14,
+      "context": "Speaker A (grandson): Yeah, the bishop is great too! I love how it can control long diagonals. | Speaker B (grandson): Do you have a favorite opening move? I've been trying to learn more about them.",
+      "target": "Target (grandson): I think the King's Gambit is really interesting, but it's a bit risky. What do you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 15,
+      "context": "Speaker A (grandson): Do you have a favorite opening move? I've been trying to learn more about them. | Speaker B (grandson): I think the King's Gambit is really interesting, but it's a bit risky. What do you think?",
+      "target": "Target (grandson): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 16,
+      "context": "Speaker A (grandson): I think the King's Gambit is really interesting, but it's a bit risky. What do you think? | Speaker B (grandson): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely?",
+      "target": "Target (grandson): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 17,
+      "context": "Speaker A (grandson): I guess it depends on how confident you are with the follow-up. Do you have any tips for playing it safely? | Speaker B (grandson): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes.",
+      "target": "Target (grandson): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 18,
+      "context": "Speaker A (grandson): Thanks for the advice you gave earlier! I'll try to practice that and see how it goes. | Speaker B (grandson): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences.",
+      "target": "Target (grandson): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 19,
+      "context": "Speaker A (grandson): By the way, have you ever played in any chess tournaments? I'd love to hear about your experiences. | Speaker B (grandson): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles?",
+      "target": "Target (grandfather): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 20,
+      "context": "Speaker A (grandson): Wow, that's amazing! It must have been exciting to compete at that level. Did you ever win any titles? | Speaker B (grandfather): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction.",
+      "target": "Target (grandson): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 21,
+      "context": "Speaker A (grandfather): You're getting the hang of it! The queen is indeed a powerful piece, able to move in any direction. | Speaker B (grandson): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively?",
+      "target": "Target (grandfather): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 22,
+      "context": "Speaker A (grandson): Thanks! I'm trying to learn all the strategies. Do you have any tips for using the queen effectively? | Speaker B (grandfather): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic.",
+      "target": "Target (grandson): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 23,
+      "context": "Speaker A (grandfather): That's right, the pawns go in the front row. They may seem small, but they can be quite strategic. | Speaker B (grandson): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn?",
+      "target": "Target (grandfather): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 24,
+      "context": "Speaker A (grandson): Got it! I'll keep that in mind. So, how do you decide when to advance a pawn? | Speaker B (grandfather): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details!",
+      "target": "Target (grandson): Haha, no worries! So, about the pawns, when do you think is the best time to advance them?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 25,
+      "context": "Speaker A (grandfather): Ah, I see. Thank you for pointing that out. It's easy to get caught up in the game and miss the details! | Speaker B (grandson): Haha, no worries! So, about the pawns, when do you think is the best time to advance them?",
+      "target": "Target (grandfather): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 26,
+      "context": "Speaker A (grandson): Haha, no worries! So, about the pawns, when do you think is the best time to advance them? | Speaker B (grandfather): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time!",
+      "target": "Target (grandson): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 27,
+      "context": "Speaker A (grandfather): Chess can be challenging, but you're doing great. Keep practicing and you'll master it in no time! | Speaker B (grandson): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns?",
+      "target": "Target (grandfather): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 28,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep practicing. But seriously, when should I advance the pawns? | Speaker B (grandfather): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well.",
+      "target": "Target (grandson): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 29,
+      "context": "Speaker A (grandfather): That's a good strategy. Starting with white gives you the initiative. Keep thinking ahead and you'll do well. | Speaker B (grandson): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me?",
+      "target": "Target (grandfather): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 30,
+      "context": "Speaker A (grandson): Got it, thanks! I'll try to think a few moves ahead. Any other tips for a beginner like me? | Speaker B (grandfather): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead.",
+      "target": "Target (grandson): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 31,
+      "context": "Speaker A (grandfather): It's important to plan your moves carefully. Chess is all about strategy and thinking ahead. | Speaker B (grandson): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too?",
+      "target": "Target (grandfather): Haha, you're getting really good at this! I better watch out or you'll be beating me soon!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 32,
+      "context": "Speaker A (grandson): Thanks for the advice, Grandpa! I'll keep practicing. Do you think playing online could help me improve too? | Speaker B (grandfather): Haha, you're getting really good at this! I better watch out or you'll be beating me soon!",
+      "target": "Target (grandson): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 33,
+      "context": "Speaker A (grandfather): Haha, you're getting really good at this! I better watch out or you'll be beating me soon! | Speaker B (grandson): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you!",
+      "target": "Target (grandfather): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 34,
+      "context": "Speaker A (grandson): Haha, thanks Grandpa! I'll keep practicing online and maybe one day I'll be able to beat you! | Speaker B (grandfather): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better!",
+      "target": "Target (grandson): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 35,
+      "context": "Speaker A (grandfather): Ah, I see. Capturing pieces is a key part of the game. Keep practicing and you'll get even better! | Speaker B (grandson): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime?",
+      "target": "Target (grandfather): That's right, it's all about anticipating your opponent. You're really grasping the concept well!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 36,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'll keep working on it. Maybe we can play together online sometime? | Speaker B (grandfather): That's right, it's all about anticipating your opponent. You're really grasping the concept well!",
+      "target": "Target (grandson): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 37,
+      "context": "Speaker A (grandfather): That's right, it's all about anticipating your opponent. You're really grasping the concept well! | Speaker B (grandson): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you.",
+      "target": "Target (grandfather): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 38,
+      "context": "Speaker A (grandson): Thanks for the encouragement, Grandpa! I'm really enjoying learning from you. | Speaker B (grandfather): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it!",
+      "target": "Target (grandfather): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 39,
+      "context": "Speaker A (grandfather): That's okay, sometimes we can't make the move we want, but it's all part of learning. Keep at it! | Speaker B (grandfather): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you!",
+      "target": "Target (grandson): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 40,
+      "context": "Speaker A (grandfather): You're doing great, and remember, every game is a chance to learn something new. I'm proud of you! | Speaker B (grandson): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me.",
+      "target": "Target (grandfather): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 41,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support and guidance. It means a lot to me. | Speaker B (grandfather): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun.",
+      "target": "Target (grandson): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 42,
+      "context": "Speaker A (grandfather): Ah, I see. Sometimes being defensive is a good strategy, but playing aggressively is also fun. | Speaker B (grandson): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game!",
+      "target": "Target (grandfather): That's a good observation! Understanding the movement of each piece is key to mastering the game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 43,
+      "context": "Speaker A (grandson): Yeah, I think mixing up strategies can really keep the opponent on their toes. Let's try that next game! | Speaker B (grandfather): That's a good observation! Understanding the movement of each piece is key to mastering the game.",
+      "target": "Target (grandson): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 44,
+      "context": "Speaker A (grandfather): That's a good observation! Understanding the movement of each piece is key to mastering the game. | Speaker B (grandson): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help.",
+      "target": "Target (grandfather): I understand now. It's important to track your moves. You're really getting the hang of this!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 45,
+      "context": "Speaker A (grandson): Absolutely, Grandpa! I'm excited to learn more and improve my game with your help. | Speaker B (grandfather): I understand now. It's important to track your moves. You're really getting the hang of this!",
+      "target": "Target (grandson): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 46,
+      "context": "Speaker A (grandfather): I understand now. It's important to track your moves. You're really getting the hang of this! | Speaker B (grandson): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you.",
+      "target": "Target (grandfather): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 47,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your guidance. It's fun learning from you. | Speaker B (grandfather): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique.",
+      "target": "Target (grandson): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 48,
+      "context": "Speaker A (grandfather): You're talking about the knight's movement, right? It moves in an L-shape, which is quite unique. | Speaker B (grandson): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it.",
+      "target": "Target (grandfather): Yes, you can go first this time. Let's see how you strategize!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 49,
+      "context": "Speaker A (grandson): Exactly, Grandpa! The knight is tricky but fun to use once you get the hang of it. | Speaker B (grandfather): Yes, you can go first this time. Let's see how you strategize!",
+      "target": "Target (grandson): Alright, here goes! I'll try to surprise you with my first move.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 50,
+      "context": "Speaker A (grandfather): Yes, you can go first this time. Let's see how you strategize! | Speaker B (grandson): Alright, here goes! I'll try to surprise you with my first move.",
+      "target": "Target (grandfather): Well played! You really gave me a challenge there. Let's play another round!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 51,
+      "context": "Speaker A (grandson): Alright, here goes! I'll try to surprise you with my first move. | Speaker B (grandfather): Well played! You really gave me a challenge there. Let's play another round!",
+      "target": "Target (grandson): Alright, let's do it! I'm ready for another round.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 52,
+      "context": "Speaker A (grandfather): Well played! You really gave me a challenge there. Let's play another round! | Speaker B (grandson): Alright, let's do it! I'm ready for another round.",
+      "target": "Target (grandfather): It's all about positioning and strategy. You'll get the hang of it with more practice!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 53,
+      "context": "Speaker A (grandson): Alright, let's do it! I'm ready for another round. | Speaker B (grandfather): It's all about positioning and strategy. You'll get the hang of it with more practice!",
+      "target": "Target (grandson): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 54,
+      "context": "Speaker A (grandfather): It's all about positioning and strategy. You'll get the hang of it with more practice! | Speaker B (grandson): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time!",
+      "target": "Target (grandfather): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 55,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm learning a lot. Let's see if I can outsmart you this time! | Speaker B (grandfather): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well!",
+      "target": "Target (grandson): Alright, I'm feeling confident about my moves this game!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 56,
+      "context": "Speaker A (grandfather): That's right, the pawn can move two squares forward on its first move. You're remembering the rules well! | Speaker B (grandson): Alright, I'm feeling confident about my moves this game!",
+      "target": "Target (grandfather): I see you're thinking ahead. That's a smart move!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 57,
+      "context": "Speaker A (grandson): Alright, I'm feeling confident about my moves this game! | Speaker B (grandfather): I see you're thinking ahead. That's a smart move!",
+      "target": "Target (grandson): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 58,
+      "context": "Speaker A (grandfather): I see you're thinking ahead. That's a smart move! | Speaker B (grandson): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you.",
+      "target": "Target (grandfather): It's all about the rules of the game. Let's keep playing and see how it goes!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 59,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm really enjoying our chess games. It's fun to learn from you. | Speaker B (grandfather): It's all about the rules of the game. Let's keep playing and see how it goes!",
+      "target": "Target (grandson): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 60,
+      "context": "Speaker A (grandfather): It's all about the rules of the game. Let's keep playing and see how it goes! | Speaker B (grandson): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got!",
+      "target": "Target (grandfather): I see, you're right. Let's focus on the next move then.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 61,
+      "context": "Speaker A (grandson): Sure thing, Grandpa! I'm ready for the next move. Let's see what you've got! | Speaker B (grandfather): I see, you're right. Let's focus on the next move then.",
+      "target": "Target (grandson): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 62,
+      "context": "Speaker A (grandfather): I see, you're right. Let's focus on the next move then. | Speaker B (grandson): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works!",
+      "target": "Target (grandfather): You're explaining the rules well. Let's see what move we can make next.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 63,
+      "context": "Speaker A (grandson): Alright, Grandpa, I'm going to try a new strategy this time. Let's see if it works! | Speaker B (grandfather): You're explaining the rules well. Let's see what move we can make next.",
+      "target": "Target (grandson): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 64,
+      "context": "Speaker A (grandfather): You're explaining the rules well. Let's see what move we can make next. | Speaker B (grandson): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count!",
+      "target": "Target (grandfather): Oh, is that a new chess clock or something? That looks interesting!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 65,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I'm glad you're following along. Let's make this next move count! | Speaker B (grandfather): Oh, is that a new chess clock or something? That looks interesting!",
+      "target": "Target (grandson): Yeah, it's a smart assistant that can help time our games and even answer chess questions.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 66,
+      "context": "Speaker A (grandfather): Oh, is that a new chess clock or something? That looks interesting! | Speaker B (grandson): Yeah, it's a smart assistant that can help time our games and even answer chess questions.",
+      "target": "Target (grandfather): I wonder what kind of help it can provide. Do you think it's useful for our practice?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 67,
+      "context": "Speaker A (grandson): Yeah, it's a smart assistant that can help time our games and even answer chess questions. | Speaker B (grandfather): I wonder what kind of help it can provide. Do you think it's useful for our practice?",
+      "target": "Target (grandson): I think it's pretty useful! It can keep track of our scores and even suggest puzzles.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 68,
+      "context": "Speaker A (grandfather): I wonder what kind of help it can provide. Do you think it's useful for our practice? | Speaker B (grandson): I think it's pretty useful! It can keep track of our scores and even suggest puzzles.",
+      "target": "Target (grandson): Plus, it's really cool to see how it tracks the board. It's like having a little helper.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 69,
+      "context": "Speaker A (grandson): I think it's pretty useful! It can keep track of our scores and even suggest puzzles. | Speaker B (grandson): Plus, it's really cool to see how it tracks the board. It's like having a little helper.",
+      "target": "Target (grandfather): It sounds like you're figuring it out well. Do you need any help with the next move?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 70,
+      "context": "Speaker A (grandson): Plus, it's really cool to see how it tracks the board. It's like having a little helper. | Speaker B (grandfather): It sounds like you're figuring it out well. Do you need any help with the next move?",
+      "target": "Target (grandson): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 71,
+      "context": "Speaker A (grandfather): It sounds like you're figuring it out well. Do you need any help with the next move? | Speaker B (grandson): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help.",
+      "target": "Target (grandfather): It seems like you're having fun with this. If you need any advice, just let me know!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 72,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I think I'm good for now, but I'll definitely ask if I need help. | Speaker B (grandfather): It seems like you're having fun with this. If you need any advice, just let me know!",
+      "target": "Target (grandson): I really appreciate it, Grandpa! It's been a blast exploring these chess features.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 73,
+      "context": "Speaker A (grandfather): It seems like you're having fun with this. If you need any advice, just let me know! | Speaker B (grandson): I really appreciate it, Grandpa! It's been a blast exploring these chess features.",
+      "target": "Target (grandson): By the way, have you ever used a digital chess assistant like this before?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 74,
+      "context": "Speaker A (grandson): I really appreciate it, Grandpa! It's been a blast exploring these chess features. | Speaker B (grandson): By the way, have you ever used a digital chess assistant like this before?",
+      "target": "Target (granddaughter): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 75,
+      "context": "Speaker A (grandson): By the way, have you ever used a digital chess assistant like this before? | Speaker B (granddaughter): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think?",
+      "target": "Target (grandfather): Hello there! How are you doing today?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 76,
+      "context": "Speaker A (granddaughter): Hey Grandpa, I was thinking about how cool it would be to have a robot that could help us analyze our games. What do you think? | Speaker B (grandfather): Hello there! How are you doing today?",
+      "target": "Target (grandson): I'm doing great, Grandpa! Just excited about these new tools. How about you?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 77,
+      "context": "Speaker A (grandfather): Hello there! How are you doing today? | Speaker B (grandson): I'm doing great, Grandpa! Just excited about these new tools. How about you?",
+      "target": "Target (granddaughter): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 78,
+      "context": "Speaker A (grandson): I'm doing great, Grandpa! Just excited about these new tools. How about you? | Speaker B (granddaughter): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster?",
+      "target": "Target (grandson): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 79,
+      "context": "Speaker A (granddaughter): I'm doing well too, Grandpa! It's amazing how tools are evolving. Do you think these will help us learn faster? | Speaker B (grandson): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning!",
+      "target": "Target (grandfather): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 80,
+      "context": "Speaker A (grandson): I think they definitely will be a big help. It's exciting to think about all the possibilities for learning! | Speaker B (grandfather): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board?",
+      "target": "Target (granddaughter): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 81,
+      "context": "Speaker A (grandfather): It sounds like you're both interested in this. Do you need any help figuring out how it analyzes the board? | Speaker B (granddaughter): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck.",
+      "target": "Target (grandfather): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 82,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I think we can manage for now, but I'll definitely ask if I get stuck. | Speaker B (grandfather): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece?",
+      "target": "Target (granddaughter): Sure, let's try that! It might be a stronger move.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 83,
+      "context": "Speaker A (grandfather): Alright, let's see if we can analyze this position together. Maybe we can try moving this piece? | Speaker B (granddaughter): Sure, let's try that! It might be a stronger move.",
+      "target": "Target (grandfather): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 84,
+      "context": "Speaker A (granddaughter): Sure, let's try that! It might be a stronger move. | Speaker B (grandfather): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining.",
+      "target": "Target (grandmother): It sounds like you're all working together well. I'm sure you'll master that strategy soon!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 85,
+      "context": "Speaker A (grandfather): Ah, I see. So the pawn moves differently than I remembered in this situation. Thanks for explaining. | Speaker B (grandmother): It sounds like you're all working together well. I'm sure you'll master that strategy soon!",
+      "target": "Target (grandfather): Thank you for the encouragement. We're getting there step by step.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 86,
+      "context": "Speaker A (grandmother): It sounds like you're all working together well. I'm sure you'll master that strategy soon! | Speaker B (grandfather): Thank you for the encouragement. We're getting there step by step.",
+      "target": "Target (grandmother): I'm so proud of how you're all practicing together. Keep it up!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 87,
+      "context": "Speaker A (grandfather): Thank you for the encouragement. We're getting there step by step. | Speaker B (grandmother): I'm so proud of how you're all practicing together. Keep it up!",
+      "target": "Target (grandfather): Thanks, we're trying our best to solve these chess puzzles together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 88,
+      "context": "Speaker A (grandmother): I'm so proud of how you're all practicing together. Keep it up! | Speaker B (grandfather): Thanks, we're trying our best to solve these chess puzzles together.",
+      "target": "Target (grandfather): Let's keep going, maybe we can try a different approach to this opening.",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 89,
+      "context": "Speaker A (grandfather): Thanks, we're trying our best to solve these chess puzzles together. | Speaker B (grandfather): Let's keep going, maybe we can try a different approach to this opening.",
+      "target": "Target (grandson): Great idea! Let's see if a new strategy works better.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 90,
+      "context": "Speaker A (grandfather): Let's keep going, maybe we can try a different approach to this opening. | Speaker B (grandson): Great idea! Let's see if a new strategy works better.",
+      "target": "Target (grandfather): That's interesting! Show me what you've learned about this move.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 91,
+      "context": "Speaker A (grandson): Great idea! Let's see if a new strategy works better. | Speaker B (grandfather): That's interesting! Show me what you've learned about this move.",
+      "target": "Target (grandson): Alright, I'll give it a shot and see if this new method works.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 92,
+      "context": "Speaker A (grandfather): That's interesting! Show me what you've learned about this move. | Speaker B (grandson): Alright, I'll give it a shot and see if this new method works.",
+      "target": "Target (grandfather): Haha, that's a neat trick! But let's keep working together on the rest of the game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 93,
+      "context": "Speaker A (grandson): Alright, I'll give it a shot and see if this new method works. | Speaker B (grandfather): Haha, that's a neat trick! But let's keep working together on the rest of the game.",
+      "target": "Target (grandson): Sure thing, let's see how we can improve it together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 94,
+      "context": "Speaker A (grandfather): Haha, that's a neat trick! But let's keep working together on the rest of the game. | Speaker B (grandson): Sure thing, let's see how we can improve it together!",
+      "target": "Target (grandfather): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 95,
+      "context": "Speaker A (grandson): Sure thing, let's see how we can improve it together! | Speaker B (grandfather): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here.",
+      "target": "Target (grandson): Sounds like a plan! I'm excited to see the results.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 96,
+      "context": "Speaker A (grandfather): I see, taking it one step at a time can be a good strategy. Let's see how the king moves here. | Speaker B (grandson): Sounds like a plan! I'm excited to see the results.",
+      "target": "Target (grandfather): Ah, I understand now. The king moves just like in chess, one step at a time.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 97,
+      "context": "Speaker A (grandson): Sounds like a plan! I'm excited to see the results. | Speaker B (grandfather): Ah, I understand now. The king moves just like in chess, one step at a time.",
+      "target": "Target (grandson): Exactly, and with practice, we'll get better at it.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 98,
+      "context": "Speaker A (grandfather): Ah, I understand now. The king moves just like in chess, one step at a time. | Speaker B (grandson): Exactly, and with practice, we'll get better at it.",
+      "target": "Target (grandfather): Oh, I see what you mean. The king steps carefully, just like in chess.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 99,
+      "context": "Speaker A (grandson): Exactly, and with practice, we'll get better at it. | Speaker B (grandfather): Oh, I see what you mean. The king steps carefully, just like in chess.",
+      "target": "Target (grandson): Yes, and once we master this, we can try more complex strategies.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 100,
+      "context": "Speaker A (grandfather): Oh, I see what you mean. The king steps carefully, just like in chess. | Speaker B (grandson): Yes, and once we master this, we can try more complex strategies.",
+      "target": "Target (grandfather): Ah, so the queen has more freedom to move around. That's interesting!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 101,
+      "context": "Speaker A (grandson): Yes, and once we master this, we can try more complex strategies. | Speaker B (grandfather): Ah, so the queen has more freedom to move around. That's interesting!",
+      "target": "Target (grandson): Exactly, the queen's versatility makes her the most powerful piece on the board.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 102,
+      "context": "Speaker A (grandfather): Ah, so the queen has more freedom to move around. That's interesting! | Speaker B (grandson): Exactly, the queen's versatility makes her the most powerful piece on the board.",
+      "target": "Target (grandfather): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 103,
+      "context": "Speaker A (grandson): Exactly, the queen's versatility makes her the most powerful piece on the board. | Speaker B (grandfather): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great!",
+      "target": "Target (grandson): Yes, the king can only move one square at a time, but he's crucial for the game's outcome.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 104,
+      "context": "Speaker A (grandfather): Ah, I see. The king is unique in his movement, isn't he? And you got 6 squares covered, that's great! | Speaker B (grandson): Yes, the king can only move one square at a time, but he's crucial for the game's outcome.",
+      "target": "Target (granddaughter): I love how chess combines strategy and creativity. Do you play often, Grandpa?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 105,
+      "context": "Speaker A (grandson): Yes, the king can only move one square at a time, but he's crucial for the game's outcome. | Speaker B (granddaughter): I love how chess combines strategy and creativity. Do you play often, Grandpa?",
+      "target": "Target (grandfather): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 106,
+      "context": "Speaker A (granddaughter): I love how chess combines strategy and creativity. Do you play often, Grandpa? | Speaker B (grandfather): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble?",
+      "target": "Target (grandson): A crumble sounds delicious! Maybe we can make it together after this match?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 107,
+      "context": "Speaker A (grandfather): No tricks here, just enjoying the chess lesson. Maybe a snack later, like an apple crumble? | Speaker B (grandson): A crumble sounds delicious! Maybe we can make it together after this match?",
+      "target": "Target (grandfather): Felicia... that's an interesting name. Was that the name of an old chess champion?",
+      "gold_label": "none",
+      "predicted_label": "stereotyped expectation",
+      "raw": "stereotyped expectation"
+    },
+    {
+      "turn_index": 108,
+      "context": "Speaker A (grandson): A crumble sounds delicious! Maybe we can make it together after this match? | Speaker B (grandfather): Felicia... that's an interesting name. Was that the name of an old chess champion?",
+      "target": "Target (grandson): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?",
+      "gold_label": "none",
+      "predicted_label": "stereotyped expectation",
+      "raw": "stereotyped expectation"
+    },
+    {
+      "turn_index": 109,
+      "context": "Speaker A (grandfather): Felicia... that's an interesting name. Was that the name of an old chess champion? | Speaker B (grandson): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout?",
+      "target": "Target (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 110,
+      "context": "Speaker A (grandson): No, Felicia isn't a champion. It's just a name I heard. Do you want to learn more about the board layout? | Speaker B (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be?",
+      "target": "Target (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 111,
+      "context": "Speaker A (grandfather): Ah, I must have misunderstood. Where was the rook supposed to be? | Speaker B (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier.",
+      "target": "Target (grandfather): Right, I see. So, what move are you planning to do next?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 112,
+      "context": "Speaker A (grandson): Oh, I think you might be mixing things up. We were talking about the rook's placement earlier. | Speaker B (grandfather): Right, I see. So, what move are you planning to do next?",
+      "target": "Target (grandson): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 113,
+      "context": "Speaker A (grandfather): Right, I see. So, what move are you planning to do next? | Speaker B (grandson): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches.",
+      "target": "Target (grandfather): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 114,
+      "context": "Speaker A (grandson): I'm thinking of trying out a new opening strategy. It's been fun experimenting with different approaches. | Speaker B (grandfather): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out?",
+      "target": "Target (grandson): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 115,
+      "context": "Speaker A (grandfather): Ah, I see. It's easy to get the pieces mixed up sometimes. Do you need any help with sorting them out? | Speaker B (grandson): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help.",
+      "target": "Target (grandmother): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 116,
+      "context": "Speaker A (grandson): Thanks, Grandpa, but I think I've got the pieces under control for now. I'll let you know if I need help. | Speaker B (grandmother): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match?",
+      "target": "Target (grandson): I hope so! I've been practicing a lot, so fingers crossed.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 117,
+      "context": "Speaker A (grandmother): It sounds like you're really getting into the strategy of it all. Do you think you'll win this match? | Speaker B (grandson): I hope so! I've been practicing a lot, so fingers crossed.",
+      "target": "Target (grandson): By the way, Grandma, do you have any tips for staying calm during a tough game?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 118,
+      "context": "Speaker A (grandson): I hope so! I've been practicing a lot, so fingers crossed. | Speaker B (grandson): By the way, Grandma, do you have any tips for staying calm during a tough game?",
+      "target": "Target (grandfather): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 119,
+      "context": "Speaker A (grandson): By the way, Grandma, do you have any tips for staying calm during a tough game? | Speaker B (grandfather): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things.",
+      "target": "Target (grandson): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 120,
+      "context": "Speaker A (grandfather): Haha, well, I hope your opponent plays fair then! It's interesting how you think about these things. | Speaker B (grandson): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun!",
+      "target": "Target (grandfather): Wow, you're really keeping track of every piece! You're doing great.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 121,
+      "context": "Speaker A (grandson): Haha, yeah, I guess I do think about these things a lot. It's all part of the fun! | Speaker B (grandfather): Wow, you're really keeping track of every piece! You're doing great.",
+      "target": "Target (grandson): Thanks, Grandpa! I really appreciate your support.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 122,
+      "context": "Speaker A (grandfather): Wow, you're really keeping track of every piece! You're doing great. | Speaker B (grandson): Thanks, Grandpa! I really appreciate your support.",
+      "target": "Target (grandfather): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 123,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate your support. | Speaker B (grandfather): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things.",
+      "target": "Target (grandson): I'm glad you think so, Grandpa! I try my best to make the rules clear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 124,
+      "context": "Speaker A (grandfather): Ah, I see. Thanks for clarifying the en passant rule for me. You're really good at explaining things. | Speaker B (grandson): I'm glad you think so, Grandpa! I try my best to make the rules clear.",
+      "target": "Target (grandfather): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 125,
+      "context": "Speaker A (grandson): I'm glad you think so, Grandpa! I try my best to make the rules clear. | Speaker B (grandfather): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board.",
+      "target": "Target (grandson): Thanks, Grandpa! I really appreciate that. I just try to stay organized.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 126,
+      "context": "Speaker A (grandfather): Ah, got it! You're really strategic with your moves. It's impressive how you keep track of the board. | Speaker B (grandson): Thanks, Grandpa! I really appreciate that. I just try to stay organized.",
+      "target": "Target (grandfather): Alright, let me try moving this knight right and see what happens. You're guiding me well!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 127,
+      "context": "Speaker A (grandson): Thanks, Grandpa! I really appreciate that. I just try to stay organized. | Speaker B (grandfather): Alright, let me try moving this knight right and see what happens. You're guiding me well!",
+      "target": "Target (grandson): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 128,
+      "context": "Speaker A (grandfather): Alright, let me try moving this knight right and see what happens. You're guiding me well! | Speaker B (grandson): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together.",
+      "target": "Target (grandfather): Okay, I'm making the move now. Let's see what happens next!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 129,
+      "context": "Speaker A (grandson): You're doing great, Grandpa! Just keep following the plan and you'll see how the defense comes together. | Speaker B (grandfather): Okay, I'm making the move now. Let's see what happens next!",
+      "target": "Target (grandson): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 130,
+      "context": "Speaker A (grandfather): Okay, I'm making the move now. Let's see what happens next! | Speaker B (grandson): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy.",
+      "target": "Target (grandfather): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 131,
+      "context": "Speaker A (grandson): Great! I'm sure you'll nail it, Grandpa. Just keep going and trust your strategy. | Speaker B (grandfather): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out.",
+      "target": "Target (grandson): No problem, Grandpa! Just take it step by step and you'll get the hang of the game.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 132,
+      "context": "Speaker A (grandfather): Oh, I misunderstood. Thanks for letting me know. Let's see how this move works out. | Speaker B (grandson): No problem, Grandpa! Just take it step by step and you'll get the hang of the game.",
+      "target": "Target (grandfather): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 133,
+      "context": "Speaker A (grandson): No problem, Grandpa! Just take it step by step and you'll get the hang of the game. | Speaker B (grandfather): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together.",
+      "target": "Target (grandson): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 134,
+      "context": "Speaker A (grandfather): Hmm, switching our sides sounds interesting. Maybe we can figure out the endgame together. | Speaker B (grandson): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team.",
+      "target": "Target (grandfather): I'm glad you're enjoying the chess lesson. It's fun to play together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 135,
+      "context": "Speaker A (grandson): Sure, Grandpa! Let's tackle it together. It'll be fun to solve the puzzle as a team. | Speaker B (grandfather): I'm glad you're enjoying the chess lesson. It's fun to play together!",
+      "target": "Target (grandson): Yeah, it's awesome playing with you, Grandpa! We make a great team.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 136,
+      "context": "Speaker A (grandfather): I'm glad you're enjoying the chess lesson. It's fun to play together! | Speaker B (grandson): Yeah, it's awesome playing with you, Grandpa! We make a great team.",
+      "target": "Target (grandfather): Well, let's see what this bishop can do. Maybe he can pin the queen.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 137,
+      "context": "Speaker A (grandson): Yeah, it's awesome playing with you, Grandpa! We make a great team. | Speaker B (grandfather): Well, let's see what this bishop can do. Maybe he can pin the queen.",
+      "target": "Target (granddaughter): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 138,
+      "context": "Speaker A (grandfather): Well, let's see what this bishop can do. Maybe he can pin the queen. | Speaker B (granddaughter): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center!",
+      "target": "Target (grandfather): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 139,
+      "context": "Speaker A (granddaughter): Hey Grandpa, I think that move might have a hidden benefit. Let's try controlling the center! | Speaker B (grandfather): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy!",
+      "target": "Target (grandson): Yeah, Grandpa, and if we time the attack right, we can win the game!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 140,
+      "context": "Speaker A (grandfather): Ah, I see. So staying in the center squares keeps you safe. That's a clever strategy! | Speaker B (grandson): Yeah, Grandpa, and if we time the attack right, we can win the game!",
+      "target": "Target (grandfather): Thanks! I'll try to make a smart move with my knight now.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 141,
+      "context": "Speaker A (grandson): Yeah, Grandpa, and if we time the attack right, we can win the game! | Speaker B (grandfather): Thanks! I'll try to make a smart move with my knight now.",
+      "target": "Target (grandson): Great! Let's see if we can solve this chess puzzle together!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 142,
+      "context": "Speaker A (grandfather): Thanks! I'll try to make a smart move with my knight now. | Speaker B (grandson): Great! Let's see if we can solve this chess puzzle together!",
+      "target": "Target (grandfather): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 143,
+      "context": "Speaker A (grandson): Great! Let's see if we can solve this chess puzzle together! | Speaker B (grandfather): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces.",
+      "target": "Target (grandson): Thanks, Grandpa! It's all about practice and having fun together.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 144,
+      "context": "Speaker A (grandfather): Wow, you're really good at this game! It's impressive how you managed to take 5 of my pieces. | Speaker B (grandson): Thanks, Grandpa! It's all about practice and having fun together.",
+      "target": "Target (grandfather): Ah, I see. I need to be careful with my next move then!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 145,
+      "context": "Speaker A (grandson): Thanks, Grandpa! It's all about practice and having fun together. | Speaker B (grandfather): Ah, I see. I need to be careful with my next move then!",
+      "target": "Target (grandson): Alright, let's see if you can outsmart me this time!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 146,
+      "context": "Speaker A (grandfather): Ah, I see. I need to be careful with my next move then! | Speaker B (grandson): Alright, let's see if you can outsmart me this time!",
+      "target": "Target (grandfather): Alright, let's see if I can make a move that surprises you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 147,
+      "context": "Speaker A (grandson): Alright, let's see if you can outsmart me this time! | Speaker B (grandfather): Alright, let's see if I can make a move that surprises you!",
+      "target": "Target (grandson): Bring it on, Grandpa! I'm ready for your surprise move.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 148,
+      "context": "Speaker A (grandfather): Alright, let's see if I can make a move that surprises you! | Speaker B (grandson): Bring it on, Grandpa! I'm ready for your surprise move.",
+      "target": "Target (grandfather): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 149,
+      "context": "Speaker A (grandson): Bring it on, Grandpa! I'm ready for your surprise move. | Speaker B (grandfather): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it?",
+      "target": "Target (grandmother): Oh, I love the Ghostbusters theme! What was your favorite part of that story?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 150,
+      "context": "Speaker A (grandfather): Oh, Ghostbusters! I remember playing a board game based on that. Did you enjoy it? | Speaker B (grandmother): Oh, I love the Ghostbusters theme! What was your favorite part of that story?",
+      "target": "Target (grandfather): I remember the original movie coming out. It's great to see new generations enjoying it too!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 151,
+      "context": "Speaker A (grandmother): Oh, I love the Ghostbusters theme! What was your favorite part of that story? | Speaker B (grandfather): I remember the original movie coming out. It's great to see new generations enjoying it too!",
+      "target": "Target (grandson): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 152,
+      "context": "Speaker A (grandfather): I remember the original movie coming out. It's great to see new generations enjoying it too! | Speaker B (grandson): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious!",
+      "target": "Target (grandfather): It's wonderful to share these interests. What did you think of the new version compared to the original?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 153,
+      "context": "Speaker A (grandson): Yeah, I loved it! The part with the Stay Puft Marshmallow Man was hilarious! | Speaker B (grandfather): It's wonderful to share these interests. What did you think of the new version compared to the original?",
+      "target": "Target (grandson): I think the new one was fun, but nothing beats the classic! The original had such a unique charm.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 154,
+      "context": "Speaker A (grandfather): It's wonderful to share these interests. What did you think of the new version compared to the original? | Speaker B (grandson): I think the new one was fun, but nothing beats the classic! The original had such a unique charm.",
+      "target": "Target (grandfather): I was asking how you felt about the new one compared to the classic. Did you like it more or less?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 155,
+      "context": "Speaker A (grandson): I think the new one was fun, but nothing beats the classic! The original had such a unique charm. | Speaker B (grandfather): I was asking how you felt about the new one compared to the classic. Did you like it more or less?",
+      "target": "Target (grandson): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 156,
+      "context": "Speaker A (grandfather): I was asking how you felt about the new one compared to the classic. Did you like it more or less? | Speaker B (grandson): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat.",
+      "target": "Target (grandfather): It sounds like we are both fans of the classics. Can you clarify which part you liked best?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 157,
+      "context": "Speaker A (grandson): I liked the new one, but I still prefer the original. It just has that classic feel that can't be beat. | Speaker B (grandfather): It sounds like we are both fans of the classics. Can you clarify which part you liked best?",
+      "target": "Target (grandson): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 158,
+      "context": "Speaker A (grandfather): It sounds like we are both fans of the classics. Can you clarify which part you liked best? | Speaker B (grandson): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me.",
+      "target": "Target (grandfather): Ah, I see. Are you talking about the plot now or a different strategy?",
+      "gold_label": "none",
+      "predicted_label": "method divergence",
+      "raw": "method divergence"
+    },
+    {
+      "turn_index": 159,
+      "context": "Speaker A (grandson): Sure, I mean that while the new movie is enjoyable, the original has a special charm and nostalgia for me. | Speaker B (grandfather): Ah, I see. Are you talking about the plot now or a different strategy?",
+      "target": "Target (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 160,
+      "context": "Speaker A (grandfather): Ah, I see. Are you talking about the plot now or a different strategy? | Speaker B (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me.",
+      "target": "Target (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 161,
+      "context": "Speaker A (grandson): I'm still talking about the movie, not a game. The original movie just has a nostalgic feel for me. | Speaker B (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast?",
+      "target": "Target (grandson): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 162,
+      "context": "Speaker A (grandfather): Alright, I misunderstood. Could you tell me more about what you liked about the cast? | Speaker B (grandson): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy.",
+      "target": "Target (grandfather): I see, it sounds like a great film. Is there a board game for it too?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 163,
+      "context": "Speaker A (grandson): Sure, the original cast from the 80s was just a classic. It has a unique blend of humor that I really enjoy. | Speaker B (grandfather): I see, it sounds like a great film. Is there a board game for it too?",
+      "target": "Target (grandson): There might be, but I'm just talking about the movie. It's a film that I really love.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 164,
+      "context": "Speaker A (grandfather): I see, it sounds like a great film. Is there a board game for it too? | Speaker B (grandson): There might be, but I'm just talking about the movie. It's a film that I really love.",
+      "target": "Target (grandfather): Thanks for clarifying. I'm curious, what chess opening are you playing now?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 165,
+      "context": "Speaker A (grandson): There might be, but I'm just talking about the movie. It's a film that I really love. | Speaker B (grandfather): Thanks for clarifying. I'm curious, what chess opening are you playing now?",
+      "target": "Target (grandson): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 166,
+      "context": "Speaker A (grandfather): Thanks for clarifying. I'm curious, what chess opening are you playing now? | Speaker B (grandson): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you.",
+      "target": "Target (grandfather): I'm glad to hear that I could help you learn some moves. You're doing well!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 167,
+      "context": "Speaker A (grandson): Oh, I'm just focusing on the movie discussion for a moment. But I do love playing chess with you. | Speaker B (grandfather): I'm glad to hear that I could help you learn some moves. You're doing well!",
+      "target": "Target (grandfather): If you ever need more tips or want to play another round, just let me know!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 168,
+      "context": "Speaker A (grandfather): I'm glad to hear that I could help you learn some moves. You're doing well! | Speaker B (grandfather): If you ever need more tips or want to play another round, just let me know!",
+      "target": "Target (granddaughter): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 169,
+      "context": "Speaker A (grandfather): If you ever need more tips or want to play another round, just let me know! | Speaker B (granddaughter): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings.",
+      "target": "Target (grandfather): It sounds like you did win the last match! Congratulations! Was it a checkmate?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 170,
+      "context": "Speaker A (granddaughter): Thanks, Grandpa! I'd love to play together sometime. Maybe you can show me some of your favorite openings. | Speaker B (grandfather): It sounds like you did win the last match! Congratulations! Was it a checkmate?",
+      "target": "Target (grandmother): Oh, I'm so proud of you for winning! What strategy did you use to achieve that victory?",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 171,
+      "context": "Speaker A (grandfather): It sounds like you did win the last match! Congratulations! Was it a checkmate? | Speaker B (grandmother): Oh, I'm so proud of you for winning! What strategy did you use to achieve that victory?",
+      "target": "Target (grandson): Thanks, Grandma and Grandpa! I was playing chess, and it was a tough but fun match!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

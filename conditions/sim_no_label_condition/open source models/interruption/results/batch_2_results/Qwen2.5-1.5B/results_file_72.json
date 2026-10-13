@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): Okay, pull the pin.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): Okay, pull the pin.",
+    "target": "Speaker A (granddaughter) (Target): Pull the pin?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): Okay, pull the pin.\nSpeaker B (granddaughter): Pull the pin?",
+    "target": "Speaker A (grandmother) (Target): This one. Okay. Pull the pin. Do it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): Pull the pin?\nSpeaker B (grandmother): This one. Okay. Pull the pin. Do it.",
+    "target": "Speaker A (granddaughter) (Target): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): This one. Okay. Pull the pin. Do it.\nSpeaker B (granddaughter): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+    "target": "Speaker A (grandmother) (Target): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.\nSpeaker B (grandmother): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+    "target": "Speaker A (granddaughter) (Target): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.\nSpeaker B (granddaughter): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+    "target": "Speaker A (grandmother) (Target): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.\nSpeaker B (grandmother): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+    "target": "Speaker A (granddaughter) (Target): Here we go. Here we go.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.\nSpeaker B (granddaughter): Here we go. Here we go.",
+    "target": "Speaker A (grandmother) (Target): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (granddaughter): Here we go. Here we go.\nSpeaker B (grandmother): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+    "target": "Speaker A (granddaughter) (Target): Oops. Okay, let go of it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandmother): Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.\nSpeaker B (granddaughter): Oops. Okay, let go of it.",
+    "target": "Speaker A (grandmother) (Target): Okay!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

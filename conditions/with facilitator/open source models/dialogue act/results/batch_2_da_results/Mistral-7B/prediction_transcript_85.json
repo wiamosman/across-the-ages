@@ -1,0 +1,175 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 85,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "Oh, are you talking about the store on the corner? I was asking about your day.",
+      "golden": "question",
+      "predicted": "others",
+      "raw": "misinterpretation\n\nExplanation: The"
+    },
+    {
+      "text": "Oh, sorry Grandpa, I misunderstood. My day was good, just busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "apology",
+      "raw": "apology"
+    },
+    {
+      "text": "That's a creative name! Sir Meows-a-Lot sounds like a brave leader. Did you have fun finding it?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, it was a lot of fun! We spent the whole afternoon at the shelter.",
+      "golden": "answer",
+      "predicted": "answer",
+      "raw": "answer"
+    },
+    {
+      "text": "Haha, that's a clever pun! Sir Meows-a-Lot has a great sense of humor. Are you planning to play a game with him?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yeah, I think I'll play with him later. He's so playful and loves chasing toys!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Yeah,"
+    },
+    {
+      "text": "Yes, the king is usually the tallest piece on the board. Are you setting up a chess game?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Oh, I was actually talking about playing with Sir Meows-a-Lot, not chess. But maybe we can play chess later!",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nquestion"
+    },
+    {
+      "text": "It sounds like you're having fun with the chess pieces. Do you need any help setting them up?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\nHistory:\nTurn: It sounds"
+    },
+    {
+      "text": "No, I'm good with the chess pieces for now, but thanks for offering! Maybe we can play together later.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand (optional)\nacknowled"
+    },
+    {
+      "text": "Alright, let's set up the chess pieces together. It'll be fun!",
+      "golden": "command",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Alright"
+    },
+    {
+      "text": "Sure, setting up the chess pieces sounds like a great idea! Let's do it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Haha, 'right meow'! You're quite the comedian today. Let's get those pieces in place.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Haha, thanks! I'm just trying to keep things light. Let's get started with the setup.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Haha"
+    },
+    {
+      "text": "Alright, let's turn her around and get started with the game. I'm excited to see how you play!",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command\n\nHistory:\nTurn: Alright"
+    },
+    {
+      "text": "I'm excited too! Let's see if I can give you a good challenge this time.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "You're doing great with the chess pieces. I'm proud of you!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm trying my best. Let's see if I can win this time!",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nquestion"
+    },
+    {
+      "text": "Let's see if you can beat me this time. I'm ready for a challenge!",
+      "golden": "statement-opinion",
+      "predicted": "others",
+      "raw": "challenge"
+    },
+    {
+      "text": "Alright, Grandpa, let's see if I can surprise you with a new strategy!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    },
+    {
+      "text": "It looks like you're setting up a strong position. Let's see how this plays out!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm feeling confident about this move.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're really getting the hang of this game. Keep it up!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm really enjoying this game with you.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That's wonderful! What did you learn?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I learned some new strategies and how to anticipate the opponent's moves better.",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nHistory:"
+    }
+  ]
+}

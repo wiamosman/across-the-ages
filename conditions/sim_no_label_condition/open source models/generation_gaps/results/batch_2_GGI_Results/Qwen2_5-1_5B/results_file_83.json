@@ -1,0 +1,79 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 83,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down",
+            "target": "Target (granddaughter): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): This thing is very important. I'll tell you why. Now, that's because they don't want you to take it up and do what you did and just put it down. So move it over right here. That. All right, kind of right there where it's going to go down the edge. All right, now, now to get this to go down | Speaker B (granddaughter): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up?",
+            "target": "Target (grandfather): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions!",
+            "gold_label": "ignored input",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Wait, I love the sound it makes! It sounds like a little drum beat. Can I just make it go faster so the beat speeds up? | Speaker B (grandfather): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions!",
+            "target": "Target (granddaughter): I can't help it, it's catchy! Look at the needle go, it's dancing.",
+            "gold_label": "ignored input",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Gigi, you aren't listening. If you go too fast without guiding the fabric, you'll snap the thread or worse, hit your finger. You're just hearing the music, not the instructions! | Speaker B (granddaughter): I can't help it, it's catchy! Look at the needle go, it's dancing.",
+            "target": "Target (grandfather): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): I can't help it, it's catchy! Look at the needle go, it's dancing. | Speaker B (grandfather): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat.",
+            "target": "Target (granddaughter): there you go. You know what you should do? Just slowly go down?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Alright, alright. If we're going to have a concert, we might as well do it right. Everything stop! We are stalling the sewing until we get the energy right. You want a beat? I'll give you a beat. | Speaker B (granddaughter): there you go. You know what you should do? Just slowly go down?",
+            "target": "Target (grandfather): It's going. You see it?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): there you go. You know what you should do? Just slowly go down? | Speaker B (grandfather): It's going. You see it?",
+            "target": "Target (granddaughter): Oh yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): It's going. You see it? | Speaker B (granddaughter): Oh yeah.",
+            "target": "Target (grandfather): And you know what? That saves the needle there. There's a little needle underneath. Oh, I'm ready to dance! Hey, let's dance! Come on, Gigi! We gotta get you some better speakers.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        }
+    ]
+}

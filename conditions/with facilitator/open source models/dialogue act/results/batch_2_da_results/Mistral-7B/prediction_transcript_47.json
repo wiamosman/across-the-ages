@@ -1,0 +1,271 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 47,
+  "utterances": [
+    {
+      "text": "Hello dear, how was your day?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Hi Grandma! My day was pretty good, just a bit busy with schoolwork.",
+      "golden": "answer",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "Yes, I did play it. It's such a beautiful piece, don't you think?",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Yes, it's really lovely! I wish I could play like you.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion"
+    },
+    {
+      "text": "Alright, I'll keep that in mind. It's always a bit tricky to adjust, but I'll give it my best shot.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\ncommand\nacknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I know you'll do great. Let me know if you need any help.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you for explaining, dear. I'll focus on keeping the 'tick-tocks' even as I play.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're welcome! I'm sure you'll master it in no time.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, dear, that would be helpful. Let's try it together.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Great! I'm excited to help you with it. Let's start whenever you're ready.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: You'"
+    },
+    {
+      "text": "Tick-tock, tick-tock, I'm getting the hang of it! Thank you for your patience, dear.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I'm glad to hear that! You're doing amazing, keep it up!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I'"
+    },
+    {
+      "text": "Oh, I see! I'll try to slow it down a bit. Thank you for pointing that out.",
+      "golden": "statement-opinion",
+      "predicted": "others",
+      "raw": "acknowledgement"
+    },
+    {
+      "text": "No problem at all! I'm here to help whenever you need.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, did you need to get something? Let me know if you need any help.",
+      "golden": "question",
+      "predicted": "others",
+      "raw": "offer\n\nHistory:\nTurn: Oh,"
+    },
+    {
+      "text": "Thanks, Grandma! I'm all set for now, but I'll definitely ask if I need anything.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, if you change your mind, I'm here to help. Just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate it. You're the best!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thanks,"
+    },
+    {
+      "text": "Alright, dear, I'll keep going. Let me know if I'm doing it right.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing great, Grandma! If you need any help, just ask.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're doing great with your rhythm! Let me know if you want to try something different.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandma! I'm having so much fun with this.",
+      "golden": "acknowledge",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, I see! So I should keep the tempo consistent throughout the song?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Yes, keeping the tempo consistent is important. It helps the song flow better.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\n\nStatement explaining the reasoning behind the label"
+    },
+    {
+      "text": "Thank you for explaining that to me. I'll try to keep the tempo consistent and balance the notes as you said.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm glad I could help. Let me know if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll give it another try and count faster this time. Let's see how it goes!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Sounds great! I'm sure you'll do amazing. Just keep practicing and you'll get the hang of it.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, that makes perfect sense. Thank you for being so patient and explaining it to me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm always here to help you out. Let me know if you have any more questions.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: You'"
+    },
+    {
+      "text": "That's a great idea! I'll try saying the letter names while playing. Thank you for the tip!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: That'"
+    },
+    {
+      "text": "I'm glad you found it helpful! Let me know how it goes when you try it out.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll focus on keeping the speed consistent and saying the letter names. Thank you for guiding me through this!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Alright"
+    },
+    {
+      "text": "You're doing great! Keep it up and let me know if you need any more help.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll try to keep it slower and focus on playing the C chord with my left hand. Thank you for showing me how to do it!",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "You're welcome! I'm here if you need any more tips or have questions.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you for explaining the C chord to me. I'll practice recognizing the notes and counting the tick-tocks as you suggested.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I'm glad to hear that! Keep practicing and you'll get even better.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, let's give it a try. I'll focus on playing the C chord as you instructed.",
+      "golden": "statement-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Great! I'm sure you'll do amazing. Let me know if you need any more help.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Tick-tock, tick-tock, I'm getting the hang of it!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion\n\nHistory"
+    },
+    {
+      "text": "That's awesome! You're really getting it. Keep going!",
+      "golden": "backchannel",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thank you, dear! I'm so glad I got it right. I'll keep practicing counting out loud.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Tick"
+    },
+    {
+      "text": "You're doing great! I'm here if you need anything else.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

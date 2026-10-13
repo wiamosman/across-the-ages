@@ -1,0 +1,90 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 34,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): yeah okay all right you don't want to , listen papa don't hit the thing hit the ball see at the ball you're anxious",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): yeah okay all right you don't want to , listen papa don't hit the thing hit the ball see at the ball you're anxious",
+            "target": "Target (grandson): oooooh!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): yeah okay all right you don't want to , listen papa don't hit the thing hit the ball see at the ball you're anxious | Speaker B (grandson): oooooh!",
+            "target": "Target (grandfather): okay. see?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): oooooh! | Speaker B (grandfather): okay. see?",
+            "target": "Target (grandson): what the heck? what the heck's wrong with you? hhhhhhhhhhhh",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): okay. see? | Speaker B (grandson): what the heck? what the heck's wrong with you? hhhhhhhhhhhh",
+            "target": "Target (grandfather): you. we've already been through it. we've already been through it. let's get on with it. yeah. go!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): what the heck? what the heck's wrong with you? hhhhhhhhhhhh | Speaker B (grandfather): you. we've already been through it. we've already been through it. let's get on with it. yeah. go!",
+            "target": "Target (grandson): oooook!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): you. we've already been through it. we've already been through it. let's get on with it. yeah. go! | Speaker B (grandson): oooook!",
+            "target": "Target (grandfather): hit it!all right. good job. there you go. good job!  he's got. he's got a better swing off the tee. great.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): oooook! | Speaker B (grandfather): hit it!all right. good job. there you go. good job!  he's got. he's got a better swing off the tee. great.",
+            "target": "Target (grandson): ok now again 1,2,3 ..",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): hit it!all right. good job. there you go. good job!  he's got. he's got a better swing off the tee. great. | Speaker B (grandson): ok now again 1,2,3 ..",
+            "target": "Target (grandfather): oh, that's how bobby's. we want a pitcher, not a belly itcher.i'll get. i'll get the next one down. all right. ready?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): ok now again 1,2,3 .. | Speaker B (grandfather): oh, that's how bobby's. we want a pitcher, not a belly itcher.i'll get. i'll get the next one down. all right. ready?",
+            "target": "Target (grandson): yeeeehhhh!",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): oh, that's how bobby's. we want a pitcher, not a belly itcher.i'll get. i'll get the next one down. all right. ready? | Speaker B (grandson): yeeeehhhh!",
+            "target": "Target (grandfather): come on, man. i got the back wheel. gonna hit the cool.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): yeeeehhhh! | Speaker B (grandfather): come on, man. i got the back wheel. gonna hit the cool.",
+            "target": "Target (grandson): ok ....yeaaah!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

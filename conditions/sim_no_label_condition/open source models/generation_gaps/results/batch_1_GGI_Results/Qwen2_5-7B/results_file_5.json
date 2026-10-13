@@ -1,0 +1,573 @@
+{
+    "model_used": "Qwen2.5-7B",
+    "file_index": 5,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): good morning. how are you doing today? what time did you wake up? grandma, i know i've asked you this question off camera. i just want to ask you again, you know, we start. well, hi everybody. my name is nubuke and this is my darling grandma mugs. grandma, what are we cooking today?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): good morning. how are you doing today? what time did you wake up? grandma, i know i've asked you this question off camera. i just want to ask you again, you know, we start. well, hi everybody. my name is nubuke and this is my darling grandma mugs. grandma, what are we cooking today?",
+            "target": "Target (grandmother): okra soup.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): good morning. how are you doing today? what time did you wake up? grandma, i know i've asked you this question off camera. i just want to ask you again, you know, we start. well, hi everybody. my name is nubuke and this is my darling grandma mugs. grandma, what are we cooking today? | Speaker B (grandmother): okra soup.",
+            "target": "Target (granddaughter): woo. we're cooking some okra soup. soup. and so grandma's gonna teach me. homegirl has so graciously offered to teach me how to cook okra soup again and bring you guys along for the journey. thank you. grandma, do you think everybody should know how to cook?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): okra soup. | Speaker B (granddaughter): woo. we're cooking some okra soup. soup. and so grandma's gonna teach me. homegirl has so graciously offered to teach me how to cook okra soup again and bring you guys along for the journey. thank you. grandma, do you think everybody should know how to cook?",
+            "target": "Target (grandmother): everybody should cook.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): woo. we're cooking some okra soup. soup. and so grandma's gonna teach me. homegirl has so graciously offered to teach me how to cook okra soup again and bring you guys along for the journey. thank you. grandma, do you think everybody should know how to cook? | Speaker B (grandmother): everybody should cook.",
+            "target": "Target (granddaughter): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): everybody should cook. | Speaker B (granddaughter): yeah.",
+            "target": "Target (grandmother): you know how to cook some food?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): yeah. | Speaker B (grandmother): you know how to cook some food?",
+            "target": "Target (granddaughter): yeah. yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): you know how to cook some food? | Speaker B (granddaughter): yeah. yeah.",
+            "target": "Target (grandmother): especially what you like to eat.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): yeah. yeah. | Speaker B (grandmother): especially what you like to eat.",
+            "target": "Target (granddaughter): that's true. let's go. did you actually kill the goat?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): especially what you like to eat. | Speaker B (granddaughter): that's true. let's go. did you actually kill the goat?",
+            "target": "Target (grandmother): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): that's true. let's go. did you actually kill the goat? | Speaker B (grandmother): yes.",
+            "target": "Target (granddaughter): you killed the goat yourself.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): yes. | Speaker B (granddaughter): you killed the goat yourself.",
+            "target": "Target (grandmother): hey, you cannot kill it yourself",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): you killed the goat yourself. | Speaker B (grandmother): hey, you cannot kill it yourself",
+            "target": "Target (granddaughter): i don't know what you can do. i don't know what you've done in your life. what's this?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): hey, you cannot kill it yourself | Speaker B (granddaughter): i don't know what you can do. i don't know what you've done in your life. what's this?",
+            "target": "Target (grandmother): okra.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): i don't know what you can do. i don't know what you've done in your life. what's this? | Speaker B (grandmother): okra.",
+            "target": "Target (granddaughter): okra, okay, boil okra. and then when you remove the bones, when you put it in the soup. no? the bones are part of the soup.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): okra. | Speaker B (granddaughter): okra, okay, boil okra. and then when you remove the bones, when you put it in the soup. no? the bones are part of the soup.",
+            "target": "Target (grandmother): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): okra, okay, boil okra. and then when you remove the bones, when you put it in the soup. no? the bones are part of the soup. | Speaker B (grandmother): yes.",
+            "target": "Target (granddaughter): okay. what do you think the most exciting thing you've cooked is? the hardest and then the easiest thing you've cooked. how about that?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): yes. | Speaker B (granddaughter): okay. what do you think the most exciting thing you've cooked is? the hardest and then the easiest thing you've cooked. how about that?",
+            "target": "Target (grandmother): hard, hard cooking.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): okay. what do you think the most exciting thing you've cooked is? the hardest and then the easiest thing you've cooked. how about that? | Speaker B (grandmother): hard, hard cooking.",
+            "target": "Target (granddaughter): hey, i'm sorry. hey, not everybody can cook as brilliantly as you, grandma. growing up, who taught you how to cook?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): hard, hard cooking. | Speaker B (granddaughter): hey, i'm sorry. hey, not everybody can cook as brilliantly as you, grandma. growing up, who taught you how to cook?",
+            "target": "Target (grandmother): my mom",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (granddaughter): hey, i'm sorry. hey, not everybody can cook as brilliantly as you, grandma. growing up, who taught you how to cook? | Speaker B (grandmother): my mom",
+            "target": "Target (granddaughter): your mama! would you say, what age did you start learning how to cook?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandmother): my mom | Speaker B (granddaughter): your mama! would you say, what age did you start learning how to cook?",
+            "target": "Target (grandmother): you start grinding the pepper first. grind the pepper, onion, everything.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (granddaughter): your mama! would you say, what age did you start learning how to cook? | Speaker B (grandmother): you start grinding the pepper first. grind the pepper, onion, everything.",
+            "target": "Target (granddaughter): yeah, i was gonna say, do you. what do you. what do you prefer in terms of like? well, surely the blender is easier to use than the grinding stone.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandmother): you start grinding the pepper first. grind the pepper, onion, everything. | Speaker B (granddaughter): yeah, i was gonna say, do you. what do you. what do you prefer in terms of like? well, surely the blender is easier to use than the grinding stone.",
+            "target": "Target (grandmother): it's easier.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (granddaughter): yeah, i was gonna say, do you. what do you. what do you prefer in terms of like? well, surely the blender is easier to use than the grinding stone. | Speaker B (grandmother): it's easier.",
+            "target": "Target (granddaughter): but you won't say your arms are strong, you know, because of the. so what time would you wake up then?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandmother): it's easier. | Speaker B (granddaughter): but you won't say your arms are strong, you know, because of the. so what time would you wake up then?",
+            "target": "Target (grandmother): by 5am",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (granddaughter): but you won't say your arms are strong, you know, because of the. so what time would you wake up then? | Speaker B (grandmother): by 5am",
+            "target": "Target (granddaughter): 5am?! what would you say your morning routine in like the village was?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandmother): by 5am | Speaker B (granddaughter): 5am?! what would you say your morning routine in like the village was?",
+            "target": "Target (grandmother): you woke up at 5 am and do the housework",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (granddaughter): 5am?! what would you say your morning routine in like the village was? | Speaker B (grandmother): you woke up at 5 am and do the housework",
+            "target": "Target (granddaughter): housework? like what? yeah. so you have plenty cousins. so didn't that make it easier?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandmother): you woke up at 5 am and do the housework | Speaker B (granddaughter): housework? like what? yeah. so you have plenty cousins. so didn't that make it easier?",
+            "target": "Target (grandmother): yeah, we rotate.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (granddaughter): housework? like what? yeah. so you have plenty cousins. so didn't that make it easier? | Speaker B (grandmother): yeah, we rotate.",
+            "target": "Target (granddaughter): okay, so you wake up, you do your chores,  then you go to school.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandmother): yeah, we rotate. | Speaker B (granddaughter): okay, so you wake up, you do your chores,  then you go to school.",
+            "target": "Target (grandmother): then you go to school. if you have a plot to sweep at school, you have to go early and sweep.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (granddaughter): okay, so you wake up, you do your chores,  then you go to school. | Speaker B (grandmother): then you go to school. if you have a plot to sweep at school, you have to go early and sweep.",
+            "target": "Target (granddaughter): oh! so you sweep in the house, then you go to school and you sweep in school?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandmother): then you go to school. if you have a plot to sweep at school, you have to go early and sweep. | Speaker B (granddaughter): oh! so you sweep in the house, then you go to school and you sweep in school?",
+            "target": "Target (grandmother): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (granddaughter): oh! so you sweep in the house, then you go to school and you sweep in school? | Speaker B (grandmother): yes.",
+            "target": "Target (granddaughter): oh my god.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandmother): yes. | Speaker B (granddaughter): oh my god.",
+            "target": "Target (grandmother): are we going to sweep your company?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (granddaughter): oh my god. | Speaker B (grandmother): are we going to sweep your company?",
+            "target": "Target (granddaughter): to be fair, i did do that when i was in university primary and then even in cis, we swept like the hallways and stuff. yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandmother): are we going to sweep your company? | Speaker B (granddaughter): to be fair, i did do that when i was in university primary and then even in cis, we swept like the hallways and stuff. yes.",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (granddaughter): to be fair, i did do that when i was in university primary and then even in cis, we swept like the hallways and stuff. yes. | Speaker B (grandmother): yeah.",
+            "target": "Target (granddaughter): clearly you have a knack for fashion. why didn't you go to fashion school? huh?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (granddaughter): clearly you have a knack for fashion. why didn't you go to fashion school? huh?",
+            "target": "Target (grandmother): i'm not cut for that. i just wanted to teach.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (granddaughter): clearly you have a knack for fashion. why didn't you go to fashion school? huh? | Speaker B (grandmother): i'm not cut for that. i just wanted to teach.",
+            "target": "Target (granddaughter): how was that like the transition from saying that, okay, i want this like goal and then i have this goal when i got it. did you always know that this would, like, this would happen? so for example, me, i'm here, i want to do acting. but really, it's like the craziest career goal i could have decided to pick.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandmother): i'm not cut for that. i just wanted to teach. | Speaker B (granddaughter): how was that like the transition from saying that, okay, i want this like goal and then i have this goal when i got it. did you always know that this would, like, this would happen? so for example, me, i'm here, i want to do acting. but really, it's like the craziest career goal i could have decided to pick.",
+            "target": "Target (grandmother): i've always wanted to teach. yeah, i've taught for a long time.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (granddaughter): how was that like the transition from saying that, okay, i want this like goal and then i have this goal when i got it. did you always know that this would, like, this would happen? so for example, me, i'm here, i want to do acting. but really, it's like the craziest career goal i could have decided to pick. | Speaker B (grandmother): i've always wanted to teach. yeah, i've taught for a long time.",
+            "target": "Target (granddaughter): okay. oh wow. wait, wait, wait. hold on. so you did the teaching and everything and then you resigned because you were setting up a school? where was the school going to be? in accra.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): i've always wanted to teach. yeah, i've taught for a long time. | Speaker B (granddaughter): okay. oh wow. wait, wait, wait. hold on. so you did the teaching and everything and then you resigned because you were setting up a school? where was the school going to be? in accra.",
+            "target": "Target (grandmother): in teshi.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (granddaughter): okay. oh wow. wait, wait, wait. hold on. so you did the teaching and everything and then you resigned because you were setting up a school? where was the school going to be? in accra. | Speaker B (grandmother): in teshi.",
+            "target": "Target (grandmother): in teshi. so what happens when you decide you're going to set up the school and then the school didn't work out?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): in teshi. | Speaker B (grandmother): in teshi. so what happens when you decide you're going to set up the school and then the school didn't work out?",
+            "target": "Target (grandmother): i started making flowers.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): in teshi. so what happens when you decide you're going to set up the school and then the school didn't work out? | Speaker B (grandmother): i started making flowers.",
+            "target": "Target (granddaughter): but surely you cried and you were sad.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): i started making flowers. | Speaker B (granddaughter): but surely you cried and you were sad.",
+            "target": "Target (grandmother): i was disappointed , why should i cry?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (granddaughter): but surely you cried and you were sad. | Speaker B (grandmother): i was disappointed , why should i cry?",
+            "target": "Target (granddaughter): because your dreams and your goals and the thing that you wanted didn't come.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): i was disappointed , why should i cry? | Speaker B (granddaughter): because your dreams and your goals and the thing that you wanted didn't come.",
+            "target": "Target (grandmother): and when you cry, would it come?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (granddaughter): because your dreams and your goals and the thing that you wanted didn't come. | Speaker B (grandmother): and when you cry, would it come?",
+            "target": "Target (granddaughter): i guess my question is there are so many other career paths that you could have chosen apart from teaching. why gardening? and so did the business then take off?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): and when you cry, would it come? | Speaker B (granddaughter): i guess my question is there are so many other career paths that you could have chosen apart from teaching. why gardening? and so did the business then take off?",
+            "target": "Target (grandmother): because i like that ,, oh yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (granddaughter): i guess my question is there are so many other career paths that you could have chosen apart from teaching. why gardening? and so did the business then take off? | Speaker B (grandmother): because i like that ,, oh yes.",
+            "target": "Target (granddaughter): oh wow. so did you feel like that was like very gratifying? because i mean, very well. that makes me so happy. oh, grandma, that's so cool. okay. you ended up moving. moving from teshinungwa to",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): because i like that ,, oh yes. | Speaker B (granddaughter): oh wow. so did you feel like that was like very gratifying? because i mean, very well. that makes me so happy. oh, grandma, that's so cool. okay. you ended up moving. moving from teshinungwa to",
+            "target": "Target (grandmother): bookwise. okay. and that stopped the business.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (granddaughter): oh wow. so did you feel like that was like very gratifying? because i mean, very well. that makes me so happy. oh, grandma, that's so cool. okay. you ended up moving. moving from teshinungwa to | Speaker B (grandmother): bookwise. okay. and that stopped the business.",
+            "target": "Target (granddaughter): so right now, i mean, you're a sexy 80 year old. 85 year old. i'm sorry. i'm sorry. sexy, sexy 85 year old woman cooking okra soup, eh? being stressed out by her granddaughter.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): bookwise. okay. and that stopped the business. | Speaker B (granddaughter): so right now, i mean, you're a sexy 80 year old. 85 year old. i'm sorry. i'm sorry. sexy, sexy 85 year old woman cooking okra soup, eh? being stressed out by her granddaughter.",
+            "target": "Target (grandmother): you like stressing me out?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (granddaughter): so right now, i mean, you're a sexy 80 year old. 85 year old. i'm sorry. i'm sorry. sexy, sexy 85 year old woman cooking okra soup, eh? being stressed out by her granddaughter. | Speaker B (grandmother): you like stressing me out?",
+            "target": "Target (granddaughter): yeah. cause grandma is my job. what is a day in the life of. because you are social. you are very social. should i get your phone? like i said, she's a very social woman. exhibit a. yeah, but i was asking you, don't you ever get bored? and you're telling me no?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): you like stressing me out? | Speaker B (granddaughter): yeah. cause grandma is my job. what is a day in the life of. because you are social. you are very social. should i get your phone? like i said, she's a very social woman. exhibit a. yeah, but i was asking you, don't you ever get bored? and you're telling me no?",
+            "target": "Target (grandmother): no, i don't get bored. why should i get bored?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (granddaughter): yeah. cause grandma is my job. what is a day in the life of. because you are social. you are very social. should i get your phone? like i said, she's a very social woman. exhibit a. yeah, but i was asking you, don't you ever get bored? and you're telling me no? | Speaker B (grandmother): no, i don't get bored. why should i get bored?",
+            "target": "Target (granddaughter): because i don't know, i feel like you need to be watching movies or something.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): no, i don't get bored. why should i get bored? | Speaker B (granddaughter): because i don't know, i feel like you need to be watching movies or something.",
+            "target": "Target (grandmother): no, i don't like watching movies.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (granddaughter): because i don't know, i feel like you need to be watching movies or something. | Speaker B (grandmother): no, i don't like watching movies.",
+            "target": "Target (granddaughter): you don't like watching movies during the day?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): no, i don't like watching movies. | Speaker B (granddaughter): you don't like watching movies during the day?",
+            "target": "Target (grandmother): no. even the tv? i see the tv on from 5:30, watch documentary.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (granddaughter): you don't like watching movies during the day? | Speaker B (grandmother): no. even the tv? i see the tv on from 5:30, watch documentary.",
+            "target": "Target (granddaughter): yeah, yeah.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandmother): no. even the tv? i see the tv on from 5:30, watch documentary. | Speaker B (granddaughter): yeah, yeah.",
+            "target": "Target (grandmother): and then the news. after the news, i see you talk, go upstairs, have my evening devotion.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (granddaughter): yeah, yeah. | Speaker B (grandmother): and then the news. after the news, i see you talk, go upstairs, have my evening devotion.",
+            "target": "Target (granddaughter): oh my, so many devotions. three devotions, grandma. three.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): and then the news. after the news, i see you talk, go upstairs, have my evening devotion. | Speaker B (granddaughter): oh my, so many devotions. three devotions, grandma. three.",
+            "target": "Target (grandmother): it's not three. yeah, it's three. yeah. when i was younger, i was sleeping a lot. but now, when you are old, you don't sleep.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (granddaughter): oh my, so many devotions. three devotions, grandma. three. | Speaker B (grandmother): it's not three. yeah, it's three. yeah. when i was younger, i was sleeping a lot. but now, when you are old, you don't sleep.",
+            "target": "Target (granddaughter): you don't sleep home. and if you said wake up at 3am, you wake up. wake up at 5.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): it's not three. yeah, it's three. yeah. when i was younger, i was sleeping a lot. but now, when you are old, you don't sleep. | Speaker B (granddaughter): you don't sleep home. and if you said wake up at 3am, you wake up. wake up at 5.",
+            "target": "Target (grandmother): wake up at 3am my body will tell me and i'll wake up.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (granddaughter): you don't sleep home. and if you said wake up at 3am, you wake up. wake up at 5. | Speaker B (grandmother): wake up at 3am my body will tell me and i'll wake up.",
+            "target": "Target (granddaughter): that's crazy. i can't do that.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandmother): wake up at 3am my body will tell me and i'll wake up. | Speaker B (granddaughter): that's crazy. i can't do that.",
+            "target": "Target (grandmother): that is you.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (granddaughter): that's crazy. i can't do that. | Speaker B (grandmother): that is you.",
+            "target": "Target (granddaughter): yeah, that is me. you are a force to be reckoned with. what would you tell young margaret who has experienced things if you could go back?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandmother): that is you. | Speaker B (granddaughter): yeah, that is me. you are a force to be reckoned with. what would you tell young margaret who has experienced things if you could go back?",
+            "target": "Target (grandmother): you have to make yourself busy all the time. busy if you don't sit down idly.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (granddaughter): yeah, that is me. you are a force to be reckoned with. what would you tell young margaret who has experienced things if you could go back? | Speaker B (grandmother): you have to make yourself busy all the time. busy if you don't sit down idly.",
+            "target": "Target (granddaughter): okay.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandmother): you have to make yourself busy all the time. busy if you don't sit down idly. | Speaker B (granddaughter): okay.",
+            "target": "Target (grandmother): something to do all the time.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (granddaughter): okay. | Speaker B (grandmother): something to do all the time.",
+            "target": "Target (granddaughter): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandmother): something to do all the time. | Speaker B (granddaughter): yeah.",
+            "target": "Target (grandmother): you can read. you can do gardening. you can cook. you can join clubs.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (granddaughter): yeah. | Speaker B (grandmother): you can read. you can do gardening. you can cook. you can join clubs.",
+            "target": "Target (granddaughter): yeah.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandmother): you can read. you can do gardening. you can cook. you can join clubs. | Speaker B (granddaughter): yeah.",
+            "target": "Target (grandmother): yes. and go out. don't sit in your house. i think we are the only person.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (granddaughter): yeah. | Speaker B (grandmother): yes. and go out. don't sit in your house. i think we are the only person.",
+            "target": "Target (granddaughter): don't sit in your house and think. you are the only person. don't be idle. do something. i cannot believe i've been able to get you here. this is great and thank you. okay, guys, so we just saw that video with my grandma teaching us how to make okuro soup, which i'm actually going to attempt to do on my own. i'll bring it to you for tasting. grandma, she just showed me that you add baking soda sometimes so that it.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandmother): yes. and go out. don't sit in your house. i think we are the only person. | Speaker B (granddaughter): don't sit in your house and think. you are the only person. don't be idle. do something. i cannot believe i've been able to get you here. this is great and thank you. okay, guys, so we just saw that video with my grandma teaching us how to make okuro soup, which i'm actually going to attempt to do on my own. i'll bring it to you for tasting. grandma, she just showed me that you add baking soda sometimes so that it.",
+            "target": "Target (grandmother): sometimes.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (granddaughter): don't sit in your house and think. you are the only person. don't be idle. do something. i cannot believe i've been able to get you here. this is great and thank you. okay, guys, so we just saw that video with my grandma teaching us how to make okuro soup, which i'm actually going to attempt to do on my own. i'll bring it to you for tasting. grandma, she just showed me that you add baking soda sometimes so that it. | Speaker B (grandmother): sometimes.",
+            "target": "Target (granddaughter): sorry, not sometimes. all the time. or a local spice rock called kawa kawi. or you add kawaii to make it slimier. you grate the okra and then you power boil it if you want to cut it. what's power boil? don't look at me. i don't speak tree. i'm not a khan, i'm not ashanti. i don't speak tree. i speak.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch"
+        }
+    ]
+}

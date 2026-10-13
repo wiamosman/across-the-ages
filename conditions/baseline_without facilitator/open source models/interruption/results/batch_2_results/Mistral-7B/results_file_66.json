@@ -1,0 +1,952 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson interrupts his grandmother by asking a question un"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?",
+    "target": "Speaker A (grandmother) (Target): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A's response is a clear answer to Speaker B's question and does not interrupt"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Does someone want to tell me why my grandma hangs up plastic bags outside her house? Why are you hanging bags outside?\nSpeaker B (grandmother): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.",
+    "target": "Speaker A (grandson) (Target): Hey, you guys!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis intervention does not disrupt the conversation or change the topic. Instead, it is used to get"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): Bags? My bathing suits were in the bags, and I hang them on the line when I could, and then I could use them again.\nSpeaker B (grandson): Hey, you guys!",
+    "target": "Speaker A (grandmother) (Target): Hi, fellas and girls, I'm driving! That's the way it goes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandmother interrupts her own story to acknowledge Speaker B'"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Hey, you guys!\nSpeaker B (grandmother): Hi, fellas and girls, I'm driving! That's the way it goes.",
+    "target": "Speaker A (grandson) (Target): That's the way it goes, okay?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Hi, fellas and girls, I'm driving! That's the way it goes.\nSpeaker B (grandson): That's the way it goes, okay?",
+    "target": "Speaker A (grandmother) (Target): That car going fast. What are you doing? I drive nice and slow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a continuation of her previous statement, and she fin"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): That's the way it goes, okay?\nSpeaker B (grandmother): That car going fast. What are you doing? I drive nice and slow.",
+    "target": "Speaker A (grandson) (Target): She drives like a grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother but agrees with her statement,"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): That car going fast. What are you doing? I drive nice and slow.\nSpeaker B (grandson): She drives like a grandma.",
+    "target": "Speaker A (grandmother) (Target): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson but does so cooperatively by"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): She drives like a grandma.\nSpeaker B (grandmother): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.",
+    "target": "Speaker A (grandson) (Target): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A interrupts Speaker B to provide information related to"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): Wait, that's a new sign. Kids are walking. Kids are walking ahead, watch it. For school.\nSpeaker B (grandson): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.",
+    "target": "Speaker A (grandmother) (Target): How do you know about lighting?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention\n\nExplanation: The grandmother interrupts her grandson mid-sentence to ask"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Kids are walking ahead, watch it. Park back over there. I'm trying to find the best lighting.\nSpeaker B (grandmother): How do you know about lighting?",
+    "target": "Speaker A (grandson) (Target): I went to art school for a year, Grandma, remember?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is not an interruption as he is providing"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): How do you know about lighting?\nSpeaker B (grandson): I went to art school for a year, Grandma, remember?",
+    "target": "Speaker A (grandmother) (Target): Oh yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): I went to art school for a year, Grandma, remember?\nSpeaker B (grandmother): Oh yeah.",
+    "target": "Speaker A (grandson) (Target): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence to share"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Oh yeah.\nSpeaker B (grandson): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.",
+    "target": "Speaker A (grandmother) (Target): Oh, isn't that awful?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel, acknowledging her grandson's"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Yeah, so we parked the car because I don't trust my grandma's driving enough to be driving around.\nSpeaker B (grandmother): Oh, isn't that awful?",
+    "target": "Speaker A (grandson) (Target): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a response to the grandmother's statement and does"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): Oh, isn't that awful?\nSpeaker B (grandson): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?",
+    "target": "Speaker A (grandmother) (Target): Turned up?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel, acknowledging her grandson's"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): 3 years ago I taught you some slang terms, Grandma. What does it mean to get turnt up?\nSpeaker B (grandmother): Turned up?",
+    "target": "Speaker A (grandson) (Target): Turnt.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a standard backchannel, acknowledging that his grandmother"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): Turned up?\nSpeaker B (grandson): Turnt.",
+    "target": "Speaker A (grandmother) (Target): I have no idea what that word is.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation as she is asking for"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Turnt.\nSpeaker B (grandmother): I have no idea what that word is.",
+    "target": "Speaker A (grandson) (Target): Turnt up, do it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence and changes"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): I have no idea what that word is.\nSpeaker B (grandson): Turnt up, do it.",
+    "target": "Speaker A (grandmother) (Target): Oh, turn up. Yeah. Something to eat.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response \"Oh, turn up. Yeah. Something to"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): Turnt up, do it.\nSpeaker B (grandmother): Oh, turn up. Yeah. Something to eat.",
+    "target": "Speaker A (grandson) (Target): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a backchannel agreement with his grandmother's statement, acknowled"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): Oh, turn up. Yeah. Something to eat.\nSpeaker B (grandson): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?",
+    "target": "Speaker A (grandmother) (Target): I guess so.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Obviously a lot's changed since 2014. I'm gonna teach my grandma some new slang terms that the kids are using these days. And yeah, do you want to do that?\nSpeaker B (grandmother): I guess so.",
+    "target": "Speaker A (grandson) (Target): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's turn is a natural response to his grandmother's agreement to"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): I guess so.\nSpeaker B (grandson): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.",
+    "target": "Speaker A (grandmother) (Target): What makes you think that I'm gonna know what it is?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation as she is asking for"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): I'm just gonna say a slang term and then you're gonna tell me what it is based off of what you think.\nSpeaker B (grandmother): What makes you think that I'm gonna know what it is?",
+    "target": "Speaker A (grandson) (Target): You're a smart woman, Grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): What makes you think that I'm gonna know what it is?\nSpeaker B (grandson): You're a smart woman, Grandma.",
+    "target": "Speaker A (grandmother) (Target): Oh yeah, smart.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "cooperative agreement",
+    "pred_type": "none",
+    "raw_output": "Role: cooperative agreement\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): You're a smart woman, Grandma.\nSpeaker B (grandmother): Oh yeah, smart.",
+    "target": "Speaker A (grandson) (Target): Netflix and chill.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence to introduce"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): Oh yeah, smart.\nSpeaker B (grandson): Netflix and chill.",
+    "target": "Speaker A (grandmother) (Target): Nif— what? Oh, when I hang out with somebody you could get chilled?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response \"Nif— what?\" is a backchannel, which"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): Netflix and chill.\nSpeaker B (grandmother): Nif— what? Oh, when I hang out with somebody you could get chilled?",
+    "target": "Speaker A (grandson) (Target): Kind of. It means like hooking up with somebody.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother to clarify the meaning of"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): Nif— what? Oh, when I hang out with somebody you could get chilled?\nSpeaker B (grandson): Kind of. It means like hooking up with somebody.",
+    "target": "Speaker A (grandmother) (Target): Oh, hooking up with somebody.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation as she clarified her"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): Kind of. It means like hooking up with somebody.\nSpeaker B (grandmother): Oh, hooking up with somebody.",
+    "target": "Speaker A (grandson) (Target): What does it mean when someone spills the tea?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A (grandson) completes his previous statement before"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Oh, hooking up with somebody.\nSpeaker B (grandson): What does it mean when someone spills the tea?",
+    "target": "Speaker A (grandmother) (Target): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a backchannel, which is a common conversational practice"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandson): What does it mean when someone spills the tea?\nSpeaker B (grandmother): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"",
+    "target": "Speaker A (grandson) (Target): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts his grandmother to clarify the meaning of"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandmother): If somebody that you don't care for, then while they're talking, you could, \"Oh, I'm sorry.\"\nSpeaker B (grandson): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.",
+    "target": "Speaker A (grandmother) (Target): Did you hear this? He's making up stories.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging what her grandson"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandson): No, it's not a literal thing, Grandma. You're spilling verbal tea, you know? Here's some tea, my grandma has a boyfriend. She doesn't really want to tell you guys yet about him.\nSpeaker B (grandmother): Did you hear this? He's making up stories.",
+    "target": "Speaker A (grandson) (Target): Why are you trying to keep secrets from them?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts his grandmother while she was in the middle"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandmother): Did you hear this? He's making up stories.\nSpeaker B (grandson): Why are you trying to keep secrets from them?",
+    "target": "Speaker A (grandmother) (Target): Seriously. Did you hear that? Did you hear that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts Speaker B but does not change the topic"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandson): Why are you trying to keep secrets from them?\nSpeaker B (grandmother): Seriously. Did you hear that? Did you hear that?",
+    "target": "Speaker A (grandson) (Target): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother to make an agreement on the"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandmother): Seriously. Did you hear that? Did you hear that?\nSpeaker B (grandson): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.",
+    "target": "Speaker A (grandmother) (Target): No, don't listen to him.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson while he was in the middle"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandson): Did you hear her? She's trying to keep secrets. I thought we were all a family here, but I guess not. She's keeping stuff from you guys, so.\nSpeaker B (grandmother): No, don't listen to him.",
+    "target": "Speaker A (grandson) (Target): We'll be doing a boyfriend tag soon with him, don't worry.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A interrupts Speaker B but does not change the"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandmother): No, don't listen to him.\nSpeaker B (grandson): We'll be doing a boyfriend tag soon with him, don't worry.",
+    "target": "Speaker A (grandmother) (Target): Oh my Lord, oh Lord, don't listen to him.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandson): We'll be doing a boyfriend tag soon with him, don't worry.\nSpeaker B (grandmother): Oh my Lord, oh Lord, don't listen to him.",
+    "target": "Speaker A (grandson) (Target): What does FOMO mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question about the meaning of FOMO (Fear Of Miss"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandmother): Oh my Lord, oh Lord, don't listen to him.\nSpeaker B (grandson): What does FOMO mean?",
+    "target": "Speaker A (grandmother) (Target): FOMO? It sounds like hello! Hello! In a different language.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandmother interrupts her grandson while he was asking a question"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandson): What does FOMO mean?\nSpeaker B (grandmother): FOMO? It sounds like hello! Hello! In a different language.",
+    "target": "Speaker A (grandson) (Target): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandmother): FOMO? It sounds like hello! Hello! In a different language.\nSpeaker B (grandson): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.",
+    "target": "Speaker A (grandmother) (Target): You ain't gonna suffer.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandson): No. See? It means fear of missing out. Like, I'm gonna have FOMO because I'm not gonna be here for your birthday. So I'm gonna be suffering, pretty much.\nSpeaker B (grandmother): You ain't gonna suffer.",
+    "target": "Speaker A (grandson) (Target): What does stan mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question about the abbreviation \"stan\" does not"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandmother): You ain't gonna suffer.\nSpeaker B (grandson): What does stan mean?",
+    "target": "Speaker A (grandmother) (Target): That guy's name is Stan. S-T-A-N, no?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging the grandson'"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandson): What does stan mean?\nSpeaker B (grandmother): That guy's name is Stan. S-T-A-N, no?",
+    "target": "Speaker A (grandson) (Target): Nope. It means like a hardcore fan. What does sauced mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question about the meaning of \"sauced\" is a"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandmother): That guy's name is Stan. S-T-A-N, no?\nSpeaker B (grandson): Nope. It means like a hardcore fan. What does sauced mean?",
+    "target": "Speaker A (grandmother) (Target): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural continuation of the conversation, as she is"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandson): Nope. It means like a hardcore fan. What does sauced mean?\nSpeaker B (grandmother): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.",
+    "target": "Speaker A (grandson) (Target): She has no idea.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandmother): Sauce? It's maybe gravy. Maybe it's some kind of meat. I have no idea.\nSpeaker B (grandson): She has no idea.",
+    "target": "Speaker A (grandmother) (Target): No idea? I never heard of these words in my life.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a continuation of her previous statement, not interrupting"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandson): She has no idea.\nSpeaker B (grandmother): No idea? I never heard of these words in my life.",
+    "target": "Speaker A (grandson) (Target): How about you tell me, what does \"idear\" mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a response to his grandmother's statement and does"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandmother): No idea? I never heard of these words in my life.\nSpeaker B (grandson): How about you tell me, what does \"idear\" mean?",
+    "target": "Speaker A (grandmother) (Target): Idear, idear.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother starts speaking while the grandson is still in the middle"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandson): How about you tell me, what does \"idear\" mean?\nSpeaker B (grandmother): Idear, idear.",
+    "target": "Speaker A (grandson) (Target): What does \"idear\" mean? Tell the people, because everyone's been wondering.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson asked a question and the grandmother started answering it before he finished. However"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandmother): Idear, idear.\nSpeaker B (grandson): What does \"idear\" mean? Tell the people, because everyone's been wondering.",
+    "target": "Speaker A (grandmother) (Target): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural part of the conversation as she is answering the"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandson): What does \"idear\" mean? Tell the people, because everyone's been wondering.\nSpeaker B (grandmother): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.",
+    "target": "Speaker A (grandson) (Target): And you're just like falling all over the place. Like how you were at your surprise party.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation,"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandmother): I can't, like, you could say, \"I don't have no idea.\" It means when you're really, really drunk.\nSpeaker B (grandson): And you're just like falling all over the place. Like how you were at your surprise party.",
+    "target": "Speaker A (grandmother) (Target): I wasn't drunk at my—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural continuation of the conversation, starting after the"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandson): And you're just like falling all over the place. Like how you were at your surprise party.\nSpeaker B (grandmother): I wasn't drunk at my—",
+    "target": "Speaker A (grandson) (Target): You were sauced, Grandma. No, I was not! Yes, you were.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: intervening speaker\nType: disruptive intervention"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandmother): I wasn't drunk at my—\nSpeaker B (grandson): You were sauced, Grandma. No, I was not! Yes, you were.",
+    "target": "Speaker A (grandmother) (Target): I couldn't dance if I was drunk.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandson): You were sauced, Grandma. No, I was not! Yes, you were.\nSpeaker B (grandmother): I couldn't dance if I was drunk.",
+    "target": "Speaker A (grandson) (Target): I had to drive you home.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother but agrees with her statement,"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandmother): I couldn't dance if I was drunk.\nSpeaker B (grandson): I had to drive you home.",
+    "target": "Speaker A (grandmother) (Target): Oh no, no.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandson): I had to drive you home.\nSpeaker B (grandmother): Oh no, no.",
+    "target": "Speaker A (grandson) (Target): I literally drove you home.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a clarification, not an interruption. He"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandmother): Oh no, no.\nSpeaker B (grandson): I literally drove you home.",
+    "target": "Speaker A (grandmother) (Target): I don't remember.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a normal turn in the conversation, as she is answering"
+  },
+  {
+    "index": 62,
+    "context": "Speaker A (grandson): I literally drove you home.\nSpeaker B (grandmother): I don't remember.",
+    "target": "Speaker A (grandson) (Target): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, providing evidence"
+  },
+  {
+    "index": 63,
+    "context": "Speaker A (grandmother): I don't remember.\nSpeaker B (grandson): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.",
+    "target": "Speaker A (grandmother) (Target): I was not. I must have had 2 drinks.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: Speaker A's response comes after Speaker B finished their statement, and"
+  },
+  {
+    "index": 64,
+    "context": "Speaker A (grandson): See, she doesn't even remember. She was so sauced. Nope, I wasn't. She was sauced.\nSpeaker B (grandmother): I was not. I must have had 2 drinks.",
+    "target": "Speaker A (grandson) (Target): What does lit mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the grandmother's statement. He is"
+  },
+  {
+    "index": 65,
+    "context": "Speaker A (grandmother): I was not. I must have had 2 drinks.\nSpeaker B (grandson): What does lit mean?",
+    "target": "Speaker A (grandmother) (Target): You could be lidding something. You could be lidding candles.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson mid-sentence to provide"
+  },
+  {
+    "index": 66,
+    "context": "Speaker A (grandson): What does lit mean?\nSpeaker B (grandmother): You could be lidding something. You could be lidding candles.",
+    "target": "Speaker A (grandson) (Target): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nExplanation: The grandson interrupts his grandmother but provides a relevant contribution to"
+  },
+  {
+    "index": 67,
+    "context": "Speaker A (grandmother): You could be lidding something. You could be lidding candles.\nSpeaker B (grandson): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?",
+    "target": "Speaker A (grandmother) (Target): Yeah, I would have been lit before.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 68,
+    "context": "Speaker A (grandson): It's when an event has high energy and it's going really well, you know, like if the party's really lit, or you can also be lit if you're just having a good time. Have you been lit before?\nSpeaker B (grandmother): Yeah, I would have been lit before.",
+    "target": "Speaker A (grandson) (Target): She's been lit.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 69,
+    "context": "Speaker A (grandmother): Yeah, I would have been lit before.\nSpeaker B (grandson): She's been lit.",
+    "target": "Speaker A (grandmother) (Target): Sure.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 70,
+    "context": "Speaker A (grandson): She's been lit.\nSpeaker B (grandmother): Sure.",
+    "target": "Speaker A (grandson) (Target): What does shook mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nIn this conversation, Speaker A (grandson) asks a question about the meaning of a term used"
+  },
+  {
+    "index": 71,
+    "context": "Speaker A (grandmother): Sure.\nSpeaker B (grandson): What does shook mean?",
+    "target": "Speaker A (grandmother) (Target): Shook? Is that shake somebody?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother is providing clarification to her grandson's question, which"
+  },
+  {
+    "index": 72,
+    "context": "Speaker A (grandson): What does shook mean?\nSpeaker B (grandmother): Shook? Is that shake somebody?",
+    "target": "Speaker A (grandson) (Target): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 73,
+    "context": "Speaker A (grandmother): Shook? Is that shake somebody?\nSpeaker B (grandson): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?",
+    "target": "Speaker A (grandmother) (Target): Oh, why would they want to shake you?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's question is a response to the grandson's explanation and does"
+  },
+  {
+    "index": 74,
+    "context": "Speaker A (grandson): When you're really surprised about something. So if I tell you I'm pregnant, you're gonna be shook by that, you know?\nSpeaker B (grandmother): Oh, why would they want to shake you?",
+    "target": "Speaker A (grandson) (Target): What does woke mean?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"What does woke mean?\" is a response to his"
+  },
+  {
+    "index": 75,
+    "context": "Speaker A (grandmother): Oh, why would they want to shake you?\nSpeaker B (grandson): What does woke mean?",
+    "target": "Speaker A (grandmother) (Target): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a natural backchannel, acknowledging the grandson'"
+  },
+  {
+    "index": 76,
+    "context": "Speaker A (grandson): What does woke mean?\nSpeaker B (grandmother): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.",
+    "target": "Speaker A (grandson) (Target): It means when you're aware of something. Are you woke, Grandma?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question does not interrupt the grandmother's response. He asks"
+  },
+  {
+    "index": 77,
+    "context": "Speaker A (grandmother): Oh, did you just get up? Woke? You're woke? No, I can't believe this word. I can't believe it.\nSpeaker B (grandson): It means when you're aware of something. Are you woke, Grandma?",
+    "target": "Speaker A (grandmother) (Target): Kevin, I don't like these questions.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: intervening speaker\nType: disruptive intervention\n\nExplanation: The grandmother interrupts her grandson while he was explaining the meaning"
+  },
+  {
+    "index": 78,
+    "context": "Speaker A (grandson): It means when you're aware of something. Are you woke, Grandma?\nSpeaker B (grandmother): Kevin, I don't like these questions.",
+    "target": "Speaker A (grandson) (Target): What is a darty?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or overlap from Speaker A (Target). The grandson"
+  },
+  {
+    "index": 79,
+    "context": "Speaker A (grandmother): Kevin, I don't like these questions.\nSpeaker B (grandson): What is a darty?",
+    "target": "Speaker A (grandmother) (Target): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother interrupts her grandson while he was asking a question"
+  },
+  {
+    "index": 80,
+    "context": "Speaker A (grandson): What is a darty?\nSpeaker B (grandmother): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.",
+    "target": "Speaker A (grandson) (Target): You can get dirty at them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 81,
+    "context": "Speaker A (grandmother): A darty? You could be smart, you could be a dumbbell, you could be— I have no idea. Sounds like dirty.\nSpeaker B (grandson): You can get dirty at them.",
+    "target": "Speaker A (grandmother) (Target): Yeah, you could get dirty.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 82,
+    "context": "Speaker A (grandson): You can get dirty at them.\nSpeaker B (grandmother): Yeah, you could get dirty.",
+    "target": "Speaker A (grandson) (Target): It's like a daytime party. So did you learn anything today, Grandma?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a natural response to the conversation and does not interrupt"
+  },
+  {
+    "index": 83,
+    "context": "Speaker A (grandmother): Yeah, you could get dirty.\nSpeaker B (grandson): It's like a daytime party. So did you learn anything today, Grandma?",
+    "target": "Speaker A (grandmother) (Target): No.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 84,
+    "context": "Speaker A (grandson): It's like a daytime party. So did you learn anything today, Grandma?\nSpeaker B (grandmother): No.",
+    "target": "Speaker A (grandson) (Target): You really didn't learn anything?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question is a clarifying one, and it does"
+  },
+  {
+    "index": 85,
+    "context": "Speaker A (grandmother): No.\nSpeaker B (grandson): You really didn't learn anything?",
+    "target": "Speaker A (grandmother) (Target): No, I didn't learn anything because I forgot those words already.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is a complete answer to the grandson's question and"
+  },
+  {
+    "index": 86,
+    "context": "Speaker A (grandson): You really didn't learn anything?\nSpeaker B (grandmother): No, I didn't learn anything because I forgot those words already.",
+    "target": "Speaker A (grandson) (Target): Grandma!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's \"Grandma!\" can be"
+  },
+  {
+    "index": 87,
+    "context": "Speaker A (grandmother): No, I didn't learn anything because I forgot those words already.\nSpeaker B (grandson): Grandma!",
+    "target": "Speaker A (grandmother) (Target): That's it. Are you kidding? I'm not gonna remember those words.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is not an interruption as she waits for her grand"
+  },
+  {
+    "index": 88,
+    "context": "Speaker A (grandson): Grandma!\nSpeaker B (grandmother): That's it. Are you kidding? I'm not gonna remember those words.",
+    "target": "Speaker A (grandson) (Target): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural continuation of the conversation, as he"
+  },
+  {
+    "index": 89,
+    "context": "Speaker A (grandmother): That's it. Are you kidding? I'm not gonna remember those words.\nSpeaker B (grandson): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.",
+    "target": "Speaker A (grandmother) (Target): Thanks for watching. I don't know where he gets his ideas from.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response is not an interruption as she waits for her grand"
+  },
+  {
+    "index": 90,
+    "context": "Speaker A (grandson): Well, I'm gonna quiz you next week, so you better study up, Grandma. Don't you dare.\nSpeaker B (grandmother): Thanks for watching. I don't know where he gets his ideas from.",
+    "target": "Speaker A (grandson) (Target): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandmother mid-sentence to promote"
+  },
+  {
+    "index": 91,
+    "context": "Speaker A (grandmother): Thanks for watching. I don't know where he gets his ideas from.\nSpeaker B (grandson): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.",
+    "target": "Speaker A (grandmother) (Target): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandmother's question does not interrupt the flow of the conversation as she is"
+  },
+  {
+    "index": 92,
+    "context": "Speaker A (grandson): If you enjoyed this video, give it a big thumbs up and be sure to subscribe. Subscribe, prescribe, prescribe, and turn on our post notifications with that little bell down there.\nSpeaker B (grandmother): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?",
+    "target": "Speaker A (grandson) (Target): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation:\nThe grandson's response is a natural continuation of his previous instructions,"
+  },
+  {
+    "index": 93,
+    "context": "Speaker A (grandmother): The bell? Kevin, I don't see a bell. There’s no bell on this telephone. Is it supposed to ring like the one on the front door?\nSpeaker B (grandson): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.",
+    "target": "Speaker A (grandmother) (Target): I’m tapping it, but nothing is ringing. This glass is just cold. Why can't things just have real buttons anymore?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A completes her thought before Speaker B starts speaking"
+  },
+  {
+    "index": 94,
+    "context": "Speaker A (grandson): No, Grandma, look right here. It’s a little picture of a bell on the screen. You just tap it so you know when I post.\nSpeaker B (grandmother): I’m tapping it, but nothing is ringing. This glass is just cold. Why can't things just have real buttons anymore?",
+    "target": "Speaker A (grandson) (Target): It doesn't ring now! It's for later. Just... forget it, I'll set it for you. If you click it, you'll get notified when we upload a video. It's really easy. Peace out, take care, God bless.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural flow as he tries to explain the functionality"
+  }
+]

@@ -1,0 +1,1889 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 24,
+    "utterances": [
+        {
+            "text": "Look at that. All right, so we're here today. I'm here to help Nono today winterize his fig tree and do some work around the garden, get prepared for winter. So what are we doing here, Nono?",
+            "golden": "introduce",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "We have to lower this tree, this branch almost down to the ground because I have to cover it up. I cannot cover it up standing up like this. It's too big. So I have to bend it.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "If I cannot bend it, then I gotta cut it.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So the reason you do this is because we're in Canada.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's too cold here. The tree needs protection from the frost.",
+            "golden": "inform",
+            "predicted": "care",
+            "raw": "care\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right? Because otherwise it'll die.",
+            "golden": "confirm",
+            "predicted": "warn",
+            "raw": "warn\n\nUtterance: I'm not",
+            "status": "WRONG"
+        },
+        {
+            "text": "It'll die, yeah.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is how Nono keeps his fig trees alive. People have been asking us because we're from a cold climate. So we're going to show you today. What are you doing now?",
+            "golden": "introduce",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, I don't want to damage the. The bark, so I need some protection for the bark. Push this towards the window.",
+            "golden": "advise",
+            "predicted": "care",
+            "raw": "care\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```\nUtter",
+            "status": "WRONG"
+        },
+        {
+            "text": "See if.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, bend it. You meant it? Yeah, yeah. It's in.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah. Okay. It's in.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```python\n# No",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Go a little more maybe. There you go.",
+            "golden": "advise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, Good, good.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Look at that contraption you made. You make that? Like what? How do you think of something like that using that as a binder? Right. I need...",
+            "golden": "praise",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "I look and I see what I need and. And I act accordingly.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "What is that called?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No, no, I call it. Come along. I don't know for sure. Yeah, it's a winch. Yeah, I think that's the name of it. If the hose is not strong enough, then I gotta use something else.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "They're using a hose.",
+            "golden": "doubt",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, that's all I got.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "There's no way that hose is strong enough.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "No. Well, maybe. If I see breaking, then I will remove it. Keep an eye on the hose in case.",
+            "golden": "warn",
+            "predicted": "warn",
+            "raw": "warn\n\nUtterance: I'm sorry",
+            "status": "CORRECT"
+        },
+        {
+            "text": "We're gonna go nice and slow.",
+            "golden": "agree",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "What's moving the hose? Oh, okay. Okay. Leave it.",
+            "golden": "advise",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "I'm leaving it. I'm leaving it. There's just no way it can hold with a modified hose. I knew it. I knew it.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I use whatever is laying around. I don't care. Keeps going up.",
+            "golden": "emphasize",
+            "predicted": "care",
+            "raw": "care\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "What do you usually use? The chain.",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "I had. I had the gadget. Oh, here it is. Now, let's see. Now once you push down that tree. But you gotta keep it down though, because I gotta be able to remove this. Maybe if I put it higher.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's good.",
+            "golden": "agree",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's good. Okay, good. Yeah. Now you don't have to worry about breaking the hose. Breaking.",
+            "golden": "comfort",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's better. What was that?",
+            "golden": "doubt",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, this is snapped here.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Is it okay?",
+            "golden": "care",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, it's okay. We have to tie this because I have to remove the winch. So we have to secure this branch first.",
+            "golden": "plan",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "And what are you using? What are those? Just wires. Like what is that?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "I've had this for 25 years.",
+            "golden": "flaunt",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Of course he did.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is the cable that used to be temporary for this house when I built it.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "What a cable tv?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Cable. Cable tv.",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "And you keep it now for to tie.",
+            "golden": "confirm",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "When they replaced put a new cable. I kept the old one and I've been using it ever since.",
+            "golden": "explain",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "To tie things.",
+            "golden": "acknowledge",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "To tie things? Yeah.",
+            "golden": "agree",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I guess. Because it's strong, right?",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Very, very strong.",
+            "golden": "emphasize",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Not throwing out cable. Forget about that.",
+            "golden": "joke",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, you can use cables branch. Now that's done. Now we have to release it. When we release it, a little bit will get loose, but not as much. I left this there last year and now this is. The tree is growing inside it, see? Oh, I took it out. Good thing. That's good. Okay then I'm going. Julian, do you want it?",
+            "golden": "invite",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Go ahead.",
+            "golden": "agree",
+            "predicted": "agree",
+            "raw": "agree\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You in.",
+            "golden": "inform",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "One of the last figs?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, we got more in the back there. Julian, it's actually good. No, no, still good.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. No way that.",
+            "golden": "acknowledge",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let it go. It's gonna hold.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wow. The thing it does with some speaker wire.",
+            "golden": "praise",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, now.",
+            "golden": "plan",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Unbelievable.",
+            "golden": "praise",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "I want you to push this down. Let it go. Let it go.",
+            "golden": "advise",
+            "predicted": "unknown",
+            "raw": "push\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "The things you do. No, no. There's nobody like you.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "The things I do for couple figs. Some stupid things. Okay, now.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no. You have a lot of other fig trees.",
+            "golden": "confirm",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So those ones you don't bend? Only this one, right?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, I bend all of them.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "You bend all of them?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "asking for help\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "87 years old. This guy's non stop. It's unbelievable.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Now I'm gonna try to bend this but.",
+            "golden": "plan",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "So if you had a greenhouse, you wouldn't have to bend this? Correct.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No greenhouse can stay there.",
+            "golden": "oppose",
+            "predicted": "prevent",
+            "raw": "prevent\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Or if you had a massive tarp, you wouldn't have to bend it either. Right. See if you covered the whole area.",
+            "golden": "asking for opinions",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "The cold is too cold here in Canada. You have to protect it. Just one tarp is not going to do it. Some people use plywood. 4 by 8 plywood. They make like a box.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And the trees inside.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I can't believe",
+            "status": "WRONG"
+        },
+        {
+            "text": "But if it's a huge tree, it's not easy to do. How do you do that?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's 15ft, right? No, dear, the easy way is to cut the big branch. Just use a small one. See there Needs to bend.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. That's sad because the tree took all the energy to grow that branch and then nono comes along.",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You gotta cut it. See? Like this one. Look, I cut this. See? Look. See this?",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "You cut that one.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "I cut that one last year. This 1, 2, 3 branch.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Grown out of it.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Grow out of it. You use the new ones.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You cut the old one. Sorry, trees. I gotta cut you down. You are too heavy to bend. This is like a little kid. You can tell little kids what they should be doing.",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "They may not listen.",
+            "golden": "doubt",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "They will when they are small. When they are big, they're not gonna listen.",
+            "golden": "emphasize",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "No.",
+            "golden": "agree",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "So you can bend this when it's young, but you cannot bend when it's old. Old kids, you cannot bend them.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "You can't teach them. No, that's a good metaphor. No one always get all the metaphors.",
+            "golden": "praise",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "This guy, I gotta cut it.",
+            "golden": "plan",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Let me guess, you're gonna use a handsaw.",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "predict\nThe utterance \"Let me guess, you",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, of course. I don't have the.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "He's gonna give me the dull one again. Watch.",
+            "golden": "joke",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no, the good one.",
+            "golden": "oppose",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "The one video. He gave me a dull one and he had the sharp one. And he was cutting branches like crazy. And I was struggling.",
+            "golden": "complain",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I didn't know that saw was dull. If I knew, I would have given to him I thought was good. That's why I don't. I don't care anyway, one way or the other. This is a good one. I'm going to start. Okay. So you know where to cut it. Okay. Now you got to meet that cut here. It's going to come down.",
+            "golden": "apologize",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Do you want me to do it?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "CORRECT"
+        },
+        {
+            "text": "No, be careful. I need the exercise.",
+            "golden": "refuse",
+            "predicted": "warn",
+            "raw": "warn\n\nUtterance: I'm not",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, you cracked it.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "You cracked it, huh?",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, I can cut it more.",
+            "golden": "plan",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Go ahead. Now, let's see these figs. This one of the birds start to eat. Look. So forget about it. It's going to crack if you do it this way. Yeah, see, it cracked. Get the saw. Cut that skin off. There you go.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "If I planted that, would it become a tree or. No?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Never. If you want this, this would give you a tree.",
+            "golden": "inform",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Why would this give me a tree but not that? What's the difference?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That looks like nothing because that's too old. Okay. Yeah, but to make a new tree, this what you do. You put this here.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "The whole thing underground. This deep from here to here.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is all going to be covered.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "This all cover with the ground like this.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Come on.",
+            "golden": "doubt",
+            "predicted": "agree",
+            "raw": "agree\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Then this will give you the roots. This will root. Now, I'm going to. I'm going to make an experiment. I don't know if it's going to work, but I'm going to try. I want you to make a big hole here.",
+            "golden": "advise",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wait, can we all just take a second to appreciate this shovel? This shovel has definitely seen better days. Look at it. It's a cut. What would you do with this?",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, it cracked, okay? So I had to remove the crack. I had to cut it like that. Otherwise I couldn't use it.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Don't you got better. I'm buying you a shovel.",
+            "golden": "care",
+            "predicted": "taunt",
+            "raw": "taunt\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, no, no, no. I got a new shop. Let me go look for it. That's a good shovel. I don't want the shovel.",
+            "golden": "refuse",
+            "predicted": "refuse",
+            "raw": "refuse\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, he did finally bring me a shovel. A better shovel. And that's good because if not, I probably would have been.",
+            "golden": "acknowledge",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, now take that dirt and fill up the hole. Cover it. Yeah. Bring it up with a lump there. Good job, Julian.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "compliment\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Good job breaking the sweat.",
+            "golden": "joke",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Break the sweat.",
+            "golden": "agree",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really looking",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Oh, that smells good. What is that?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Arugula?",
+            "golden": "inform",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I can smell it.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This arugula here.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, it smells good.",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Now was that hard work? Yeah, that's why I don't go to the gym. I do my hard work here. Jordan goes in the gym. I don't know why. All he's got to do is work in the garden, exercise enough work in the garden, forget about it.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "This stuff is good for your health and good for your strength.",
+            "golden": "agree",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Plus he got fresh air.",
+            "golden": "emphasize",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes, but the gym is good for your looks, which you don't care about.",
+            "golden": "joke",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't care about my look. At my age, who cares about my look?",
+            "golden": "emphasize",
+            "predicted": "care",
+            "raw": "care\n\nUtterance: I'm sorry",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's good. Now.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now we're going to cover it. We're going to put some water.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then in the spring, this will come alive.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Update. In the spring we're going to check that.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan\n\nUtterance: I'm sorry",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah, check it. If the mice don't need the bark.",
+            "golden": "warn",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, at least that's easy to cover this.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Very easy to. That's good. Now we got one more. That's it.",
+            "golden": "leave",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's it. Okay, so now we're gonna bend the other one. And then the next step will be we'll start covering it. Right. So we'll show everybody the next step. The next part of the video.",
+            "golden": "plan",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, so we're back now and we're continuing to do this. Got the tree all bent. What's the next step?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Nono, I found out when I put the plastic over the tree.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I need the airspace because if the plaster. So forgets the. The tree cannot breathe.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right, right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "So this forms airspace between the plastic plus the snow and the snow. This will stop the snow from crushing.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Crushing down.",
+            "golden": "acknowledge",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I can't believe",
+            "status": "WRONG"
+        },
+        {
+            "text": "Down.",
+            "golden": "agree",
+            "predicted": "oppose",
+            "raw": "oppose\n\n```python\n# No",
+            "status": "WRONG"
+        },
+        {
+            "text": "So you leave that heavy ladder on it? Yeah.",
+            "golden": "doubt",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Wow.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Just.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Keep the snow for going in.",
+            "golden": "confirm",
+            "predicted": "prevent",
+            "raw": "prevent\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Now we're gonna try to cover it up with plastic.",
+            "golden": "plan",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Nono's famous plastic.",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "One end goes to the other side goes over. Okay.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is something Nono would do.",
+            "golden": "joke",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "See, I'm going to use this tool.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's right.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "To push it down.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "How can you get it to stay? That's high tech. I mean, it's pretty covered. Crawl inside and live in there. It's pretty cozy. What is this? What is this thing? Is this the face?",
+            "golden": "joke",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Got it. Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "You're gonna need more of those.",
+            "golden": "advise",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, yeah, I need lots.",
+            "golden": "agree",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Try that for free.",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Okay.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Not too bad.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, that's. I cut the. Cut the garden hose in half, put the hook on it.",
+            "golden": "inform",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Do you just do this now?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "You cut a garden hose in half?",
+            "golden": "doubt",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. And put a hook on it to help me put this.",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "You know what? I'm buying you. I'm buying you bungee cord. I'm buying you plywood.",
+            "golden": "care",
+            "predicted": "unknown",
+            "raw": "spend\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I don't need. I don't need. I don't need. Put on the metal. The hose. Okay, that's enough now. Julie, hand. I leave this open here.",
+            "golden": "refuse",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Because it's too warm yet.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I don't want to close it completely because I want the air to circulate.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```\nUtter",
+            "status": "CORRECT"
+        },
+        {
+            "text": "But near the end of November, then.",
+            "golden": "plan",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "I gotta seal it for the winter.",
+            "golden": "confirm",
+            "predicted": "prevent",
+            "raw": "prevent\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "For the winter.",
+            "golden": "agree",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really looking forward",
+            "status": "WRONG"
+        },
+        {
+            "text": "Maxwell, come here.",
+            "golden": "greet",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Where is he going? I got the food there on the ground.",
+            "golden": "care",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Max, come here.",
+            "golden": "greet",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Look at me.",
+            "golden": "greet",
+            "predicted": "emphasize",
+            "raw": "emphasize\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "We were looking for him and he was in Nona's sweater show. Show them, Nona. Look at him. Yeah, like a little baby. Yeah.",
+            "golden": "praise",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "You know why? Because he was not supposed to go that way. Boom. Tight. Double one is single.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "One single there.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's all. That's all.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That's it.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's all for now.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Done. So then you're going to cover the both ends once it starts to get colder.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really looking",
+            "status": "WRONG"
+        },
+        {
+            "text": "Once it gets cold, I tie both ends and I leave just a little opening for the air to circulate.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. But this is how you keep your fig trees alive in the canyon winter.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "So far it works. It worked.",
+            "golden": "agree",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n```\nUtter",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Now something happens. Who knows?",
+            "golden": "doubt",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So this is how Nono keeps his fig trees alive in our harsh Canadian winters. Now you know.",
+            "golden": "leave",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Now this is the other tree I have to cover.",
+            "golden": "plan",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Still got some figs here. Read. This is good.",
+            "golden": "praise",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Mmm. Figs are so good. So you're gonna cover this one next.",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "You gonna bend it still?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, this is almost bended.",
+            "golden": "inform",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Why you got all this mesh here? People that don't know.",
+            "golden": "asking for opinions",
+            "predicted": "complain",
+            "raw": "complain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I put this here for the birds so they don't need the figs in the summertime.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Eat all your figs. Some people say, no, no, that there are these wasps that die in the fig. I don't care if that's true or not. I still eat them. Look, I don't see a wasp.",
+            "golden": "joke",
+            "predicted": "unknown",
+            "raw": "asking for help\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "There is no wasp there.",
+            "golden": "agree",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I'm really grateful",
+            "status": "WRONG"
+        },
+        {
+            "text": "Even if a wasp died in it, it tastes delicious. I don't care.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "You eat honey, right? That comes from bees. Bee is protein. You can eat the bee too if you want to.",
+            "golden": "joke",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really impressed with",
+            "status": "WRONG"
+        },
+        {
+            "text": "Delicious. Best fruit in the world. Nono used to eat these by the bushel full in Italy, right? Yeah, used to pick them like nothing. Okay, Nono. So now what's the next thing we gotta do?",
+            "golden": "asking for opinions",
+            "predicted": "praise",
+            "raw": "praise\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "We gotta cut all these canes.",
+            "golden": "plan",
+            "predicted": "oppose",
+            "raw": "oppose\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "The Italian cane.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So this is like Italian bamboo, right?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, almost. Yeah, they do at the bottom.",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "What do you use this for usually?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I use for many things.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Basically for everything, right?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, everything I need is steak. I use these.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, so you use these for basically everything.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Use it for steaks, tomato steaks, beans. Let the beans grow on it. You got the cutter there?",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really impressed with",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah. Cut these to tie things, right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "And do you dry them out?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I take the leaves off and dry them out.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And this is really strong, right? The middle part.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, it's strong enough, yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So is that why you grow these, to use them for?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I grow them for using. Using them. Every fall I get new ones.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, let's get cutting.",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. One season. These are seasonal.",
+            "golden": "emphasize",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "It's like. It almost looks like it belongs tropical. Look at that.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "describe\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, look at that.",
+            "golden": "agree",
+            "predicted": "unknown",
+            "raw": "point\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "And it's so it dries out. It lasts what, five years?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "They last about three years.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Three years.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really grateful for",
+            "status": "WRONG"
+        },
+        {
+            "text": "And I don't bother the thick one. They're okay.",
+            "golden": "inform",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "I wonder if you can drink the liquid out of these. Like the jungle.",
+            "golden": "joke",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "I never see any liquid in it. We used to make a flute. Flute. We make holes here. You blow. You play flute? Yeah.",
+            "golden": "joke",
+            "predicted": "flaunt",
+            "raw": "flaunt\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "There it is, all gone now. Gotta take the leaves off. Then we got the finish pile over there. No one knows homemade. Look at these, this wire thing. He says don't break them. Okay. Be careful. Done back there?",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, I got left over, see?",
+            "golden": "inform",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. See? So they. They turn hard and yellow.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Down this here?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Put it in between.",
+            "golden": "advise",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "And that's where you let it dry out.",
+            "golden": "confirm",
+            "predicted": "explain",
+            "raw": "explain\nUtterance: I can't believe",
+            "status": "WRONG"
+        },
+        {
+            "text": "And that's going to say all winter.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform\nUtterance: I'm really looking forward",
+            "status": "CORRECT"
+        },
+        {
+            "text": "A tutti finito. It is finished, right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "That means that's it then. As I need it, I take it like that.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\nUtterance: I'm",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's one ready to go, right?",
+            "golden": "confirm",
+            "predicted": "confirm",
+            "raw": "confirm\nUtterance: I'm really looking forward",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is old one, see? Still strong.",
+            "golden": "emphasize",
+            "predicted": "confirm",
+            "raw": "confirm\n\nUtterance: I'm really",
+            "status": "WRONG"
+        },
+        {
+            "text": "It actually gets harder. It gets. Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's what you use for a steak or something, right?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "Bye. Bye.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Bye for now.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "We'll see you next time.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Bye. Bye.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Next year we'll check on that fig tree we planted. Yeah, if it survived. That's it. Now for the winter. Most of the backyard's ready to go, right?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help\n\nUtterance: I",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah. Yeah.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge\n\n\nUtterance:",
+            "status": "WRONG"
+        },
+        {
+            "text": "So we're done for now. Peace.",
+            "golden": "leave",
+            "predicted": "leave",
+            "raw": "leave\n\nUtterance: I'm really",
+            "status": "CORRECT"
+        }
+    ]
+}

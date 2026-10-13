@@ -1,0 +1,91 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 88,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Oh, I've been lovely, dear! I was just getting the piano ready for our lesson today.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "Yeah, I love sharing my favorite songs with you. Do you have any favorites from when you were my age?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I certainly do! But first, let's see how you've been practicing that Mozart piece I showed you.",
+      "golden": "command",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. It means a lot to me that you're teaching me.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand, dear. Take your time with the scales and let me know if you need help with the fingering.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'll definitely let you know, Grandma. By the way, what was your favorite song when you were my age?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It was a beautiful Chopin nocturne. We can take a break and I'll play it for you later if you like.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandma. I think a break sounds good. Maybe we can listen to some of your favorite songs together?",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a wonderful idea. I'm here to support your musical journey, whether we are playing or just listening.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "No worries, Grandma. I appreciate you being here for me. Let's enjoy some music together.",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's wonderful to hear, dear! I'm glad you're enjoying the piano. Keep up the great work!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really looking forward to it. Do you have a favorite song in mind to play next?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "It sounds like you're really getting the hang of the rhythm! I'm so proud of you for sticking with it.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    }
+  ]
+}

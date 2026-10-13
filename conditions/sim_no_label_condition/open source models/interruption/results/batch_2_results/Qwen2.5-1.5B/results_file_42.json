@@ -1,0 +1,332 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (granddaughter) (Target): Well, what's coming up next week will be a little bit more terminology, measures, and then we'll continue with replacing some of your notes. We'll look at the BPM and the overall phrasing.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (granddaughter): Well, what's coming up next week will be a little bit more terminology, measures, and then we'll continue with replacing some of your notes. We'll look at the BPM and the overall phrasing.",
+    "target": "Speaker A (grandmother) (Target): The what? BPM? What's a BPM? Is that a type of piano?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (granddaughter): Well, what's coming up next week will be a little bit more terminology, measures, and then we'll continue with replacing some of your notes. We'll look at the BPM and the overall phrasing.\nSpeaker B (grandmother): The what? BPM? What's a BPM? Is that a type of piano?",
+    "target": "Speaker A (granddaughter) (Target): Oh! No, sorry. Beats Per Minute. It’s just how we talk about the tempo now. It's the same thing as the speed.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandmother): The what? BPM? What's a BPM? Is that a type of piano?\nSpeaker B (granddaughter): Oh! No, sorry. Beats Per Minute. It’s just how we talk about the tempo now. It's the same thing as the speed.",
+    "target": "Speaker A (grandmother) (Target): Oh, well, you young people have a fancy name for everything. Back in my day, we just called it the time. Anyway, B is 2.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (granddaughter): Oh! No, sorry. Beats Per Minute. It’s just how we talk about the tempo now. It's the same thing as the speed.\nSpeaker B (grandmother): Oh, well, you young people have a fancy name for everything. Back in my day, we just called it the time. Anyway, B is 2.",
+    "target": "Speaker A (granddaughter) (Target): Right. If you want to move ahead a little bit, you can actually.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Oh, well, you young people have a fancy name for everything. Back in my day, we just called it the time. Anyway, B is 2.\nSpeaker B (granddaughter): Right. If you want to move ahead a little bit, you can actually.",
+    "target": "Speaker A (grandmother) (Target): I played Mary Had a Little Lamb.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): Right. If you want to move ahead a little bit, you can actually.\nSpeaker B (grandmother): I played Mary Had a Little Lamb.",
+    "target": "Speaker A (granddaughter) (Target): You did? Really? Did you count? Did you say tick-tock?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother): I played Mary Had a Little Lamb.\nSpeaker B (granddaughter): You did? Really? Did you count? Did you say tick-tock?",
+    "target": "Speaker A (grandmother) (Target): No. Yeah, I tried. I tried. Okay. You want me to do it for you? Okay, let's do it. Mary had a little lamb. Mary had a little lamb, let's go. There's really nothing new here except for you've replaced D with number 2. Right. I forget the tick-tock. I'll say it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "interrupting speaker",
+    "pred_type": "none",
+    "raw_output": "Role: interrupting speaker\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (granddaughter): You did? Really? Did you count? Did you say tick-tock?\nSpeaker B (grandmother): No. Yeah, I tried. I tried. Okay. You want me to do it for you? Okay, let's do it. Mary had a little lamb. Mary had a little lamb, let's go. There's really nothing new here except for you've replaced D with number 2. Right. I forget the tick-tock. I'll say it.",
+    "target": "Speaker A (granddaughter) (Target): Okay. Tick-tock, tick-tock, tick-tock, tick.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandmother): No. Yeah, I tried. I tried. Okay. You want me to do it for you? Okay, let's do it. Mary had a little lamb. Mary had a little lamb, let's go. There's really nothing new here except for you've replaced D with number 2. Right. I forget the tick-tock. I'll say it.\nSpeaker B (granddaughter): Okay. Tick-tock, tick-tock, tick-tock, tick.",
+    "target": "Speaker A (grandmother) (Target): See? Oh, I thought you said—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (granddaughter): Okay. Tick-tock, tick-tock, tick-tock, tick.\nSpeaker B (grandmother): See? Oh, I thought you said—",
+    "target": "Speaker A (granddaughter) (Target): Oh, that's right, there's this one. Okay. Tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Whoops!",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "interrupting speaker",
+    "pred_type": "disrupted intervention",
+    "raw_output": "Role: interrupting speaker\nType: disrupted intervention"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandmother): See? Oh, I thought you said—\nSpeaker B (granddaughter): Oh, that's right, there's this one. Okay. Tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Whoops!",
+    "target": "Speaker A (grandmother) (Target): Oh, I forgot that one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (granddaughter): Oh, that's right, there's this one. Okay. Tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Whoops!\nSpeaker B (grandmother): Oh, I forgot that one.",
+    "target": "Speaker A (granddaughter) (Target): The rest. Okay. Now we're starting over again. We're gonna start right here. Fourth measure. Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandmother): Oh, I forgot that one.\nSpeaker B (granddaughter): The rest. Okay. Now we're starting over again. We're gonna start right here. Fourth measure. Yeah.",
+    "target": "Speaker A (grandmother) (Target): We use this?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (granddaughter): The rest. Okay. Now we're starting over again. We're gonna start right here. Fourth measure. Yeah.\nSpeaker B (grandmother): We use this?",
+    "target": "Speaker A (granddaughter) (Target): No. 1, 2, 3, fourth measure. We didn't talk about that. These little boxes are called measures. So if I say fourth measure, that's where you start.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): We use this?\nSpeaker B (granddaughter): No. 1, 2, 3, fourth measure. We didn't talk about that. These little boxes are called measures. So if I say fourth measure, that's where you start.",
+    "target": "Speaker A (grandmother) (Target): Tick-tock, tick-tock, tick-tock... Tick-tock! D? Last line—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (granddaughter): No. 1, 2, 3, fourth measure. We didn't talk about that. These little boxes are called measures. So if I say fourth measure, that's where you start.\nSpeaker B (grandmother): Tick-tock, tick-tock, tick-tock... Tick-tock! D? Last line—",
+    "target": "Speaker A (granddaughter) (Target): You're here now with me again.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative assistance",
+    "pred_role": "none",
+    "pred_type": "interrupted speaker",
+    "raw_output": "Role: none\nType: interrupted speaker"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock... Tick-tock! D? Last line—\nSpeaker B (granddaughter): You're here now with me again.",
+    "target": "Speaker A (grandmother) (Target): No I'm used to it. B's turn. Number two yeah. Tickle-tackle-tiltle.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (granddaughter): You're here now with me again.\nSpeaker B (grandmother): No I'm used to it. B's turn. Number two yeah. Tickle-tackle-tiltle.",
+    "target": "Speaker A (granddaughter) (Target): Yeah that was good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That is, tock, tick, tock.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): No I'm used to it. B's turn. Number two yeah. Tickle-tackle-tiltle.\nSpeaker B (granddaughter): Yeah that was good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That is, tock, tick, tock.",
+    "target": "Speaker A (grandmother) (Target): Right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (granddaughter): Yeah that was good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That is, tock, tick, tock.\nSpeaker B (grandmother): Right.",
+    "target": "Speaker A (granddaughter) (Target): You can practice all the way to 'Mary Had a Little Lamb.' To 'Mary Had a Little Lamb.' Yes. I'll do that. Okay. You did good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): Right.\nSpeaker B (granddaughter): You can practice all the way to 'Mary Had a Little Lamb.' To 'Mary Had a Little Lamb.' Yes. I'll do that. Okay. You did good.",
+    "target": "Speaker A (grandmother) (Target): You think I'm doing good? Yes. Really? Don't just tell me that. Do you like it, Grandma?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (granddaughter): You can practice all the way to 'Mary Had a Little Lamb.' To 'Mary Had a Little Lamb.' Yes. I'll do that. Okay. You did good.\nSpeaker B (grandmother): You think I'm doing good? Yes. Really? Don't just tell me that. Do you like it, Grandma?",
+    "target": "Speaker A (granddaughter) (Target): Your fingers are moving.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): You think I'm doing good? Yes. Really? Don't just tell me that. Do you like it, Grandma?\nSpeaker B (granddaughter): Your fingers are moving.",
+    "target": "Speaker A (grandmother) (Target): Well, I'm learning. I'm learning more. Sometimes I forget what D is, or you know, I'm doing pretty good at remembering, but once in a while I forget the letters, what letters will go where, which finger.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (granddaughter): Your fingers are moving.\nSpeaker B (grandmother): Well, I'm learning. I'm learning more. Sometimes I forget what D is, or you know, I'm doing pretty good at remembering, but once in a while I forget the letters, what letters will go where, which finger.",
+    "target": "Speaker A (granddaughter) (Target): That's normal. That's it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): Well, I'm learning. I'm learning more. Sometimes I forget what D is, or you know, I'm doing pretty good at remembering, but once in a while I forget the letters, what letters will go where, which finger.\nSpeaker B (granddaughter): That's normal. That's it.",
+    "target": "Speaker A (grandmother) (Target): Yeah, that's normal. At first, yeah. At first it's normal. I'm glad. That makes me feel good.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (granddaughter): That's normal. That's it.\nSpeaker B (grandmother): Yeah, that's normal. At first, yeah. At first it's normal. I'm glad. That makes me feel good.",
+    "target": "Speaker A (granddaughter) (Target): Okay. So I think you're doing perfect. You're doing good, Grandma. I'm not just saying that. I'm— yeah, I really do care.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): Yeah, that's normal. At first, yeah. At first it's normal. I'm glad. That makes me feel good.\nSpeaker B (granddaughter): Okay. So I think you're doing perfect. You're doing good, Grandma. I'm not just saying that. I'm— yeah, I really do care.",
+    "target": "Speaker A (grandmother) (Target): You really do. You're not just saying it because I'm your grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (granddaughter): Okay. So I think you're doing perfect. You're doing good, Grandma. I'm not just saying that. I'm— yeah, I really do care.\nSpeaker B (grandmother): You really do. You're not just saying it because I'm your grandma.",
+    "target": "Speaker A (granddaughter) (Target): No.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): You really do. You're not just saying it because I'm your grandma.\nSpeaker B (granddaughter): No.",
+    "target": "Speaker A (grandmother) (Target): Because— yeah, don't say it like that. Make— Make me work as hard as anyone else.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (granddaughter): No.\nSpeaker B (grandmother): Because— yeah, don't say it like that. Make— Make me work as hard as anyone else.",
+    "target": "Speaker A (granddaughter) (Target): I will.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Because— yeah, don't say it like that. Make— Make me work as hard as anyone else.\nSpeaker B (granddaughter): I will.",
+    "target": "Speaker A (grandmother) (Target): Okay, I'll practice till you get back next week.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (granddaughter): I will.\nSpeaker B (grandmother): Okay, I'll practice till you get back next week.",
+    "target": "Speaker A (granddaughter) (Target): Okay, Grandma.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

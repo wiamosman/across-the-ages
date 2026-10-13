@@ -1,0 +1,223 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 90,
+    "utterances": [
+        {
+            "text": "I think it's gonna fall right back. Okay, now, do you know how to knit? You know how to knit, don't you?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question, agreement (assuming the history is the"
+        },
+        {
+            "text": "I've done it before, but every time I have to like relearn it.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-non-opinion"
+        },
+        {
+            "text": "Memory's bad then,",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "because the way I do it,",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I hold it this way. Put my needle there, bring the cotton in.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I think I usually use the 'Continental' style because I find 'throwing' the yarn too slow.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "The what? Continental? Throwing? What on earth are you talking about, child? We are knitting, not traveling across Europe or playing baseball.",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It's just the name of the technique! Here, let me pull up a video on my phone so you can see the different grips.",
+            "golden": "command",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion\n\nHistory:"
+        },
+        {
+            "text": "Put that glowing box away! I can't see anything on that tiny screen and it makes my head swim. If you want to learn, look at my hands, not at a piece of glass. I don't know why you need a machine to teach you what your grandmother is showing you right here.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Okay. Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You know how to do this, don't you?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "II mean ..i don't. Do you?",
+            "golden": "question",
+            "predicted": "disagreement",
+            "raw": "disagreement\n\nHistory:\nTurn: You"
+        },
+        {
+            "text": "No, other people do this with their hand, but I like it better— okay, I'll show you. Oh, that's the— I do it like other people do.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement\nacknowledgment\nstatement"
+        },
+        {
+            "text": "so the difference is Okay, look.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: II mean"
+        },
+        {
+            "text": "Go like that, you see?",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "demonstration\n\nHistory:\nTurn: No"
+        },
+        {
+            "text": "Yeah, I've seen that before.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Have you seen it before?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "answer",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay, now I like to do it this way. Why do I have to lift my hand? So I just do this. I think you do it.",
+            "golden": "statement-non-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement\nanswer\nstatement-opinion"
+        },
+        {
+            "text": "Hmm. That seems quicker than the other way.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nbackchannel\nstatement-opinion"
+        },
+        {
+            "text": "It is. Oh, I made it. Hey, don't get crazy here, you. Okay. Oh, well, I dropped a stitch. You old witch. So I just knit like that. ..",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion, agreement, statement-"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I think maybe my mother did it. I tell you the truth, I really don't know.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "100%.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Are you doing, are you knitting or are you purling?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Now I'm doing plain knitting. Plain, just purling. Okay. Purling is going this way. Yeah. I'll show you in a minute. It's like backwards knitting. I might as well tell you, nothing to lose.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "I never even heard of purling. Nothing to gain.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "But I can't tell what she's doing. Well, if she wants to learn something, then there's something to gain.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yeah, that's true.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh, you haven't knit for a long time, so you better watch.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Better watch, Candace.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay. Stay there, don't move a muscle. Thank you for teaching us, Jenny. Huh? I'm gonna collect some money in a minute. hhhhh",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge, agreement, statement-non-opin"
+        },
+        {
+            "text": "Thank you for teaching us.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 72,
+    "utterances": [
+        {
+            "text": "Okay, pull the pin.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Pull the pin?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "This one. Okay. Pull the pin. Do it.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Wait, Grandma, if I just yank it horizontally it should pop right out. It’s faster that way.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "No, no, no! You'll snap the housing doing that. You have to twist it clockwise first to release the tension, then slide it. We aren't in a race.",
+            "golden": "criticize",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "But it’s a spring-loaded pin! My teacher said yanking is the standard way so it doesn't get stuck midway.",
+            "golden": "oppose",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "I don't care what your teacher said, I've had this machine forty years and if you yank it, you'll ruin it. Now, hold it steady and wait until I say so. We’re doing it the right way or not at all.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Here we go. Here we go.",
+            "golden": "inform",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Pull the pin. Let's do that after. Okay, now push down on that thing. Just hold it down like that a little bit.",
+            "golden": "advise",
+            "predicted": "prevent",
+            "raw": "prevent"
+        },
+        {
+            "text": "Oops. Okay, let go of it.",
+            "golden": "inform",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "Okay!",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        }
+    ]
+}

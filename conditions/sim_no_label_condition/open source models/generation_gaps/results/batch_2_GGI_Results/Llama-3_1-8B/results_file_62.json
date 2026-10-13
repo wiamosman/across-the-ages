@@ -1,0 +1,527 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "file_index": 62,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Wait a minute. Now wait a minute. Put it this way and this way. You got advice?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Wait a minute. Now wait a minute. Put it this way and this way. You got advice?",
+            "target": "Target (granddaughter): Okay. All right. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Wait a minute. Now wait a minute. Put it this way and this way. You got advice? | Speaker B (granddaughter): Okay. All right. Okay.",
+            "target": "Target (grandmother): Okay. Now, here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Okay. All right. Okay. | Speaker B (grandmother): Okay. Now, here.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Okay. Now, here. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): Okay? Okay, you shut it. Now we keep going!",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): Okay? Okay, you shut it. Now we keep going!",
+            "target": "Target (granddaughter): Wait— wait... Sorry, no drop your thumb and pick that up again. How did you pick that up? That way?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): Okay? Okay, you shut it. Now we keep going! | Speaker B (granddaughter): Wait— wait... Sorry, no drop your thumb and pick that up again. How did you pick that up? That way?",
+            "target": "Target (grandmother): I see it. Oh okay. Drop my thumb. And then you pick it up that way. Yep, got it. That's it. Now do it nice and neat.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): Wait— wait... Sorry, no drop your thumb and pick that up again. How did you pick that up? That way? | Speaker B (grandmother): I see it. Oh okay. Drop my thumb. And then you pick it up that way. Yep, got it. That's it. Now do it nice and neat.",
+            "target": "Target (granddaughter): Yeah, yeah, you got it. Actually, Grandma, I saw this video online where they hold the yarn in the left hand instead of throwing it with the right. It’s supposed to be faster.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): I see it. Oh okay. Drop my thumb. And then you pick it up that way. Yep, got it. That's it. Now do it nice and neat. | Speaker B (granddaughter): Yeah, yeah, you got it. Actually, Grandma, I saw this video online where they hold the yarn in the left hand instead of throwing it with the right. It’s supposed to be faster.",
+            "target": "Target (grandmother): The left hand? Why would you do that? You'll get all tangled up. I’ve been knitting for sixty years with my right hand and it’s plenty fast. Put that yarn back where it belongs.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Yeah, yeah, you got it. Actually, Grandma, I saw this video online where they hold the yarn in the left hand instead of throwing it with the right. It’s supposed to be faster. | Speaker B (grandmother): The left hand? Why would you do that? You'll get all tangled up. I’ve been knitting for sixty years with my right hand and it’s plenty fast. Put that yarn back where it belongs.",
+            "target": "Target (granddaughter): But it's called the Continental style! It looks way more efficient once you get the hang of it.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): The left hand? Why would you do that? You'll get all tangled up. I’ve been knitting for sixty years with my right hand and it’s plenty fast. Put that yarn back where it belongs. | Speaker B (granddaughter): But it's called the Continental style! It looks way more efficient once you get the hang of it.",
+            "target": "Target (grandmother): Continental? Sounds like a lot of fuss for nothing. You're here to learn from me, not a computer screen. Now, pay attention to the throw.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): But it's called the Continental style! It looks way more efficient once you get the hang of it. | Speaker B (grandmother): Continental? Sounds like a lot of fuss for nothing. You're here to learn from me, not a computer screen. Now, pay attention to the throw.",
+            "target": "Target (granddaughter): Yeah, yeah, you got it. Okay, didn't get into that. Thank you. All right.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Continental? Sounds like a lot of fuss for nothing. You're here to learn from me, not a computer screen. Now, pay attention to the throw. | Speaker B (granddaughter): Yeah, yeah, you got it. Okay, didn't get into that. Thank you. All right.",
+            "target": "Target (grandmother): That's it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Yeah, yeah, you got it. Okay, didn't get into that. Thank you. All right. | Speaker B (grandmother): That's it.",
+            "target": "Target (granddaughter): Okay, I got it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): That's it. | Speaker B (granddaughter): Okay, I got it.",
+            "target": "Target (grandmother): Leave them even, huh? Let's see how even you did. Not so great. They're very tight.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Okay, I got it. | Speaker B (grandmother): Leave them even, huh? Let's see how even you did. Not so great. They're very tight.",
+            "target": "Target (granddaughter): I'm doing it very tight. Is that all right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Leave them even, huh? Let's see how even you did. Not so great. They're very tight. | Speaker B (granddaughter): I'm doing it very tight. Is that all right?",
+            "target": "Target (grandmother): Yeah. Yeah, you're doing it nice and loose. Let's try that. You did it right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): I'm doing it very tight. Is that all right? | Speaker B (grandmother): Yeah. Yeah, you're doing it nice and loose. Let's try that. You did it right.",
+            "target": "Target (granddaughter): Wait a second. So this goes that way, that way. And then like—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Yeah. Yeah, you're doing it nice and loose. Let's try that. You did it right. | Speaker B (granddaughter): Wait a second. So this goes that way, that way. And then like—",
+            "target": "Target (grandmother): No, the other one.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Wait a second. So this goes that way, that way. And then like— | Speaker B (grandmother): No, the other one.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): No, the other one. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): That's right. Are you watching? Take a picture of it so she can do it when she gets home. Just look at the film. Yeah, that's what we're doing.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): That's right. Are you watching? Take a picture of it so she can do it when she gets home. Just look at the film. Yeah, that's what we're doing.",
+            "target": "Target (granddaughter): There. Yeah. Okay. Okay. Yeah, I got it. I got it. Okay, so this—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): That's right. Are you watching? Take a picture of it so she can do it when she gets home. Just look at the film. Yeah, that's what we're doing. | Speaker B (granddaughter): There. Yeah. Okay. Okay. Yeah, I got it. I got it. Okay, so this—",
+            "target": "Target (grandmother): Go ahead.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): There. Yeah. Okay. Okay. Yeah, I got it. I got it. Okay, so this— | Speaker B (grandmother): Go ahead.",
+            "target": "Target (granddaughter): So this piece, so it gets totally brought in together, right? Here, there, there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): Go ahead. | Speaker B (granddaughter): So this piece, so it gets totally brought in together, right? Here, there, there.",
+            "target": "Target (grandmother): That's it. No, you have— you're right. No, not that way, from the front. That's it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): So this piece, so it gets totally brought in together, right? Here, there, there. | Speaker B (grandmother): That's it. No, you have— you're right. No, not that way, from the front. That's it.",
+            "target": "Target (granddaughter): This way?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): That's it. No, you have— you're right. No, not that way, from the front. That's it. | Speaker B (granddaughter): This way?",
+            "target": "Target (grandmother): But when you do it, you have to make sure that you make them even.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): This way? | Speaker B (grandmother): But when you do it, you have to make sure that you make them even.",
+            "target": "Target (granddaughter): Right. Okay. Okay, so after I do this, what about when you go to the number 2?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): But when you do it, you have to make sure that you make them even. | Speaker B (granddaughter): Right. Okay. Okay, so after I do this, what about when you go to the number 2?",
+            "target": "Target (grandmother): Then you can, then you do it on 2 needles to begin.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): Right. Okay. Okay, so after I do this, what about when you go to the number 2? | Speaker B (grandmother): Then you can, then you do it on 2 needles to begin.",
+            "target": "Target (granddaughter): Well, now I can just, but now I can just, Wait a minute, with what?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): Then you can, then you do it on 2 needles to begin. | Speaker B (granddaughter): Well, now I can just, but now I can just, Wait a minute, with what?",
+            "target": "Target (grandmother): Okay, no, no, when I get the second needle. Go ahead, do the second needle. Okay, now this is how you have it, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): Well, now I can just, but now I can just, Wait a minute, with what? | Speaker B (grandmother): Okay, no, no, when I get the second needle. Go ahead, do the second needle. Okay, now this is how you have it, right?",
+            "target": "Target (granddaughter): Okay. Yeah, yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): Okay, no, no, when I get the second needle. Go ahead, do the second needle. Okay, now this is how you have it, right? | Speaker B (granddaughter): Okay. Yeah, yes.",
+            "target": "Target (grandmother): Oh, now you turn it around, or else you have, if you have 3 needles, then you have to do the next needle. Here. Oh, you still have this. Okay, so—",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (granddaughter): Okay. Yeah, yes. | Speaker B (grandmother): Oh, now you turn it around, or else you have, if you have 3 needles, then you have to do the next needle. Here. Oh, you still have this. Okay, so—",
+            "target": "Target (granddaughter): Right, right. I have to have it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): Oh, now you turn it around, or else you have, if you have 3 needles, then you have to do the next needle. Here. Oh, you still have this. Okay, so— | Speaker B (granddaughter): Right, right. I have to have it.",
+            "target": "Target (grandmother): Oh. Oh, you have to have that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): Right, right. I have to have it. | Speaker B (grandmother): Oh. Oh, you have to have that.",
+            "target": "Target (granddaughter): So this has to be long enough to do the whole way around.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): Oh. Oh, you have to have that. | Speaker B (granddaughter): So this has to be long enough to do the whole way around.",
+            "target": "Target (grandmother): Oh yeah, yeah. All right. Okay? Yep. Got it. You r smart. Oh, you r a genius. Some of people r hard to teach.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (granddaughter): So this has to be long enough to do the whole way around. | Speaker B (grandmother): Oh yeah, yeah. All right. Okay? Yep. Got it. You r smart. Oh, you r a genius. Some of people r hard to teach.",
+            "target": "Target (granddaughter): Okay. Oh yes. I don't think it's me.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation",
+            "raw": "stereotyped expectation"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): Oh yeah, yeah. All right. Okay? Yep. Got it. You r smart. Oh, you r a genius. Some of people r hard to teach. | Speaker B (granddaughter): Okay. Oh yes. I don't think it's me.",
+            "target": "Target (grandmother): Somebody's smart around here. Well, you certainly did good. See?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): Okay. Oh yes. I don't think it's me. | Speaker B (grandmother): Somebody's smart around here. Well, you certainly did good. See?",
+            "target": "Target (granddaughter): Thank you.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandmother): Somebody's smart around here. Well, you certainly did good. See? | Speaker B (granddaughter): Thank you.",
+            "target": "Target (grandmother): Now if you have other needles, you just continue on the next needle. But when you first started, you should do it on 2 needles only.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (granddaughter): Thank you. | Speaker B (grandmother): Now if you have other needles, you just continue on the next needle. But when you first started, you should do it on 2 needles only.",
+            "target": "Target (granddaughter): So when I first start, I should do it wide?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandmother): Now if you have other needles, you just continue on the next needle. But when you first started, you should do it on 2 needles only. | Speaker B (granddaughter): So when I first start, I should do it wide?",
+            "target": "Target (grandmother): Yeah, but if you— I use it differently than you do. Look. Oh, it comes over. It comes— I'm thinking— okay, yeah, but wait a minute.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (granddaughter): So when I first start, I should do it wide? | Speaker B (grandmother): Yeah, but if you— I use it differently than you do. Look. Oh, it comes over. It comes— I'm thinking— okay, yeah, but wait a minute.",
+            "target": "Target (granddaughter): Does it go around again?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandmother): Yeah, but if you— I use it differently than you do. Look. Oh, it comes over. It comes— I'm thinking— okay, yeah, but wait a minute. | Speaker B (granddaughter): Does it go around again?",
+            "target": "Target (grandmother): Wait a minute, let it just take a minute. You did these?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (granddaughter): Does it go around again? | Speaker B (grandmother): Wait a minute, let it just take a minute. You did these?",
+            "target": "Target (granddaughter): Uh-huh.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): Wait a minute, let it just take a minute. You did these? | Speaker B (granddaughter): Uh-huh.",
+            "target": "Target (grandmother): Yeah, that's all right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (granddaughter): Uh-huh. | Speaker B (grandmother): Yeah, that's all right.",
+            "target": "Target (granddaughter): Oh, thank goodness.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandmother): Yeah, that's all right. | Speaker B (granddaughter): Oh, thank goodness.",
+            "target": "Target (grandmother): But you see, you have to have it long. I know, it's too short. Yeah, you have to have it so that you can do this and then this. You have to have two.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (granddaughter): Oh, thank goodness. | Speaker B (grandmother): But you see, you have to have it long. I know, it's too short. Yeah, you have to have it so that you can do this and then this. You have to have two.",
+            "target": "Target (granddaughter): Yes, okay, okay. So I have to have it so I can do this. No, this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandmother): But you see, you have to have it long. I know, it's too short. Yeah, you have to have it so that you can do this and then this. You have to have two. | Speaker B (granddaughter): Yes, okay, okay. So I have to have it so I can do this. No, this.",
+            "target": "Target (grandmother): Yeah. And this. That's it. Now you got it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (granddaughter): Yes, okay, okay. So I have to have it so I can do this. No, this. | Speaker B (grandmother): Yeah. And this. That's it. Now you got it.",
+            "target": "Target (granddaughter): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandmother): Yeah. And this. That's it. Now you got it. | Speaker B (granddaughter): Okay.",
+            "target": "Target (grandmother): Now you go in here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (granddaughter): Okay. | Speaker B (grandmother): Now you go in here.",
+            "target": "Target (granddaughter): Okay. Over in here and over this, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandmother): Now you go in here. | Speaker B (granddaughter): Okay. Over in here and over this, right?",
+            "target": "Target (grandmother): That's it. Take it out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (granddaughter): Okay. Over in here and over this, right? | Speaker B (grandmother): That's it. Take it out.",
+            "target": "Target (granddaughter): But wait, wait, wait, wait, wait, wait, wait. I want to start with the next needle. So how do I do that? Okay, so I guess I do it this way.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandmother): That's it. Take it out. | Speaker B (granddaughter): But wait, wait, wait, wait, wait, wait, wait. I want to start with the next needle. So how do I do that? Okay, so I guess I do it this way.",
+            "target": "Target (grandmother): Oh, you want to do the next needle.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (granddaughter): But wait, wait, wait, wait, wait, wait, wait. I want to start with the next needle. So how do I do that? Okay, so I guess I do it this way. | Speaker B (grandmother): Oh, you want to do the next needle.",
+            "target": "Target (granddaughter): Right. So I do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandmother): Oh, you want to do the next needle. | Speaker B (granddaughter): Right. So I do that.",
+            "target": "Target (grandmother): Okay. Well, now let that one go and work on— you can't do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (granddaughter): Right. So I do that. | Speaker B (grandmother): Okay. Well, now let that one go and work on— you can't do that.",
+            "target": "Target (granddaughter): I can't do that?",
+            "gold_label": "none",
+            "predicted_label": "ignored input",
+            "raw": "ignored input"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): Okay. Well, now let that one go and work on— you can't do that. | Speaker B (granddaughter): I can't do that?",
+            "target": "Target (grandmother): Wait a minute. Do you see how loose it is?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (granddaughter): I can't do that? | Speaker B (grandmother): Wait a minute. Do you see how loose it is?",
+            "target": "Target (granddaughter): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandmother): Wait a minute. Do you see how loose it is? | Speaker B (granddaughter): Yes.",
+            "target": "Target (grandmother): That's not good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (granddaughter): Yes. | Speaker B (grandmother): That's not good.",
+            "target": "Target (granddaughter): Right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): That's not good. | Speaker B (granddaughter): Right.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

@@ -1,0 +1,759 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 71,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): Hey, Nono, what are you doing today?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): Hey, Nono, what are you doing today?",
+            "target": "Target (grandfather): Today I'm going to try to repair this windowsill.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): Hey, Nono, what are you doing today? | Speaker B (grandfather): Today I'm going to try to repair this windowsill.",
+            "target": "Target (grandson): You can fix that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): Today I'm going to try to repair this windowsill. | Speaker B (grandson): You can fix that?",
+            "target": "Target (grandfather): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): You can fix that? | Speaker B (grandfather): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look.",
+            "target": "Target (grandson): OK, get off the ladder. I'll do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): We're going to try. First, we got to remove all the old one, the broken one. This is all loose here. See, look. | Speaker B (grandson): OK, get off the ladder. I'll do that.",
+            "target": "Target (grandfather): It's got to be removed. You want to do it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance between the speakers."
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): OK, get off the ladder. I'll do that. | Speaker B (grandfather): It's got to be removed. You want to do it?",
+            "target": "Target (grandson): Yeah. Show me how.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): It's got to be removed. You want to do it? | Speaker B (grandson): Yeah. Show me how.",
+            "target": "Target (grandfather): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\n(In this context, the conversation is cooperative and informational, with no signs"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): Yeah. Show me how. | Speaker B (grandfather): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is.",
+            "target": "Target (grandson): Here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, both speakers are working together and communicating effectively, with no signs"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): OK. Wait, use this here. Put the chisel on this side here and hammer that way. Okay, okay, it's moved. Now put underneath here where the crack is. | Speaker B (grandson): Here?",
+            "target": "Target (grandfather): Yeah. Keep doing it. Okay, grab it now, it's gonna fall.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The grandfather is"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): Here? | Speaker B (grandfather): Yeah. Keep doing it. Okay, grab it now, it's gonna fall.",
+            "target": "Target (grandson): Yeah, I'm gonna hold this. There. Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): Yeah. Keep doing it. Okay, grab it now, it's gonna fall. | Speaker B (grandson): Yeah, I'm gonna hold this. There. Okay.",
+            "target": "Target (grandfather): Use both hands. This is also—",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): Yeah, I'm gonna hold this. There. Okay. | Speaker B (grandfather): Use both hands. This is also—",
+            "target": "Target (grandson): What about this?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The conversation is"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): Use both hands. This is also— | Speaker B (grandson): What about this?",
+            "target": "Target (grandfather): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): What about this? | Speaker B (grandfather): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there.",
+            "target": "Target (grandson): Does that have to be removed too?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): Take that out. Just dump it there. That's what the frost does to it. You gotta stop the water from going there. | Speaker B (grandson): Does that have to be removed too?",
+            "target": "Target (grandfather): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): Does that have to be removed too? | Speaker B (grandfather): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it.",
+            "target": "Target (grandson): Yeah, classic Italian.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): Well, I gotta go take a look. Come down. I gotta take a look because I cannot tell until I look at it. | Speaker B (grandson): Yeah, classic Italian.",
+            "target": "Target (grandmother): You guys test how solid it is? Halfway.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): Yeah, classic Italian. | Speaker B (grandmother): You guys test how solid it is? Halfway.",
+            "target": "Target (grandfather): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandmother): You guys test how solid it is? Halfway. | Speaker B (grandfather): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time.",
+            "target": "Target (grandson): Grab it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance between the speakers."
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Well, by right this should go too because it's cracked here, see? We're gonna try to remove up to here because it's cracked already. So to do that, you gotta go a little Little piece at a time. | Speaker B (grandson): Grab it.",
+            "target": "Target (grandfather): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The conversation is"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): Grab it. | Speaker B (grandfather): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4.",
+            "target": "Target (grandson): Starting here?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): Should be okay for a few years, and then the whole thing may have to be replaced. Drill 1, 2, 3, 4. | Speaker B (grandson): Starting here?",
+            "target": "Target (grandfather): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandson): Starting here? | Speaker B (grandfather): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier.",
+            "target": "Target (grandson): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): Yeah. I gotta show you how to do it. You're not doing it right. When you use a drill, you gotta go in and out, in and out, huh? You gotta go in and out because it takes the dust out, okay? Makes it easier. | Speaker B (grandson): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse.",
+            "target": "Target (grandfather): Let me see.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandson): It's on reverse. What do you mean? You did that on reverse. Huh? You did that on reverse. | Speaker B (grandfather): Let me see.",
+            "target": "Target (grandson): No, I got it now. I know how to use this thing. You want to see what?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\n(In this context, there is no social friction or emotional resistance, as both"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): Let me see. | Speaker B (grandson): No, I got it now. I know how to use this thing. You want to see what?",
+            "target": "Target (grandfather): Oh no, I wanna see— I wanna see the drill.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandson): No, I got it now. I know how to use this thing. You want to see what? | Speaker B (grandfather): Oh no, I wanna see— I wanna see the drill.",
+            "target": "Target (grandson): I just moved it. Put it on!",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandfather): Oh no, I wanna see— I wanna see the drill. | Speaker B (grandson): I just moved it. Put it on!",
+            "target": "Target (grandfather): I wanna see.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, the grandfather's request for wanting to see"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandson): I just moved it. Put it on! | Speaker B (grandfather): I wanna see.",
+            "target": "Target (grandson): Yeah. It's on right now. You had it on left.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence\n\nExplanation: In this context, the speakers were having a disagreement"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandfather): I wanna see. | Speaker B (grandson): Yeah. It's on right now. You had it on left.",
+            "target": "Target (grandfather): No, no, no, he's going left.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandson): Yeah. It's on right now. You had it on left. | Speaker B (grandfather): No, no, no, he's going left.",
+            "target": "Target (grandson): No, I— never mind. He's going left. Never mind. That's enough.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): No, no, no, he's going left. | Speaker B (grandson): No, I— never mind. He's going left. Never mind. That's enough.",
+            "target": "Target (grandfather): Get one wire, put in the hole. Look at him. Go ahead.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are working together and providing instructions without any social"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandson): No, I— never mind. He's going left. Never mind. That's enough. | Speaker B (grandfather): Get one wire, put in the hole. Look at him. Go ahead.",
+            "target": "Target (grandson): What the heck? Now what? Put it in there? With the wire in there?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandfather): Get one wire, put in the hole. Look at him. Go ahead. | Speaker B (grandson): What the heck? Now what? Put it in there? With the wire in there?",
+            "target": "Target (grandfather): Yes, Julian.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandson): What the heck? Now what? Put it in there? With the wire in there? | Speaker B (grandfather): Yes, Julian.",
+            "target": "Target (grandson): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are in sync and working together to complete a"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandfather): Yes, Julian. | Speaker B (grandson): Yes.",
+            "target": "Target (grandfather): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandson): Yes. | Speaker B (grandfather): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one.",
+            "target": "Target (grandson): What is this? Look at this. What are these little things? Little wires?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandfather): Makes it stronger, the wire. Without the wire, the nail is loose because that drill bit is a lot too big. Then you— Okay, that's enough. That's good. Very good. Now drill the other one. | Speaker B (grandson): What is this? Look at this. What are these little things? Little wires?",
+            "target": "Target (grandfather): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandson): What is this? Look at this. What are these little things? Little wires? | Speaker B (grandfather): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid.",
+            "target": "Target (grandson): Okay. Pretty solid, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance between the speakers."
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandfather): They are little wires. Yeah. Boy, the whole thing is rotten. Yeah, take that out. Yeah, that's better. You gotta go on solid. | Speaker B (grandson): Okay. Pretty solid, right?",
+            "target": "Target (grandfather): That's not bad.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandson): Okay. Pretty solid, right? | Speaker B (grandfather): That's not bad.",
+            "target": "Target (grandson): Yeah, it feels about the same.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandfather): That's not bad. | Speaker B (grandson): Yeah, it feels about the same.",
+            "target": "Target (grandfather): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, both speakers are in sync and there is no"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandson): Yeah, it feels about the same. | Speaker B (grandfather): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it.",
+            "target": "Target (grandson): With the brush? So we do what? Paint it, the whole thing?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandfather): Okay, now we're gonna wet the surface. Wet the surface with acrylic fortifier. You got the brush there? Yeah, with the brush. Paint it. | Speaker B (grandson): With the brush? So we do what? Paint it, the whole thing?",
+            "target": "Target (grandfather): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandson): With the brush? So we do what? Paint it, the whole thing? | Speaker B (grandfather): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make.",
+            "target": "Target (grandson): You want me to get a cloth?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandfather): Don't splash. Don't let it go down. Don't let it go down? Okay, you don't know what to do. Let me do it, please. Come down. No, no, no, look, the mess you make. The mess you make. | Speaker B (grandson): You want me to get a cloth?",
+            "target": "Target (grandfather): No, here. You do it like this. Take some off, okay? Then do like this.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The grandfather is"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandson): You want me to get a cloth? | Speaker B (grandfather): No, here. You do it like this. Take some off, okay? Then do like this.",
+            "target": "Target (grandson): Didn't I do that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, both speakers are cooperating and providing instructions for"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandfather): No, here. You do it like this. Take some off, okay? Then do like this. | Speaker B (grandson): Didn't I do that?",
+            "target": "Target (grandfather): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandson): Didn't I do that? | Speaker B (grandfather): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it.",
+            "target": "Target (grandson): And what does this do, Nono?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence\n\nExplanation: In this context, the speakers are discussing a task and"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandfather): No, you didn't. You splashed all over the place. Well, this does two purposes. It seals the old cement and makes the new cement stick to it. | Speaker B (grandson): And what does this do, Nono?",
+            "target": "Target (grandfather): Well, it doesn't really matter. Not for me. Some people let it dry first.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandson): And what does this do, Nono? | Speaker B (grandfather): Well, it doesn't really matter. Not for me. Some people let it dry first.",
+            "target": "Target (grandson): And do you want to apply it while it's dry or wet? Doesn't matter?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence\n\nExplanation: In this context, there is a disagreement about the"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandfather): Well, it doesn't really matter. Not for me. Some people let it dry first. | Speaker B (grandson): And do you want to apply it while it's dry or wet? Doesn't matter?",
+            "target": "Target (grandfather): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandson): And do you want to apply it while it's dry or wet? Doesn't matter? | Speaker B (grandfather): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay?",
+            "target": "Target (grandson): What's this? Yeah. Okay. How much you want? Shee. Literally.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandfather): That gives a little color to it. Okay, now bring the wheelbarrow here because this got wet, okay? | Speaker B (grandson): What's this? Yeah. Okay. How much you want? Shee. Literally.",
+            "target": "Target (grandfather): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandson): What's this? Yeah. Okay. How much you want? Shee. Literally. | Speaker B (grandfather): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior.",
+            "target": "Target (grandson): Oh, I'm trying. Good, or one more? Right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandfather): You gotta take it from here now. Half of it. It's my family's— Shee. Okay, half of it goes in the wheelbarrow. Try not to make a dust, Junior. | Speaker B (grandson): Oh, I'm trying. Good, or one more? Right.",
+            "target": "Target (grandfather): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandson): Oh, I'm trying. Good, or one more? Right. | Speaker B (grandfather): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container.",
+            "target": "Target (grandson): These are all plastic. This one? What the heck is this? How much? Good? Or one more?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandfather): Yeah. Little bit more. Okay. We can always mix more, right? Get that container there, the plastic container. | Speaker B (grandson): These are all plastic. This one? What the heck is this? How much? Good? Or one more?",
+            "target": "Target (grandfather): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandson): These are all plastic. This one? What the heck is this? How much? Good? Or one more? | Speaker B (grandfather): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it.",
+            "target": "Target (grandson): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandfather): Yeah. That's my special white cement. Open up and put it in here. Half of it. Dump all of it. Dump all of it. All of it. Forget about it. Now mix it. | Speaker B (grandson): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy.",
+            "target": "Target (grandfather): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandson): Forget about it. Water, no? Your special cement smells funny. Oh, it's old. Mix it. Yeah. Come on, warm it up now. I don't know why, but I love the smell of wet cement. Yeah. You too? It's an Italian thing, maybe. It's getting heavy. | Speaker B (grandfather): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it.",
+            "target": "Target (grandson): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandfather): Mix it dry first. Yeah, it's old. 20 years old. Yeah. Dig a hole in the middle. Okay. Oh, well. I don't want to fix it. | Speaker B (grandson): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption?",
+            "target": "Target (grandmother): Of course he did.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows a playful and informational turn, with no social friction or emotional"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandson): That's a lot of glue. We don't want to fix it again. Let's see, what are you doing now? Did you make this contraption? | Speaker B (grandmother): Of course he did.",
+            "target": "Target (grandfather): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative flow as both speakers are engaged in a conversation and there is no"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): Of course he did. | Speaker B (grandfather): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level.",
+            "target": "Target (grandson): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandfather): Yeah. Of course I did, who else would make it? Now this has got to be level. Look, it's not level. | Speaker B (grandson): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating.",
+            "target": "Target (grandfather): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): Wait, let me double check that with my phone. I have an app that acts like a digital level. If I just place it right on the wood... hold on, it's calibrating. | Speaker B (grandfather): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time.",
+            "target": "Target (grandson): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence\n\nExplanation: In this context, the speakers are having a disagreement"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandfather): Julian, put that telephone in your pocket. I've been using this piece of string and a bubble since before your mother could walk. I don't need a computer screen to tell me what my eyes can see. We are wasting time. | Speaker B (grandson): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors.",
+            "target": "Target (grandfather): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): I'm just trying to be accurate, Nono! It says it's off by point-two degrees. Just let it finish loading the sensors. | Speaker B (grandfather): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour.",
+            "target": "Target (grandson): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandfather): Point-two degrees? In my day, if it stayed on the wall, it was level! I'm standing here with a heavy bucket while you play with a toy. Put it away so we can pour. | Speaker B (grandson): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement?",
+            "target": "Target (grandfather): No, no, don't forget nothing. Can you make that square and flat? We need more sticks.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): Yeah, I don't know why I asked that. Why don't we just cut it? I have an axe. You think that's gonna hold cement? | Speaker B (grandfather): No, no, don't forget nothing. Can you make that square and flat? We need more sticks.",
+            "target": "Target (grandson): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): No, no, don't forget nothing. Can you make that square and flat? We need more sticks. | Speaker B (grandson): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay.",
+            "target": "Target (grandfather): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): Don't touch it, it's gonna take it off by a thread. No, don't remove those. I have never seen anything like this my entire life. Okay. | Speaker B (grandfather): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in.",
+            "target": "Target (grandson): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandfather): No, this is— it's not bad. See if there's a little screw here. You gotta screw it in. | Speaker B (grandson): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no?",
+            "target": "Target (grandfather): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nBoth speakers are working together, providing instructions and checking each other's progress,"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): Well, now I'm tightening it a little bit. It's a little loose. Is this too or no? | Speaker B (grandfather): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there.",
+            "target": "Target (grandson): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandfather): Why? The reason for that is that I gotta take that bolt off. No, that's okay there. There you go. Ready. Ready for the pouring. Now I'm gonna try a little bit. I want to see what's going on there. | Speaker B (grandson): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker?",
+            "target": "Target (grandfather): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): This is the most Italian thing I've ever seen in my life. Oh, oh, it's moving, eh? And it's falling through. How do you make it thicker? | Speaker B (grandfather): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along.",
+            "target": "Target (grandson): All along? From right to left? Inside? Um, quite a bit.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandfather): Yeah, it's going through. Yeah, a little thicker maybe. Put more cement in it. Okay, go up there and put a little bit all along. All along. | Speaker B (grandson): All along? From right to left? Inside? Um, quite a bit.",
+            "target": "Target (grandfather): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): All along? From right to left? Inside? Um, quite a bit. | Speaker B (grandfather): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage.",
+            "target": "Target (grandson): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandfather): From where you did it? Yeah, yeah, yeah. Don't touch nothing. Just let it go down slowly. Keep going. How much more do you need? About 6 hours. To set, yeah. It's not dry, it's just set. Now we have to remove the front, then patch up all the damage. | Speaker B (grandson): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right?",
+            "target": "Target (grandfather): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): 6 hours for this to dry? To set? What if there's no damage? Can't get that lucky. So if you didn't have to make the rough part here, then you wouldn't have to take the face off, right? | Speaker B (grandfather): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah.",
+            "target": "Target (grandson): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandfather): Oh, that'll be great. But I am expecting damage in there. If that was smooth, yeah. Because you want to match it. But this is rough. Yeah. | Speaker B (grandson): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono?",
+            "target": "Target (grandfather): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandson): Did you put Vaseline on the wood? It's not too bad. What are you doing, Nono? | Speaker B (grandfather): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late.",
+            "target": "Target (grandson): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this context, there is no social friction or emotional resistance. The speakers are"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandfather): No, not too bad. I gotta make it rough like this texture. Yeah. You gotta do this now before it hardens. After hardening, it's too late. | Speaker B (grandson): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah.",
+            "target": "Target (grandfather): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): You're matching it? It's impossible once it hardens, right? Look at that. I can't believe that worked. Looks pretty good to me. I can't believe that worked. I doubted you, Nono. Yeah. | Speaker B (grandfather): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time.",
+            "target": "Target (grandson): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandfather): Of course it worked. What did I tell you? Didn't I tell you it would work? Well, by the way, this is the first time I do it. I never done this before. That's the first time. | Speaker B (grandson): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono?",
+            "target": "Target (grandfather): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): Looks pretty amazing for your first windowsill repair. What are you mixing, Nono? | Speaker B (grandfather): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks.",
+            "target": "Target (grandson): So you're using more of that glue? Is that your homemade box?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandfather): It's not bad. I want to seal the new concrete. Yeah. Oh, this is leaks. | Speaker B (grandson): So you're using more of that glue? Is that your homemade box?",
+            "target": "Target (grandfather): Yeah, homemade box. Oh, this is about at least 30 years old.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): So you're using more of that glue? Is that your homemade box? | Speaker B (grandfather): Yeah, homemade box. Oh, this is about at least 30 years old.",
+            "target": "Target (grandson): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandfather): Yeah, homemade box. Oh, this is about at least 30 years old. | Speaker B (grandson): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now.",
+            "target": "Target (grandfather): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): You can just buy a container, but this guy makes homemade wooden containers. Jeez. So it's all done now. We just gotta wait for it to dry, and then Nono's going to match the paint color, right? Right. Other than that, it's done. One day's work. Okay, so it's been a few days and we're back now. | Speaker B (grandfather): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well.",
+            "target": "Target (grandson): What's going on now, Nono? Yeah. This is the first coat, okay?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, both speakers are engaged in a conversation about a"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandfather): Paint color. May need a little bit brownish-yellow in it. Other than that, that's it. Yeah, well. | Speaker B (grandson): What's going on now, Nono? Yeah. This is the first coat, okay?",
+            "target": "Target (grandfather): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This conversation shows cooperative flow as both speakers are engaged in a task and there is no"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): What's going on now, Nono? Yeah. This is the first coat, okay? | Speaker B (grandfather): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah.",
+            "target": "Target (grandson): Just to lighten it up? Okay, so it's all done. You just gotta do one more coat of paint, match it, and it's done, right? I think you match the texture very, very good. For a first time you're doing it, I think it's incredible. Good job, Nono. See ya. We'll see you next time. Let us know if you believed in the process, because I didn't think it was going to work, and it turned out amazing. So he proved once again that he can do anything. Wow, right? Not a professional can fix anything.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandfather): It's nice and hard. See how hard it is? Now we remove the form. I'm going to give one coat of this, okay? This is just latex paint. With lots of water in it, just to make it a little lighter. Yeah. | Speaker B (grandson): Just to lighten it up? Okay, so it's all done. You just gotta do one more coat of paint, match it, and it's done, right? I think you match the texture very, very good. For a first time you're doing it, I think it's incredible. Good job, Nono. See ya. We'll see you next time. Let us know if you believed in the process, because I didn't think it was going to work, and it turned out amazing. So he proved once again that he can do anything. Wow, right? Not a professional can fix anything.",
+            "target": "Target (grandfather): That's it. Could have been a little bit better, but— See you next time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nIn this conversation, there is no social friction or emotional resistance. The grandfather appreci"
+        }
+    ]
+}

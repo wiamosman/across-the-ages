@@ -1,0 +1,103 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "file_index": 101,
+    "utterances": [
+        {
+            "text": "Down here if you want to send her some. Down where? Right there.",
+            "golden": "inform",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "That little thing? Yep, hit it. Oh.",
+            "golden": "confirm",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "Oh! Yay! Sending an email to someone. To, um—",
+            "golden": "praise",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "'Cause my email changed.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "change"
+        },
+        {
+            "text": "No, she just is using the wrong email.",
+            "golden": "oppose",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Is that why I didn't get any messages?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "ask"
+        },
+        {
+            "text": "If it's new, it'll have that blue dot next to it.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh, okay. Yeah, it probably will. Old people like to talk. I'm not old, but she's old.",
+            "golden": "joke",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "I'll hire you as my secretary. You want to be my secretary?",
+            "golden": "invite",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Sure.",
+            "golden": "agree",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Do you know how to do a group one?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Group text?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Yeah, like you write it and it goes to 10 people.",
+            "golden": "explain",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "Just tap the plus sign and add the names! It's not that hard, Grandma, you're just staring at it.",
+            "golden": "criticize",
+            "predicted": "taunt",
+            "raw": "taunt"
+        },
+        {
+            "text": "I'm trying, but the screen keeps changing every time I touch it, it makes me nervous I'll delete something.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        }
+    ]
+}

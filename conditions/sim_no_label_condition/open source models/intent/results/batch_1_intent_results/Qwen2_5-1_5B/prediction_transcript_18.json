@@ -1,0 +1,496 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "file_index": 18,
+    "utterances": [
+        {
+            "text": "Starting. Oh, you started.",
+            "golden": "acknowledge",
+            "predicted": "greet",
+            "raw": "greet",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, don't start yet Hhhhh",
+            "golden": "joke",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. Welcome to the second lesson with my grandmother. Okay, we're here on the second lesson with my grandmother, and we're going to go ahead and get started. I'm going to ask her a couple questions first. Grandmother, did you practice? Did you practice?",
+            "golden": "inform",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Grandmother, did you practice? Did you practice?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes.",
+            "golden": "inform",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "You did?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Twice a day.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "CORRECT"
+        },
+        {
+            "text": "You did.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Aha!",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay, good.",
+            "golden": "praise",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "WRONG"
+        },
+        {
+            "text": "Did you feel some improvement in the movement of your fingers?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yes.",
+            "golden": "inform",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "Good. Okay, so we're going to just have her play one of the assignments that I gave her last week. I'm going to choose which one because we're not going to do both of them. Let's just play this, the longer one.",
+            "golden": "inform",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, you give me the hard one.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, we're on page 20 of lesson one, Eyes on Music practice.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "You should let me do this a little bit before you take.",
+            "golden": "advise",
+            "predicted": "oppose",
+            "raw": "oppose",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, you did this one?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "I thought this was the one you told me to.",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, it is, but that's the last line of the whole page.",
+            "golden": "inform",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Oh, you want me to do the whole page?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Start from the beginning. Okay.",
+            "golden": "arrange",
+            "predicted": "plan",
+            "raw": "plan",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is my hardest one.",
+            "golden": "complain",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "That's good, Grandmother.",
+            "golden": "praise",
+            "predicted": "thank",
+            "raw": "thank",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, it isn't.",
+            "golden": "oppose",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "No, see, the things I'm looking for is that you're keeping your eyes on the music, which you are. And your hands, your fingers are staying in position. They're not moving out of position. It's a big difference from last week.",
+            "golden": "praise",
+            "predicted": "advise",
+            "raw": "advise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. Oh, yes. Can I do the bottom one again?",
+            "golden": "asking for opinions",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. And you don't have to play that fast. You can play slow.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Which one are you doing?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I did it wrong. Oh, okay. I'm not gonna tell you which one I was doing.",
+            "golden": "refuse",
+            "predicted": "apologise",
+            "raw": "apologize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "This is two.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "count",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, I'll point this one.",
+            "golden": "arrange",
+            "predicted": "advise",
+            "raw": "advise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay, I got it now.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "understand",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "It just takes me a while.",
+            "golden": "complain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay. This is. I always want to play this one for two.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange",
+            "status": "WRONG"
+        },
+        {
+            "text": "Okay. Okay. That was right.",
+            "golden": "praise",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Good. Okay, so that was just trying to get your hand in the right position without moving and getting your eyes to stay on the music. So you did those two things this week. That's good progress.",
+            "golden": "praise",
+            "predicted": "advise",
+            "raw": "advise",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah, well, I don't know if it is or not, but I thought I did. You know, I practice in the morning and afternoon each day.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Good. Okay, we're going to do one thing today, and that is to prepare your left hand to start you. For you to start using it.",
+            "golden": "plan",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "It.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "None",
+            "status": "WRONG"
+        },
+        {
+            "text": "This is a little bit trickier. You're going to find, you know that this is middle C because it's in the middle. Now the next C down right here next to the two black keys.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, yeah. That's thumb down here.",
+            "golden": "acknowledge",
+            "predicted": "criticize",
+            "raw": "criticize",
+            "status": "WRONG"
+        },
+        {
+            "text": "Should some right Right. It's kind of. It's opposite.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "argue",
+            "status": "WRONG"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Your pinky will be on.",
+            "golden": "explain",
+            "predicted": "warn",
+            "raw": "warn",
+            "status": "WRONG"
+        },
+        {
+            "text": "Pinky will be here.",
+            "golden": "acknowledge",
+            "predicted": "inform",
+            "raw": "inform",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right. So what you're going to do, I'm gonna put my hand over. Over it so I can show you. You're going to be playing. Go ahead and put your finger, your hands back, your hand back. You're going to be playing your pinky, your middle and your thumb all at the same time. Press just. Just those three. Try not. These two fingers can lift up a little.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And then. Okay. There you go. Right. That's called a C chord",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Grandmother. Does that feel comfortable?",
+            "golden": "care",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "WRONG"
+        },
+        {
+            "text": "Well, it will after I practice, it will. It's a little awkward right now.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "And it is. That's normal. So that's called a C chord. And you'll be using that to see the picture on page 22 of lesson one. There's a picture of what it looks like when you have your hand in the right position.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "I need those two?",
+            "golden": "ask for help",
+            "predicted": "ask for help",
+            "raw": "ask for help",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Well, actually, it's all three of them there together. Right.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "These three. Right. One, two, three. The picture isn't very clear, but.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Oh, it's the thumb.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "describe",
+            "status": "WRONG"
+        },
+        {
+            "text": "The pinky is on the C, like you have it. And then the middle finger. I think there's another picture. There it is. Page 24.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Yeah.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Pinky, middle thumb.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        },
+        {
+            "text": "Okay.",
+            "golden": "acknowledge",
+            "predicted": "acknowledge",
+            "raw": "acknowledge",
+            "status": "CORRECT"
+        },
+        {
+            "text": "And here's the diagram.",
+            "golden": "inform",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "WRONG"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "agree",
+            "raw": "agree",
+            "status": "WRONG"
+        },
+        {
+            "text": "And that's if you can practice that. Just practice pressing it several times. All three. Right. That's kind of separate from what you're going to be practicing this week. I'm just preparing your left hand for when we get there, so you'll be ahead of yourself.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain",
+            "status": "CORRECT"
+        }
+    ]
+}

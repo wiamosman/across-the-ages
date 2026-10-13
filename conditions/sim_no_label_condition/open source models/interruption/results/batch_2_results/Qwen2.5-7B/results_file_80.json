@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target): This piece right here, Cairo, this one, this is called a rook. Say rook.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother): This piece right here, Cairo, this one, this is called a rook. Say rook.",
+    "target": "Speaker A (grandson) (Target): this one ?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother): This piece right here, Cairo, this one, this is called a rook. Say rook.\nSpeaker B (grandson): this one ?",
+    "target": "Speaker A (grandmother) (Target): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): this one ?\nSpeaker B (grandmother): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.",
+    "target": "Speaker A (grandson) (Target): is it a horse?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "disruptive intervention",
+    "raw_output": "Role: none\nType: disruptive intervention"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandmother): That's, that's a knight. Oh, don't, don't, don't drop it now. It's a knight.\nSpeaker B (grandson): is it a horse?",
+    "target": "Speaker A (grandmother) (Target): It's a horse too, but it's called a knight.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): is it a horse?\nSpeaker B (grandmother): It's a horse too, but it's called a knight.",
+    "target": "Speaker A (grandson) (Target): Okay,",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandmother): It's a horse too, but it's called a knight.\nSpeaker B (grandson): Okay,",
+    "target": "Speaker A (grandmother) (Target): now put it back down on the board where you got it from. All right, you ready to begin?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): Okay,\nSpeaker B (grandmother): now put it back down on the board where you got it from. All right, you ready to begin?",
+    "target": "Speaker A (grandson) (Target): Yes.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): now put it back down on the board where you got it from. All right, you ready to begin?\nSpeaker B (grandson): Yes.",
+    "target": "Speaker A (grandmother) (Target): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandson): Yes.\nSpeaker B (grandmother): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—",
+    "target": "Speaker A (grandson) (Target): I want the black one.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandmother): All right, now your rook on my side— we have rooks on both sides. No, it don't move that far. It moves only—\nSpeaker B (grandson): I want the black one.",
+    "target": "Speaker A (grandmother) (Target): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandson): I want the black one.\nSpeaker B (grandmother): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.",
+    "target": "Speaker A (grandson) (Target): The black ones look cooler. Can I have the black horse instead? I'm going to take it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandmother): Kyro, are you listening to me? I'm trying to show you the path for the rook. It goes in straight lines, not diagonal.\nSpeaker B (grandson): The black ones look cooler. Can I have the black horse instead? I'm going to take it.",
+    "target": "Speaker A (grandmother) (Target): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker B (grandson): The black ones look cooler. Can I have the black horse instead? I'm going to take it.\nSpeaker A (grandmother): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.",
+    "target": "Speaker A (grandmother) (Target): You want to do the black one? You don't want to do the white one?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker B (grandmother): Stop, stop. You aren't hearing a word I say about the rules. We are going to have a complete stall here until we get these colors sorted since that's all you're thinking about. Nobody moves until the board is turned.\nSpeaker B (grandmother): You want to do the black one? You don't want to do the white one?",
+    "target": "Speaker A (grandson) (Target): No.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandmother): You want to do the black one? You don't want to do the white one?\nSpeaker B (grandson): No.",
+    "target": "Speaker A (grandmother) (Target): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): No.\nSpeaker B (grandmother): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandmother): We have to change— no, no, no, no, you sit right there. Nope, we are going to change the board. Hold on, let me put that— let me put this down. Okay. We going to change the board now. Turn it down. We turning the board around. Hey, now my man said— my man Kyro say he wants to do the black one. I'm a black man. Okay, that's what you could say, Kyro?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandmother) (Target): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandmother): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.",
+    "target": "Speaker A (grandson) (Target): It's 2 knights.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (grandmother): All right, let's let the game begin. Let me stop this right That's still a knight. Say knight. It's a black knight.\nSpeaker B (grandson): It's 2 knights.",
+    "target": "Speaker A (grandmother) (Target): I have 4 knights all together.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandson): It's 2 knights.\nSpeaker B (grandmother): I have 4 knights all together.",
+    "target": "Speaker A (grandson) (Target): Look, look.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandmother): I have 4 knights all together.\nSpeaker B (grandson): Look, look.",
+    "target": "Speaker A (grandmother) (Target): Yeah, yeah, this. Yeah, right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandson): Look, look.\nSpeaker B (grandmother): Yeah, yeah, this. Yeah, right here.",
+    "target": "Speaker A (grandson) (Target): Yeah, and right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandmother): Yeah, yeah, this. Yeah, right here.\nSpeaker B (grandson): Yeah, and right here.",
+    "target": "Speaker A (grandmother) (Target): Okay, I have 4 of them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandson): Yeah, and right here.\nSpeaker B (grandmother): Okay, I have 4 of them.",
+    "target": "Speaker A (grandson) (Target): It was here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandmother): Okay, I have 4 of them.\nSpeaker B (grandson): It was here.",
+    "target": "Speaker A (grandmother) (Target): What? 2 of them belong to me and 2 of them belong to you.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandson): It was here.\nSpeaker B (grandmother): What? 2 of them belong to me and 2 of them belong to you.",
+    "target": "Speaker A (grandson) (Target): Wait, wait, what the half a horse?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandmother): What? 2 of them belong to me and 2 of them belong to you.\nSpeaker B (grandson): Wait, wait, what the half a horse?",
+    "target": "Speaker A (grandmother) (Target): I had a horse. Oh, can I have my horse back?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandson): Wait, wait, what the half a horse?\nSpeaker B (grandmother): I had a horse. Oh, can I have my horse back?",
+    "target": "Speaker A (grandson) (Target): You take white.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandmother): I had a horse. Oh, can I have my horse back?\nSpeaker B (grandson): You take white.",
+    "target": "Speaker A (grandmother) (Target): Right, put it back where you got it from. There you go, right there. Put my other knight back here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandson): You take white.\nSpeaker B (grandmother): Right, put it back where you got it from. There you go, right there. Put my other knight back here.",
+    "target": "Speaker A (grandson) (Target): Right here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandmother): Right, put it back where you got it from. There you go, right there. Put my other knight back here.\nSpeaker B (grandson): Right here.",
+    "target": "Speaker A (grandmother) (Target): No, that's not where you got it from. Right, right here. Right there. Thank you, thank you very much. Okay, thank you. Now",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

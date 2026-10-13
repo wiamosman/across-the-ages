@@ -1,0 +1,622 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Whatsapp, kids, I'm playing the violin.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\n(Note: Since there is no prior context or another speaker mentioned in the conversation history, it is impossible"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Whatsapp, kids, I'm playing the violin.",
+    "target": "Speaker A (grandfather) (Target): Okay, so see what this is right here?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Whatsapp, kids, I'm playing the violin.\nSpeaker B (grandfather): Okay, so see what this is right here?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "cooperative agreement",
+    "pred_type": "none",
+    "raw_output": "Role: cooperative agreement\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Okay, so see what this is right here?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): This tells you what notes to play.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): This tells you what notes to play.",
+    "target": "Speaker A (grandson) (Target): I don't know the notes on that.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a standard backchannel (\"Yeah\") and does not interrupt the flow of"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): This tells you what notes to play.\nSpeaker B (grandson): I don't know the notes on that.",
+    "target": "Speaker A (grandfather) (Target): I know, I know. But see, now you're seeing this is a lot more complicated than what you thought, isn't it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural backchannel, acknowledging his grandson'"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandson): I don't know the notes on that.\nSpeaker B (grandfather): I know, I know. But see, now you're seeing this is a lot more complicated than what you thought, isn't it?",
+    "target": "Speaker A (grandson) (Target): Yeah, it is.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandfather): I know, I know. But see, now you're seeing this is a lot more complicated than what you thought, isn't it?\nSpeaker B (grandson): Yeah, it is.",
+    "target": "Speaker A (grandfather) (Target): Twinkle, twinkle, little star. You could hear it, right?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is not an interruption as he is responding to the"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandson): Yeah, it is.\nSpeaker B (grandfather): Twinkle, twinkle, little star. You could hear it, right?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (grandfather): Twinkle, twinkle, little star. You could hear it, right?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Oh, you could hhhhhh, I couldn't.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Oh, you could hhhhhh, I couldn't.",
+    "target": "Speaker A (grandson) (Target): I could barely hear it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response \"Yeah\" was a backchannel, which is a"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Oh, you could hhhhhh, I couldn't.\nSpeaker B (grandson): I could barely hear it.",
+    "target": "Speaker A (grandfather) (Target): See, this is G. I think it's G. That note right there?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson speaks, so no interruption has"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): I could barely hear it.\nSpeaker B (grandfather): See, this is G. I think it's G. That note right there?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (grandfather): See, this is G. I think it's G. That note right there?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Look, that note right there is—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a continuation of his previous statement, which was"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Look, that note right there is—",
+    "target": "Speaker A (grandson) (Target): A G?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"A G?\" is a backchannel response and does"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (grandfather): Look, that note right there is—\nSpeaker B (grandson): A G?",
+    "target": "Speaker A (grandfather) (Target): Is open. No finger. That's— and you play 1, 2, 3, 4, 5, 6, 7, 8 of them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather completes his thought before the grandson interjects with a question."
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandson): A G?\nSpeaker B (grandfather): Is open. No finger. That's— and you play 1, 2, 3, 4, 5, 6, 7, 8 of them.",
+    "target": "Speaker A (grandson) (Target): With no fingers?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question \"With no fingers?\" is a clarification"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (grandfather): Is open. No finger. That's— and you play 1, 2, 3, 4, 5, 6, 7, 8 of them.\nSpeaker B (grandson): With no fingers?",
+    "target": "Speaker A (grandfather) (Target): With no fingers. All right, wait a minute. You do 8 of them. 1, 2, 3, 4, 5, 6, 7, 8.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a continuation of his previous statement, providing clarification on the number of"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandson): With no fingers?\nSpeaker B (grandfather): With no fingers. All right, wait a minute. You do 8 of them. 1, 2, 3, 4, 5, 6, 7, 8.",
+    "target": "Speaker A (grandson) (Target): All right. And then you do 1, 2, 3, 4, open all the fingers on this string right here. On this string? 8 of these, 4 of them.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker B (grandfather): With no fingers. All right, wait a minute. You do 8 of them. 1, 2, 3, 4, 5, 6, 7, 8.\nSpeaker A (grandson): All right. And then you do 1, 2, 3, 4, open all the fingers on this string right here. On this string? 8 of these, 4 of them.",
+    "target": "Speaker A (grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 20,
+    "context": "Speaker B (grandson): All right. And then you do 1, 2, 3, 4, open all the fingers on this string right here. On this string? 8 of these, 4 of them.\nSpeaker B (grandson): Okay.",
+    "target": "Speaker A (grandfather) (Target): Okay, then you go up 1 onto the next string. Just 1.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A agrees with Speaker B and provides a brief overlap to confirm the instruction."
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (grandson): Okay.\nSpeaker B (grandfather): Okay, then you go up 1 onto the next string. Just 1.",
+    "target": "Speaker A (grandson) (Target): What string?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 22,
+    "context": "Speaker A (grandfather): Okay, then you go up 1 onto the next string. Just 1.\nSpeaker B (grandson): What string?",
+    "target": "Speaker A (grandfather) (Target): Okay, 8 of these, 4 of these, and 1 of those.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is not an interruption as he is answering Speaker B's question about"
+  },
+  {
+    "index": 23,
+    "context": "Speaker A (grandson): What string?\nSpeaker B (grandfather): Okay, 8 of these, 4 of these, and 1 of those.",
+    "target": "Speaker A (grandson) (Target): Okay.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "backchannel (acknowledgement)",
+    "raw_output": "Role: none\nType: backchannel (acknowledgement)"
+  },
+  {
+    "index": 24,
+    "context": "Speaker A (grandfather): Okay, 8 of these, 4 of these, and 1 of those.\nSpeaker B (grandson): Okay.",
+    "target": "Speaker A (grandfather) (Target): Okay, you can try that. 6, uh, okay, I think I got it. Yeah, get a hold of the neck right down here where you— like that. There you go. Oh, you're taping this? Okay, then 4, then 1. Except you were on the wrong string. You were way down here when you need to be on that one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing instructions and clarifications, which is a natural part of the conversation. He is not"
+  },
+  {
+    "index": 25,
+    "context": "Speaker A (grandson): Okay.\nSpeaker B (grandfather): Okay, you can try that. 6, uh, okay, I think I got it. Yeah, get a hold of the neck right down here where you— like that. There you go. Oh, you're taping this? Okay, then 4, then 1. Except you were on the wrong string. You were way down here when you need to be on that one.",
+    "target": "Speaker A (grandson) (Target): Oh. Well, I'm learning. Oh God, I'm still learning.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A's response is a backchannel, acknowledging Speaker B's instructions and express"
+  },
+  {
+    "index": 26,
+    "context": "Speaker A (grandfather): Okay, you can try that. 6, uh, okay, I think I got it. Yeah, get a hold of the neck right down here where you— like that. There you go. Oh, you're taping this? Okay, then 4, then 1. Except you were on the wrong string. You were way down here when you need to be on that one.\nSpeaker B (grandson): Oh. Well, I'm learning. Oh God, I'm still learning.",
+    "target": "Speaker A (grandfather) (Target): The 1 is right here, but that's okay. What comes after that? Okay, what comes after that? Okay, all right, look. That makes it bad because, see, you're not going by the notes. Oh, if you just go—No, I was trying to figure it out. I understand. Okay, but look, now look, we go 4 on this string right here. I mean 8, rather. And then look, wait a minute, wait a minute. Then we go 4 on this one.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather keeps interrupting the grandson, changing the topic and giving instructions, which"
+  },
+  {
+    "index": 27,
+    "context": "Speaker A (grandson): Oh. Well, I'm learning. Oh God, I'm still learning.\nSpeaker B (grandfather): The 1 is right here, but that's okay. What comes after that? Okay, what comes after that? Okay, all right, look. That makes it bad because, see, you're not going by the notes. Oh, if you just go—No, I was trying to figure it out. I understand. Okay, but look, now look, we go 4 on this string right here. I mean 8, rather. And then look, wait a minute, wait a minute. Then we go 4 on this one.",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 28,
+    "context": "Speaker A (grandfather): The 1 is right here, but that's okay. What comes after that? Okay, what comes after that? Okay, all right, look. That makes it bad because, see, you're not going by the notes. Oh, if you just go—No, I was trying to figure it out. I understand. Okay, but look, now look, we go 4 on this string right here. I mean 8, rather. And then look, wait a minute, wait a minute. Then we go 4 on this one.\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Okay, and then we go 1 on that one, and then we go back down to this one and back down to this one. 8. Count them. 1, 2, 3, 4, 5, 6, 7, 8. And then 4 right here though.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A (grandfather) is providing a response to Speaker B's earlier acknowledgement"
+  },
+  {
+    "index": 29,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Okay, and then we go 1 on that one, and then we go back down to this one and back down to this one. 8. Count them. 1, 2, 3, 4, 5, 6, 7, 8. And then 4 right here though.",
+    "target": "Speaker A (grandson) (Target): Alright. 1, 2, 3, 4, 5, 6, 7, 8.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's response is a backchannel, acknowledging his grandfather's instructions, and does"
+  },
+  {
+    "index": 30,
+    "context": "Speaker A (grandfather): Okay, and then we go 1 on that one, and then we go back down to this one and back down to this one. 8. Count them. 1, 2, 3, 4, 5, 6, 7, 8. And then 4 right here though.\nSpeaker B (grandson): Alright. 1, 2, 3, 4, 5, 6, 7, 8.",
+    "target": "Speaker A (grandfather) (Target): 1. That sounded a little bit like Twinkle Twinkle Little Star, didn't it?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's comment about Twinkle Twinkle Little Star is a backchannel response"
+  },
+  {
+    "index": 31,
+    "context": "Speaker A (grandson): Alright. 1, 2, 3, 4, 5, 6, 7, 8.\nSpeaker B (grandfather): 1. That sounded a little bit like Twinkle Twinkle Little Star, didn't it?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 32,
+    "context": "Speaker A (grandfather): 1. That sounded a little bit like Twinkle Twinkle Little Star, didn't it?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Okay, and that put us right here. Then you got a little bit of a rest, a 1-note rest. Are these quarter notes or are these— they're half notes. These are quarters, yeah. Okay, so, all right, now them notes that we're playing right there— Look, see, this is a whole note. It counts a whole note. The count is, on that note right there, is 1, 2, 3, 4. The whole bow. See that note? See what it looks like?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing a clear response to the grandson's \"Yeah\" and continuing the conversation without"
+  },
+  {
+    "index": 33,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Okay, and that put us right here. Then you got a little bit of a rest, a 1-note rest. Are these quarter notes or are these— they're half notes. These are quarters, yeah. Okay, so, all right, now them notes that we're playing right there— Look, see, this is a whole note. It counts a whole note. The count is, on that note right there, is 1, 2, 3, 4. The whole bow. See that note? See what it looks like?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 34,
+    "context": "Speaker A (grandfather): Okay, and that put us right here. Then you got a little bit of a rest, a 1-note rest. Are these quarter notes or are these— they're half notes. These are quarters, yeah. Okay, so, all right, now them notes that we're playing right there— Look, see, this is a whole note. It counts a whole note. The count is, on that note right there, is 1, 2, 3, 4. The whole bow. See that note? See what it looks like?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): Alright, this one right here, same note, But you do 2 of them, half of the bow. 1, 2. All right, now this one, the one that we're playing on Twinkle Twinkle Little Star—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is providing instructions and the grandson is acknowledging them. There is no interruption or overlap"
+  },
+  {
+    "index": 35,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): Alright, this one right here, same note, But you do 2 of them, half of the bow. 1, 2. All right, now this one, the one that we're playing on Twinkle Twinkle Little Star—",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "intervening speaker",
+    "gold_type": "cooperative agreement",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 36,
+    "context": "Speaker A (grandfather): Alright, this one right here, same note, But you do 2 of them, half of the bow. 1, 2. All right, now this one, the one that we're playing on Twinkle Twinkle Little Star—\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): —is a quarter, so you only go a quarter of the bow. You see the difference in the notes?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance is a continuation of his explanation, and the grand"
+  },
+  {
+    "index": 37,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): —is a quarter, so you only go a quarter of the bow. You see the difference in the notes?",
+    "target": "Speaker A (grandson) (Target): Yeah. Yeah. I'm going to let you do that in just a minute. I'm just trying to show you. Okay, so, all right, now if we go back to here, we go back to Twinkle Twinkle Little Star. See? Oh no, those are half counts. And then half counts of those. Yeah, they're half counts.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response \"Yeah. Yeah.\" at the beginning of the target"
+  },
+  {
+    "index": 38,
+    "context": "Speaker A (grandfather): —is a quarter, so you only go a quarter of the bow. You see the difference in the notes?\nSpeaker B (grandson): Yeah. Yeah. I'm going to let you do that in just a minute. I'm just trying to show you. Okay, so, all right, now if we go back to here, we go back to Twinkle Twinkle Little Star. See? Oh no, those are half counts. And then half counts of those. Yeah, they're half counts.",
+    "target": "Speaker A (grandfather) (Target): All of these are all half counts. No, they ain't. They're quarters. Yeah, those are quarters. Those are quarters. So there's 4 in a thing. Is this a quarter? Yeah, I guess so. Uh, let me— I'm trying to find it. Corner, no! And a quarter. You see? Try it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is responding to his grandson's explanation and providing clarification on the"
+  },
+  {
+    "index": 39,
+    "context": "Speaker A (grandson): Yeah. Yeah. I'm going to let you do that in just a minute. I'm just trying to show you. Okay, so, all right, now if we go back to here, we go back to Twinkle Twinkle Little Star. See? Oh no, those are half counts. And then half counts of those. Yeah, they're half counts.\nSpeaker B (grandfather): All of these are all half counts. No, they ain't. They're quarters. Yeah, those are quarters. Those are quarters. So there's 4 in a thing. Is this a quarter? Yeah, I guess so. Uh, let me— I'm trying to find it. Corner, no! And a quarter. You see? Try it.",
+    "target": "Speaker A (grandson) (Target): You trying to do Tronco Tronco last time?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 40,
+    "context": "Speaker A (grandfather): All of these are all half counts. No, they ain't. They're quarters. Yeah, those are quarters. Those are quarters. So there's 4 in a thing. Is this a quarter? Yeah, I guess so. Uh, let me— I'm trying to find it. Corner, no! And a quarter. You see? Try it.\nSpeaker B (grandson): You trying to do Tronco Tronco last time?",
+    "target": "Speaker A (grandfather) (Target): Yep, I am. Okay, so got 8 of them. 1, 2, 3, 4, 5, 6, 7, 8. 1, 2, 3, 4. 1, 2, 3. How about that?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A (grandfather) is responding to Speaker B's question and providing information in a"
+  },
+  {
+    "index": 41,
+    "context": "Speaker A (grandson): You trying to do Tronco Tronco last time?\nSpeaker B (grandfather): Yep, I am. Okay, so got 8 of them. 1, 2, 3, 4, 5, 6, 7, 8. 1, 2, 3, 4. 1, 2, 3. How about that?",
+    "target": "Speaker A (grandson) (Target): What?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's question interrupts the grandfather's counting but does not stop"
+  },
+  {
+    "index": 42,
+    "context": "Speaker A (grandfather): Yep, I am. Okay, so got 8 of them. 1, 2, 3, 4, 5, 6, 7, 8. 1, 2, 3, 4. 1, 2, 3. How about that?\nSpeaker B (grandson): What?",
+    "target": "Speaker A (grandfather) (Target): Okay, then it goes, it goes G, D, A again. Okay, see, it goes— when you get 4 of them. When you get 4 of them, it goes up to that, then you go back down to the bottom and you rest. Then you go one, you go bottom and up through again. Okay, bottom.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's utterance is a continuation of his previous statement, and there is no overlap or"
+  },
+  {
+    "index": 43,
+    "context": "Speaker A (grandson): What?\nSpeaker B (grandfather): Okay, then it goes, it goes G, D, A again. Okay, see, it goes— when you get 4 of them. When you get 4 of them, it goes up to that, then you go back down to the bottom and you rest. Then you go one, you go bottom and up through again. Okay, bottom.",
+    "target": "Speaker A (grandson) (Target): Wow. Wow. I have a question. Say, would I have to get a left-handed one if I was gonna play left-handed?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson is asking a question in response to the explanation provided by the grandfather, and he is not"
+  },
+  {
+    "index": 44,
+    "context": "Speaker A (grandfather): Okay, then it goes, it goes G, D, A again. Okay, see, it goes— when you get 4 of them. When you get 4 of them, it goes up to that, then you go back down to the bottom and you rest. Then you go one, you go bottom and up through again. Okay, bottom.\nSpeaker B (grandson): Wow. Wow. I have a question. Say, would I have to get a left-handed one if I was gonna play left-handed?",
+    "target": "Speaker A (grandfather) (Target): Are you right-handed?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is responding to Speaker B's question and does not interrupt the flow"
+  },
+  {
+    "index": 45,
+    "context": "Speaker A (grandson): Wow. Wow. I have a question. Say, would I have to get a left-handed one if I was gonna play left-handed?\nSpeaker B (grandfather): Are you right-handed?",
+    "target": "Speaker A (grandson) (Target): I'm actually either. I'm actually ambidextrous. Fun fact about me, I'm ambidextrous.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 46,
+    "context": "Speaker A (grandfather): Are you right-handed?\nSpeaker B (grandson): I'm actually either. I'm actually ambidextrous. Fun fact about me, I'm ambidextrous.",
+    "target": "Speaker A (grandfather) (Target): Uh, well, I'm not sure what they do with these. I think they make them play right-handed, right hand. Yeah, even if you're left-handed. I think my brother was left-handed, but he didn't play one of these anyway, because I don't think they have lefty-righty in violins.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is responding to the grandson's statement about being ambidextrous and providing some"
+  },
+  {
+    "index": 47,
+    "context": "Speaker A (grandson): I'm actually either. I'm actually ambidextrous. Fun fact about me, I'm ambidextrous.\nSpeaker B (grandfather): Uh, well, I'm not sure what they do with these. I think they make them play right-handed, right hand. Yeah, even if you're left-handed. I think my brother was left-handed, but he didn't play one of these anyway, because I don't think they have lefty-righty in violins.",
+    "target": "Speaker A (grandson) (Target): 8.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's utterance \"I'm actually ambidextrous"
+  },
+  {
+    "index": 48,
+    "context": "Speaker A (grandfather): Uh, well, I'm not sure what they do with these. I think they make them play right-handed, right hand. Yeah, even if you're left-handed. I think my brother was left-handed, but he didn't play one of these anyway, because I don't think they have lefty-righty in violins.\nSpeaker B (grandson): 8.",
+    "target": "Speaker A (grandfather) (Target): Now, 1, 2, 3, 4. And then 1 here, 1, and then back. What? What? No, you did 2. Just one, back onto that one, back onto the bottom one, and then back on the bottom one, up on there, and there. Okay, look, let me show you where you are here. Come over here and look. See, you stopped right there. So you got 3 of them. No, 3 of them right here, D's, I think. 3 of them. And see, then you only got just a few left. 4. 1. Back down 1. Back down all the way down here. 1. And then rip your— 1. You're resting. 1, 2. I could never do this. 5, 6, 7, 8, and then 1, 2, 3, 4.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A (grandfather) is providing a detailed explanation and Speaker B's interjection of"
+  },
+  {
+    "index": 49,
+    "context": "Speaker A (grandson): 8.\nSpeaker B (grandfather): Now, 1, 2, 3, 4. And then 1 here, 1, and then back. What? What? No, you did 2. Just one, back onto that one, back onto the bottom one, and then back on the bottom one, up on there, and there. Okay, look, let me show you where you are here. Come over here and look. See, you stopped right there. So you got 3 of them. No, 3 of them right here, D's, I think. 3 of them. And see, then you only got just a few left. 4. 1. Back down 1. Back down all the way down here. 1. And then rip your— 1. You're resting. 1, 2. I could never do this. 5, 6, 7, 8, and then 1, 2, 3, 4.",
+    "target": "Speaker A (grandson) (Target): What? Play them things. It's so grueling to learn the notes and stuff. 1.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandson's utterance \"What? Play them things. It's so grueling to"
+  },
+  {
+    "index": 50,
+    "context": "Speaker A (grandfather): Now, 1, 2, 3, 4. And then 1 here, 1, and then back. What? What? No, you did 2. Just one, back onto that one, back onto the bottom one, and then back on the bottom one, up on there, and there. Okay, look, let me show you where you are here. Come over here and look. See, you stopped right there. So you got 3 of them. No, 3 of them right here, D's, I think. 3 of them. And see, then you only got just a few left. 4. 1. Back down 1. Back down all the way down here. 1. And then rip your— 1. You're resting. 1, 2. I could never do this. 5, 6, 7, 8, and then 1, 2, 3, 4.\nSpeaker B (grandson): What? Play them things. It's so grueling to learn the notes and stuff. 1.",
+    "target": "Speaker A (grandfather) (Target): Back down. 1, 1.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's utterance \"Back down. 1, 1.\" is"
+  },
+  {
+    "index": 51,
+    "context": "Speaker A (grandson): What? Play them things. It's so grueling to learn the notes and stuff. 1.\nSpeaker B (grandfather): Back down. 1, 1.",
+    "target": "Speaker A (grandson) (Target): 1.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "backchannel (repeating a previous number in the conversation)",
+    "raw_output": "Role: none\nType: backchannel (repeating a previous number in the conversation)"
+  },
+  {
+    "index": 52,
+    "context": "Speaker A (grandfather): Back down. 1, 1.\nSpeaker B (grandson): 1.",
+    "target": "Speaker A (grandfather) (Target): Yeah, but each one. Each one takes a quarter, a quarter of the bow. You see?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A completes his thought before Speaker B responds"
+  },
+  {
+    "index": 53,
+    "context": "Speaker A (grandson): 1.\nSpeaker B (grandfather): Yeah, but each one. Each one takes a quarter, a quarter of the bow. You see?",
+    "target": "Speaker A (grandson) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 54,
+    "context": "Speaker A (grandfather): Yeah, but each one. Each one takes a quarter, a quarter of the bow. You see?\nSpeaker B (grandson): Yeah.",
+    "target": "Speaker A (grandfather) (Target): But I want to show you the difference. See, this note right here, this takes the whole bow in a count of 1, 2, 3, 4. Your arm ain't long enough to do that. I know you kids today aren't used to doing much more than clicking on a screen, but this takes real physical reach.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather is continuing his explanation without interrupting the flow of conversation. He is providing additional information and context"
+  },
+  {
+    "index": 55,
+    "context": "Speaker A (grandson): Yeah.\nSpeaker B (grandfather): But I want to show you the difference. See, this note right here, this takes the whole bow in a count of 1, 2, 3, 4. Your arm ain't long enough to do that. I know you kids today aren't used to doing much more than clicking on a screen, but this takes real physical reach.",
+    "target": "Speaker A (grandson) (Target): Well, I can reach it just fine! So if you're saying my arm ain't long enough, you're just wrong. I play basketball, my reach is great.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandfather mid-sentence to disagree"
+  },
+  {
+    "index": 56,
+    "context": "Speaker A (grandfather): But I want to show you the difference. See, this note right here, this takes the whole bow in a count of 1, 2, 3, 4. Your arm ain't long enough to do that. I know you kids today aren't used to doing much more than clicking on a screen, but this takes real physical reach.\nSpeaker B (grandson): Well, I can reach it just fine! So if you're saying my arm ain't long enough, you're just wrong. I play basketball, my reach is great.",
+    "target": "Speaker A (grandfather) (Target): I didn't say you couldn't play ball, I said you aren't tall enough to pull a full bow steady. It’s about the instrument’s size, not your video games. Now, settle down and listen.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather interrupts the grandson by changing the topic from the"
+  },
+  {
+    "index": 57,
+    "context": "Speaker A (grandson): Well, I can reach it just fine! So if you're saying my arm ain't long enough, you're just wrong. I play basketball, my reach is great.\nSpeaker B (grandfather): I didn't say you couldn't play ball, I said you aren't tall enough to pull a full bow steady. It’s about the instrument’s size, not your video games. Now, settle down and listen.",
+    "target": "Speaker A (grandson) (Target): Whatever. I’m just saying, don't assume I can't do it just because I'm younger.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson interrupts his grandfather mid-sentence to assert"
+  },
+  {
+    "index": 58,
+    "context": "Speaker A (grandfather): I didn't say you couldn't play ball, I said you aren't tall enough to pull a full bow steady. It’s about the instrument’s size, not your video games. Now, settle down and listen.\nSpeaker B (grandson): Whatever. I’m just saying, don't assume I can't do it just because I'm younger.",
+    "target": "Speaker A (grandfather) (Target): Yeah. Thumb here. Other 3 fingers, other 4 fingers, just like that. Okay. See, that little one is right on the very end. Yeah, that's pretty good right there.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 59,
+    "context": "Speaker A (grandson): Whatever. I’m just saying, don't assume I can't do it just because I'm younger.\nSpeaker B (grandfather): Yeah. Thumb here. Other 3 fingers, other 4 fingers, just like that. Okay. See, that little one is right on the very end. Yeah, that's pretty good right there.",
+    "target": "Speaker A (grandson) (Target): Can you hear me?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 60,
+    "context": "Speaker A (grandfather): Yeah. Thumb here. Other 3 fingers, other 4 fingers, just like that. Okay. See, that little one is right on the very end. Yeah, that's pretty good right there.\nSpeaker B (grandson): Can you hear me?",
+    "target": "Speaker A (grandfather) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 61,
+    "context": "Speaker A (grandson): Can you hear me?\nSpeaker B (grandfather): Yeah.",
+    "target": "Speaker A (grandson) (Target): Okay. This is my grandpa's, so— It's really good. Okay, I'm gonna be seeing you in next vlog. Peace out.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

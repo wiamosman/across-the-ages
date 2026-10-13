@@ -1,0 +1,199 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 54,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): My chin is up. I don't want you to see it down. I want you to see it up, cuz you look beautiful. Yeah, you got it, you got it, girl. This is too bad. Ready? You look beautiful. 1, 2, 3.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): My chin is up. I don't want you to see it down. I want you to see it up, cuz you look beautiful. Yeah, you got it, you got it, girl. This is too bad. Ready? You look beautiful. 1, 2, 3.",
+            "target": "Target (granddaughter): 1, 2, 3. Oh my gosh, Grandma, you are actually ate that! No crumbs left.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): My chin is up. I don't want you to see it down. I want you to see it up, cuz you look beautiful. Yeah, you got it, you got it, girl. This is too bad. Ready? You look beautiful. 1, 2, 3. | Speaker B (granddaughter): 1, 2, 3. Oh my gosh, Grandma, you are actually ate that! No crumbs left.",
+            "target": "Target (grandmother): I ate what? Child, I haven't touched a snack all afternoon. And what crumbs are you talking about? I just swept this floor!",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): 1, 2, 3. Oh my gosh, Grandma, you are actually ate that! No crumbs left. | Speaker B (grandmother): I ate what? Child, I haven't touched a snack all afternoon. And what crumbs are you talking about? I just swept this floor!",
+            "target": "Target (granddaughter): No, no! It's a compliment! It means you did the dance perfectly. You 'ate' the performance.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): I ate what? Child, I haven't touched a snack all afternoon. And what crumbs are you talking about? I just swept this floor! | Speaker B (granddaughter): No, no! It's a compliment! It means you did the dance perfectly. You 'ate' the performance.",
+            "target": "Target (grandmother): You young people have the strangest way of saying nice things. Why can't you just say I'm a good dancer? Now you've got me looking at the floor for cookies. Let's get back to it.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): No, no! It's a compliment! It means you did the dance perfectly. You 'ate' the performance. | Speaker B (grandmother): You young people have the strangest way of saying nice things. Why can't you just say I'm a good dancer? Now you've got me looking at the floor for cookies. Let's get back to it.",
+            "target": "Target (grandmother): 1, 2, 3. 1, 2, 3, 4. 1, 2, 3, 4.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): You young people have the strangest way of saying nice things. Why can't you just say I'm a good dancer? Now you've got me looking at the floor for cookies. Let's get back to it. | Speaker B (grandmother): 1, 2, 3. 1, 2, 3, 4. 1, 2, 3, 4.",
+            "target": "Target (granddaughter): Well, Amanda, you did good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): 1, 2, 3. 1, 2, 3, 4. 1, 2, 3, 4. | Speaker B (granddaughter): Well, Amanda, you did good.",
+            "target": "Target (grandmother): Let's do the big one. Yeah. Ow. Let's do the miracle. Walk away from me. Watch me. I'll go first, child. You ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Well, Amanda, you did good. | Speaker B (grandmother): Let's do the big one. Yeah. Ow. Let's do the miracle. Walk away from me. Watch me. I'll go first, child. You ready?",
+            "target": "Target (granddaughter): Yeah, wow.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): Let's do the big one. Yeah. Ow. Let's do the miracle. Walk away from me. Watch me. I'll go first, child. You ready? | Speaker B (granddaughter): Yeah, wow.",
+            "target": "Target (grandmother): Nope, back that shit up. Ain't that racist stuff. Watch me. Look at my hands and look at my arms. Look at my feet. Mom, get this boy! You're so beautiful.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): Yeah, wow. | Speaker B (grandmother): Nope, back that shit up. Ain't that racist stuff. Watch me. Look at my hands and look at my arms. Look at my feet. Mom, get this boy! You're so beautiful.",
+            "target": "Target (granddaughter): I'm so beautiful. Nope, bang it up, bang it up. Do it right. Look, she look like me. Watch my face. Cut the light back on. Cut the light back on. Get it, J. We need delay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Nope, back that shit up. Ain't that racist stuff. Watch me. Look at my hands and look at my arms. Look at my feet. Mom, get this boy! You're so beautiful. | Speaker B (granddaughter): I'm so beautiful. Nope, bang it up, bang it up. Do it right. Look, she look like me. Watch my face. Cut the light back on. Cut the light back on. Get it, J. We need delay.",
+            "target": "Target (grandmother): J. We need delay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (granddaughter): I'm so beautiful. Nope, bang it up, bang it up. Do it right. Look, she look like me. Watch my face. Cut the light back on. Cut the light back on. Get it, J. We need delay. | Speaker B (grandmother): J. We need delay.",
+            "target": "Target (granddaughter): Watch my feet, Caleb. I heard you, Steve.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandmother): J. We need delay. | Speaker B (granddaughter): Watch my feet, Caleb. I heard you, Steve.",
+            "target": "Target (grandmother): And watch my feet.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (granddaughter): Watch my feet, Caleb. I heard you, Steve. | Speaker B (grandmother): And watch my feet.",
+            "target": "Target (granddaughter): See my hands? Do like this. Look at your hands.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandmother): And watch my feet. | Speaker B (granddaughter): See my hands? Do like this. Look at your hands.",
+            "target": "Target (grandmother): Let your hands be free. Let your hands do what I'm doing. Let your hands be free. They're like butterflies. They are so free. Look, look, look, you're not doing it. Make your hands Feel like butterfly, understand? Watch this leg, watch this leg.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (granddaughter): See my hands? Do like this. Look at your hands. | Speaker B (grandmother): Let your hands be free. Let your hands do what I'm doing. Let your hands be free. They're like butterflies. They are so free. Look, look, look, you're not doing it. Make your hands Feel like butterfly, understand? Watch this leg, watch this leg.",
+            "target": "Target (grandfather): You got it, you got it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Let your hands be free. Let your hands do what I'm doing. Let your hands be free. They're like butterflies. They are so free. Look, look, look, you're not doing it. Make your hands Feel like butterfly, understand? Watch this leg, watch this leg. | Speaker B (grandfather): You got it, you got it.",
+            "target": "Target (granddaughter): 2, 3.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): You got it, you got it. | Speaker B (granddaughter): 2, 3.",
+            "target": "Target (grandmother): And so beautiful. Do it like princess, uh, whatever. You got it. Come on, get it going. Let's go.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): 2, 3. | Speaker B (grandmother): And so beautiful. Do it like princess, uh, whatever. You got it. Come on, get it going. Let's go.",
+            "target": "Target (granddaughter): That's so beautiful.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): And so beautiful. Do it like princess, uh, whatever. You got it. Come on, get it going. Let's go. | Speaker B (granddaughter): That's so beautiful.",
+            "target": "Target (grandmother): Come on, I walk with you. I walk with you, girl. You got this. Let the arms be free. Butterflies under the arms. Butterflies, butterflies, butterflies. Hold them. Hold the one right here. Hold them. Hold them up. Could you move them? Take a step. One.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): That's so beautiful. | Speaker B (grandmother): Come on, I walk with you. I walk with you, girl. You got this. Let the arms be free. Butterflies under the arms. Butterflies, butterflies, butterflies. Hold them. Hold the one right here. Hold them. Hold them up. Could you move them? Take a step. One.",
+            "target": "Target (granddaughter): Up. Butterflies, butterflies, butterflies. I'm so beautiful. Okay, watch me, watch me. You ready? I'm going have to walk with this one, so I walk with this one. But watch me, watch me. You ready?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): Come on, I walk with you. I walk with you, girl. You got this. Let the arms be free. Butterflies under the arms. Butterflies, butterflies, butterflies. Hold them. Hold the one right here. Hold them. Hold them up. Could you move them? Take a step. One. | Speaker B (granddaughter): Up. Butterflies, butterflies, butterflies. I'm so beautiful. Okay, watch me, watch me. You ready? I'm going have to walk with this one, so I walk with this one. But watch me, watch me. You ready?",
+            "target": "Target (grandmother): Watch this one on.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): Up. Butterflies, butterflies, butterflies. I'm so beautiful. Okay, watch me, watch me. You ready? I'm going have to walk with this one, so I walk with this one. But watch me, watch me. You ready? | Speaker B (grandmother): Watch this one on.",
+            "target": "Target (granddaughter): I'm so beautiful.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

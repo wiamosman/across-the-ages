@@ -1,0 +1,599 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 48,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock... Tick-tock, tick-tock, tick-tock...",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock... Tick-tock, tick-tock, tick-tock...",
+            "target": "Target (granddaughter): Tick-tock, tick-tock, tick-tock….You're doing good!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock... Tick-tock, tick-tock, tick-tock... | Speaker B (granddaughter): Tick-tock, tick-tock, tick-tock….You're doing good!",
+            "target": "Target (grandmother): Make it a little bit harder. Tick-tock, tick-tock, tick-tock, tick-tock... This is where I get mixed up.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Tick-tock, tick-tock, tick-tock….You're doing good! | Speaker B (grandmother): Make it a little bit harder. Tick-tock, tick-tock, tick-tock, tick-tock... This is where I get mixed up.",
+            "target": "Target (granddaughter): Well, you moved your hands, that's why.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): Make it a little bit harder. Tick-tock, tick-tock, tick-tock, tick-tock... This is where I get mixed up. | Speaker B (granddaughter): Well, you moved your hands, that's why.",
+            "target": "Target (grandmother): Yeah, I shouldn't do that.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): Well, you moved your hands, that's why. | Speaker B (grandmother): Yeah, I shouldn't do that.",
+            "target": "Target (granddaughter): There you go. Just stay in position.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): Yeah, I shouldn't do that. | Speaker B (granddaughter): There you go. Just stay in position.",
+            "target": "Target (grandmother): Now I'm starting here, aren't I?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): There you go. Just stay in position. | Speaker B (grandmother): Now I'm starting here, aren't I?",
+            "target": "Target (granddaughter): Okay, yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandmother): Now I'm starting here, aren't I? | Speaker B (granddaughter): Okay, yes.",
+            "target": "Target (grandmother): That's number 3. Tick-tock, tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Okay, yes. | Speaker B (grandmother): That's number 3. Tick-tock, tick-tock, tick-tock.",
+            "target": "Target (granddaughter): Whoops, you moved again. Don't move.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): That's number 3. Tick-tock, tick-tock, tick-tock. | Speaker B (granddaughter): Whoops, you moved again. Don't move.",
+            "target": "Target (grandmother): Oh, I don't move.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Whoops, you moved again. Don't move. | Speaker B (grandmother): Oh, I don't move.",
+            "target": "Target (granddaughter): I just do it the first time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): Oh, I don't move. | Speaker B (granddaughter): I just do it the first time.",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): I just do it the first time. | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "target": "Target (granddaughter): Is that right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. | Speaker B (granddaughter): Is that right?",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Was that good?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): Is that right? | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Was that good?",
+            "target": "Target (granddaughter): Yes that was a good warm-up. What I saw in improvement was smoothness in the way your hands were positioned on your chords. Didn't you feel that?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Was that good? | Speaker B (granddaughter): Yes that was a good warm-up. What I saw in improvement was smoothness in the way your hands were positioned on your chords. Didn't you feel that?",
+            "target": "Target (grandmother): Yes.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Yes that was a good warm-up. What I saw in improvement was smoothness in the way your hands were positioned on your chords. Didn't you feel that? | Speaker B (grandmother): Yes.",
+            "target": "Target (granddaughter): Good, because you said when I got here you felt like you were gonna disappoint me.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): Yes. | Speaker B (granddaughter): Good, because you said when I got here you felt like you were gonna disappoint me.",
+            "target": "Target (grandmother): Well, I still think I'm gonna disappoint you because I don't feel like I've learned it as well as some of the— it's getting harder.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Good, because you said when I got here you felt like you were gonna disappoint me. | Speaker B (grandmother): Well, I still think I'm gonna disappoint you because I don't feel like I've learned it as well as some of the— it's getting harder.",
+            "target": "Target (granddaughter): It is getting a little harder. It's getting a little bit more challenging, but as long as you can find one piece of progress, then that is progress, no matter how big or small.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): Well, I still think I'm gonna disappoint you because I don't feel like I've learned it as well as some of the— it's getting harder. | Speaker B (granddaughter): It is getting a little harder. It's getting a little bit more challenging, but as long as you can find one piece of progress, then that is progress, no matter how big or small.",
+            "target": "Target (grandmother): No matter how big or small.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): It is getting a little harder. It's getting a little bit more challenging, but as long as you can find one piece of progress, then that is progress, no matter how big or small. | Speaker B (grandmother): No matter how big or small.",
+            "target": "Target (granddaughter): Right, so your fingers, that's what I noticed most, was that your fingers were, they look, they even look more comfortable on the piano. See, they're relaxed. And you look relaxed too.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): No matter how big or small. | Speaker B (granddaughter): Right, so your fingers, that's what I noticed most, was that your fingers were, they look, they even look more comfortable on the piano. See, they're relaxed. And you look relaxed too.",
+            "target": "Target (grandmother): Well, I try.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): Right, so your fingers, that's what I noticed most, was that your fingers were, they look, they even look more comfortable on the piano. See, they're relaxed. And you look relaxed too. | Speaker B (grandmother): Well, I try.",
+            "target": "Target (granddaughter): Yes, let's play Switchback Trails. Tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): Well, I try. | Speaker B (granddaughter): Yes, let's play Switchback Trails. Tick-tock, tick-tock.",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): Yes, let's play Switchback Trails. Tick-tock, tick-tock. | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock.",
+            "target": "Target (granddaughter): Now that's a 4 tick-tock right there.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. | Speaker B (granddaughter): Now that's a 4 tick-tock right there.",
+            "target": "Target (grandmother): Tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): Now that's a 4 tick-tock right there. | Speaker B (grandmother): Tick-tock, tick-tock.",
+            "target": "Target (granddaughter): Second line.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock. | Speaker B (granddaughter): Second line.",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Take time Check it Take time Stop right there for just a second.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): Second line. | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Take time Check it Take time Stop right there for just a second.",
+            "target": "Target (granddaughter): I'm going to get a dish towel because I need to cover your hands. You're looking at your hands a lot, and frankly, it’s getting a bit painful to watch you struggle with the same keys.",
+            "gold_label": "perceived disrespect",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Take time Check it Take time Stop right there for just a second. | Speaker B (granddaughter): I'm going to get a dish towel because I need to cover your hands. You're looking at your hands a lot, and frankly, it’s getting a bit painful to watch you struggle with the same keys.",
+            "target": "Target (grandmother): Oh... am I really that slow? I didn't think I was being a burden.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): I'm going to get a dish towel because I need to cover your hands. You're looking at your hands a lot, and frankly, it’s getting a bit painful to watch you struggle with the same keys. | Speaker B (grandmother): Oh... am I really that slow? I didn't think I was being a burden.",
+            "target": "Target (granddaughter): I didn't say that, but the towel will help. Just raise the fingers and leave the hands the same.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): Oh... am I really that slow? I didn't think I was being a burden. | Speaker B (granddaughter): I didn't say that, but the towel will help. Just raise the fingers and leave the hands the same.",
+            "target": "Target (grandmother): Oh ok. Then I just raise the fingers and leave the hands the same.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (granddaughter): I didn't say that, but the towel will help. Just raise the fingers and leave the hands the same. | Speaker B (grandmother): Oh ok. Then I just raise the fingers and leave the hands the same.",
+            "target": "Target (granddaughter): Right. So let's just try it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): Oh ok. Then I just raise the fingers and leave the hands the same. | Speaker B (granddaughter): Right. So let's just try it.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (granddaughter): Right. So let's just try it. | Speaker B (grandmother): Okay.",
+            "target": "Target (granddaughter): Okay, so even if you do look down, you won't be able to see anything. All kinds of noises are going to come out of you. Let's try the first line. Let's just do the first line just to test this out.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): Okay. | Speaker B (granddaughter): Okay, so even if you do look down, you won't be able to see anything. All kinds of noises are going to come out of you. Let's try the first line. Let's just do the first line just to test this out.",
+            "target": "Target (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, oh I did that wrong. Tick-tock, tick-ba-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (granddaughter): Okay, so even if you do look down, you won't be able to see anything. All kinds of noises are going to come out of you. Let's try the first line. Let's just do the first line just to test this out. | Speaker B (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, oh I did that wrong. Tick-tock, tick-ba-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "target": "Target (granddaughter): Good! Okay stop there. Did you see? You didn't have to look. You corrected yourself without looking too.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): Tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, oh I did that wrong. Tick-tock, tick-ba-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. | Speaker B (granddaughter): Good! Okay stop there. Did you see? You didn't have to look. You corrected yourself without looking too.",
+            "target": "Target (grandmother): Oh... Oh, that was good.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (granddaughter): Good! Okay stop there. Did you see? You didn't have to look. You corrected yourself without looking too. | Speaker B (grandmother): Oh... Oh, that was good.",
+            "target": "Target (granddaughter): Yes, it was.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandmother): Oh... Oh, that was good. | Speaker B (granddaughter): Yes, it was.",
+            "target": "Target (grandmother): But I was afraid of getting my fingers on the wrong keys when I don't look.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (granddaughter): Yes, it was. | Speaker B (grandmother): But I was afraid of getting my fingers on the wrong keys when I don't look.",
+            "target": "Target (granddaughter): Right, I know. That's the fear that everybody has, but you actually did do the right keys without looking, and you corrected yourself without looking, Grandma. Did you notice how you corrected it without looking?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandmother): But I was afraid of getting my fingers on the wrong keys when I don't look. | Speaker B (granddaughter): Right, I know. That's the fear that everybody has, but you actually did do the right keys without looking, and you corrected yourself without looking, Grandma. Did you notice how you corrected it without looking?",
+            "target": "Target (grandmother): I think I did.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (granddaughter): Right, I know. That's the fear that everybody has, but you actually did do the right keys without looking, and you corrected yourself without looking, Grandma. Did you notice how you corrected it without looking? | Speaker B (grandmother): I think I did.",
+            "target": "Target (granddaughter): Okay, just want you to make sure.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandmother): I think I did. | Speaker B (granddaughter): Okay, just want you to make sure.",
+            "target": "Target (grandmother): And I wasn't— I was wondering if you were going to holler that I'm on the wrong one or not, but you didn't, so I figured I was right.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (granddaughter): Okay, just want you to make sure. | Speaker B (grandmother): And I wasn't— I was wondering if you were going to holler that I'm on the wrong one or not, but you didn't, so I figured I was right.",
+            "target": "Target (granddaughter): You heard when it was wrong too. See, your ear is being trained. You knew it was wrong and so you corrected it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandmother): And I wasn't— I was wondering if you were going to holler that I'm on the wrong one or not, but you didn't, so I figured I was right. | Speaker B (granddaughter): You heard when it was wrong too. See, your ear is being trained. You knew it was wrong and so you corrected it.",
+            "target": "Target (grandmother): Yeah, I can tell when those keys are wrong.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (granddaughter): You heard when it was wrong too. See, your ear is being trained. You knew it was wrong and so you corrected it. | Speaker B (grandmother): Yeah, I can tell when those keys are wrong.",
+            "target": "Target (granddaughter): That's good. Okay, let's go ahead and go to the next song. My first real song. You practiced. This was a re-practice, right? From last week?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandmother): Yeah, I can tell when those keys are wrong. | Speaker B (granddaughter): That's good. Okay, let's go ahead and go to the next song. My first real song. You practiced. This was a re-practice, right? From last week?",
+            "target": "Target (grandmother): Maybe. Yeah, I went from here on through. See, if I get this wrist— I have to fix it over to get this wrist from not hurting when I get my fingers over here.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (granddaughter): That's good. Okay, let's go ahead and go to the next song. My first real song. You practiced. This was a re-practice, right? From last week? | Speaker B (grandmother): Maybe. Yeah, I went from here on through. See, if I get this wrist— I have to fix it over to get this wrist from not hurting when I get my fingers over here.",
+            "target": "Target (granddaughter): Okay, you could move away from the piano a little. Let me get you back a little so that you're not squishing your elbows so closely.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandmother): Maybe. Yeah, I went from here on through. See, if I get this wrist— I have to fix it over to get this wrist from not hurting when I get my fingers over here. | Speaker B (granddaughter): Okay, you could move away from the piano a little. Let me get you back a little so that you're not squishing your elbows so closely.",
+            "target": "Target (grandmother): Right there. Okay, we're going to play that song over there, huh?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (granddaughter): Okay, you could move away from the piano a little. Let me get you back a little so that you're not squishing your elbows so closely. | Speaker B (grandmother): Right there. Okay, we're going to play that song over there, huh?",
+            "target": "Target (granddaughter): My first real song. Starting with the C chord. You're starting.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandmother): Right there. Okay, we're going to play that song over there, huh? | Speaker B (granddaughter): My first real song. Starting with the C chord. You're starting.",
+            "target": "Target (grandmother): Oh, I'm starting down there.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (granddaughter): My first real song. Starting with the C chord. You're starting. | Speaker B (grandmother): Oh, I'm starting down there.",
+            "target": "Target (granddaughter): That's the first. Right from here. Go, yep, according to how you read. Right in order.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandmother): Oh, I'm starting down there. | Speaker B (granddaughter): That's the first. Right from here. Go, yep, according to how you read. Right in order.",
+            "target": "Target (grandmother): Oh, sure. Right. Which one I have to go in? The next one also? Okay, I have to get my fingers set here more.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (granddaughter): That's the first. Right from here. Go, yep, according to how you read. Right in order. | Speaker B (grandmother): Oh, sure. Right. Which one I have to go in? The next one also? Okay, I have to get my fingers set here more.",
+            "target": "Target (granddaughter): I know. A, top.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandmother): Oh, sure. Right. Which one I have to go in? The next one also? Okay, I have to get my fingers set here more. | Speaker B (granddaughter): I know. A, top.",
+            "target": "Target (grandmother): Is that right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (granddaughter): I know. A, top. | Speaker B (grandmother): Is that right?",
+            "target": "Target (granddaughter): Yes, you looked at your hands. Even though it was right, you looked at it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandmother): Is that right? | Speaker B (granddaughter): Yes, you looked at your hands. Even though it was right, you looked at it.",
+            "target": "Target (grandmother): Oh, I looked at my hands. Top. Oh, yeah, I was just going across.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (granddaughter): Yes, you looked at your hands. Even though it was right, you looked at it. | Speaker B (grandmother): Oh, I looked at my hands. Top. Oh, yeah, I was just going across.",
+            "target": "Target (granddaughter): Whoops, here, forgot to go up and down. Left, right, left, right, left, right, right.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandmother): Oh, I looked at my hands. Top. Oh, yeah, I was just going across. | Speaker B (granddaughter): Whoops, here, forgot to go up and down. Left, right, left, right, left, right, right.",
+            "target": "Target (grandmother): Okay, just throw it all away.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (granddaughter): Whoops, here, forgot to go up and down. Left, right, left, right, left, right, right. | Speaker B (grandmother): Okay, just throw it all away.",
+            "target": "Target (granddaughter): Okay, say, 'Talk.' Right, you got it. That's right, second line.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandmother): Okay, just throw it all away. | Speaker B (granddaughter): Okay, say, 'Talk.' Right, you got it. That's right, second line.",
+            "target": "Target (grandmother): Now let's make it fine. Do I start with the G?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (granddaughter): Okay, say, 'Talk.' Right, you got it. That's right, second line. | Speaker B (grandmother): Now let's make it fine. Do I start with the G?",
+            "target": "Target (granddaughter): Start with the G, your pinky. If you didn't move, you should be there. Right together. Good, Grandma.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandmother): Now let's make it fine. Do I start with the G? | Speaker B (granddaughter): Start with the G, your pinky. If you didn't move, you should be there. Right together. Good, Grandma.",
+            "target": "Target (grandmother): Okay.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (granddaughter): Start with the G, your pinky. If you didn't move, you should be there. Right together. Good, Grandma. | Speaker B (grandmother): Okay.",
+            "target": "Target (granddaughter): You're making progress.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "cooperative flow"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandmother): Okay. | Speaker B (granddaughter): You're making progress.",
+            "target": "Target (grandmother): Oh, I'm glad to hear that. I've always been afraid of trying. Mary Had a Little Lamb.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (granddaughter): You're making progress. | Speaker B (grandmother): Oh, I'm glad to hear that. I've always been afraid of trying. Mary Had a Little Lamb.",
+            "target": "Target (granddaughter): Okay, your assignment this week will be the last 2 songs of the book, and they're 2 familiar songs. Mary Had a Little Lamb with both hands. And Ode to Joy, which is a— Ode to Joy is Beethoven. You'll recognize it when you play it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandmother): Oh, I'm glad to hear that. I've always been afraid of trying. Mary Had a Little Lamb. | Speaker B (granddaughter): Okay, your assignment this week will be the last 2 songs of the book, and they're 2 familiar songs. Mary Had a Little Lamb with both hands. And Ode to Joy, which is a— Ode to Joy is Beethoven. You'll recognize it when you play it.",
+            "target": "Target (grandmother): Well, now what I was going to ask you, they say hold this, this, this, but now these you don't because they don't say, or do you go ahead and hold them? That's just to show you and then you go ahead and hold them.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (granddaughter): Okay, your assignment this week will be the last 2 songs of the book, and they're 2 familiar songs. Mary Had a Little Lamb with both hands. And Ode to Joy, which is a— Ode to Joy is Beethoven. You'll recognize it when you play it. | Speaker B (grandmother): Well, now what I was going to ask you, they say hold this, this, this, but now these you don't because they don't say, or do you go ahead and hold them? That's just to show you and then you go ahead and hold them.",
+            "target": "Target (granddaughter): No, you hold them because right, exactly. So that you keep holding that down as you play it right here.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandmother): Well, now what I was going to ask you, they say hold this, this, this, but now these you don't because they don't say, or do you go ahead and hold them? That's just to show you and then you go ahead and hold them. | Speaker B (granddaughter): No, you hold them because right, exactly. So that you keep holding that down as you play it right here.",
+            "target": "Target (grandmother): Okay. Okay, is this what I do tonight? Am I all through?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (granddaughter): No, you hold them because right, exactly. So that you keep holding that down as you play it right here. | Speaker B (grandmother): Okay. Okay, is this what I do tonight? Am I all through?",
+            "target": "Target (granddaughter): Yes, there isn't anything new for the next 2 songs. The last 2 songs are all done. Like it says, hold that down. Next week we'll start on it. Okay. Until next time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandmother): Okay. Okay, is this what I do tonight? Am I all through? | Speaker B (granddaughter): Yes, there isn't anything new for the next 2 songs. The last 2 songs are all done. Like it says, hold that down. Next week we'll start on it. Okay. Until next time.",
+            "target": "Target (grandmother): So all I do is just practice the last 2 songs? Yeah, that's the hard part. Oh my gosh, and I start on this one? Goodbye.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (granddaughter): Yes, there isn't anything new for the next 2 songs. The last 2 songs are all done. Like it says, hold that down. Next week we'll start on it. Okay. Until next time. | Speaker B (grandmother): So all I do is just practice the last 2 songs? Yeah, that's the hard part. Oh my gosh, and I start on this one? Goodbye.",
+            "target": "Target (granddaughter): Until next time.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

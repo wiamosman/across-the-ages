@@ -1,0 +1,127 @@
+{
+  "model_used": "Mistral-7B",
+  "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "file_index": 94,
+  "utterances": [
+    {
+      "text": "Hi Grandma! How have you been? I'm ready to help you with that DVD player lesson.",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "Hello dear! I'm doing well, though these new gadgets can be a bit of a puzzle sometimes. I appreciate your help.",
+      "golden": "statement-non-opinion",
+      "predicted": "greeting",
+      "raw": "greeting\nstatement-non-opinion"
+    },
+    {
+      "text": "I totally get it, Grandma. Setting up movies can be tricky sometimes. Is there a specific part of the DVD setup you want to start with?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thank you, dear. I think I get stuck when trying to switch the TV to the right input for the player. Maybe Grandpa can help with that part too.",
+      "golden": "answer",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: Thank you"
+    },
+    {
+      "text": "No problem, Grandma! I'm here to show you exactly which button to press. Just let me know when you're ready.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: No problem"
+    },
+    {
+      "text": "I'm ready. I just want to make sure I get the timing right when the menu pops up on the screen.",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-non-opinion",
+      "raw": "statement-non-opinion"
+    },
+    {
+      "text": "I can definitely help with the input switching and the remote. Let's take it step by step together.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thanks, Grandpa! I'm sure with both of us helping, we'll have your favorite movie playing in no time.",
+      "golden": "agreement",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Thank you both for your help. I feel much better knowing we're tackling this lesson together.",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad we can all work on this together. It's nice to have a team effort for our movie night!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Alright, I'll give the remote a try now. Thank you for guiding me through the menu.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're welcome! I'm always here to help whenever you want to watch something new.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "Yes, I think we're getting the hang of it now. The picture looks wonderful. Thank you for your patience.",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nagreement"
+    },
+    {
+      "text": "I'm so glad to hear that! It's really rewarding to see you getting more comfortable with the DVD player.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "It seems like we're making great progress. I'm glad we're figuring out these cables and settings together.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I agree, we're doing just fine. Thank you for explaining the play and pause buttons so clearly.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "You're both doing amazing! I'm really proud of how quickly you're picking up the whole process.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I think we're doing well, but if there's any other button we're missing, let's look at it together. It's important to feel comfortable.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nHistory:\nTurn: I think"
+    },
+    {
+      "text": "I appreciate all the help, and I'm definitely more comfortable now. Let's keep the movie going and see how it goes.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "I'm glad to hear that! If you have any more questions about the DVD features, just let me know.",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    }
+  ]
+}

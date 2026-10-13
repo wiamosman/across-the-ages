@@ -1,0 +1,222 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Hello there! How was your day?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Hello there! How was your day?",
+    "target": "Speaker A (granddaughter) (Target): Hi Grandpa! My day was pretty good, thanks for asking. How about yours?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Hello there! How was your day?\nSpeaker B (granddaughter): Hi Grandpa! My day was pretty good, thanks for asking. How about yours?",
+    "target": "Speaker A (grandfather) (Target): Oh no, that sounds serious. Do you need help getting it fixed?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather is responding to his granddaughter's statement about her day"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (granddaughter): Hi Grandpa! My day was pretty good, thanks for asking. How about yours?\nSpeaker B (grandfather): Oh no, that sounds serious. Do you need help getting it fixed?",
+    "target": "Speaker A (granddaughter) (Target): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural flow in the conversation as"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): Oh no, that sounds serious. Do you need help getting it fixed?\nSpeaker B (granddaughter): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!",
+    "target": "Speaker A (grandfather) (Target): It sounds like you're having a tough time with the car. Do you want me to come over and help?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather's response is a natural continuation of the conversation, as he is"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (granddaughter): Oh, I think there might be a misunderstanding. My day was good, nothing serious happened. But thanks for offering to help!\nSpeaker B (grandfather): It sounds like you're having a tough time with the car. Do you want me to come over and help?",
+    "target": "Speaker A (granddaughter) (Target): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a backchannel (\"Oh no,\""
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): It sounds like you're having a tough time with the car. Do you want me to come over and help?\nSpeaker B (granddaughter): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.",
+    "target": "Speaker A (grandfather) (Target): I'm sorry if I made you feel that way. I just wanted to make sure you're safe.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis conversation does not involve any interruptions or turn-taking issues. Both speakers are responding naturally"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (granddaughter): Oh no, Grandpa, there's no issue with the car. Everything's fine, really! But I appreciate your willingness to help.\nSpeaker B (grandfather): I'm sorry if I made you feel that way. I just wanted to make sure you're safe.",
+    "target": "Speaker A (granddaughter) (Target): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a backchannel and agreement to her"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): I'm sorry if I made you feel that way. I just wanted to make sure you're safe.\nSpeaker B (granddaughter): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.",
+    "target": "Speaker A (grandfather) (Target): Alright, I'll let you handle it. Just let me know if you need anything.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker A (granddaughter): No need to apologize, Grandpa! I know you're just looking out for me, and I really appreciate it.\nSpeaker B (grandfather): Alright, I'll let you handle it. Just let me know if you need anything.",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandfather): Alright, I'll let you handle it. Just let me know if you need anything.\nSpeaker B (granddaughter): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!",
+    "target": "Speaker A (grandfather) (Target): The gas pedal is on the right, just press it gently.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: In this conversation, Speaker A finishes his sentence before Speaker B starts speaking"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll definitely let you know if I need anything. You're the best!\nSpeaker B (grandfather): The gas pedal is on the right, just press it gently.",
+    "target": "Speaker A (granddaughter) (Target): Got it, Grandpa! I'll be careful. Thanks for the tip!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandfather): The gas pedal is on the right, just press it gently.\nSpeaker B (granddaughter): Got it, Grandpa! I'll be careful. Thanks for the tip!",
+    "target": "Speaker A (grandfather) (Target): It's alright, everyone makes mistakes. Just take your time and try again.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 13,
+    "context": "Speaker A (granddaughter): Got it, Grandpa! I'll be careful. Thanks for the tip!\nSpeaker B (grandfather): It's alright, everyone makes mistakes. Just take your time and try again.",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandpa. I really appreciate your patience with me.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 14,
+    "context": "Speaker A (grandfather): It's alright, everyone makes mistakes. Just take your time and try again.\nSpeaker B (granddaughter): Thanks, Grandpa. I really appreciate your patience with me.",
+    "target": "Speaker A (grandfather) (Target): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 15,
+    "context": "Speaker A (granddaughter): Thanks, Grandpa. I really appreciate your patience with me.\nSpeaker B (grandfather): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.",
+    "target": "Speaker A (granddaughter) (Target): I'll keep practicing, Grandpa. Thanks for being so supportive!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 16,
+    "context": "Speaker A (grandfather): Yes, just keep going around and you'll get the hang of it. I'm here if you need any help.\nSpeaker B (granddaughter): I'll keep practicing, Grandpa. Thanks for being so supportive!",
+    "target": "Speaker A (grandfather) (Target): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 17,
+    "context": "Speaker A (granddaughter): I'll keep practicing, Grandpa. Thanks for being so supportive!\nSpeaker B (grandfather): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.",
+    "target": "Speaker A (granddaughter) (Target): Thanks, Grandpa! I'll keep at it and hopefully get better soon.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 18,
+    "context": "Speaker A (grandfather): Great job! You're getting the hang of it. Keep practicing and you'll be a pro in no time.\nSpeaker B (granddaughter): Thanks, Grandpa! I'll keep at it and hopefully get better soon.",
+    "target": "Speaker A (grandfather) (Target): Haha, just like in the movies! You're doing great, keep it up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 19,
+    "context": "Speaker A (granddaughter): Thanks, Grandpa! I'll keep at it and hopefully get better soon.\nSpeaker B (grandfather): Haha, just like in the movies! You're doing great, keep it up.",
+    "target": "Speaker A (granddaughter) (Target): Haha, thanks! I hope I can be as good as you one day.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The granddaughter's response is a natural backchannel, acknowledging her grandfather"
+  },
+  {
+    "index": 20,
+    "context": "Speaker A (grandfather): Haha, just like in the movies! You're doing great, keep it up.\nSpeaker B (granddaughter): Haha, thanks! I hope I can be as good as you one day.",
+    "target": "Speaker A (grandfather) (Target): Take a deep breath, you're doing fine. Just go slow and steady, and you'll get it right.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 21,
+    "context": "Speaker A (granddaughter): Haha, thanks! I hope I can be as good as you one day.\nSpeaker B (grandfather): Take a deep breath, you're doing fine. Just go slow and steady, and you'll get it right.",
+    "target": "Speaker A (granddaughter) (Target): Thanks for the encouragement, Grandpa. I'll keep practicing and take it slow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

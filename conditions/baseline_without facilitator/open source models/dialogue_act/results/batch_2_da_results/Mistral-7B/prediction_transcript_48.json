@@ -1,0 +1,451 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 48,
+    "utterances": [
+        {
+            "text": "Tick-tock, tick-tock, tick-tock... Tick-tock, tick-tock, tick-tock...",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock….You're doing good!",
+            "golden": "statement-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Make it a little bit harder. Tick-tock, tick-tock, tick-tock, tick-tock... This is where I get mixed up.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Well, you moved your hands, that's why.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, I shouldn't do that.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "There you go. Just stay in position.",
+            "golden": "command",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Now I'm starting here, aren't I?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay, yes.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "That's number 3. Tick-tock, tick-tock, tick-tock.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Whoops, you moved again. Don't move.",
+            "golden": "command",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "Oh, I don't move.",
+            "golden": "agreement",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "I just do it the first time.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Is that right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock, tick-tock. Was that good?",
+            "golden": "question",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Yes that was a good warm-up. What I saw in improvement was smoothness in the way your hands were positioned on your chords. Didn't you feel that?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-opinion"
+        },
+        {
+            "text": "Yes.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Good, because you said when I got here you felt like you were gonna disappoint me.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Well, I still think I'm gonna disappoint you because I don't feel like I've learned it as well as some of the— it's getting harder.",
+            "golden": "statement-opinion",
+            "predicted": "disagreement",
+            "raw": "disagreement"
+        },
+        {
+            "text": "It is getting a little harder. It's getting a little bit more challenging, but as long as you can find one piece of progress, then that is progress, no matter how big or small.",
+            "golden": "statement-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "No matter how big or small.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Right, so your fingers, that's what I noticed most, was that your fingers were, they look, they even look more comfortable on the piano. See, they're relaxed. And you look relaxed too.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Well, I try.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Yes, let's play Switchback Trails. Tick-tock, tick-tock.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Right,"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock, tick-tock.",
+            "golden": "statement-non-opinion",
+            "predicted": "backchannel",
+            "raw": "backchannel"
+        },
+        {
+            "text": "Now that's a 4 tick-tock right there.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Tick-tock, tick-tock.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Second line.",
+            "golden": "command",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Take time Check it Take time Stop right there for just a second.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "I'm going to get a dish towel because I need to cover your hands. You're looking at your hands a lot, and frankly, it’s getting a bit painful to watch you struggle with the same keys.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: I'"
+        },
+        {
+            "text": "Oh... am I really that slow? I didn't think I was being a burden.",
+            "golden": "question",
+            "predicted": "others",
+            "raw": "Others (signals showing understanding or empathy)"
+        },
+        {
+            "text": "I didn't say that, but the towel will help. Just raise the fingers and leave the hands the same.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: I didn"
+        },
+        {
+            "text": "Oh ok. Then I just raise the fingers and leave the hands the same.",
+            "golden": "agreement",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Right. So let's just try it.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "answer",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "Okay, so even if you do look down, you won't be able to see anything. All kinds of noises are going to come out of you. Let's try the first line. Let's just do the first line just to test this out.",
+            "golden": "command",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock, tick-tock. Tick-tock, oh I did that wrong. Tick-tock, tick-ba-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "others (sound effects)"
+        },
+        {
+            "text": "Good! Okay stop there. Did you see? You didn't have to look. You corrected yourself without looking too.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh... Oh, that was good.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Yes, it was.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "But I was afraid of getting my fingers on the wrong keys when I don't look.",
+            "golden": "statement-opinion",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Right, I know. That's the fear that everybody has, but you actually did do the right keys without looking, and you corrected yourself without looking, Grandma. Did you notice how you corrected it without looking?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: Agreement"
+        },
+        {
+            "text": "I think I did.",
+            "golden": "answer",
+            "predicted": "statement-opinion",
+            "raw": "statement-opinion"
+        },
+        {
+            "text": "Okay, just want you to make sure.",
+            "golden": "statement-non-opinion",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "And I wasn't— I was wondering if you were going to holler that I'm on the wrong one or not, but you didn't, so I figured I was right.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: And I"
+        },
+        {
+            "text": "You heard when it was wrong too. See, your ear is being trained. You knew it was wrong and so you corrected it.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Yeah, I can tell when those keys are wrong.",
+            "golden": "agreement",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "That's good. Okay, let's go ahead and go to the next song. My first real song. You practiced. This was a re-practice, right? From last week?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question, agreement, statement-non-opin"
+        },
+        {
+            "text": "Maybe. Yeah, I went from here on through. See, if I get this wrist— I have to fix it over to get this wrist from not hurting when I get my fingers over here.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Okay, you could move away from the piano a little. Let me get you back a little so that you're not squishing your elbows so closely.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\ncommand"
+        },
+        {
+            "text": "Right there. Okay, we're going to play that song over there, huh?",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "My first real song. Starting with the C chord. You're starting.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Oh, I'm starting down there.",
+            "golden": "statement-non-opinion",
+            "predicted": "answer",
+            "raw": "answer"
+        },
+        {
+            "text": "That's the first. Right from here. Go, yep, according to how you read. Right in order.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh, sure. Right. Which one I have to go in? The next one also? Okay, I have to get my fingers set here more.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\nacknowledgement\nquestion"
+        },
+        {
+            "text": "I know. A, top.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Is that right?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, you looked at your hands. Even though it was right, you looked at it.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: I know"
+        },
+        {
+            "text": "Oh, I looked at my hands. Top. Oh, yeah, I was just going across.",
+            "golden": "statement-non-opinion",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion\n\nHistory"
+        },
+        {
+            "text": "Whoops, here, forgot to go up and down. Left, right, left, right, left, right, right.",
+            "golden": "command",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Okay, just throw it all away.",
+            "golden": "statement-opinion",
+            "predicted": "command",
+            "raw": "command"
+        },
+        {
+            "text": "Okay, say, 'Talk.' Right, you got it. That's right, second line.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Now let's make it fine. Do I start with the G?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Start with the G, your pinky. If you didn't move, you should be there. Right together. Good, Grandma.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Okay.",
+            "golden": "backchannel",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "You're making progress.",
+            "golden": "statement-opinion",
+            "predicted": "agreement",
+            "raw": "agreement"
+        },
+        {
+            "text": "Oh, I'm glad to hear that. I've always been afraid of trying. Mary Had a Little Lamb.",
+            "golden": "statement-opinion",
+            "predicted": "others",
+            "raw": "others"
+        },
+        {
+            "text": "Okay, your assignment this week will be the last 2 songs of the book, and they're 2 familiar songs. Mary Had a Little Lamb with both hands. And Ode to Joy, which is a— Ode to Joy is Beethoven. You'll recognize it when you play it.",
+            "golden": "command",
+            "predicted": "statement-non-opinion",
+            "raw": "statement-non-opinion"
+        },
+        {
+            "text": "Well, now what I was going to ask you, they say hold this, this, this, but now these you don't because they don't say, or do you go ahead and hold them? That's just to show you and then you go ahead and hold them.",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "No, you hold them because right, exactly. So that you keep holding that down as you play it right here.",
+            "golden": "command",
+            "predicted": "agreement",
+            "raw": "agreement\n\nHistory:\nTurn: No,"
+        },
+        {
+            "text": "Okay. Okay, is this what I do tonight? Am I all through?",
+            "golden": "question",
+            "predicted": "question",
+            "raw": "question"
+        },
+        {
+            "text": "Yes, there isn't anything new for the next 2 songs. The last 2 songs are all done. Like it says, hold that down. Next week we'll start on it. Okay. Until next time.",
+            "golden": "statement-non-opinion",
+            "predicted": "agreement",
+            "raw": "agreement\nanswer\nacknowledge\ndisag"
+        },
+        {
+            "text": "So all I do is just practice the last 2 songs? Yeah, that's the hard part. Oh my gosh, and I start on this one? Goodbye.",
+            "golden": "question",
+            "predicted": "agreement",
+            "raw": "agreement\nstatement-opinion\nquestion"
+        },
+        {
+            "text": "Until next time.",
+            "golden": "statement-non-opinion",
+            "predicted": "others",
+            "raw": "acknowledgement"
+        }
+    ]
+}

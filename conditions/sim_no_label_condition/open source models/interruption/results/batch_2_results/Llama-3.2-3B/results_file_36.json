@@ -1,0 +1,92 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandfather) (Target): Watch the road. Watch the road.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandfather): Watch the road. Watch the road.",
+    "target": "Speaker A (grandson) (Target): Is not— is not going to yelling at us?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandfather): Watch the road. Watch the road.\nSpeaker B (grandson): Is not— is not going to yelling at us?",
+    "target": "Speaker A (grandfather) (Target): I don't know. First driving lesson you got. Pay attention. What would you do if a car came?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandson): Is not— is not going to yelling at us?\nSpeaker B (grandfather): I don't know. First driving lesson you got. Pay attention. What would you do if a car came?",
+    "target": "Speaker A (grandson) (Target): Ow.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandfather): I don't know. First driving lesson you got. Pay attention. What would you do if a car came?\nSpeaker B (grandson): Ow.",
+    "target": "Speaker A (grandfather) (Target): What would you do?",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandson): Ow.\nSpeaker B (grandfather): What would you do?",
+    "target": "Speaker A (grandson) (Target): I'll stop. I think the sensor is beeping, should I—",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (grandfather): What would you do?\nSpeaker B (grandson): I'll stop. I think the sensor is beeping, should I—",
+    "target": "Speaker A (grandfather) (Target): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervened speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervened speaker\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandson): I'll stop. I think the sensor is beeping, should I—\nSpeaker B (grandfather): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.",
+    "target": "Speaker A (grandson) (Target): No... you're being totally mid right now, just let me drive.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandfather): Say, 'Papa, take over fast, here comes a car.' No? Or are you going to drive it anyway? Stop worrying about the bells and whistles and look at the asphalt.\nSpeaker B (grandson): No... you're being totally mid right now, just let me drive.",
+    "target": "Speaker A (grandfather) (Target): Mid? What is a mid? Speak English and swipe the road!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

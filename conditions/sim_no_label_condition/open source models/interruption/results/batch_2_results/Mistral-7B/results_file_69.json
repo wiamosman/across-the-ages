@@ -1,0 +1,132 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandson) (Target): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThis target utterance is not part of an interruption as it is a response to the conversation topic and"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandson): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here.",
+    "target": "Speaker A (grandfather) (Target): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nSpeaker A (grandfather) is providing instructions and allowing Speaker B to finish his sentence before continuing"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandson): Good morning! It is Thursday, and my GRANDFATHER is going to show me how to make a pin on the lathe. I'm so excited , so hopefully I can get a video a little bit of us doing stuff out here.\nSpeaker B (grandfather): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up.",
+    "target": "Speaker A (grandson) (Target): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent.",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandson's response is a natural flow in the conversation as he is sharing"
+  },
+  {
+    "index": 3,
+    "context": "Speaker A (grandfather): Here's the brass tube that goes in. So always leave yourself about a 1/16 or 1/8 each length, and I'll show you that in the next step. So now we need a marking object, don't we? Corner to corner. Like that. Then you turn it. Okay, plenty of glue. Stick it in about halfway down. Now spin it round and round. Okay, change ends with the board. Put some more glue on. Okay, put that in there. Spin it round and round as you go in. Go on in all the way, all the way, all the way. It's going to set up pretty quick. Okay. You want to leave a little bit on each end of the cricket barrel. So we got that. We'll let that be set up. Okay. Now then, we're going to start working on this one while that glue— you got to give that glue about 15 minutes to set up.\nSpeaker B (grandson): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent.",
+    "target": "Speaker A (grandfather) (Target): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know.",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nThe grandfather interrupts the grandson mid-sentence and changes the topic, express"
+  },
+  {
+    "index": 4,
+    "context": "Speaker A (grandson): While that’s drying, I’m gonna use this leveler app to make sure the bed is perfectly balanced. It says I need to calibrate it first... just a second, it's at ninety-eight percent.\nSpeaker B (grandfather): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know.",
+    "target": "Speaker A (grandson) (Target): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "intervening speaker",
+    "pred_type": "none",
+    "raw_output": "Role: intervening speaker\nType: none\n\nThe grandson is cutting off the grandfather mid-sentence to defend his use of"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandfather): What are you doing with that vibrating rectangle, Marcus? This lathe has been level since before your daddy was in diapers. You don't need a computer to tell you what a spirit level and a steady hand already know.\nSpeaker B (grandson): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors.",
+    "target": "Speaker A (grandfather) (Target): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandfather interrupts the grandson mid-sentence, changing"
+  },
+  {
+    "index": 6,
+    "context": "Speaker B (grandson): But the app is precise to the decimal! If it's off by even a tiny bit, the pin won't be symmetrical. Almost there... it's still loading the sensors.\nSpeaker B (grandfather): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready.",
+    "target": "Speaker A (grandmother) (Target): Yeah.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker B (grandfather): We’re burning daylight standing here staring at a loading bar. Put that thing in your pocket. Precision comes from the eye and the tool, not a satellite in space. I’m waiting on you to be ready.\nSpeaker B (grandmother): Yeah.",
+    "target": "Speaker A (grandson) (Target): Oh yeah. Okay? Okay? Okay, I didn't know!",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker A (grandmother): Yeah.\nSpeaker B (grandson): Oh yeah. Okay? Okay? Okay, I didn't know!",
+    "target": "Speaker A (grandmother) (Target): Tighten it back up.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nExplanation: The grandmother's response \"Yeah\" is a backchannel, which is a normal"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (grandson): Oh yeah. Okay? Okay? Okay, I didn't know!\nSpeaker B (grandmother): Tighten it back up.",
+    "target": "Speaker A (grandfather) (Target): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more...",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's response is a backchannel, acknowledging his granddaughter's statement and allowing"
+  },
+  {
+    "index": 10,
+    "context": "Speaker B (grandmother): Tighten it back up.\nSpeaker B (grandfather): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more...",
+    "target": "Speaker A (grandson) (Target): Ooh! Getting tired.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (grandfather): Tighten it back up. Okay. Okay. You're fine. Ready? Good— probably a little bit more...\nSpeaker B (grandson): Ooh! Getting tired.",
+    "target": "Speaker A (grandfather) (Target): There we go. That's good. That's enough. That's enough. You got to break it. See, this slides in and out. Thumb right there. These fingers over this. Put your other hand on there and get a hold of it. Hold it up, Marcus. You got to be a big boy. Perfect. Wait, are you heating it up, Marcus? Now it's perfect.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none\n\nThe grandfather's speech flow was not disrupted, and he provided clear instructions without interrupting his grand"
+  },
+  {
+    "index": 12,
+    "context": "Speaker A (grandson): Ooh! Getting tired.\nSpeaker B (grandfather): There we go. That's good. That's enough. That's enough. You got to break it. See, this slides in and out. Thumb right there. These fingers over this. Put your other hand on there and get a hold of it. Hold it up, Marcus. You got to be a big boy. Perfect. Wait, are you heating it up, Marcus? Now it's perfect.",
+    "target": "Speaker A (grandson) (Target): hhh fine!! ok finish! So GRANDFATHER has taught me how to make a hot dog. All of his wisdom.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

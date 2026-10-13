@@ -1,0 +1,103 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 49,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandmother): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandmother): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—",
+            "target": "Target (granddaughter): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandmother): Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're— | Speaker B (granddaughter): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.",
+            "target": "Target (grandmother): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?",
+            "gold_label": "slang mismatch",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak. | Speaker B (grandmother): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?",
+            "target": "Target (granddaughter): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandmother): You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about? | Speaker B (granddaughter): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.",
+            "target": "Target (grandmother): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine. | Speaker B (grandmother): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.",
+            "target": "Target (grandmother): Okay, can adjust the seat. All right, here's my helping hand. Are you ready?",
+            "gold_label": "none",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandmother): Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver. | Speaker B (grandmother): Okay, can adjust the seat. All right, here's my helping hand. Are you ready?",
+            "target": "Target (granddaughter): Oh, that's my boyfriend's hand.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Okay, can adjust the seat. All right, here's my helping hand. Are you ready? | Speaker B (granddaughter): Oh, that's my boyfriend's hand.",
+            "target": "Target (grandmother): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (granddaughter): Oh, that's my boyfriend's hand. | Speaker B (grandmother): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.",
+            "target": "Target (granddaughter): It's off the brake.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandmother): There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake. | Speaker B (granddaughter): It's off the brake.",
+            "target": "Target (grandmother): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (granddaughter): It's off the brake. | Speaker B (grandmother): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.",
+            "target": "Target (granddaughter): Did I do it?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandmother): Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with. | Speaker B (granddaughter): Did I do it?",
+            "target": "Target (grandmother): Yeah, so far. Slow, slow, slow. Okay, that's good. Now go left. No, wait, hold it. Put the brake on. Don't get on the grass. Okay, very good. See? And now put your right turn signal on and go this way. Don't hit the curb over there. Very good. Stay straight. Very nice. Okay, very good. Good job.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        }
+    ]
+}

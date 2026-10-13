@@ -1,0 +1,167 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 94,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (granddaughter): Why is the DVD player stressing you out, Grandma? Take a deep breath. Find your center.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (granddaughter): Why is the DVD player stressing you out, Grandma? Take a deep breath. Find your center.",
+            "target": "Target (grandmother): Where is my center? Oh, because I press the wrong thing and then I can't even get anything. Yes, I do. I know exactly what I have to do. I put the disc in and I press power. He presses power and the disc goes in, and then all of this stuff is me. And then he sits there and gives directions.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (granddaughter): Why is the DVD player stressing you out, Grandma? Take a deep breath. Find your center. | Speaker B (grandmother): Where is my center? Oh, because I press the wrong thing and then I can't even get anything. Yes, I do. I know exactly what I have to do. I put the disc in and I press power. He presses power and the disc goes in, and then all of this stuff is me. And then he sits there and gives directions.",
+            "target": "Target (granddaughter): Well, can we enlist Grandpa to do a couple steps? Where do you get stuck? Let's walk through every step. First, let's see your hat.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandmother): Where is my center? Oh, because I press the wrong thing and then I can't even get anything. Yes, I do. I know exactly what I have to do. I put the disc in and I press power. He presses power and the disc goes in, and then all of this stuff is me. And then he sits there and gives directions. | Speaker B (granddaughter): Well, can we enlist Grandpa to do a couple steps? Where do you get stuck? Let's walk through every step. First, let's see your hat.",
+            "target": "Target (grandmother): The problem isn't the buttons, it's that he starts shouting over my shoulder before I even touch the remote! It makes me forget which hand I'm using.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (granddaughter): Well, can we enlist Grandpa to do a couple steps? Where do you get stuck? Let's walk through every step. First, let's see your hat. | Speaker B (grandmother): The problem isn't the buttons, it's that he starts shouting over my shoulder before I even touch the remote! It makes me forget which hand I'm using.",
+            "target": "Target (granddaughter): Don't worry about that right now, let's just focus on the remote. You need to understand how the HDMI handshake works or the screen stays black. If you don't cycle through the inputs within three seconds, the TV times out and resets. It's just a quick timing thing.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandmother): The problem isn't the buttons, it's that he starts shouting over my shoulder before I even touch the remote! It makes me forget which hand I'm using. | Speaker B (granddaughter): Don't worry about that right now, let's just focus on the remote. You need to understand how the HDMI handshake works or the screen stays black. If you don't cycle through the inputs within three seconds, the TV times out and resets. It's just a quick timing thing.",
+            "target": "Target (grandmother): Handshake? Timing? I'm telling you I can't think while he's hovering, and you're talking about the TV having a handshake! I'm trying to tell you what's actually wrong and you're just giving me more chores to do with my thumbs.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (granddaughter): Don't worry about that right now, let's just focus on the remote. You need to understand how the HDMI handshake works or the screen stays black. If you don't cycle through the inputs within three seconds, the TV times out and resets. It's just a quick timing thing. | Speaker B (grandmother): Handshake? Timing? I'm telling you I can't think while he's hovering, and you're talking about the TV having a handshake! I'm trying to tell you what's actually wrong and you're just giving me more chores to do with my thumbs.",
+            "target": "Target (grandfather): Ah!",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandmother): Handshake? Timing? I'm telling you I can't think while he's hovering, and you're talking about the TV having a handshake! I'm trying to tell you what's actually wrong and you're just giving me more chores to do with my thumbs. | Speaker B (grandfather): Ah!",
+            "target": "Target (granddaughter): Ah!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): Ah! | Speaker B (granddaughter): Ah!",
+            "target": "Target (grandmother): Okay, I'm ready.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Ah! | Speaker B (grandmother): Okay, I'm ready.",
+            "target": "Target (granddaughter): Press forward.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandmother): Okay, I'm ready. | Speaker B (granddaughter): Press forward.",
+            "target": "Target (grandmother): I'm done.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): Press forward. | Speaker B (grandmother): I'm done.",
+            "target": "Target (granddaughter): I feel like so far so good, right?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandmother): I'm done. | Speaker B (granddaughter): I feel like so far so good, right?",
+            "target": "Target (grandmother): Right on. I have to press the input button. It's the MI2 Blu-ray.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): I feel like so far so good, right? | Speaker B (grandmother): Right on. I have to press the input button. It's the MI2 Blu-ray.",
+            "target": "Target (granddaughter): See, I have to get— So you tap it once and it brings up the menu. You have to tap it again before the menu goes away. You landed on the Blu-ray, so that's good. Have we hit a problem yet?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): Right on. I have to press the input button. It's the MI2 Blu-ray. | Speaker B (granddaughter): See, I have to get— So you tap it once and it brings up the menu. You have to tap it again before the menu goes away. You landed on the Blu-ray, so that's good. Have we hit a problem yet?",
+            "target": "Target (grandfather): No.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): See, I have to get— So you tap it once and it brings up the menu. You have to tap it again before the menu goes away. You landed on the Blu-ray, so that's good. Have we hit a problem yet? | Speaker B (grandfather): No.",
+            "target": "Target (grandmother): Okay. Fear that I'll goof it up.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): No. | Speaker B (grandmother): Okay. Fear that I'll goof it up.",
+            "target": "Target (granddaughter): You haven't watched any movies for a month. I feel like there's a problem. Are we not admitting what the problem is, Grandma? So now let's pretend like the movie's done. We're trying to help Grandma conquer her fear.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandmother): Okay. Fear that I'll goof it up. | Speaker B (granddaughter): You haven't watched any movies for a month. I feel like there's a problem. Are we not admitting what the problem is, Grandma? So now let's pretend like the movie's done. We're trying to help Grandma conquer her fear.",
+            "target": "Target (grandfather): No. Oh, I gotta press open. Do I press power again?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (granddaughter): You haven't watched any movies for a month. I feel like there's a problem. Are we not admitting what the problem is, Grandma? So now let's pretend like the movie's done. We're trying to help Grandma conquer her fear. | Speaker B (grandfather): No. Oh, I gotta press open. Do I press power again?",
+            "target": "Target (grandmother): It's up to him then. Press open. No, no, 'cause he gets power crazy. He gets power hungry. He likes that power button. What's so hard about this? Here it is. Do you get power hungry? Alright, I press input again. Input. I haven't done anything fast in the last 10 years. Yeah, we only have sex once a week. No. I can do anything. I'm a woman. I can do anything.",
+            "gold_label": "digital disparity",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandfather): No. Oh, I gotta press open. Do I press power again? | Speaker B (grandmother): It's up to him then. Press open. No, no, 'cause he gets power crazy. He gets power hungry. He likes that power button. What's so hard about this? Here it is. Do you get power hungry? Alright, I press input again. Input. I haven't done anything fast in the last 10 years. Yeah, we only have sex once a week. No. I can do anything. I'm a woman. I can do anything.",
+            "target": "Target (granddaughter): Hit it again. So I want the one in the middle. When you hit the input button, the menu comes up, but nothing happened yet. The trickiest part is that input button. You have to be fast. Yes, you have to be fast. Do you still have fear? I'm proud of you, Grandma. You did it. You call me if you get stuck.",
+            "gold_label": "digital disparity",
+            "predicted_label": "none",
+            "raw": "none"
+        }
+    ]
+}

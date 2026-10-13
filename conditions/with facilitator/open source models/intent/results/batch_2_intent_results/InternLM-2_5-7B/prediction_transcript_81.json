@@ -1,0 +1,121 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "hf_id": "internlm/internlm2_5-7b-chat",
+  "file_index": 81,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hey Grandpa! My day was pretty good, just busy with school and stuff.",
+      "golden": "inform",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I hope it was a good one. Anything interesting happen?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Not much, just the usual school stuff. I did get an A on my math test though!",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "It sounds like you're not too chatty today. Is everything alright?",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Yeah, I'm alright. Just a bit tired from all the studying. Thanks for asking, Grandpa.",
+      "golden": "inform",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "That sounds like a handy app! Technology sure makes things easier these days.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it's pretty cool. I can keep track of all my assignments and deadlines easily.",
+      "golden": "inform",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I understand, sometimes the old ways take a bit longer. But it's great that you have tools to make it easier.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it's definitely helpful. I can't imagine doing all this without the app.",
+      "golden": "inform",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad you're finding ways to make things easier. It's always good to learn new tricks.",
+      "golden": "comfort",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! It's nice to have your support.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "It's wonderful to see you embracing technology. Keep it up!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandpa! I'll definitely keep exploring new apps and tools.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Absolutely! It's impressive how quickly you adapt to new things.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I really appreciate that, Grandpa. It's fun to learn new things!",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You know, if you ever need help with anything, I'm here for you.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Thanks, Grandpa! I know I can always count on you.",
+      "golden": "acknowledge",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's great to hear! I'm always here if you need to talk more about it.",
+      "golden": "comfort",
+      "predicted": "care",
+      "raw": "care"
+    }
+  ]
+}

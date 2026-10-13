@@ -1,0 +1,126 @@
+{
+  "model_used": "InternLM-2.5-7B",
+  "file_index": 25,
+  "utterances": [
+    {
+      "text": "Hi Grandpa! How have you been doing lately?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting\n\n\nuser"
+    },
+    {
+      "text": "Oh, that's wonderful, dear! Mahjong is such a fun game and great for keeping the mind sharp. I'm glad you're taking an interest in it. If you ever want some tips or to play a round with me, just let me know!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\n- Text:"
+    },
+    {
+      "text": "Thanks, Grandma! I'd love to play a round with you sometime soon. Maybe you can show me some of your strategies!",
+      "golden": "acknowledge",
+      "predicted": "agreement",
+      "raw": "agreement\n\n\nTarget Ut"
+    },
+    {
+      "text": "Oh dear, it sounds like you're having a tough time with it. Mahjong can be tricky at first, but don't worry, it gets easier with practice. If you need any help or just want to chat about it, I'm here for you!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\n\nTarget"
+    },
+    {
+      "text": "Thanks, Grandma! I really appreciate your support. I might take you up on that offer soon. It's nice to know I have you to help me out.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge\n\nThis response acknowledges the"
+    },
+    {
+      "text": "It sounds like you're feeling a bit overwhelmed, dear. It's okay to take breaks and try again later. Learning something new can be challenging, but it's also rewarding. If you feel like you need a change of pace, maybe we can try a different game or activity together. Remember, I'm here to support you no matter what you choose!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\n- Text:"
+    },
+    {
+      "text": "Thanks, Grandma. I think I might just take a short break and then we can try something new together. Maybe you can teach me one of your favorite games?",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nThe Target utterance"
+    },
+    {
+      "text": "That's a lovely way to think about it! Mahjong tiles do have a colorful and fun look, don't they? It's great that you're finding joy in the little things. If you ever want to chat more about your experiences or need any advice, I'm always here for you.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Thanks, Grandma! I really enjoy our chats and learning from you. Mahjong sounds fun, let's plan a time to play together soon!",
+      "golden": "statement-non-opinion",
+      "predicted": "agreement",
+      "raw": "agreement\n\nThis response is classified"
+    },
+    {
+      "text": "Jokers can be quite fun to play with! They add a bit of excitement and unpredictability to the game. Do you enjoy using them in Mahjong, or do you have another game in mind where you'd like to use jokers? I'm curious to hear your thoughts!",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\nstatement-opinion"
+    },
+    {
+      "text": "I haven't played with jokers in Mahjong yet, but it sounds like a fun twist! Maybe we can try it together. Do you have any tips for using them effectively?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\n```python\n#"
+    },
+    {
+      "text": "Ah, dragons! They do sound majestic and powerful. Are you thinking of incorporating them into your game somehow? I'd love to hear more about your ideas or any other creative thoughts you have. It's always fun to explore new possibilities together!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "I was actually thinking about how cool it would be to have a dragon-themed Mahjong set! Maybe we could design our own tiles with dragons and jokers. What do you think?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\n```python\n{"
+    },
+    {
+      "text": "Red is such a vibrant and bold color! It often represents energy and passion. Are you thinking about using red in your game or perhaps in some artwork? I'd love to hear more about what you're envisioning!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion\n\n\nuser"
+    },
+    {
+      "text": "I love the idea of using red! It could really make the dragon designs pop on the tiles. Maybe we can brainstorm some ideas together for the artwork. Do you have any favorite dragon designs or colors that inspire you?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\n```python\n{"
+    },
+    {
+      "text": "A red dragon sounds fascinating! It makes me think of something powerful and full of life. Are you planning to use the red dragon in a game or perhaps as a theme for something creative? I'm eager to hear more about your ideas!",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question\n\n```python\n{"
+    },
+    {
+      "text": "I was thinking of using the red dragon as a central theme for the Mahjong set. It could be the main design on the tiles, and we could incorporate other colors like gold or black to complement it. What do you think about adding some mythical elements too?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Congratulations on your win! You must be feeling quite proud of yourself. Winning is always a great feeling, isn't it? What game were you playing? I'd love to hear more about it!",
+      "golden": "question",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "Thank you! I was actually playing Mahjong, which is why I got inspired to design a new set. It's such a fun game, and I thought adding a red dragon theme would make it even more exciting. Do you have any favorite mythical creatures that you think would look good with the dragon?",
+      "golden": "question",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Wow, getting arms on twice sounds like quite an achievement! You must have been really strategic to pull that off. I'm so proud of you! What was your strategy? I'd love to hear more about how you managed to win!",
+      "golden": "question",
+      "predicted": "agreement",
+      "raw": "agreement\nstatement-opinion\nquestion"
+    }
+  ]
+}

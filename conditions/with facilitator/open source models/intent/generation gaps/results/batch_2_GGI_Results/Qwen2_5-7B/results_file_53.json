@@ -1,0 +1,119 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 53,
+  "utterances": [
+    {
+      "turn_index": 0,
+      "context": "None (Beginning of conversation)",
+      "target": "Target (grandson): Grandma, Should i use the break??",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 1,
+      "context": "Speaker A (grandson): Grandma, Should i use the break??",
+      "target": "Target (grandmother): Oh dear, I think you meant 'brake' instead of 'break'. It's important to use the right words, especially when driving.",
+      "gold_label": "none",
+      "predicted_label": "slang mismatch",
+      "raw": "slang mismatch"
+    },
+    {
+      "turn_index": 2,
+      "context": "Speaker A (grandson): Grandma, Should i use the break?? | Speaker B (grandmother): Oh dear, I think you meant 'brake' instead of 'break'. It's important to use the right words, especially when driving.",
+      "target": "Target (grandson): Oh, thanks for pointing that out! I'll be more careful with my words.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 3,
+      "context": "Speaker A (grandmother): Oh dear, I think you meant 'brake' instead of 'break'. It's important to use the right words, especially when driving. | Speaker B (grandson): Oh, thanks for pointing that out! I'll be more careful with my words.",
+      "target": "Target (grandmother): You're welcome, dear. Always happy to help you learn.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 4,
+      "context": "Speaker A (grandson): Oh, thanks for pointing that out! I'll be more careful with my words. | Speaker B (grandmother): You're welcome, dear. Always happy to help you learn.",
+      "target": "Target (grandson): Thanks, Grandma! I really appreciate your help.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 5,
+      "context": "Speaker A (grandmother): You're welcome, dear. Always happy to help you learn. | Speaker B (grandson): Thanks, Grandma! I really appreciate your help.",
+      "target": "Target (grandmother): Be careful and make sure you're not speeding, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 6,
+      "context": "Speaker A (grandson): Thanks, Grandma! I really appreciate your help. | Speaker B (grandmother): Be careful and make sure you're not speeding, dear.",
+      "target": "Target (grandson): I will, Grandma. Thanks for the reminder!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 7,
+      "context": "Speaker A (grandmother): Be careful and make sure you're not speeding, dear. | Speaker B (grandson): I will, Grandma. Thanks for the reminder!",
+      "target": "Target (grandmother): I trust you, dear, but I just want to make sure you're safe. It's my job to worry a little.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 8,
+      "context": "Speaker A (grandson): I will, Grandma. Thanks for the reminder! | Speaker B (grandmother): I trust you, dear, but I just want to make sure you're safe. It's my job to worry a little.",
+      "target": "Target (grandson): I know, Grandma. I promise I'll be careful. Love you!",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 9,
+      "context": "Speaker A (grandmother): I trust you, dear, but I just want to make sure you're safe. It's my job to worry a little. | Speaker B (grandson): I know, Grandma. I promise I'll be careful. Love you!",
+      "target": "Target (grandmother): Alright, dear, I understand. Just keep focusing on the road and drive safely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 10,
+      "context": "Speaker A (grandson): I know, Grandma. I promise I'll be careful. Love you! | Speaker B (grandmother): Alright, dear, I understand. Just keep focusing on the road and drive safely.",
+      "target": "Target (grandson): I will, Grandma. Thanks for always looking out for me.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 11,
+      "context": "Speaker A (grandmother): Alright, dear, I understand. Just keep focusing on the road and drive safely. | Speaker B (grandson): I will, Grandma. Thanks for always looking out for me.",
+      "target": "Target (grandmother): Because I care about you and want to make sure you're safe, dear.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 12,
+      "context": "Speaker A (grandson): I will, Grandma. Thanks for always looking out for me. | Speaker B (grandmother): Because I care about you and want to make sure you're safe, dear.",
+      "target": "Target (grandson): I know, and I appreciate it. I'll call you once I get there safely.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    },
+    {
+      "turn_index": 13,
+      "context": "Speaker A (grandmother): Because I care about you and want to make sure you're safe, dear. | Speaker B (grandson): I know, and I appreciate it. I'll call you once I get there safely.",
+      "target": "Target (grandmother): Oh, I see! Well, I'm glad you're keeping things light-hearted.",
+      "gold_label": "none",
+      "predicted_label": "none",
+      "raw": "none"
+    }
+  ]
+}

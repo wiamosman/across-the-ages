@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "context": "No prior context.",
+    "target": "Speaker A (grandmother) (Target):  Kim, I think we should make a traditional Passover breakfast or lunch dish. I even like it for dinner, called matzah brie. Those who don't know, matzah is an unleavened bread, right? Which we love. And you break up one piece of matzah into several smaller bite pieces. And then we put some hot water on it and let it just soak a minute so they get soft.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 1,
+    "context": "Speaker B (grandmother):  Kim, I think we should make a traditional Passover breakfast or lunch dish. I even like it for dinner, called matzah brie. Those who don't know, matzah is an unleavened bread, right? Which we love. And you break up one piece of matzah into several smaller bite pieces. And then we put some hot water on it and let it just soak a minute so they get soft.",
+    "target": "Speaker A (granddaughter) (Target): doing it ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 2,
+    "context": "Speaker A (grandmother):  Kim, I think we should make a traditional Passover breakfast or lunch dish. I even like it for dinner, called matzah brie. Those who don't know, matzah is an unleavened bread, right? Which we love. And you break up one piece of matzah into several smaller bite pieces. And then we put some hot water on it and let it just soak a minute so they get soft.\nSpeaker B (granddaughter): doing it",
+    "target": "Speaker A (grandmother) (Target):  That's perfect. We scramble up two eggs. We'll crack them. Crack them. You beat up the eggs and make it all, you know, fluffy. Put a little salt in there while you're doing that. It's got the salt in there. I'm gonna use sea salt",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 3,
+    "context": "Speaker B (granddaughter): doing it \nSpeaker A (grandmother):  That's perfect. We scramble up two eggs. We'll crack them. Crack them. You beat up the eggs and make it all, you know, fluffy. Put a little salt in there while you're doing that. It's got the salt in there. I'm gonna use sea salt",
+    "target": "Speaker A (grandmother) (Target): Yes,Everybody's worrying about different kinds of salts now",
+    "gold_role": "interrupted speaker",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 4,
+    "context": "Speaker B (grandmother):  That's perfect. We scramble up two eggs. We'll crack them. Crack them. You beat up the eggs and make it all, you know, fluffy. Put a little salt in there while you're doing that. It's got the salt in there. I'm gonna use sea salt\nSpeaker B (grandmother): Yes,Everybody's worrying about different kinds of salts now",
+    "target": "Speaker A (granddaughter) (Target): They are?",
+    "gold_role": "intervening speaker",
+    "gold_type": "disruptive intervention",
+    "pred_role": "intervening speaker",
+    "pred_type": "cooperative assistance",
+    "raw_output": "Role: intervening speaker\nType: cooperative assistance"
+  },
+  {
+    "index": 5,
+    "context": "Speaker A (grandmother): Yes,Everybody's worrying about different kinds of salts now\nSpeaker B (granddaughter): They are?",
+    "target": "Speaker A (grandmother) (Target):  shake it up real good. So I'm gonna get rid of the extra water in the sink. Keep stirring. Make it fluffy. See, now the matzah's dry. And I think you can put the eggs. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 6,
+    "context": "Speaker A (granddaughter): They are?\nSpeaker B (grandmother):  shake it up real good. So I'm gonna get rid of the extra water in the sink. Keep stirring. Make it fluffy. See, now the matzah's dry. And I think you can put the eggs.",
+    "target": "Speaker A (granddaughter) (Target): Pour it? ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 7,
+    "context": "Speaker A (grandmother):  shake it up real good. So I'm gonna get rid of the extra water in the sink. Keep stirring. Make it fluffy. See, now the matzah's dry. And I think you can put the eggs. \nSpeaker B (granddaughter): Pour it?",
+    "target": "Speaker A (grandmother) (Target):  Yep, right on top. Perfect.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 8,
+    "context": "Speaker B (granddaughter): Pour it? \nSpeaker A (grandmother):  Yep, right on top. Perfect.",
+    "target": "Speaker A (grandmother) (Target): And then mix that up. So then you have your Whole thing. And it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. You don't like it too hard either. It's the easiest meal. A lot of people like jam on it.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 9,
+    "context": "Speaker B (grandmother):  Yep, right on top. Perfect.\nSpeaker B (grandmother): And then mix that up. So then you have your Whole thing. And it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. You don't like it too hard either. It's the easiest meal. A lot of people like jam on it.",
+    "target": "Speaker A (granddaughter) (Target): I do.",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 10,
+    "context": "Speaker A (grandmother): And then mix that up. So then you have your Whole thing. And it basically takes the same amount as you would scramble an egg, because it takes two seconds to cook this up. You don't like it too hard either. It's the easiest meal. A lot of people like jam on it.\nSpeaker B (granddaughter): I do.",
+    "target": "Speaker A (grandmother) (Target):  Strawberry jam or fig jam or whatever. I like it just plain. Perfect. Okay,  ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  },
+  {
+    "index": 11,
+    "context": "Speaker A (granddaughter): I do.\nSpeaker B (grandmother):  Strawberry jam or fig jam or whatever. I like it just plain. Perfect. Okay,",
+    "target": "Speaker A (granddaughter) (Target):   good job. ",
+    "gold_role": "none",
+    "gold_type": "none",
+    "pred_role": "none",
+    "pred_type": "none",
+    "raw_output": "Role: none\nType: none"
+  }
+]

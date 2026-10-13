@@ -1,0 +1,97 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 78,
+    "utterances": [
+        {
+            "text": "Teaching my Persian grandpa English! How are you?",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "teach"
+        },
+        {
+            "text": "Very good, thank you.",
+            "golden": "inform",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "How was your day?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "My name is—",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "No, Baba! I didn't ask your name yet. You're just waiting to say that one, aren't you? You aren't even listening to the question!",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Yes, yes. My name is Mehdi. It is good, yes?",
+            "golden": "inform",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Wait, wait. We have to stop. I'm laughing too hard. Let me catch my breath. We are stuck on 'How was your day' because you're stuck on your name.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "hhhhhhhh, old, old...",
+            "golden": "acknowledge",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "first he said how was your day?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "hhhh ok this was difficult lets try other question! how was your day?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Good, good, good, good, very good, very good, very good.",
+            "golden": "inform",
+            "predicted": "praise",
+            "raw": "praise"
+        },
+        {
+            "text": "What is your name?",
+            "golden": "confirm",
+            "predicted": "ask for help",
+            "raw": "ask for help"
+        },
+        {
+            "text": "My name is Mehdi.",
+            "golden": "inform",
+            "predicted": "introduce",
+            "raw": "introduce"
+        },
+        {
+            "text": "Good job!",
+            "golden": "praise",
+            "predicted": "praise",
+            "raw": "praise"
+        }
+    ]
+}

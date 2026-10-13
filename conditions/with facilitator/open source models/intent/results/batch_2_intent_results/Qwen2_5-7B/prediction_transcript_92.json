@@ -1,0 +1,205 @@
+{
+  "model_used": "Qwen2.5-7B",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "file_index": 92,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "It's okay, no need to worry. I can help you with the gears. Just take a deep breath.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa. I might need your help with that later.",
+      "golden": "inform",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I understand, it can be tricky at first. Let's take it step by step. I'll guide you through finding the bite point.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Okay, that sounds good. I'm a bit nervous about it, but I trust you.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see, but sometimes those quick methods can wear out the car faster. Let's try a balanced approach to keep it running smoothly.",
+      "golden": "warn",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I get it, Grandpa. I just want to make sure I'm doing it right without damaging anything.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I understand it's popular now, but let's make sure we're not causing any damage to the car. It's important to find a method that works well for both you and the vehicle.",
+      "golden": "warn",
+      "predicted": "warn",
+      "raw": "warn"
+    },
+    {
+      "text": "Thanks for the advice, Grandpa. I'll try to find a good balance.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Alright, just be careful with the clutch. It's important to avoid any sudden movements that might harm the car.",
+      "golden": "warn",
+      "predicted": "warn",
+      "raw": "warn"
+    },
+    {
+      "text": "Got it, I'll be extra careful with the clutch. Thanks for looking out for me!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I appreciate your enthusiasm, but let's ease up a bit to ensure the car stays in good shape. It's all about finding the right balance.",
+      "golden": "warn",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "I understand, Grandpa. I'll make sure to take it slow and steady. Thanks for the guidance!",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you're enjoying it, but let's make sure we're driving safely and not pushing the car too hard.",
+      "golden": "warn",
+      "predicted": "warn",
+      "raw": "warn"
+    },
+    {
+      "text": "Absolutely, Grandpa. I'll keep that in mind and make sure to drive safely. Thanks for the advice!",
+      "golden": "agree",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I understand it can be challenging, but you're doing great. Let's take it slow and enjoy the view while we find a better spot.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate your support. I'll make sure to enjoy the drive and take it easy.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I know it's tough, but you're handling it well. Let's keep going and see if we can find that perfect spot.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "You're right, Grandpa. It's nice to have this time together and enjoy the scenery. Let's keep looking for that spot.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, let's take a moment to relax and enjoy where we are. We can always look for a better spot later.",
+      "golden": "arrange",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "That sounds perfect, Grandpa. Let's just enjoy the moment and relax.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Don't worry, you're doing just fine. The car is built to handle a lot, and I'm here to help if you need it.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandpa. I feel a lot better knowing you're here with me.",
+      "golden": "thank",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yes, you can accelerate gently now, and then smoothly increase your speed as you feel comfortable.",
+      "golden": "advise",
+      "predicted": "advise",
+      "raw": "advise"
+    },
+    {
+      "text": "Okay, I'll try to accelerate smoothly. Thanks for the guidance!",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "I'm glad you're enjoying the view. It's moments like these that make the journey worthwhile.",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yeah, it's really beautiful out here. I'm glad we decided to do this together.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Let's find some shade or turn on the air conditioning to cool down a bit.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Sure, let's turn on the air conditioning. It's getting a bit warm.",
+      "golden": "agree",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "The road might be a bit uneven here, but don't worry, it's normal. Just keep a steady grip on the wheel.",
+      "golden": "inform",
+      "predicted": "warn",
+      "raw": "warn"
+    },
+    {
+      "text": "Thanks for the tip, I'll make sure to keep it steady.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "It's great to see you handling everything so well. You're doing a fantastic job.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    }
+  ]
+}

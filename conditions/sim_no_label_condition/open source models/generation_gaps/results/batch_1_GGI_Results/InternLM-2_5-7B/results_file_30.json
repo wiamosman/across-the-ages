@@ -1,0 +1,153 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "file_index": 30,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): that is how you use your chopsticks. hey, what the hell you doing? you're chinese, you should use your chopsticks. yeah, chinese grandma teaches you how to use your chopstick.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): that is how you use your chopsticks. hey, what the hell you doing? you're chinese, you should use your chopsticks. yeah, chinese grandma teaches you how to use your chopstick.",
+            "target": "Target (grandson): how do you use chopsticks? gum goong.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): that is how you use your chopsticks. hey, what the hell you doing? you're chinese, you should use your chopsticks. yeah, chinese grandma teaches you how to use your chopstick. | Speaker B (grandson): how do you use chopsticks? gum goong.",
+            "target": "Target (grandfather): all right. now hold a chopstick like this. chopstick must be. stay there strong.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): how do you use chopsticks? gum goong. | Speaker B (grandfather): all right. now hold a chopstick like this. chopstick must be. stay there strong.",
+            "target": "Target (grandson): on the ring finger.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): all right. now hold a chopstick like this. chopstick must be. stay there strong. | Speaker B (grandson): on the ring finger.",
+            "target": "Target (grandfather): yeah. use a third.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): on the ring finger. | Speaker B (grandfather): yeah. use a third.",
+            "target": "Target (grandson): finger above the middle finger.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): yeah. use a third. | Speaker B (grandson): finger above the middle finger.",
+            "target": "Target (grandfather): yes. push it up. you want to pick up something? the second finger is going down.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): finger above the middle finger. | Speaker B (grandfather): yes. push it up. you want to pick up something? the second finger is going down.",
+            "target": "Target (grandson): the first chopstick on your ring finger and then have your thumb and your index finger in between. right. the second chopstick above the middle finger and also have the index finger. okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): yes. push it up. you want to pick up something? the second finger is going down. | Speaker B (grandson): the first chopstick on your ring finger and then have your thumb and your index finger in between. right. the second chopstick above the middle finger and also have the index finger. okay.",
+            "target": "Target (grandfather): beautiful.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandson): the first chopstick on your ring finger and then have your thumb and your index finger in between. right. the second chopstick above the middle finger and also have the index finger. okay. | Speaker B (grandfather): beautiful.",
+            "target": "Target (grandson): see me use a chopstick.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): beautiful. | Speaker B (grandson): see me use a chopstick.",
+            "target": "Target (grandfather): that's good too. it's more easier.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandson): see me use a chopstick. | Speaker B (grandfather): that's good too. it's more easier.",
+            "target": "Target (grandson): too, just stabbing it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): that's good too. it's more easier. | Speaker B (grandson): too, just stabbing it.",
+            "target": "Target (grandfather): yeah, yeah. good for the people. don't use your chopstick all the time.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): too, just stabbing it. | Speaker B (grandfather): yeah, yeah. good for the people. don't use your chopstick all the time.",
+            "target": "Target (grandson): i can do this too. gung goong.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): yeah, yeah. good for the people. don't use your chopstick all the time. | Speaker B (grandson): i can do this too. gung goong.",
+            "target": "Target (grandfather): of course i can.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): i can do this too. gung goong. | Speaker B (grandfather): of course i can.",
+            "target": "Target (grandson): pick it up regularly too.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): of course i can. | Speaker B (grandson): pick it up regularly too.",
+            "target": "Target (grandfather): of course, if you are chinese, you know you're chinese, you don't know how to use the chopsticks. it's funny, you know.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): pick it up regularly too. | Speaker B (grandfather): of course, if you are chinese, you know you're chinese, you don't know how to use the chopsticks. it's funny, you know.",
+            "target": "Target (grandson): kind of embarrassing.",
+            "gold_label": "stereotyped expectation",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): of course, if you are chinese, you know you're chinese, you don't know how to use the chopsticks. it's funny, you know. | Speaker B (grandson): kind of embarrassing.",
+            "target": "Target (grandfather): when you go to eat italian food.",
+            "gold_label": "none",
+            "predicted_label": "stereotyped expectation"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): kind of embarrassing. | Speaker B (grandfather): when you go to eat italian food.",
+            "target": "Target (grandson): and pasta, you're gonna bring your own chopsticks.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): when you go to eat italian food. | Speaker B (grandson): and pasta, you're gonna bring your own chopsticks.",
+            "target": "Target (grandfather): i always do that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

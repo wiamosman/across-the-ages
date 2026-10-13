@@ -1,0 +1,79 @@
+{
+    "model_used": "Qwen2.5-1.5B",
+    "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "file_index": 49,
+    "utterances": [
+        {
+            "text": "Let's go to Coin Mill cuz it's right here. Okay. Seize you. Have a seizure. Not having a full stop, they'll let you a ticket. They'll see you're—",
+            "golden": "plan",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "I'm gonna bust. Um, how big is this thing? Oh my gosh. Honestly, Grandma, I'm literally shaking right now, I'm about to tweak.",
+            "golden": "inform",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "You're going to what? Tweak? Do you need a doctor, dear? Are you having one of those seizures I was just talking about?",
+            "golden": "confirm",
+            "predicted": "joke",
+            "raw": "joke"
+        },
+        {
+            "text": "No, no! hhhh It just means I'm really nervous. It’s just slang. I’m fine, I’m fine.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Well, don't use words like that when you're behind the wheel, you'll give me a heart attack! Now nobody can see us except them people. Oh, the ground's hot, hot, hot, hot, hot, hot. Wait, I got to put my buckle on. Act like you're— act like I'm the driver.",
+            "golden": "advise",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Okay, can adjust the seat. All right, here's my helping hand. Are you ready?",
+            "golden": "confirm",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Oh, that's my boyfriend's hand.",
+            "golden": "inform",
+            "predicted": "flaunt",
+            "raw": "flaunt"
+        },
+        {
+            "text": "There's your boyfriend's helping hand. All right, now you got it on the brake, and then you put it in drive. Okay, take your foot off the brake.",
+            "golden": "advise",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "It's off the brake.",
+            "golden": "confirm",
+            "predicted": "warn",
+            "raw": "warn"
+        },
+        {
+            "text": "Put your foot on the gas pedal, but very slow. We're gonna go slow, slow, only like 5 or 10. Very good, slow. We're not gonna go fast. Very good. This is how they teach you, 5 to 10 to start with.",
+            "golden": "explain",
+            "predicted": "arrange",
+            "raw": "arrange"
+        },
+        {
+            "text": "Did I do it?",
+            "golden": "confirm",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Yeah, so far. Slow, slow, slow. Okay, that's good. Now go left. No, wait, hold it. Put the brake on. Don't get on the grass. Okay, very good. See? And now put your right turn signal on and go this way. Don't hit the curb over there. Very good. Stay straight. Very nice. Okay, very good. Good job.",
+            "golden": "praise",
+            "predicted": "explain",
+            "raw": "explain"
+        }
+    ]
+}

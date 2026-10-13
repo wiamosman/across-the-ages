@@ -1,0 +1,235 @@
+{
+  "model_used": "Qwen2.5-1.5B",
+  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "file_index": 46,
+  "utterances": [
+    {
+      "text": "Hi Grandma! Are you ready for our piano practice session today?",
+      "golden": "greeting",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Hello, my dear! How are you doing today?",
+      "golden": "greeting",
+      "predicted": "greeting",
+      "raw": "greeting"
+    },
+    {
+      "text": "I'm doing well! I've been practicing those scales we talked about. Can you hear me okay?",
+      "golden": "answer",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, dear, it's me, Grandma Stiepel. Is everything alright?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Everything is great! I just wanted to show you how much faster I've gotten at the C major scale.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, are you talking about your age, dear? You're growing up so fast!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Haha, I am! But listen to this—I’ve been practicing my finger agility every morning.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's wonderful, dear! Playing the piano is such a beautiful skill to have.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "It really is. I'm trying to do this new warm-up where I play the notes in reverse. Want to see?",
+      "golden": "question",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "Oh, that sounds like a great exercise! I'm so proud of you for practicing and improving your skills.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks! Now, let's look at your hand position. Are you ready to try the descending scale?",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That sounds like a fun way to practice, dear! Keep it up and you'll be playing beautifully in no time.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I will! But I want you to try it too. It helps to move the wrist in both directions, right?",
+      "golden": "question",
+      "predicted": "backchannel",
+      "raw": "backchannel"
+    },
+    {
+      "text": "That makes sense, dear. It's important to practice both directions to strengthen your fingers.",
+      "golden": "statement-non-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Exactly! Now, try to play the middle C, then move up to D. Can you do that for me?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "I'd love to give it a try, dear. Let's see how I do!",
+      "golden": "agreement",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Perfect! Now try to shift your hand slightly higher on the keys for the next note.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, I'll move up one step. Let's see how it goes!",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Great job! Now, remember to use your thumb as the anchor when you transition.",
+      "golden": "statement-non-opinion",
+      "predicted": "others",
+      "raw": "instruction"
+    },
+    {
+      "text": "Got it, dear. I'll move my thumb and start from there. Thank you for guiding me!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "No problem! Now, let's try the opposite. Start with your pinky finger and go down.",
+      "golden": "command",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "Alright, I'll start with my pinky and move down one. This is quite fun, thank you for teaching me!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're doing so well! I think adding some variations to these scales makes it less boring.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see, dear. It's nice to have some variety. I'm enjoying this!",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad! It keeps the brain sharp too. Should we try another pattern together?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "Thank you for showing me how to play like this. It's a wonderful way to learn!",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "You're so welcome. Why don't you try the same pattern but with your left hand now?",
+      "golden": "question",
+      "predicted": "command",
+      "raw": "command"
+    },
+    {
+      "text": "That's a great idea, dear. I'll try it with my left hand too. Thank you for the tip!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "How does it feel? The left hand is always a bit trickier for me at first.",
+      "golden": "question",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's wonderful to know! I'm feeling more confident with each practice.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I can definitely tell! Your rhythm is becoming much more steady.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see! Let me give it a try. I think I like this variation too!",
+      "golden": "statement-opinion",
+      "predicted": "agreement",
+      "raw": "agreement"
+    },
+    {
+      "text": "That's the spirit! It's a bit of a challenge, but you're handling it like a pro.",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yes, I do like it! It's a bit challenging, but I'm enjoying the practice.",
+      "golden": "statement-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "That’s why I call this my 'Boot Camp' series for the piano!",
+      "golden": "statement-non-opinion",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Oh, 'Boot Camp' series sounds intriguing! What inspired you to choose that name?",
+      "golden": "question",
+      "predicted": "question",
+      "raw": "question"
+    },
+    {
+      "text": "I thought it was a fun way to make the exercises sound more exciting and challenging, like a fitness boot camp!",
+      "golden": "answer",
+      "predicted": "statement-opinion",
+      "raw": "statement-opinion"
+    },
+    {
+      "text": "Ah, I see! That makes sense now. 'Boot Camp for Clumsy Fingers' is a clever name!",
+      "golden": "statement-opinion",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    }
+  ]
+}

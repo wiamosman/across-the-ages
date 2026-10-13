@@ -1,0 +1,205 @@
+{
+    "model_used": "InternLM-2.5-7B",
+    "hf_id": "internlm/internlm2_5-7b-chat",
+    "file_index": 42,
+    "utterances": [
+        {
+            "text": "Well, what's coming up next week will be a little bit more terminology, measures, and then we'll continue with replacing some of your notes. We'll look at the BPM and the overall phrasing.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "The what? BPM? What's a BPM? Is that a type of piano?",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Oh! No, sorry. Beats Per Minute. It’s just how we talk about the tempo now. It's the same thing as the speed.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Oh, well, you young people have a fancy name for everything. Back in my day, we just called it the time. Anyway, B is 2.",
+            "golden": "criticize",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "Right. If you want to move ahead a little bit, you can actually.",
+            "golden": "advise",
+            "predicted": "advise",
+            "raw": "advise"
+        },
+        {
+            "text": "I played Mary Had a Little Lamb.",
+            "golden": "flaunt",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "You did? Really? Did you count? Did you say tick-tock?",
+            "golden": "confirm",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "No. Yeah, I tried. I tried. Okay. You want me to do it for you? Okay, let's do it. Mary had a little lamb. Mary had a little lamb, let's go. There's really nothing new here except for you've replaced D with number 2. Right. I forget the tick-tock. I'll say it.",
+            "golden": "plan",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Okay. Tick-tock, tick-tock, tick-tock, tick.",
+            "golden": "explain",
+            "predicted": "complain",
+            "raw": "complain"
+        },
+        {
+            "text": "See? Oh, I thought you said—",
+            "golden": "doubt",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Oh, that's right, there's this one. Okay. Tick-tock. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. Whoops!",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Oh, I forgot that one.",
+            "golden": "acknowledge",
+            "predicted": "unknown",
+            "raw": "forget"
+        },
+        {
+            "text": "The rest. Okay. Now we're starting over again. We're gonna start right here. Fourth measure. Yeah.",
+            "golden": "plan",
+            "predicted": "plan",
+            "raw": "plan"
+        },
+        {
+            "text": "We use this?",
+            "golden": "ask for help",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "No. 1, 2, 3, fourth measure. We didn't talk about that. These little boxes are called measures. So if I say fourth measure, that's where you start.",
+            "golden": "explain",
+            "predicted": "explain",
+            "raw": "explain"
+        },
+        {
+            "text": "Tick-tock, tick-tock, tick-tock... Tick-tock! D? Last line—",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "You're here now with me again.",
+            "golden": "advise",
+            "predicted": "greet",
+            "raw": "greet"
+        },
+        {
+            "text": "No I'm used to it. B's turn. Number two yeah. Tickle-tackle-tiltle.",
+            "golden": "inform",
+            "predicted": "unknown",
+            "raw": "asking for help"
+        },
+        {
+            "text": "Yeah that was good. Tick-tock, tick-tock, tick-tock, tick-tock, tick-tock. That is, tock, tick, tock.",
+            "golden": "praise",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Right.",
+            "golden": "acknowledge",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "You can practice all the way to 'Mary Had a Little Lamb.' To 'Mary Had a Little Lamb.' Yes. I'll do that. Okay. You did good.",
+            "golden": "praise",
+            "predicted": "unknown",
+            "raw": "practice"
+        },
+        {
+            "text": "You think I'm doing good? Yes. Really? Don't just tell me that. Do you like it, Grandma?",
+            "golden": "asking for opinions",
+            "predicted": "asking for opinions",
+            "raw": "asking for opinions"
+        },
+        {
+            "text": "Your fingers are moving.",
+            "golden": "inform",
+            "predicted": "inform",
+            "raw": "inform"
+        },
+        {
+            "text": "Well, I'm learning. I'm learning more. Sometimes I forget what D is, or you know, I'm doing pretty good at remembering, but once in a while I forget the letters, what letters will go where, which finger.",
+            "golden": "explain",
+            "predicted": "unknown",
+            "raw": "learn"
+        },
+        {
+            "text": "That's normal. That's it.",
+            "golden": "comfort",
+            "predicted": "confirm",
+            "raw": "confirm"
+        },
+        {
+            "text": "Yeah, that's normal. At first, yeah. At first it's normal. I'm glad. That makes me feel good.",
+            "golden": "acknowledge",
+            "predicted": "comfort",
+            "raw": "comfort"
+        },
+        {
+            "text": "Okay. So I think you're doing perfect. You're doing good, Grandma. I'm not just saying that. I'm— yeah, I really do care.",
+            "golden": "care",
+            "predicted": "care",
+            "raw": "care"
+        },
+        {
+            "text": "You really do. You're not just saying it because I'm your grandma.",
+            "golden": "confirm",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        },
+        {
+            "text": "No.",
+            "golden": "confirm",
+            "predicted": "refuse",
+            "raw": "refuse"
+        },
+        {
+            "text": "Because— yeah, don't say it like that. Make— Make me work as hard as anyone else.",
+            "golden": "oppose",
+            "predicted": "oppose",
+            "raw": "oppose"
+        },
+        {
+            "text": "I will.",
+            "golden": "agree",
+            "predicted": "leave",
+            "raw": "leave"
+        },
+        {
+            "text": "Okay, I'll practice till you get back next week.",
+            "golden": "plan",
+            "predicted": "unknown",
+            "raw": "practice"
+        },
+        {
+            "text": "Okay, Grandma.",
+            "golden": "leave",
+            "predicted": "acknowledge",
+            "raw": "acknowledge"
+        }
+    ]
+}

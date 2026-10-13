@@ -1,0 +1,279 @@
+{
+    "model_used": "Llama-3.2-3B",
+    "file_index": 27,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): hello, everyone. welcome to this segment of live with carlos. today we're going to talk about the relationship between grandparents and grandchildren. in this case especially with me, my grandson john. he's 18 years old or will be in april. he's graduating from high school and going on with his life from there. we don't know where you're going to end up in the future, but i know it's going to be great. so talking about the generations that we have, his and mine, in coming together, the relationship is very important. some grandparents do not have that close relationship with their grandchildren, either because they live far away or because they can't find something in common. lucky for me, i have something in common with both of my grandchildren who are here today. for some people, the commonality is baseball or sports of some kind. one of my good friends, carl, used to take his grandson hunting. but for me, my relationship with my grandchildren is ta da music. music is very much part of my life and is very much part of their life, as you know or might not know. my granddaughter alina is a singer and also plays the piano. and my grandson plays a hot guitar. hello. hey. what we want to do today is come up with a song. we're going to compose a song. we haven't practiced this at all. we had no idea if this is going to work, but we're going to try it. simple chords, okay? c, d, a day, d, c, and that's it. but we're going to try this here because this is how we talk to each other is through music. besides, he helped me with a lot of projects around here when he could pass the time. so, john, you want to say something about yourself, i'll put you on the spot.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): hello, everyone. welcome to this segment of live with carlos. today we're going to talk about the relationship between grandparents and grandchildren. in this case especially with me, my grandson john. he's 18 years old or will be in april. he's graduating from high school and going on with his life from there. we don't know where you're going to end up in the future, but i know it's going to be great. so talking about the generations that we have, his and mine, in coming together, the relationship is very important. some grandparents do not have that close relationship with their grandchildren, either because they live far away or because they can't find something in common. lucky for me, i have something in common with both of my grandchildren who are here today. for some people, the commonality is baseball or sports of some kind. one of my good friends, carl, used to take his grandson hunting. but for me, my relationship with my grandchildren is ta da music. music is very much part of my life and is very much part of their life, as you know or might not know. my granddaughter alina is a singer and also plays the piano. and my grandson plays a hot guitar. hello. hey. what we want to do today is come up with a song. we're going to compose a song. we haven't practiced this at all. we had no idea if this is going to work, but we're going to try it. simple chords, okay? c, d, a day, d, c, and that's it. but we're going to try this here because this is how we talk to each other is through music. besides, he helped me with a lot of projects around here when he could pass the time. so, john, you want to say something about yourself, i'll put you on the spot.",
+            "target": "Target (grandson): i don't know.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): hello, everyone. welcome to this segment of live with carlos. today we're going to talk about the relationship between grandparents and grandchildren. in this case especially with me, my grandson john. he's 18 years old or will be in april. he's graduating from high school and going on with his life from there. we don't know where you're going to end up in the future, but i know it's going to be great. so talking about the generations that we have, his and mine, in coming together, the relationship is very important. some grandparents do not have that close relationship with their grandchildren, either because they live far away or because they can't find something in common. lucky for me, i have something in common with both of my grandchildren who are here today. for some people, the commonality is baseball or sports of some kind. one of my good friends, carl, used to take his grandson hunting. but for me, my relationship with my grandchildren is ta da music. music is very much part of my life and is very much part of their life, as you know or might not know. my granddaughter alina is a singer and also plays the piano. and my grandson plays a hot guitar. hello. hey. what we want to do today is come up with a song. we're going to compose a song. we haven't practiced this at all. we had no idea if this is going to work, but we're going to try it. simple chords, okay? c, d, a day, d, c, and that's it. but we're going to try this here because this is how we talk to each other is through music. besides, he helped me with a lot of projects around here when he could pass the time. so, john, you want to say something about yourself, i'll put you on the spot. | Speaker B (grandson): i don't know.",
+            "target": "Target (grandfather): you have a girlfriend?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandson): i don't know. | Speaker B (grandfather): you have a girlfriend?",
+            "target": "Target (grandson): no, i don't.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): you have a girlfriend? | Speaker B (grandson): no, i don't.",
+            "target": "Target (grandfather): are you looking for one?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandson): no, i don't. | Speaker B (grandfather): are you looking for one?",
+            "target": "Target (grandson): no, i'm not.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): are you looking for one? | Speaker B (grandson): no, i'm not.",
+            "target": "Target (grandfather): no!",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandson): no, i'm not. | Speaker B (grandfather): no!",
+            "target": "Target (grandfather): oh, he is.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): no! | Speaker B (grandfather): oh, he is.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): oh, he is. | Speaker B (grandson): okay.",
+            "target": "Target (grandfather): he's a hard worker.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandfather): he's a hard worker.",
+            "target": "Target (grandfather): he's going to high school and also getting his first year of community college at the same time. he's working part time, so he has a full schedule. plus he loves music. he has a band that they play. so here we go. give me a chord. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): he's a hard worker. | Speaker B (grandfather): he's going to high school and also getting his first year of community college at the same time. he's working part time, so he has a full schedule. plus he loves music. he has a band that they play. so here we go. give me a chord. okay.",
+            "target": "Target (grandson): got this chord. what key do you want?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): he's going to high school and also getting his first year of community college at the same time. he's working part time, so he has a full schedule. plus he loves music. he has a band that they play. so here we go. give me a chord. okay. | Speaker B (grandson): got this chord. what key do you want?",
+            "target": "Target (grandfather): it is. is that right?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandson): got this chord. what key do you want? | Speaker B (grandfather): it is. is that right?",
+            "target": "Target (grandson): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): it is. is that right? | Speaker B (grandson): yes.",
+            "target": "Target (grandfather): the last time.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): yes. | Speaker B (grandfather): the last time.",
+            "target": "Target (grandfather): i.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): the last time. | Speaker B (grandfather): i.",
+            "target": "Target (grandfather): had you in my arms, you were a little baby. the last time i held your hand, you were a toddler. the last time i took you for an ice cre, you were a preteen. but now that you are a young man, we're going out to eat. yum, yum. this is your part yum, yum, yum, yum. so let's go and have a hamburger. let's go and have some fries. let's go and have a cold.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): i. | Speaker B (grandfather): had you in my arms, you were a little baby. the last time i held your hand, you were a toddler. the last time i took you for an ice cre, you were a preteen. but now that you are a young man, we're going out to eat. yum, yum. this is your part yum, yum, yum, yum. so let's go and have a hamburger. let's go and have some fries. let's go and have a cold.",
+            "target": "Target (grandfather): i think this is great.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): had you in my arms, you were a little baby. the last time i held your hand, you were a toddler. the last time i took you for an ice cre, you were a preteen. but now that you are a young man, we're going out to eat. yum, yum. this is your part yum, yum, yum, yum. so let's go and have a hamburger. let's go and have some fries. let's go and have a cold. | Speaker B (grandfather): i think this is great.",
+            "target": "Target (grandfather): so i'm going to ask my son to finish the song.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandfather): i think this is great. | Speaker B (grandfather): so i'm going to ask my son to finish the song.",
+            "target": "Target (grandson): come on, hit us with a run.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): so i'm going to ask my son to finish the song. | Speaker B (grandson): come on, hit us with a run.",
+            "target": "Target (grandfather): i don't know. when i was young, you were fools.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): come on, hit us with a run. | Speaker B (grandfather): i don't know. when i was young, you were fools.",
+            "target": "Target (grandson): and you always put me on the swing and go under.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): i don't know. when i was young, you were fools. | Speaker B (grandson): and you always put me on the swing and go under.",
+            "target": "Target (grandfather): but i would say, papa pushed me.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandson): and you always put me on the swing and go under. | Speaker B (grandfather): but i would say, papa pushed me.",
+            "target": "Target (grandfather): papa push me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): but i would say, papa pushed me. | Speaker B (grandfather): papa push me.",
+            "target": "Target (grandfather): that was always fun.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandfather): papa push me. | Speaker B (grandfather): that was always fun.",
+            "target": "Target (grandson): that's when you live in birch creek.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): that was always fun. | Speaker B (grandson): that's when you live in birch creek.",
+            "target": "Target (grandfather): papa pushed me.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandson): that's when you live in birch creek. | Speaker B (grandfather): papa pushed me.",
+            "target": "Target (grandfather): yes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandfather): papa pushed me. | Speaker B (grandfather): yes.",
+            "target": "Target (grandfather): and the white rice. he loves white rice.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandfather): yes. | Speaker B (grandfather): and the white rice. he loves white rice.",
+            "target": "Target (grandson): that song is called papa push me.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandfather): and the white rice. he loves white rice. | Speaker B (grandson): that song is called papa push me.",
+            "target": "Target (grandfather): that's it. as you can see, it was a silly song. we decided to name that song papa push me. and if you missed it, in the words of the song, i used to put him in a swing, and then he would say, papa, push me, papa push me. and that was my job, to push him so he could swing. but the important thing, it's not whether the song is beautiful or not or whether it makes the chart. no, the important thing is relationship between a grandparent and a grandchild. in this case, mine, with my grandson, john. yep. and so what do you think, john?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandson): that song is called papa push me. | Speaker B (grandfather): that's it. as you can see, it was a silly song. we decided to name that song papa push me. and if you missed it, in the words of the song, i used to put him in a swing, and then he would say, papa, push me, papa push me. and that was my job, to push him so he could swing. but the important thing, it's not whether the song is beautiful or not or whether it makes the chart. no, the important thing is relationship between a grandparent and a grandchild. in this case, mine, with my grandson, john. yep. and so what do you think, john?",
+            "target": "Target (grandson): well, i'm glad that i have this good relationship with you, that we can write spontaneous papa push me style songs.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): that's it. as you can see, it was a silly song. we decided to name that song papa push me. and if you missed it, in the words of the song, i used to put him in a swing, and then he would say, papa, push me, papa push me. and that was my job, to push him so he could swing. but the important thing, it's not whether the song is beautiful or not or whether it makes the chart. no, the important thing is relationship between a grandparent and a grandchild. in this case, mine, with my grandson, john. yep. and so what do you think, john? | Speaker B (grandson): well, i'm glad that i have this good relationship with you, that we can write spontaneous papa push me style songs.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandson): well, i'm glad that i have this good relationship with you, that we can write spontaneous papa push me style songs. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): because, i mean, i don't want to say it's uncommon, but there is in some cases where people my age don't have relationships with their grandparents. not gonna name names, but i have a grandparent that. i'm kidding. i'm kidding.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): because, i mean, i don't want to say it's uncommon, but there is in some cases where people my age don't have relationships with their grandparents. not gonna name names, but i have a grandparent that. i'm kidding. i'm kidding.",
+            "target": "Target (grandfather): cut that out. but you probably know of some of your friends that don't have that.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandson): because, i mean, i don't want to say it's uncommon, but there is in some cases where people my age don't have relationships with their grandparents. not gonna name names, but i have a grandparent that. i'm kidding. i'm kidding. | Speaker B (grandfather): cut that out. but you probably know of some of your friends that don't have that.",
+            "target": "Target (grandson): yeah, that's true in some cases.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandfather): cut that out. but you probably know of some of your friends that don't have that. | Speaker B (grandson): yeah, that's true in some cases.",
+            "target": "Target (grandfather): like people.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandson): yeah, that's true in some cases. | Speaker B (grandfather): like people.",
+            "target": "Target (grandson): some kids don't even, like, know their grandparents.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandfather): like people. | Speaker B (grandson): some kids don't even, like, know their grandparents.",
+            "target": "Target (grandfather): yeah. all right, so remember, everyone, spend time with your grandchildren. make time for them. call them. don't expect them to call you back. send them a card. just tell them that you're thinking about them. or even a text. send them a text saying, i was thinking about you. that's it. okay? so until the next time, have a good time. la.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

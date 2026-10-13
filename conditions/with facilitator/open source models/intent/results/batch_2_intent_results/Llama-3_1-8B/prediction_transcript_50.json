@@ -1,0 +1,121 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 50,
+  "utterances": [
+    {
+      "text": "Hello dear, how have you been?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandma! I've been good, just busy with school and stuff. How about you?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I hope everything is going well for you. Is there anything you'd like to share?",
+      "golden": "care",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Well, I've been thinking about joining a new club at school. It's a bit different from what I usually do, but it sounds fun!",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "You seem a bit quiet today. Is everything alright?",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, I'm fine, just a bit tired from all the studying. Thanks for asking, Grandma.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, I see! That sounds interesting. Let's give it a try and see how it works.",
+      "golden": "advise",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Thanks, Grandma! I'm really looking forward to it. I think it'll be a great way to meet new people and learn something new.",
+      "golden": "express",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Well, if so many people find it helpful, it must be worth a try. I'm always open to learning new things.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm glad you're open to it, Grandma. It's always fun to try new things together!",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I'm glad we're trying something new together. It's always fun to experiment.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Absolutely! I'm really excited to see how it goes. Do you think we should invite anyone else to join us?",
+      "golden": "asking for opinions",
+      "predicted": "invite",
+      "raw": "invite"
+    },
+    {
+      "text": "That's fascinating! I didn't know that about fish. You're teaching me so much today.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you're enjoying it, Grandma! Maybe we can learn more about different types of fish together.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh my, you're brave! I remember when I first touched a fish, it was quite an experience.",
+      "golden": "praise",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "That sounds like a fun memory! Maybe we can create some new ones together.",
+      "golden": "inform",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's great to hear! You're becoming quite the expert at this.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks, Grandma! I love learning new things with you. Maybe we can try cooking some fish recipes next time.",
+      "golden": "plan",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "That's okay, take your time. It's all about learning and having fun.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    }
+  ]
+}

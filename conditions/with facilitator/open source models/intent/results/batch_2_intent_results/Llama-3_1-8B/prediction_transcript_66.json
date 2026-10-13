@@ -1,0 +1,577 @@
+{
+  "model_used": "Llama-3.1-8B",
+  "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "file_index": 66,
+  "utterances": [
+    {
+      "text": "Hey Grandma, how's your day going?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "It's going well! I was just hanging the laundry to dry. It's a nice way to enjoy the sun and save some energy.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "That's interesting! I usually just toss them in the dryer. Do you think hanging them makes a big difference?",
+      "golden": "asking for opinions",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "I think so! It keeps the clothes fresh. It's good to see you joining me today.",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Thanks, Grandma! It's nice to be here. So, do you think hanging clothes really saves a lot of energy?",
+      "golden": "asking for opinions",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Yes, dear, that's how I've always done it. It's just my way of keeping things tidy and useful.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I see, maybe I should try it your way sometime. Thanks for the tip!",
+      "golden": "agree",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Well, I suppose that's true! I do like to take my time and be careful on the road too.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "That's a good approach, Grandma. I guess being careful is always better.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Alright, I'll park right over there. Let me know if this spot works for you.",
+      "golden": "plan",
+      "predicted": "arrange",
+      "raw": "arrange"
+    },
+    {
+      "text": "Yeah, this spot looks perfect. Thanks for driving us here, Grandma!",
+      "golden": "thank",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Oh yes, I remember you mentioned coming here. How is your art going these days?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "It's going really well! I've been working on a new piece that I'm really excited about.",
+      "golden": "inform",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "I can't wait to see it! I'm glad we're parked safely and can chat for a bit.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I know, Grandma. You're a great driver! I'm just glad we're here safely.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh my, I think 'turnt up' means to have a lot of fun and get really excited, right?",
+      "golden": "confirm",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Yeah, that's right! It means having a lot of fun and getting really excited.",
+      "golden": "explain",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Ah, I see! Thanks for keeping me updated with the latest lingo.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem, Grandma! I'm always here to help you with that.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, I might need a little more practice to use 'turnt up' just right!",
+      "golden": "joke",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Haha, you'll get the hang of it in no time! Let me know if you want to practice more.",
+      "golden": "comfort",
+      "predicted": "unknown",
+      "raw": "encourage"
+    },
+    {
+      "text": "Oh, I'd love to learn some new slang! It's always fun to keep up with what you're saying.",
+      "golden": "ask for help",
+      "predicted": "asking for opinions",
+      "raw": "asking for opinions"
+    },
+    {
+      "text": "Sure thing, Grandma! How about we start with 'lit'? It's a fun one!",
+      "golden": "advise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Alright, I'm ready for the challenge! Let's see how well I can guess.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Okay, 'lit' means something is really cool or exciting. Like, 'That party was lit!' Want to try using it in a sentence?",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Thank you, dear! I'm ready to learn and have some fun with this.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Great! How about you try using 'lit' in a sentence now?",
+      "golden": "advise",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Oh, is it like when we say something is 'bright' or 'dazzling'?",
+      "golden": "doubt",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Not quite, but that's a good try! 'Lit' is more about something being exciting or fun. Want to give it another shot?",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Ah, so like a party that is full of life! Thank you for explaining it to me.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "No problem! It's fun to share these things with you. Do you want to try using 'lit' in a sentence again?",
+      "golden": "encourage",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "How about, 'This dinner is lit!' Did I do it right?",
+      "golden": "asking for opinions",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Exactly! You're getting the hang of it! 'Lit' is perfect for when something is exciting. Want to try another one?",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, that would be wonderful! It's nice to share these moments together.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Wow, that's awesome! I'm happy for you. Do you want to tell me more about what you've been up to?",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I've just been keeping busy with my garden and reading. It's nice to have special hobbies to share with everyone.",
+      "golden": "explain",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I understand, Grandma. It's important to cherish those special moments. Whenever you're ready to share more, I'm here to listen.",
+      "golden": "comfort",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I appreciate that, dear. Family is important, and I appreciate your care.",
+      "golden": "thank",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "I get it, Grandma. Family is everything. Let me know if there's anything I can do to help.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, that sounds like fun! I'm looking forward to our next visit.",
+      "golden": "agree",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "I'm glad you're excited, Grandma! We can plan something special together.",
+      "golden": "plan",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Oh, I've heard you mention 'FOMO'. It stands for 'Fear of Missing Out', right? It's when people worry about missing something exciting.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Exactly! Thanks for explaining that, Grandma! You're really keeping up.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm sorry to hear you won't be here for my birthday, but I understand you're busy. We'll share lots of pictures with you.",
+      "golden": "comfort",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I'm really sorry I can't be there, Grandma. I'll definitely call and maybe we can do a video chat to celebrate together!",
+      "golden": "apologize",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Oh, 'stan' is a term used to describe someone who is a very enthusiastic fan, right? Like being a super fan of someone.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Thanks for explaining that too! I guess I'm a stan of my favorite band then.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "And 'sauced' is when someone has had a bit too much to drink at a party, isn't it?",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Got it, thanks for clearing that up! I learn something new every day.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "Well, I might not know all the latest slang, but I'm always happy to learn from you!",
+      "golden": "acknowledge",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "You're doing great, Grandma! It's fun sharing these things with you.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, 'idear' is just a playful way some people say 'idea'. It's like a fun little twist on the word.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "That's interesting! I love learning these little quirks of language.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I think it's lovely how language can have so many fun variations like 'idear'.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Got it, Grandma! It's always fun to learn something new from you.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh, that was such a fun day! I was so happy to see everyone together.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "It really was a great day! I'm glad we could all be together.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I wasn't 'sauced', just a bit overwhelmed with joy! It's funny how you remember the party.",
+      "golden": "joke",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "Haha, I guess 'sauced' just meant you were having a lot of fun! I'm glad you had a good time.",
+      "golden": "joke",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "Well, I appreciate you being there with me that day. It was a memorable party!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm really glad you enjoyed it, Grandma. It was a special day for all of us.",
+      "golden": "praise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "I know, and I'm grateful we could share it. It was a day to remember!",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "It really was! I'm always here to spend time with you, Grandma.",
+      "golden": "care",
+      "predicted": "care",
+      "raw": "care"
+    },
+    {
+      "text": "Oh, you kids and your funny words! I remember the day quite well and was just enjoying myself.",
+      "golden": "joke",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Haha, yeah, we do have some funny words! I'm glad you enjoyed yourself, that's what matters.",
+      "golden": "joke",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "And 'lit' is when something is really exciting! I'm starting to remember these.",
+      "golden": "explain",
+      "predicted": "explain",
+      "raw": "explain"
+    },
+    {
+      "text": "Exactly, Grandma! It's great that you're keeping up with the new lingo.",
+      "golden": "praise",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Oh, I suppose I've had my moments of being 'lit' in my own way! It's all about enjoying life.",
+      "golden": "joke",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Absolutely, Grandma! It's all about having fun and making memories.",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Well, I'm glad to hear you think so! It's so important to cherish these times.",
+      "golden": "agree",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Yeah, and it's even better when we can share those moments together!",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "And 'shook' means you're really surprised, right? Like if I won the lottery!",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Haha, yeah, exactly! It's cool that you're keeping up with them.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh my goodness, that would definitely leave me 'shook'! What a wonderful surprise.",
+      "golden": "joke",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "Yeah, surprises can be really fun! I'm glad you like learning these new words.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Ah, 'woke' means being aware of important social issues. It's good to be conscious of the world.",
+      "golden": "explain",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "That's a great explanation, Grandma! It's important to stay informed.",
+      "golden": "praise",
+      "predicted": "inform",
+      "raw": "inform"
+    },
+    {
+      "text": "Well, I try to understand the important issues, dear. It's always good to keep learning.",
+      "golden": "acknowledge",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "You're right, Grandma. It's amazing how much there is to learn every day.",
+      "golden": "agree",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "And a 'darty' is just a party during the day? That sounds like a lovely way to enjoy the weather.",
+      "golden": "explain",
+      "predicted": "plan",
+      "raw": "plan"
+    },
+    {
+      "text": "Exactly! Thanks for explaining that, Grandma. You've got it.",
+      "golden": "thank",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "I see! Well, as long as you're having fun and staying safe at those parties, that's what matters.",
+      "golden": "advise",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Thanks, Grandma! I'll make sure to have a good time and be careful.",
+      "golden": "agree",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "It's always interesting to learn these new things from you.",
+      "golden": "acknowledge",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "I'm glad you think so, Grandma! I love sharing things with you.",
+      "golden": "praise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I've learned so much about 'darties' and 'lit' today! It's fun to hear your slang.",
+      "golden": "acknowledge",
+      "predicted": "flaunt",
+      "raw": "flaunt"
+    },
+    {
+      "text": "Haha, yeah, those are the fun ones! I'm glad you're keeping up, Grandma.",
+      "golden": "praise",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "Yes, dear? Is there anything else you want to teach me?",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Thanks for always being so open to learning, Grandma. It makes our talks so much fun!",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Oh my, a quiz! I'll have to remember everything we talked about. Challenge accepted!",
+      "golden": "agree",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "Haha, alright! I'll come up with some good ones for you. Get ready, Grandma!",
+      "golden": "joke",
+      "predicted": "joke",
+      "raw": "joke"
+    },
+    {
+      "text": "It's nice to learn about your world. It helps us stay connected, even with all these changes.",
+      "golden": "acknowledge",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "No worries, Grandma! I can show you anything you find confusing. It'll be fun to learn together!",
+      "golden": "advise",
+      "predicted": "emphasize",
+      "raw": "emphasize"
+    },
+    {
+      "text": "I see it now! Thank you for showing me how that works, dear. I'll give it a try.",
+      "golden": "thank",
+      "predicted": "thank",
+      "raw": "thank"
+    },
+    {
+      "text": "You're welcome, Grandma! I'm glad I could help. Let me know if you need anything else.",
+      "golden": "care",
+      "predicted": "thank",
+      "raw": "thank"
+    }
+  ]
+}

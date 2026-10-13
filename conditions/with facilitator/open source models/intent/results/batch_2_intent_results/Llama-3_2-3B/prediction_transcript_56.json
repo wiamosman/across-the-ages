@@ -1,0 +1,127 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 56,
+  "utterances": [
+    {
+      "text": "Hello there! How was your day?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "Hi Grandpa! My day was pretty good, just busy with schoolwork.",
+      "golden": "inform",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Well, a little fresh air will do you good. Ready to learn how to cast that line?",
+      "golden": "invite",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Yeah, I'm ready! It's better than staring at my assignments and this Pop It Troll all day.",
+      "golden": "inform",
+      "predicted": "complain",
+      "raw": "complain"
+    },
+    {
+      "text": "A Pop It Troll? I'm not sure what that is, but it sounds interesting!",
+      "golden": "doubt",
+      "predicted": "inform",
+      "raw": "ask for information"
+    },
+    {
+      "text": "Oh, it's just a toy that's really popular right now. It's like a fidget toy that you can pop back and forth.",
+      "golden": "explain",
+      "predicted": "introduce",
+      "raw": "introduce"
+    },
+    {
+      "text": "Ah, I see! Well, put the toy aside for a moment. You need both hands to tighten the reel.",
+      "golden": "advise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Got it. I'll tighten it up now. Is this enough tension on the line?",
+      "golden": "confirm",
+      "predicted": "refuse",
+      "raw": "refuse"
+    },
+    {
+      "text": "I'm not sure what you mean by 'tighten it up'—do you mean the drag setting?",
+      "golden": "doubt",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Oh, I just meant making sure everything is in order. You know, make it 'slay'?",
+      "golden": "correct",
+      "predicted": "refuse",
+      "raw": "refuse"
+    },
+    {
+      "text": "Slay? I think I left the bait in the shed. Let me go check while you practice your stance.",
+      "golden": "inform",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Okay, Grandpa! I'll wait here. Look what I found in the tackle box while you were gone!",
+      "golden": "inform",
+      "predicted": "refuse",
+      "raw": "refuse"
+    },
+    {
+      "text": "That's great! What did you find?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I found some old photos tucked in the side pocket. They're really cool!",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Sure, let's see. But first, show me a cast. Let's see how far you can go.",
+      "golden": "advise",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Alright, watch this! I'm going to aim for that lily pad.",
+      "golden": "inform",
+      "predicted": "taunt",
+      "raw": "taunt"
+    },
+    {
+      "text": "Wow, that was impressive! You really threw it far for your first try.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Thanks! Now look at these photos. They're like a time capsule from when you were my age!",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Do you remember any stories from when these were taken?",
+      "golden": "asking for opinions",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "Ah, that's a good spot in the photo. That was my first big catch! You have the same look in your eyes today.",
+      "golden": "praise",
+      "predicted": "praise",
+      "raw": "praise"
+    }
+  ]
+}

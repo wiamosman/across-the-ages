@@ -1,0 +1,97 @@
+{
+  "model_used": "Llama-3.2-3B",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "file_index": 84,
+  "utterances": [
+    {
+      "text": "Hey Grandpa, how's your day going?",
+      "golden": "greet",
+      "predicted": "greet",
+      "raw": "greet"
+    },
+    {
+      "text": "That sounds interesting! I'm looking forward to seeing how it turned out.",
+      "golden": "acknowledge",
+      "predicted": "ask for help",
+      "raw": "ask for help"
+    },
+    {
+      "text": "I'm glad you're excited! I can't wait to show you.",
+      "golden": "inform",
+      "predicted": "unknown",
+      "raw": "excited"
+    },
+    {
+      "text": "Alright, let me move over here. I remember when we used to dig by hand, it was quite the task!",
+      "golden": "inform",
+      "predicted": "refuse",
+      "raw": "refuse"
+    },
+    {
+      "text": "Wow, that must have been tough! I'm glad we have machines to help now.",
+      "golden": "inform",
+      "predicted": "comfort",
+      "raw": "comfort"
+    },
+    {
+      "text": "Ah, I see what you mean. The smooth finish does look impressive in photos. It's amazing how techniques have evolved over time.",
+      "golden": "explain",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Yeah, it's really cool to see how things have changed. I think you'll love how efficient it is now.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Well, back in my day, we didn't have the advanced tools and techniques that are available now. Everything was done manually, which took a lot more time and effort.",
+      "golden": "explain",
+      "predicted": "criticize",
+      "raw": "criticize"
+    },
+    {
+      "text": "It's amazing how technology has made things so much easier. I can't imagine doing everything manually like you did.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yes, it's quite a lot of cement. It's impressive how much work goes into these projects nowadays.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it's really fascinating to see how much things have evolved. Do you think the changes are for the better?",
+      "golden": "asking for opinions",
+      "predicted": "unknown",
+      "raw": "ask for opinions"
+    },
+    {
+      "text": "It's great to see you so involved in these projects. You know, your enthusiasm reminds me of when I first started working on similar tasks.",
+      "golden": "praise",
+      "predicted": "acknowledge",
+      "raw": "acknowledge"
+    },
+    {
+      "text": "Thanks, Grandpa! I really appreciate that. It's nice to know you see my enthusiasm.",
+      "golden": "thank",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "It sounds like they're really maximizing the space. It's fascinating how efficient these processes have become.",
+      "golden": "inform",
+      "predicted": "praise",
+      "raw": "praise"
+    },
+    {
+      "text": "Yeah, it's amazing how technology has changed everything. Sometimes I wonder if it's too much, though.",
+      "golden": "inform",
+      "predicted": "complain",
+      "raw": "complain"
+    }
+  ]
+}

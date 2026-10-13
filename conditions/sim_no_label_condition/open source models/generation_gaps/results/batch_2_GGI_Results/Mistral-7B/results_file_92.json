@@ -1,0 +1,271 @@
+{
+    "model_used": "Mistral-7B",
+    "hf_id": "mistralai/Mistral-7B-Instruct-v0.2",
+    "file_index": 92,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandfather): Let's go straight up. It's okay. This particular session allows F-bombs. Slide right up. The car's not starting.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This context does not involve a conversational turn between two speakers, and the language used is"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandfather): Let's go straight up. It's okay. This particular session allows F-bombs. Slide right up. The car's not starting.",
+            "target": "Target (granddaughter): Fuck! Sorry. Excuse my language. Whoa! Hansie. Yes, it is. The car's on. Hansie, shift the gears. I don't know how to do it.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This conversation contains strong language, but there is no social friction or emotional resistance between the"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandfather): Let's go straight up. It's okay. This particular session allows F-bombs. Slide right up. The car's not starting. | Speaker B (granddaughter): Fuck! Sorry. Excuse my language. Whoa! Hansie. Yes, it is. The car's on. Hansie, shift the gears. I don't know how to do it.",
+            "target": "Target (grandfather): Don't say that.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (for the use of the F-bomb)\n\nHowever, it'"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (granddaughter): Fuck! Sorry. Excuse my language. Whoa! Hansie. Yes, it is. The car's on. Hansie, shift the gears. I don't know how to do it. | Speaker B (grandfather): Don't say that.",
+            "target": "Target (granddaughter): It's freaking me out. I'm trying to find the bite point so I can just send it, you know? Like, clutch up and go.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "digital disparity",
+            "raw": "digital disparity (assuming the context is about driving a manual transmission car and the granddaughter"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandfather): Don't say that. | Speaker B (granddaughter): It's freaking me out. I'm trying to find the bite point so I can just send it, you know? Like, clutch up and go.",
+            "target": "Target (grandfather): Send what? Where are you sending it? And what is 'clutching up'? Speak English, Hansie. You're trying to drive a car, not launch a rocket.",
+            "gold_label": "slang mismatch",
+            "predicted_label": "method divergence",
+            "raw": "method divergence and digital disparity. The grandfather is having trouble understanding the granddaughter's"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (granddaughter): It's freaking me out. I'm trying to find the bite point so I can just send it, you know? Like, clutch up and go. | Speaker B (grandfather): Send what? Where are you sending it? And what is 'clutching up'? Speak English, Hansie. You're trying to drive a car, not launch a rocket.",
+            "target": "Target (granddaughter): It’s just how people talk about manual now! I saw this reel where you just pop the clutch and floor it to get moving quickly. It's way more efficient.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch",
+            "raw": "slang mismatch (manual vs. manual transmission in cars)"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandfather): Send what? Where are you sending it? And what is 'clutching up'? Speak English, Hansie. You're trying to drive a car, not launch a rocket. | Speaker B (granddaughter): It’s just how people talk about manual now! I saw this reel where you just pop the clutch and floor it to get moving quickly. It's way more efficient.",
+            "target": "Target (grandfather): No, that is the wrong way to do it. You don't 'pop' anything in my car. We are arguing over the procedure instead of driving. I’m telling you: slow release. Your 'modern' way is going to leave my transmission on the pavement.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (granddaughter): It’s just how people talk about manual now! I saw this reel where you just pop the clutch and floor it to get moving quickly. It's way more efficient. | Speaker B (grandfather): No, that is the wrong way to do it. You don't 'pop' anything in my car. We are arguing over the procedure instead of driving. I’m telling you: slow release. Your 'modern' way is going to leave my transmission on the pavement.",
+            "target": "Target (granddaughter): Give me a break, it's just a different method! Everyone does it like that now.",
+            "gold_label": "method divergence",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandfather): No, that is the wrong way to do it. You don't 'pop' anything in my car. We are arguing over the procedure instead of driving. I’m telling you: slow release. Your 'modern' way is going to leave my transmission on the pavement. | Speaker B (granddaughter): Give me a break, it's just a different method! Everyone does it like that now.",
+            "target": "Target (grandfather): Give yourself some gas, Hansie. You're not. I don't hear it revved up at all. Yes, I am. You're flooring it. You're in a world of— Release the left foot clutch.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (granddaughter): Give me a break, it's just a different method! Everyone does it like that now. | Speaker B (grandfather): Give yourself some gas, Hansie. You're not. I don't hear it revved up at all. Yes, I am. You're flooring it. You're in a world of— Release the left foot clutch.",
+            "target": "Target (granddaughter): I am. I'm flooring it. Oh.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): Give yourself some gas, Hansie. You're not. I don't hear it revved up at all. Yes, I am. You're flooring it. You're in a world of— Release the left foot clutch. | Speaker B (granddaughter): I am. I'm flooring it. Oh.",
+            "target": "Target (grandfather): Yeah. Well, don't say things like that. Just say okay. Okay. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows a playful interaction between the grandfather and granddaughter, with no social"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (granddaughter): I am. I'm flooring it. Oh. | Speaker B (grandfather): Yeah. Well, don't say things like that. Just say okay. Okay. Yeah.",
+            "target": "Target (granddaughter): Okay, that would have been nice to know. Foot is all the way down.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this conversation, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): Yeah. Well, don't say things like that. Just say okay. Okay. Yeah. | Speaker B (granddaughter): Okay, that would have been nice to know. Foot is all the way down.",
+            "target": "Target (grandfather): You— if it was all the way down, you know what you would hear? You'd hear a— whoa! That's okay, that gives you an idea. First gear, straight up. No, not reverse. It doesn't go straight up. Oh, okay.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (granddaughter): Okay, that would have been nice to know. Foot is all the way down. | Speaker B (grandfather): You— if it was all the way down, you know what you would hear? You'd hear a— whoa! That's okay, that gives you an idea. First gear, straight up. No, not reverse. It doesn't go straight up. Oh, okay.",
+            "target": "Target (granddaughter): It does go straight up. Fuck! That was good. That was good. Oh, oh. Fuck!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows cooperative learning and a shared sense of humor, indicating no social friction"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandfather): You— if it was all the way down, you know what you would hear? You'd hear a— whoa! That's okay, that gives you an idea. First gear, straight up. No, not reverse. It doesn't go straight up. Oh, okay. | Speaker B (granddaughter): It does go straight up. Fuck! That was good. That was good. Oh, oh. Fuck!",
+            "target": "Target (grandfather): Good. That's not so good. You are in gear.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (granddaughter): It does go straight up. Fuck! That was good. That was good. Oh, oh. Fuck! | Speaker B (grandfather): Good. That's not so good. You are in gear.",
+            "target": "Target (granddaughter): Whoa. This is a nice view, but we could probably seek out something a little nicer. This is so hard.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (assuming they are discussing driving or a game)"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandfather): Good. That's not so good. You are in gear. | Speaker B (granddaughter): Whoa. This is a nice view, but we could probably seek out something a little nicer. This is so hard.",
+            "target": "Target (grandfather): No, it's not so hard.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (granddaughter): Whoa. This is a nice view, but we could probably seek out something a little nicer. This is so hard. | Speaker B (grandfather): No, it's not so hard.",
+            "target": "Target (granddaughter): Yes, it is.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect\n\nExplanation: In this context, the grandfather's statement \"It"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandfather): No, it's not so hard. | Speaker B (granddaughter): Yes, it is.",
+            "target": "Target (grandfather): Now, Hans, now you're in neutral. Okay, ready? Yeah. Okay, now we're cooking. Foot on the accelerator. Put on the— I hate it! No, look at— Is that the way you address certain challenging aspects of your life?",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (assuming the granddaughter felt disrespected by the grandfather's tone"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (granddaughter): Yes, it is. | Speaker B (grandfather): Now, Hans, now you're in neutral. Okay, ready? Yeah. Okay, now we're cooking. Foot on the accelerator. Put on the— I hate it! No, look at— Is that the way you address certain challenging aspects of your life?",
+            "target": "Target (granddaughter): No!",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandfather): Now, Hans, now you're in neutral. Okay, ready? Yeah. Okay, now we're cooking. Foot on the accelerator. Put on the— I hate it! No, look at— Is that the way you address certain challenging aspects of your life? | Speaker B (granddaughter): No!",
+            "target": "Target (grandfather): After 10 minutes you said, you know, I hate it.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect",
+            "raw": "perceived disrespect (assuming the granddaughter's response was defensive or dismissive)"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (granddaughter): No! | Speaker B (grandfather): After 10 minutes you said, you know, I hate it.",
+            "target": "Target (granddaughter): I'm scared I'm gonna mess up your car.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, the granddaughter's statement \"I"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandfather): After 10 minutes you said, you know, I hate it. | Speaker B (granddaughter): I'm scared I'm gonna mess up your car.",
+            "target": "Target (grandfather): No, you're not. Hunty, there's no problem on the first gear.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: In this context, there is no social friction or emotional resistance"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (granddaughter): I'm scared I'm gonna mess up your car. | Speaker B (grandfather): No, you're not. Hunty, there's no problem on the first gear.",
+            "target": "Target (granddaughter): But do I accelerate right now? And then accelerate right away?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandfather): No, you're not. Hunty, there's no problem on the first gear. | Speaker B (granddaughter): But do I accelerate right now? And then accelerate right away?",
+            "target": "Target (grandfather): No. Just go into first gear. Just go into first gear very slow. Put up the convertible.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (granddaughter): But do I accelerate right now? And then accelerate right away? | Speaker B (grandfather): No. Just go into first gear. Just go into first gear very slow. Put up the convertible.",
+            "target": "Target (granddaughter): the view is soo good!",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandfather): No. Just go into first gear. Just go into first gear very slow. Put up the convertible. | Speaker B (granddaughter): the view is soo good!",
+            "target": "Target (grandfather): You know what, we're not enjoying the niceties of this car until— We're comfortable.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: The conversation is playful and informational, with no signs of"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (granddaughter): the view is soo good! | Speaker B (grandfather): You know what, we're not enjoying the niceties of this car until— We're comfortable.",
+            "target": "Target (granddaughter): I'm so hot. I'm baking in the sun.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: The conversation is lighthearted and informal, with no signs"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandfather): You know what, we're not enjoying the niceties of this car until— We're comfortable. | Speaker B (granddaughter): I'm so hot. I'm baking in the sun.",
+            "target": "Target (grandfather): Well then, you know what, start the car. Gives you an idea.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nExplanation: The conversation is playful and informational, with no signs of"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (granddaughter): I'm so hot. I'm baking in the sun. | Speaker B (grandfather): Well then, you know what, start the car. Gives you an idea.",
+            "target": "Target (granddaughter): Okay. It's so bumpy. Why is it so bumpy?",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence (assuming \"start the car\" refers to leaving the area to find a cool"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandfather): Well then, you know what, start the car. Gives you an idea. | Speaker B (granddaughter): Okay. It's so bumpy. Why is it so bumpy?",
+            "target": "Target (grandfather): Right now. You're not getting another treat besides side door —side window. Put on the clutch. Don't forget. Sure don't forget. No air phones allowed. You need to give it enough gas.",
+            "gold_label": "none",
+            "predicted_label": "method divergence",
+            "raw": "method divergence"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (granddaughter): Okay. It's so bumpy. Why is it so bumpy? | Speaker B (grandfather): Right now. You're not getting another treat besides side door —side window. Put on the clutch. Don't forget. Sure don't forget. No air phones allowed. You need to give it enough gas.",
+            "target": "Target (granddaughter): Okay! Okay, okay. Oh my God! I know. Yeah.",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none\n\nThis exchange shows a cooperative flow as the grandfather is giving instructions to his grandd"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandfather): Right now. You're not getting another treat besides side door —side window. Put on the clutch. Don't forget. Sure don't forget. No air phones allowed. You need to give it enough gas. | Speaker B (granddaughter): Okay! Okay, okay. Oh my God! I know. Yeah.",
+            "target": "Target (grandfather): So you just turned it off now. So are you doing some introspection?",
+            "gold_label": "none",
+            "predicted_label": "none",
+            "raw": "none (This exchange shows a cooperative flow as both speakers are communicating effectively, even though they"
+        }
+    ]
+}

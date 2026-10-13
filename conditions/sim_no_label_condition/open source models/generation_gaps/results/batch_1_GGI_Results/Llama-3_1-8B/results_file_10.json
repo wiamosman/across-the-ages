@@ -1,0 +1,839 @@
+{
+    "model_used": "Llama-3.1-8B",
+    "file_index": 10,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): look at that. what are you doing nono?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): look at that. what are you doing nono?",
+            "target": "Target (grandfather): i got to smash this. that's cottage cheese. but before i do, i have to taste it, see if it's fresh or not. oooh",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): look at that. what are you doing nono? | Speaker B (grandfather): i got to smash this. that's cottage cheese. but before i do, i have to taste it, see if it's fresh or not. oooh",
+            "target": "Target (grandson): is it good?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): i got to smash this. that's cottage cheese. but before i do, i have to taste it, see if it's fresh or not. oooh | Speaker B (grandson): is it good?",
+            "target": "Target (grandfather): what is it?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): is it good? | Speaker B (grandfather): what is it?",
+            "target": "Target (parent): it's ricotta.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): what is it? | Speaker B (parent): it's ricotta.",
+            "target": "Target (grandfather): well, ricotta, it's not the cheese.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (parent): it's ricotta. | Speaker B (grandfather): well, ricotta, it's not the cheese.",
+            "target": "Target (grandson): it's very similar.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): well, ricotta, it's not the cheese. | Speaker B (grandson): it's very similar.",
+            "target": "Target (parent): no. it is not",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): it's very similar. | Speaker B (parent): no. it is not",
+            "target": "Target (grandfather): well, i learned something new.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (parent): no. it is not | Speaker B (grandfather): well, i learned something new.",
+            "target": "Target (parent): mash it with this. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandfather): well, i learned something new. | Speaker B (parent): mash it with this. okay.",
+            "target": "Target (grandfather): okay. here. ricotta, cottage cheese.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (parent): mash it with this. okay. | Speaker B (grandfather): okay. here. ricotta, cottage cheese.",
+            "target": "Target (parent): no, it's different.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandfather): okay. here. ricotta, cottage cheese. | Speaker B (parent): no, it's different.",
+            "target": "Target (grandmother): i didn't know that. i learned everything. every, every day i learned something new.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (parent): no, it's different. | Speaker B (grandmother): i didn't know that. i learned everything. every, every day i learned something new.",
+            "target": "Target (grandson): hey, nona, what are you making today?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandmother): i didn't know that. i learned everything. every, every day i learned something new. | Speaker B (grandson): hey, nona, what are you making today?",
+            "target": "Target (grandmother): grape with ricotta.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandson): hey, nona, what are you making today? | Speaker B (grandmother): grape with ricotta.",
+            "target": "Target (grandson): oh, sounds good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandmother): grape with ricotta. | Speaker B (grandson): oh, sounds good.",
+            "target": "Target (grandmother): we're going to show you what we're going to put. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandson): oh, sounds good. | Speaker B (grandmother): we're going to show you what we're going to put. okay.",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandmother): we're going to show you what we're going to put. okay. | Speaker B (grandson): yeah.",
+            "target": "Target (grandmother): four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandmother): four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. okay.",
+            "target": "Target (grandson): here's the ricotta.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandmother): four eggs, two tablespoon of butter, parsley, two and a half cup of milk, two cups flours. okay. | Speaker B (grandson): here's the ricotta.",
+            "target": "Target (grandmother): that's ricotta.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandson): here's the ricotta. | Speaker B (grandmother): that's ricotta.",
+            "target": "Target (grandson): so what's that, petrosina? yep, she calls it petrosina.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandmother): that's ricotta. | Speaker B (grandson): so what's that, petrosina? yep, she calls it petrosina.",
+            "target": "Target (grandmother): petrosidola. i cannot pronounce it better than that. oh, my god. pretty soon i cannot speak english or italian.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandson): so what's that, petrosina? yep, she calls it petrosina. | Speaker B (grandmother): petrosidola. i cannot pronounce it better than that. oh, my god. pretty soon i cannot speak english or italian.",
+            "target": "Target (grandson): max, what are you doing? this is max's comfortable stance when you pick him up. max, what are you doing?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandmother): petrosidola. i cannot pronounce it better than that. oh, my god. pretty soon i cannot speak english or italian. | Speaker B (grandson): max, what are you doing? this is max's comfortable stance when you pick him up. max, what are you doing?",
+            "target": "Target (grandmother): i'm just gonna put a bit salt.okay",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandson): max, what are you doing? this is max's comfortable stance when you pick him up. max, what are you doing? | Speaker B (grandmother): i'm just gonna put a bit salt.okay",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandmother): i'm just gonna put a bit salt.okay | Speaker B (grandson): okay.",
+            "target": "Target (grandmother): and a bit black peppers and...",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandmother): and a bit black peppers and...",
+            "target": "Target (grandson): parsley.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandmother): and a bit black peppers and... | Speaker B (grandson): parsley.",
+            "target": "Target (grandmother): yeah. okay, now i'm gonna put two eggs inside some parmesan cheese and i'm gonna put mozzarella.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandson): parsley. | Speaker B (grandmother): yeah. okay, now i'm gonna put two eggs inside some parmesan cheese and i'm gonna put mozzarella.",
+            "target": "Target (grandson): two different kinds of cheeses?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandmother): yeah. okay, now i'm gonna put two eggs inside some parmesan cheese and i'm gonna put mozzarella. | Speaker B (grandson): two different kinds of cheeses?",
+            "target": "Target (grandmother): yeah, mozzarella and parmesan cheese. and i'm gonna mix it. i love the romano cheese ricotto. just make it soft.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandson): two different kinds of cheeses? | Speaker B (grandmother): yeah, mozzarella and parmesan cheese. and i'm gonna mix it. i love the romano cheese ricotto. just make it soft.",
+            "target": "Target (grandson): how smooth do you want it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandmother): yeah, mozzarella and parmesan cheese. and i'm gonna mix it. i love the romano cheese ricotto. just make it soft. | Speaker B (grandson): how smooth do you want it?",
+            "target": "Target (grandmother): well, it looks pretty good to me. it can be a little bit hard because i put mozzarella on it. i'm making it better now.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandson): how smooth do you want it? | Speaker B (grandmother): well, it looks pretty good to me. it can be a little bit hard because i put mozzarella on it. i'm making it better now.",
+            "target": "Target (grandson): okay, okay, i....",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandmother): well, it looks pretty good to me. it can be a little bit hard because i put mozzarella on it. i'm making it better now. | Speaker B (grandson): okay, okay, i....",
+            "target": "Target (grandmother): okay. i got two cup of flour. i call them flowers.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandson): okay, okay, i.... | Speaker B (grandmother): okay. i got two cup of flour. i call them flowers.",
+            "target": "Target (grandson): two cups of flours?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandmother): okay. i got two cup of flour. i call them flowers. | Speaker B (grandson): two cups of flours?",
+            "target": "Target (grandmother): yeah. i got four eggs, two spoon of butter burro.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandson): two cups of flours? | Speaker B (grandmother): yeah. i got four eggs, two spoon of butter burro.",
+            "target": "Target (grandson): three tablespoons of butter.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandmother): yeah. i got four eggs, two spoon of butter burro. | Speaker B (grandson): three tablespoons of butter.",
+            "target": "Target (grandson): two tablespoons. this is not a true tablespoon.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandson): three tablespoons of butter. | Speaker B (grandson): two tablespoons. this is not a true tablespoon.",
+            "target": "Target (grandson): how much milk, nona?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandson): two tablespoons. this is not a true tablespoon. | Speaker B (grandson): how much milk, nona?",
+            "target": "Target (grandson): it was two and a half cups of milk.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandson): how much milk, nona? | Speaker B (grandson): it was two and a half cups of milk.",
+            "target": "Target (grandmother): oh, my god. alot",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandson): it was two and a half cups of milk. | Speaker B (grandmother): oh, my god. alot",
+            "target": "Target (grandson): pinch of salt.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandmother): oh, my god. alot | Speaker B (grandson): pinch of salt.",
+            "target": "Target (grandmother): i said i made them nice and smooth.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandson): pinch of salt. | Speaker B (grandmother): i said i made them nice and smooth.",
+            "target": "Target (grandson): how is the spicy nona coming out?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandmother): i said i made them nice and smooth. | Speaker B (grandson): how is the spicy nona coming out?",
+            "target": "Target (grandmother): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): how is the spicy nona coming out? | Speaker B (grandmother): okay.",
+            "target": "Target (grandson): do you have butter or olive oil in the pan?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandmother): okay. | Speaker B (grandson): do you have butter or olive oil in the pan?",
+            "target": "Target (grandmother): butter. and i just use my hands to flip it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandson): do you have butter or olive oil in the pan? | Speaker B (grandmother): butter. and i just use my hands to flip it.",
+            "target": "Target (grandson): look at that. oh, wow. max, say hi to everybody.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandmother): butter. and i just use my hands to flip it. | Speaker B (grandson): look at that. oh, wow. max, say hi to everybody.",
+            "target": "Target (grandmother): my beautiful little puppy. yes, you are. yes, you are. okay. you only want food for me?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandson): look at that. oh, wow. max, say hi to everybody. | Speaker B (grandmother): my beautiful little puppy. yes, you are. yes, you are. okay. you only want food for me?",
+            "target": "Target (grandson): yep. he loves his food. so these are like lunch dinner crepes. yeah. next time we can make dessert crepes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandmother): my beautiful little puppy. yes, you are. yes, you are. okay. you only want food for me? | Speaker B (grandson): yep. he loves his food. so these are like lunch dinner crepes. yeah. next time we can make dessert crepes.",
+            "target": "Target (grandmother): yeah, yeah. that's right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandson): yep. he loves his food. so these are like lunch dinner crepes. yeah. next time we can make dessert crepes. | Speaker B (grandmother): yeah, yeah. that's right.",
+            "target": "Target (parent): with a cream cheese and strawberry mixture.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandmother): yeah, yeah. that's right. | Speaker B (parent): with a cream cheese and strawberry mixture.",
+            "target": "Target (grandmother): i'm gonna put sauce in the pan. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (parent): with a cream cheese and strawberry mixture. | Speaker B (grandmother): i'm gonna put sauce in the pan. okay.",
+            "target": "Target (grandson): that's your meat sauce.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandmother): i'm gonna put sauce in the pan. okay. | Speaker B (grandson): that's your meat sauce.",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandson): that's your meat sauce. | Speaker B (grandmother): yeah.",
+            "target": "Target (grandson): so two of these?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandson): so two of these?",
+            "target": "Target (grandmother): yep.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandson): so two of these? | Speaker B (grandmother): yep.",
+            "target": "Target (grandson): more than two.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandmother): yep. | Speaker B (grandson): more than two.",
+            "target": "Target (grandmother): no no no no no no that's way, way too much.",
+            "gold_label": "method divergence",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandson): more than two. | Speaker B (grandmother): no no no no no no that's way, way too much.",
+            "target": "Target (grandson): no, it's not.",
+            "gold_label": "method divergence",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandmother): no no no no no no that's way, way too much. | Speaker B (grandson): no, it's not.",
+            "target": "Target (grandmother): oh, my god.",
+            "gold_label": "method divergence",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): no, it's not. | Speaker B (grandmother): oh, my god.",
+            "target": "Target (grandson): forget about it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandmother): oh, my god. | Speaker B (grandson): forget about it.",
+            "target": "Target (grandmother): hhhhh forget about it? okay, then squeeze it. squeeze on your end.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): forget about it. | Speaker B (grandmother): hhhhh forget about it? okay, then squeeze it. squeeze on your end.",
+            "target": "Target (grandson): i am squeezing it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandmother): hhhhh forget about it? okay, then squeeze it. squeeze on your end. | Speaker B (grandson): i am squeezing it.",
+            "target": "Target (grandmother): okay. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): i am squeezing it. | Speaker B (grandmother): okay. okay.",
+            "target": "Target (grandson): is that too fat?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandmother): okay. okay. | Speaker B (grandson): is that too fat?",
+            "target": "Target (grandson): no. is it going to fit the end there?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): is that too fat? | Speaker B (grandson): no. is it going to fit the end there?",
+            "target": "Target (grandson): oh, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandson): no. is it going to fit the end there? | Speaker B (grandson): oh, yeah.",
+            "target": "Target (grandmother): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): oh, yeah. | Speaker B (grandmother): okay.",
+            "target": "Target (grandson): look at that. beautiful.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandmother): okay. | Speaker B (grandson): look at that. beautiful.",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): look at that. beautiful. | Speaker B (grandmother): yeah.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandson): okay.",
+            "target": "Target (grandson): how much sauce, nona?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandson): how much sauce, nona?",
+            "target": "Target (grandmother): enough. go between the first. okay. okay. then you gotta put more here on the side here. perfect. okay. i'm gonna put some mozzarella. okay. put some mozzarella. and i'm going to put some parmesan cheese.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandson): how much sauce, nona? | Speaker B (grandmother): enough. go between the first. okay. okay. then you gotta put more here on the side here. perfect. okay. i'm gonna put some mozzarella. okay. put some mozzarella. and i'm going to put some parmesan cheese.",
+            "target": "Target (grandson): look at that. just want to interrupt this program to show nona's cookbook. you can purchase these at my sister girl with the dog's website@girlwiththedogs.com they almost sold out. we only have a couple left, but we got more coming in, so go check it out. we have all nona's recipes in here that you can follow along. you've been getting asked about this a lot, so we finally got one out. go check it out. back to the recipe.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandmother): enough. go between the first. okay. okay. then you gotta put more here on the side here. perfect. okay. i'm gonna put some mozzarella. okay. put some mozzarella. and i'm going to put some parmesan cheese. | Speaker B (grandson): look at that. just want to interrupt this program to show nona's cookbook. you can purchase these at my sister girl with the dog's website@girlwiththedogs.com they almost sold out. we only have a couple left, but we got more coming in, so go check it out. we have all nona's recipes in here that you can follow along. you've been getting asked about this a lot, so we finally got one out. go check it out. back to the recipe.",
+            "target": "Target (grandmother): okay. you know what? that's not. that's not right.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandson): look at that. just want to interrupt this program to show nona's cookbook. you can purchase these at my sister girl with the dog's website@girlwiththedogs.com they almost sold out. we only have a couple left, but we got more coming in, so go check it out. we have all nona's recipes in here that you can follow along. you've been getting asked about this a lot, so we finally got one out. go check it out. back to the recipe. | Speaker B (grandmother): okay. you know what? that's not. that's not right.",
+            "target": "Target (grandson): why?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandmother): okay. you know what? that's not. that's not right. | Speaker B (grandson): why?",
+            "target": "Target (grandmother): because it was too much.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandson): why? | Speaker B (grandmother): because it was too much.",
+            "target": "Target (grandson): forget about it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandmother): because it was too much. | Speaker B (grandson): forget about it.",
+            "target": "Target (grandmother): i'm going to cook some shell. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandson): forget about it. | Speaker B (grandmother): i'm going to cook some shell. okay.",
+            "target": "Target (grandson): so you ran out of crepes?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandmother): i'm going to cook some shell. okay. | Speaker B (grandson): so you ran out of crepes?",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandson): so you ran out of crepes? | Speaker B (grandmother): yeah.",
+            "target": "Target (grandson): so now you're gonna...",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandson): so now you're gonna...",
+            "target": "Target (grandmother): i'm gonna. yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandson): so now you're gonna... | Speaker B (grandmother): i'm gonna. yeah.",
+            "target": "Target (grandson): cook some shells and put the ricotta on that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandmother): i'm gonna. yeah. | Speaker B (grandson): cook some shells and put the ricotta on that.",
+            "target": "Target (grandmother): i. i love these. then i'm gonna put some of these. okay. i'm going to just let it boil. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandson): cook some shells and put the ricotta on that. | Speaker B (grandmother): i. i love these. then i'm gonna put some of these. okay. i'm going to just let it boil. okay.",
+            "target": "Target (grandson): wow, they're good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandmother): i. i love these. then i'm gonna put some of these. okay. i'm going to just let it boil. okay. | Speaker B (grandson): wow, they're good.",
+            "target": "Target (grandmother): this is gravy too, isn't it? no, no, i take it out. this is masterpiece. this is good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandson): wow, they're good. | Speaker B (grandmother): this is gravy too, isn't it? no, no, i take it out. this is masterpiece. this is good.",
+            "target": "Target (grandson): masterpiece.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandmother): this is gravy too, isn't it? no, no, i take it out. this is masterpiece. this is good. | Speaker B (grandson): masterpiece.",
+            "target": "Target (grandmother): it's good stuff. i had a leftover ricotta. i'm put them in the shelf. okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandson): masterpiece. | Speaker B (grandmother): it's good stuff. i had a leftover ricotta. i'm put them in the shelf. okay.",
+            "target": "Target (grandson): and you're going to freeze it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandmother): it's good stuff. i had a leftover ricotta. i'm put them in the shelf. okay. | Speaker B (grandson): and you're going to freeze it?",
+            "target": "Target (grandmother): yep, i can freeze. i can cook it for tomorrow. keep one in the fridge. it's okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandson): and you're going to freeze it? | Speaker B (grandmother): yep, i can freeze. i can cook it for tomorrow. keep one in the fridge. it's okay.",
+            "target": "Target (grandson): you're saving this for later?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandmother): yep, i can freeze. i can cook it for tomorrow. keep one in the fridge. it's okay. | Speaker B (grandson): you're saving this for later?",
+            "target": "Target (grandmother): yeah. mix your ricotta and do the shell. it's just as good if you don't...",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandson): you're saving this for later? | Speaker B (grandmother): yeah. mix your ricotta and do the shell. it's just as good if you don't...",
+            "target": "Target (grandson): want to do the crepes.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandmother): yeah. mix your ricotta and do the shell. it's just as good if you don't... | Speaker B (grandson): want to do the crepes.",
+            "target": "Target (grandmother): yeah. or do crepe like, you know, especially if you don't have a thigh.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 97,
+            "context": "Speaker A (grandson): want to do the crepes. | Speaker B (grandmother): yeah. or do crepe like, you know, especially if you don't have a thigh.",
+            "target": "Target (grandson): look at that. that's absolutely insane. 15 out of 10. holy geez. this is absolutely amazing. this is like manicotti without. but it was crepes instead of pasta, right?",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 98,
+            "context": "Speaker A (grandmother): yeah. or do crepe like, you know, especially if you don't have a thigh. | Speaker B (grandson): look at that. that's absolutely insane. 15 out of 10. holy geez. this is absolutely amazing. this is like manicotti without. but it was crepes instead of pasta, right?",
+            "target": "Target (grandmother): it's the same thing. they're much lighter than manicotti.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 99,
+            "context": "Speaker A (grandson): look at that. that's absolutely insane. 15 out of 10. holy geez. this is absolutely amazing. this is like manicotti without. but it was crepes instead of pasta, right? | Speaker B (grandmother): it's the same thing. they're much lighter than manicotti.",
+            "target": "Target (grandson): you know that it's lighter?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 100,
+            "context": "Speaker A (grandmother): it's the same thing. they're much lighter than manicotti. | Speaker B (grandson): you know that it's lighter?",
+            "target": "Target (grandmother): yeah, yeah. they're lighter. they melt in your mouth.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 101,
+            "context": "Speaker A (grandson): you know that it's lighter? | Speaker B (grandmother): yeah, yeah. they're lighter. they melt in your mouth.",
+            "target": "Target (grandson): you like it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 102,
+            "context": "Speaker A (grandmother): yeah, yeah. they're lighter. they melt in your mouth. | Speaker B (grandson): you like it?",
+            "target": "Target (grandmother): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 103,
+            "context": "Speaker A (grandson): you like it? | Speaker B (grandmother): yeah.",
+            "target": "Target (grandfather): it's really, really good. yeah, it's really nice.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 104,
+            "context": "Speaker A (grandmother): yeah. | Speaker B (grandfather): it's really, really good. yeah, it's really nice.",
+            "target": "Target (grandmother): it's nice.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 105,
+            "context": "Speaker A (grandfather): it's really, really good. yeah, it's really nice. | Speaker B (grandmother): it's nice.",
+            "target": "Target (grandfather): it's nice. and i cannot describe how good it is. stories from non. you ask me when the first time i played music in canada. it was 1957. i came over here in canada in 1956. but in 1957 i had a couple friends. we went dancing every saturday night and i made friends with the band playing music. those days we had live music, we never had records. so i made friends with them and i said, in case you need an accordion player, i am available. and the piano player, she was the leader, an old irish woman. she said, okay, we'll keep in mind. so one night i went there, the trumpet player was not there. so i asked, where is the trumpet player? i forgot his name now. she said, he's sick. i said, well, do you want me to go and get the accordion to replace him? she said, yeah, yeah, go, go. so i went get accordion. and because i can read music, i played with them all night through. since then i played with them every job they had. that was my first job.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 106,
+            "context": "Speaker A (grandmother): it's nice. | Speaker B (grandfather): it's nice. and i cannot describe how good it is. stories from non. you ask me when the first time i played music in canada. it was 1957. i came over here in canada in 1956. but in 1957 i had a couple friends. we went dancing every saturday night and i made friends with the band playing music. those days we had live music, we never had records. so i made friends with them and i said, in case you need an accordion player, i am available. and the piano player, she was the leader, an old irish woman. she said, okay, we'll keep in mind. so one night i went there, the trumpet player was not there. so i asked, where is the trumpet player? i forgot his name now. she said, he's sick. i said, well, do you want me to go and get the accordion to replace him? she said, yeah, yeah, go, go. so i went get accordion. and because i can read music, i played with them all night through. since then i played with them every job they had. that was my first job.",
+            "target": "Target (grandson): your first. your first gig?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 107,
+            "context": "Speaker A (grandfather): it's nice. and i cannot describe how good it is. stories from non. you ask me when the first time i played music in canada. it was 1957. i came over here in canada in 1956. but in 1957 i had a couple friends. we went dancing every saturday night and i made friends with the band playing music. those days we had live music, we never had records. so i made friends with them and i said, in case you need an accordion player, i am available. and the piano player, she was the leader, an old irish woman. she said, okay, we'll keep in mind. so one night i went there, the trumpet player was not there. so i asked, where is the trumpet player? i forgot his name now. she said, he's sick. i said, well, do you want me to go and get the accordion to replace him? she said, yeah, yeah, go, go. so i went get accordion. and because i can read music, i played with them all night through. since then i played with them every job they had. that was my first job. | Speaker B (grandson): your first. your first gig?",
+            "target": "Target (grandfather): my first gig. and i played with them until i made my own band. then i quit them.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 108,
+            "context": "Speaker A (grandson): your first. your first gig? | Speaker B (grandfather): my first gig. and i played with them until i made my own band. then i quit them.",
+            "target": "Target (grandson): i never knew that. that's awesome.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 109,
+            "context": "Speaker A (grandfather): my first gig. and i played with them until i made my own band. then i quit them. | Speaker B (grandson): i never knew that. that's awesome.",
+            "target": "Target (grandfather): oh, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 110,
+            "context": "Speaker A (grandson): i never knew that. that's awesome. | Speaker B (grandfather): oh, yeah.",
+            "target": "Target (grandson): bye.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 111,
+            "context": "Speaker A (grandfather): oh, yeah. | Speaker B (grandson): bye.",
+            "target": "Target (grandmother): bye. bye.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 112,
+            "context": "Speaker A (grandson): bye. | Speaker B (grandmother): bye. bye.",
+            "target": "Target (grandson): thanks for watching. we'll see you next time.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 113,
+            "context": "Speaker A (grandmother): bye. bye. | Speaker B (grandson): thanks for watching. we'll see you next time.",
+            "target": "Target (grandfather): next time. don't forget to subscribe.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 114,
+            "context": "Speaker A (grandson): thanks for watching. we'll see you next time. | Speaker B (grandfather): next time. don't forget to subscribe.",
+            "target": "Target (grandmother): don't forget to click the like button.",
+            "gold_label": "none",
+            "predicted_label": "digital disparity"
+        },
+        {
+            "turn_index": 115,
+            "context": "Speaker A (grandfather): next time. don't forget to subscribe. | Speaker B (grandmother): don't forget to click the like button.",
+            "target": "Target (grandson): yeah. and check out our cookbook@girlwiththedogs.com.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 116,
+            "context": "Speaker A (grandmother): don't forget to click the like button. | Speaker B (grandson): yeah. and check out our cookbook@girlwiththedogs.com.",
+            "target": "Target (grandmother): thank you.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 117,
+            "context": "Speaker A (grandson): yeah. and check out our cookbook@girlwiththedogs.com. | Speaker B (grandmother): thank you.",
+            "target": "Target (grandson): thank you. ciao. bye.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 118,
+            "context": "Speaker A (grandmother): thank you. | Speaker B (grandson): thank you. ciao. bye.",
+            "target": "Target (grandmother): bye.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}

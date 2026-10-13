@@ -1,0 +1,1168 @@
+{
+    "model_used": "Mistral-7B",
+    "file_index": 26,
+    "utterances": [
+        {
+            "turn_index": 0,
+            "context": "None (Beginning of conversation)",
+            "target": "Target (grandson): hello, everybody. welcome back to our channel. today i'm with nono and we're at my mom's house. my mom purchased a new house recently, and my grandfather. actually. you found a crack in the foundation. right. so today we're gonna fix the crack and we're gonna show you how my nono does it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 1,
+            "context": "Speaker A (grandson): hello, everybody. welcome back to our channel. today i'm with nono and we're at my mom's house. my mom purchased a new house recently, and my grandfather. actually. you found a crack in the foundation. right. so today we're gonna fix the crack and we're gonna show you how my nono does it.",
+            "target": "Target (grandfather): the crack. see this here?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 2,
+            "context": "Speaker A (grandson): hello, everybody. welcome back to our channel. today i'm with nono and we're at my mom's house. my mom purchased a new house recently, and my grandfather. actually. you found a crack in the foundation. right. so today we're gonna fix the crack and we're gonna show you how my nono does it. | Speaker B (grandfather): the crack. see this here?",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 3,
+            "context": "Speaker A (grandfather): the crack. see this here? | Speaker B (grandson): yeah.",
+            "target": "Target (grandfather): i want you to cut where the crack is. can i sand it where the crack is?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 4,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandfather): i want you to cut where the crack is. can i sand it where the crack is?",
+            "target": "Target (grandson): that's what i'm doing.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 5,
+            "context": "Speaker A (grandfather): i want you to cut where the crack is. can i sand it where the crack is? | Speaker B (grandson): that's what i'm doing.",
+            "target": "Target (grandfather): y. take this here and just give a small little tap.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 6,
+            "context": "Speaker A (grandson): that's what i'm doing. | Speaker B (grandfather): y. take this here and just give a small little tap.",
+            "target": "Target (grandson): the whole way.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 7,
+            "context": "Speaker A (grandfather): y. take this here and just give a small little tap. | Speaker B (grandson): the whole way.",
+            "target": "Target (grandfather): no, no, just a little bit.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 8,
+            "context": "Speaker A (grandson): the whole way. | Speaker B (grandfather): no, no, just a little bit.",
+            "target": "Target (grandson): yeah, but the whole way down.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 9,
+            "context": "Speaker A (grandfather): no, no, just a little bit. | Speaker B (grandson): yeah, but the whole way down.",
+            "target": "Target (grandfather): yeah, all the way down where the crack is.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 10,
+            "context": "Speaker A (grandson): yeah, but the whole way down. | Speaker B (grandfather): yeah, all the way down where the crack is.",
+            "target": "Target (grandson): it's chipping more off is what you want.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 11,
+            "context": "Speaker A (grandfather): yeah, all the way down where the crack is. | Speaker B (grandson): it's chipping more off is what you want.",
+            "target": "Target (grandfather): yeah, that's what i want.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 12,
+            "context": "Speaker A (grandson): it's chipping more off is what you want. | Speaker B (grandfather): yeah, that's what i want.",
+            "target": "Target (grandson): you said gently.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 13,
+            "context": "Speaker A (grandfather): yeah, that's what i want. | Speaker B (grandson): you said gently.",
+            "target": "Target (grandfather): gently. yeah. now scrape it. take all the chips off. that's right. that's one. there's another crack over here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 14,
+            "context": "Speaker A (grandson): you said gently. | Speaker B (grandfather): gently. yeah. now scrape it. take all the chips off. that's right. that's one. there's another crack over here.",
+            "target": "Target (grandson): let me sand it first.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 15,
+            "context": "Speaker A (grandfather): gently. yeah. now scrape it. take all the chips off. that's right. that's one. there's another crack over here. | Speaker B (grandson): let me sand it first.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 16,
+            "context": "Speaker A (grandson): let me sand it first. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): so i had to explain. so everybody knows. what steps did you do to fix this?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 17,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): so i had to explain. so everybody knows. what steps did you do to fix this?",
+            "target": "Target (grandfather): remove the dirt with the sandpaper.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 18,
+            "context": "Speaker A (grandson): so i had to explain. so everybody knows. what steps did you do to fix this? | Speaker B (grandfather): remove the dirt with the sandpaper.",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 19,
+            "context": "Speaker A (grandfather): remove the dirt with the sandpaper. | Speaker B (grandson): yeah.",
+            "target": "Target (grandfather): and make a little bit larger the crack. make it a little larger.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 20,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandfather): and make a little bit larger the crack. make it a little larger.",
+            "target": "Target (grandson): bigger, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 21,
+            "context": "Speaker A (grandfather): and make a little bit larger the crack. make it a little larger. | Speaker B (grandson): bigger, yeah.",
+            "target": "Target (grandfather): and then we're gonna put silicone.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 22,
+            "context": "Speaker A (grandson): bigger, yeah. | Speaker B (grandfather): and then we're gonna put silicone.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 23,
+            "context": "Speaker A (grandfather): and then we're gonna put silicone. | Speaker B (grandson): okay.",
+            "target": "Target (grandfather): i'm not gonna use cement.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 24,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandfather): i'm not gonna use cement.",
+            "target": "Target (grandson): no.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 25,
+            "context": "Speaker A (grandfather): i'm not gonna use cement. | Speaker B (grandson): no.",
+            "target": "Target (grandfather): some people use purging cement. yeah, purging i don't like on the crack.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 26,
+            "context": "Speaker A (grandson): no. | Speaker B (grandfather): some people use purging cement. yeah, purging i don't like on the crack.",
+            "target": "Target (grandson): you know why it's not strong?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 27,
+            "context": "Speaker A (grandfather): some people use purging cement. yeah, purging i don't like on the crack. | Speaker B (grandson): you know why it's not strong?",
+            "target": "Target (grandfather): because the purging, if the house shifts, it cracks. the silicone will never crack.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 28,
+            "context": "Speaker A (grandson): you know why it's not strong? | Speaker B (grandfather): because the purging, if the house shifts, it cracks. the silicone will never crack.",
+            "target": "Target (grandson): right. a little bit loose here. i can see it. there you go.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 29,
+            "context": "Speaker A (grandfather): because the purging, if the house shifts, it cracks. the silicone will never crack. | Speaker B (grandson): right. a little bit loose here. i can see it. there you go.",
+            "target": "Target (grandfather): this is silicone.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 30,
+            "context": "Speaker A (grandson): right. a little bit loose here. i can see it. there you go. | Speaker B (grandfather): this is silicone.",
+            "target": "Target (grandson): concrete sealant.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 31,
+            "context": "Speaker A (grandfather): this is silicone. | Speaker B (grandson): concrete sealant.",
+            "target": "Target (grandfather): concrete sealant.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 32,
+            "context": "Speaker A (grandson): concrete sealant. | Speaker B (grandfather): concrete sealant.",
+            "target": "Target (grandson): did you get a new dispenser, a new caulking gun?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 33,
+            "context": "Speaker A (grandfather): concrete sealant. | Speaker B (grandson): did you get a new dispenser, a new caulking gun?",
+            "target": "Target (grandfather): no, that's nick's. mine, i don't know.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 34,
+            "context": "Speaker A (grandson): did you get a new dispenser, a new caulking gun? | Speaker B (grandfather): no, that's nick's. mine, i don't know.",
+            "target": "Target (grandson): my uncle's. i think yours is in my house still. no, no.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 35,
+            "context": "Speaker A (grandfather): no, that's nick's. mine, i don't know. | Speaker B (grandson): my uncle's. i think yours is in my house still. no, no.",
+            "target": "Target (grandfather): oh.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 36,
+            "context": "Speaker A (grandson): my uncle's. i think yours is in my house still. no, no. | Speaker B (grandfather): oh.",
+            "target": "Target (grandson): that's why he gave me a caulking gun to do my basement.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 37,
+            "context": "Speaker A (grandfather): oh. | Speaker B (grandson): that's why he gave me a caulking gun to do my basement.",
+            "target": "Target (grandfather): it's under years old.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 38,
+            "context": "Speaker A (grandson): that's why he gave me a caulking gun to do my basement. | Speaker B (grandfather): it's under years old.",
+            "target": "Target (grandson): it is so old. you have to. it takes 20 minutes to get a dropout. so now he's using my uncle's. his son's caulking. this is much better.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 39,
+            "context": "Speaker A (grandfather): it's under years old. | Speaker B (grandson): it is so old. you have to. it takes 20 minutes to get a dropout. so now he's using my uncle's. his son's caulking. this is much better.",
+            "target": "Target (grandfather): i use that because you took mine.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 40,
+            "context": "Speaker A (grandson): it is so old. you have to. it takes 20 minutes to get a dropout. so now he's using my uncle's. his son's caulking. this is much better. | Speaker B (grandfather): i use that because you took mine.",
+            "target": "Target (grandson): yours just has to be thrown out. it's terrible.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 41,
+            "context": "Speaker A (grandfather): i use that because you took mine. | Speaker B (grandson): yours just has to be thrown out. it's terrible.",
+            "target": "Target (grandfather): no, put a little bit oil there. oil.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 42,
+            "context": "Speaker A (grandson): yours just has to be thrown out. it's terrible. | Speaker B (grandfather): no, put a little bit oil there. oil.",
+            "target": "Target (grandson): it doesn't work anymore. the mechanism's broken.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 43,
+            "context": "Speaker A (grandfather): no, put a little bit oil there. oil. | Speaker B (grandson): it doesn't work anymore. the mechanism's broken.",
+            "target": "Target (grandfather): bring to me.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 44,
+            "context": "Speaker A (grandson): it doesn't work anymore. the mechanism's broken. | Speaker B (grandfather): bring to me.",
+            "target": "Target (grandson): you gonna fix it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 45,
+            "context": "Speaker A (grandfather): bring to me. | Speaker B (grandson): you gonna fix it?",
+            "target": "Target (grandfather): i'll fix it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 46,
+            "context": "Speaker A (grandson): you gonna fix it? | Speaker B (grandfather): i'll fix it.",
+            "target": "Target (grandson): all right. stay tuned. next video. he's gonna fix it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 47,
+            "context": "Speaker A (grandfather): i'll fix it. | Speaker B (grandson): all right. stay tuned. next video. he's gonna fix it.",
+            "target": "Target (grandfather): put a bit of this caulking inside of the crack. put all the way. all the way.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 48,
+            "context": "Speaker A (grandson): all right. stay tuned. next video. he's gonna fix it. | Speaker B (grandfather): put a bit of this caulking inside of the crack. put all the way. all the way.",
+            "target": "Target (grandson): okay.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 49,
+            "context": "Speaker A (grandfather): put a bit of this caulking inside of the crack. put all the way. all the way. | Speaker B (grandson): okay.",
+            "target": "Target (grandfather): don't waste it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 50,
+            "context": "Speaker A (grandson): okay. | Speaker B (grandfather): don't waste it.",
+            "target": "Target (grandson): here we go.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 51,
+            "context": "Speaker A (grandfather): don't waste it. | Speaker B (grandson): here we go.",
+            "target": "Target (grandfather): you gotta go here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 52,
+            "context": "Speaker A (grandson): here we go. | Speaker B (grandfather): you gotta go here.",
+            "target": "Target (grandson): i know. i want you to.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 53,
+            "context": "Speaker A (grandfather): you gotta go here. | Speaker B (grandson): i know. i want you to.",
+            "target": "Target (grandfather): this is really thin.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 54,
+            "context": "Speaker A (grandson): i know. i want you to. | Speaker B (grandfather): this is really thin.",
+            "target": "Target (grandson): yeah. i thought it'd be thicker than that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 55,
+            "context": "Speaker A (grandfather): this is really thin. | Speaker B (grandson): yeah. i thought it'd be thicker than that.",
+            "target": "Target (grandfather): i thought so too, but so to do that.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 56,
+            "context": "Speaker A (grandson): yeah. i thought it'd be thicker than that. | Speaker B (grandfather): i thought so too, but so to do that.",
+            "target": "Target (grandson): what's that, nona?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 57,
+            "context": "Speaker A (grandfather): i thought so too, but so to do that. | Speaker B (grandson): what's that, nona?",
+            "target": "Target (grandfather): this is cement. barging cement. i put this there. you know why?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 58,
+            "context": "Speaker A (grandson): what's that, nona? | Speaker B (grandfather): this is cement. barging cement. i put this there. you know why?",
+            "target": "Target (grandson): why?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 59,
+            "context": "Speaker A (grandfather): this is cement. barging cement. i put this there. you know why? | Speaker B (grandson): why?",
+            "target": "Target (grandfather): this dries on the surface.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 60,
+            "context": "Speaker A (grandson): why? | Speaker B (grandfather): this dries on the surface.",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 61,
+            "context": "Speaker A (grandfather): this dries on the surface. | Speaker B (grandson): yeah.",
+            "target": "Target (grandfather): and when it's dry, you cannot take the cement out no more.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 62,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandfather): and when it's dry, you cannot take the cement out no more.",
+            "target": "Target (grandson): no, no.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 63,
+            "context": "Speaker A (grandfather): and when it's dry, you cannot take the cement out no more. | Speaker B (grandson): no, no.",
+            "target": "Target (grandfather): it's stuck with. this is really, really watery. i never used it before. put a little better there.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 64,
+            "context": "Speaker A (grandson): no, no. | Speaker B (grandfather): it's stuck with. this is really, really watery. i never used it before. put a little better there.",
+            "target": "Target (grandson): junior, how much you want?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 65,
+            "context": "Speaker A (grandfather): it's stuck with. this is really, really watery. i never used it before. put a little better there. | Speaker B (grandson): junior, how much you want?",
+            "target": "Target (grandfather): go ahead. more. okay, go put a little bit on the crack.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 66,
+            "context": "Speaker A (grandson): junior, how much you want? | Speaker B (grandfather): go ahead. more. okay, go put a little bit on the crack.",
+            "target": "Target (grandson): so you mixed it with the parsing cement.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 67,
+            "context": "Speaker A (grandfather): go ahead. more. okay, go put a little bit on the crack. | Speaker B (grandson): so you mixed it with the parsing cement.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 68,
+            "context": "Speaker A (grandson): so you mixed it with the parsing cement. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): and you made it thicker.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 69,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): and you made it thicker.",
+            "target": "Target (grandfather): yeah. there, it's done.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 70,
+            "context": "Speaker A (grandson): and you made it thicker. | Speaker B (grandfather): yeah. there, it's done.",
+            "target": "Target (grandson): don't you have to take the dry stuff off or you wait till it dries?",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 71,
+            "context": "Speaker A (grandfather): yeah. there, it's done. | Speaker B (grandson): don't you have to take the dry stuff off or you wait till it dries?",
+            "target": "Target (grandfather): wait until it's dry. now you can cover the rolls up.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 72,
+            "context": "Speaker A (grandson): don't you have to take the dry stuff off or you wait till it dries? | Speaker B (grandfather): wait until it's dry. now you can cover the rolls up.",
+            "target": "Target (grandson): wait, you don't need it?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 73,
+            "context": "Speaker A (grandfather): wait until it's dry. now you can cover the rolls up. | Speaker B (grandson): wait, you don't need it?",
+            "target": "Target (grandfather): no, we don't need no more. it's all done.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 74,
+            "context": "Speaker A (grandson): wait, you don't need it? | Speaker B (grandfather): no, we don't need no more. it's all done.",
+            "target": "Target (grandson): did you think it went deeper than that? is that why?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 75,
+            "context": "Speaker A (grandfather): no, we don't need no more. it's all done. | Speaker B (grandson): did you think it went deeper than that? is that why?",
+            "target": "Target (grandfather): yeah, i thought it was deeper, but it's not.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 76,
+            "context": "Speaker A (grandson): did you think it went deeper than that? is that why? | Speaker B (grandfather): yeah, i thought it was deeper, but it's not.",
+            "target": "Target (grandson): which is good, right?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 77,
+            "context": "Speaker A (grandfather): yeah, i thought it was deeper, but it's not. | Speaker B (grandson): which is good, right?",
+            "target": "Target (grandfather): very good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 78,
+            "context": "Speaker A (grandson): which is good, right? | Speaker B (grandfather): very good.",
+            "target": "Target (grandson): so not only the foundation, but we're also going to fix a gap that my nono doesn't like at the side of the house. and we're also going to fix a different crack in the driveway. right, right. so a couple different concrete jobs today. let's get started here.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 79,
+            "context": "Speaker A (grandfather): very good. | Speaker B (grandson): so not only the foundation, but we're also going to fix a gap that my nono doesn't like at the side of the house. and we're also going to fix a different crack in the driveway. right, right. so a couple different concrete jobs today. let's get started here.",
+            "target": "Target (grandfather): see, the barging came off. see, i'm going to fix it. okay, you got to wet the cement.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 80,
+            "context": "Speaker A (grandson): so not only the foundation, but we're also going to fix a gap that my nono doesn't like at the side of the house. and we're also going to fix a different crack in the driveway. right, right. so a couple different concrete jobs today. let's get started here. | Speaker B (grandfather): see, the barging came off. see, i'm going to fix it. okay, you got to wet the cement.",
+            "target": "Target (grandson): okay, explain why. why am i wetting this right now?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 81,
+            "context": "Speaker A (grandfather): see, the barging came off. see, i'm going to fix it. okay, you got to wet the cement. | Speaker B (grandson): okay, explain why. why am i wetting this right now?",
+            "target": "Target (grandfather): for the viewers, because the parging, all cement always sticks better if it's wet surface.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 82,
+            "context": "Speaker A (grandson): okay, explain why. why am i wetting this right now? | Speaker B (grandfather): for the viewers, because the parging, all cement always sticks better if it's wet surface.",
+            "target": "Target (grandson): so nono also found some broken parging here. so next we're going to fix this.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 83,
+            "context": "Speaker A (grandfather): for the viewers, because the parging, all cement always sticks better if it's wet surface. | Speaker B (grandson): so nono also found some broken parging here. so next we're going to fix this.",
+            "target": "Target (grandfather): i want to make sure the parging sticks there. so i'm going to put a little glue. a little glue on it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 84,
+            "context": "Speaker A (grandson): so nono also found some broken parging here. so next we're going to fix this. | Speaker B (grandfather): i want to make sure the parging sticks there. so i'm going to put a little glue. a little glue on it.",
+            "target": "Target (grandson): give me it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 85,
+            "context": "Speaker A (grandfather): i want to make sure the parging sticks there. so i'm going to put a little glue. a little glue on it. | Speaker B (grandson): give me it.",
+            "target": "Target (grandfather): see if you can do it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 86,
+            "context": "Speaker A (grandson): give me it. | Speaker B (grandfather): see if you can do it.",
+            "target": "Target (grandson): this is why the young guy's here.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 87,
+            "context": "Speaker A (grandfather): see if you can do it. | Speaker B (grandson): this is why the young guy's here.",
+            "target": "Target (grandfather): i need a plier.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 88,
+            "context": "Speaker A (grandson): this is why the young guy's here. | Speaker B (grandfather): i need a plier.",
+            "target": "Target (grandson): you don't need a plier. yeah, i go to the gym. this is why i go to the gym.",
+            "gold_label": "none",
+            "predicted_label": "perceived disrespect"
+        },
+        {
+            "turn_index": 89,
+            "context": "Speaker A (grandfather): i need a plier. | Speaker B (grandson): you don't need a plier. yeah, i go to the gym. this is why i go to the gym.",
+            "target": "Target (grandfather): oh, good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 90,
+            "context": "Speaker A (grandson): you don't need a plier. yeah, i go to the gym. this is why i go to the gym. | Speaker B (grandfather): oh, good.",
+            "target": "Target (grandson): you know. you know how you say use the garden? this is why i go to the gym.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 91,
+            "context": "Speaker A (grandfather): oh, good. | Speaker B (grandson): you know. you know how you say use the garden? this is why i go to the gym.",
+            "target": "Target (grandfather): oh, good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 92,
+            "context": "Speaker A (grandson): you know. you know how you say use the garden? this is why i go to the gym. | Speaker B (grandfather): oh, good.",
+            "target": "Target (grandson): so this is concrete fortifier.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 93,
+            "context": "Speaker A (grandfather): oh, good. | Speaker B (grandson): so this is concrete fortifier.",
+            "target": "Target (grandfather): yeah. i put this there.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 94,
+            "context": "Speaker A (grandson): so this is concrete fortifier. | Speaker B (grandfather): yeah. i put this there.",
+            "target": "Target (grandson): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 95,
+            "context": "Speaker A (grandfather): yeah. i put this there. | Speaker B (grandson): yeah.",
+            "target": "Target (grandfather): and then i use a little bit mixed with the cement so it acts like a glue. acts like a glue? yeah, it's really strong. i don't want stu. he got enough on the brush.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 96,
+            "context": "Speaker A (grandson): yeah. | Speaker B (grandfather): and then i use a little bit mixed with the cement so it acts like a glue. acts like a glue? yeah, it's really strong. i don't want stu. he got enough on the brush.",
+            "target": "Target (grandson): enough?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 97,
+            "context": "Speaker A (grandfather): and then i use a little bit mixed with the cement so it acts like a glue. acts like a glue? yeah, it's really strong. i don't want stu. he got enough on the brush. | Speaker B (grandson): enough?",
+            "target": "Target (grandfather): yeah. do all of it now i need some water.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 98,
+            "context": "Speaker A (grandson): enough? | Speaker B (grandfather): yeah. do all of it now i need some water.",
+            "target": "Target (grandson): the concrete master strikes again.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 99,
+            "context": "Speaker A (grandfather): yeah. do all of it now i need some water. | Speaker B (grandson): the concrete master strikes again.",
+            "target": "Target (grandfather): julian, anybody can do this. you just gotta know what you need to do.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 100,
+            "context": "Speaker A (grandson): the concrete master strikes again. | Speaker B (grandfather): julian, anybody can do this. you just gotta know what you need to do.",
+            "target": "Target (grandson): okay, let me start it and then you do it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 101,
+            "context": "Speaker A (grandfather): julian, anybody can do this. you just gotta know what you need to do. | Speaker B (grandson): okay, let me start it and then you do it.",
+            "target": "Target (grandfather): give me that. you do it.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 102,
+            "context": "Speaker A (grandson): okay, let me start it and then you do it. | Speaker B (grandfather): give me that. you do it.",
+            "target": "Target (grandson): you guys ready for him to yell at me? watch. ready.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 103,
+            "context": "Speaker A (grandfather): give me that. you do it. | Speaker B (grandson): you guys ready for him to yell at me? watch. ready.",
+            "target": "Target (grandfather): put it on and push it in.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 104,
+            "context": "Speaker A (grandson): you guys ready for him to yell at me? watch. ready. | Speaker B (grandfather): put it on and push it in.",
+            "target": "Target (grandson): down, up or up? down.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 105,
+            "context": "Speaker A (grandfather): put it on and push it in. | Speaker B (grandson): down, up or up? down.",
+            "target": "Target (grandfather): up. don't go on the aluminum.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 106,
+            "context": "Speaker A (grandson): down, up or up? down. | Speaker B (grandfather): up. don't go on the aluminum.",
+            "target": "Target (grandson): i'm gonna take it off after.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 107,
+            "context": "Speaker A (grandfather): up. don't go on the aluminum. | Speaker B (grandson): i'm gonna take it off after.",
+            "target": "Target (grandfather): you gotta go almost flat.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 108,
+            "context": "Speaker A (grandson): i'm gonna take it off after. | Speaker B (grandfather): you gotta go almost flat.",
+            "target": "Target (grandson): oh, i was more in an angle, right?",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 109,
+            "context": "Speaker A (grandfather): you gotta go almost flat. | Speaker B (grandson): oh, i was more in an angle, right?",
+            "target": "Target (grandfather): you gotta go flat. see, i can reach it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 110,
+            "context": "Speaker A (grandson): oh, i was more in an angle, right? | Speaker B (grandfather): you gotta go flat. see, i can reach it.",
+            "target": "Target (grandson): see, i didn't drop it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 111,
+            "context": "Speaker A (grandfather): you gotta go flat. see, i can reach it. | Speaker B (grandson): see, i didn't drop it.",
+            "target": "Target (grandfather): no, he did a better job than i did.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 112,
+            "context": "Speaker A (grandson): see, i didn't drop it. | Speaker B (grandfather): no, he did a better job than i did.",
+            "target": "Target (grandson): right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 113,
+            "context": "Speaker A (grandfather): no, he did a better job than i did. | Speaker B (grandson): right.",
+            "target": "Target (grandfather): almost flat. because when you go flat, you leave more on.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 114,
+            "context": "Speaker A (grandson): right. | Speaker B (grandfather): almost flat. because when you go flat, you leave more on.",
+            "target": "Target (grandson): i see. okay. yeah, that's much better. so is it similar to fixing a plaster wall? no, no.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 115,
+            "context": "Speaker A (grandfather): almost flat. because when you go flat, you leave more on. | Speaker B (grandson): i see. okay. yeah, that's much better. so is it similar to fixing a plaster wall? no, no.",
+            "target": "Target (grandfather): like a same thing. jump. we gotta wait a little longer. this has gotta set. it's time. now put a little texture to the. to the spot today. now, the trouble is, this is good. see, that's the same color as this, but this dirt here.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 116,
+            "context": "Speaker A (grandson): i see. okay. yeah, that's much better. so is it similar to fixing a plaster wall? no, no. | Speaker B (grandfather): like a same thing. jump. we gotta wait a little longer. this has gotta set. it's time. now put a little texture to the. to the spot today. now, the trouble is, this is good. see, that's the same color as this, but this dirt here.",
+            "target": "Target (grandson): change the color.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 117,
+            "context": "Speaker A (grandfather): like a same thing. jump. we gotta wait a little longer. this has gotta set. it's time. now put a little texture to the. to the spot today. now, the trouble is, this is good. see, that's the same color as this, but this dirt here. | Speaker B (grandson): change the color.",
+            "target": "Target (grandfather): change the color. brown, right.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 118,
+            "context": "Speaker A (grandson): change the color. | Speaker B (grandfather): change the color. brown, right.",
+            "target": "Target (grandson): the texture looks good now, though.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 119,
+            "context": "Speaker A (grandfather): change the color. brown, right. | Speaker B (grandson): the texture looks good now, though.",
+            "target": "Target (grandfather): yeah, that's good enough. because it's drying too fast. it's hot. right. this is going to be next. i think we do this first.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 120,
+            "context": "Speaker A (grandson): the texture looks good now, though. | Speaker B (grandfather): yeah, that's good enough. because it's drying too fast. it's hot. right. this is going to be next. i think we do this first.",
+            "target": "Target (grandson): let's do it. i found something. little nail and nail.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 121,
+            "context": "Speaker A (grandfather): yeah, that's good enough. because it's drying too fast. it's hot. right. this is going to be next. i think we do this first. | Speaker B (grandson): let's do it. i found something. little nail and nail.",
+            "target": "Target (grandfather): that's good to have a flat tire. scrub. take the dust out this rack here. i'll show you how to do it.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 122,
+            "context": "Speaker A (grandson): let's do it. i found something. little nail and nail. | Speaker B (grandfather): that's good to have a flat tire. scrub. take the dust out this rack here. i'll show you how to do it.",
+            "target": "Target (grandson): i think i got all the dust out.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 123,
+            "context": "Speaker A (grandfather): that's good to have a flat tire. scrub. take the dust out this rack here. i'll show you how to do it. | Speaker B (grandson): i think i got all the dust out.",
+            "target": "Target (grandfather): good. it's nice and clean. now caulk it. put one coat of caulking over it. fill it up. julian, you did not fill it up.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 124,
+            "context": "Speaker A (grandson): i think i got all the dust out. | Speaker B (grandfather): good. it's nice and clean. now caulk it. put one coat of caulking over it. fill it up. julian, you did not fill it up.",
+            "target": "Target (grandson): i'll go back. it's okay. so you like this because it'll. if it shifts, it'll be able to.",
+            "gold_label": "none",
+            "predicted_label": "ignored input"
+        },
+        {
+            "turn_index": 125,
+            "context": "Speaker A (grandfather): good. it's nice and clean. now caulk it. put one coat of caulking over it. fill it up. julian, you did not fill it up. | Speaker B (grandson): i'll go back. it's okay. so you like this because it'll. if it shifts, it'll be able to.",
+            "target": "Target (grandfather): it's flexible.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 126,
+            "context": "Speaker A (grandson): i'll go back. it's okay. so you like this because it'll. if it shifts, it'll be able to. | Speaker B (grandfather): it's flexible.",
+            "target": "Target (grandson): flexible, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 127,
+            "context": "Speaker A (grandfather): it's flexible. | Speaker B (grandson): flexible, yeah.",
+            "target": "Target (grandfather): i got some cement here, and i'm gonna put some chips. they use these chips for epoxy. for epoxy?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 128,
+            "context": "Speaker A (grandson): flexible, yeah. | Speaker B (grandfather): i got some cement here, and i'm gonna put some chips. they use these chips for epoxy. for epoxy?",
+            "target": "Target (grandson): where'd you get that from? you got that from somebody, didn't you? yeah, from. from. from my uncle's epoxy job. you took some?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 129,
+            "context": "Speaker A (grandfather): i got some cement here, and i'm gonna put some chips. they use these chips for epoxy. for epoxy? | Speaker B (grandson): where'd you get that from? you got that from somebody, didn't you? yeah, from. from. from my uncle's epoxy job. you took some?",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 130,
+            "context": "Speaker A (grandson): where'd you get that from? you got that from somebody, didn't you? yeah, from. from. from my uncle's epoxy job. you took some? | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): i knew you took some.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 131,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): i knew you took some.",
+            "target": "Target (grandfather): they gave to me. i didn't take it. the cement will give the color of the cement. right. and the chips look like a stone.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 132,
+            "context": "Speaker A (grandson): i knew you took some. | Speaker B (grandfather): they gave to me. i didn't take it. the cement will give the color of the cement. right. and the chips look like a stone.",
+            "target": "Target (grandson): you mix both, right?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 133,
+            "context": "Speaker A (grandfather): they gave to me. i didn't take it. the cement will give the color of the cement. right. and the chips look like a stone. | Speaker B (grandson): you mix both, right?",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 134,
+            "context": "Speaker A (grandson): you mix both, right? | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): that blends in pretty good.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 135,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): that blends in pretty good.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 136,
+            "context": "Speaker A (grandson): that blends in pretty good. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): how do you think of that idea?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 137,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): how do you think of that idea?",
+            "target": "Target (grandfather): i don't think. i. just go ahead and do it. see, you don't see the crack. this is waterproof, right? the water will not go in the crack. and there's a better chance the frost will not lift it. but it's too wide. too much water goes there.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 138,
+            "context": "Speaker A (grandson): how do you think of that idea? | Speaker B (grandfather): i don't think. i. just go ahead and do it. see, you don't see the crack. this is waterproof, right? the water will not go in the crack. and there's a better chance the frost will not lift it. but it's too wide. too much water goes there.",
+            "target": "Target (grandson): yeah, but it's slanted away, right?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 139,
+            "context": "Speaker A (grandfather): i don't think. i. just go ahead and do it. see, you don't see the crack. this is waterproof, right? the water will not go in the crack. and there's a better chance the frost will not lift it. but it's too wide. too much water goes there. | Speaker B (grandson): yeah, but it's slanted away, right?",
+            "target": "Target (grandfather): yeah, but when it rains, the water goes in. you think for. guaranteed. i don't want no water going on my foundation.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 140,
+            "context": "Speaker A (grandson): yeah, but it's slanted away, right? | Speaker B (grandfather): yeah, but when it rains, the water goes in. you think for. guaranteed. i don't want no water going on my foundation.",
+            "target": "Target (grandson): so how much of the gap you want to seal?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 141,
+            "context": "Speaker A (grandfather): yeah, but when it rains, the water goes in. you think for. guaranteed. i don't want no water going on my foundation. | Speaker B (grandson): so how much of the gap you want to seal?",
+            "target": "Target (grandfather): all of it. and then we do have the other way. don't breathe the dust.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 142,
+            "context": "Speaker A (grandson): so how much of the gap you want to seal? | Speaker B (grandfather): all of it. and then we do have the other way. don't breathe the dust.",
+            "target": "Target (grandson): oh, yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 143,
+            "context": "Speaker A (grandfather): all of it. and then we do have the other way. don't breathe the dust. | Speaker B (grandson): oh, yeah.",
+            "target": "Target (grandfather): don't breathe. do not breathe. now breathe.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 144,
+            "context": "Speaker A (grandson): oh, yeah. | Speaker B (grandfather): don't breathe. do not breathe. now breathe.",
+            "target": "Target (grandson): so now i'm shoving in this newspaper because we realize these holes are too deep.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 145,
+            "context": "Speaker A (grandfather): don't breathe. do not breathe. now breathe. | Speaker B (grandson): so now i'm shoving in this newspaper because we realize these holes are too deep.",
+            "target": "Target (grandfather): so.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 146,
+            "context": "Speaker A (grandson): so now i'm shoving in this newspaper because we realize these holes are too deep. | Speaker B (grandfather): so.",
+            "target": "Target (grandson): no, no. said put papers in there, and we're gonna fill it with cement. this is very sketchy. diy tell the people why you don't like this gap.",
+            "gold_label": "none",
+            "predicted_label": "method divergence"
+        },
+        {
+            "turn_index": 147,
+            "context": "Speaker A (grandfather): so. | Speaker B (grandson): no, no. said put papers in there, and we're gonna fill it with cement. this is very sketchy. diy tell the people why you don't like this gap.",
+            "target": "Target (grandfather): dirt goes on it.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 148,
+            "context": "Speaker A (grandson): no, no. said put papers in there, and we're gonna fill it with cement. this is very sketchy. diy tell the people why you don't like this gap. | Speaker B (grandfather): dirt goes on it.",
+            "target": "Target (grandson): dirt? yeah, leaves.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 149,
+            "context": "Speaker A (grandfather): dirt goes on it. | Speaker B (grandson): dirt? yeah, leaves.",
+            "target": "Target (grandfather): leaves and debris.",
+            "gold_label": "none",
+            "predicted_label": "slang mismatch"
+        },
+        {
+            "turn_index": 150,
+            "context": "Speaker A (grandson): dirt? yeah, leaves. | Speaker B (grandfather): leaves and debris.",
+            "target": "Target (grandson): debris.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 151,
+            "context": "Speaker A (grandfather): leaves and debris. | Speaker B (grandson): debris.",
+            "target": "Target (grandfather): and it's hard to clean.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 152,
+            "context": "Speaker A (grandson): debris. | Speaker B (grandfather): and it's hard to clean.",
+            "target": "Target (grandson): we don't like debris.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 153,
+            "context": "Speaker A (grandfather): and it's hard to clean. | Speaker B (grandson): we don't like debris.",
+            "target": "Target (grandfather): no.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 154,
+            "context": "Speaker A (grandson): we don't like debris. | Speaker B (grandfather): no.",
+            "target": "Target (grandson): you also said water could get in, right?",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 155,
+            "context": "Speaker A (grandfather): no. | Speaker B (grandson): you also said water could get in, right?",
+            "target": "Target (grandfather): well, yeah, when it rains. yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 156,
+            "context": "Speaker A (grandson): you also said water could get in, right? | Speaker B (grandfather): well, yeah, when it rains. yeah.",
+            "target": "Target (grandson): teamwork, nono.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 157,
+            "context": "Speaker A (grandfather): well, yeah, when it rains. yeah. | Speaker B (grandson): teamwork, nono.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 158,
+            "context": "Speaker A (grandson): teamwork, nono. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): and then you. you perfected it. good job. okay, so tasks are done.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 159,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): and then you. you perfected it. good job. okay, so tasks are done.",
+            "target": "Target (grandfather): all finished.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 160,
+            "context": "Speaker A (grandson): and then you. you perfected it. good job. okay, so tasks are done. | Speaker B (grandfather): all finished.",
+            "target": "Target (grandson): fixed.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 161,
+            "context": "Speaker A (grandfather): all finished. | Speaker B (grandson): fixed.",
+            "target": "Target (grandfather): fixed.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 162,
+            "context": "Speaker A (grandson): fixed. | Speaker B (grandfather): fixed.",
+            "target": "Target (grandson): thanks for watching, and we'll see you on the next video.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 163,
+            "context": "Speaker A (grandfather): fixed. | Speaker B (grandson): thanks for watching, and we'll see you on the next video.",
+            "target": "Target (grandfather): yeah.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 164,
+            "context": "Speaker A (grandson): thanks for watching, and we'll see you on the next video. | Speaker B (grandfather): yeah.",
+            "target": "Target (grandson): ciao. bye for now.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        },
+        {
+            "turn_index": 165,
+            "context": "Speaker A (grandfather): yeah. | Speaker B (grandson): ciao. bye for now.",
+            "target": "Target (grandfather): bye. bye, pe.",
+            "gold_label": "none",
+            "predicted_label": "none"
+        }
+    ]
+}
